@@ -1,0 +1,13 @@
+sampler2D sampler0 = sampler_state {
+  MinFilter  = Linear;
+  MagFilter  = Linear;
+};
+
+void main(	float4 diffuse : COLOR,
+			float2 tex : TEXCOORD0,
+           out float4 destPixel : COLOR           
+)
+{
+  destPixel =  tex2D(sampler0,tex)*diffuse;
+  //destPixel = float4(1,0,0,1);
+}

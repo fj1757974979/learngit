@@ -1,0 +1,23 @@
+#define lowp
+#define highp
+
+uniform lowp vec4 color;
+uniform sampler2D sampler0;
+uniform sampler2D sampler1;
+uniform lowp vec4 clipBox;
+
+varying lowp vec4 xlv_COLOR;
+varying highp vec2 xlv_TEXCOORD0;
+varying highp vec3 vPosition;
+
+void main() {
+    	if ( vPosition.x < clipBox.x || vPosition.x > clipBox.y || vPosition.y < clipBox.z || vPosition.y > clipBox.w) {
+		discard;
+	} else {
+	    lowp vec4 outColor = texture2D(sampler0, xlv_TEXCOORD0);
+	    lowp vec4 alphaColor = texture2D(sampler1, xlv_TEXCOORD0);
+	    outColor.w = alphaColor.w * outColor.w;
+	    outColor = outColor * xlv_COLOR * color;
+	    gl_FragData[0] = outColor.zyxw;
+	}
+}

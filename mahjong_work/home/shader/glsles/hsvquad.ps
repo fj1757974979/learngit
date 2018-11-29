@@ -1,0 +1,96 @@
+float xll_saturate( float x) {
+  return clamp( x, 0.0, 1.0);
+}
+vec2 xll_saturate( vec2 x) {
+  return clamp( x, 0.0, 1.0);
+}
+vec3 xll_saturate( vec3 x) {
+  return clamp( x, 0.0, 1.0);
+}
+vec4 xll_saturate( vec4 x) {
+  return clamp( x, 0.0, 1.0);
+}
+mat2 xll_saturate(mat2 m) {
+  return mat2( clamp(m[0], 0.0, 1.0), clamp(m[1], 0.0, 1.0));
+}
+mat3 xll_saturate(mat3 m) {
+  return mat3( clamp(m[0], 0.0, 1.0), clamp(m[1], 0.0, 1.0), clamp(m[2], 0.0, 1.0));
+}
+mat4 xll_saturate(mat4 m) {
+  return mat4( clamp(m[0], 0.0, 1.0), clamp(m[1], 0.0, 1.0), clamp(m[2], 0.0, 1.0), clamp(m[3], 0.0, 1.0));
+}
+uniform highp vec4 color;
+#line 5
+#line 13
+#line 18
+#line 39
+#line 69
+#line 91
+uniform sampler2D sampler0;
+#line 99
+highp vec3 RGBtoHSV( in highp vec3 RGB );
+highp vec3 Hue( in highp float H );
+highp vec3 HSVtoRGB( in highp vec3 HSV );
+void xlat_main( in highp vec4 diffuse, in highp vec2 tex, out highp vec4 destPixel );
+#line 39
+highp vec3 RGBtoHSV( in highp vec3 RGB ) {
+    highp vec3 HSV = vec3( 0.0);
+    #line 43
+    HSV.z = max( RGB.x, max( RGB.y, RGB.z));
+    highp float M = min( RGB.x, min( RGB.y, RGB.z));
+    highp float C = (HSV.z - M);
+    #line 52
+    if ((C != 0.0)){
+        HSV.y = (C / HSV.z);
+        highp vec3 Delta = ((HSV.z - RGB) / C);
+        #line 56
+        Delta.xyz -= Delta.zxy;
+        Delta.xy += vec2( 2.0, 4.0);
+        if ((RGB.x >= HSV.z)){
+            HSV.x = Delta.z;
+        }
+        else{
+            if ((RGB.y >= HSV.z)){
+                HSV.x = Delta.x;
+            }
+            else{
+                HSV.x = Delta.y;
+            }
+        }
+        #line 64
+        HSV.x = fract((HSV.x / 6.0));
+    }
+    return HSV;
+}
+#line 5
+highp vec3 Hue( in highp float H ) {
+    highp float R = (abs(((H * 6.0) - 3.0)) - 1.0);
+    highp float G = (2.0 - abs(((H * 6.0) - 2.0)));
+    #line 9
+    highp float B = (2.0 - abs(((H * 6.0) - 4.0)));
+    return xll_saturate(vec3( R, G, B));
+}
+#line 13
+highp vec3 HSVtoRGB( in highp vec3 HSV ) {
+    return ((((Hue( HSV.x) - 1.0) * HSV.y) + 1.0) * HSV.z);
+}
+#line 99
+void xlat_main( in highp vec4 diffuse, in highp vec2 tex, out highp vec4 destPixel ) {
+    destPixel = ((texture2D( sampler0, tex) * diffuse) * color);
+    highp vec3 hsv = RGBtoHSV( destPixel.xyz);
+    #line 103
+    hsv.x = (1.0 - hsv.x);
+    hsv.y = 0.0;
+    hsv.z = (hsv.z * 0.5);
+    highp vec3 rgb = HSVtoRGB( hsv);
+    #line 107
+    destPixel.xyz = rgb;
+}
+varying highp vec4 xlv_COLOR;
+varying highp vec2 xlv_TEXCOORD0;
+void main() {
+    highp vec4 xlt_destPixel;
+    xlat_main( vec4(xlv_COLOR), vec2(xlv_TEXCOORD0), xlt_destPixel);
+    gl_FragData[0] = vec4(xlt_destPixel);
+;
+}

@@ -1,0 +1,13 @@
+#define lowp
+#define mediump
+
+uniform lowp vec4 color;
+uniform sampler2D sampler0;
+
+varying lowp vec4 xlv_COLOR;
+varying mediump vec2 xlv_TEXCOORD0;
+varying lowp vec3 vPosition;
+
+void main() {
+	gl_FragData[0] = (xlv_COLOR * color).zyxw;
+}

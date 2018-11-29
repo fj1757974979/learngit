@@ -1,0 +1,17 @@
+{
+    "global" : {
+	"start" : "script:init/start.lua",
+	"urlroot" : "http://mjupdate.openew.cn:11110/static",
+	"urlzip" : "http://mjupdate.openew.cn:11110/get_zip_files",
+	"urlzip_arch64" : "http://mjupdate.openew.cn:11110/get_zip_files_arch64",
+	"gonggao" : "http://mjupdate.openew.cn:11110/static/gonggao.html",
+
+	"font":"simple",
+	"td_key" : "A4EAAA96CE2843E4B1331A4B04D76D2E",
+	"im_key" : "d194e3b55bd3a664f6c5393d0a2b2cb0",
+	"channel":"weixin", // SDK渠道ID
+	"net":"raw",
+	"op_channel":"tj_lexian",
+	"gameid":"tjmj",
+    }
+}

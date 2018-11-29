@@ -1,0 +1,19 @@
+float4 color;
+
+sampler2D sampler0 = sampler_state {
+  MinFilter  = Linear;
+  MagFilter  = Linear;
+};
+
+void main(	
+		float4 col : COLOR0,
+		float2 tex : TEXCOORD0,		
+		out float4 destPixel : COLOR           
+)
+{
+	destPixel = tex2D(sampler0,tex)*col*color;
+	//destPixel = tex2D(sampler0,tex);
+#if SWAP_COLOR_RB
+	destPixel.rb = destPixel.br;
+#endif
+}

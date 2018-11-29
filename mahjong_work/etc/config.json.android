@@ -1,0 +1,15 @@
+{
+    "global" : {
+	"start" : "script:init/start.lua",
+	"urlroot" : "http://yxasg.openew.cn:11110/static",
+	"urlzip" : "http://yxasg.openew.cn:11110/get_zip_files",
+	"urlzip_arch64" : "http://yxasg.openew.cn:11110/get_zip_files_arch64",
+	"gonggao" : "http://yxasg.openew.cn:11110/static/gonggao.html",
+
+	"font":"simple",
+	"td_key" : "A4EAAA96CE2843E4B1331A4B04D76D2E",
+	"channel":"weixin", // SDK渠道ID
+	"op_channel":"openew", // 运营渠道ID
+	"gameid":"kxmj", // 游戏标识
+    }
+}

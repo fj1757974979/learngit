@@ -1,0 +1,11 @@
+uniform lowp vec4 color;
+uniform sampler2D sampler0;
+
+varying lowp vec4 xlv_COLOR;
+varying highp vec2 xlv_TEXCOORD0;
+varying highp vec3 vPosition;
+
+void main() {
+	lowp vec4 outColor = texture2D(sampler0, xlv_TEXCOORD0) * xlv_COLOR * color;
+	gl_FragData[0] = outColor.zyxw;
+}

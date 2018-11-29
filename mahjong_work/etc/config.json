@@ -1,0 +1,26 @@
+{
+    "global" : {
+	"start" : "script:init/start.lua",
+	"urlroot" : "http://mjupdate.openew.cn:11111/static",
+	"urlzip" : "http://mjupdate.openew.cn:11111/get_zip_files",
+	"urlzip_arch64" : "http://mjupdate.openew.cn:11111/get_zip_files_arch64",
+	"gonggao" : "http://mjupdate.openew.cn:11111/static/gonggao.html",
+
+	"font":"simple",
+	"td_key" : "A4EAAA96CE2843E4B1331A4B04D76D2E",
+	"channel":"weixin", // SDK渠道ID
+	"net":"raw",
+	// openew 自己测试渠道（开新）
+	// test 测试渠道
+	// ly_youwen 湖南转转（带红中麻将）（长沙友文）
+	// tj_lexian 桃江渠道（桃江乐闲）
+	// ds_queyue 东山渠道（东山雀悦）
+	// yy_doudou 豆豆棋牌
+	// xy_hanshui
+	// rc_xianle
+	"op_channel":"qs_pinghe", // 运营渠道ID
+	// "op_channel":"test", // 运营渠道ID
+	"gameid":"tianjiuewang", // 游戏标识
+	"debug":2, // 0:外服 1:外服测试服 2:私服 3:牛牛
+    }
+}

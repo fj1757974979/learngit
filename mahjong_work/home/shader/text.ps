@@ -1,0 +1,18 @@
+uniform lowp vec4 color;
+uniform sampler2D sampler0;
+uniform lowp vec4 clipBox;
+
+varying lowp vec4 xlv_COLOR;
+varying mediump vec2 xlv_TEXCOORD0;
+varying highp vec3 vPosition;
+
+void main() {
+	lowp vec4 outColor = vec4(1.0, 1.0, 1.0, texture2D(sampler0, xlv_TEXCOORD0).w) * xlv_COLOR * color;
+
+	lowp float facter = step(clipBox.x, vPosition.x) *
+		step(vPosition.x, clipBox.y) *
+		step(clipBox.z, vPosition.y) *
+		step(vPosition.y, clipBox.w);
+
+	gl_FragData[0] = outColor.zyxw * facter;
+}

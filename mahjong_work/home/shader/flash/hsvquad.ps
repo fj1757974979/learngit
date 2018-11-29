@@ -1,0 +1,107 @@
+float4 color;
+
+
+float3 Hue(float H)
+{
+    float R = abs(H * 6 - 3) - 1;
+    float G = 2 - abs(H * 6 - 2);
+    float B = 2 - abs(H * 6 - 4);
+    return saturate(float3(R,G,B));
+}
+
+float3 HSVtoRGB(in float3 HSV)
+{
+    return ((Hue(HSV.x) - 1) * HSV.y + 1) * HSV.z;
+}
+
+float3 HSVtoRGB2(float3 HSV)
+{
+    float3 RGB = 0;
+    float C = HSV.z * HSV.y;
+    float H = HSV.x * 6;
+    float X = C * (1 - abs(fmod(H, 2) - 1));
+    if (HSV.y != 0)
+    {
+        float I = floor(H);
+        if (I == 0) { RGB = float3(C, X, 0); }
+        else if (I == 1) { RGB = float3(X, C, 0); }
+        else if (I == 2) { RGB = float3(0, C, X); }
+        else if (I == 3) { RGB = float3(0, X, C); }
+        else if (I == 4) { RGB = float3(X, 0, C); }
+        else { RGB = float3(C, 0, X); }
+    }
+    float M = HSV.z - C;
+    return RGB + M;
+}
+
+#define NO_ASM 1
+float3 RGBtoHSV(in float3 RGB)
+{
+    float3 HSV = 0;
+#if NO_ASM
+    HSV.z = max(RGB.r, max(RGB.g, RGB.b));
+    float M = min(RGB.r, min(RGB.g, RGB.b));
+    float C = HSV.z - M;
+#else
+    float4 RGBM = RGB.rgbr;
+    asm { max4 HSV.z, RGBM };
+    asm { max4 RGBM.w, -RGBM };
+    float C = HSV.z + RGBM.w;
+#endif
+    if (C != 0)
+    {
+        HSV.y = C / HSV.z;
+        float3 Delta = (HSV.z - RGB) / C;
+        Delta.rgb -= Delta.brg;
+        Delta.rg += float2(2,4);
+        if (RGB.r >= HSV.z)
+            HSV.x = Delta.b;
+        else if (RGB.g >= HSV.z)
+            HSV.x = Delta.r;
+        else
+            HSV.x = Delta.g;
+        HSV.x = frac(HSV.x / 6);
+    }
+    return HSV;
+}
+
+float3 RGBtoHSV2(float3 RGB)
+{
+    float3 HSV = 0;
+    float M = min(RGB.r, min(RGB.g, RGB.b));
+    HSV.z = max(RGB.r, max(RGB.g, RGB.b));
+    float C = HSV.z - M;
+    if (C != 0)
+    {
+        HSV.y = C / HSV.z;
+        float3 D = (((HSV.z - RGB) / 6) + (C / 2)) / C;
+        if (RGB.r == HSV.z)
+            HSV.x = D.b - D.g;
+        else if (RGB.g == HSV.z)
+            HSV.x = (1.0/3.0) + D.r - D.b;
+        else if (RGB.b == HSV.z)
+            HSV.x = (2.0/3.0) + D.g - D.r;
+        if ( HSV.x < 0.0 ) { HSV.x += 1.0; }
+        if ( HSV.x > 1.0 ) { HSV.x -= 1.0; }
+    }
+    return HSV;
+}
+
+sampler2D sampler0 = sampler_state {
+  MinFilter  = Linear;
+  MagFilter  = Linear;
+};
+
+void main(	float4 diffuse : COLOR,
+		float2 tex : TEXCOORD0,
+		out float4 destPixel : COLOR           
+)
+{
+	destPixel =  tex2D(sampler0,tex)*diffuse*color;	
+	float3 hsv = RGBtoHSV(destPixel.rgb);
+	hsv.r = 1-hsv.r;
+	hsv.g = 0;
+	hsv.b = hsv.b*0.5;
+	float3 rgb = HSVtoRGB(hsv);
+	destPixel.rgb = rgb;
+}

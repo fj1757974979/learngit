@@ -1,0 +1,49 @@
+precision highp float;
+
+uniform vec4 timePass;
+uniform lowp vec4 color;
+uniform lowp sampler2D sampler0;
+
+float pi = 3.1415926;
+lowp float sampleDist = 1.0;
+
+varying lowp vec4 xlv_COLOR;
+varying vec2 xlv_TEXCOORD0;
+varying vec3 vPosition;
+
+void main() {
+	float scale = (1.0 - timePass.x * 0.001/ 5.0);
+	
+	vec2 uv = (xlv_TEXCOORD0 - vec2(0.5, 0.5)) * scale + vec2(0.5,0.5);
+	
+    float sampleStrength = 2.2 * timePass.x * 0.001 * 2.0;
+
+    vec2 dir =  vec2(0.5, 0.5) - uv;
+    float distance = sqrt(dir.x * dir.x + dir.y * dir.y);
+    dir = dir/distance;
+
+    vec4 color1 = texture2D(sampler0, uv);
+    vec4 sum1 = color1;
+
+    sum1 += texture2D(sampler0, uv + dir * -0.08 * sampleDist);
+    sum1 += texture2D(sampler0, uv + dir * -0.05 * sampleDist);
+    sum1 += texture2D(sampler0, uv + dir * -0.03 * sampleDist);
+    sum1 += texture2D(sampler0, uv + dir * -0.02 * sampleDist);
+    sum1 += texture2D(sampler0, uv + dir * -0.01 * sampleDist);
+    sum1 += texture2D(sampler0, uv + dir *  0.01 * sampleDist);
+    sum1 += texture2D(sampler0, uv + dir *  0.02 * sampleDist);
+    sum1 += texture2D(sampler0, uv + dir *  0.03 * sampleDist);
+    sum1 += texture2D(sampler0, uv + dir *  0.05 * sampleDist);
+    sum1 += texture2D(sampler0, uv + dir *  0.08 * sampleDist);
+    sum1 *= 1.0/11.0;
+
+    float t = distance * sampleStrength;
+    t = clamp(t, 0.0, 1.0);
+    
+    vec4 outColor = mix(color1, sum1,  t) * color;
+    scale = 1.0 - (2.0 - timePass.x * 0.001) / 2.0;
+    outColor.a = 1.0 - scale * scale * scale;
+    gl_FragData[0] = outColor.zyxw;
+}
+
+

@@ -1,0 +1,7 @@
+<h5 onclick="toggle_show('gonggao')">维护公告</h5>
+<pre id="gonggao_content" style="background-color:#484d4d;width:100%;color:#59daff;border:none;">
+温馨提示：离线挂机时请您在每个关卡的最后一波怪物时下线，这样才能保证最大离线挂机收益。
+<small id="huodong8_content" style="">
+新系统：帮会职业·增加了法师了攻击距离。优化·修正了竞技场没有次数了还可以用元宝消除cd时间的问题·可装备物品加入了闪动动画·活动持续时间加入了闪动动画·修正了点击熔炼界面下方区域会关闭整个界面问题·所有描边字改为阴影字·从境界界面进入境界关卡，在点击返回时回到境界界面·优化界面
+  </small>
+</pre>

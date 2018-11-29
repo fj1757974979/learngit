@@ -1,0 +1,24 @@
+#define lowp
+#define highp
+uniform lowp vec4 color;
+uniform sampler2D sampler0;
+
+varying lowp vec4 xlv_COLOR;
+varying highp vec2 xlv_TEXCOORD0;
+varying highp vec3 vPosition;
+varying vec2 blurCoordinates[9];
+
+void main() {
+	lowp vec4 finalColor = vec4(0.0);
+	finalColor += texture2D(sampler0, blurCoordinates[0]) * 0.104164;
+	finalColor += texture2D(sampler0, blurCoordinates[1]) * 0.114005;
+	finalColor += texture2D(sampler0, blurCoordinates[2]) * 0.114005;
+	finalColor += texture2D(sampler0, blurCoordinates[3]) * 0.114005;
+	finalColor += texture2D(sampler0, blurCoordinates[4]) * 0.114005;
+	finalColor += texture2D(sampler0, blurCoordinates[5]) * 0.114005;
+	finalColor += texture2D(sampler0, blurCoordinates[6]) * 0.114005;
+	finalColor += texture2D(sampler0, blurCoordinates[7]) * 0.114005;
+	finalColor += texture2D(sampler0, blurCoordinates[8]) * 0.114005;
+	//finalColor = finalColor * xlv_COLOR * color;
+	gl_FragData[0] = finalColor.zyxw;
+}

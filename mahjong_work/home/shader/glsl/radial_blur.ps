@@ -1,0 +1,49 @@
+#define highp
+
+uniform highp vec4 timePass;
+uniform highp vec4 color;
+uniform sampler2D sampler0;
+
+highp float pi = 3.1415926;
+highp float sampleDist = 1.0;
+
+varying highp vec4 xlv_COLOR;
+varying highp vec2 xlv_TEXCOORD0;
+varying highp vec3 vPosition;
+
+void main() {
+	highp vec2 texcoord = xlv_TEXCOORD0;
+    texcoord -= highp vec2(0.5, 0.5);
+    highp float scale = (1.0 - timePass.x * 0.001/ 5.0); 
+    texcoord *= scale ;
+    texcoord += highp vec2(0.5, 0.5) ;
+
+    highp float sampleStrength = 2.2 * timePass.x * 0.001 * 2.0;
+
+    highp vec2 dir = highp vec2(0.5, 0.5) - texcoord;
+    highp float distance = sqrt(dir.x * dir.x + dir.y * dir.y);
+    dir = dir/distance;
+    highp vec4 color = texture2D(sampler0, texcoord);
+    highp vec4 sum1 = color;
+
+    sum1 += texture2D( sampler0, texcoord + dir * -0.08 * sampleDist );
+    sum1 += texture2D( sampler0, texcoord + dir * -0.05 * sampleDist );
+    sum1 += texture2D( sampler0, texcoord + dir * -0.03 * sampleDist );
+    sum1 += texture2D( sampler0, texcoord + dir * -0.02 * sampleDist );
+    sum1 += texture2D( sampler0, texcoord + dir * -0.01 * sampleDist );
+    sum1 += texture2D( sampler0, texcoord + dir *  0.01 * sampleDist );
+    sum1 += texture2D( sampler0, texcoord + dir *  0.02 * sampleDist );
+    sum1 += texture2D( sampler0, texcoord + dir *  0.03 * sampleDist );
+    sum1 += texture2D( sampler0, texcoord + dir *  0.05 * sampleDist );
+    sum1 += texture2D( sampler0, texcoord + dir *  0.08 * sampleDist );
+    sum1 *= 1.0/11.0; 
+
+    highp float t = distance * sampleStrength;
+    t = clamp( t ,0.0,1.0); 
+ 
+    highp vec4 outColor = mix( color, sum1,  t );
+    scale = 1.0 - (2.0 - timePass.x * 0.001) / 2.0;
+    outColor.a = 1.0 - scale * scale * scale;
+	gl_FragData[0] = outColor.zyxw;
+}
+

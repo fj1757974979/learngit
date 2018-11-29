@@ -1,0 +1,82 @@
+#define highp
+#define lowp
+
+uniform highp vec4 color;
+uniform highp vec4 hsvMultiply;
+uniform highp vec4 hsvAdd;
+uniform lowp vec4 clipBox;
+uniform sampler2D sampler0;
+
+varying highp vec4 xlv_COLOR;
+varying highp vec2 xlv_TEXCOORD0;
+varying lowp vec3 vPosition;
+
+highp float __min_channel(highp vec3 v)
+{
+  highp float t = (v.x<v.y) ? v.x : v.y;
+  t = (t<v.z) ? t : v.z;
+  return t;
+}
+
+highp float __max_channel(highp vec3 v)
+{
+  highp float t = (v.x>v.y) ? v.x : v.y;
+  t = (t>v.z) ? t : v.z;
+  return t;
+}
+
+highp vec3 rgb_to_hsv(highp vec3 RGB)
+{
+	highp float minVal = __min_channel(RGB);//min(min(RGB.x, RGB.y), RGB.z);
+	highp float maxVal = __max_channel(RGB);//max(max(RGB.x, RGB.y), RGB.z);
+	highp float delta = maxVal - minVal; //Delta RGB value 
+	highp vec3 HSV;
+	HSV.y = delta / maxVal;
+	HSV.z = maxVal;
+	if (delta != 0.0) {    // If gray, leave H & S at zero
+		highp vec3 delRGB = (highp vec3(maxVal,maxVal, maxVal) - RGB) / 6.0 / delta + 0.5;
+		if ( RGB.x == maxVal )  HSV.x = delRGB.z - delRGB.y;
+		else if ( RGB.y == maxVal ) HSV.x = delRGB.x - delRGB.z + 0.3333333333333;
+		else/* RGB.z == maxVal*/ HSV.x = delRGB.y - delRGB.x + 0.6666666666667;
+		HSV.x += 6.0;//don't know why
+	}
+	return (HSV);
+}
+
+highp vec3 hsv_to_rgb(highp vec3 HSV)
+{
+	HSV.x = fract(HSV.x);
+	HSV.y = clamp(HSV.y, 0.0, 1.0);
+	HSV.z = clamp(HSV.z, 0.0, 1.0);
+	highp vec3 RGB = HSV.zzz;
+	if ( HSV.y != 0.0 ) {
+		highp float var_h = HSV.x * 6.0;
+		highp float var_i = floor(var_h);
+  
+		highp float t1, t2;
+		t1 = HSV.z * HSV.y;
+		t2 = t1 * (var_h - var_i);
+		highp float var_1 = HSV.z - t1;
+		highp float var_2 = HSV.z - t2;
+		highp float var_3 = var_1 + t2;
+  
+		if (var_i == 1.0) RGB = highp vec3(var_2, HSV.z, var_1);
+		else if (var_i == 2.0) RGB = highp vec3(var_1, HSV.z, var_3);
+		else if (var_i == 3.0)  RGB = highp vec3(var_1, var_2, HSV.z);
+		else if (var_i == 4.0)  RGB = highp vec3(var_3, var_1, HSV.z);
+		else if (var_i == 5.0)  RGB = highp vec3(HSV.z, var_1, var_2);
+		else RGB = highp vec3(HSV.z, var_3, var_1);
+	}
+	return RGB;
+}
+
+void main() {
+	if ( vPosition.x < clipBox.x || vPosition.x > clipBox.y || vPosition.y < clipBox.z || vPosition.y > clipBox.w) {
+		discard;
+	} else {
+		highp vec4 destPixel;
+		destPixel = texture2D(sampler0, xlv_TEXCOORD0) * xlv_COLOR * color;
+		destPixel.xyz = hsv_to_rgb(hsvMultiply.xyz * rgb_to_hsv(destPixel.zyx) + hsvAdd.xyz);
+		gl_FragData[0] = destPixel;
+	}
+}

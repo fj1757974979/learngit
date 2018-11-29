@@ -1,0 +1,209 @@
+
+<!-- saved from url=(0031)http://101.200.195.148/kxmj.htm -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>雀悦棋牌</title>
+
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <meta name="360-fullscreen" content="true">
+    <link rel="icon" href="icon.png"> 
+    <link rel="apple-touch-icon" href="icon.png">
+    <link rel="apple-touch-icon-precomposed" href="icon.png">
+
+    <style type="text/css">
+        #weixin-tip {
+            display: none;
+            position: fixed;
+            left: 0;
+            top: 0;
+            background: rgba(0, 0, 0, 0.6);
+            filter: alpha(opacity=60);
+            width: 100%;
+            height: 100%;
+            z-index: 100;
+        }
+
+        #weixin-tip p {
+            text-align: center;
+            margin: 0;
+            height: 100%;
+            position: relative;
+        }
+
+        #weixin-tip p img {
+            width: 677px;
+            height: 379px;
+        }
+
+        #weixin-tip .close {
+            color: #fff;
+            padding: 5px;
+            font: bold 72px/84px simsun;
+            text-shadow: 0 1px 0 #ddd;
+	    width:96px;
+	    height:96px;
+            position: absolute;
+            top: 0;
+            left: 5px;
+        }
+
+        .hide {
+            display: none;
+        }
+
+        a {
+            color: #8a8a8a;
+            text-decoration: none;
+            letter-spacing: 1px;
+        }
+	body{
+		background:url(bg.jpg);
+		background-size:cover;
+		background-position: center center;
+	}
+	.icon {
+		position:relative;
+		text-align:center;
+		top:350px;
+	}
+	.title{
+		position:relative;
+		text-align:left;
+		top:40px;
+		left:40px;
+	}
+
+	.btn {
+		position:relative;
+		text-align:center;
+		top:700px;
+	}
+
+    </style>
+
+    	<script type="text/javascript" src="zepto.min.js"></script>
+ 	<script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+ 	<script type="text/javascript" src="jweixin-1.0.0.js"></script>
+    	<script type="text/javascript">
+wx.onMenuShareTimeline({
+    title: '雀悦东山棋牌', // 分享标题
+    link: 'http://www.openew.cn/games/dsmj/', // 分享链接
+    imgUrl: 'http://www.openew.cn/games/dsmj/icon.png', // 分享图标
+    success: function () { 
+        // 用户确认分享后执行的回调函数
+    },
+    cancel: function () { 
+        // 用户取消分享后执行的回调函数
+    }
+});
+
+wx.onMenuShareAppMessage({
+    title: '雀悦东山棋牌', // 分享标题
+    desc: '东山人的本地麻将，邀请好友对战，快快加入吧！', // 分享描述
+    link: 'http://www.openew.cn/games/dsmj/', // 分享链接
+    imgUrl: 'http://www.openew.cn/games/dsmj/icon.png', // 分享图标
+    type: 'link', // 分享类型,music、video或link，不填默认为link
+    dataUrl: '', // 如果type是music或video，则要提供数据链接，默认为空
+    success: function () { 
+        // 用户确认分享后执行的回调函数
+    },
+    cancel: function () { 
+        // 用户取消分享后执行的回调函数
+    }
+});
+	
+        var is_weixin = function () {
+            var ua = navigator.userAgent.toLowerCase();
+            if (ua.match(/MicroMessenger/i) == "micromessenger") {
+                return true;
+            } else {
+                return false;
+            }
+        }
+
+        function doLocation(url) {
+            var a = document.createElement("a");
+            if (!a.click) {
+                window.location = url;
+                return;
+            }
+            a.setAttribute("href", url);
+            a.style.display = "none";
+            document.body.appendChild(a);
+            a.click();
+        }
+
+        function downandroid() {
+                doLocation("http://www.openew.cn/games/apks/dsmj-weixin-4-3.2.24.apk");
+                //doLocation("http://fir.im/fjdsmj");
+        }
+
+	function downios() {
+            	window.location.href = "https://itunes.apple.com/cn/app/id1288355682?mt=8";
+                //window.location.href = "https://fir.im/fjdsmj";
+	}
+
+function reset_scale() {
+	var viewport = document.querySelector("meta[name=viewport]");
+	var width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+	var scale = width/720;
+	viewport.setAttribute('content', 'width=720,initial-scale=' + scale + ',' + 'maximum-scale=' + scale );
+
+}
+
+$(document).ready(function(){
+	reset_scale();
+
+		$("#btn_download").click(function() {
+			var ua = navigator.userAgent.toLowerCase();	
+			var os = "unkown";
+			if (/iphone|ipad|ipod/.test(ua)) {
+			os = "ios";
+			} else if (/android/.test(ua)) {
+			os = "android";
+                		//doLocation("http://fir.im/dxgdmj");
+				//return;
+			}
+
+			$("#tip_android").hide();
+			$("#tip_ios").hide();
+
+			if (is_weixin()) {
+				$("#tip_"+os).show();
+				$("#weixin-tip").show();
+				return;
+			}
+	
+			if (os == "android") {
+			downandroid();
+			} else if (os == "ios") {
+			downios();
+			}
+
+			});
+
+		$("#btn_close").click(function() {
+			$("#weixin-tip").hide();
+		});
+	});
+    </script>
+</head>
+<body>
+<!--div class="icon">
+	<img id="img" width="318px" height="318px" src="icon.png">
+</div-->
+<div class="title">
+        <img id="img" width="243" height="154px" src="logo.png">
+</div>
+<div class="btn">
+       	<img id="btn_download" width="433px" height="130px" src="btn_0.png">
+</div>
+<div id="weixin-tip">
+<p>
+        <img id="tip_ios" src="help_ios.png" alt="微信扫描打开APP下载链接提示代码优化">
+        <img id="tip_android" src="help_android.png" alt="微信扫描打开APP下载链接提示代码优化">
+        <div id="btn_close" width="100px" height="100px" class="close">×</div>
+    </p>
+</div>
+</body>
+</html>

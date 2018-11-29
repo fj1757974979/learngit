@@ -1,0 +1,15 @@
+uniform sampler2D sampler0;
+#line 10
+void xlat_main( in highp vec4 diffuse, in highp vec2 tex, out highp vec4 destPixel );
+#line 10
+void xlat_main( in highp vec4 diffuse, in highp vec2 tex, out highp vec4 destPixel ) {
+    destPixel = (texture2D( sampler0, tex) * diffuse);
+}
+varying highp vec4 xlv_COLOR;
+varying highp vec2 xlv_TEXCOORD0;
+void main() {
+    highp vec4 xlt_destPixel;
+    xlat_main( vec4(xlv_COLOR), vec2(xlv_TEXCOORD0), xlt_destPixel);
+    gl_FragData[0] = vec4(xlt_destPixel);
+;
+}

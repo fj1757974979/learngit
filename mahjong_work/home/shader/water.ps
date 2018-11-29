@@ -1,0 +1,29 @@
+uniform highp vec4 timePass;
+uniform highp vec4 color;
+uniform sampler2D sampler0;
+
+
+highp float pi = 3.1415926;
+
+varying highp vec4 xlv_COLOR;
+varying highp vec2 xlv_TEXCOORD0;
+varying highp vec3 vPosition;
+
+void main() {
+    highp vec2 d = xlv_TEXCOORD0 - (highp vec2 (0.5, 0.5));
+    highp float l = length(d);
+    highp float t = timePass.x * 0.001  + 50.0;
+    t = t / 10.0;
+
+    highp float x = xlv_TEXCOORD0.x;
+    highp float y = xlv_TEXCOORD0.y;
+
+    highp float theta = min((l-t) * pi * 20.0, pi/2.0);
+    highp float h = cos(theta) * 0.001 * max(0.0, 1.0 - t * 5.0) + 0.015;
+    h *= 1.0 - y;
+    highp float dl =  -h * tan(13.0 / 45.0 * atan(sin(theta)));
+	
+    highp vec4 outColor = texture2D(sampler0, highp vec2(x + dl/l * (x-0.5), y + dl/l * (y-0.0)) ) * xlv_COLOR * color;
+    gl_FragData[0] = outColor.zyxw;
+}
+

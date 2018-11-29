@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta http-equiv="Content-Type" content="Text/Html;charset=utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0" />
+		<!-- 新 Bootstrap 核心 CSS 文件 -->
+		<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+		<!-- 可选的Bootstrap主题文件（一般不用引入） -->
+		<link rel="stylesheet"
+		href="http://cdn.bootcss.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+		<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+		<script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
+
+		<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+		<script src="http://cdn.bootcss.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+		<!--
+	  background-image:-webkit-linear-gradient(0deg, #a27227, #cd9144);
+	  background-image:linear-gradient(0deg,#a27227,#cd9144);
+
+		-->
+	</head>
+	<style>
+	  h4 {
+	  font-size:14px;
+	  align:center;
+	  color:yellow;
+	  }
+	  h5 {
+	  color:black;
+	  height:42px;
+	  line-height:42px;
+	  text-indent:10px;
+	  background-image:url("h5_background_img.jpg");
+	  background-repeat:no-repeat;
+	  background-size:cover;
+	  }
+	  small {
+	  color:#59daff;
+	  }
+	  b{
+		-webkit-text-fill-color: white;/*文字的填充色*/
+		-webkit-text-stroke: 2px black;/*描边的像素，也就是粗细，这里指定是2像素的黑色边框*/
+		}
+	</style>
+	<script>
+	  function toggle_show(name) 
+	  {
+	  	var obj = $("#"+name+"_content");
+	  	if (obj.is(":hidden")) {
+	  		/*
+	  		var i=1;
+	  		for (;i<=11;i++) {
+			    var o = $("#huodong"+i+"_content");
+			    o.hide();
+			}
+			*/
+	  		obj.show()
+	  	} else {
+	  		obj.hide()
+		}
+	  }
+
+	</script>
+	<body style="background-color:#484d4d;width:100%;">
+	  <img src="banner_ios.jpg" style="display:block;width:100%"/>
+
+
+
+  <h4><div class="b">新服11区于8月9日下午14：30正式开服！</div></h4>
+
+
+  <small><div class="b"><font color="#f29c9f"> 玩家官方交流群：<font color="#0cff00">484524287</font></font></div></small>
+  <small><font color="#f29c9f"> 正式开启，八大精彩活动席卷而来！</font></small>
+  <h5 onclick="toggle_show('huodong1')">活动一：首充4倍送神器</h5>
+  <small id="huodong1_content" style="">
+    活动时间：开服至永久<br/>
+	活动内容：玩家首次充值即可开启<font color="#0cff00"> 第二角色</font>以及获得3职业橙色武器，可以选择4倍元宝返利的<font color="#0cff00">（一个ID只有一次机会）</font>，还有精心准备的3职业翅膀和PK神戒，你还等什么呢?<br/>
+	活动奖励：<font color="orange">3职业橙色武器</font>，白鹭之心*3，羽翼之魂*6，白虎碎片*10，Boss令牌*1<br/>
+    PS：<font color="#0cff00">首冲获得白鹭之心和羽翼之魂即可激活角色翅膀</font><br/>   
+  </small>
+
+ <h5 onclick="toggle_show('huodong2')">活动二：神兵利器</h5>
+  <small id="huodong2_content" style="">
+    活动时间：开服至永久<br/>
+	活动内容：玩家充值金额达到vip3即可获得3职业60级顶级衣服和武器<br/>
+	活动奖励：<font color="orange">3职业60级橙色武器和3职业60级橙色衣服</font>，升星石*100，大袋金币*10<br/> 
+  </small>
+
+   <h5 onclick="toggle_show('huodong3')">活动三：每日累充豪礼</h5>
+  <small id="huodong3_content" style="">
+    活动时间：开服前四天<br/>
+	活动内容：玩家每日累计充值金额达到达到一定金额，即可获得专精石、羽毛、攻击符石、防御符石、boss令牌、特戒碎片等奖励。<br/>
+  </small>
+
+<h5 onclick="toggle_show('huodong4')">活动四：每周累充豪礼</h5>
+  <small id="huodong4_content" style="">
+    活动时间：开服至永久<br/>
+	活动内容：玩家每日累计充值金额达到100元起，即可获得四大特戒碎片等奖励。<br/>
+  </small>
+
+   <h5 onclick="toggle_show('huodong5')">活动五：冲榜赢好礼</h5>
+  <small id="huodong5_content" style="">
+    活动时间：开服前四天<br/>
+	活动内容：活动内容：玩家每日累计充值金额达到100元起，即可获得四大特戒碎片等奖励。<br/>
+  </small>
+
+    <h5 onclick="toggle_show('huodong6')">活动六：签到好礼</h5>
+  <small id="huodong6_content" style="">
+    活动时间：开服至永久<br/>
+	活动内容：玩家每日签到即可获取元宝、专精石、攻击符石、境界入场卷、玄武特戒碎片等奖励。<br/> 
+  </small>
+
+   <h5 onclick="toggle_show('huodong7')">活动七：登录送好礼</h5>
+  <small id="huodong7_content" style="">
+    活动时间：开服前7天<br/>
+	活动内容：玩家开服累计登录7天即可获得专精石、boss令牌、羽毛等丰厚奖励。<br/>
+  </small>
+
+ <h5 onclick="toggle_show('huodong8')">活动八：加群送好礼</h5>
+  <small id="huodong8_content" style="">
+    活动时间：开服至永久<br/>
+	活动内容：带上你们的小伙伴，一起开启传奇的世界，在这里，你能找到一起游戏的基友，也能获得游戏的第一手咨询，更有不定时的礼包发送哦，还等什么呢，赶紧加入官方交流群吧！<br/>
+	活动奖励：加群大礼包<br/>
+  </small>
+
+
+	<!-- %maintain_gonggao% -->
+
+	<h5 onclick="toggle_show('huodong9')">官方交流群</h5>
+  <small id="huodong9_content" style="">
+	  官方交流群：<font color="#0cff00">484524287</font>
+  </small>
+
+ <!--h5 onclick="toggle_show('huodong10')">BUG处理公告</h5>
+  <small id="huodong10_content" style="">
+	  为了营造更好的游戏环境，我们对利用刷级bug的部分玩家进行了降级处理。此次降级的最终解释权归本公司所有。
+  </small>
+
+	</body>
+</html>
