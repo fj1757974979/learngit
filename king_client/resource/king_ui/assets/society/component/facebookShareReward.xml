@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="300,300" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n0_qof0" name="n0" xy="0,0" size="300,300" url="ui://dvmsogfrfm9321" fill="scaleFree"/>
+    <loader id="n2_qof0" name="title2" xy="50,10" pivot="0.5,0.5" size="200,65" touchable="false" url="ui://864gshxxroydj" autoSize="true">
+      <relation target="n3_qof0" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n3_qof0" name="title" xy="75,16" size="150,51" touchable="false" url="ui://864gshxxew1vbr" align="center" vAlign="middle" fill="scaleFree" autoSize="true">
+      <relation target="n2_qof0" sidePair="center-center,middle-middle"/>
+    </loader>
+    <component id="n5_qof0" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="248,2"/>
+    <loader id="n15_egmw" name="rewardBg1" xy="110,130" size="80,80" url="ui://739g5ytivfpoh" fill="scaleFree"/>
+    <loader id="n20_egmw" name="rewardIcon1" xy="110,130" size="80,80" url="ui://864gshxxlsshd0" fill="scaleFree">
+      <relation target="n15_egmw" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n21_egmw" name="cnt1" xy="115,183" size="70,34" fontSize="30" color="#66ff99" align="center" vAlign="middle" leading="0" strokeColor="#000000" text="x999">
+      <relation target="n20_egmw" sidePair="center-center"/>
+    </text>
+    <text id="n24_egmw" name="n24" xy="16,79" size="268,43" fontSize="20" align="center" vAlign="middle" leading="0" autoSize="shrink" text="#TEXT_70201">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <loader id="n27_ew1v" name="gotten" xy="101,143" size="98,53" url="ui://dvmsogfrtn1u5r" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <relation target="n15_egmw" sidePair="center-center,middle-middle"/>
+    </loader>
+    <component id="n28_ffev" name="shareFacebookBtn" src="gdngc9" fileName="component/shareFacebookBtn.xml" pkg="864gshxx" xy="89,236" size="122,34"/>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Scale" tween="true" startValue="0.8,0.9" endValue="1,1" duration="6" ease="Quart.Out"/>
+  </transition>
+</component>

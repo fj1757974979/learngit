@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="120,40" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver,4,disable" selected="0"/>
+  <displayList>
+    <loader id="n1" name="icon" xy="0,0" size="120,40" url="ui://864gshxxq5ca6y" fill="scaleFree">
+      <gearDisplay controller="button" pages="0,1,2,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n6_j600" name="disableIcon" xy="0,0" size="120,40" url="ui://864gshxxq5ca6y" fill="scaleFree">
+      <gearDisplay controller="button" pages="4"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n4_qifi" name="title" xy="0,0" size="120,40" fontSize="24" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="shrink" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="Challenge">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <Button sound="ui://864gshxxlr3f2n" downEffect="scale" downEffectValue="0.80"/>
+</component>

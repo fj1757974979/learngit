@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="450,600" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n0_lnsl" name="n0" xy="33,68" size="383,463" url="ui://zfg0revpy4nl1k" fill="scaleFree"/>
+    <loader id="n36_ul11" name="n36" xy="-58,0" pivot="0.5,0.5" size="566,518" scale="0.6,0.6" touchable="false" url="ui://864gshxxvco45w" autoSize="true"/>
+    <component id="n38_ul11" name="shareBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="150,460" size="150,50">
+      <Button title="#TEXT_70080" titleFontSize="28" icon="ui://864gshxxj6006u"/>
+    </component>
+    <text id="n40_k73y" name="txt2" xy="75,350" size="300,100" fontSize="18" color="#333333" align="center" vAlign="middle" leading="0" autoSize="none" text="#TEXT_70138"/>
+    <component id="n43_yyke" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="355,75"/>
+    <loader id="n44_g0kf" name="n44" xy="119,220" pivot="0.5,0.5" size="212,107" scale="0.7,0.7" touchable="false" url="ui://zfg0revpu6us2j">
+      <relation target="" sidePair="middle-middle"/>
+    </loader>
+    <loader id="n45_g0kf" name="boxIcon" xy="137,175" pivot="0.5,0.5" size="175,157" scale="0.8,0.8" touchable="false" url="ui://zfg0revpl8xiq">
+      <relation target="" sidePair="middle-middle"/>
+    </loader>
+    <text id="n46_g0kf" name="boxName" xy="125,275" size="200,40" fontSize="24" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" strokeSize="2" text="#TEXT_70137">
+      <relation target="" sidePair="middle-middle"/>
+    </text>
+    <loader id="n48_d54g" name="n48" xy="125,73" pivot="0.5,0.5" size="200,65" touchable="false" url="ui://864gshxxroydj" autoSize="true"/>
+    <loader id="n49_d54g" name="n49" xy="150,79" pivot="0.5,0.5" size="150,51" touchable="false" url="ui://864gshxxd54gah" autoSize="true"/>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Rotation" target="n36_ul11" tween="true" startValue="0" endValue="360" duration="96" ease="Linear"/>
+  </transition>
+  <transition name="t1" autoPlay="true">
+    <item time="0" type="Alpha" tween="true" startValue="0.8" endValue="1" duration="6"/>
+    <item time="0" type="Scale" tween="true" startValue="0.8,0.8" endValue="1,1" duration="6"/>
+    <item time="0" type="Sound" value="ui://864gshxxyyke6p,100"/>
+  </transition>
+</component>

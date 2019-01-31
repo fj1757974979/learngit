@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,180">
+  <controller name="status" pages="0,ing,1,wait" selected="0"/>
+  <displayList>
+    <loader id="n15_xjab" name="n15" xy="0,0" size="400,180" url="ui://dvmsogfrvco436" align="center" vAlign="middle" fill="scaleFree"/>
+    <text id="n31_xjab" name="waitTxt" xy="50,75" size="300,30" fontSize="30" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="暂未接受任务">
+      <gearDisplay controller="status" pages="1"/>
+    </text>
+    <component id="n16_xjab" name="boxProgress" src="d8ql5t" fileName="component/warProgress1.xml" xy="25,106" size="350,18" group="n32_xjab">
+      <gearDisplay controller="status" pages="0"/>
+      <ProgressBar value="92" max="100"/>
+    </component>
+    <text id="n19_xjab" name="title" xy="149,10" size="101,28" group="n32_xjab" fontSize="24" vAlign="middle" leading="0" text="灌溉政令">
+      <gearDisplay controller="status" pages="0"/>
+    </text>
+    <text id="n21_xjab" name="time" xy="75,100" size="250,30" group="n32_xjab" fontSize="20" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="剩余时间：3小时59分">
+      <gearDisplay controller="status" pages="0"/>
+    </text>
+    <component id="n23_xjab" name="card1" src="xjabn" fileName="component/cardHeadItem.xml" xy="30,40" size="60,60" group="n32_xjab">
+      <gearDisplay controller="status" pages="0"/>
+    </component>
+    <component id="n24_xjab" name="card2" src="xjabn" fileName="component/cardHeadItem.xml" xy="100,40" size="60,60" group="n32_xjab">
+      <gearDisplay controller="status" pages="0"/>
+    </component>
+    <component id="n25_xjab" name="card3" src="xjabn" fileName="component/cardHeadItem.xml" xy="170,40" size="60,60" group="n32_xjab">
+      <gearDisplay controller="status" pages="0"/>
+    </component>
+    <text id="n27_xjab" name="rewardCnt1" xy="95,135" size="61,32" group="n32_xjab" fontSize="28" color="#ffff00" vAlign="middle" leading="0" bold="true" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="9999">
+      <gearDisplay controller="status" pages="0"/>
+      <relation target="" sidePair="left-left"/>
+    </text>
+    <loader id="n28_xjab" name="rewardIcon1" xy="65,136" size="30,30" group="n32_xjab" touchable="false" url="ui://864gshxxnf1s9a" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <gearDisplay controller="status" pages="0"/>
+      <relation target="n27_xjab" sidePair="middle-middle,right-left"/>
+    </loader>
+    <text id="n29_xjab" name="rewardCnt2" xy="195,135" size="33,32" group="n32_xjab" fontSize="28" color="#ffffff" vAlign="middle" leading="0" bold="true" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="+2">
+      <gearDisplay controller="status" pages="0"/>
+      <relation target="" sidePair="left-left"/>
+    </text>
+    <loader id="n30_xjab" name="rewardIcon2" xy="165,136" size="30,30" group="n32_xjab" touchable="false" url="ui://2ipmzghtmhry72" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <gearDisplay controller="status" pages="0"/>
+      <relation target="n29_xjab" sidePair="middle-middle,right-left"/>
+    </loader>
+    <component id="n33_uivn" name="card4" src="xjabn" fileName="component/cardHeadItem.xml" xy="240,40" size="60,60" group="n32_xjab">
+      <gearDisplay controller="status" pages="0"/>
+    </component>
+    <component id="n34_uivn" name="card5" src="xjabn" fileName="component/cardHeadItem.xml" xy="310,40" size="60,60" group="n32_xjab">
+      <gearDisplay controller="status" pages="0"/>
+    </component>
+    <component id="n35_u5xl" name="completeBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="0,0" size="400,180" group="n32_xjab" alpha="0">
+      <gearDisplay controller="status" pages="0"/>
+      <Button titleFontSize="24" icon=" "/>
+    </component>
+    <text id="n36_u5xl" name="n2" xy="10,140" size="115,24" group="n32_xjab" fontSize="20" color="#333333" vAlign="middle" leading="0" text="#TEXT_60348">
+      <gearDisplay controller="status" pages="0"/>
+    </text>
+    <text id="n37_jarz" name="rewardCnt3" xy="295,135" size="33,32" group="n32_xjab" fontSize="28" color="#ffffff" vAlign="middle" leading="0" bold="true" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="+2">
+      <gearDisplay controller="status" pages="0"/>
+      <relation target="" sidePair="left-left"/>
+    </text>
+    <loader id="n38_jarz" name="rewardIcon3" xy="265,136" size="30,30" group="n32_xjab" touchable="false" url="ui://864gshxxdlva1n" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <gearDisplay controller="status" pages="0"/>
+      <relation target="n37_jarz" sidePair="middle-middle,right-left"/>
+    </loader>
+    <component id="n26_xjab" name="cancelBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="330,10" size="60,30" group="n32_xjab">
+      <gearDisplay controller="status" pages="0"/>
+      <Button title="召回" titleFontSize="24" icon="ui://864gshxxj6006x"/>
+    </component>
+    <group id="n32_xjab" name="ing" xy="0,0" size="400,180" advanced="true">
+      <gearDisplay controller="status" pages="0"/>
+    </group>
+  </displayList>
+</component>

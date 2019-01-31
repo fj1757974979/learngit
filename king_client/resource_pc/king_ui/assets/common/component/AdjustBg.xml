@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080" overflow="hidden">
+  <displayList>
+    <image id="n0_qg2m" name="adjustContext" src="royd7" xy="0,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+  </displayList>
+</component>

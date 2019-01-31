@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="75,60">
+  <displayList>
+    <loader id="n0_w5uu" name="resIcon" xy="-6,0" size="60,60" url="ui://864gshxxroyd6"/>
+    <text id="n1_w5uu" name="resNum" xy="44,17" size="36,30" font="微软雅黑" fontSize="26" color="#00ff00" text="X1">
+      <relation target="n0_w5uu" sidePair="center-center"/>
+    </text>
+  </displayList>
+</component>

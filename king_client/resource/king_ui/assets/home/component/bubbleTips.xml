@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,60" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n2_e0um" name="n2" xy="0,0" size="400,60" url="ui://739g5ytiyyke1a" fill="scaleFree"/>
+    <text id="n3_e0um" name="txt" xy="10,5" size="280,50" fontSize="20" vAlign="middle" leading="0" autoSize="none" text="[color=#FF0000]${name}[/color]想与你一战。">
+      <relation target="n2_e0um" sidePair="middle-middle"/>
+    </text>
+    <component id="n5_e0um" name="yesBtn" src="yyke6i" fileName="component/yesBtn.xml" pkg="864gshxx" xy="305,9" pivot="0.5,0.5" size="40,40">
+      <relation target="n2_e0um" sidePair="middle-middle"/>
+      <Button title="√"/>
+    </component>
+    <component id="n6_e0um" name="noBtn" src="yyke6j" fileName="component/noBtn.xml" pkg="864gshxx" xy="350,9" pivot="0.5,0.5" size="40,40">
+      <relation target="n2_e0um" sidePair="middle-middle"/>
+      <Button title="×"/>
+    </component>
+    <loader id="n7_i3zc" name="n7" xy="285,54" pivot="0.5,0.5" size="15,15" rotation="90" url="ui://739g5ytiyyke1b" fill="scaleFree">
+      <relation target="" sidePair="top-bottom"/>
+    </loader>
+  </displayList>
+  <relation target="n2_e0um" sidePair="height-height"/>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Alpha" target="n5_e0um" value="0"/>
+    <item time="0" type="Alpha" target="n6_e0um" value="0"/>
+    <item time="0" type="Alpha" target="n3_e0um" value="0"/>
+    <item time="0" type="Scale" tween="true" startValue="0,1" endValue="1,1" duration="12" ease="Quart.Out"/>
+    <item time="6" type="Alpha" target="n5_e0um" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="6" type="Alpha" target="n3_e0um" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="6" type="Alpha" target="n6_e0um" tween="true" startValue="0" endValue="1" duration="6"/>
+  </transition>
+</component>

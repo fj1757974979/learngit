@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,800" pivot="0.5,0.5">
+  <controller name="switch" pages="0,world,1,friend,2,rankSeason" selected="0">
+    <action type="play_transition" fromPage="" toPage="1" transition="t1"/>
+    <action type="play_transition" fromPage="" toPage="0" transition="t0"/>
+    <action type="play_transition" fromPage="" toPage="2" transition="t2"/>
+  </controller>
+  <displayList>
+    <loader id="n0_lnsl" name="panel" xy="0,0" pivot="0.5,0.5" size="480,800" url="ui://dvmsogfrfm931u" fill="scaleFree"/>
+    <loader id="n1_lnsl" name="n1" xy="140,5" pivot="0.5,0.5" size="200,65" touchable="false" url="ui://864gshxxroydj" align="center" vAlign="middle" fill="scaleMatchWidth" autoSize="true">
+      <relation target="n0_lnsl" sidePair="top-top,center-center"/>
+    </loader>
+    <loader id="n2_lnsl" name="treasureName" xy="165,11" size="150,51" touchable="false" url="ui://864gshxxd54g9x" align="center" vAlign="middle" autoSize="true">
+      <relation target="n1_lnsl" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n3_lnsl" name="updateTime" xy="90,-33" size="300,32" visible="false" font="楷体" fontSize="20" align="center" vAlign="middle" leading="0" autoSize="none" text="更新于：9月9日0点"/>
+    <loader id="n4_lnsl" name="n4" xy="15,130" pivot="0.5,0.5" size="450,580" touchable="false" url="ui://dvmsogfra64j2l" fill="scaleFree">
+      <relation target="n0_lnsl" sidePair="height-height"/>
+    </loader>
+    <list id="n5_lnsl" name="rankList" xy="15,130" size="450,580" overflow="scroll" scrollBarFlags="4" scrollBar="auto" margin="5,5,0,0" scrollBarRes="ui://864gshxxjzjo62," defaultItem="ui://dvmsogfrlwj01k" autoClearItems="true">
+      <gearDisplay controller="switch" pages="0"/>
+      <relation target="n4_lnsl" sidePair="middle-middle,height-height"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n26_n6xj" name="selfInfo" src="lwj01k" fileName="component/rankingPlayer.xml" xy="15,720" size="450,60">
+      <gearDisplay controller="switch" pages="0,1"/>
+      <relation target="n0_lnsl" sidePair="bottom-bottom"/>
+    </component>
+    <component id="n28_fm93" name="closeBtn" src="royda" fileName="component/backBtn.xml" pkg="864gshxx" xy="5,5">
+      <relation target="n0_lnsl" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n29_jbrh" name="worldChk" src="rbz04j" fileName="component/rankingWorldChk.xml" xy="90,70" pivot="0.5,0.5">
+      <relation target="n0_lnsl" sidePair="top-top"/>
+      <Button checked="true" title="#TEXT_70051" controller="switch" page="0"/>
+    </component>
+    <component id="n30_jbrh" name="friendChk" src="rbz04i" fileName="component/rankingFriendChk.xml" xy="330,70">
+      <relation target="n0_lnsl" sidePair="top-top"/>
+      <Button title="#TEXT_70075" controller="switch" page="1"/>
+    </component>
+    <list id="n31_yknh" name="friendList" xy="15,130" pivot="1,0" size="450,580" overflow="scroll" scrollBarFlags="4" scrollBar="auto" margin="5,5,0,0" scrollBarRes="ui://864gshxxjzjo62," defaultItem="ui://dvmsogfrlwj01k" autoClearItems="true">
+      <gearDisplay controller="switch" pages="1"/>
+      <relation target="n4_lnsl" sidePair="height-height,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n32_s8o9" name="updateTxt" xy="344,37" size="127,32" font="楷体" fontSize="16" align="right" vAlign="middle" leading="0" autoSize="shrink" text="#TEXT_70099">
+      <gearDisplay controller="switch" pages="0"/>
+      <relation target="n5_lnsl" sidePair="right-right,top-top"/>
+    </text>
+    <component id="n34_k13j" name="rankSeasonChk" src="k13j6q" fileName="component/rankingSeasonChk.xml" xy="210,70">
+      <relation target="n0_lnsl" sidePair="top-top"/>
+      <Button title="#TEXT_60284" controller="switch" page="2"/>
+    </component>
+    <list id="n35_k13j" name="rankSeasonList" xy="15,130" size="450,580" overflow="scroll" scrollBarFlags="4" scrollBar="auto" margin="5,5,0,0" scrollBarRes="ui://864gshxxjzjo62," defaultItem="ui://dvmsogfrk13j6o" autoClearItems="true">
+      <gearDisplay controller="switch" pages="2"/>
+      <relation target="n4_lnsl" sidePair="middle-middle,height-height"/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n36_k13j" name="selfInfoRankSeason" src="k13j6o" fileName="component/rankingPlayerRankSeason.xml" xy="15,720" size="450,60">
+      <gearDisplay controller="switch" pages="2"/>
+      <relation target="n0_lnsl" sidePair="bottom-bottom"/>
+    </component>
+    <text id="n33_s8o9" name="updateTxt2" xy="345,37" size="127,32" font="楷体" fontSize="16" align="right" vAlign="middle" leading="0" autoSize="shrink" text="#TEXT_70100">
+      <gearDisplay controller="switch" pages="1"/>
+      <relation target="n31_yknh" sidePair="right-right,top-top"/>
+    </text>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Alpha" target="n5_lnsl" tween="true" startValue="0" endValue="1" duration="6" ease="Back.In"/>
+  </transition>
+  <transition name="t1">
+    <item time="0" type="Alpha" target="n31_yknh" tween="true" startValue="0" endValue="1" duration="6" ease="Back.In"/>
+  </transition>
+  <transition name="t2">
+    <item time="0" type="Alpha" target="n35_k13j" tween="true" startValue="0" endValue="1" duration="6" ease="Back.In"/>
+  </transition>
+</component>

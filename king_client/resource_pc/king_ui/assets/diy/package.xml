@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="t63zsq4z" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="x88n0" name="gun.png" path="/" exported="true"/>
+    <image id="x88n2" name="knife.png" path="/" exported="true"/>
+    <image id="x88n3" name="flower.png" path="/" exported="true"/>
+    <image id="x88n4" name="hammer.png" path="/" exported="true"/>
+    <image id="x88n5" name="arrow.png" path="/" exported="true"/>
+    <image id="x88n6" name="wave.png" path="/" exported="true"/>
+    <image id="x88n7" name="finger.png" path="/" exported="true"/>
+    <image id="x88n8" name="lighting.png" path="/" exported="true"/>
+    <image id="x88n9" name="stone.png" path="/" exported="true"/>
+    <image id="x88na" name="bg1.png" path="/" exported="true"/>
+    <image id="x88nb" name="skillBtnImg.png" path="/" exported="true"/>
+    <image id="x88nc" name="labelBg2.png" path="/" exported="true"/>
+    <image id="x88nd" name="labelBg1.png" path="/" exported="true"/>
+    <image id="x88ne" name="skillBg3.png" path="/" exported="true"/>
+    <image id="x88nf" name="skillBg2.png" path="/" exported="true"/>
+    <image id="x88ng" name="skillBg1.png" path="/" exported="true"/>
+    <image id="x88ni" name="weapBtnImg2.png" path="/" exported="true"/>
+    <image id="x88nj" name="weapBtnImg1.png" path="/" exported="true"/>
+    <image id="x88nl" name="skillSelectedImg.png" path="/" exported="true"/>
+    <component id="x88nm" name="weapBtn.xml" path="/component/" exported="true"/>
+    <component id="x88no" name="addSkillBtn.xml" path="/component/" exported="true"/>
+    <component id="x88np" name="inputName.xml" path="/component/" exported="true"/>
+    <component id="x88nr" name="diy.xml" path="/component/" exported="true"/>
+    <component id="one8s" name="diySkillPanel.xml" path="/component/" exported="true"/>
+    <component id="one8t" name="skillList.xml" path="/component/" exported="true"/>
+    <component id="one8u" name="skillItem.xml" path="/component/" exported="true"/>
+    <component id="qbacv" name="uploadImgBtn.xml" path="/component/" exported="true"/>
+    <image id="dwsyy" name="bg2.png" path="/" exported="true"/>
+    <image id="dwsyz" name="zhi.png" path="/" exported="true"/>
+  </resources>
+  <publish name="diy"/>
+</packageDescription>

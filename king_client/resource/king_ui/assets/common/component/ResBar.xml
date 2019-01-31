@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,95" designImage="ui://8d3e8y55roydb" designImageOffsetY="-705">
+  <displayList>
+    <loader id="n4_royd" name="n4" xy="0,0" size="480,95" url="ui://864gshxxroyde">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <component id="n22_royd" name="n22" src="dlva1p" fileName="component/resBarBtn.xml" xy="1,11" customData="2">
+      <Button icon="ui://864gshxxroyd0"/>
+    </component>
+    <component id="n26_royd" name="n26" src="dlva1p" fileName="component/resBarBtn.xml" xy="70,11" customData="1">
+      <Button icon="ui://864gshxxroyd4"/>
+    </component>
+    <component id="n30_royd" name="n30" src="dlva1p" fileName="component/resBarBtn.xml" xy="139,11" customData="3">
+      <Button icon="ui://864gshxxroyd1"/>
+    </component>
+    <component id="n34_royd" name="n34" src="dlva1p" fileName="component/resBarBtn.xml" xy="208,11" customData="6">
+      <Button icon="ui://864gshxxroyd2"/>
+    </component>
+    <component id="n38_royd" name="n38" src="dlva1p" fileName="component/resBarBtn.xml" xy="277,11" customData="5">
+      <Button icon="ui://864gshxxroyd3"/>
+    </component>
+    <component id="n42_royd" name="n42" src="dlva1p" fileName="component/resBarBtn.xml" xy="346,11" customData="7">
+      <Button icon="ui://864gshxxroyd5"/>
+    </component>
+    <component id="n18_royd" name="n18" src="dlva1p" fileName="component/resBarBtn.xml" xy="415,11" customData="4">
+      <Button icon="ui://864gshxxnf1s9a"/>
+    </component>
+  </displayList>
+</component>

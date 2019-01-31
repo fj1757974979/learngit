@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="450,600">
+  <displayList>
+    <loader id="n1_jbrh" name="n1" xy="0,0" size="450,540" touchable="false" url="ui://739g5ytiyykel" fill="scaleFree">
+      <relation target="" sidePair="height-height"/>
+    </loader>
+    <loader id="n2_jbrh" name="n2" xy="5,550" size="290,42" touchable="false" url="ui://739g5ytiyyke10" fill="scaleFree">
+      <relation target="" sidePair="bottom-bottom"/>
+    </loader>
+    <text id="n3_jbrh" name="inputText" xy="10,552" size="280,38" input="true" maxLength="60" fontSize="20" vAlign="middle" leading="0" autoSize="none" singleLine="true" text="">
+      <relation target="" sidePair="bottom-bottom"/>
+    </text>
+    <component id="n4_jbrh" name="sendBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="340,550" size="100,40">
+      <relation target="" sidePair="bottom-bottom"/>
+      <Button title="#TEXT_70069" titleFontSize="28" icon="ui://864gshxxj6006u" sound="ui://864gshxxlr3f2n"/>
+    </component>
+    <list id="n5_jbrh" name="chatletList" xy="5,5" size="440,530" overflow="scroll" scrollBarFlags="4" scrollBar="auto" scrollBarRes="ui://864gshxxjzjo62," defaultItem="ui://739g5ytijbrh3" align="center" autoClearItems="true">
+      <relation target="" sidePair=""/>
+      <relation target="" sidePair="height-height"/>
+      <item/>
+      <item url="ui://739g5ytijbrh4"/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n7_j66l" name="emojiBtn" src="jsu72h" fileName="component/emojiBtn.xml" pkg="ryvvr3p0" xy="295,550">
+      <relation target="" sidePair="bottom-bottom"/>
+    </component>
+    <text id="n8_u5xl" name="emptyHintText" xy="25,250" size="400,40" fontSize="30" color="#666666" align="center" vAlign="middle" leading="0" autoSize="none" text="你还没有加入势力"/>
+  </displayList>
+</component>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="125,162" pivot="0.5,0.5" bgColor="#666666">
+  <displayList>
+    <loader id="n0_bzh4" name="baseImg" xy="0,0" size="125,162" url="ui://rdb04el0b950h9" fill="scaleFree" color="#cccccc"/>
+    <image id="n15_lr3f" name="cardImg" pkg="r43qceqx" src="uoof2j" fileName="999.png" xy="0,0" size="125,162"/>
+    <loader id="n3_bzh4" name="frontImg" xy="0,0" size="125,162" url="ui://rdb04el0pqokhk" fill="scaleFree"/>
+    <loader id="n33_epib" name="nameImg" xy="101,0" size="24,70" url="ui://rdb04el0epibi6" fill="scaleFree">
+      <relation target="" sidePair="right-right,top-top"/>
+    </loader>
+    <text id="n4_bzh4" name="nameText" xy="102,5" size="22,59" font="微软雅黑" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="1" autoSize="none" bold="true" text="夏侯顿">
+      <relation target="n33_epib" sidePair="center-center,middle-middle"/>
+    </text>
+    <loader id="n38_g0c1" name="levelFlagWnd" xy="92,6" size="25,34" visible="false" url="ui://rdb04el0g0c13jv" fill="scale"/>
+    <loader id="n29_l8xi" name="skill4Bottom" xy="89,93" size="16,44" group="n32_l8xi" url="ui://rdb04el0l8xihb" fill="scaleFree"/>
+    <loader id="n30_l8xi" name="skill3Bottom" xy="66,93" size="16,44" group="n32_l8xi" url="ui://rdb04el0l8xihb" fill="scaleFree"/>
+    <loader id="n31_l8xi" name="skill2Bottom" xy="43,93" size="16,44" group="n32_l8xi" url="ui://rdb04el0l8xihb" fill="scaleFree"/>
+    <loader id="n28_l8xi" name="skill1Bottom" xy="20,93" size="16,44" group="n32_l8xi" url="ui://rdb04el0l8xihb" fill="scaleFree"/>
+    <text id="n5_bzh4" name="skill1Text" xy="20,94" size="16,42" group="n32_l8xi" font="微软雅黑" fontSize="13" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" text="邺炎3">
+      <relation target="n28_l8xi" sidePair="center-center,middle-middle"/>
+      <relation target="n28_l8xi" sidePair="width-width,height-height"/>
+    </text>
+    <text id="n6_bzh4" name="skill2Text" xy="43,94" size="16,42" group="n32_l8xi" font="微软雅黑" fontSize="13" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" text="据守2">
+      <relation target="n31_l8xi" sidePair="center-center,middle-middle"/>
+      <relation target="n31_l8xi" sidePair="width-width,height-height"/>
+    </text>
+    <text id="n17_paou" name="skill3Text" xy="66,94" size="16,42" group="n32_l8xi" font="微软雅黑" fontSize="13" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" text="邺炎1">
+      <relation target="n30_l8xi" sidePair="center-center,middle-middle"/>
+      <relation target="n30_l8xi" sidePair="width-width,height-height"/>
+    </text>
+    <text id="n18_paou" name="skill4Text" xy="89,94" size="16,42" group="n32_l8xi" font="微软雅黑" fontSize="13" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" text="邺炎4">
+      <relation target="n29_l8xi" sidePair="center-center,middle-middle"/>
+      <relation target="n29_l8xi" sidePair="width-width,height-height"/>
+    </text>
+    <group id="n32_l8xi" name="skillGroup" xy="20,93" size="85,44" advanced="true" collapsed="true"/>
+    <component id="n7_bzh4" name="upNum" src="bzh4s" fileName="component/cardmNum.xml" xy="51,2" pivot="0.5,0.2"/>
+    <component id="n8_bzh4" name="downNum" src="bzh4s" fileName="component/cardmNum.xml" xy="51,135" pivot="0.5,0.8"/>
+    <component id="n9_bzh4" name="leftNum" src="bzh4s" fileName="component/cardmNum.xml" xy="2,70" pivot="0.2,0.5"/>
+    <component id="n10_bzh4" name="rightNum" src="bzh4s" fileName="component/cardmNum.xml" xy="98,70" pivot="0.8,0.5"/>
+    <text id="n11_bzh4" name="upNumOffset" xy="72,-4" size="14,21" font="微软雅黑" fontSize="17" color="#33ff66" align="center" vAlign="middle" strokeColor="#000000" text="+"/>
+    <text id="n12_bzh4" name="leftNumOffset" xy="21,62" size="14,21" font="微软雅黑" fontSize="17" color="#33ff66" align="center" vAlign="middle" strokeColor="#000000" text="+"/>
+    <text id="n13_bzh4" name="rightNumOffset" xy="93,62" size="14,21" font="微软雅黑" fontSize="17" color="#33ff66" align="center" vAlign="middle" strokeColor="#000000" text="+"/>
+    <text id="n14_bzh4" name="downNumOffset" xy="72,134" size="14,21" font="微软雅黑" fontSize="17" color="#33ff66" align="center" vAlign="middle" strokeColor="#000000" text="+"/>
+    <component id="n36_k33d" name="rareCom" src="k33dis" fileName="component/cardRareMiddle.xml" xy="8,132"/>
+    <component id="n37_q13d" name="equipBtn" src="j66l23" fileName="component/equipBtn.xml" pkg="ravbpjp3" xy="15,15" size="30,30" touchable="false"/>
+  </displayList>
+  <transition name="add" options="4">
+    <item time="0" type="Scale" tween="true" startValue="0.75,0.75" endValue="1,1" duration="6" ease="Back.In"/>
+    <item time="6" type="Scale" tween="true" startValue="1,1" ease="Back.In"/>
+  </transition>
+  <transition name="hit">
+    <item time="0" type="ColorFilter" target="n0_bzh4" tween="true" startValue="1.00,0.00,0.00,0.00" endValue="0.00,0.00,0.00,0.00" duration="12"/>
+  </transition>
+  <transition name="readd" options="4">
+    <item time="0" type="Scale" tween="true" startValue="0.75,0.75" endValue="1.2,1.2" duration="6" ease="Back.In"/>
+    <item time="6" type="Scale" tween="true" startValue="1.2,1.2" endValue="1,1" duration="6" ease="Back.Out"/>
+  </transition>
+</component>

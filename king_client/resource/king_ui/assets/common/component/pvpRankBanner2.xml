@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="265,212">
+  <displayList>
+    <loader id="n1_d4nl" name="rankIcon" xy="0,0" size="265,212" touchable="false" url="ui://864gshxxgy104n" autoSize="true"/>
+    <loader id="n9_gy10" name="n9" xy="49,118" size="167,75" url="ui://864gshxxgy104u" autoSize="true"/>
+    <component id="n6_j4zv" name="star2" src="j4zv3p" fileName="component/starAni.xml" xy="152,157" rotation="-11"/>
+    <component id="n7_j4zv" name="star1" src="j4zv3p" fileName="component/starAni.xml" xy="83,152" rotation="11"/>
+    <text id="n10_we8m" name="pvpTitleText" xy="2,66" size="260,80" fontSize="40" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" bold="true" strokeColor="#000000" strokeSize="2" shadowColor="#000000" shadowOffset="1,1" autoClearText="true" text="布衣一">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>

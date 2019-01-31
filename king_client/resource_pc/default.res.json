@@ -1,0 +1,2922 @@
+{
+	"groups": [
+		{
+			"keys": "battle_fui,campign_fui,card_b_fui,card_m_fui,card_s_fui,cardpool_fui,cards_fui,common_fui,diy_fui,guide_fui,home_fui,level_fui,login_fui,pvp_fui,guide_textKuang_png,guide_textBg_png,guide_textArrow_png,guide_dragArrow_png,effect_finger_tex_png,effect_finger_mc_json,login_loginBg_png,login_loginBtnImg_png,login_name_png,cards_circle_m_w_png,cards_base_s_png,cards_circle_s_png,cards_front1_s_png,common_homeBg_png,login_archiveBg_png,login_newArchive_png,effect_blank1_tex_png,effect_blank1_mc_json,effect_blank_tex_png,effect_blank_mc_json,effect_cable1_tex_png,effect_cable1_mc_json,effect_cable_tex_png,effect_cable_mc_json,effect_click_tex_png,effect_click_mc_json,effect_frame_tex_png,effect_frame_mc_json,effect_guard_tex_png,effect_guard_mc_json,effect_invincible_tex_png,effect_invincible_mc_json,effect_surrender_tex_png,effect_surrender_mc_json,effect_taunt_tex_png,effect_taunt_mc_json,effect_water_tex_png,effect_water_mc_json,king_ui_assets_cards_back_b_png,king_ui_assets_cards_back_m_png,king_ui_assets_cards_back_s_png,common_sound_blank_mp3,common_sound_count_mp3,home_campignIcon_select_png,home_cardPoolIcon_select_png,home_matchIcon_select_png,common_sound_lose_mp3,common_sound_win_mp3,common_sound_count1_mp3,common_sound_count2_mp3,common_sound_count3_mp3,common_sound_count4_mp3,common_sound_count5_mp3,common_sound_count6_mp3,common_sound_count7_mp3,common_sound_count8_mp3,common_sound_count9_mp3,home_kuang_png,home_yinliang3_png,home_yinyue3_png,treasure_0_png,treasure_1_png,treasure_2_png,treasure_3_png,treasure_4_png,treasure_bg_jpg,home@atlas0_png,home_yinliang0_png,home_yinliang1_png,home_yinliang2_png,home_yinyue0_png,home_yinyue1_png,home_yinyue2_png,battle_star0_png,battle_star1_png,common_highlight_png,treasure_light_png",
+			"name": "preload"
+		},
+		{
+			"keys": "loading_fui,loading_loadingBar_png,loading_loadingBarBg_png,loading_loadingBg_png",
+			"name": "loading"
+		},
+		{
+			"keys": "card_b_0_png,card_b_1_png,card_b_10_png,card_b_101_png,card_b_102_png,card_b_106_png,card_b_107_png,card_b_108_png,card_b_109_png,card_b_11_png,card_b_110_png,card_b_111_png,card_b_112_png,card_b_114_png,card_b_115_png,card_b_116_png,card_b_117_png,card_b_118_png,card_b_119_png,card_b_12_png,card_b_120_png,card_b_121_png,card_b_122_png,card_b_123_png,card_b_124_png,card_b_125_png,card_b_126_png,card_b_127_png,card_b_128_png,card_b_129_png,card_b_13_png,card_b_130_png,card_b_131_png,card_b_132_png,card_b_133_png,card_b_134_png,card_b_136_png,card_b_137_png,card_b_138_png,card_b_139_png,card_b_14_png,card_b_140_png,card_b_141_png,card_b_142_png,card_b_143_png,card_b_144_png,card_b_145_png,card_b_146_png,card_b_147_png,card_b_2_png,card_b_21_png,card_b_22_png,card_b_23_png,card_b_24_png,card_b_25_png,card_b_26_png,card_b_27_png,card_b_28_png,card_b_29_png,card_b_3_png,card_b_30_png,card_b_31_png,card_b_32_png,card_b_33_png,card_b_34_png,card_b_4_png,card_b_41_png,card_b_42_png,card_b_43_png,card_b_44_png,card_b_45_png,card_b_46_png,card_b_47_png,card_b_48_png,card_b_49_png,card_b_5_png,card_b_50_png,card_b_51_png,card_b_52_png,card_b_53_png,card_b_54_png,card_b_6_png,card_b_61_png,card_b_62_png,card_b_63_png,card_b_64_png,card_b_65_png,card_b_66_png,card_b_7_png,card_b_8_png,card_b_9_png,card_b_999_png,card_m_0_png,card_m_1_png,card_m_10_png,card_m_101_png,card_m_102_png,card_m_106_png,card_m_107_png,card_m_108_png,card_m_109_png,card_m_11_png,card_m_110_png,card_m_111_png,card_m_112_png,card_m_114_png,card_m_115_png,card_m_116_png,card_m_117_png,card_m_118_png,card_m_119_png,card_m_12_png,card_m_120_png,card_m_121_png,card_m_122_png,card_m_123_png,card_m_124_png,card_m_125_png,card_m_126_png,card_m_127_png,card_m_128_png,card_m_129_png,card_m_13_png,card_m_130_png,card_m_131_png,card_m_132_png,card_m_133_png,card_m_134_png,card_m_136_png,card_m_137_png,card_m_138_png,card_m_139_png,card_m_14_png,card_m_140_png,card_m_141_png,card_m_142_png,card_m_143_png,card_m_144_png,card_m_145_png,card_m_146_png,card_m_147_png,card_m_2_png,card_m_21_png,card_m_22_png,card_m_23_png,card_m_24_png,card_m_25_png,card_m_26_png,card_m_27_png,card_m_28_png,card_m_29_png,card_m_3_png,card_m_30_png,card_m_31_png,card_m_32_png,card_m_33_png,card_m_34_png,card_m_4_png,card_m_41_png,card_m_42_png,card_m_43_png,card_m_44_png,card_m_45_png,card_m_46_png,card_m_47_png,card_m_48_png,card_m_49_png,card_m_5_png,card_m_50_png,card_m_51_png,card_m_52_png,card_m_53_png,card_m_54_png,card_m_6_png,card_m_61_png,card_m_62_png,card_m_63_png,card_m_64_png,card_m_65_png,card_m_66_png,card_m_7_png,card_m_8_png,card_m_9_png,card_m_999_png,card_s_0_png,card_s_1_png,card_s_10_png,card_s_101_png,card_s_102_png,card_s_106_png,card_s_107_png,card_s_108_png,card_s_109_png,card_s_11_png,card_s_110_png,card_s_111_png,card_s_112_png,card_s_114_png,card_s_115_png,card_s_116_png,card_s_117_png,card_s_118_png,card_s_119_png,card_s_12_png,card_s_120_png,card_s_121_png,card_s_122_png,card_s_123_png,card_s_124_png,card_s_125_png,card_s_126_png,card_s_127_png,card_s_128_png,card_s_129_png,card_s_13_png,card_s_130_png,card_s_131_png,card_s_132_png,card_s_133_png,card_s_134_png,card_s_136_png,card_s_137_png,card_s_138_png,card_s_139_png,card_s_14_png,card_s_140_png,card_s_141_png,card_s_142_png,card_s_143_png,card_s_144_png,card_s_145_png,card_s_146_png,card_s_147_png,card_s_2_png,card_s_21_png,card_s_22_png,card_s_23_png,card_s_24_png,card_s_25_png,card_s_26_png,card_s_27_png,card_s_28_png,card_s_29_png,card_s_3_png,card_s_30_png,card_s_31_png,card_s_32_png,card_s_33_png,card_s_34_png,card_s_4_png,card_s_41_png,card_s_42_png,card_s_43_png,card_s_44_png,card_s_45_png,card_s_46_png,card_s_47_png,card_s_48_png,card_s_49_png,card_s_5_png,card_s_50_png,card_s_51_png,card_s_52_png,card_s_53_png,card_s_54_png,card_s_6_png,card_s_61_png,card_s_62_png,card_s_63_png,card_s_64_png,card_s_65_png,card_s_66_png,card_s_7_png,card_s_8_png,card_s_9_png,card_s_999_png,card_b_148_png,card_m_148_png,card_s_148_png,cards_skillSlot_m_png,cards_skillSlot_s_png",
+			"name": "card"
+		},
+		{
+			"keys": "click_mp3,cards_back1_b_png,cards_back2_b_png,cards_base_b_png,cards_base_m_png,cards_circle_m_png,cards_energyBarImg_png,cards_expBarImg_png,cards_front1_m_png,cards_front2_m_png,cards_front2_s_png,cards_lightCircleImg_png,cards_opponent2_s_png,cards_progressFront_png,cards_selectedCardImg_png,cards_text_b_png,card_b_999_png,card_m_999_png,card_s_999_png,battle_loseBonusBg_png,battle_winBonusBg_png,effect_wind2_tex_png,effect_wind2_mc_json,effect_wind1_tex_png,effect_wind1_mc_json,effect_wave_tex_png,effect_wave_mc_json,effect_stone_tex_png,effect_stone_mc_json,effect_match_tex_png,effect_match_mc_json,effect_lighting_tex_png,effect_lighting_mc_json,effect_knife_tex_png,effect_knife_mc_json,effect_invincible_tex_png,effect_invincible_mc_json,effect_hook_tex_png,effect_hook_mc_json,effect_hammer_tex_png,effect_hammer_mc_json,effect_gun_tex_png,effect_gun_mc_json,effect_flower_tex_png,effect_flower_mc_json,effect_eye_tex_png,effect_eye_mc_json,effect_arrow_tex_png,effect_arrow_mc_json,effect_ambush_tex_png,effect_ambush_mc_json,wave_mp3,stone_mp3,lighting_mp3,knife_mp3,hook_mp3,hammer_mp3,gun_mp3,guard_mp3,frame_mp3,flower_mp3,finger_mp3,cable_mp3,arrow_mp3,turn_mp3,newcard_mp3,uplevel_mp3,playcard_mp3,addexp_mp3,page_mp3",
+			"name": "common"
+		}
+	],
+	"resources": [
+		{
+			"url": "king_ui/assets/battle/desk.png",
+			"type": "image",
+			"name": "battle_desk_png"
+		},
+		{
+			"url": "king_ui/assets/battle/loseBg1.png",
+			"type": "image",
+			"name": "battle_loseBg1_png"
+		},
+		{
+			"url": "king_ui/assets/battle/loseBg2.png",
+			"type": "image",
+			"name": "battle_loseBg2_png"
+		},
+		{
+			"url": "king_ui/assets/battle/loseBonusBg.png",
+			"type": "image",
+			"name": "battle_loseBonusBg_png"
+		},
+		{
+			"url": "king_ui/assets/battle/loseIcon.png",
+			"type": "image",
+			"name": "battle_loseIcon_png"
+		},
+		{
+			"url": "king_ui/assets/battle/newCardLight.png",
+			"type": "image",
+			"name": "battle_newCardLight_png"
+		},
+		{
+			"url": "king_ui/assets/battle/selectGrid.png",
+			"type": "image",
+			"name": "battle_selectGrid_png"
+		},
+		{
+			"url": "king_ui/assets/battle/winBg1.png",
+			"type": "image",
+			"name": "battle_winBg1_png"
+		},
+		{
+			"url": "king_ui/assets/battle/winBg2.png",
+			"type": "image",
+			"name": "battle_winBg2_png"
+		},
+		{
+			"url": "king_ui/assets/battle/winBonusBg.png",
+			"type": "image",
+			"name": "battle_winBonusBg_png"
+		},
+		{
+			"url": "king_ui/assets/battle/winIcon.png",
+			"type": "image",
+			"name": "battle_winIcon_png"
+		},
+		{
+			"url": "king_ui/assets/campign/battleIcon.png",
+			"type": "image",
+			"name": "campign_battleIcon_png"
+		},
+		{
+			"url": "king_ui/assets/campign/bg.png",
+			"type": "image",
+			"name": "campign_bg_png"
+		},
+		{
+			"url": "king_ui/assets/campign/castle.png",
+			"type": "image",
+			"name": "campign_castle_png"
+		},
+		{
+			"url": "king_ui/assets/campign/castleIcon.png",
+			"type": "image",
+			"name": "campign_castleIcon_png"
+		},
+		{
+			"url": "king_ui/assets/campign/castleSkillBg.png",
+			"type": "image",
+			"name": "campign_castleSkillBg_png"
+		},
+		{
+			"url": "king_ui/assets/campign/drumIcon.png",
+			"type": "image",
+			"name": "campign_drumIcon_png"
+		},
+		{
+			"url": "king_ui/assets/campign/figIcon.png",
+			"type": "image",
+			"name": "campign_figIcon_png"
+		},
+		{
+			"url": "king_ui/assets/campign/figProgressBar.png",
+			"type": "image",
+			"name": "campign_figProgressBar_png"
+		},
+		{
+			"url": "king_ui/assets/campign/figProgressBarBg.png",
+			"type": "image",
+			"name": "campign_figProgressBarBg_png"
+		},
+		{
+			"url": "king_ui/assets/campign/goBackIcon.png",
+			"type": "image",
+			"name": "campign_goBackIcon_png"
+		},
+		{
+			"url": "king_ui/assets/campign/marchIcon.png",
+			"type": "image",
+			"name": "campign_marchIcon_png"
+		},
+		{
+			"url": "king_ui/assets/campign/progressBarBg.png",
+			"type": "image",
+			"name": "campign_progressBarBg_png"
+		},
+		{
+			"url": "king_ui/assets/campign/redflagIcon.png",
+			"type": "image",
+			"name": "campign_redflagIcon_png"
+		},
+		{
+			"url": "king_ui/assets/campign/shuBg.png",
+			"type": "image",
+			"name": "campign_shuBg_png"
+		},
+		{
+			"url": "king_ui/assets/campign/shuIcon.png",
+			"type": "image",
+			"name": "campign_shuIcon_png"
+		},
+		{
+			"url": "king_ui/assets/campign/shuProgressBar.png",
+			"type": "image",
+			"name": "campign_shuProgressBar_png"
+		},
+		{
+			"url": "king_ui/assets/campign/stone.png",
+			"type": "image",
+			"name": "campign_stone_png"
+		},
+		{
+			"url": "king_ui/assets/campign/titleBg.png",
+			"type": "image",
+			"name": "campign_titleBg_png"
+		},
+		{
+			"url": "king_ui/assets/campign/wall.png",
+			"type": "image",
+			"name": "campign_wall_png"
+		},
+		{
+			"url": "king_ui/assets/campign/weiBg.png",
+			"type": "image",
+			"name": "campign_weiBg_png"
+		},
+		{
+			"url": "king_ui/assets/campign/weiIcon.png",
+			"type": "image",
+			"name": "campign_weiIcon_png"
+		},
+		{
+			"url": "king_ui/assets/campign/weiProgressBar.png",
+			"type": "image",
+			"name": "campign_weiProgressBar_png"
+		},
+		{
+			"url": "king_ui/assets/campign/wuBg.png",
+			"type": "image",
+			"name": "campign_wuBg_png"
+		},
+		{
+			"url": "king_ui/assets/campign/wuIcon.png",
+			"type": "image",
+			"name": "campign_wuIcon_png"
+		},
+		{
+			"url": "king_ui/assets/campign/wuProgressBar.png",
+			"type": "image",
+			"name": "campign_wuProgressBar_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/0.png",
+			"type": "image",
+			"name": "card_b_0_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/1.png",
+			"type": "image",
+			"name": "card_b_1_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/10.png",
+			"type": "image",
+			"name": "card_b_10_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/101.png",
+			"type": "image",
+			"name": "card_b_101_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/102.png",
+			"type": "image",
+			"name": "card_b_102_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/106.png",
+			"type": "image",
+			"name": "card_b_106_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/107.png",
+			"type": "image",
+			"name": "card_b_107_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/108.png",
+			"type": "image",
+			"name": "card_b_108_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/109.png",
+			"type": "image",
+			"name": "card_b_109_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/11.png",
+			"type": "image",
+			"name": "card_b_11_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/110.png",
+			"type": "image",
+			"name": "card_b_110_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/111.png",
+			"type": "image",
+			"name": "card_b_111_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/112.png",
+			"type": "image",
+			"name": "card_b_112_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/114.png",
+			"type": "image",
+			"name": "card_b_114_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/115.png",
+			"type": "image",
+			"name": "card_b_115_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/116.png",
+			"type": "image",
+			"name": "card_b_116_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/117.png",
+			"type": "image",
+			"name": "card_b_117_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/118.png",
+			"type": "image",
+			"name": "card_b_118_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/119.png",
+			"type": "image",
+			"name": "card_b_119_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/12.png",
+			"type": "image",
+			"name": "card_b_12_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/120.png",
+			"type": "image",
+			"name": "card_b_120_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/121.png",
+			"type": "image",
+			"name": "card_b_121_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/122.png",
+			"type": "image",
+			"name": "card_b_122_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/123.png",
+			"type": "image",
+			"name": "card_b_123_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/124.png",
+			"type": "image",
+			"name": "card_b_124_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/125.png",
+			"type": "image",
+			"name": "card_b_125_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/126.png",
+			"type": "image",
+			"name": "card_b_126_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/127.png",
+			"type": "image",
+			"name": "card_b_127_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/128.png",
+			"type": "image",
+			"name": "card_b_128_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/129.png",
+			"type": "image",
+			"name": "card_b_129_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/13.png",
+			"type": "image",
+			"name": "card_b_13_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/130.png",
+			"type": "image",
+			"name": "card_b_130_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/131.png",
+			"type": "image",
+			"name": "card_b_131_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/132.png",
+			"type": "image",
+			"name": "card_b_132_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/133.png",
+			"type": "image",
+			"name": "card_b_133_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/134.png",
+			"type": "image",
+			"name": "card_b_134_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/136.png",
+			"type": "image",
+			"name": "card_b_136_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/137.png",
+			"type": "image",
+			"name": "card_b_137_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/138.png",
+			"type": "image",
+			"name": "card_b_138_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/139.png",
+			"type": "image",
+			"name": "card_b_139_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/14.png",
+			"type": "image",
+			"name": "card_b_14_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/140.png",
+			"type": "image",
+			"name": "card_b_140_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/141.png",
+			"type": "image",
+			"name": "card_b_141_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/142.png",
+			"type": "image",
+			"name": "card_b_142_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/143.png",
+			"type": "image",
+			"name": "card_b_143_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/144.png",
+			"type": "image",
+			"name": "card_b_144_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/145.png",
+			"type": "image",
+			"name": "card_b_145_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/146.png",
+			"type": "image",
+			"name": "card_b_146_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/147.png",
+			"type": "image",
+			"name": "card_b_147_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/2.png",
+			"type": "image",
+			"name": "card_b_2_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/21.png",
+			"type": "image",
+			"name": "card_b_21_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/22.png",
+			"type": "image",
+			"name": "card_b_22_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/23.png",
+			"type": "image",
+			"name": "card_b_23_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/24.png",
+			"type": "image",
+			"name": "card_b_24_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/25.png",
+			"type": "image",
+			"name": "card_b_25_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/26.png",
+			"type": "image",
+			"name": "card_b_26_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/27.png",
+			"type": "image",
+			"name": "card_b_27_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/28.png",
+			"type": "image",
+			"name": "card_b_28_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/29.png",
+			"type": "image",
+			"name": "card_b_29_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/3.png",
+			"type": "image",
+			"name": "card_b_3_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/30.png",
+			"type": "image",
+			"name": "card_b_30_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/31.png",
+			"type": "image",
+			"name": "card_b_31_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/32.png",
+			"type": "image",
+			"name": "card_b_32_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/33.png",
+			"type": "image",
+			"name": "card_b_33_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/34.png",
+			"type": "image",
+			"name": "card_b_34_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/4.png",
+			"type": "image",
+			"name": "card_b_4_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/41.png",
+			"type": "image",
+			"name": "card_b_41_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/42.png",
+			"type": "image",
+			"name": "card_b_42_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/43.png",
+			"type": "image",
+			"name": "card_b_43_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/44.png",
+			"type": "image",
+			"name": "card_b_44_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/45.png",
+			"type": "image",
+			"name": "card_b_45_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/46.png",
+			"type": "image",
+			"name": "card_b_46_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/47.png",
+			"type": "image",
+			"name": "card_b_47_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/48.png",
+			"type": "image",
+			"name": "card_b_48_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/49.png",
+			"type": "image",
+			"name": "card_b_49_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/5.png",
+			"type": "image",
+			"name": "card_b_5_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/50.png",
+			"type": "image",
+			"name": "card_b_50_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/51.png",
+			"type": "image",
+			"name": "card_b_51_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/52.png",
+			"type": "image",
+			"name": "card_b_52_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/53.png",
+			"type": "image",
+			"name": "card_b_53_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/54.png",
+			"type": "image",
+			"name": "card_b_54_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/6.png",
+			"type": "image",
+			"name": "card_b_6_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/61.png",
+			"type": "image",
+			"name": "card_b_61_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/62.png",
+			"type": "image",
+			"name": "card_b_62_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/63.png",
+			"type": "image",
+			"name": "card_b_63_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/64.png",
+			"type": "image",
+			"name": "card_b_64_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/65.png",
+			"type": "image",
+			"name": "card_b_65_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/66.png",
+			"type": "image",
+			"name": "card_b_66_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/7.png",
+			"type": "image",
+			"name": "card_b_7_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/8.png",
+			"type": "image",
+			"name": "card_b_8_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/9.png",
+			"type": "image",
+			"name": "card_b_9_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/999.png",
+			"type": "image",
+			"name": "card_b_999_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/0.png",
+			"type": "image",
+			"name": "card_m_0_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/1.png",
+			"type": "image",
+			"name": "card_m_1_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/10.png",
+			"type": "image",
+			"name": "card_m_10_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/101.png",
+			"type": "image",
+			"name": "card_m_101_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/102.png",
+			"type": "image",
+			"name": "card_m_102_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/106.png",
+			"type": "image",
+			"name": "card_m_106_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/107.png",
+			"type": "image",
+			"name": "card_m_107_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/108.png",
+			"type": "image",
+			"name": "card_m_108_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/109.png",
+			"type": "image",
+			"name": "card_m_109_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/11.png",
+			"type": "image",
+			"name": "card_m_11_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/110.png",
+			"type": "image",
+			"name": "card_m_110_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/111.png",
+			"type": "image",
+			"name": "card_m_111_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/112.png",
+			"type": "image",
+			"name": "card_m_112_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/114.png",
+			"type": "image",
+			"name": "card_m_114_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/115.png",
+			"type": "image",
+			"name": "card_m_115_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/116.png",
+			"type": "image",
+			"name": "card_m_116_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/117.png",
+			"type": "image",
+			"name": "card_m_117_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/118.png",
+			"type": "image",
+			"name": "card_m_118_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/119.png",
+			"type": "image",
+			"name": "card_m_119_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/12.png",
+			"type": "image",
+			"name": "card_m_12_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/120.png",
+			"type": "image",
+			"name": "card_m_120_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/121.png",
+			"type": "image",
+			"name": "card_m_121_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/122.png",
+			"type": "image",
+			"name": "card_m_122_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/123.png",
+			"type": "image",
+			"name": "card_m_123_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/124.png",
+			"type": "image",
+			"name": "card_m_124_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/125.png",
+			"type": "image",
+			"name": "card_m_125_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/126.png",
+			"type": "image",
+			"name": "card_m_126_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/127.png",
+			"type": "image",
+			"name": "card_m_127_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/128.png",
+			"type": "image",
+			"name": "card_m_128_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/129.png",
+			"type": "image",
+			"name": "card_m_129_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/13.png",
+			"type": "image",
+			"name": "card_m_13_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/130.png",
+			"type": "image",
+			"name": "card_m_130_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/131.png",
+			"type": "image",
+			"name": "card_m_131_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/132.png",
+			"type": "image",
+			"name": "card_m_132_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/133.png",
+			"type": "image",
+			"name": "card_m_133_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/134.png",
+			"type": "image",
+			"name": "card_m_134_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/136.png",
+			"type": "image",
+			"name": "card_m_136_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/137.png",
+			"type": "image",
+			"name": "card_m_137_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/138.png",
+			"type": "image",
+			"name": "card_m_138_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/139.png",
+			"type": "image",
+			"name": "card_m_139_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/14.png",
+			"type": "image",
+			"name": "card_m_14_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/140.png",
+			"type": "image",
+			"name": "card_m_140_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/141.png",
+			"type": "image",
+			"name": "card_m_141_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/142.png",
+			"type": "image",
+			"name": "card_m_142_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/143.png",
+			"type": "image",
+			"name": "card_m_143_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/144.png",
+			"type": "image",
+			"name": "card_m_144_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/145.png",
+			"type": "image",
+			"name": "card_m_145_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/146.png",
+			"type": "image",
+			"name": "card_m_146_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/147.png",
+			"type": "image",
+			"name": "card_m_147_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/2.png",
+			"type": "image",
+			"name": "card_m_2_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/21.png",
+			"type": "image",
+			"name": "card_m_21_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/22.png",
+			"type": "image",
+			"name": "card_m_22_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/23.png",
+			"type": "image",
+			"name": "card_m_23_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/24.png",
+			"type": "image",
+			"name": "card_m_24_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/25.png",
+			"type": "image",
+			"name": "card_m_25_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/26.png",
+			"type": "image",
+			"name": "card_m_26_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/27.png",
+			"type": "image",
+			"name": "card_m_27_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/28.png",
+			"type": "image",
+			"name": "card_m_28_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/29.png",
+			"type": "image",
+			"name": "card_m_29_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/3.png",
+			"type": "image",
+			"name": "card_m_3_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/30.png",
+			"type": "image",
+			"name": "card_m_30_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/31.png",
+			"type": "image",
+			"name": "card_m_31_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/32.png",
+			"type": "image",
+			"name": "card_m_32_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/33.png",
+			"type": "image",
+			"name": "card_m_33_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/34.png",
+			"type": "image",
+			"name": "card_m_34_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/4.png",
+			"type": "image",
+			"name": "card_m_4_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/41.png",
+			"type": "image",
+			"name": "card_m_41_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/42.png",
+			"type": "image",
+			"name": "card_m_42_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/43.png",
+			"type": "image",
+			"name": "card_m_43_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/44.png",
+			"type": "image",
+			"name": "card_m_44_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/45.png",
+			"type": "image",
+			"name": "card_m_45_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/46.png",
+			"type": "image",
+			"name": "card_m_46_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/47.png",
+			"type": "image",
+			"name": "card_m_47_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/48.png",
+			"type": "image",
+			"name": "card_m_48_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/49.png",
+			"type": "image",
+			"name": "card_m_49_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/5.png",
+			"type": "image",
+			"name": "card_m_5_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/50.png",
+			"type": "image",
+			"name": "card_m_50_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/51.png",
+			"type": "image",
+			"name": "card_m_51_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/52.png",
+			"type": "image",
+			"name": "card_m_52_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/53.png",
+			"type": "image",
+			"name": "card_m_53_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/54.png",
+			"type": "image",
+			"name": "card_m_54_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/6.png",
+			"type": "image",
+			"name": "card_m_6_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/61.png",
+			"type": "image",
+			"name": "card_m_61_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/62.png",
+			"type": "image",
+			"name": "card_m_62_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/63.png",
+			"type": "image",
+			"name": "card_m_63_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/64.png",
+			"type": "image",
+			"name": "card_m_64_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/65.png",
+			"type": "image",
+			"name": "card_m_65_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/66.png",
+			"type": "image",
+			"name": "card_m_66_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/7.png",
+			"type": "image",
+			"name": "card_m_7_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/8.png",
+			"type": "image",
+			"name": "card_m_8_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/9.png",
+			"type": "image",
+			"name": "card_m_9_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/999.png",
+			"type": "image",
+			"name": "card_m_999_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/0.png",
+			"type": "image",
+			"name": "card_s_0_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/1.png",
+			"type": "image",
+			"name": "card_s_1_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/10.png",
+			"type": "image",
+			"name": "card_s_10_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/101.png",
+			"type": "image",
+			"name": "card_s_101_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/102.png",
+			"type": "image",
+			"name": "card_s_102_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/106.png",
+			"type": "image",
+			"name": "card_s_106_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/107.png",
+			"type": "image",
+			"name": "card_s_107_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/108.png",
+			"type": "image",
+			"name": "card_s_108_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/109.png",
+			"type": "image",
+			"name": "card_s_109_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/11.png",
+			"type": "image",
+			"name": "card_s_11_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/110.png",
+			"type": "image",
+			"name": "card_s_110_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/111.png",
+			"type": "image",
+			"name": "card_s_111_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/112.png",
+			"type": "image",
+			"name": "card_s_112_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/114.png",
+			"type": "image",
+			"name": "card_s_114_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/115.png",
+			"type": "image",
+			"name": "card_s_115_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/116.png",
+			"type": "image",
+			"name": "card_s_116_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/117.png",
+			"type": "image",
+			"name": "card_s_117_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/118.png",
+			"type": "image",
+			"name": "card_s_118_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/119.png",
+			"type": "image",
+			"name": "card_s_119_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/12.png",
+			"type": "image",
+			"name": "card_s_12_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/120.png",
+			"type": "image",
+			"name": "card_s_120_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/121.png",
+			"type": "image",
+			"name": "card_s_121_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/122.png",
+			"type": "image",
+			"name": "card_s_122_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/123.png",
+			"type": "image",
+			"name": "card_s_123_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/124.png",
+			"type": "image",
+			"name": "card_s_124_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/125.png",
+			"type": "image",
+			"name": "card_s_125_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/126.png",
+			"type": "image",
+			"name": "card_s_126_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/127.png",
+			"type": "image",
+			"name": "card_s_127_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/128.png",
+			"type": "image",
+			"name": "card_s_128_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/129.png",
+			"type": "image",
+			"name": "card_s_129_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/13.png",
+			"type": "image",
+			"name": "card_s_13_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/130.png",
+			"type": "image",
+			"name": "card_s_130_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/131.png",
+			"type": "image",
+			"name": "card_s_131_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/132.png",
+			"type": "image",
+			"name": "card_s_132_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/133.png",
+			"type": "image",
+			"name": "card_s_133_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/134.png",
+			"type": "image",
+			"name": "card_s_134_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/136.png",
+			"type": "image",
+			"name": "card_s_136_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/137.png",
+			"type": "image",
+			"name": "card_s_137_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/138.png",
+			"type": "image",
+			"name": "card_s_138_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/139.png",
+			"type": "image",
+			"name": "card_s_139_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/14.png",
+			"type": "image",
+			"name": "card_s_14_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/140.png",
+			"type": "image",
+			"name": "card_s_140_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/141.png",
+			"type": "image",
+			"name": "card_s_141_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/142.png",
+			"type": "image",
+			"name": "card_s_142_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/143.png",
+			"type": "image",
+			"name": "card_s_143_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/144.png",
+			"type": "image",
+			"name": "card_s_144_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/145.png",
+			"type": "image",
+			"name": "card_s_145_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/146.png",
+			"type": "image",
+			"name": "card_s_146_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/147.png",
+			"type": "image",
+			"name": "card_s_147_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/2.png",
+			"type": "image",
+			"name": "card_s_2_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/21.png",
+			"type": "image",
+			"name": "card_s_21_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/22.png",
+			"type": "image",
+			"name": "card_s_22_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/23.png",
+			"type": "image",
+			"name": "card_s_23_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/24.png",
+			"type": "image",
+			"name": "card_s_24_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/25.png",
+			"type": "image",
+			"name": "card_s_25_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/26.png",
+			"type": "image",
+			"name": "card_s_26_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/27.png",
+			"type": "image",
+			"name": "card_s_27_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/28.png",
+			"type": "image",
+			"name": "card_s_28_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/29.png",
+			"type": "image",
+			"name": "card_s_29_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/3.png",
+			"type": "image",
+			"name": "card_s_3_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/30.png",
+			"type": "image",
+			"name": "card_s_30_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/31.png",
+			"type": "image",
+			"name": "card_s_31_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/32.png",
+			"type": "image",
+			"name": "card_s_32_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/33.png",
+			"type": "image",
+			"name": "card_s_33_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/34.png",
+			"type": "image",
+			"name": "card_s_34_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/4.png",
+			"type": "image",
+			"name": "card_s_4_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/41.png",
+			"type": "image",
+			"name": "card_s_41_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/42.png",
+			"type": "image",
+			"name": "card_s_42_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/43.png",
+			"type": "image",
+			"name": "card_s_43_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/44.png",
+			"type": "image",
+			"name": "card_s_44_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/45.png",
+			"type": "image",
+			"name": "card_s_45_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/46.png",
+			"type": "image",
+			"name": "card_s_46_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/47.png",
+			"type": "image",
+			"name": "card_s_47_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/48.png",
+			"type": "image",
+			"name": "card_s_48_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/49.png",
+			"type": "image",
+			"name": "card_s_49_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/5.png",
+			"type": "image",
+			"name": "card_s_5_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/50.png",
+			"type": "image",
+			"name": "card_s_50_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/51.png",
+			"type": "image",
+			"name": "card_s_51_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/52.png",
+			"type": "image",
+			"name": "card_s_52_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/53.png",
+			"type": "image",
+			"name": "card_s_53_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/54.png",
+			"type": "image",
+			"name": "card_s_54_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/6.png",
+			"type": "image",
+			"name": "card_s_6_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/61.png",
+			"type": "image",
+			"name": "card_s_61_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/62.png",
+			"type": "image",
+			"name": "card_s_62_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/63.png",
+			"type": "image",
+			"name": "card_s_63_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/64.png",
+			"type": "image",
+			"name": "card_s_64_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/65.png",
+			"type": "image",
+			"name": "card_s_65_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/66.png",
+			"type": "image",
+			"name": "card_s_66_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/7.png",
+			"type": "image",
+			"name": "card_s_7_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/8.png",
+			"type": "image",
+			"name": "card_s_8_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/9.png",
+			"type": "image",
+			"name": "card_s_9_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/999.png",
+			"type": "image",
+			"name": "card_s_999_png"
+		},
+		{
+			"url": "king_ui/assets/cardpool/energyBarImg.png",
+			"type": "image",
+			"name": "cardpool_energyBarImg_png"
+		},
+		{
+			"url": "king_ui/assets/cardpool/expBarImg.png",
+			"type": "image",
+			"name": "cardpool_expBarImg_png"
+		},
+		{
+			"url": "king_ui/assets/cardpool/progressFront.png",
+			"type": "image",
+			"name": "cardpool_progressFront_png"
+		},
+		{
+			"url": "king_ui/assets/cardpool/qunText.png",
+			"type": "image",
+			"name": "cardpool_qunText_png"
+		},
+		{
+			"url": "king_ui/assets/cardpool/shuText.png",
+			"type": "image",
+			"name": "cardpool_shuText_png"
+		},
+		{
+			"url": "king_ui/assets/cardpool/treatBtnImg.png",
+			"type": "image",
+			"name": "cardpool_treatBtnImg_png"
+		},
+		{
+			"url": "king_ui/assets/cardpool/uplevelBtnImg.png",
+			"type": "image",
+			"name": "cardpool_uplevelBtnImg_png"
+		},
+		{
+			"url": "king_ui/assets/cardpool/weiText.png",
+			"type": "image",
+			"name": "cardpool_weiText_png"
+		},
+		{
+			"url": "king_ui/assets/cardpool/wuText.png",
+			"type": "image",
+			"name": "cardpool_wuText_png"
+		},
+		{
+			"url": "king_ui/assets/cards/back1_b.png",
+			"type": "image",
+			"name": "cards_back1_b_png"
+		},
+		{
+			"url": "king_ui/assets/cards/back2_b.png",
+			"type": "image",
+			"name": "cards_back2_b_png"
+		},
+		{
+			"url": "king_ui/assets/cards/base_b.png",
+			"type": "image",
+			"name": "cards_base_b_png"
+		},
+		{
+			"url": "king_ui/assets/cards/base_m.png",
+			"type": "image",
+			"name": "cards_base_m_png"
+		},
+		{
+			"url": "king_ui/assets/cards/base_s.png",
+			"type": "image",
+			"name": "cards_base_s_png"
+		},
+		{
+			"url": "king_ui/assets/cards/circle_m.png",
+			"type": "image",
+			"name": "cards_circle_m_png"
+		},
+		{
+			"url": "king_ui/assets/cards/circle_s.png",
+			"type": "image",
+			"name": "cards_circle_s_png"
+		},
+		{
+			"url": "king_ui/assets/cards/energyBarImg.png",
+			"type": "image",
+			"name": "cards_energyBarImg_png"
+		},
+		{
+			"url": "king_ui/assets/cards/expBarImg.png",
+			"type": "image",
+			"name": "cards_expBarImg_png"
+		},
+		{
+			"url": "king_ui/assets/cards/front1_m.png",
+			"type": "image",
+			"name": "cards_front1_m_png"
+		},
+		{
+			"url": "king_ui/assets/cards/front1_s.png",
+			"type": "image",
+			"name": "cards_front1_s_png"
+		},
+		{
+			"url": "king_ui/assets/cards/front2_m.png",
+			"type": "image",
+			"name": "cards_front2_m_png"
+		},
+		{
+			"url": "king_ui/assets/cards/front2_s.png",
+			"type": "image",
+			"name": "cards_front2_s_png"
+		},
+		{
+			"url": "king_ui/assets/cards/lightCircleImg.png",
+			"type": "image",
+			"name": "cards_lightCircleImg_png"
+		},
+		{
+			"url": "king_ui/assets/cards/opponent2_s.png",
+			"type": "image",
+			"name": "cards_opponent2_s_png"
+		},
+		{
+			"url": "king_ui/assets/cards/progressFront.png",
+			"type": "image",
+			"name": "cards_progressFront_png"
+		},
+		{
+			"url": "king_ui/assets/cards/selectedCardImg.png",
+			"type": "image",
+			"name": "cards_selectedCardImg_png"
+		},
+		{
+			"url": "king_ui/assets/cards/text_b.png",
+			"type": "image",
+			"name": "cards_text_b_png"
+		},
+		{
+			"url": "king_ui/assets/common/amountBg.png",
+			"type": "image",
+			"name": "common_amountBg_png"
+		},
+		{
+			"url": "king_ui/assets/common/backBtnImg.png",
+			"type": "image",
+			"name": "common_backBtnImg_png"
+		},
+		{
+			"url": "king_ui/assets/common/ban.png",
+			"type": "image",
+			"name": "common_ban_png"
+		},
+		{
+			"url": "king_ui/assets/common/baseBtnImg.png",
+			"type": "image",
+			"name": "common_baseBtnImg_png"
+		},
+		{
+			"url": "king_ui/assets/common/bg1.png",
+			"type": "image",
+			"name": "common_bg1_png"
+		},
+		{
+			"url": "king_ui/assets/common/bgKuang.png",
+			"type": "image",
+			"name": "common_bgKuang_png"
+		},
+		{
+			"url": "king_ui/assets/common/blueBtnImg.png",
+			"type": "image",
+			"name": "common_blueBtnImg_png"
+		},
+		{
+			"url": "king_ui/assets/common/book.png",
+			"type": "image",
+			"name": "common_book_png"
+		},
+		{
+			"url": "king_ui/assets/common/cardClickIcon.png",
+			"type": "image",
+			"name": "common_cardClickIcon_png"
+		},
+		{
+			"url": "king_ui/assets/common/castleSkillIcon.png",
+			"type": "image",
+			"name": "common_castleSkillIcon_png"
+		},
+		{
+			"url": "king_ui/assets/common/choiceBtnBgImg.png",
+			"type": "image",
+			"name": "common_choiceBtnBgImg_png"
+		},
+		{
+			"url": "king_ui/assets/common/closeBtnImg.png",
+			"type": "image",
+			"name": "common_closeBtnImg_png"
+		},
+		{
+			"url": "king_ui/assets/common/forage.png",
+			"type": "image",
+			"name": "common_forage_png"
+		},
+		{
+			"url": "king_ui/assets/common/gold.png",
+			"type": "image",
+			"name": "common_gold_png"
+		},
+		{
+			"url": "king_ui/assets/common/grayBtnImg.png",
+			"type": "image",
+			"name": "common_grayBtnImg_png"
+		},
+		{
+			"url": "king_ui/assets/common/grayBtnImg2.png",
+			"type": "image",
+			"name": "common_grayBtnImg2_png"
+		},
+		{
+			"url": "king_ui/assets/common/greenBtnImg.png",
+			"type": "image",
+			"name": "common_greenBtnImg_png"
+		},
+		{
+			"url": "king_ui/assets/common/hand_grid.png",
+			"type": "image",
+			"name": "common_hand_grid_png"
+		},
+		{
+			"url": "king_ui/assets/common/homeBg.png",
+			"type": "image",
+			"name": "common_homeBg_png"
+		},
+		{
+			"url": "king_ui/assets/common/horse.png",
+			"type": "image",
+			"name": "common_horse_png"
+		},
+		{
+			"url": "king_ui/assets/common/labelBg.png",
+			"type": "image",
+			"name": "common_labelBg_png"
+		},
+		{
+			"url": "king_ui/assets/common/labelIcon1.png",
+			"type": "image",
+			"name": "common_labelIcon1_png"
+		},
+		{
+			"url": "king_ui/assets/common/mat.png",
+			"type": "image",
+			"name": "common_mat_png"
+		},
+		{
+			"url": "king_ui/assets/common/med.png",
+			"type": "image",
+			"name": "common_med_png"
+		},
+		{
+			"url": "king_ui/assets/common/nextBtnImg.png",
+			"type": "image",
+			"name": "common_nextBtnImg_png"
+		},
+		{
+			"url": "king_ui/assets/common/panelBg.png",
+			"type": "image",
+			"name": "common_panelBg_png"
+		},
+		{
+			"url": "king_ui/assets/common/preBtnImg.png",
+			"type": "image",
+			"name": "common_preBtnImg_png"
+		},
+		{
+			"url": "king_ui/assets/common/progressBarImg1.png",
+			"type": "image",
+			"name": "common_progressBarImg1_png"
+		},
+		{
+			"url": "king_ui/assets/common/progressBgImg1.png",
+			"type": "image",
+			"name": "common_progressBgImg1_png"
+		},
+		{
+			"url": "king_ui/assets/common/redBtnImg.png",
+			"type": "image",
+			"name": "common_redBtnImg_png"
+		},
+		{
+			"url": "king_ui/assets/common/resBarBg.png",
+			"type": "image",
+			"name": "common_resBarBg_png"
+		},
+		{
+			"url": "king_ui/assets/common/resIconBg.png",
+			"type": "image",
+			"name": "common_resIconBg_png"
+		},
+		{
+			"url": "king_ui/assets/common/setupBtnImg.png",
+			"type": "image",
+			"name": "common_setupBtnImg_png"
+		},
+		{
+			"url": "king_ui/assets/common/shuIcon.png",
+			"type": "image",
+			"name": "common_shuIcon_png"
+		},
+		{
+			"url": "king_ui/assets/common/skillDescTextBg.png",
+			"type": "image",
+			"name": "common_skillDescTextBg_png"
+		},
+		{
+			"url": "king_ui/assets/common/titleTxtBg.png",
+			"type": "image",
+			"name": "common_titleTxtBg_png"
+		},
+		{
+			"url": "king_ui/assets/common/weap.png",
+			"type": "image",
+			"name": "common_weap_png"
+		},
+		{
+			"url": "king_ui/assets/common/weiIcon.png",
+			"type": "image",
+			"name": "common_weiIcon_png"
+		},
+		{
+			"url": "king_ui/assets/common/wine.png",
+			"type": "image",
+			"name": "common_wine_png"
+		},
+		{
+			"url": "king_ui/assets/common/wuIcon.png",
+			"type": "image",
+			"name": "common_wuIcon_png"
+		},
+		{
+			"url": "king_ui/assets/diy/arrow.png",
+			"type": "image",
+			"name": "diy_arrow_png"
+		},
+		{
+			"url": "king_ui/assets/diy/bg1.png",
+			"type": "image",
+			"name": "diy_bg1_png"
+		},
+		{
+			"url": "king_ui/assets/diy/finger.png",
+			"type": "image",
+			"name": "diy_finger_png"
+		},
+		{
+			"url": "king_ui/assets/diy/flower.png",
+			"type": "image",
+			"name": "diy_flower_png"
+		},
+		{
+			"url": "king_ui/assets/diy/gun.png",
+			"type": "image",
+			"name": "diy_gun_png"
+		},
+		{
+			"url": "king_ui/assets/diy/hammer.png",
+			"type": "image",
+			"name": "diy_hammer_png"
+		},
+		{
+			"url": "king_ui/assets/diy/knife.png",
+			"type": "image",
+			"name": "diy_knife_png"
+		},
+		{
+			"url": "king_ui/assets/diy/labelBg1.png",
+			"type": "image",
+			"name": "diy_labelBg1_png"
+		},
+		{
+			"url": "king_ui/assets/diy/labelBg2.png",
+			"type": "image",
+			"name": "diy_labelBg2_png"
+		},
+		{
+			"url": "king_ui/assets/diy/lighting.png",
+			"type": "image",
+			"name": "diy_lighting_png"
+		},
+		{
+			"url": "king_ui/assets/diy/skillBg1.png",
+			"type": "image",
+			"name": "diy_skillBg1_png"
+		},
+		{
+			"url": "king_ui/assets/diy/skillBg2.png",
+			"type": "image",
+			"name": "diy_skillBg2_png"
+		},
+		{
+			"url": "king_ui/assets/diy/skillBg3.png",
+			"type": "image",
+			"name": "diy_skillBg3_png"
+		},
+		{
+			"url": "king_ui/assets/diy/skillBtnImg.png",
+			"type": "image",
+			"name": "diy_skillBtnImg_png"
+		},
+		{
+			"url": "king_ui/assets/diy/skillSelectedImg.png",
+			"type": "image",
+			"name": "diy_skillSelectedImg_png"
+		},
+		{
+			"url": "king_ui/assets/diy/stone.png",
+			"type": "image",
+			"name": "diy_stone_png"
+		},
+		{
+			"url": "king_ui/assets/diy/wave.png",
+			"type": "image",
+			"name": "diy_wave_png"
+		},
+		{
+			"url": "king_ui/assets/diy/weapBtnImg1.png",
+			"type": "image",
+			"name": "diy_weapBtnImg1_png"
+		},
+		{
+			"url": "king_ui/assets/diy/weapBtnImg2.png",
+			"type": "image",
+			"name": "diy_weapBtnImg2_png"
+		},
+		{
+			"url": "king_ui/assets/effect/ambush_mc.json",
+			"type": "json",
+			"name": "effect_ambush_mc_json"
+		},
+		{
+			"url": "king_ui/assets/effect/ambush_tex.png",
+			"type": "image",
+			"name": "effect_ambush_tex_png"
+		},
+		{
+			"url": "king_ui/assets/effect/arrow_mc.json",
+			"type": "json",
+			"name": "effect_arrow_mc_json"
+		},
+		{
+			"url": "king_ui/assets/effect/arrow_tex.png",
+			"type": "image",
+			"name": "effect_arrow_tex_png"
+		},
+		{
+			"url": "king_ui/assets/effect/blank1_mc.json",
+			"type": "json",
+			"name": "effect_blank1_mc_json"
+		},
+		{
+			"url": "king_ui/assets/effect/blank1_tex.png",
+			"type": "image",
+			"name": "effect_blank1_tex_png"
+		},
+		{
+			"url": "king_ui/assets/effect/blank_mc.json",
+			"type": "json",
+			"name": "effect_blank_mc_json"
+		},
+		{
+			"url": "king_ui/assets/effect/blank_tex.png",
+			"type": "image",
+			"name": "effect_blank_tex_png"
+		},
+		{
+			"url": "king_ui/assets/effect/cable1_mc.json",
+			"type": "json",
+			"name": "effect_cable1_mc_json"
+		},
+		{
+			"url": "king_ui/assets/effect/cable1_tex.png",
+			"type": "image",
+			"name": "effect_cable1_tex_png"
+		},
+		{
+			"url": "king_ui/assets/effect/cable_mc.json",
+			"type": "json",
+			"name": "effect_cable_mc_json"
+		},
+		{
+			"url": "king_ui/assets/effect/cable_tex.png",
+			"type": "image",
+			"name": "effect_cable_tex_png"
+		},
+		{
+			"url": "king_ui/assets/effect/click_mc.json",
+			"type": "json",
+			"name": "effect_click_mc_json"
+		},
+		{
+			"url": "king_ui/assets/effect/click_tex.png",
+			"type": "image",
+			"name": "effect_click_tex_png"
+		},
+		{
+			"url": "king_ui/assets/effect/eye_mc.json",
+			"type": "json",
+			"name": "effect_eye_mc_json"
+		},
+		{
+			"url": "king_ui/assets/effect/eye_tex.png",
+			"type": "image",
+			"name": "effect_eye_tex_png"
+		},
+		{
+			"url": "king_ui/assets/effect/finger_mc.json",
+			"type": "json",
+			"name": "effect_finger_mc_json"
+		},
+		{
+			"url": "king_ui/assets/effect/finger_tex.png",
+			"type": "image",
+			"name": "effect_finger_tex_png"
+		},
+		{
+			"url": "king_ui/assets/effect/flower_mc.json",
+			"type": "json",
+			"name": "effect_flower_mc_json"
+		},
+		{
+			"url": "king_ui/assets/effect/flower_tex.png",
+			"type": "image",
+			"name": "effect_flower_tex_png"
+		},
+		{
+			"url": "king_ui/assets/effect/frame_mc.json",
+			"type": "json",
+			"name": "effect_frame_mc_json"
+		},
+		{
+			"url": "king_ui/assets/effect/frame_tex.png",
+			"type": "image",
+			"name": "effect_frame_tex_png"
+		},
+		{
+			"url": "king_ui/assets/effect/guard_mc.json",
+			"type": "json",
+			"name": "effect_guard_mc_json"
+		},
+		{
+			"url": "king_ui/assets/effect/guard_tex.png",
+			"type": "image",
+			"name": "effect_guard_tex_png"
+		},
+		{
+			"url": "king_ui/assets/effect/gun_mc.json",
+			"type": "json",
+			"name": "effect_gun_mc_json"
+		},
+		{
+			"url": "king_ui/assets/effect/gun_tex.png",
+			"type": "image",
+			"name": "effect_gun_tex_png"
+		},
+		{
+			"url": "king_ui/assets/effect/hammer_mc.json",
+			"type": "json",
+			"name": "effect_hammer_mc_json"
+		},
+		{
+			"url": "king_ui/assets/effect/hammer_tex.png",
+			"type": "image",
+			"name": "effect_hammer_tex_png"
+		},
+		{
+			"url": "king_ui/assets/effect/hook_mc.json",
+			"type": "json",
+			"name": "effect_hook_mc_json"
+		},
+		{
+			"url": "king_ui/assets/effect/hook_tex.png",
+			"type": "image",
+			"name": "effect_hook_tex_png"
+		},
+		{
+			"url": "king_ui/assets/effect/invincible_mc.json",
+			"type": "json",
+			"name": "effect_invincible_mc_json"
+		},
+		{
+			"url": "king_ui/assets/effect/invincible_tex.png",
+			"type": "image",
+			"name": "effect_invincible_tex_png"
+		},
+		{
+			"url": "king_ui/assets/effect/knife_mc.json",
+			"type": "json",
+			"name": "effect_knife_mc_json"
+		},
+		{
+			"url": "king_ui/assets/effect/knife_tex.png",
+			"type": "image",
+			"name": "effect_knife_tex_png"
+		},
+		{
+			"url": "king_ui/assets/effect/lighting_mc.json",
+			"type": "json",
+			"name": "effect_lighting_mc_json"
+		},
+		{
+			"url": "king_ui/assets/effect/lighting_tex.png",
+			"type": "image",
+			"name": "effect_lighting_tex_png"
+		},
+		{
+			"url": "king_ui/assets/effect/stone_mc.json",
+			"type": "json",
+			"name": "effect_stone_mc_json"
+		},
+		{
+			"url": "king_ui/assets/effect/stone_tex.png",
+			"type": "image",
+			"name": "effect_stone_tex_png"
+		},
+		{
+			"url": "king_ui/assets/effect/surrender_mc.json",
+			"type": "json",
+			"name": "effect_surrender_mc_json"
+		},
+		{
+			"url": "king_ui/assets/effect/surrender_tex.png",
+			"type": "image",
+			"name": "effect_surrender_tex_png"
+		},
+		{
+			"url": "king_ui/assets/effect/taunt_mc.json",
+			"type": "json",
+			"name": "effect_taunt_mc_json"
+		},
+		{
+			"url": "king_ui/assets/effect/taunt_tex.png",
+			"type": "image",
+			"name": "effect_taunt_tex_png"
+		},
+		{
+			"url": "king_ui/assets/effect/water_mc.json",
+			"type": "json",
+			"name": "effect_water_mc_json"
+		},
+		{
+			"url": "king_ui/assets/effect/water_tex.png",
+			"type": "image",
+			"name": "effect_water_tex_png"
+		},
+		{
+			"url": "king_ui/assets/effect/wave_mc.json",
+			"type": "json",
+			"name": "effect_wave_mc_json"
+		},
+		{
+			"url": "king_ui/assets/effect/wave_tex.png",
+			"type": "image",
+			"name": "effect_wave_tex_png"
+		},
+		{
+			"url": "king_ui/assets/guide/dragArrow.png",
+			"type": "image",
+			"name": "guide_dragArrow_png"
+		},
+		{
+			"url": "king_ui/assets/guide/textArrow.png",
+			"type": "image",
+			"name": "guide_textArrow_png"
+		},
+		{
+			"url": "king_ui/assets/guide/textBg.png",
+			"type": "image",
+			"name": "guide_textBg_png"
+		},
+		{
+			"url": "king_ui/assets/guide/textKuang.png",
+			"type": "image",
+			"name": "guide_textKuang_png"
+		},
+		{
+			"url": "king_ui/assets/home/campignIcon.png",
+			"type": "image",
+			"name": "home_campignIcon_png"
+		},
+		{
+			"url": "king_ui/assets/home/campignTxtImg.png",
+			"type": "image",
+			"name": "home_campignTxtImg_png"
+		},
+		{
+			"url": "king_ui/assets/home/cardPoolIcon.png",
+			"type": "image",
+			"name": "home_cardPoolIcon_png"
+		},
+		{
+			"url": "king_ui/assets/home/cardPoolTxtImg.png",
+			"type": "image",
+			"name": "home_cardPoolTxtImg_png"
+		},
+		{
+			"url": "king_ui/assets/home/homeKuang.png",
+			"type": "image",
+			"name": "home_homeKuang_png"
+		},
+		{
+			"url": "king_ui/assets/home/levelIcon.png",
+			"type": "image",
+			"name": "home_levelIcon_png"
+		},
+		{
+			"url": "king_ui/assets/home/levelTxtImg.png",
+			"type": "image",
+			"name": "home_levelTxtImg_png"
+		},
+		{
+			"url": "king_ui/assets/home/matchIcon.png",
+			"type": "image",
+			"name": "home_matchIcon_png"
+		},
+		{
+			"url": "king_ui/assets/home/matchTxtImg.png",
+			"type": "image",
+			"name": "home_matchTxtImg_png"
+		},
+		{
+			"url": "king_ui/assets/level/clearIcon.png",
+			"type": "image",
+			"name": "level_clearIcon_png"
+		},
+		{
+			"url": "king_ui/assets/level/levelBg.png",
+			"type": "image",
+			"name": "level_levelBg_png"
+		},
+		{
+			"url": "king_ui/assets/level/levelItemBg1.png",
+			"type": "image",
+			"name": "level_levelItemBg1_png"
+		},
+		{
+			"url": "king_ui/assets/level/levelItemBg2.png",
+			"type": "image",
+			"name": "level_levelItemBg2_png"
+		},
+		{
+			"url": "king_ui/assets/level/lockIcon.png",
+			"type": "image",
+			"name": "level_lockIcon_png"
+		},
+		{
+			"url": "king_ui/assets/level/preBtnBg.png",
+			"type": "image",
+			"name": "level_preBtnBg_png"
+		},
+		{
+			"url": "king_ui/assets/level/unlockIcon.png",
+			"type": "image",
+			"name": "level_unlockIcon_png"
+		},
+		{
+			"url": "king_ui/assets/loading/loadingBar.png",
+			"type": "image",
+			"name": "loading_loadingBar_png"
+		},
+		{
+			"url": "king_ui/assets/loading/loadingBarBg.png",
+			"type": "image",
+			"name": "loading_loadingBarBg_png"
+		},
+		{
+			"url": "king_ui/assets/loading/loadingBg.png",
+			"type": "image",
+			"name": "loading_loadingBg_png"
+		},
+		{
+			"url": "king_ui/assets/loading/loadingCircle.png",
+			"type": "image",
+			"name": "loading_loadingCircle_png"
+		},
+		{
+			"url": "king_ui/assets/login/loginBg.png",
+			"type": "image",
+			"name": "login_loginBg_png"
+		},
+		{
+			"url": "king_ui/assets/login/loginBtnImg.png",
+			"type": "image",
+			"name": "login_loginBtnImg_png"
+		},
+		{
+			"url": "king_ui/assets/login/name.png",
+			"type": "image",
+			"name": "login_name_png"
+		},
+		{
+			"url": "king_ui/assets/pvp/cancelMatchText.png",
+			"type": "image",
+			"name": "pvp_cancelMatchText_png"
+		},
+		{
+			"url": "king_ui/assets/pvp/matchingBg.png",
+			"type": "image",
+			"name": "pvp_matchingBg_png"
+		},
+		{
+			"url": "king_ui/fui/battle.fui",
+			"type": "bin",
+			"name": "battle_fui"
+		},
+		{
+			"url": "king_ui/fui/campign.fui",
+			"type": "bin",
+			"name": "campign_fui"
+		},
+		{
+			"url": "king_ui/fui/card_b.fui",
+			"type": "bin",
+			"name": "card_b_fui"
+		},
+		{
+			"url": "king_ui/fui/card_m.fui",
+			"type": "bin",
+			"name": "card_m_fui"
+		},
+		{
+			"url": "king_ui/fui/card_s.fui",
+			"type": "bin",
+			"name": "card_s_fui"
+		},
+		{
+			"url": "king_ui/fui/cardpool.fui",
+			"type": "bin",
+			"name": "cardpool_fui"
+		},
+		{
+			"url": "king_ui/fui/cards.fui",
+			"type": "bin",
+			"name": "cards_fui"
+		},
+		{
+			"url": "king_ui/fui/common.fui",
+			"type": "bin",
+			"name": "common_fui"
+		},
+		{
+			"url": "king_ui/fui/diy.fui",
+			"type": "bin",
+			"name": "diy_fui"
+		},
+		{
+			"url": "king_ui/fui/guide.fui",
+			"type": "bin",
+			"name": "guide_fui"
+		},
+		{
+			"url": "king_ui/fui/home.fui",
+			"type": "bin",
+			"name": "home_fui"
+		},
+		{
+			"url": "king_ui/fui/level.fui",
+			"type": "bin",
+			"name": "level_fui"
+		},
+		{
+			"url": "king_ui/fui/loading.fui",
+			"type": "bin",
+			"name": "loading_fui"
+		},
+		{
+			"url": "king_ui/fui/login.fui",
+			"type": "bin",
+			"name": "login_fui"
+		},
+		{
+			"url": "king_ui/fui/pvp.fui",
+			"type": "bin",
+			"name": "pvp_fui"
+		},
+		{
+			"url": "king_ui/assets/common/tapBtnImg.png",
+			"type": "image",
+			"name": "common_tapBtnImg_png"
+		},
+		{
+			"url": "king_ui/assets/common/figIcon.png",
+			"type": "image",
+			"name": "common_figIcon_png"
+		},
+		{
+			"url": "king_ui/assets/cards/circle_m_w.png",
+			"type": "image",
+			"name": "cards_circle_m_w_png"
+		},
+		{
+			"url": "king_ui/assets/common/resBg.png",
+			"type": "image",
+			"name": "common_resBg_png"
+		},
+		{
+			"url": "king_ui/assets/common/tapBtnImg2.png",
+			"type": "image",
+			"name": "common_tapBtnImg2_png"
+		},
+		{
+			"url": "king_ui/assets/campign/defProgressBarBg.png",
+			"type": "image",
+			"name": "campign_defProgressBarBg_png"
+		},
+		{
+			"url": "king_ui/assets/campign/defProgressBar.png",
+			"type": "image",
+			"name": "campign_defProgressBar_png"
+		},
+		{
+			"url": "king_ui/assets/login/archiveBg.png",
+			"type": "image",
+			"name": "login_archiveBg_png"
+		},
+		{
+			"url": "king_ui/assets/login/newArchive.png",
+			"type": "image",
+			"name": "login_newArchive_png"
+		},
+		{
+			"url": "king_ui/assets/login/newArchiveIcon.png",
+			"type": "image",
+			"name": "login_newArchiveIcon_png"
+		},
+		{
+			"url": "king_ui/assets/login/oldArchiveIcon.png",
+			"type": "image",
+			"name": "login_oldArchiveIcon_png"
+		},
+		{
+			"url": "king_ui/assets/campign/clearLight.png",
+			"type": "image",
+			"name": "campign_clearLight_png"
+		},
+		{
+			"url": "king_ui/assets/campign/clearCloud.png",
+			"type": "image",
+			"name": "campign_clearCloud_png"
+		},
+		{
+			"url": "king_ui/assets/campign/clearIcon.png",
+			"type": "image",
+			"name": "campign_clearIcon_png"
+		},
+		{
+			"url": "king_ui/assets/campign/changeCardIcon.png",
+			"type": "image",
+			"name": "campign_changeCardIcon_png"
+		},
+		{
+			"url": "king_ui/assets/card_b/148.png",
+			"type": "image",
+			"name": "card_b_148_png"
+		},
+		{
+			"url": "king_ui/assets/card_m/148.png",
+			"type": "image",
+			"name": "card_m_148_png"
+		},
+		{
+			"url": "king_ui/assets/card_s/148.png",
+			"type": "image",
+			"name": "card_s_148_png"
+		},
+		{
+			"url": "king_ui/assets/effect/wind1_mc.json",
+			"type": "json",
+			"name": "effect_wind1_mc_json"
+		},
+		{
+			"url": "king_ui/assets/effect/wind1_tex.png",
+			"type": "image",
+			"name": "effect_wind1_tex_png"
+		},
+		{
+			"url": "king_ui/assets/effect/wind2_mc.json",
+			"type": "json",
+			"name": "effect_wind2_mc_json"
+		},
+		{
+			"url": "king_ui/assets/effect/wind2_tex.png",
+			"type": "image",
+			"name": "effect_wind2_tex_png"
+		},
+		{
+			"url": "king_ui/assets/battle/surrenderIcon.png",
+			"type": "image",
+			"name": "battle_surrenderIcon_png"
+		},
+		{
+			"url": "king_ui/assets/effect/match_tex.png",
+			"type": "image",
+			"name": "effect_match_tex_png"
+		},
+		{
+			"url": "king_ui/assets/effect/match_mc.json",
+			"type": "json",
+			"name": "effect_match_mc_json"
+		},
+		{
+			"url": "king_ui/assets/campign/defIcon.png",
+			"type": "image",
+			"name": "campign_defIcon_png"
+		},
+		{
+			"url": "king_ui/assets/common/uplevelTitle.png",
+			"type": "image",
+			"name": "common_uplevelTitle_png"
+		},
+		{
+			"url": "king_ui/assets/common/sound/arrow.mp3",
+			"type": "sound",
+			"name": "arrow_mp3"
+		},
+		{
+			"url": "king_ui/assets/common/sound/cable.mp3",
+			"type": "sound",
+			"name": "cable_mp3"
+		},
+		{
+			"url": "king_ui/assets/common/sound/finger.mp3",
+			"type": "sound",
+			"name": "finger_mp3"
+		},
+		{
+			"url": "king_ui/assets/common/sound/flower.mp3",
+			"type": "sound",
+			"name": "flower_mp3"
+		},
+		{
+			"url": "king_ui/assets/common/sound/frame.mp3",
+			"type": "sound",
+			"name": "frame_mp3"
+		},
+		{
+			"url": "king_ui/assets/common/sound/guard.mp3",
+			"type": "sound",
+			"name": "guard_mp3"
+		},
+		{
+			"url": "king_ui/assets/common/sound/gun.mp3",
+			"type": "sound",
+			"name": "gun_mp3"
+		},
+		{
+			"url": "king_ui/assets/common/sound/hammer.mp3",
+			"type": "sound",
+			"name": "hammer_mp3"
+		},
+		{
+			"url": "king_ui/assets/common/sound/hook.mp3",
+			"type": "sound",
+			"name": "hook_mp3"
+		},
+		{
+			"url": "king_ui/assets/common/sound/knife.mp3",
+			"type": "sound",
+			"name": "knife_mp3"
+		},
+		{
+			"url": "king_ui/assets/common/sound/lighting.mp3",
+			"type": "sound",
+			"name": "lighting_mp3"
+		},
+		{
+			"url": "king_ui/assets/common/sound/stone.mp3",
+			"type": "sound",
+			"name": "stone_mp3"
+		},
+		{
+			"url": "king_ui/assets/common/sound/wave.mp3",
+			"type": "sound",
+			"name": "wave_mp3"
+		},
+		{
+			"url": "king_ui/assets/common/sound/turn.mp3",
+			"type": "sound",
+			"name": "turn_mp3"
+		},
+		{
+			"url": "king_ui/assets/common/sound/uplevel.mp3",
+			"type": "sound",
+			"name": "uplevel_mp3"
+		},
+		{
+			"url": "king_ui/assets/common/sound/newcard.mp3",
+			"type": "sound",
+			"name": "newcard_mp3"
+		},
+		{
+			"url": "king_ui/assets/common/sound/click.mp3",
+			"type": "sound",
+			"name": "click_mp3"
+		},
+		{
+			"url": "king_ui/assets/common/sound/bg.mp3",
+			"type": "sound",
+			"name": "bg_mp3"
+		},
+		{
+			"url": "king_ui/assets/common/sound/playcard.mp3",
+			"type": "sound",
+			"name": "playcard_mp3"
+		},
+		{
+			"url": "king_ui/assets/common/sound/addexp.mp3",
+			"type": "sound",
+			"name": "addexp_mp3"
+		},
+		{
+			"url": "king_ui/assets/common/sound/page.mp3",
+			"type": "sound",
+			"name": "page_mp3"
+		},
+		{
+			"url": "king_ui/assets/cardpool/bgKuang1.png",
+			"type": "image",
+			"name": "cardpool_bgKuang1_png"
+		},
+		{
+			"url": "king_ui/assets/diy/bg2.png",
+			"type": "image",
+			"name": "diy_bg2_png"
+		},
+		{
+			"url": "king_ui/assets/common/sound/fightbg.mp3",
+			"type": "sound",
+			"name": "fightbg_mp3"
+		},
+		{
+			"name": "king_ui_assets_cards_back_b_png",
+			"type": "image",
+			"url": "../resource/king_ui/assets/cards/back_b.png"
+		},
+		{
+			"name": "king_ui_assets_cards_back_m_png",
+			"type": "image",
+			"url": "../resource/king_ui/assets/cards/back_m.png"
+		},
+		{
+			"name": "king_ui_assets_cards_back_s_png",
+			"type": "image",
+			"url": "../resource/king_ui/assets/cards/back_s.png"
+		},
+		{
+			"name": "common_sound_blank_mp3",
+			"type": "sound",
+			"url": "king_ui/assets/common/sound/blank.mp3"
+		},
+		{
+			"name": "common_sound_count_mp3",
+			"type": "sound",
+			"url": "king_ui/assets/common/sound/count.mp3"
+		},
+		{
+			"name": "home_campignIcon_select_png",
+			"type": "image",
+			"url": "king_ui/assets/home/campignIcon_select.png"
+		},
+		{
+			"name": "home_cardPoolIcon_select_png",
+			"type": "image",
+			"url": "king_ui/assets/home/cardPoolIcon_select.png"
+		},
+		{
+			"name": "home_matchIcon_select_png",
+			"type": "image",
+			"url": "king_ui/assets/home/matchIcon_select.png"
+		},
+		{
+			"name": "common_sound_lose_mp3",
+			"type": "sound",
+			"url": "king_ui/assets/common/sound/lose.mp3"
+		},
+		{
+			"name": "common_sound_win_mp3",
+			"type": "sound",
+			"url": "king_ui/assets/common/sound/win.mp3"
+		},
+		{
+			"name": "cards_skillSlot_m_png",
+			"type": "image",
+			"url": "king_ui/assets/cards/skillSlot_m.png"
+		},
+		{
+			"name": "cards_skillSlot_s_png",
+			"type": "image",
+			"url": "king_ui/assets/cards/skillSlot_s.png"
+		},
+		{
+			"name": "common_sound_count1_mp3",
+			"type": "sound",
+			"url": "king_ui/assets/common/sound/count1.mp3"
+		},
+		{
+			"name": "common_sound_count2_mp3",
+			"type": "sound",
+			"url": "king_ui/assets/common/sound/count2.mp3"
+		},
+		{
+			"name": "common_sound_count3_mp3",
+			"type": "sound",
+			"url": "king_ui/assets/common/sound/count3.mp3"
+		},
+		{
+			"name": "common_sound_count4_mp3",
+			"type": "sound",
+			"url": "king_ui/assets/common/sound/count4.mp3"
+		},
+		{
+			"name": "common_sound_count5_mp3",
+			"type": "sound",
+			"url": "king_ui/assets/common/sound/count5.mp3"
+		},
+		{
+			"name": "common_sound_count6_mp3",
+			"type": "sound",
+			"url": "king_ui/assets/common/sound/count6.mp3"
+		},
+		{
+			"name": "common_sound_count7_mp3",
+			"type": "sound",
+			"url": "king_ui/assets/common/sound/count7.mp3"
+		},
+		{
+			"name": "common_sound_count8_mp3",
+			"type": "sound",
+			"url": "king_ui/assets/common/sound/count8.mp3"
+		},
+		{
+			"name": "common_sound_count9_mp3",
+			"type": "sound",
+			"url": "king_ui/assets/common/sound/count9.mp3"
+		},
+		{
+			"name": "home_kuang_png",
+			"type": "image",
+			"url": "king_ui/assets/home/kuang.png"
+		},
+		{
+			"name": "home_yinliang3_png",
+			"type": "image",
+			"url": "king_ui/assets/home/yinliang3.png"
+		},
+		{
+			"name": "home_yinyue3_png",
+			"type": "image",
+			"url": "king_ui/assets/home/yinyue3.png"
+		},
+		{
+			"name": "treasure_0_png",
+			"type": "image",
+			"url": "king_ui/assets/treasure/0.png"
+		},
+		{
+			"name": "treasure_1_png",
+			"type": "image",
+			"url": "king_ui/assets/treasure/1.png"
+		},
+		{
+			"name": "treasure_2_png",
+			"type": "image",
+			"url": "king_ui/assets/treasure/2.png"
+		},
+		{
+			"name": "treasure_3_png",
+			"type": "image",
+			"url": "king_ui/assets/treasure/3.png"
+		},
+		{
+			"name": "treasure_4_png",
+			"type": "image",
+			"url": "king_ui/assets/treasure/4.png"
+		},
+		{
+			"name": "treasure_bg_jpg",
+			"type": "image",
+			"url": "king_ui/assets/treasure/bg.jpg"
+		},
+		{
+			"name": "home@atlas0_png",
+			"type": "image",
+			"url": "king_ui/fui/home@atlas0.png"
+		},
+		{
+			"name": "home_yinliang0_png",
+			"type": "image",
+			"url": "king_ui/assets/home/yinliang0.png"
+		},
+		{
+			"name": "home_yinliang1_png",
+			"type": "image",
+			"url": "king_ui/assets/home/yinliang1.png"
+		},
+		{
+			"name": "home_yinliang2_png",
+			"type": "image",
+			"url": "king_ui/assets/home/yinliang2.png"
+		},
+		{
+			"name": "home_yinyue0_png",
+			"type": "image",
+			"url": "king_ui/assets/home/yinyue0.png"
+		},
+		{
+			"name": "home_yinyue1_png",
+			"type": "image",
+			"url": "king_ui/assets/home/yinyue1.png"
+		},
+		{
+			"name": "home_yinyue2_png",
+			"type": "image",
+			"url": "king_ui/assets/home/yinyue2.png"
+		},
+		{
+			"name": "battle_star0_png",
+			"type": "image",
+			"url": "king_ui/assets/battle/star0.png"
+		},
+		{
+			"name": "battle_star1_png",
+			"type": "image",
+			"url": "king_ui/assets/battle/star1.png"
+		},
+		{
+			"name": "common_highlight_png",
+			"type": "image",
+			"url": "king_ui/assets/common/highlight.png"
+		},
+		{
+			"name": "treasure_light_png",
+			"type": "image",
+			"url": "king_ui/assets/treasure/light.png"
+		}
+	]
+}

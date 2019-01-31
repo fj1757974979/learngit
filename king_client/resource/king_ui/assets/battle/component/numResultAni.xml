@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="125,162">
+  <displayList>
+    <loader id="n0_to5i" name="result" xy="7,51" pivot="0.5,0.5" size="111,59" url="ui://ryvvr3p0to5i3x"/>
+  </displayList>
+  <transition name="ani" autoPlay="true">
+    <item time="0" type="Scale" target="n0_to5i" value="0,0"/>
+    <item time="12" type="Scale" target="n0_to5i" tween="true" startValue="2,2" endValue="1,1" duration="12" ease="Elastic.Out"/>
+  </transition>
+</component>

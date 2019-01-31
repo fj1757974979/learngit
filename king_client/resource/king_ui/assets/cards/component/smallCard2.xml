@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="87,113">
+  <displayList>
+    <loader id="n19_nlbn" name="lightCircle" xy="-15,-13" pivot="0.5,0.5" size="117,140" url="ui://rdb04el0u843j0" align="center" vAlign="middle" autoSize="true"/>
+    <loader id="n0_uoof" name="baseImg" xy="0,0" size="87,113" url="ui://rdb04el0b950ha"/>
+    <image id="n20_lr3f" name="cardImg" pkg="rakljql9" src="uoof2j" fileName="999.png" xy="0,0" size="87,113"/>
+    <loader id="n2_uoof" name="frontImg" xy="0,0" size="87,113" url="ui://rdb04el0pqokhm"/>
+    <loader id="n31_epib" name="nameImg" xy="127,0" size="20,44" hideByEditor="true" visible="false" alpha="0" url="ui://rdb04el0epibi7" fill="scaleFree">
+      <relation target="" sidePair="right-right,top-top"/>
+    </loader>
+    <text id="n3_uoof" name="nameText" xy="127,-1" size="20,47" hideByEditor="true" visible="false" alpha="0" font="微软雅黑" fontSize="14" color="#ffffff" align="center" vAlign="middle" leading="1" autoSize="none" bold="true" text="夏侯渊">
+      <relation target="n31_epib" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n7_uoof" name="rightNum" src="uoofk" fileName="component/cardsNum.xml" xy="67,47"/>
+    <component id="n8_uoof" name="upNum" src="uoofk" fileName="component/cardsNum.xml" xy="35,4"/>
+    <component id="n9_uoof" name="downNum" src="uoofk" fileName="component/cardsNum.xml" xy="35,94"/>
+    <component id="n14_uoof" name="leftNum" src="uoofk" fileName="component/cardsNum.xml" xy="5,47"/>
+    <text id="n15_uoof" name="upNumOffset" xy="45,-3" size="10,14" font="微软雅黑" fontSize="10" color="#33ff66" align="center" vAlign="middle" leading="0" strokeColor="#000000" text="+"/>
+    <text id="n16_uoof" name="downNumOffset" xy="45,89" size="10,14" font="微软雅黑" fontSize="10" color="#33ff66" align="center" vAlign="middle" leading="0" strokeColor="#000000" text="+"/>
+    <text id="n17_uoof" name="leftNumOffset" xy="14,40" size="10,14" font="微软雅黑" fontSize="10" color="#33ff66" align="center" vAlign="middle" leading="0" strokeColor="#000000" text="+"/>
+    <text id="n18_uoof" name="rightNumOffset" xy="64,40" size="10,14" font="微软雅黑" fontSize="10" color="#33ff66" align="center" vAlign="middle" leading="0" strokeColor="#000000" text="+"/>
+    <loader id="n25_l8xi" name="skill1Bottom" xy="22,21" size="44,18" group="n30_l8xi" alpha="0.8" url="ui://rdb04el0l8xihc" fill="scaleFree"/>
+    <loader id="n26_l8xi" name="skill2Bottom" xy="22,40" size="44,18" group="n30_l8xi" url="ui://rdb04el0l8xihc" fill="scaleFree"/>
+    <loader id="n27_l8xi" name="skill3Bottom" xy="22,59" size="44,18" group="n30_l8xi" url="ui://rdb04el0l8xihc" fill="scaleFree"/>
+    <loader id="n28_l8xi" name="skill4Bottom" xy="22,78" size="44,18" group="n30_l8xi" url="ui://rdb04el0l8xihc" fill="scaleFree"/>
+    <text id="n4_uoof" name="skill1Text" xy="24,21" size="40,18" group="n30_l8xi" fontSize="8" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" text="menu...ffffffff">
+      <relation target="n25_l8xi" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n5_uoof" name="skill2Text" xy="24,43" size="40,12" group="n30_l8xi" font="微软雅黑" fontSize="8" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" text="据守1">
+      <relation target="n26_l8xi" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n21_paou" name="skill3Text" xy="24,62" size="40,12" group="n30_l8xi" font="微软雅黑" fontSize="8" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" text="陷阵">
+      <relation target="n27_l8xi" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n22_paou" name="skill4Text" xy="24,81" size="40,12" group="n30_l8xi" font="微软雅黑" fontSize="8" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" text="据守1">
+      <relation target="n28_l8xi" sidePair="center-center,middle-middle"/>
+    </text>
+    <group id="n30_l8xi" name="skillGroup" xy="22,21" size="44,75" advanced="true"/>
+    <component id="n32_k33d" name="rareCom" src="k33dio" fileName="component/cardRareSmall.xml" xy="0,90"/>
+    <component id="n33_q13d" name="equipBtn" src="j66l23" fileName="component/equipBtn.xml" pkg="ravbpjp3" xy="10,10" size="20,20" touchable="false"/>
+  </displayList>
+</component>

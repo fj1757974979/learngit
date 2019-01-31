@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,60">
+  <displayList>
+    <loader id="n81_m276" name="bg" xy="0,0" size="400,60" touchable="false" url="ui://47ikzi2ak9is1c" fill="scaleFree"/>
+    <loader id="n82_m276" name="icon2" xy="25,5" pivot="0.5,0.5" size="50,50" touchable="false" url="ui://864gshxxd54gao" align="center" vAlign="middle" fill="scale"/>
+    <loader id="n83_m276" name="n83" xy="250,10" pivot="0.5,0.5" size="40,40" touchable="false" url="ui://864gshxxcnowc7" align="center" vAlign="middle" fill="scale"/>
+    <text id="n84_m276" name="cardCnt" xy="80,16" size="71,28" font="楷体" fontSize="24" color="#666666" vAlign="middle" leading="0" text="99999">
+      <relation target="n82_m276" sidePair="left-right,middle-middle"/>
+    </text>
+    <text id="n85_m276" name="honorCnt" xy="291,16" size="98,28" font="楷体" fontSize="24" color="#666666" vAlign="middle" leading="0" ubb="true" text="9999999">
+      <relation target="n83_m276" sidePair="middle-middle,left-right"/>
+    </text>
+    <loader id="n86_m276" name="n2" xy="210,20" size="30,20" url="ui://864gshxxpdhx9q" vAlign="middle" fill="scaleFree">
+      <relation target="n81_m276" sidePair="middle-middle,left-right"/>
+    </loader>
+    <component id="n88_k9is" name="cardRare" src="k33dio" fileName="component/cardRareSmall.xml" pkg="rdb04el0" xy="9,40">
+      <relation target="n82_m276" sidePair="center-center"/>
+    </component>
+    <text id="n89_k9is" name="ratio" xy="150,16" size="40,28" visible="false" font="楷体" fontSize="24" color="#666666" align="center" vAlign="middle" leading="0" autoSize="none" text="x3">
+      <relation target="n82_m276" sidePair="middle-middle,left-right"/>
+    </text>
+  </displayList>
+</component>

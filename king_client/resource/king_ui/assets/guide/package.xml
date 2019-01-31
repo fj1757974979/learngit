@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="kzx2kelp" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="hyug0" name="dragArrow.png" path="/" exported="true"/>
+    <image id="hyug1" name="textArrow.png" path="/" exported="true"/>
+    <image id="hyug2" name="textBg.png" path="/" exported="true"/>
+    <image id="hyug3" name="textKuang.png" path="/" exported="true" scale9grid="20,20,259,64"/>
+    <component id="nkld4" name="InitialDeck.xml" path="/component/" exported="true"/>
+    <image id="nkld5" name="shu.png" path="/" exported="true"/>
+    <image id="nkld6" name="wei.png" path="/" exported="true"/>
+    <image id="nkld7" name="wu.png" path="/" exported="true"/>
+    <component id="ivo1c" name="btnCamp.xml" path="/component/" exported="true"/>
+  </resources>
+  <publish name="guide"/>
+</packageDescription>

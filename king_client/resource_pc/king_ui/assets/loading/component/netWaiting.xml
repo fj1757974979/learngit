@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080">
+  <displayList>
+    <graph id="n0_gwr7" name="n0" xy="720,140" size="480,800" type="rect" lineColor="#00000000" fillColor="#00ffffff">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <loader id="n1_gwr7" name="loadingCircle" xy="929,508" pivot="0.5,0.5" size="61,64" scale="1.3,1.3" url="ui://10li2aq3gwr76">
+      <relation target="n0_gwr7" sidePair="center-center,middle-middle"/>
+    </loader>
+  </displayList>
+</component>

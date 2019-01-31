@@ -1,0 +1,1075 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, user-scalable=no" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<meta name="format-detection" content="telephone=no">
+<meta name="screen-orientation" content="portrait">
+<meta name="full-screen" content="yes">
+<meta http-equiv="x-ua-compatible" content="IE=edge" />
+
+<link href="skin/login.css?v=2016" type="text/css" rel="stylesheet" />
+<link id="skin" data-v="20150923001" type="text/css" rel="stylesheet" />
+
+<title>
+平台登录
+</title>
+</head>
+<body>
+<input type="hidden" name="loginUserName" value="">
+<input type="hidden" name="loginPassword" value="">
+<div class="mask">
+<div class="container_load" id="loading">
+	<div class="content">
+		<div class="circle"></div>
+		<div class="circle1"></div>
+	</div>
+</div>
+<div class="alert alert-success hide" id="alert">
+	<!--<button type="button" class="close" data-dismiss="alert">&times;</button>-->
+	<span></span>
+</div>
+<!-- 登录模块 -->
+<section id="login" class="" data-replace="1">
+		<div class="new-sdk-container">
+			<div class="new-container-box">
+			<div class="SDK-titlebox"></div>
+			<form  action="/sdk/login" method="post" class="ajax align-left clearfix">
+			<div class="new-sdk-logo"><a href="#"><img src="images/new-sdk-logo.png"></a></div>
+			<div class="new-sdk-main">
+				<div class="inputbox clearfix" style="position: relative;">
+					<div class="ileft">账号：</div>
+					<div class="iright">
+
+						<input type="text" name="username" placeholder="请输入账号" id="js_login_username">
+						<div class="bottom-icon drop-down">
+							<i class="iconfont icon-xiangxia"></i>
+						</div>
+					</div>
+					<div class="pull-box horizontall">
+						<ul class="drop-ul">
+
+						</ul>
+					</div>
+				</div>
+				<div class="inputbox clearfix">
+					<div class="ileft">密码：</div>
+					<div class="iright"><input type="password"  name="password" placeholder="请输入密码" id="js_login_password"></div>
+				</div>
+				<div class="other-login clearfix">
+					<p class="other-login-bx hide">第三方登录
+						<a title="新浪微博帐号登录"  data-replace="href" href="/user/auth2/sina/login/?next=/static/sdk/login.html&app_id={app_id}" class="sina hide">
+							<i class=" iconfont icon-unie61d"></i>
+						</a>
+
+						<a title="QQ号码登录"  data-replace="href" href="/user/auth2/qq/login/?next=/static/sdk_6/login.html%3Fapp_id={app_id}" class="qq iframe hide">
+						</a>
+
+						<a title="微信登录"  data-replace="href" href="sdk://weixinlogin?app_id={app_id}&next=/static/sdk/login.html" class="weixin hide">
+						</a>
+					</p>
+
+					<label><a href="#find_pwd" class="forgetpsw">找回密码</a></label>
+					<div class="clear"></div>
+
+					<label onclick="" class="input-control pull-left hide" > 
+					<input type="checkbox" checked="checked" class="eg" ></input>
+					进入帐号管理界面
+					</label>
+				</div>
+			</div>
+			<ul class="inline-btn login-inline-btn">
+				<li>
+					<a  method="post"  class="btn btn_pri_block" href="#register">注册</a>
+					
+				</li>
+				<li>
+<!-- 					<a class="op-guest" data-replace="href" method="post"  href="/sdk/register?type=-1&app_id={app_id}">一键注册</a> -->
+
+					<a  class="btn larg btn-orange submit" utocomplete="off" >登录</a>
+				</li>
+			</ul>
+			</form>
+			</div>
+		</div>
+</section>
+<!-- end -->
+<!-- 登录前模块 -->
+<section id="login_before" class="hide" data-replace="1">
+
+		<div class="new-sdk-container">
+			<div class="new-container-box">
+				<div class="SDK-titlebox"></div>
+				<div class="new-sdk-logo"><a href="#"><img src="images/new-sdk-logo.png"></a></div>
+				<div class="login-third-list">
+			        <div class="title">请选择快速登录</div>
+			        <div class="third-list">
+			            <ul>
+			                <li class="login_case_qq"><a title="QQ帐号登录" class="qq qq iframe" data-replace="href" href="/user/auth2/qq/login/?next=/sdk/login?app_id={app_id}"><div class="third-icon third-qq"></div><p>QQ登陆</p></a></li>
+			                <li><a href="#register"><div class="third-icon third-guest"></div><p>游客登录</p></a></li>
+			                <div class="clear"></div>
+			            </ul>
+			        </div>
+			        <div class="only-btn"><a href="#login">返回</a></div>
+			    </div>
+		   </div>
+		</div>
+
+
+
+</section>
+<!-- end-->
+<!-- 注册模块 -->
+<section id="register" class="hide">
+
+
+		<div class="new-sdk-container">
+			<div class="SDK-titlebox"></div>
+			<div class="new-sdk-logo"><a href="#"><img src="images/new-sdk-logo.png"></a></div>
+			<form action="/sdk/register" class="ajax clearfix">
+				<div class="new-sdk-main">
+					<div class="inputbox clearfix">
+						<div class="ileft">账号：</div>
+						<div class="iright">
+							<input type="text" name="username" placeholder="帐号由3-18个英文、数字、点、减号、下划线组成"  required>
+							<!--<div class="bottom-icon drop-down">
+								<i class="iconfont icon-xiangxia"></i>
+							</div>-->
+						</div>
+					</div>
+					<div class="inputbox clearfix">
+						<div class="ileft">密码：</div>
+						<div class="iright"><input  name="password" placeholder="密码长度为6-16个字符，不能包含空格" required></div>
+					</div>
+		            <div class="ag-tx clearfix">
+		                <span data-action="agreement" >
+		                	<div class="checkbox checkbox-2 l" >
+			                	<i class="iconfont icon-xuanzhong"></i>
+		                	</div>
+		                	<p class="l">接受<a href="#agreement">网络服务协议</a></p>
+		                </span>
+		             	
+		            </div>
+				</div>		
+				<input type="hidden" name="old_usernmae" value="-1">		
+				<input type="hidden" name="type" value="-1">	
+				<ul class="inline-btn">
+					<li><a class="btn btn_pri_block btn-orange" href="#home">返回</a></li>
+					<li><input type="button" class="submit btn larg" id="btn-regist" value="确定注册"></li>		
+				</ul>
+			</form>
+		</div>
+
+</section>
+<!-- end -->
+<!-- 协议模块 -->
+<section id="agreement" class="hide">
+		<div class="new-sdk-container">
+			<div class="SDK-titlebox"></div>
+			<div class="new-sdk-logo"><a href="#"><img src="images/new-sdk-logo.png"></a></div>
+	        <div class="new-sdk-content" style="overflow: hidden;">
+	            <h3>网络服务协议</h3>
+	            <div class="content-main" style="height: 220px;">
+	            	
+					<iframe src="agreement.html" name="myiframe" id="iframepage" frameborder="0" scrolling="auto" width="100%"></iframe>
+					
+	            </div>
+	        </div>
+	      
+	        <div class="only-btn inline-btn">
+	        	<a href="#register" class="submit btn-orange">确定</a>
+	        	<div class="agreement l" style="margin-right: 0;">
+			      	<div class="checkbox checkbox-2 l" >
+	                	<i class="iconfont icon-xuanzhong"></i>
+                	</div>
+			      	<p class="l">已阅读</p>
+			      </div>
+	        </div>
+		</div>
+
+</section>
+<!-- end -->
+<!-- 活动公告模块 -->
+<section id="activity" class="hide" data-auth="1">
+	<div class="new-sdk-container">
+		<div class="SDK-titlebox"></div>
+		<div class="user-center">
+			<a href="#home" class="lefticon">
+				<i class="iconfont icon-fanhui"></i>
+			</a>
+			活动公告
+			<!--<a href="#message" class="btn-link posrgt">
+				个人消息
+			</a>-->
+		</div>
+		<div class="container activity">
+		<div class="box_info_center" style="height: 100%;"> 
+			<div id="activity_wrapper" style="position: relative" class="scroll">
+					<ol class="activity-list list" data-role="ajax-html"
+						data-params-url="/sdk/notice/list?page_size=10"
+						data-params-template="tpl_activity">
+					</ol>
+			</div>
+		</div>
+	</div>
+	</div>
+		
+</section>
+<!-- end -->
+<!-- 活动公告详细页面模块 -->
+<section id="activity_detail" class="hide" data-auth="1" data-attr="dot">
+</section>
+<!-- end -->
+<!-- 消息列表模块 -->
+<section id="message" class="hide" data-auth="1">
+	<div class="new-sdk-container">
+		<div class="SDK-titlebox"></div>
+		<div class="user-center">
+			<a href="#activity" class="lefticon op-back">
+				<i class="iconfont icon-fanhui"></i>
+			</a>
+			个人消息			
+		</div>
+		<div class="container activity">
+			<div class="box_info_center">
+				<div id="message_wrapper" style="position: relative" class="scroll">
+						<ol class="message-list list" data-role="ajax-html"
+							data-params-url="/message/list?page_size=10"
+							data-params-template="tpl_message_list">
+						</ol>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+</section>
+<!-- end -->
+<section id="message_detail" class="hide" data-attr="dot">
+</section>
+<section id="identityCard" class="hide" data-attr="dot">
+</section>
+<section id="identityCard_ok" class="hide" data-attr="dot">
+</section>
+<!-- 找回密码模块 -->
+<section id="find_pwd" class="hide" data-replace="1">
+		<input type="hidden" name="pwd_code" value="">
+		<div class="new-sdk-container">
+			<div class="SDK-titlebox"></div>
+			<div class="user-center" style="border-bottom: none;">
+				<a href="#login" class="lefticon">
+					<i class="iconfont icon-fanhui"></i>
+				</a>
+				<span>找回密码</span>
+			</div>
+			<div class="pwd_box">
+				<ul class="step-tab">	
+					<li><a href="javascript:;">通过手机找回</a></li>
+					<li><a href="javascript:;">通过密保找回</a></li>
+					<!--<li><a href="javascript:;">通过邮箱找回</a></li>-->
+					<li><a href="javascript:;">联系客服</a></li>
+				</ul>
+				
+				<div class="step-box">	
+					<div id="mobile_get_pwd_form" class="hide" style="border-top: 1px solid #fff;">
+						<div class="new-sdk-box">
+							<div class="input" style="padding: 15px 0;">
+								<input id="js_findPSW_accout" type="text" required name="accout"  placeholder="请输入您的账号" style="margin: 0;">
+							</div>
+							<div class="input" style="padding: 15px 0;">
+								<input id="js_findPSW_mobile" type="text" required name="mobile"  placeholder="请输入您绑定的手机号码" style="margin: 0;">
+							</div>					
+							<div class="inputCode clearfix">
+								<div class="input fl" style="padding: 15px 0;">
+									<input id="js_findPSW_ranks" type="text" required name="mobilecode"  placeholder="请输入短信验证码" style="margin: 0;">
+								</div>
+								<a href="javascript:;" class="getCode" id="js_findPSW_getcode" style="padding:15px 0;">获取验证码</a>
+							</div>
+							<ul class="inline-btn" style="margin-top: 15px;">
+								<li style="background: none;"><a class="larg btn btn-orange" value="" id="js_findPSW_confirm">确定</a></li>
+								<li style="background: none; border-radius: 20px;"><a class="btn" href="#home" id="returnhome">返回</a></li>
+							</ul>						
+						</div>
+					</div>
+					<div id="question_get_pwd_form" action="/sdk/find/question" todo="get_question_callback" method="post"  class="function-list-content ajax hide form">
+						<div class="question-input-box clearfix">
+							<div class="pull-left qib-txt">
+								您的账户：
+							</div>
+							<div class="pull-left qib-input">
+								<input type="text" name="username" placeholder="输入您的账号" style="text-align: left;" class="function-input username" required/>
+							</div>
+						</div>
+						
+						<a href="javascript:;" class="pwd_btn op-primary btn-orange">确定</a>
+					</div>
+					<!--<div id="email_get_pwd_form" action="/user/password_by_mail"  todo="password_by_mail_callback"   class="function-list-content ajax hide form">
+
+                        <input type="text" name="email" placeholder="输入您绑定的邮箱地址" class="function-input mail" style="margin: 0 0 30px;"/>
+                        <a href="javascript:;" class="pwd_btn op-primary btn-orange">确定</a>
+                    </div>-->
+                    <div class="function-list-content hide">
+                    	<div class="pwd_txt">
+                    		<div class="default_text">
+	                    		<p>客服QQ：<a href="javascript:;" id="js_kefu_qq"></a></p>
+	                    		<p>客服电话：<a href="tel:"></a></p>
+	                    		<p>玩家交流群：<a href="javascript:;" id="js_player"></a></p>
+                    		</div>
+                    		<div class="get_text"></div>
+                    	</div>
+                        <a href="javascript:;" class="kefu_subbtn">确定</a>
+                    </div>
+					<div class="reset_psw_mobile hide" style="border-top: 1px solid #fff;">
+						<div class="new-sdk-box">
+							<div class="acount-name">
+								<p style="margin-top: 0;">账号：<span id="js_UserName" style="color: #000;"></span></p>
+							</div>			
+							<div class="inputCode clearfix">
+								<div class="input fl" style="width: 100%; padding:15px 0;">
+									<input type="text" required placeholder="请输入新密码" id="js_reset_newpsw" style="margin: 0; text-align: left; padding: 0 20px;">
+								</div>
+							</div>
+							<div class="ag-tx clearfix">
+				                <span data-action="">
+				                	<div class="checkbox checkbox-2 l">
+					                	<i class="iconfont icon-xuanzhong"></i>
+				                	</div>
+				                	<p class="l" style="margin-top: 0;">显示密码</p>
+				                </span>				             	
+				            </div>
+							<a href="javascript:;" class="btn-orange" id="js_confirm_resetnewpsw">保存修改</a>												
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+</section>
+<!-- end -->
+<section id="help" class="hide"	data-auth="1">
+	<div class="header">
+		<span class="title">手游平台</span>
+		<a class="btn pull-left op-back" href="#home">返回</a>
+	</div>
+
+	<div class="container">
+	<div class="box_info_center"> 
+		<div class='align-left'>
+
+		</div>
+	</div>
+	</div>
+</section>
+<!-- 首页模块 -->
+<section id="home" class="hide" data-attr="dot" data-auth="1"></section>
+<!-- 重置密码模块 -->
+<section id="reset_pwd" data-attr="dot" class="hide"></section>
+<!-- 修改密码模块 -->
+<section id="modify_pwd" data-attr="dot" class="hide" data-auth="1"></section>
+<!-- 密保模块 -->
+<section id="mibao" data-attr="dot" class="hide" data-auth="1"></section>
+<!-- 回答密保模块 -->
+<section id="answer_question" data-attr="dot" class="hide"></section>
+<!-- 绑定模块 -->
+<section id="bind" data-attr="dot" class="hide" data-auth="1"></section>
+<!-- 绑定手机 -->
+<section id="bindMobile" data-attr="dot" class="hide" data-auth="1"></section>
+<!-- 解绑手机模块 -->
+<section id="unbindMobile" data-attr="dot" class="hide" data-auth="1"></section>
+<!-- 绑定邮箱模块 -->
+<section id="mail" data-attr="dot" class="hide" data-auth="1"></section>
+<!-- doT模板  -->
+<section id="frame" data-attr="dot" class="hide" ></section>
+
+<script id="frame_template" type="text/x-jquery-tmpl" >
+
+<div class="new-sdk-container">
+	<div class="SDK-titlebox"></div>
+	<div class="new-sdk-logo" style="position: relative; margin-bottom: 25px;">
+		<a href="#"><img src="images/new-sdk-logo.png"></a>
+		<a href="#login" class="lefticon" style="position: absolute; left: 37px; top: 20px;">
+			<i class="iconfont icon-fanhui"></i>
+		</a>
+	</div>
+	<div class="container" style=" margin-bottom: 20px;">
+		<div class="ios_scroll">
+		<iframe frameborder=0 src="{{=Core.Data.frame_src}}" scrolling="yes" width="100%" height="100%"></iframe>
+		</div>
+	</div>
+
+</div>
+</script>
+<script id="home_template" type="text/x-jquery-tmpl">
+	<input type="hidden" name="initUserName" value="{{=Core.Data.nickname}}" />
+	<div class="new-sdk-container">
+		<div class="new-container-box">
+			<div class="SDK-titlebox"></div>
+			<div class="user-center">
+				用户中心
+				<a href="/sdk/logout" class="op-logout">切换账户</a>
+			</div>			
+
+			{{? Core.Data.is_guest == 1}}
+			<div class="user-center-box">
+				<div class="top clearfix">
+					<div class="pull-left txt w_45">
+						<p>欢迎您！</p>
+						<p>{{=Core.Data.nickname}}</p>
+					</div>
+					<div class="inline-btn pull-right w_45">
+						{{? Core.Data.force_auth == 1 && Core.Data.compellation_name == "" && Core.Data.identity_card == ""}}
+							<a href="javascript:Core.finishLogin()" class="btn btn-orange">进入游戏</a>
+						{{??}}
+							<a href="javascript:Core.finishLogin()" class="btn btn-orange">进入游戏</a>
+						{{?}}						
+					</div>
+				</div>
+				<div class="bind-user">
+					<div class="w_50 txt" style="display: inline-block; vertical-align: middle;">
+					为保证您的虚拟财产安全，请升级账号!
+					</div>
+					<div class="inline-btn w_45" style="display: inline-block; vertical-align: ;">
+						<a class="btn btn-bind" href="#modify_pwd">马上升级</a>
+					</div>
+				</div>
+				{{? Core.Data.kefu_info != ""}}
+				<p style="text-align: center;font-size: 20px; color: #ff0000; position: absolute; width: 100%; bottom: 10px; left:0;">{{=Core.Data.kefu_info[0]}}</p>
+				{{?}}			
+			</div>
+			{{?? Core.Data.is_guest == 2}}<!--1:游客登录；2：第三方登录；0：正式用户登录-->
+			<div class="user-center-box">
+				<div class="top clearfix" style="border-bottom: none;">
+					<div class="pull-left txt w_45">
+						<p>欢迎您！</p>
+						<p>{{=Core.Data.nickname}}</p>
+					</div>
+					<div class="inline-btn pull-right w_45">
+						{{? Core.Data.force_auth == 1 && Core.Data.compellation_name == "" && Core.Data.identity_card == ""}}
+							<a href="javascript:Core.finishLogin()" class="btn btn-orange">进入游戏</a>
+						{{??}}
+							<a href="javascript:Core.finishLogin()" class="btn btn-orange">进入游戏</a>
+						{{?}}	
+					</div>
+				</div>
+				{{? Core.Data.bind_phone === ""}}
+				<ul class="list-item clearfix">
+					<li style="position: relative;"><a href="#bindMobile">绑定手机</a><span class="redround"></span></li>
+					<li><a href="#mibao">设置密保</a></li>
+					<li><a href="#modify_pwd">修改密码</a></li>
+				</ul>
+				{{??}}
+				<ul class="list-item clearfix">
+					<li style="width:50%;"><a href="#unbindMobile">解绑手机</a></li>
+					<li style="width:50%;"><a href="#mibao">设置密保</a></li>
+				</ul>
+				<ul class="list-item clearfix" style="border-top:none;">
+					<li style="width:50%;"><a href="#modify_pwd">修改密码</a></li>
+					<li style="width:50%;"><a href="#identityCard">实名认证</a></li>
+				</ul>
+				{{? Core.Data.kefu_info != ""}}
+				<p style="text-align: center;font-size: 20px; color: #ff0000; position: absolute; width: 100%; bottom: 10px;left:0;">{{=Core.Data.kefu_info[0]}}</p>
+				{{?}}				{{?}}
+			</div>
+			{{?? Core.Data.is_guest == 0}}
+			<div class="user-center-box">
+				<div class="top clearfix" style="border-bottom: none;">
+					<div class="pull-left txt w_45">
+						<p>欢迎您！</p>
+						<p>{{=Core.Data.nickname}}</p>
+					</div>
+					<div class="inline-btn pull-right w_45">
+						{{? Core.Data.force_auth == 1 && Core.Data.compellation_name == "" && Core.Data.identity_card == ""}}
+							<a href="javascript:Core.finishLogin()" class="btn btn-orange">进入游戏</a>
+						{{??}}
+							<a href="javascript:Core.finishLogin()" class="btn btn-orange">进入游戏</a>
+						{{?}}	
+					</div>
+				</div>		
+				
+				{{? Core.Data.force_auth == 1}}
+				<ul class="list-item clearfix">
+					{{? Core.Data.bind_phone === ""}}
+						<li style="position: relative;width:50%;"><a href="#bindMobile">绑定手机</a><span class="redround"></span></li>
+					{{??}}
+						<li style="width:50%;"><a href="#unbindMobile">解绑手机</a></li>
+					{{?}}					
+					<li style="width:50%;"><a href="#mibao">设置密保</a></li>
+				</ul>
+				<ul class="list-item clearfix" style="border-top:none;">
+					<li style="width:50%;"><a href="#modify_pwd">修改密码</a></li>
+					{{? Core.Data.compellation_name === "" && Core.Data.identity_card === ""}}
+					<li style="width:50%;"><a href="#identityCard">实名认证</a></li>
+					{{??}}
+					<li style="width:50%;position:relative;"><a href="#identityCard_ok">实名认证
+						<span style="position:absolute;right:5px;top:5px;color:#fff;background:#ff9600;padding:3px 10px;border-radius:10px;font-size:20px;">已认证</span>
+					</a></li>
+					{{?}}
+				</ul>
+				{{? Core.Data.kefu_info != ""}}
+				<p style="text-align: center;font-size: 20px; color: #ff0000; position: absolute; width: 100%; bottom: 10px;left:0;">{{=Core.Data.kefu_info[0]}}</p>
+				{{?}}				{{??}}
+					{{? Core.Data.bind_phone === ""}}
+                    <ul class="list-item clearfix">
+						<li style="width:50%;"><a href="#bindMobile">绑定手机</a></li>
+						<li style="width:50%;"><a href="#mibao">设置密保</a></li>
+					</ul>
+					<ul class="list-item clearfix" style="border-top:none;">
+						<li style="width:50%;"><a href="#modify_pwd">修改密码</a></li>
+						{{? Core.Data.compellation_name === "" && Core.Data.identity_card === ""}}
+						<li style="width:50%;"><a href="#identityCard">实名认证</a></li>
+						{{??}}
+						<li style="width:50%;position:relative;"><a href="#identityCard_ok">实名认证
+							<span style="position:absolute;right:5px;top:5px;color:#fff;background:#ff9600;padding:3px 10px;border-radius:10px;font-size:20px;">已认证</span>
+						</a></li>
+						{{?}}
+					</ul>                    
+					{{? Core.Data.kefu_info != ""}}
+					<p style="text-align: center;font-size: 20px; color: #ff0000; position: absolute; width: 100%; bottom: 1em;left:0;">{{=Core.Data.kefu_info[0]}}</p>
+					{{?}}
+					{{??}}
+					<ul class="list-item clearfix">
+						<li style="width:50%;"><a href="#unbindMobile">解绑手机</a></li>
+						<li style="width:50%;"><a href="#mibao">设置密保</a></li>
+					</ul>
+					<ul class="list-item clearfix" style="border-top:none;">
+						<li style="width:50%;"><a href="#modify_pwd">修改密码</a></li>
+						{{? Core.Data.compellation_name === "" && Core.Data.identity_card === ""}}
+						<li style="width:50%;"><a href="#identityCard">实名认证</a></li>
+						{{??}}
+						<li style="width:50%;position:relative;"><a href="#identityCard_ok">实名认证
+							<span style="position:absolute;right:5px;top:5px;color:#fff;background:#ff9600;padding:3px 10px;border-radius:10px;font-size:20px;">已认证</span>
+						</a></li>
+						{{?}}
+					</ul>
+					{{? Core.Data.kefu_info != ""}}
+					<p style="text-align: center;font-size: 20px; color: #ff0000; position: absolute; width: 100%; bottom: 10px;left:0;">{{=Core.Data.kefu_info[0]}}</p>
+					{{?}}					{{?}}
+				{{?}}	
+				<!--<ul class="list-item clearfix">
+					{{? Core.Data.bind_phone === ""}}
+						<li style="position: relative;"><a href="#bindMobile">绑定手机</a><span class="redround"></span></li>
+						{{??}}
+						<li><a href="#unbindMobile">解绑手机</a></li>
+						<li><a href="#">实名认证</a></li>
+					{{?}}		
+					<li><a href="#mibao">设置密保</a></li>
+					<li><a href="#modify_pwd">修改密码</a></li>
+					
+				</ul>-->
+			</div>						
+				
+			{{?}}
+				
+			</div>
+		</div>
+</script>
+<script id="mail_template" type="text/x-jquery-tmpl" >
+
+	<div class="new-sdk-container">
+		<div class="SDK-titlebox"></div>
+		<div class="user-center">
+			<a href="#home" class="lefticon">
+				<i class="iconfont icon-fanhui"></i>
+			</a>
+			绑定邮箱
+		</div>	
+			
+	{{? Core.Data.bind_mail_statu == 0}}
+
+		<div class="new-sdk-box">
+			<div class="acount-name">
+				账号：{{=Core.Data.username}}
+			</div>
+			<form id="pwd_by_question_form" action="/user/bind_mail" class="ajax" method="post">
+				<div class="input" style="padding: 0;">
+					<input type="text" name="email" required  placeholder="请输入你要绑定的邮箱">
+					<input type="text" value="1" name="email_1" required  placeholder="请输入你要绑定的邮箱" style="display: none;">
+				</div>
+			</form>
+			<p>提示：发送绑定邮件后，请您登录邮箱操作!</p>
+		</div>
+		<ul class="inline-btn">
+			<li style="margin: 0 auto; padding: 1em 0; float: none;">
+				<a class="submit btn larg btn-orange" href="">发送绑定邮件</a>
+			</li>				
+		</ul>
+		
+			
+	{{?? Core.Data.bind_mail_statu == 1}}
+			
+		<div class="new-sdk-box">
+			<form id="bind_mail_form" action="/user/bind_mail" class="ajax" todo="bind_mail_callback"  style="display:none; ">
+			<div class="input">
+				<input type="text" name="email" required  placeholder="输入想要绑定的邮箱地址">
+				<input type="text" value="1" name="email_1" required  placeholder="请输入你要绑定的邮箱" style="display: none;">
+			</div>
+			</form>
+			<p>待绑定邮箱：<span class="text-info">{{=Core.Data.mail}}</span></p>
+		</div>
+		<ul class="inline-btn">
+			<li style="margin: 0 auto; padding: 1em 0; float: none;" id="change-mail-btn" class=""><a class="btn larg btn-orange" href="#">更换邮箱</a></li>
+			<li style="margin: 0 auto; padding: 1em 0; float: none; background: #ff9600;" id="bind-mail-btn" class="hide"><a class="btn larg op-primary btn-orange" href="#home">保存设置</a></li>
+			
+		</ul>
+			
+	{{?? Core.Data.bind_mail_statu == 2}}
+
+		<div class="new-sdk-box">
+			<div class="input" style="padding: 0;">
+				<input type="text" name="email" required disabled="disabled" value="{{=Core.Data.mail}}">
+			</div>
+			<p>可以通过绑定的邮箱找回密码</p>
+		</div>
+
+	{{?}}
+
+	</div>
+
+
+</script>
+<script id="reset_pwd_template" type="text/x-jquery-tmpl" >
+
+	<div class="new-sdk-container">
+		<div class="SDK-titlebox"></div>
+			
+		<div class="new-sdk-box">
+			<div class="question-input mt10">
+				账号：{{=Core.Data.username}}
+			</div>
+			<div class="question-input mt10">
+				<p>你的新密码是:{{=Core.Data.new_pwd}}</p>
+				<p style="color: #949494;">请妥善保管，切勿外泄</p>
+			</div>			
+		</div>
+		<ul class="inline-btn">
+			<li style="float: none; margin: 0 auto;"><a  class="larg btn btn-orange" href="#login">我知道了</a></li>
+		</ul>
+
+	</div>
+</script>
+<script id="modify_pwd_template" type="text/x-jquery-tmpl">
+
+
+	<div class="new-sdk-container">
+		<div class="SDK-titlebox"></div>
+		<div class="user-center">
+			<a href="#home" class="lefticon">
+				<i class="iconfont icon-fanhui"></i>
+			</a>
+			{{? Core.Data.is_guest == 1}}升级账号{{??}}修改密码{{?}}
+		</div>	
+		<form action="/sdk/change_password" mthod="post" class="ajax " todo="modify_pwd_callback" >
+			<div class="new-sdk-box">
+				<div class="input new-sdk-psw clearfix">
+					<i>{{? Core.Data.is_guest == 1}}正式账号：{{??}}旧密码:{{?}}</i>
+					<label>
+					
+				<input {{? Core.Data.is_guest == 1}}type="text"{{??}}type="password"{{?}} class="old_pwd required " name="{{? Core.Data.is_guest >= 1}}username{{??}}password{{?}}" value="{{? Core.Data.new_pwd}}{{=Core.Data.new_pwd}}{{?}}" required="required"  placeholder="{{? Core.Data.is_guest == 1}}请输入6-18位字母或数字{{??}}请输入旧密码{{?}}"   required/>	
+					</label>						
+				</div>
+				<div class="input new-sdk-psw clearfix">
+						<i>{{? Core.Data.is_guest == 1}}正式密码：{{??}}新密码:{{?}}</i>
+					<label>
+
+				<input class="" name="newpwd" required type="text" placeholder="{{? Core.Data.is_guest == 1}}请输入6-16位字母或数字{{??}}请输入密码{{?}}" />
+
+
+					</label>						
+				</div>
+				{{? Core.Data.is_guest == 1}}<p>升级账号成功之后，请妥善保管正式账号</p>{{??}}{{?}}
+				
+			</div>
+
+			<ul class="inline-btn">
+				<li style="margin: 0 auto; padding: 1em 0; float: none;">
+					<a class="submit btn larg btn-orange" autocomplete="off" >保存更改</a>
+				</li>				
+			</ul>
+		</form>
+	</div>
+
+
+</script>
+
+<script id="identityCard_template" type="text/x-jquery-tmpl" >
+	<div class="new-sdk-container">
+		<div class="SDK-titlebox"></div>
+		<div class="user-center">
+            {{? Core.Data.force_auth !== 1 }}
+			<a href="#home" class="lefticon">
+				<i class="iconfont icon-fanhui"></i>
+			</a>
+            {{?}}
+			实名认证<div class="" style="  font-size: 18px;color: #949494;text-align: left;  padding-left: 37px;">根据国家规定，游戏用户需进行实名认证</div>
+		</div>
+        
+		<form action="/user/bind_identity_card" method="post" class="ajax" onkeydown="if(event.keyCode==13) return false;" >
+        
+			<div class="new-sdk-box">
+				<div class="input" style="padding:0 25px;"><input type="text" name="identity_card" required placeholder="请输入身份证号码" style="text-align: left;"></div>
+				<div class="input" style="padding:0 25px;"><input type="text" name="compellation_name" required placeholder="请输入身份证姓名" style="text-align: left;"></div>
+			</div>
+			<ul class="inline-btn">
+				<li style="padding: 1em 0; float: none; margin: 0 auto;"><a  class="submit btn larg btn-orange" autocomplete="off">提交</a></li>
+			</ul>
+		</form>
+	</div>
+</script>
+
+<script id="mibao_template" type="text/x-jquery-tmpl" >
+{{? Core.Data.safe_question == "" }}
+<div class="new-sdk-container">
+	<div class="SDK-titlebox"></div>
+			<div class="user-center">
+			<a href="#home" class="lefticon">
+				<i class="iconfont icon-fanhui"></i>
+			</a>
+			设置密保
+		</div>
+			<form action="/sdk/set_mibao" mthod="post" class="ajax" todo="mibao_callback" onkeydown="if(event.keyCode==13) return false;" >
+				<div class="new-sdk-box">
+					<div class="input select" style="padding:0 25px; position: relative;">
+						<select name="question" class="" >
+							{{~ Core.Data.question_list :item:index }}
+								<option value='{{=item}}'>{{=item}}</option>
+							{{~}}
+						</select>
+						<i class="iconfont icon-xiangxia" style="
+						    position: absolute;
+						    right: -25px;
+						    top: 21px;
+						"></i>
+					</div>
+					<div class="input" style="padding:0 25px;"><input type="text" name="answer" required placeholder="输入密保保护答案" style="text-align: left;"></div>
+					<p style="color: #595757; font-size: 18px; margin-top: 10px;">设置密保，能通过回答问题找回忘记的密码</p>
+				</div>
+				<ul class="inline-btn">
+					<li style="padding: 1em 0; float: none; margin: 0 auto;"><a  class="submit btn larg btn-orange" autocomplete="off">保存设置</a></li>
+				</ul>
+			</form>
+		</div>
+
+{{??}}
+		<div class="new-sdk-container">
+			<div class="SDK-titlebox"></div>
+			<div class="user-center">
+				<a href="#home" class="lefticon">
+					<i class="iconfont icon-fanhui"></i>
+				</a>
+				设置密保
+			</div>
+			<form action="">
+				<div class="new-sdk-box">
+					<p>问题：{{=Core.Data.safe_question}}</p>
+					<p>答案：{{=Core.Data.safe_answer}}</p>
+				</div>
+			</form>
+		</div>
+{{?}}
+
+	
+</script>
+<script id="answer_question_template" type="text/x-jquery-tmpl" >
+		<div class="new-sdk-container">
+			<div class="SDK-titlebox"></div>
+			<div class="user-center">
+				<a href="#login" class="lefticon back-btn">
+					<i class="iconfont icon-fanhui"></i>
+				</a>
+				密保找回密码
+			</div>
+
+			<div class="new-sdk-box" style="border-top: 1px solid #c4c3c3;">
+				<div id="pwd_by_question_form" action="/sdk/find/question/" class="ajax " method="post" >
+					<input type="hidden" name="username" value="{{=Core.Data.ans_temp.username}}" />
+					<input type="hidden" name="question" value="{{=Core.Data.ans_temp.question}}" />					
+					
+					<div class="question-input" style="margin-bottom: 20px;">
+						{{=Core.Data.ans_temp.question}}
+						<i class="iconfont icon-xiangxia"></i>
+					</div>
+					
+					<div class="input" style="padding: 0;">
+						<input type="text" name="answer" required class="larg " placeholder="请输入答案" required/>
+					</div> 
+
+				</div>
+			</div>
+
+			<ul class="inline-btn">
+				<li style="float: none; margin: 0 auto;"><a  class="larg btn btn-orange submit op-primary" >确定</a></li>
+			</ul>
+		</div>
+
+
+</script>
+<script id="bind_template" type="text/x-jquery-tmpl" >
+		<div class="new-sdk-container">
+			<div class="SDK-titlebox"></div>
+			<div class="user-center">
+				<a href="#login" class="lefticon">
+					<i class="iconfont icon-fanhui"></i>
+				</a>
+				绑定手机
+			</div>
+
+			<div class="new-sdk-box">
+				
+			{{? Core.Data.bind_phone == "" && Core.Data.bind_statu == 0 }}
+			<div class="acount-name">
+				账号：{{=Core.Data.username}}
+			</div>
+			<form id="bind_phone_form" action="/user/bind_mobile" class="ajax" todo="bind_phone_callback"  >				
+				<div class="input" style="padding: 0;">
+					<input id="js_iphone" type="text" required name="mobile"  placeholder="请输入您要绑定的手机号码">
+				</div>					
+				<div class="inputCode clearfix">
+					<div class="input fl">
+						<input id="js_ranks" type="text" required name="mobilecode"  placeholder="请输入短信验证码">
+					</div>
+					<a href="javascript:;" class="getCode" id="js_getcode">获取验证码</a>
+				</div>
+				<ul class="inline-btn">
+					<li><a class="larg btn btn-orange submit" id="js_conform" value="" >确定</a></li>
+					<li><a class="btn" href="#home">返回</a></li>
+				</ul>
+			</form>
+
+			{{?? Core.Data.bind_statu == 1}}
+
+
+			<form id="bind_phone_form" action="/user/bind_mobile" class="ajax"  todo="bind_phone_callback"  >
+				<div class="new-sdk-box">
+					<div class="input" style="padding: 0;"><input type="text" required name="mobile" placeholder="{{=Core.Data.bind_phone}}"></div>
+					<p>当前号码待绑定，更换手机号码请直接修改</p>
+					<p>请用绑定的手机拨打<span>{{=Core.Data.mobile_helper_number}}</span>(电话会自动挂断，此呼叫免费）完成绑定，才可以通过手机修改密码。</p>
+				</div>
+				<ul class="inline-btn">
+					<li><a  class="larg btn btn-orange submit" >保存设置</a></li>
+					<li><a class="btn" href="#home">返回</a></li>
+				</ul>
+			</form>
+
+			{{?? Core.Data.bind_statu == 2}}
+
+
+			<form action="">
+				<div class="new-sdk-box">
+					<div class="input" style="padding: 0;"><input type="text" value="{{=Core.Data.bind_phone}}"></div>
+					<p>解除绑定，请用绑定的手机发送短信内容“<span>qxbd</span>”发送到<span>{{=Core.Data.mobile_helper_number}}</span></p>
+				</div>
+				<div class="only-btn"><a class="btn" href="#home">返回</a></div>
+			</form>
+
+
+			{{?}}
+			</div>
+		</div>
+
+</script>
+<script id="bindMobile_template" type="text/x-jquery-tmpl">
+	<div class="new-sdk-container">
+		<div class="SDK-titlebox"></div>
+		<div class="user-center">
+			<a href="#home" class="lefticon">
+				<i class="iconfont icon-fanhui"></i>
+			</a>
+			绑定手机
+		</div>
+		<div class="new-sdk-box">
+			<div class="acount-name">
+				账号：{{=Core.Data.username}}
+			</div>
+			<form id="bind_mobile_form" action="/user/bind_mobile">				
+				<div class="input" style="padding: 0;">
+					<input id="js_iphone" type="text" required placeholder="请输入您要绑定的手机号码">
+				</div>					
+				<div class="inputCode clearfix">
+					<div class="input fl">
+						<input id="js_ranks" type="text" required placeholder="请输入短信验证码">
+					</div>
+					<a href="javascript:;" class="getCode" id="js_getcode" style="padding: 20px 0;">获取验证码</a>
+				</div>
+				<ul class="inline-btn">
+					<li><a class="larg btn btn-orange" id="js_conform" value="" >确定</a></li>
+					<li><a class="btn" href="#home">返回</a></li>
+				</ul>
+			</form>
+		</div>
+	</div>
+</script>
+<script id="unbindMobile_template" type="text/x-jquery-tmpl">
+	<div class="new-sdk-container">
+		<div class="SDK-titlebox"></div>
+		<div class="user-center">
+			<a href="#home" class="lefticon">
+				<i class="iconfont icon-fanhui"></i>
+			</a>
+			解绑手机
+		</div>
+		<div class="new-sdk-box">
+			<div class="acount-name">
+				<p style="margin-top: 0;">账号：{{=Core.Data.username}}</p>
+				<p>手机：<span class="phoneMobile"></span></p>
+			</div>
+			<form id="unbind_mobile_form" action="/user/bind_mobile">								
+				<div class="inputCode clearfix">
+					<div class="input fl">
+						<input id="js_unbind_ranks" type="text" required placeholder="请输入短信验证码">
+					</div>
+					<a href="javascript:;" class="getCode" id="js_unbind_getcode" style="padding:20px 0;">获取验证码</a>
+				</div>
+				<ul class="inline-btn" style="margin-top: 25px;">
+					<li><a class="larg btn btn-orange" id="js_unbind" value="" >确定</a></li>
+					<li><a class="btn" href="#home">返回</a></li>
+				</ul>
+			</form>
+		</div>
+	</div>
+</script>
+<script id="identityCard_ok_template" type="text/x-jquery-tmpl">
+	<div class="new-sdk-container">
+		<div class="SDK-titlebox"></div>
+		<div class="user-center">
+			<a href="#home" class="lefticon">
+				<i class="iconfont icon-fanhui"></i>
+			</a>
+			实名认证
+		</div>
+		<div class="new-sdk-box">
+			<div class="acount-name">
+				<p style="margin-top: 0;">姓名：<span class="compellation_name"></span></p>
+				<p>身份证：<span class="identity_card"></span></p>
+			</div>
+		</div>
+	</div>
+</script>
+<script id="message_detail_template" type="text/x-jquery-tmpl">
+	<div class="header">
+		<a class="btn pull-left op-back" href="#message">返回</a>
+		<span class="title">消息内容</span>
+	</div>
+	<div class="container">
+	<div class="box_info_center"> 
+	 <div class="message-comm">
+		<div class="align-center bor_b_h3">
+			<h3>{{=Core.Data.message_detail.title}}</h3>
+			<p class="text-info">
+				<span class="mar-r-10">{{=Core.Data.message_detail.nickname}}</span>
+				<span>[{{=Core.Data.message_detail.create_time}}]</span>
+			</p>
+		</div>
+		<div class="message_text">
+		{{=Core.Data.message_detail.content}}
+		</div>
+	</div>
+	</div>
+	</div>
+</script>
+<script id="activity_detail_template" type="text/x-jquery-tmpl">
+	<div class="new-sdk-container" style="background: #fff;">
+		<div class="SDK-titlebox"></div>
+		<div class="user-center">
+			<a href="#activity" class="lefticon">
+				<i class="iconfont icon-fanhui"></i>
+			</a>
+			活动公告详情			
+		</div>
+		<div class="container activity"> 
+			<div class="align-center bor_b_h3 clearfix">
+				<h3 class="pull-left">{{=Core.Data.activity_detail.title}}</h3>
+				<p class="text-info pull-right">
+				<span>{{=Core.Data.activity_detail.notice_time}}</span>
+				</p>
+			</div>
+			<div class="box_info_center" style="height: 100%; margin: 0 37px;"> 
+				<div class="detail_scroller scroll" id="detail_scroller">
+					<div class="activity-comm">					
+					<div class="activity_text">
+						{{=Core.Data.activity_detail.content}}
+					</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</script>
+
+<script id='tpl_message_list_template' type='text/x-jquery-tmpl'>
+{{? it.model_list.length == 1 }}
+	<p>没有消息.</p>
+{{??}}
+	{{~ it.model_list :item:index }}
+	{{? item.id}}
+		<li >
+				<a class="item" data-id="{{=item.id}}">
+					<span class="pull-right">{{=item.nickname}}</span>
+					<span class="pull-right text-info mar-r-10">{{=item.create_time}}</span>
+					<p>
+					<span class="title">{{=item.title}}</span> {{? item.read == 0}}<span class="statu">未读</span>{{?}}
+					</p>
+				</a>
+		</li>
+	{{?}}
+	{{~ }}
+	{{? it.page_num < it.total_page}}
+	<li class="more">
+		<a class="btn" href="/message/list?page_num={{=(it.page_num+1)}}" data-role="ajax-html" data-params-template="tpl_message_list"   data-params-append="true"  >点击加载更多帖子</a>
+	</li>
+	{{?}}
+{{?}}
+</script>
+<script id='tpl_activity_template' type='text/x-jquery-tmpl'>
+{{? it.model_list.length == 1 }}
+	<p style="text-align:center; font-size:30px; margin:20px auto;">没记录...</p>
+{{??}}
+	{{~ it.model_list :item:index }}
+	{{? item.id}}
+		<li >
+				<a class="item" href="#" data-id="{{=item.id}}">
+				<span class="pull-right act_time">{{=item.notice_time}}</span>
+				<span class="act_title{{? item.update_time.indexOf('刚刚') > -1}}new{{?}}">{{=item.title}}</span>
+				</a>
+		</li>
+	{{?}}
+	{{~ }}
+	{{? it.page_num < it.total_page}}
+	<li class="more">
+		<a class="btn" href="/sdk/notice/list?page_num={{=(it.page_num+1)}}" data-role="ajax-html" data-params-template="tpl_activity"   data-params-append="true"  >点击加载</a>
+	</li>
+	{{?}}
+{{?}}
+</script>
+
+</div>
+
+<script type="text/javascript" src="js/fastclick.min.1.0.js?20150923001"></script>
+<script type="text/javascript" src="js/zepto.min.js?20150923001"></script>
+<script type="text/javascript" src="js/doT.min.js?20150923001" ></script>
+<script type="text/javascript" src="js/iscroll.min.1.0.js?20150923001" ></script>
+<script type="text/javascript">
+
+window.isGetData = 0;
+$(function() {
+FastClick.attach(document.body);
+});
+</script>
+<script type="text/javascript" src="js/core.min.js?20150923001" ></script>
+<script type="text/javascript" src="js/login.min.js?2016111" ></script>
+<script type="text/javascript" src="js/loader.min.js?20150923001"></script>
+<script type="text/javascript" src="js/simpScroller-min.js"></script>
+<script type="text/javascript" src="js/identity_id.js" ></script>
+<script type="text/javascript">
+window.onload = window.onresize = initMatching;
+(function(){
+	getData('/sdk/login/json');
+})();
+simpScroller(document.querySelector(".horizontall"), {});
+// $(document).ready(function(){
+// 	setTimeout(function(){Core.showTips($("meta[name='viewport']")[0].getAttribute("content"));}, 2000)
+// })
+</script>
+
+</body>
+</html>

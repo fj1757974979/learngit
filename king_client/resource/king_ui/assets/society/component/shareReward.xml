@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,400" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n0_qof0" name="n0" xy="0,0" size="400,400" url="ui://dvmsogfrfm9321" fill="scaleFree"/>
+    <loader id="n2_qof0" name="title2" xy="100,10" pivot="0.5,0.5" size="200,65" touchable="false" url="ui://864gshxxroydj" autoSize="true"/>
+    <loader id="n3_qof0" name="title" xy="125,16" size="150,51" touchable="false" url="ui://864gshxxew1vbr" align="center" vAlign="middle" autoSize="true"/>
+    <component id="n5_qof0" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="336,10"/>
+    <component id="n13_b60p" name="pyqBtn" src="ew1vbu" fileName="component/sharePyqBtn.xml" pkg="864gshxx" xy="205,320" size="180,60">
+      <relation target="" sidePair="bottom-bottom"/>
+      <Button title="#TEXT_70073" titleFontSize="28" icon="ui://864gshxxew1vbt"/>
+    </component>
+    <loader id="n15_egmw" name="rewardBg1" xy="140,190" size="120,120" url="ui://739g5ytivfpoh" fill="scaleFree"/>
+    <loader id="n20_egmw" name="rewardIcon1" xy="142,192" size="115,115" url="ui://864gshxxnf1s9b" fill="scaleFree">
+      <relation target="n15_egmw" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n21_egmw" name="cnt1" xy="167,276" size="65,34" fontSize="30" color="#66ff99" align="center" vAlign="middle" leading="0" strokeColor="#000000" text="x999">
+      <relation target="n20_egmw" sidePair="center-center"/>
+    </text>
+    <text id="n24_egmw" name="n24" xy="25,124" size="350,44" fontSize="20" color="#666666" align="center" vAlign="middle" leading="0" autoSize="height" text="邀请好友打开游戏可获得以下奖励&#xA;（每天限1次）">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n25_ew1v" name="shareBtn" src="ew1vbu" fileName="component/sharePyqBtn.xml" pkg="864gshxx" xy="15,320" size="180,60">
+      <relation target="" sidePair="bottom-bottom"/>
+      <Button title="#TEXT_70072" titleFontSize="28" icon="ui://864gshxxphrrcy"/>
+    </component>
+    <loader id="n27_ew1v" name="gotten" xy="130,212" size="138,74" url="ui://dvmsogfrtn1u5r" align="center" vAlign="middle" fill="scaleMatchWidth"/>
+    <text id="n28_jqo9" name="n28" xy="25,85" size="350,28" fontSize="24" align="center" vAlign="middle" leading="0" autoSize="height" text="邀请好友一起玩吧！">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Scale" tween="true" startValue="0.8,0.9" endValue="1,1" duration="12" ease="Quart.Out"/>
+  </transition>
+</component>

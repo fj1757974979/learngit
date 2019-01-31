@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="ryvvr3p0" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="xx0v1" name="desk.png" path="/" exported="true"/>
+    <component id="xx0v2" name="battle.xml" path="/component/" exported="true"/>
+    <component id="xx0v3" name="battleGrid.xml" path="/component/" exported="true"/>
+    <image id="xx0v4" name="selectGrid.png" path="/" exported="true"/>
+    <component id="x88n5" name="bonus.xml" path="/component/" exported="true"/>
+    <image id="x88n7" name="loseBonusBg.png" path="/" exported="true"/>
+    <image id="x88n8" name="winBonusBg.png" path="/" exported="true"/>
+    <component id="x88na" name="pvpBattleEnd.xml" path="/component/" exported="true"/>
+    <image id="x88nb" name="winBg1.png" path="/" exported="true"/>
+    <image id="x88nc" name="winBg2.png" path="/" exported="true"/>
+    <image id="x88nd" name="winIcon.png" path="/" exported="true"/>
+    <image id="x88nj" name="loseBg2.png" path="/" exported="true"/>
+    <image id="x88nk" name="loseBg1.png" path="/" exported="true"/>
+    <image id="x88nl" name="loseIcon.png" path="/" exported="true"/>
+    <component id="x88nm" name="levelBattleEnd.xml" path="/component/" exported="true"/>
+    <component id="x88nn" name="rewardNewCard.xml" path="/component/" exported="true"/>
+    <image id="x88no" name="newCardLight.png" path="/" exported="true"/>
+    <component id="dlvap" name="campignBattleEnd.xml" path="/component/" exported="true"/>
+    <component id="x6w8r" name="videoBattleEnd.xml" path="/component/" exported="true"/>
+    <image id="qbacs" name="surrenderIcon.png" path="/" exported="true"/>
+    <component id="qbact" name="surrenderBtn.xml" path="/component/" exported="true"/>
+    <component id="qg2mu" name="winBg.xml" path="/component/" exported="true"/>
+    <component id="qg2mv" name="loseBg.xml" path="/component/" exported="true"/>
+    <component id="qp5h19" name="defCampignBattleEnd.xml" path="/component/" exported="true"/>
+  </resources>
+  <publish name="battle"/>
+</packageDescription>

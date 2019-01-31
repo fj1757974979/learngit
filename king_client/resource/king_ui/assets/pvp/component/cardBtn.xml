@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="60,60" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n5_u843" name="n5" xy="1,2" size="58,56" url="ui://dvmsogfrb59w6m" fill="scaleMatchHeight"/>
+    <text id="n6_b59w" name="txt" xy="20,26" size="20,34" visible="false" fontSize="30" color="#ffffff" leading="0" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="5"/>
+  </displayList>
+  <Button sound="ui://864gshxxlr3f2n" downEffect="scale" downEffectValue="0.90"/>
+</component>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="458,590" designImageOffsetY="-1">
+  <displayList>
+    <list id="n0_jh6f" name="cardList" xy="0,0" size="458,590" layout="flow_hz" overflow="scroll" scrollBarFlags="6" scrollBarRes="ui://864gshxxjzjo62," lineGap="9" colGap="3" lineItemCount="5" defaultItem="ui://rdb04el0uoofm" align="center" autoClearItems="true"/>
+    <text id="n1_ohc6" name="qunTips" xy="16,553" size="426,24" visible="false" fontSize="20" color="#333333" align="center" vAlign="middle" leading="0" autoSize="shrink" text="#TEXT_70101">
+      <relation target="n0_jh6f" sidePair="center-center,bottom-bottom"/>
+    </text>
+  </displayList>
+</component>

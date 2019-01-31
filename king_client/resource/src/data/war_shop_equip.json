@@ -1,0 +1,7 @@
+
+{
+            "1": {"__id__": 1, "type": "equip", "equipId": "EQ10", "fightPrice": 2000 },
+			"2": {"__id__": 2, "type": "equip", "equipId": "EQ11", "fightPrice": 2000 },
+			"3": {"__id__": 3, "type": "equip", "equipId": "EQ12", "fightPrice": 2000 }
+   }
+    

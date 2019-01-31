@@ -1,0 +1,8 @@
+
+{
+            "wxgame": {"__id__": "wxgame", "shopGift": 1, "advert": 1, "honor": 1, "equip": 1, "rankSeason": 1, "survey": 1, "worldWar": 1, "cardUpJade": 1, "emojiToChat": 1, "videoToChat": 1, "vipCard": 1, "skin": 1, "levelVideo": 1, "skillInstruction": 1, "randomName": 1, "iap": 1 },
+			"lzd_pkgsdk": {"__id__": "lzd_pkgsdk", "shopGift": 1, "advert": 1, "honor": 1, "equip": 1, "rankSeason": 1, "survey": 1, "worldWar": 1, "cardUpJade": 1, "emojiToChat": 1, "videoToChat": 1, "vipCard": 1, "skin": 1, "levelVideo": 1, "skillInstruction": 1, "randomName": 1, "iap": 1 },
+			"lzd_handjoy": {"__id__": "lzd_handjoy", "shopGift": 1, "advert": 0, "honor": 0, "equip": 0, "rankSeason": 0, "survey": 1, "worldWar": 0, "cardUpJade": 0, "emojiToChat": 1, "videoToChat": 1, "vipCard": 1, "skin": 1, "levelVideo": 0, "skillInstruction": 1, "randomName": 1, "iap": 1 },
+			"debug": {"__id__": "debug", "shopGift": 1, "advert": 1, "honor": 1, "equip": 1, "rankSeason": 1, "survey": 1, "worldWar": 1, "cardUpJade": 1, "emojiToChat": 1, "videoToChat": 1, "vipCard": 1, "skin": 1, "levelVideo": 1, "skillInstruction": 1, "randomName": 1, "iap": 1 }
+   }
+    

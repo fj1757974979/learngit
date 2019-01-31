@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,100" pivot="0.5,0.5">
+  <controller name="islocation" pages="0,,2," selected="0"/>
+  <displayList>
+    <loader id="n3_g0v3" name="bg" xy="0,0" size="400,100" url="ui://2ipmzghtv2ye9r" align="center" vAlign="middle" fill="scaleFree">
+      <gearIcon controller="islocation" pages="2" values="ui://2ipmzghtv2ye9t" default="ui://2ipmzghtv2ye9r"/>
+    </loader>
+    <loader id="n11_pdhx" name="lock" xy="0,0" size="400,120" hideByEditor="true" visible="false" url="ui://dvmsogfrvco436" align="center" vAlign="middle" fill="scaleFree">
+      <gearDisplay controller="islocation" pages=""/>
+    </loader>
+    <text id="n4_g0v3" name="text" xy="47,20" size="305,24" fontSize="20" align="center" vAlign="middle" leading="0" text="率领精锐部队前往【长沙】驻守。">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n15_eo7t" name="title" xy="40,63" size="113,28" fontSize="24" color="#ffffff" align="center" vAlign="middle" leading="0" strokeColor="#000000" text="支援-长沙">
+      <relation target="" sidePair="left-left"/>
+    </text>
+    <component id="n20_xjab" name="n20" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="270,55" size="120,40">
+      <gearDisplay controller="islocation" pages="0"/>
+      <Button title="#TEXT_70273" titleFontSize="20" icon="ui://864gshxxj6006s"/>
+    </component>
+    <component id="n26_u6cq" name="backBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="270,55" size="120,40">
+      <gearDisplay controller="islocation" pages="2"/>
+      <Button title="返回City" titleFontSize="20" icon="ui://864gshxxj6006x"/>
+    </component>
+    <text id="n27_v2ye" name="foodCnt" xy="230,60" size="20,34" fontSize="30" color="#ffffff" align="center" vAlign="middle" leading="0" strokeColor="#000000" singleLine="true" text="5">
+      <gearDisplay controller="islocation" pages="0"/>
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <loader id="n28_v2ye" name="foodIcon" xy="200,62" size="30,30" url="ui://2ipmzghtonso6f" fill="scaleFree">
+      <gearDisplay controller="islocation" pages="0"/>
+      <relation target="n27_v2ye" sidePair="right-left,middle-middle"/>
+    </loader>
+    <loader id="n29_pgn0" name="n29" xy="10,59" size="29,35" url="ui://2ipmzghtv2ye9s">
+      <relation target="n15_eo7t" sidePair="left-left,middle-middle"/>
+    </loader>
+  </displayList>
+  <transition name="t0" options="4" autoPlayRepeat="-1">
+    <item time="0" type="Sound" value="ui://864gshxxfuyj45,100"/>
+  </transition>
+  <transition name="t1">
+    <item time="0" type="Scale" tween="true" startValue="1,0" endValue="1,1" duration="6" ease="Sine.Out"/>
+  </transition>
+</component>

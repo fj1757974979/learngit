@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,700" pivot="0.5,0.5">
+  <displayList>
+    <list id="n11_10tc3" name="headFrameList" xy="25,200" size="450,440" layout="flow_hz" overflow="scroll" scrollBarFlags="4" margin="10,10,0,0" lineGap="10" defaultItem="ui://739g5yti10tc339" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <loader id="n17_j66l" name="n17" xy="0,0" size="480,700" url="ui://739g5ytiri662b" fill="scaleFree"/>
+    <component id="n18_j66l" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="420,10"/>
+    <loader id="n20_j66l" name="bottom" xy="15,70" pivot="0.5,0.5" size="450,610" touchable="false" url="ui://739g5ytiyykel" fill="scaleFree"/>
+    <list id="n21_j66l" name="playerList" xy="20,75" size="440,600" overflow="scroll" scrollBarFlags="4" scrollBar="auto" defaultItem="ui://2ipmzghtu5xl8o" align="center" renderOrder="descent" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n33_ooha" name="emptyHintText" xy="40,355" size="400,40" fontSize="30" color="#666666" align="center" vAlign="middle" leading="0" autoSize="none" text="暂无注资记录"/>
+    <loader id="n35_u5xl" name="n35" xy="140,5" size="200,65" url="ui://864gshxxroydj" autoSize="true"/>
+    <loader id="n36_u5xl" name="n36" xy="165,11" size="150,51" url="ui://864gshxxn91yde" autoSize="true"/>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Scale" tween="true" startValue="0.8,0.9" endValue="1,1" duration="6" ease="Quart.Out"/>
+  </transition>
+</component>

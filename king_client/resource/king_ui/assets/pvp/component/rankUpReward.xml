@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,600" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n0_lnsl" name="n0" xy="0,0" size="480,600" url="ui://dvmsogfrfm9321" fill="scaleFree"/>
+    <loader id="n36_ul11" name="n36" xy="-43,-70" pivot="0.5,0.5" size="566,518" scale="0.8,0.8" touchable="false" url="ui://864gshxxvco45w" autoSize="true"/>
+    <loader id="n41_d54g" name="n41" xy="140,15" pivot="0.5,0.5" size="200,50" touchable="false" url="ui://864gshxxroydj" align="center" vAlign="middle" fill="scaleMatchWidth" shrinkOnly="true">
+      <relation target="" sidePair="center-center,top-top"/>
+    </loader>
+    <loader id="n23_lnsl" name="txt1" xy="165,14" size="150,51" touchable="false" url="ui://864gshxxd54gaj" align="center" vAlign="middle" autoSize="true"/>
+    <loader id="n32_lnsl" name="rankIcon" xy="150,88" pivot="0.5,0.5" size="180,180" touchable="false" url="ui://864gshxxgy104s" align="center" vAlign="middle" fill="scaleMatchHeight"/>
+    <text id="n31_lnsl" name="rankLevel" xy="166,156" size="147,44" fontSize="40" color="#ffffff" align="center" vAlign="middle" leading="0" bold="true" strokeColor="#000033" strokeSize="2" shadowColor="#000033" shadowOffset="1,1" text="大师1段">
+      <relation target="n32_lnsl" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n38_ul11" name="confirmBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="165,535" size="150,50">
+      <Button title="#TEXT_70031" icon="ui://864gshxxj6006u"/>
+    </component>
+    <list id="n39_k73y" name="resultList" xy="40,350" size="400,172" layout="flow_vt" selectionMode="none" overflow="scroll" scroll="horizontal" scrollBarFlags="74" scrollBar="hidden" lineGap="5" colGap="5" defaultItem="ui://zfg0revpg33rg" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n40_k73y" name="txt2" xy="90,300" size="300,50" fontSize="24" color="#66ffff" align="center" vAlign="middle" autoSize="none" strokeColor="#000033" shadowColor="#000033" shadowOffset="1,1" text="#TEXT_70030"/>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Rotation" target="n36_ul11" tween="true" startValue="0" endValue="360" duration="96" ease="Linear"/>
+  </transition>
+  <transition name="t1" autoPlay="true">
+    <item time="0" type="Alpha" tween="true" startValue="0.8" endValue="1" duration="6"/>
+    <item time="0" type="Scale" tween="true" startValue="0.8,0.8" endValue="1,1" duration="6"/>
+    <item time="0" type="Sound" value="ui://864gshxxyyke6p,100"/>
+  </transition>
+</component>

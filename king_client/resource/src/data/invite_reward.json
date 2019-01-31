@@ -1,0 +1,9 @@
+
+{
+            "1": {"__id__": 1, "pvpLevel": 1, "cnt": 30, "goldReward": 200, "jadeReward": 10, "cardReward": [] },
+			"2": {"__id__": 2, "pvpLevel": 2, "cnt": 30, "goldReward": 300, "jadeReward": 15, "cardReward": [] },
+			"3": {"__id__": 3, "pvpLevel": 3, "cnt": 30, "goldReward": 400, "jadeReward": 20, "cardReward": [] },
+			"4": {"__id__": 4, "pvpLevel": 4, "cnt": 30, "goldReward": 500, "jadeReward": 25, "cardReward": [] },
+			"5": {"__id__": 5, "pvpLevel": 5, "cnt": 30, "goldReward": 600, "jadeReward": 30, "cardReward": [] }
+   }
+    

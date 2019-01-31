@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="553,440" designImage="ui://864gshxxdlva1v" designImageOffsetX="-65" designImageOffsetY="-512">
+  <displayList>
+    <loader id="n0_qifi" name="n0" xy="0,0" size="553,440" url="ui://864gshxxdlva1y"/>
+    <loader id="n5_qifi" name="n5" xy="84,151" size="96,80" url="ui://864gshxxroyd6"/>
+    <loader id="n7_qifi" name="resImg" xy="84,241" size="96,80" url="ui://864gshxxroyd4"/>
+    <component id="n11_qifi" name="confirmBtn" src="dlva1x" xy="193,327">
+      <Button title="确定兑换" titleColor="#00ff66"/>
+    </component>
+    <component id="n12_qifi" name="inputAmount" src="jed2t" xy="300,265" scale="1.2,1.2"/>
+    <component id="n14_qifi" name="addBtn" src="bzh4p" xy="205,248"/>
+    <component id="n15_qifi" name="subBtn" src="bzh4o" xy="412,250"/>
+    <text id="n18_qifi" name="goldAmountTxt" xy="337,166" size="19,46" font="行楷-简 细体" fontSize="30" color="#00ff00" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="2" text="0">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n19_dwsy" name="desc" xy="82,87" size="412,46" fontSize="32" color="#ffffff" vAlign="middle" autoSize="none" bold="true" strokeColor="#000000" strokeSize="2" text="兵器：用于升级武将"/>
+  </displayList>
+</component>

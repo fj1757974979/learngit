@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="164za4d7" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="t03j0" name="loginBtnImg.png" path="/" exported="true"/>
+    <image id="t03j1" name="name.png" path="/" exported="true"/>
+    <image id="t03j2" name="loginBg.png" path="/" exported="true"/>
+    <component id="t03j3" name="login.xml" path="/component/" exported="true"/>
+    <component id="royd5" name="loginBtn.xml" path="/component/" exported="true"/>
+    <component id="eaib6" name="archive.xml" path="/component/" exported="true"/>
+    <component id="eaib7" name="archiveBtn.xml" path="/component/" exported="true"/>
+    <image id="eaib8" name="archiveBg.png" path="/" exported="true"/>
+    <image id="eaib9" name="newArchive.png" path="/" exported="true"/>
+    <image id="eaiba" name="oldArchiveIcon.png" path="/" exported="true"/>
+    <image id="eaibb" name="newArchiveIcon.png" path="/" exported="true"/>
+  </resources>
+  <publish name="login" excluded="t03j4">
+    <atlas name="默认" index="0"/>
+  </publish>
+</packageDescription>

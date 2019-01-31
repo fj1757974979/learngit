@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="122,51" opaque="false" extention="Button">
+  <controller name="button" pages="4,up,5,down" selected="0"/>
+  <displayList>
+    <text id="n6_101rh" name="title" xy="7,7" size="108,36" font="楷体" fontSize="22" color="#00ff00" align="center" vAlign="middle" autoSize="none" singleLine="true" text="">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <loader id="n7_101rh" name="icon" xy="7,7" size="108,36" url="ui://ravbpjp3kyov1k" align="center" vAlign="middle">
+      <gearIcon controller="button" pages="4,5" values="ui://ravbpjp3kyov1k|ui://ravbpjp3kyov1l"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+  </displayList>
+  <Button mode="Radio" sound="ui://864gshxxyyke6k"/>
+  <transition name="blink">
+    <item time="0" type="Sound" value="ui://864gshxxs3lb4j,100"/>
+  </transition>
+</component>

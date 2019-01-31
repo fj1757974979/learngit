@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,800" pivot="0.5,0.5">
+  <displayList>
+    <graph id="n51_b59w" name="closeBg" xy="0,0" pivot="0.5,0.5" size="480,800" type="rect" lineColor="#00000000" fillColor="#80000000">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <component id="n28_utpt" name="btnPay" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="150,650" size="180,60">
+      <relation target="n51_b59w" sidePair="center-center,middle-middle"/>
+      <Button title="¥12.00" titleFontSize="40" icon="ui://864gshxxj6006u" sound="ui://864gshxxlr3f2n"/>
+    </component>
+    <component id="n50_msue" name="priv" src="msue33q" fileName="component/privCom.xml" pkg="739g5yti" xy="0,160">
+      <relation target="n51_b59w" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n52_ffev" name="btnBuy" src="nf1s9c" fileName="component/jadeBtn.xml" pkg="864gshxx" xy="150,650" size="180,60">
+      <relation target="n51_b59w" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Scale" target="n50_msue" tween="true" startValue="0.2,0.2" endValue="1,1" duration="12" ease="Back.Out"/>
+    <item time="0" type="Sound" value="ui://864gshxxdzyk47,100"/>
+  </transition>
+</component>

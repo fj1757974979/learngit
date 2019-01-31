@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="450,290" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n0_qifi" name="n0" xy="0,0" size="450,290" url="ui://164za4d7a53ph" fill="scaleFree"/>
+    <component id="n6_f7m8" name="confirmBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="150,235" size="150,50">
+      <Button title="#TEXT_70005" icon="ui://864gshxxj6006u"/>
+    </component>
+    <loader id="n17_a53p" name="n17" xy="63,124" size="323,42" touchable="false" url="ui://164za4d7a53pg" autoSize="true"/>
+    <text id="n8_jsu7" name="searchInput" xy="75,126" size="300,38" input="true" maxLength="20" keyboardType="4" fontSize="20" align="center" vAlign="middle" leading="0" letterSpacing="2" autoSize="none" text=""/>
+    <text id="n12_jsu7" name="warning" xy="75,180" size="300,38" fontSize="20" color="#ff0000" align="center" vAlign="middle" leading="0" letterSpacing="2" autoSize="shrink" text="#TEXT_70039"/>
+    <component id="n15_iczu" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="390,5"/>
+    <loader id="n18_qof0" name="title2" xy="125,5" pivot="0.5,0.5" size="200,65" touchable="false" url="ui://864gshxxroydj" fill="scaleFree">
+      <relation target="n19_qof0" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n19_qof0" name="title" xy="150,11" size="150,51" url="ui://864gshxxd54g9z" align="center" vAlign="middle" autoSize="true">
+      <relation target="n18_qof0" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n20_qof0" name="txt" xy="75,75" size="300,38" fontSize="20" color="#333333" align="center" vAlign="middle" leading="0" letterSpacing="2" autoSize="shrink" text="#TEXT_70039"/>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Scale" tween="true" startValue="0.8,0.9" endValue="1,1" duration="6" ease="Quart.Out"/>
+  </transition>
+</component>

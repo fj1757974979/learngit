@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">反轉三國</string>
+    <string name="init_game">正在初始化遊戲，請稍後…</string>
+    <string name="init_install">正在解壓資源，請稍後…</string>
+    <string name="sdk_init_fail">SDK初始化失敗，請檢查許可權設定，重啓遊戲再試…</string>
+    <string name="auth_hint">遊戲需要訪問相關手機許可權，請到許可權設定中授權</string>
+    <string name="auth_confirm">去授權</string>
+    <string name="cancel">取消</string>
+    <string name="exit_hint">再按一次退出遊戲</string>
+    <string name="record_permission_hint">請打開錄屏許可權後再試</string>
+    <string name="record_not_support">當前安卓版本不支持錄製荧幕</string>
+    <string name="share_fail">分享失敗，請檢測是否安裝了最新版的Facebook應用</string>
+    <string name="share_no_video">您還沒有錄製戰鬥視屏呢</string>
+</resources>

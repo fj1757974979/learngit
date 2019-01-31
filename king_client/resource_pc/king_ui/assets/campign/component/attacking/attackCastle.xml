@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080" designImage="ui://ww6xhnp6bhli2o" designImageAlpha="36" designImageLayer="1">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n3_w5uu" name="road1" xy="0,0" size="1920,1080" url="ui://ww6xhnp6w5uu1a" fill="scaleFree"/>
+    <loader id="n47_v6di" name="road2" xy="0,-1080" size="1920,1080" url="ui://ww6xhnp6w5uu1a" fill="scaleFree"/>
+    <loader id="n16_w5uu" name="castle" xy="0,-435" size="1920,435" url="ui://ww6xhnp6yrk32h" fill="scaleFree"/>
+    <loader id="n13_w5uu" name="wall" xy="0,695" size="1921,385" url="ui://ww6xhnp6w5uu1d">
+      <relation target="n46_gz12" sidePair="bottom-bottom"/>
+    </loader>
+    <graph id="n46_gz12" name="touchPad" xy="0,0" size="1920,1080" alpha="0" type="rect"/>
+    <component id="n4_w5uu" name="battleBtn" src="nzui20" xy="896,422" pivot="0.5,0.5" hideByEditor="true"/>
+    <component id="n10_w5uu" name="figBtn" src="nzui22" xy="896,422" hideByEditor="true"/>
+    <component id="n11_w5uu" name="goBackBtn" src="nzui23" xy="1505,586" hideByEditor="true"/>
+    <component id="n67_oswy" name="defBtn" src="oswy2r" xy="896,422" hideByEditor="true"/>
+    <component id="n12_w5uu" name="marchBtn" src="nzui24" xy="896,422" hideByEditor="true"/>
+    <component id="n39_w5uu" name="backBtn" src="royda" pkg="864gshxx" xy="7,5"/>
+    <component id="n40_w5uu" name="nextTypeBtn" src="uomqe" pkg="8pche6l7" xy="1777,329"/>
+    <component id="n41_w5uu" name="preTypeBtn" src="uomqd" pkg="8pche6l7" xy="-5,330"/>
+    <loader id="n14_w5uu" name="n14" xy="861,11" size="156,42" group="n42_ul3p" scale="1.5,1.5" url="ui://ww6xhnp6w5uu14"/>
+    <component id="n8_w5uu" name="attackCastlerSkill" src="x6w822" pkg="864gshxx" xy="662,159" group="n42_ul3p"/>
+    <loader id="n9_w5uu" name="n9" xy="715,85" size="570,81" group="n42_ul3p" url="ui://ww6xhnp6w5uu1e"/>
+    <component id="n57_ohc6" name="rewardResBar" src="dlva1o" pkg="864gshxx" xy="738,93" size="465,68" group="n42_ul3p">
+      <relation target="n9_w5uu" sidePair="center-center,middle-middle"/>
+      <Label title="产出："/>
+    </component>
+    <loader id="n1_w5uu" name="attCamp" xy="753,3" size="62,62" group="n42_ul3p" scale="1.2,1.2" url="ui://ww6xhnp6s6x4d"/>
+    <loader id="n54_ohc6" name="n54" xy="715,242" size="570,81" group="n55_ohc6" url="ui://ww6xhnp6w5uu1e"/>
+    <text id="n51_mtqd" name="n51" xy="880,262" size="96,44" group="n55_ohc6" font="楷体" fontSize="40" color="#ffffff" vAlign="middle" strokeColor="#000000" strokeSize="2" text="行程:"/>
+    <text id="n52_mtqd" name="trip" xy="983,262" size="67,44" group="n55_ohc6" font="楷体" fontSize="40" color="#ffffff" vAlign="middle" strokeColor="#000000" strokeSize="2" text="5天">
+      <relation target="n51_mtqd" sidePair="left-right,middle-middle"/>
+    </text>
+    <group id="n55_ohc6" name="tripGroup" xy="715,242" size="570,81" group="n42_ul3p" advanced="true"/>
+    <text id="n26_w5uu" name="attLevel" xy="850,21" size="243,42" group="n42_ul3p" font="楷体" fontSize="38" color="#ff0000" align="center" vAlign="middle" strokeColor="#000000" strokeSize="2" text="前方城池:汉中">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <group id="n42_ul3p" name="attGroup" xy="662,3" size="678,320" advanced="true" collapsed="true"/>
+    <loader id="n15_w5uu" name="n15" xy="845,569" size="156,42" group="n43_ul3p" scale="2,1.5" url="ui://ww6xhnp6w5uu14"/>
+    <text id="n22_w5uu" name="defLevelName" xy="844,581" size="292,42" group="n43_ul3p" font="楷体" fontSize="38" color="#00ff00" vAlign="middle" strokeColor="#000000" strokeSize="2" text="我方城池: 阳平关">
+      <relation target="n15_w5uu" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n7_w5uu" name="defCastlerSkill" src="x6w822" pkg="864gshxx" xy="682,623" group="n43_ul3p"/>
+    <loader id="n69_lm86" name="defCamp" xy="760,564" size="62,62" group="n43_ul3p" scale="1.2,1.2" url="ui://ww6xhnp6s6x4f"/>
+    <group id="n43_ul3p" name="defGroup" xy="682,564" size="678,138" advanced="true" collapsed="true"/>
+    <text id="n28_w5uu" name="guardsText" xy="492,632" size="158,44" group="n44_z35c" font="楷体" fontSize="40" color="#ffffff" align="center" vAlign="middle" strokeColor="#000000" strokeSize="2" text="行军中..."/>
+    <component id="n49_mtqd" name="handCardGrid" src="r0by2d" xy="484,703" size="975,173" group="n44_z35c"/>
+    <group id="n44_z35c" name="guardsGroup" xy="484,632" size="975,244" advanced="true" collapsed="true"/>
+    <component id="n33_w5uu" name="attProBar" src="nzui25" xy="726,365" group="n45_z35c">
+      <ProgressBar value="100" max="100"/>
+    </component>
+    <text id="n34_w5uu" name="n34" xy="864,345" size="51,22" group="n45_z35c" fontSize="18" color="#ffffff" align="center" vAlign="middle" strokeColor="#000000" strokeSize="2" text="行程 : "/>
+    <text id="n35_w5uu" name="fieldCnt" xy="913,345" size="79,22" group="n45_z35c" fontSize="18" color="#ffffff" align="center" vAlign="middle" strokeColor="#000000" strokeSize="2" text="剩余 1 天">
+      <relation target="n34_w5uu" sidePair="left-right,middle-middle"/>
+    </text>
+    <component id="n62_x6w8" name="forageLabel" src="bzh4r" pkg="864gshxx" xy="1006,325" size="159,81" group="n45_z35c" scale="0.7,0.7">
+      <Label titleColor="#ffffff" icon="ui://864gshxxroyd3"/>
+    </component>
+    <group id="n45_z35c" name="battleMesGroup" xy="726,325" size="529,98" hideByEditor="true" advanced="true" collapsed="true"/>
+    <loader id="n64_bhli" name="clearLight" xy="480,46" size="960,879" group="n66_bhli" touchable="false" url="ui://ww6xhnp6bhli2m"/>
+    <loader id="n63_bhli" name="clearIcon" xy="526,137" size="867,497" group="n66_bhli" touchable="false" url="ui://ww6xhnp6bhli2n"/>
+    <loader id="n65_bhli" name="clearCloud" xy="0,0" size="1920,1080" group="n66_bhli" touchable="false" url="ui://ww6xhnp6bhli2l">
+      <relation target="n46_gz12" sidePair="bottom-bottom"/>
+    </loader>
+    <group id="n66_bhli" name="clearGroup" xy="0,0" size="1920,1080" hideByEditor="true" advanced="true" collapsed="true"/>
+    <component id="n68_oswy" name="enemyHand" src="jed2u" pkg="864gshxx" xy="545,195" hideByEditor="true"/>
+  </displayList>
+</component>

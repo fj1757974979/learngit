@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="90,13">
+  <displayList>
+    <loader id="n6_snqe" name="n6" xy="3,2" size="83,9" url="ui://ravbpjp3snqe1q" fill="scaleFree"/>
+    <loader id="n2_bzh4" name="bar" xy="0,1" size="90,13" url="ui://ravbpjp3kyov1n" align="center" vAlign="middle" fill="scaleFree"/>
+    <loader id="n3_bzh4" name="bottom" xy="0,0" size="90,13" url="ui://ravbpjp3kyov1m" align="center" vAlign="middle" fill="scaleMatchWidth"/>
+    <text id="n5_c3kw" name="text" xy="40,-5" size="10,24" fontSize="20" color="#ffffff" align="center" vAlign="middle" strokeColor="#000000" text=" ">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,670" designImage="ui://dvmsogfrjed20">
+  <controller name="switch" pages="0,common,1,app" selected="0">
+    <action type="play_transition" fromPage="1" toPage="0" transition="t1"/>
+    <action type="play_transition" fromPage="0" toPage="1" transition="t0"/>
+  </controller>
+  <displayList>
+    <loader id="n62_u6us" name="n62" xy="51,49" pivot="0.5,0.5" size="377,375" scale="0.9,0.9" alpha="0.8" url="ui://dvmsogfrltzk2h" align="center" vAlign="middle" fill="scale">
+      <relation target="n49_qw7t" sidePair="center-center,middle-middle%"/>
+    </loader>
+    <component id="n45_l8xi" name="btnMatch" src="l8xip" fileName="component/matchBtn.xml" xy="102,377" pivot="0.5,0.5" scale="0.8,0.8">
+      <relation target="" sidePair="middle-middle%"/>
+      <Button sound="ui://864gshxxlr3f2n"/>
+    </component>
+    <component id="n49_qw7t" name="pvpRankBanner" src="qw7t3q" fileName="component/pvpRankBanner.xml" pkg="864gshxx" xy="107,130" pivot="0.5,0.5" size="265,212">
+      <relation target="" sidePair="middle-middle%"/>
+    </component>
+    <text id="n55_ih68" name="guideTxt2" xy="40,473" size="400,28" group="n58_rba2" fontSize="20" color="#ffff66" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="#TEXT_70018">
+      <relation target="n59_eoqn" sidePair="center-center,top-bottom"/>
+    </text>
+    <text id="n54_ih68" name="guideProgressTxt" xy="340,428" size="65,44" group="n58_rba2" fontSize="40" color="#990000" align="center" vAlign="middle" leading="0" strokeColor="#ffffff" strokeSize="2" shadowColor="#ffffff" shadowOffset="1,1" text="1/4">
+      <relation target="n59_eoqn" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n59_eoqn" name="techBtn" src="lhuo10" fileName="component/techBtn.xml" xy="103,376" group="n58_rba2" scale="0.8,0.8"/>
+    <group id="n58_rba2" name="guide" xy="40,376" size="400,125" advanced="true">
+      <relation target="" sidePair="middle-middle%"/>
+    </group>
+    <component id="n60_lnsl" name="dailyTreasure" src="lnsl17" fileName="component/dailyTreasure.xml" xy="270,10" visible="false"/>
+    <component id="n61_daod" name="rankListBtn" src="daod1l" fileName="component/rankingBtn.xml" xy="10,140" visible="false">
+      <relation target="" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n74_nf1s" name="shopBtn" src="rvyr48" fileName="component/shopBtn.xml" xy="10,80" visible="false">
+      <relation target="" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n75_pdhx" name="questBtn" src="pdhx4o" fileName="component/questBtn.xml" xy="10,10" visible="false"/>
+    <component id="n66_npy0" name="videoBtn" src="npy02g" fileName="component/videoBtn.xml" xy="10,200" visible="false">
+      <relation target="" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n77_gtjh" name="mailBtn" src="gtjh5f" fileName="component/mailBtn.xml" xy="10,260" visible="false">
+      <relation target="" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n88_srbf" name="moreBtn" src="srbf69" fileName="component/moreBtn.xml" xy="410,80">
+      <Button checked="true" controller="switch" page="0"/>
+    </component>
+    <list id="n89_srbf" name="commonFunction" xy="410,140" pivot="0.5,0" size="60,240" autoItemSize="false" align="center">
+      <gearDisplay controller="switch" pages="0"/>
+      <item url="ui://dvmsogfrsrbf66" name="setupBtn"/>
+      <item url="ui://dvmsogfregmw63" name="appstoreShareBtn"/>
+      <item url="ui://dvmsogfrjknu5e" name="inviteBtn"/>
+      <item url="ui://dvmsogfrmyl16o" name="warBtn"/>
+    </list>
+    <list id="n90_srbf" name="moreFunction" xy="410,140" size="60,240" align="center">
+      <gearDisplay controller="switch" pages="1"/>
+      <item url="ui://dvmsogfreqg55v" name="gameCenterBtn"/>
+      <item url="ui://dvmsogfrg0kf3v" name="publicPlatformBtn"/>
+      <item url="ui://dvmsogfrs8o95t" name="appLikeBtn"/>
+      <item url="ui://dvmsogfrg0kf3t" name="wechatFriendBtn"/>
+    </list>
+    <component id="n91_lyri" name="rankSeasonBtn" src="lyri6d" fileName="component/rankSeasonBtn.xml" xy="123,70"/>
+    <component id="n92_m276" name="rebornBtn" src="cnow6h" fileName="component/rebornBtn.xml" xy="10,320" visible="false">
+      <relation target="" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n93_b59w" name="rankSeasonCardBtn" src="b59w6k" fileName="component/cardBtn.xml" xy="350,390">
+      <relation target="n45_l8xi" sidePair="left-right,top-top"/>
+    </component>
+    <component id="n48_l8xi" name="treasures" src="l8xik" fileName="component/treasureShow.xml" pkg="zfg0revp" xy="10,504">
+      <relation target="" sidePair="middle-middle"/>
+    </component>
+    <component id="n94_xjab" name="eventBtn" src="qevy6y" fileName="component/eventBtn.xml" xy="10,400" visible="false">
+      <relation target="" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n95_xzud" name="seasonFaqBtn" src="l1gibz" fileName="component/helpBtn.xml" pkg="864gshxx" xy="352,87"/>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Alpha" target="n90_srbf" tween="true" startValue="0" endValue="1" duration="6" ease="Back.In"/>
+  </transition>
+  <transition name="t1">
+    <item time="0" type="Alpha" target="n89_srbf" tween="true" startValue="0" endValue="1" duration="6" ease="Back.In"/>
+  </transition>
+</component>

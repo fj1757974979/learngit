@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,670" designImage="ui://dvmsogfrjed20">
+  <controller name="campCtrl" pages="0,,1,,2," selected="0"/>
+  <controller name="weiPoolCtrl" pages="0,,1,,3," selected="0"/>
+  <controller name="shuPoolCtrl" pages="0,,1,,2," selected="0"/>
+  <controller name="wuPoolCtrl" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <component id="n35_jed2" name="bg" src="qg2m2q" fileName="component/AdjustBg.xml" pkg="864gshxx" xy="0,0" size="480,670" alpha="0"/>
+    <loader id="n45_snqe" name="bg1" xy="7,88" size="466,126" url="ui://dvmsogfrfm9324" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="middle-middle%"/>
+    </loader>
+    <loader id="n46_snqe" name="bg2" xy="7,289" size="466,126" url="ui://dvmsogfrfm9324" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="middle-middle%"/>
+    </loader>
+    <loader id="n47_snqe" name="bg3" xy="7,490" size="466,126" url="ui://dvmsogfrfm9324" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="middle-middle%"/>
+    </loader>
+    <component id="n0_jed2" name="backBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="418,-69"/>
+    <component id="n1_jed2" name="diyBtn" src="dlva1x" fileName="component/baseBtn.xml" pkg="864gshxx" xy="182,-54">
+      <Button title="自制卡牌"/>
+    </component>
+    <component id="n10_jed2" name="weiRadiioBtn" src="jed28" fileName="component/baseRadioBtn.xml" xy="357,43">
+      <relation target="n39_n2ep" sidePair="top-top"/>
+      <Button controller="campCtrl" page="0"/>
+    </component>
+    <component id="n11_jed2" name="shuRadiioBtn" src="jed28" fileName="component/baseRadioBtn.xml" xy="357,243">
+      <relation target="n40_n2ep" sidePair="top-top"/>
+      <Button controller="campCtrl" page="1"/>
+    </component>
+    <component id="n12_jed2" name="wuRadiioBtn" src="jed28" fileName="component/baseRadioBtn.xml" xy="357,443">
+      <relation target="n41_n2ep" sidePair="top-top"/>
+      <Button controller="campCtrl" page="2"/>
+    </component>
+    <component id="n39_n2ep" name="n39" src="n2epj" fileName="component/weiCampBtn.xml" xy="14,36">
+      <relation target="" sidePair="middle-middle%"/>
+      <Button checked="true" controller="campCtrl" page="0"/>
+    </component>
+    <component id="n40_n2ep" name="n40" src="n2epk" fileName="component/shuCampBtn.xml" xy="14,236">
+      <relation target="" sidePair="middle-middle%"/>
+      <Button controller="campCtrl" page="1"/>
+    </component>
+    <component id="n41_n2ep" name="n41" src="n2epl" fileName="component/wuCampBtn.xml" xy="14,436">
+      <relation target="" sidePair="middle-middle%"/>
+      <Button controller="campCtrl" page="2"/>
+    </component>
+    <list id="n22_jed2" name="wuPoolList" xy="14,496" size="451,113" pageController="wuPoolCtrl" layout="pagination" selectionMode="none" overflow="scroll" scroll="horizontal" scrollBarFlags="138" scrollBar="hidden" defaultItem="ui://864gshxxjed2u" vAlign="middle">
+      <relation target="" sidePair="middle-middle%"/>
+      <item name="pool1"/>
+      <item name="pool2"/>
+      <item name="pool3"/>
+    </list>
+    <component id="n24_jed2" name="n24" src="jed2t" fileName="component/baseLabel.xml" pkg="864gshxx" xy="129,446">
+      <gearDisplay controller="wuPoolCtrl" pages="0"/>
+      <gearLook controller="campCtrl" default="1,0,0,1"/>
+      <relation target="n41_n2ep" sidePair="top-top"/>
+      <Label title="1" titleColor="#ffffff"/>
+    </component>
+    <component id="n27_jed2" name="wuPrePoolBtn" src="bzh4o" fileName="component/preBtn.xml" pkg="864gshxx" xy="82,447">
+      <relation target="n41_n2ep" sidePair="top-top"/>
+    </component>
+    <component id="n28_jed2" name="wuNextPoolBtn" src="bzh4p" fileName="component/nextBtn.xml" pkg="864gshxx" xy="217,447">
+      <relation target="n41_n2ep" sidePair="top-top"/>
+    </component>
+    <component id="n33_jed2" name="n33" src="jed2t" fileName="component/baseLabel.xml" pkg="864gshxx" xy="129,446">
+      <gearDisplay controller="wuPoolCtrl" pages="1"/>
+      <relation target="n41_n2ep" sidePair="top-top"/>
+      <Label title="2" titleColor="#ffffff"/>
+    </component>
+    <component id="n34_jed2" name="n34" src="jed2t" fileName="component/baseLabel.xml" pkg="864gshxx" xy="129,446">
+      <gearDisplay controller="wuPoolCtrl" pages="2"/>
+      <relation target="n41_n2ep" sidePair="top-top"/>
+      <Label title="3" titleColor="#ffffff"/>
+    </component>
+    <component id="n3_jed2" name="weiPrePoolBtn" src="bzh4o" fileName="component/preBtn.xml" pkg="864gshxx" xy="79,47">
+      <relation target="n39_n2ep" sidePair="top-top"/>
+    </component>
+    <component id="n4_jed2" name="weiNextPoolBtn" src="bzh4p" fileName="component/nextBtn.xml" pkg="864gshxx" xy="214,47">
+      <relation target="n39_n2ep" sidePair="top-top"/>
+    </component>
+    <component id="n13_jed2" name="n13" src="jed2t" fileName="component/baseLabel.xml" pkg="864gshxx" xy="129,46">
+      <gearDisplay controller="weiPoolCtrl" pages="1"/>
+      <relation target="n39_n2ep" sidePair="top-top"/>
+      <Label title="2" titleColor="#ffffff"/>
+    </component>
+    <component id="n14_jed2" name="n14" src="jed2t" fileName="component/baseLabel.xml" pkg="864gshxx" xy="129,46">
+      <gearDisplay controller="weiPoolCtrl" pages="0"/>
+      <relation target="n39_n2ep" sidePair="top-top"/>
+      <Label title="1" titleColor="#ffffff"/>
+    </component>
+    <list id="n15_jed2" name="weiPoolList" xy="14,94" size="451,113" pageController="weiPoolCtrl" layout="pagination" selectionMode="none" overflow="scroll" scroll="horizontal" scrollBarFlags="138" scrollBar="hidden" defaultItem="ui://864gshxxjed2u" vAlign="middle">
+      <relation target="" sidePair="middle-middle%"/>
+      <item name="pool1"/>
+      <item name="pool2"/>
+      <item name="pool3"/>
+    </list>
+    <component id="n30_jed2" name="n30" src="jed2t" fileName="component/baseLabel.xml" pkg="864gshxx" xy="129,46">
+      <gearDisplay controller="weiPoolCtrl" pages="3"/>
+      <relation target="n39_n2ep" sidePair="top-top"/>
+      <Label title="3" titleColor="#ffffff"/>
+    </component>
+    <list id="n21_jed2" name="shuPoolList" xy="14,295" size="451,113" pageController="shuPoolCtrl" layout="pagination" selectionMode="none" overflow="scroll" scroll="horizontal" scrollBarFlags="138" scrollBar="hidden" defaultItem="ui://864gshxxjed2u" vAlign="middle">
+      <relation target="" sidePair="middle-middle%"/>
+      <item name="pool1"/>
+      <item name="pool2"/>
+      <item name="pool3"/>
+    </list>
+    <component id="n23_jed2" name="n23" src="jed2t" fileName="component/baseLabel.xml" pkg="864gshxx" xy="129,246">
+      <gearDisplay controller="shuPoolCtrl" pages="0"/>
+      <relation target="n40_n2ep" sidePair="top-top"/>
+      <Label title="1" titleColor="#ffffff"/>
+    </component>
+    <component id="n25_jed2" name="shuPrePoolBtn" src="bzh4o" fileName="component/preBtn.xml" pkg="864gshxx" xy="81,247">
+      <relation target="n40_n2ep" sidePair="top-top"/>
+    </component>
+    <component id="n26_jed2" name="shuNextPoolBtn" src="bzh4p" fileName="component/nextBtn.xml" pkg="864gshxx" xy="216,247">
+      <relation target="n40_n2ep" sidePair="top-top"/>
+    </component>
+    <component id="n31_jed2" name="n31" src="jed2t" fileName="component/baseLabel.xml" pkg="864gshxx" xy="129,246">
+      <gearDisplay controller="shuPoolCtrl" pages="1"/>
+      <relation target="n40_n2ep" sidePair="top-top"/>
+      <Label title="2" titleColor="#ffffff"/>
+    </component>
+    <component id="n32_jed2" name="n32" src="jed2t" fileName="component/baseLabel.xml" pkg="864gshxx" xy="129,246">
+      <gearDisplay controller="shuPoolCtrl" pages="2"/>
+      <relation target="n40_n2ep" sidePair="top-top"/>
+      <Label title="3" titleColor="#ffffff"/>
+    </component>
+    <loader id="n42_d4nl" name="weiPoolClickWnd" xy="7,88" size="466,126" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="middle-middle%"/>
+    </loader>
+    <loader id="n43_d4nl" name="shuPoolClickWnd" xy="4,288" size="466,126" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="middle-middle%"/>
+    </loader>
+    <loader id="n44_d4nl" name="wuPoolClickWnd" xy="7,490" size="466,126" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="middle-middle%"/>
+    </loader>
+  </displayList>
+</component>

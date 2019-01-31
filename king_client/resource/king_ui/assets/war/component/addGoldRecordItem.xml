@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="440,70">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n17_xjab" name="bg" xy="0,0" pivot="0.5,0.5" size="440,70" url="ui://2ipmzghtn91y8v" fill="scaleFree">
+      <gearDisplay controller="button" pages="0,2"/>
+    </loader>
+    <text id="n9_lwj0" name="nameText" xy="65,10" size="205,24" fontSize="20" color="#ffffff" vAlign="middle" leading="0" strokeColor="#333333" singleLine="true" text="玩家啊啊啊啊啊啊啊啊">
+      <relation target="" sidePair="left-left"/>
+    </text>
+    <component id="n16_xjab" name="lordHead" src="md4a33k" fileName="component/head.xml" pkg="739g5yti" xy="10,7" size="55,55"/>
+    <richtext id="n18_xjab" name="job" xy="65,35" size="45,24" fontSize="20" color="#ffffff" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" singleLine="true" text="太守">
+      <relation target="" sidePair="left-left"/>
+    </richtext>
+    <loader id="n24_u5xl" name="goldIcon" xy="315,32" size="30,30" url="ui://864gshxxnf1s9a" fill="scaleFree">
+      <relation target="n25_u5xl" sidePair="right-left,middle-middle"/>
+    </loader>
+    <text id="n25_u5xl" name="goldCnt" xy="348,33" size="77,28" fontSize="24" align="right" vAlign="middle" leading="0" singleLine="true" text="100000">
+      <relation target="" sidePair="right-right"/>
+    </text>
+    <text id="n26_u5xl" name="time" xy="370,10" size="55,24" fontSize="20" color="#999999" align="right" vAlign="middle" leading="0" singleLine="true" text="5天前">
+      <relation target="" sidePair="right-right"/>
+    </text>
+  </displayList>
+</component>

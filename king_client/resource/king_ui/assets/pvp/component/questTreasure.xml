@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,100" extention="Button">
+  <displayList>
+    <loader id="n3_g0v3" name="n3" xy="0,20" size="400,80" grayed="true" url="ui://8pche6l7ltzkm" align="center" vAlign="middle" fill="scaleFree"/>
+    <component id="n1_g0v3" name="boxProgress" src="jed210" fileName="component/pvpScoreProgressBar.xml" pkg="864gshxx" xy="15,65" size="250,18">
+      <ProgressBar max="100"/>
+    </component>
+    <loader id="n9_ltzk" name="boxIconBg" xy="235,-50" pivot="0.5,0.5" size="200,200" touchable="false" url="ui://864gshxxvco45w" align="center" vAlign="middle" fill="scale">
+      <relation target="n3_g0v3" sidePair="right-right,middle-middle"/>
+    </loader>
+    <loader id="n0_g0v3" name="boxIcon" xy="275,-10" pivot="0.5,0.5" size="120,120" touchable="false" url="ui://zfg0revpl8xiq" align="center" vAlign="middle" fill="scale">
+      <relation target="n3_g0v3" sidePair="right-right,middle-middle"/>
+    </loader>
+    <text id="n4_g0v3" name="txt1" xy="15,27" size="250,30" fontSize="18" align="center" vAlign="middle" leading="0" autoSize="shrink" text="#TEXT_70022"/>
+    <text id="n10_pdhx" name="boxName" xy="275,70" size="120,20" fontSize="16" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="shrink" strokeColor="#000000" strokeSize="2" text="初级镶金宝箱">
+      <relation target="" sidePair="middle-middle"/>
+    </text>
+    <text id="n11_sxli" name="nextTxt" xy="15,60" size="250,30" fontSize="26" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text=""/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.95"/>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Rotation" target="n9_ltzk" tween="true" startValue="0" endValue="360" duration="96" ease="Linear" repeat="-1"/>
+  </transition>
+</component>

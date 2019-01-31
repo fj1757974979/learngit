@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="60,60" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="3"/>
+  <displayList>
+    <loader id="n4_nsea" name="icon" xy="-10,-10" size="80,80" url="ui://dvmsogfrrvyr49" align="center" vAlign="middle" autoSize="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <component id="n9_d54g" name="freeFlag" src="j7l76e" fileName="component/applyFriendNumHint.xml" pkg="864gshxx" xy="40,0" size="32,27" visible="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+  <Button sound="ui://864gshxxyyke6n" downEffect="scale" downEffectValue="0.80"/>
+</component>

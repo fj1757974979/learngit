@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,800">
+  <displayList>
+    <component id="n1_pdhx" name="bg" src="qg2m2q" fileName="component/AdjustBg.xml" pkg="864gshxx" xy="0,0" alpha="0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <graph id="n4_d54g" name="n4" xy="0,0" size="480,800" alpha="0.8" type="rect" fillColor="#ff000000">
+      <relation target="n1_pdhx" sidePair="width-width,height-height"/>
+      <relation target="n1_pdhx" sidePair="center-center,middle-middle"/>
+    </graph>
+    <loader id="n0_pdhx" name="n0" xy="41,77" size="397,646" touchable="false" url="ui://864gshxxpdhx9r">
+      <relation target="n1_pdhx" sidePair="center-center,middle-middle"/>
+    </loader>
+    <component id="n2_pdhx" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="378,85">
+      <relation target="n0_pdhx" sidePair="right-right,top-top"/>
+    </component>
+    <loader id="n3_pdhx" name="n3" xy="300,15" size="53,31" touchable="false" url="ui://864gshxxpdhx9q" autoSize="true">
+      <relation target="n1_pdhx" sidePair="top-top,right-right"/>
+    </loader>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="XY" target="n3_pdhx" tween="true" startValue="300,15" endValue="280,15" duration="12"/>
+    <item time="12" type="XY" target="n3_pdhx" tween="true" startValue="280,15" endValue="300,15" duration="12"/>
+  </transition>
+</component>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,800">
+  <displayList>
+    <component id="n0_10tc3" name="bg" src="qg2m2q" fileName="component/AdjustBg.xml" pkg="864gshxx" xy="0,0" size="480,800" alpha="0"/>
+    <loader id="n6_mfce" name="n6" xy="0,150" size="480,450">
+      <relation target="n0_10tc3" sidePair="width-width,middle-middle"/>
+    </loader>
+    <list id="n1_10tc3" name="skinList" xy="75,150" size="330,450" layout="row" overflow="scroll" scroll="horizontal" scrollBarFlags="514" scrollBarMargin="0,0,0,100" colGap="40" defaultItem="ui://rdb04el0qvsx3j4" autoItemSize="false" align="center" vAlign="middle" autoClearItems="true">
+      <relation target="n0_10tc3" sidePair="center-center,middle-middle"/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n3_10tc3" name="n3" xy="103,770" size="269,28" visible="false" fontSize="24" color="#ffffff" leading="0" strokeColor="#000000" text="使用皮肤来改变武将造型">
+      <relation target="n0_10tc3" sidePair="center-center,bottom-bottom"/>
+    </text>
+    <component id="n4_h24d" name="setBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="150,690" size="180,60">
+      <relation target="n0_10tc3" sidePair="center-center,middle-middle"/>
+      <Button title="使用皮肤" icon="ui://864gshxxj6006u"/>
+    </component>
+  </displayList>
+  <transition name="openSelf">
+    <item time="0" type="Pivot" target="n1_10tc3" value="0,0"/>
+    <item time="0" type="Alpha" target="n4_h24d" value="0"/>
+    <item time="0" type="Scale" target="n1_10tc3" tween="true" startValue="0.5,0.5" endValue="1,1" duration="12" ease="Back.Out"/>
+    <item time="6" type="Alpha" target="n4_h24d" tween="true" startValue="0" endValue="1" duration="6"/>
+  </transition>
+  <transition name="openOther">
+    <item time="0" type="Pivot" target="n1_10tc3" value="0.5,0.5"/>
+    <item time="0" type="Alpha" target="n4_h24d" value="0"/>
+    <item time="0" type="Scale" target="n1_10tc3" tween="true" startValue="0.5,0.5" endValue="1,1" duration="12" ease="Back.Out"/>
+    <item time="6" type="Alpha" target="n4_h24d" tween="true" startValue="0" endValue="1" duration="6"/>
+  </transition>
+</component>

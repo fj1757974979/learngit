@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="450,290" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n0_qifi" name="n0" xy="0,0" size="450,290" url="ui://164za4d7a53ph" fill="scaleFree"/>
+    <component id="n6_f7m8" name="confirmBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="150,230" size="150,50">
+      <Button title="#TEXT_70005" icon="ui://864gshxxj6006u"/>
+    </component>
+    <loader id="n17_a53p" name="n17" xy="106,145" size="238,64" touchable="false" url="ui://2ipmzghtonso6e" fill="scaleFree" autoSize="true"/>
+    <text id="n8_jsu7" name="searchInput" xy="150,158" size="150,38" input="true" maxLength="10" fontSize="30" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" text=""/>
+    <text id="n19_qof0" name="title" xy="125,10" size="200,50" font="楷体" fontSize="30" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" strokeSize="2" text="#TEXT_60334"/>
+    <text id="n20_qof0" name="txt" xy="25,75" size="400,28" fontSize="24" color="#333333" align="center" vAlign="middle" leading="0" autoSize="height" text="#TEXT_60335"/>
+    <component id="n22_htoj" name="modifyBtn" src="nf1s9c" fileName="component/jadeBtn.xml" pkg="864gshxx" xy="150,230" size="150,50" hideByEditor="true" visible="false">
+      <Button title="50" titleFontSize="32"/>
+    </component>
+    <component id="n23_htoj" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="384,10"/>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Scale" tween="true" startValue="0.8,0.9" endValue="1,1" duration="6" ease="Quart.Out"/>
+  </transition>
+</component>

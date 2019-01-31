@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080" designImage="ui://ryvvr3p0x88ni">
+  <controller name="result" pages="0,win,1,lose" selected="0"/>
+  <displayList>
+    <component id="n0_dlva" name="winBg" src="qg2mu" xy="0,0">
+      <gearDisplay controller="result" pages="0"/>
+    </component>
+    <image id="n24_dwsy" name="n24" src="x88no" xy="556,-117">
+      <gearDisplay controller="result" pages="0"/>
+    </image>
+    <loader id="n5_dlva" name="n5" xy="584,13" size="752,319" url="ui://ryvvr3p0x88nd">
+      <gearDisplay controller="result" pages="0"/>
+    </loader>
+    <component id="n3_dlva" name="loseBg" src="qg2mv" xy="0,0">
+      <gearDisplay controller="result" pages="1"/>
+    </component>
+    <loader id="n6_dlva" name="n6" xy="585,14" size="750,381" url="ui://ryvvr3p0x88nl">
+      <gearDisplay controller="result" pages="1"/>
+    </loader>
+    <list id="n7_dlva" name="cardList" xy="638,430" size="643,316" layout="flow_hz" selectionMode="none" lineGap="9" colGap="3" lineItemCount="5" defaultItem="ui://rdb04el0uoofm" align="center"/>
+    <loader id="n8_dlva" name="rewardResBg" xy="651,352" size="630,63" url="ui://864gshxxx88n1e">
+      <gearDisplay controller="result" pages="0"/>
+    </loader>
+    <text id="n12_dlva" name="supportTitle" xy="564,898" size="793,44" font="楷体" fontSize="40" color="#ffffff" align="center" vAlign="middle" strokeColor="#000000" strokeSize="3" text="根据本次出征进度（x%)，后方城池产出了：">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <loader id="n13_dlva" name="supportBg" xy="636,954" size="648,63" url="ui://864gshxxx88n1e"/>
+    <component id="n14_dlva" name="supportResList" src="x6w821" pkg="864gshxx" xy="836,955" size="182,60">
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <component id="n22_x6w8" name="rewardResBar" src="dlva1o" pkg="864gshxx" xy="678,351" size="465,68">
+      <gearDisplay controller="result" pages="0"/>
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <text id="n23_d65g" name="expeditionEndText1" xy="654,764" size="612,108" font="楷体" fontSize="40" color="#ffffff" vAlign="middle" leading="7" autoSize="none" strokeColor="#000000" strokeSize="2" text="ddddd谁谁谁谁谁谁谁qqqqqqqqqqq滚滚滚滚滚滚滚滚滚">
+      <relation target="" sidePair="center-center"/>
+      <relation target="n7_dlva" sidePair="top-bottom"/>
+    </text>
+  </displayList>
+</component>

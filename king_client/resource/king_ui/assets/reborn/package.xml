@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="47ikzi2a" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="m2760" name="rebornShop.xml" path="/component/" exported="true"/>
+    <component id="m2761" name="cardItem.xml" path="/component/" exported="true"/>
+    <component id="m2762" name="card.xml" path="/component/" exported="true"/>
+    <component id="m2763" name="featCardInfo.xml" path="/component/" exported="true"/>
+    <component id="m2764" name="privInfo.xml" path="/component/" exported="true"/>
+    <component id="m2765" name="priv.xml" path="/component/" exported="true"/>
+    <component id="m2766" name="privItem.xml" path="/component/" exported="true"/>
+    <component id="m2767" name="rebornFunction.xml" path="/component/" exported="true"/>
+    <component id="m2768" name="rebornItem.xml" path="/component/" exported="true"/>
+    <component id="m2769" name="refineItem.xml" path="/component/" exported="true"/>
+    <component id="m276a" name="rebornPanel.xml" path="/component/" exported="true"/>
+    <component id="m276d" name="refinePanel.xml" path="/component/" exported="true"/>
+    <component id="m276h" name="refineCardItem.xml" path="/component/" exported="true"/>
+    <component id="m276j" name="refineInfo.xml" path="/component/" exported="true"/>
+    <component id="m276k" name="rebornDateItem.xml" path="/component/" exported="true"/>
+    <component id="m276l" name="rebornDateAllItem.xml" path="/component/" exported="true"/>
+    <component id="m276m" name="rebornData.xml" path="/component/" exported="true"/>
+    <component id="m276o" name="rebornDateGoldItem.xml" path="/component/" exported="true"/>
+    <image id="7ykcp" name="rebornBtn1.png" path="/" exported="true"/>
+    <image id="7ykcq" name="rebornBtn2.png" path="/" exported="true"/>
+    <image id="7ykcr" name="rebornPrivBg.png" path="/" exported="true"/>
+    <image id="7ykcs" name="rebornWnd1.png" path="/" exported="true"/>
+    <image id="7ykct" name="rebornWnd2.png" path="/" exported="true" scale="9grid" scale9grid="40,40,398,456"/>
+    <image id="cnowu" name="rebornWnd3.png" path="/" exported="true"/>
+    <image id="p8yyv" name="rebornListBg.png" path="/" exported="true"/>
+    <image id="p8yyw" name="rebornListText.png" path="/" exported="true"/>
+    <component id="p8yyx" name="rebornData2.xml" path="/component/" exported="true"/>
+    <component id="p8yyy" name="rebornData3.xml" path="/component/" exported="true"/>
+    <component id="p8yyz" name="rebornData4.xml" path="/component/" exported="true"/>
+    <image id="nf1m11" name="privIcon1.png" path="/" exported="true"/>
+    <image id="nf1m12" name="privIcon3.png" path="/" exported="true"/>
+    <image id="nf1m13" name="privIcon2.png" path="/" exported="true"/>
+    <image id="nf1m14" name="privIcon6.png" path="/" exported="true"/>
+    <image id="nf1m15" name="privIcon5.png" path="/" exported="true"/>
+    <image id="nf1m16" name="privIcon4.png" path="/" exported="true"/>
+    <image id="k9is17" name="rebornImg2.png" path="/" exported="true"/>
+    <image id="k9is18" name="rebornImg1.png" path="/" exported="true"/>
+    <image id="k9is1c" name="rebornListWnd.png" path="/" exported="true"/>
+    <component id="k9is1d" name="rebornData1.xml" path="/component/" exported="true"/>
+    <image id="b59w1g" name="rebornWnd5.png" path="/" exported="true"/>
+    <image id="b59w1h" name="rebornWnd4.png" path="/" exported="true"/>
+    <component id="b59w1i" name="rebornDateDayItem.xml" path="/component/" exported="true"/>
+    <component id="j66l1j" name="equip.xml" path="/component/" exported="true"/>
+    <component id="j66l1k" name="equipItem.xml" path="/component/" exported="true"/>
+    <component id="j66l1l" name="equipInfo.xml" path="/component/" exported="true"/>
+    <component id="otp41m" name="skinInfo.xml" path="/component/" exported="true"/>
+    <image id="otp41n" name="privIcon7.png" path="/" exported="true"/>
+    <image id="otp41o" name="privIcon9.png" path="/" exported="true"/>
+    <image id="otp41p" name="privIcon8.png" path="/" exported="true"/>
+  </resources>
+  <publish name="reborn"/>
+</packageDescription>

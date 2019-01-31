@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,800">
+  <displayList>
+    <graph id="n12_to5i" name="n12" xy="0,0" size="480,800" alpha="0.4" type="rect" fillColor="#ff000000">
+      <relation target="n6_u843" sidePair="width-width,height-height"/>
+      <relation target="n6_u843" sidePair="center-center,middle-middle"/>
+    </graph>
+    <component id="n6_u843" name="bg" src="qg2m2q" fileName="component/AdjustBg.xml" pkg="864gshxx" xy="0,0" size="480,800" alpha="0"/>
+    <loader id="n7_u843" name="n7" xy="-10,180" size="500,620" url="ui://ravbpjp3kyov1h" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="n6_u843" sidePair="width-width,bottom-bottom"/>
+      <relation target="n6_u843" sidePair="center-center"/>
+    </loader>
+    <loader id="n1_jbrh" name="n1" xy="10,290" size="460,440" touchable="false" url="ui://dvmsogfrto5i58" fill="scaleFree">
+      <relation target="n7_u843" sidePair="height-height,top-top"/>
+      <relation target="n7_u843" sidePair="center-center"/>
+    </loader>
+    <loader id="n2_jbrh" name="n2" xy="10,740" size="330,42" touchable="false" url="ui://739g5ytiyyke10" fill="scaleFree">
+      <relation target="n6_u843" sidePair="center-center,bottom-bottom"/>
+    </loader>
+    <text id="n3_jbrh" name="inputText" xy="15,742" size="320,38" input="true" maxLength="60" fontSize="20" vAlign="middle" leading="0" autoSize="none" singleLine="true" text="">
+      <relation target="n2_jbrh" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n4_jbrh" name="sendBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="355,740" size="100,40">
+      <relation target="n6_u843" sidePair="bottom-bottom,center-center"/>
+      <Button title="#TEXT_70035" titleFontSize="28" icon="ui://864gshxxj6006u" sound="ui://864gshxxlr3f2n"/>
+    </component>
+    <text id="n9_u843" name="discussCnt" xy="93,200" size="294,30" fontSize="26" align="center" vAlign="middle" autoSize="shrink" text="99条评论">
+      <relation target="n7_u843" sidePair="center-center,top-top"/>
+    </text>
+    <text id="n10_p1qs" name="emptyHintText" xy="40,465" size="400,50" visible="false" fontSize="30" color="#666666" align="center" vAlign="middle" leading="0" autoSize="shrink" text="#TEXT_70077">
+      <relation target="n5_jbrh" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n11_p1qs" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="423,188">
+      <relation target="n7_u843" sidePair="top-top,right-right"/>
+    </component>
+    <list id="n5_jbrh" name="chatletList" xy="15,294" size="450,430" overflow="scroll" scrollBarFlags="68" scrollBar="auto" scrollBarRes="ui://864gshxxjzjo62," defaultItem="ui://dvmsogfru84353" align="center" autoClearItems="true">
+      <relation target="n7_u843" sidePair="height-height,top-top"/>
+      <relation target="n7_u843" sidePair="center-center"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n13_b59w" name="titleTxt" xy="15,240" size="450,50" fontSize="24" color="#440a0a" vAlign="middle" leading="0" autoSize="shrink" bold="true" text="暂未发布暂未发布暂未发布">
+      <relation target="n7_u843" sidePair="top-top,center-center"/>
+    </text>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Alpha" target="n10_p1qs" value="0"/>
+    <item time="0" type="Size" target="n7_u843" tween="true" startValue="500,80" endValue="500,620" duration="6" ease="Quart.Out"/>
+    <item time="6" type="Alpha" target="n10_p1qs" value="1"/>
+  </transition>
+</component>

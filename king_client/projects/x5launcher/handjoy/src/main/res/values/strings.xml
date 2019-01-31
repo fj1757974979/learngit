@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">反轉三國</string>
+    <string name="facebook_app_id">740714252962921</string> <string name="fb_login_protocol_scheme">fb740714252962921</string>
+</resources>

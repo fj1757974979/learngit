@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="ww6xhnp6" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="s6x41" name="figProgressBar.png" path="/" exported="true"/>
+    <image id="s6x42" name="weiProgressBar.png" path="/" exported="true"/>
+    <image id="s6x43" name="figProgressBarBg.png" path="/" exported="true"/>
+    <image id="s6x44" name="shuProgressBar.png" path="/" exported="true"/>
+    <image id="s6x45" name="wuProgressBar.png" path="/" exported="true"/>
+    <image id="s6x46" name="progressBarBg.png" path="/" exported="true"/>
+    <image id="s6x47" name="weiBg.png" path="/" exported="true"/>
+    <image id="s6x48" name="shuBg.png" path="/" exported="true"/>
+    <image id="s6x49" name="wuBg.png" path="/" exported="true"/>
+    <image id="s6x4a" name="castleIcon.png" path="/" exported="true"/>
+    <image id="s6x4d" name="shuIcon.png" path="/" exported="true"/>
+    <image id="s6x4e" name="wuIcon.png" path="/" exported="true"/>
+    <image id="s6x4f" name="weiIcon.png" path="/" exported="true"/>
+    <image id="w5uu14" name="titleBg.png" path="/" exported="true"/>
+    <image id="w5uu15" name="drumIcon.png" path="/" exported="true"/>
+    <image id="w5uu17" name="marchIcon.png" path="/" exported="true"/>
+    <image id="w5uu18" name="battleIcon.png" path="/" exported="true"/>
+    <image id="w5uu19" name="goBackIcon.png" path="/" exported="true"/>
+    <image id="w5uu1a" name="bg.png" path="/" exported="true"/>
+    <image id="w5uu1b" name="stone.png" path="/" exported="true"/>
+    <image id="w5uu1d" name="wall.png" path="/" exported="true"/>
+    <image id="w5uu1e" name="castleSkillBg.png" path="/" exported="true"/>
+    <image id="dofq1w" name="light.png" path="/" exported="true"/>
+    <image id="dofq1x" name="redflagIcon.png" path="/" exported="true"/>
+    <image id="kfkc1y" name="figIcon.png" path="/" exported="true"/>
+    <component id="nzui1z" name="attackCastle.xml" path="/component/attacking/" exported="true"/>
+    <component id="nzui20" name="battleBtn.xml" path="/component/attacking/" exported="true"/>
+    <component id="nzui22" name="figBtn.xml" path="/component/attacking/" exported="true"/>
+    <component id="nzui23" name="goBackBtn.xml" path="/component/attacking/" exported="true"/>
+    <component id="nzui24" name="marchBtn.xml" path="/component/attacking/" exported="true"/>
+    <component id="nzui25" name="proBar2.xml" path="/component/attacking/" exported="true"/>
+    <component id="nzui26" name="ResItem.xml" path="/component/attacking/" exported="true"/>
+    <component id="nzui27" name="campItem.xml" path="/component/attack/" exported="true"/>
+    <component id="nzui28" name="castleBtn.xml" path="/component/attack/" exported="true"/>
+    <component id="nzui29" name="choiceCamp.xml" path="/component/attack/" exported="true"/>
+    <component id="nzui2a" name="clearBtn.xml" path="/component/attack/" exported="true"/>
+    <component id="nzui2b" name="proBar.xml" path="/component/attack/" exported="true"/>
+    <component id="lnvf2c" name="oneCastleBtn.xml" path="/component/attack/" exported="true"/>
+    <component id="r0by2d" name="handCardGrid.xml" path="/component/attacking/" exported="true"/>
+    <component id="r0by2e" name="treatBtn.xml" path="/component/attacking/" exported="true"/>
+    <component id="r0by2f" name="uplevelBtn.xml" path="/component/attacking/" exported="true"/>
+    <component id="r0by2g" name="cardItem.xml" path="/component/attacking/" exported="true"/>
+    <image id="yrk32h" name="castle.png" path="/" exported="true"/>
+    <component id="mbcj2i" name="resTipsBtn.xml" path="/component/attack/" exported="true"/>
+    <image id="bhli2j" name="defProgressBar.png" path="/" exported="true"/>
+    <image id="bhli2k" name="defProgressBarBg.png" path="/" exported="true"/>
+    <image id="bhli2l" name="clearCloud.png" path="/" exported="true"/>
+    <image id="bhli2m" name="clearLight.png" path="/" exported="true"/>
+    <image id="bhli2n" name="clearIcon.png" path="/" exported="true"/>
+    <image id="bhli2p" name="changeCardIcon.png" path="/" exported="true"/>
+    <image id="oswy2q" name="defIcon.png" path="/" exported="true"/>
+    <component id="oswy2r" name="defBtn.xml" path="/component/attacking/" exported="true"/>
+  </resources>
+  <publish name="campign"/>
+</packageDescription>

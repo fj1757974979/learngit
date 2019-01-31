@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="8pche6l7" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="royd1" name="unlockIcon.png" path="/" exported="true"/>
+    <image id="royd3" name="preBtnBg.png" path="/" exported="true"/>
+    <image id="royd5" name="lockIcon.png" path="/" exported="true"/>
+    <image id="royd6" name="clearIcon.png" path="/" exported="true"/>
+    <image id="royd7" name="levelBg.png" path="/" exported="true" scale="9grid" scale9grid="120,30,240,740"/>
+    <component id="royda" name="level.xml" path="/component/" exported="true"/>
+    <component id="euagb" name="chapterItem.xml" path="/component/" exported="true"/>
+    <component id="uomqc" name="levelItem.xml" path="/component/" exported="true"/>
+    <component id="uomqd" name="preCptBtn.xml" path="/component/" exported="true"/>
+    <component id="uomqe" name="nextCptBtn.xml" path="/component/" exported="true"/>
+    <image id="ul11f" name="levelBg2.png" path="/" exported="true"/>
+    <component id="g0v3j" name="levelTreasure.xml" path="/component/" exported="true"/>
+    <component id="g0v3k" name="levelProgressBar.xml" path="/component/" exported="true"/>
+    <component id="g0v3l" name="levelTreasureInfo.xml" path="/component/" exported="true"/>
+    <image id="ltzkm" name="levelTreasureBg.png" path="/" exported="true"/>
+    <image id="ltzkn" name="levelProgress.png" path="/" exported="true" scale="9grid" scale9grid="5,0,195,17"/>
+    <image id="ltzko" name="levelProgressBg.png" path="/" exported="true"/>
+    <image id="a64jp" name="levelItemBg1.png" path="/" exported="true"/>
+    <image id="a64jq" name="levelItemBg2.png" path="/" exported="true"/>
+    <image id="a64jr" name="levelItemBg3.png" path="/" exported="true"/>
+    <image id="a64js" name="levelItemBgLeft.png" path="/" exported="true"/>
+    <image id="a64jt" name="levelItemBgRight.png" path="/" exported="true"/>
+    <component id="zo79u" name="appeal.xml" path="/component/" exported="true"/>
+    <component id="zo79w" name="appealItem.xml" path="/component/" exported="true"/>
+    <component id="jhlyx" name="NewLevelItem.xml" path="/component/" exported="true"/>
+    <image id="d54gy" name="appealSuccessFlag.png" path="/" exported="true"/>
+    <image id="u843z" name="appealBtn.png" path="/" exported="true"/>
+    <component id="u84310" name="appealBtn.xml" path="/component/" exported="true"/>
+    <component id="61kp11" name="levelVideo.xml" path="/component/" exported="true"/>
+  </resources>
+  <publish name="level"/>
+</packageDescription>

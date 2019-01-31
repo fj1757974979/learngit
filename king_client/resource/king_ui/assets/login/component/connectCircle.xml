@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,800">
+  <displayList>
+    <component id="n3_tq2o" name="n3" src="qg2m2q" fileName="component/AdjustBg.xml" pkg="864gshxx" xy="0,0" alpha="0"/>
+    <graph id="n0_j8tk" name="n0" xy="165,325" size="150,150" type="rect" lineColor="#b3000000" fillColor="#b3000000" corner="10">
+      <relation target="n3_tq2o" sidePair="center-center,middle-middle"/>
+    </graph>
+    <loader id="n1_j8tk" name="n1" xy="213,355" pivot="0.5,0.5" size="54,56" url="ui://10li2aq3gwr78" autoSize="true">
+      <relation target="n0_j8tk" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n2_j8tk" name="hintText" xy="182,435" size="134,24" fontSize="20" color="#ffffff" leading="0" text="#TEXT_70001">
+      <relation target="n0_j8tk" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Rotation" target="n1_j8tk" tween="true" startValue="0" endValue="360" duration="48" ease="Linear"/>
+  </transition>
+</component>

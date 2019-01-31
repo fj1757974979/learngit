@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="110,160" pivot="0.5,0.5" extention="Button">
+  <controller name="c1" pages="0,canbuy,1,owned" selected="0">
+    <action type="play_transition" fromPage="0" toPage="1" transition="t0"/>
+  </controller>
+  <displayList>
+    <loader id="n20_rbz0" name="bg1" xy="9,30" size="92,92" touchable="false" url="ui://47ikzi2a7ykcr" fill="scaleFree" autoSize="true"/>
+    <loader id="n25_m276" name="icon" xy="15,35" pivot="0.5,0.5" size="80,80" touchable="false" url="ui://994sajasye0u1u" align="center" vAlign="middle" fill="scaleMatchHeight"/>
+    <loader id="n18_ryqp" name="n18" xy="5,130" size="100,30" touchable="false" url="ui://47ikzi2ab59w1g" align="center" vAlign="middle" fill="scaleMatchWidth"/>
+    <text id="n2_nf1s" name="price" xy="39,132" size="55,24" fontSize="20" color="#ffffff" vAlign="middle" leading="0" bold="true" strokeColor="#000000" text="20000">
+      <relation target="n18_ryqp" sidePair="center-center,middle-middle"/>
+    </text>
+    <loader id="n15_nf1s" name="n15" xy="10,129" size="30,30" touchable="false" url="ui://864gshxxmsuecc" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <relation target="n2_nf1s" sidePair="middle-middle,right-left"/>
+    </loader>
+    <graph id="n22_m276" name="tipBg" xy="0,0" size="110,160" alpha="0.5" type="rect" fillColor="#ff000000">
+      <gearDisplay controller="c1" pages="1"/>
+    </graph>
+    <text id="n23_m276" name="tip" xy="0,0" size="110,160" fontSize="30" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" bold="true" strokeColor="#000000" strokeSize="2" shadowColor="#000000" shadowOffset="1,1" text="#TEXT_70141">
+      <gearDisplay controller="c1" pages="1"/>
+    </text>
+    <text id="n26_k9is" name="title" xy="12,5" size="85,20" font="楷体" fontSize="16" align="center" vAlign="middle" leading="0" text="宝箱卡牌+1">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.95"/>
+  <transition name="t0">
+    <item time="0" type="Alpha" target="n22_m276" tween="true" startValue="0" endValue="0.5" duration="24"/>
+    <item time="0" type="Alpha" target="n23_m276" tween="true" startValue="0" endValue="1" duration="24"/>
+  </transition>
+</component>

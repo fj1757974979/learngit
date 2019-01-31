@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="50,50" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n4_n2ep" name="n4" xy="1,3" size="45,44" visible="false" url="ui://864gshxxl8xi2w" autoSize="true">
+      <gearDisplay controller="button" pages="1,2,3"/>
+    </loader>
+    <loader id="n1" name="n1" xy="5,5" size="40,40" url="ui://kzx2kelpnkld6" align="center" vAlign="middle" fill="scaleMatchHeight">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n2" name="n2" xy="5,5" size="40,40" url="ui://kzx2kelpnkld6" align="center" vAlign="middle" fill="scaleMatchHeight">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+  </displayList>
+  <Button mode="Radio" sound="ui://864gshxxlxfs6k"/>
+</component>

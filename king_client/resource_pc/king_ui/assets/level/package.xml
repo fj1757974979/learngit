@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="8pche6l7" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="royd1" name="unlockIcon.png" path="/" exported="true"/>
+    <image id="royd3" name="preBtnBg.png" path="/" exported="true"/>
+    <image id="royd5" name="lockIcon.png" path="/" exported="true"/>
+    <image id="royd6" name="clearIcon.png" path="/" exported="true"/>
+    <image id="royd7" name="levelBg.png" path="/" exported="true"/>
+    <image id="royd8" name="levelItemBg2.png" path="/" exported="true"/>
+    <image id="royd9" name="levelItemBg1.png" path="/" exported="true"/>
+    <component id="royda" name="level.xml" path="/component/" exported="true"/>
+    <component id="euagb" name="chapterItem.xml" path="/component/" exported="true"/>
+    <component id="uomqc" name="levelItem.xml" path="/component/" exported="true"/>
+    <component id="uomqd" name="preCptBtn.xml" path="/component/" exported="true"/>
+    <component id="uomqe" name="nextCptBtn.xml" path="/component/" exported="true"/>
+  </resources>
+  <publish name="level"/>
+</packageDescription>

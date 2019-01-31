@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,800" overflow="hidden">
+  <displayList>
+    <loader id="n1_qg2m" name="bg" xy="0,0" size="480,800" alpha="0.5" url="ui://ryvvr3p0rcak1t" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <graph id="n28_s9rb" name="n28" xy="0,0" size="480,800" alpha="0.5" type="rect" fillColor="#ff000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <loader id="n30_rmgl" name="n30" xy="-43,-128" pivot="0.5,0.5" size="566,518" alpha="0" touchable="false" url="ui://864gshxxvco45w" autoSize="true">
+      <relation target="n1_qg2m" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n21_xi2m" name="blood1" xy="290,70" size="100,100" touchable="false" url="ui://ryvvr3p0j4cj1n" align="center" vAlign="middle">
+      <relation target="n1_qg2m" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n3_xi2m" name="blood2" xy="200,50" size="100,100" touchable="false" url="ui://ryvvr3p0j4cj1l" align="center" vAlign="middle">
+      <relation target="n1_qg2m" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n4_xi2m" name="blood3" xy="220,90" size="100,100" touchable="false" url="ui://ryvvr3p0j4cj1m" align="center" vAlign="middle">
+      <relation target="n1_qg2m" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n5_xi2m" name="blood4" xy="270,160" size="100,100" touchable="false" url="ui://ryvvr3p0j4cj1h" align="center" vAlign="middle">
+      <relation target="n1_qg2m" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n6_xi2m" name="blood5" xy="150,220" size="100,100" touchable="false" url="ui://ryvvr3p0j4cj1i" align="center" vAlign="middle">
+      <relation target="n1_qg2m" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n7_xi2m" name="blood6" xy="210,270" size="100,100" touchable="false" url="ui://ryvvr3p0j4cj1k" align="center" vAlign="middle">
+      <relation target="n1_qg2m" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n8_xi2m" name="blood8" xy="230,360" size="100,100" touchable="false" url="ui://ryvvr3p0j4cj1d" align="center" vAlign="middle">
+      <relation target="n1_qg2m" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n9_xi2m" name="blood7" xy="90,350" size="100,100" touchable="false" url="ui://ryvvr3p0j4cj1j" align="center" vAlign="middle">
+      <relation target="n1_qg2m" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n10_xi2m" name="blood9" xy="199,460" size="100,100" touchable="false" url="ui://ryvvr3p0j4cj1e" align="center" vAlign="middle">
+      <relation target="n1_qg2m" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n11_xi2m" name="blood10" xy="205,500" size="100,100" touchable="false" url="ui://ryvvr3p0j4cj1b" align="center" vAlign="middle">
+      <relation target="n1_qg2m" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n12_xi2m" name="blood11" xy="200,570" size="100,100" touchable="false" url="ui://ryvvr3p0j4cj1c" align="center" vAlign="middle">
+      <relation target="n1_qg2m" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n13_xi2m" name="blood12" xy="195,610" size="100,100" touchable="false" url="ui://ryvvr3p0j4cj1a" align="center" vAlign="middle">
+      <relation target="n1_qg2m" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n14_xi2m" name="loseText1" xy="165,230" pivot="0.5,0.5" size="150,166" touchable="false" url="ui://ryvvr3p0rcak1o" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <relation target="n1_qg2m" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n15_xi2m" name="loseText2" xy="165,380" pivot="0.5,0.5" size="150,166" touchable="false" url="ui://ryvvr3p0rcak1p" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <relation target="n1_qg2m" sidePair="center-center,middle-middle"/>
+    </loader>
+    <component id="n26_qw7t" name="oldRankBanner" src="qw7t3q" fileName="component/pvpRankBanner.xml" pkg="864gshxx" xy="107,20" pivot="0.5,0.5" scale="0.8,0.8">
+      <relation target="n1_qg2m" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n27_qw7t" name="newRankBanner" src="qw7t3q" fileName="component/pvpRankBanner.xml" pkg="864gshxx" xy="107,20" pivot="0.5,0.5" scale="0.8,0.8">
+      <relation target="n1_qg2m" sidePair="center-center,middle-middle"/>
+    </component>
+    <text id="n29_ftnh" name="cantDecStarText" xy="45,584" size="390,50" font="楷体" fontSize="24" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="shrink" strokeColor="#000000" strokeSize="2" text="#TEXT_70093">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Alpha" target="n29_ftnh" value="0"/>
+    <item time="0" type="Alpha" target="n21_xi2m" tween="true" startValue="0" endValue="1" duration="9" ease="Quad.In"/>
+    <item time="0" type="Alpha" target="n5_xi2m" value="0"/>
+    <item time="0" type="Alpha" target="n4_xi2m" value="0"/>
+    <item time="0" type="Alpha" target="n7_xi2m" value="0"/>
+    <item time="0" type="Alpha" target="n6_xi2m" value="0"/>
+    <item time="0" type="Alpha" target="n9_xi2m" value="0"/>
+    <item time="0" type="Alpha" target="n11_xi2m" value="0"/>
+    <item time="0" type="Alpha" target="n1_qg2m" value="0.5"/>
+    <item time="0" type="Alpha" target="n3_xi2m" value="0"/>
+    <item time="0" type="Alpha" target="n8_xi2m" value="0"/>
+    <item time="0" type="Alpha" target="n12_xi2m" value="0"/>
+    <item time="0" type="Alpha" target="n10_xi2m" value="0"/>
+    <item time="0" type="Alpha" target="n28_s9rb" tween="true" startValue="0" endValue="0.8" duration="24"/>
+    <item time="0" type="Alpha" target="n13_xi2m" value="0"/>
+    <item time="0" type="Scale" target="n15_xi2m" value="0,0"/>
+    <item time="0" type="Scale" target="n14_xi2m" value="0,0"/>
+    <item time="0" type="Scale" target="n26_qw7t" value="0,0"/>
+    <item time="0" type="Scale" target="n27_qw7t" value="0,0"/>
+    <item time="0" type="Scale" value="1,1"/>
+    <item time="0" type="Visible" target="n27_qw7t" value="false"/>
+    <item time="2" type="Alpha" target="n3_xi2m" tween="true" startValue="0" endValue="1" duration="9"/>
+    <item time="4" type="Alpha" target="n4_xi2m" tween="true" startValue="0" endValue="1" duration="9"/>
+    <item time="6" type="Alpha" target="n5_xi2m" tween="true" startValue="0" endValue="1" duration="9"/>
+    <item time="8" type="Alpha" target="n6_xi2m" tween="true" startValue="0" endValue="1" duration="9"/>
+    <item time="10" type="Alpha" target="n7_xi2m" tween="true" startValue="0" endValue="1" duration="9"/>
+    <item time="12" type="Alpha" target="n9_xi2m" tween="true" startValue="0" endValue="1" duration="9"/>
+    <item time="12" type="Scale" target="n14_xi2m" tween="true" startValue="2,2" endValue="1,1" duration="12" ease="Elastic.Out"/>
+    <item time="14" type="Alpha" target="n8_xi2m" tween="true" startValue="0" endValue="1" duration="9"/>
+    <item time="16" type="Alpha" target="n10_xi2m" tween="true" startValue="0" endValue="1" duration="9"/>
+    <item time="18" type="Alpha" target="n11_xi2m" tween="true" startValue="0" endValue="1" duration="9"/>
+    <item time="18" type="Scale" target="n15_xi2m" tween="true" startValue="2,2" endValue="1,1" duration="12" ease="Elastic.Out"/>
+    <item time="20" type="Alpha" target="n12_xi2m" tween="true" startValue="0" endValue="1" duration="9"/>
+    <item time="22" type="Alpha" target="n13_xi2m" tween="true" startValue="0" endValue="1" duration="9"/>
+    <item time="30" type="Alpha" target="n29_ftnh" tween="true" startValue="0" endValue="1" duration="12"/>
+    <item time="30" type="Scale" target="n26_qw7t" tween="true" startValue="0,0" endValue="0.8,0.8" duration="12" ease="Back.Out"/>
+    <item time="30" type="Scale" target="n27_qw7t" tween="true" startValue="0,0" endValue="0.8,0.8" duration="12" ease="Back.Out"/>
+  </transition>
+  <transition name="t1">
+    <item time="0" type="Alpha" target="n26_qw7t" value="1"/>
+    <item time="0" type="Alpha" target="n27_qw7t" value="0"/>
+    <item time="0" type="Scale" target="n27_qw7t" value="0,0"/>
+    <item time="0" type="Scale" target="n26_qw7t" tween="true" startValue="0.8,0.8" endValue="0,0" duration="18" ease="Back.In"/>
+    <item time="12" type="Sound" value="ui://864gshxxdzyk49,100"/>
+    <item time="18" type="Alpha" target="n26_qw7t" tween="true" startValue="1" endValue="0" duration="12"/>
+    <item time="18" type="Alpha" target="n27_qw7t" tween="true" startValue="0" endValue="1" duration="12"/>
+    <item time="18" type="Scale" target="n27_qw7t" tween="true" startValue="0,0" endValue="0.8,0.8" duration="12" ease="Back.Out"/>
+    <item time="30" type="Scale" target="n26_qw7t" value="0.8,0.8"/>
+  </transition>
+  <transition name="t2" options="2">
+    <item time="0" type="Alpha" target="n30_rmgl" value="0"/>
+    <item time="0" type="Alpha" target="n27_qw7t" value="0"/>
+    <item time="0" type="Alpha" target="n26_qw7t" value="1"/>
+    <item time="0" type="ColorFilter" target="n26_qw7t" tween="true" startValue="0.00,0.00,0.00,0.00" endValue="1.00,0.00,0.00,0.00" duration="18" ease="Cubic.In"/>
+    <item time="0" type="ColorFilter" target="n27_qw7t" value="0.00,0.00,0.00,0.00"/>
+    <item time="0" type="Visible" target="n27_qw7t" value="true"/>
+    <item time="12" type="Sound" value="ui://864gshxxdzyk49,100"/>
+    <item time="18" type="Alpha" target="n26_qw7t" tween="true" startValue="1" endValue="0" duration="12"/>
+    <item time="18" type="Alpha" target="n27_qw7t" tween="true" startValue="0" endValue="1" duration="12"/>
+    <item time="18" type="ColorFilter" target="n26_qw7t" tween="true" startValue="1.00,0.00,0.00,0.00" endValue="0.00,0.00,0.00,0.00" duration="12" ease="Cubic.In"/>
+    <item time="18" type="ColorFilter" target="n27_qw7t" tween="true" startValue="0.00,0.00,0.00,0.00" endValue="0.00,0.00,0.00,0.00" duration="12"/>
+    <item time="24" type="Alpha" target="n30_rmgl" value="1"/>
+    <item time="24" type="Rotation" target="n30_rmgl" tween="true" startValue="0" endValue="180" duration="30"/>
+    <item time="24" type="Scale" target="n30_rmgl" tween="true" startValue="0,0" endValue="1,1" duration="12"/>
+    <item time="42" type="Scale" target="n30_rmgl" tween="true" startValue="1,1" endValue="0,0" duration="12" ease="Quad.In"/>
+    <item time="54" type="Alpha" target="n30_rmgl" value="0"/>
+  </transition>
+</component>

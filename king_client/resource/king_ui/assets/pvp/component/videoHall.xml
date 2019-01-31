@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,800" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n33_vco4" name="panel" xy="0,0" pivot="0.5,0.5" size="480,800" url="ui://dvmsogfrfm931u" fill="scaleFree"/>
+    <loader id="n1_lnsl" name="n1" xy="140,5" pivot="0.5,0.5" size="200,65" touchable="false" url="ui://864gshxxroydj" autoSize="true">
+      <relation target="n33_vco4" sidePair="top-top"/>
+    </loader>
+    <loader id="n4_lnsl" name="listBg" xy="10,70" pivot="0.5,0.5" size="460,720" touchable="false" url="ui://dvmsogfrvco433" fill="scaleFree">
+      <relation target="" sidePair="center-center"/>
+      <relation target="n33_vco4" sidePair="height-height"/>
+    </loader>
+    <loader id="n34_vco4" name="n34" xy="13,-78" pivot="0.5,0.5" size="454,49" touchable="false" url="ui://dvmsogfrvco437" fill="scaleFree">
+      <relation target="n33_vco4" sidePair="top-top"/>
+    </loader>
+    <loader id="n35_vco4" name="n35" xy="170,-128" size="50,30" touchable="false" url="ui://dvmsogfrvco438" autoSize="true">
+      <relation target="n33_vco4" sidePair="top-top"/>
+    </loader>
+    <list id="n5_lnsl" name="rankList" xy="15,70" pivot="0.5,0.5" size="450,715" overflow="scroll" scrollBarFlags="4" margin="3,3,0,0" scrollBarRes="ui://864gshxxjzjo62," defaultItem="ui://dvmsogfrrk7d2r" align="center" autoClearItems="true">
+      <relation target="n4_lnsl" sidePair="height-height,width-width"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n28_fm93" name="closeBtn" src="royda" fileName="component/backBtn.xml" pkg="864gshxx" xy="5,5">
+      <relation target="n33_vco4" sidePair="top-top,left-left"/>
+    </component>
+    <component id="n29_rk7d" name="rightBtn" src="uomqe" fileName="component/nextCptBtn.xml" pkg="8pche6l7" xy="420,-88" pivot="0.5,0.5">
+      <relation target="" sidePair="right-right"/>
+      <relation target="n33_vco4" sidePair="top-top"/>
+    </component>
+    <component id="n30_rk7d" name="leftBtn" src="uomqe" fileName="component/nextCptBtn.xml" pkg="8pche6l7" xy="22,-88" pivot="0.5,0.5" rotation="180">
+      <relation target="" sidePair="right-right"/>
+      <relation target="n33_vco4" sidePair="top-top"/>
+    </component>
+    <loader id="n37_otmf" name="rankImg" xy="207,-108" size="64,64" group="n39_otmf" touchable="false" url="ui://864gshxxgy104q" align="center" vAlign="middle" fill="scaleMatchHeight" color="#000000">
+      <relation target="n33_vco4" sidePair="top-top"/>
+    </loader>
+    <loader id="n36_otmf" name="rankImg1" xy="209,-106" size="60,60" group="n39_otmf" touchable="false" url="ui://864gshxxgy104q" align="center" vAlign="middle" fill="scaleMatchHeight">
+      <relation target="n33_vco4" sidePair="top-top"/>
+    </loader>
+    <text id="n38_otmf" name="rankTitleText" xy="209,-65" size="60,28" group="n39_otmf" fontSize="24" color="#ffff00" align="center" vAlign="bottom" autoSize="none" strokeColor="#000033" shadowColor="#000033" shadowOffset="1,1" text="专家">
+      <relation target="n33_vco4" sidePair="top-top"/>
+    </text>
+    <group id="n39_otmf" name="n39" xy="207,-108" size="64,71"/>
+    <component id="n43_e0um" name="searchBtn" src="yykey" fileName="component/searchBtn.xml" pkg="739g5yti" xy="80,18" size="50,35">
+      <relation target="n33_vco4" sidePair="top-top,left-left"/>
+      <Button title="🔍"/>
+    </component>
+    <text id="n40_jbrh" name="emptyHintText" xy="40,375" size="400,50" fontSize="30" color="#666666" align="center" vAlign="middle" leading="0" autoSize="none" text="没有分享的战报"/>
+    <loader id="n44_d54g" name="n44" xy="165,11" pivot="0.5,0.5" size="150,51" touchable="false" url="ui://864gshxxd54ga3" autoSize="true">
+      <relation target="n33_vco4" sidePair="top-top"/>
+    </loader>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Alpha" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="0" type="Scale" tween="true" startValue="0.75,0.75" endValue="1,1" duration="6" ease="Quart.Out"/>
+  </transition>
+  <transition name="left"/>
+  <transition name="right"/>
+  <transition name="t3"/>
+</component>

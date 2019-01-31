@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,600" overflow="scroll">
+  <displayList>
+    <component id="n113_new8" name="lord" src="new85r" fileName="component/jobItem.xml" xy="0,5"/>
+    <component id="n114_new8" name="adjutant1" src="new85r" fileName="component/jobItem.xml" xy="0,120"/>
+    <component id="n115_new8" name="adjutant2" src="new85r" fileName="component/jobItem.xml" xy="0,225"/>
+    <component id="n116_new8" name="captain1" src="new85r" fileName="component/jobItem.xml" xy="0,340"/>
+    <component id="n117_new8" name="captain2" src="new85r" fileName="component/jobItem.xml" xy="0,445"/>
+    <component id="n118_new8" name="captain4" src="new85r" fileName="component/jobItem.xml" xy="0,655"/>
+    <component id="n119_new8" name="captain3" src="new85r" fileName="component/jobItem.xml" xy="0,550"/>
+    <component id="n120_new8" name="captain5" src="new85r" fileName="component/jobItem.xml" xy="0,760"/>
+    <loader id="n130_uivn" name="n130" xy="6,110" size="388,3" url="ui://dvmsogfrmuyr3n" autoSize="true"/>
+    <loader id="n131_uivn" name="n131" xy="6,330" size="388,3" url="ui://dvmsogfrmuyr3n" autoSize="true"/>
+    <loader id="n141_u5xl" name="n141" xy="0,5" size="100,100" url="ui://2ipmzghtu5xl8c" align="center" vAlign="middle" fill="scaleMatchWidth"/>
+    <loader id="n142_u5xl" name="n142" xy="0,120" size="90,100" url="ui://2ipmzghtu5xl8d" align="center" vAlign="middle" fill="scaleMatchWidth"/>
+    <loader id="n143_u5xl" name="n143" xy="0,225" size="90,100" url="ui://2ipmzghtu5xl8d" align="center" vAlign="middle" fill="scaleMatchWidth"/>
+    <loader id="n144_u5xl" name="n144" xy="0,760" size="80,100" url="ui://2ipmzghtu5xl8e" align="center" vAlign="middle" fill="scaleMatchWidth"/>
+    <loader id="n145_u5xl" name="n145" xy="0,655" size="80,100" url="ui://2ipmzghtu5xl8e" align="center" vAlign="middle" fill="scaleMatchWidth"/>
+    <loader id="n146_u5xl" name="n146" xy="0,550" size="80,100" url="ui://2ipmzghtu5xl8e" align="center" vAlign="middle" fill="scaleMatchWidth"/>
+    <loader id="n147_u5xl" name="n147" xy="0,445" size="80,100" url="ui://2ipmzghtu5xl8e" align="center" vAlign="middle" fill="scaleMatchWidth"/>
+    <loader id="n148_u5xl" name="n148" xy="0,339" size="80,100" url="ui://2ipmzghtu5xl8e" align="center" vAlign="middle" fill="scaleMatchWidth"/>
+  </displayList>
+</component>

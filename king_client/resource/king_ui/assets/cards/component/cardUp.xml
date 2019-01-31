@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="450,450" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n0_lnsl" name="n0" xy="0,0" size="450,450" url="ui://dvmsogfrfirs44" fill="scaleFree"/>
+    <text id="n40_k73y" name="txt2" xy="25,300" size="400,60" fontSize="20" color="#333333" align="center" vAlign="middle" leading="0" ubb="true" autoSize="none" text="#TEXT_70192"/>
+    <component id="n43_yyke" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="385,10"/>
+    <loader id="n67_d54g" name="n67" xy="198,155" size="53,31" url="ui://864gshxxpdhx9q" autoSize="true"/>
+    <component id="n70_srbf" name="jadeBtn" src="nf1s9c" fileName="component/jadeBtn.xml" pkg="864gshxx" xy="150,370" size="150,60">
+      <Button title="233" titleColor="#ffff00" titleFontSize="32"/>
+    </component>
+    <component id="n71_tlw5" name="now" src="bzh4r" fileName="component/middleCard.xml" xy="50,90"/>
+    <loader id="n73_tlw5" name="n73" xy="254,75" size="155,192" url="ui://rdb04el0ryqpiw"/>
+    <component id="n72_tlw5" name="new" src="bzh4r" fileName="component/middleCard.xml" xy="270,90"/>
+    <component id="n74_tlw5" name="expProgressBarNow" src="bzh4k" fileName="component/valueProgressBar.xml" pkg="ravbpjp3" xy="26,260" size="172,20"/>
+    <component id="n75_tlw5" name="expProgressBarNew" src="bzh4k" fileName="component/valueProgressBar.xml" pkg="ravbpjp3" xy="246,260" size="172,20"/>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Alpha" value="0"/>
+    <item time="0" type="Alpha" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="0" type="Scale" value="0,0"/>
+    <item time="0" type="Scale" tween="true" startValue="0.5,0.5" endValue="1,1" duration="6"/>
+    <item time="0" type="Sound" value="ui://864gshxxyyke6n,100"/>
+  </transition>
+</component>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,600">
+  <displayList>
+    <loader id="n80_ir7y" name="n80" xy="-5,0" size="410,600" url="ui://dvmsogfra64j2l" fill="scaleFree"/>
+    <list id="n79_ipob" name="buildList" xy="0,5" size="400,590" overflow="scroll" lineGap="5" defaultItem="ui://2ipmzghtipob64" align="center">
+      <item name="Irrigation"/>
+      <item name="Trade"/>
+      <item name="Build"/>
+      <item url="ui://2ipmzghtonso6l" title="#TEXT_60369" icon="ui://2ipmzghtir7yb6" name="migrate"/>
+      <item url="ui://2ipmzghtonso6l" title="#TEXT_60368" name="Transport"/>
+    </list>
+  </displayList>
+</component>

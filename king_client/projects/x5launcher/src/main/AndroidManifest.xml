@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.openew.launcher"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <!--uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="23" /-->
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.READ_LOGS" />
+
+    <!-- 硬件加速对X5视频播放非常重要，建议开启 -->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <!-- android:name=".APPAplication" -->
+
+    <application
+        android:name="${APP_CLS}"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <activity android:name=".SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".MainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+        </activity>
+
+        <receiver android:name="com.appsflyer.SingleInstallBroadcastReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <!--meta-data android:value="HuoShu" android:name="sdkType"/>
+        <meta-data android:value="lzd_pkgsdk" android:name="tdChannelID"/-->
+
+        <!--meta-data android:value="openew" android:name="sdkType"/>
+        <meta-data android:value="openew" android:name="tdChannelID"/-->
+
+        <meta-data android:value="${SDK_TYPE}" android:name="sdkType"/>
+        <meta-data android:value="${TD_CHANNEL_ID}" android:name="tdChannelID"/>
+        <meta-data android:value="${TD_APPID}" android:name="tdAppId"/>
+        <meta-data android:value="${HOME_URL}" android:name="homeUrl"/>
+
+        <!-- 配置APP ID -->
+        <meta-data android:name="BUGLY_APPID" android:value="${BUGLY_APP_ID}" />
+        <!-- 配置APP版本号 -->
+        <meta-data android:name="BUGLY_APP_VERSION" android:value="${BUGLY_APP_VERSION}" />
+        <!-- 配置APP渠道号 -->
+        <meta-data android:name="BUGLY_APP_CHANNEL" android:value="${BUGLY_APP_CHANNEL}" />
+        <!-- 配置Bugly调试模式(true或者false)-->
+        <meta-data android:name="BUGLY_ENABLE_DEBUG" android:value="${BUGLY_ENABLE_DEBUG}" />
+
+    </application>
+
+</manifest>

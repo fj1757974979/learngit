@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  lzdios
+
+  Created by elliotlee on 2018/11/28.
+  Copyright © 2018年 egret. All rights reserved.
+*/
+"updateTitle" = "Update Notification";
+"updateMessage" = "New version is available in Appstore, update now?";
+"updateConfirm" = "Update now";
+"updateCancel" = "Update later";
+"loginCancel" = "Login canceled";
+"loginFail" = "Login failed";

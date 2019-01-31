@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="174,67" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n1" name="icon" xy="0,0" size="174,67" url="ui://2ipmzghtmhry7d" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n6_xjab" name="time" xy="60,-19" size="53,28" fontSize="24" color="#ffffff" align="center" vAlign="middle" leading="0" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="9:22">
+      <relation target="" sidePair="center-center,bottom-top"/>
+    </text>
+    <component id="n7_xjab" name="n7" src="o0co52" fileName="component/levelNumHint.xml" pkg="864gshxx" xy="142,2">
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+  </displayList>
+  <Button sound="ui://864gshxxlr3f2n" downEffect="scale" downEffectValue="0.80"/>
+  <transition name="t0"/>
+</component>

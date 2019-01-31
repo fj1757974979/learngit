@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,800">
+  <controller name="homeListCtrl" pages="0,1,1,2,2,3,3,4,4,5" selected="0"/>
+  <displayList>
+    <component id="n0_n2ep" name="bg" src="qg2m2q" fileName="component/AdjustBg.xml" pkg="864gshxx" xy="0,0" size="480,800"/>
+    <loader id="n15_qnp0" name="topBg" xy="0,0" size="480,60" url="ui://8d3e8y55ul1125" fill="scaleFree">
+      <relation target="" sidePair="center-center"/>
+      <relation target="n0_n2ep" sidePair="width-width,top-top"/>
+    </loader>
+    <loader id="n5_n2ep" name="bottomBg" xy="0,713" size="480,87" url="ui://8d3e8y55ul111x" align="center" fill="scaleFree">
+      <relation target="n0_n2ep" sidePair="width-width,bottom-bottom"/>
+      <relation target="" sidePair="center-center"/>
+    </loader>
+    <list id="n6_n2ep" name="baseList" xy="0,48" size="480,670" pageController="homeListCtrl" layout="pagination" selectionMode="none" overflow="scroll" scroll="horizontal" scrollBarFlags="74" lineItemCount2="1" defaultItem="ui://8d3e8y55n2epr" autoItemSize="true" align="center" vAlign="middle">
+      <relation target="n15_qnp0" sidePair="top-bottom"/>
+      <item name="team"/>
+      <item name="cards"/>
+      <item name="pvp"/>
+      <item name="society"/>
+      <item name="level"/>
+    </list>
+    <loader id="n20_qmvh" name="n20" xy="192,720" size="95,80" visible="false" url="ui://8d3e8y55ul1124" align="center" vAlign="middle">
+      <relation target="n5_n2ep" sidePair="top-top"/>
+    </loader>
+    <component id="n10_n2ep" name="teamBtn" src="n2epx" fileName="component/cardPoolTag.xml" xy="2,722" size="95,75">
+      <relation target="n5_n2ep" sidePair="center-center,top-top"/>
+      <Button checked="true" controller="homeListCtrl" page="0"/>
+    </component>
+    <component id="n11_n2ep" name="levelBtn" src="n2epv" fileName="component/campignTag.xml" xy="383,722" size="95,75">
+      <relation target="n5_n2ep" sidePair="center-center,top-top"/>
+      <Button controller="homeListCtrl" page="4"/>
+    </component>
+    <component id="n12_n2ep" name="matchBtn" src="n2epw" fileName="component/matchTag.xml" xy="192,722">
+      <relation target="n5_n2ep" sidePair="center-center,top-top"/>
+      <Button controller="homeListCtrl" page="2"/>
+    </component>
+    <component id="n14_gas9" name="cardPoolBtn" src="gas91i" fileName="component/teamTag.xml" xy="97,722" size="95,75">
+      <relation target="n5_n2ep" sidePair="center-center,top-top"/>
+      <Button controller="homeListCtrl" page="1"/>
+    </component>
+    <loader id="n16_qnp0" name="n16" xy="60,22" size="30,30" url="ui://864gshxxnf1s9a" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <relation target="n15_qnp0" sidePair="left-left,bottom-bottom"/>
+    </loader>
+    <text id="n17_qnp0" name="goldText" xy="90,24" size="100,30" fontSize="24" color="#ffffff" vAlign="middle" leading="0" autoSize="none" bold="true" text="9999999">
+      <relation target="n16_qnp0" sidePair="middle-middle,left-right"/>
+    </text>
+    <text id="n18_qnp0" name="nameText" xy="60,1" size="187,22" fontSize="18" color="#ffffff" vAlign="middle" leading="0" strokeColor="#2c2c2c" text="我是名字长度一共10字">
+      <relation target="n15_qnp0" sidePair="left-left,bottom-bottom"/>
+    </text>
+    <loader id="n19_ym25" name="boxImg" xy="240,625" pivot="0.5,0.5" size="175,157" scale="0.75,0.75" alpha="0" touchable="false" url="ui://zfg0revpl8xin" align="center" vAlign="middle" fill="scale">
+      <relation target="n0_n2ep" sidePair="center-center,bottom-bottom"/>
+    </loader>
+    <component id="n21_jbrh" name="societyBtn" src="jbrh2r" fileName="component/societyTag.xml" xy="287,722">
+      <relation target="n5_n2ep" sidePair="center-center,top-top"/>
+      <Button controller="homeListCtrl" page="3"/>
+    </component>
+    <component id="n23_vfpo" name="inviteBattleHint" src="e0um2s" fileName="component/bubbleTips.xml" xy="40,652"/>
+    <loader id="n30_nf1s" name="n30" xy="190,22" size="30,30" url="ui://864gshxxnf1s9b" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <relation target="n15_qnp0" sidePair="left-left,bottom-bottom"/>
+    </loader>
+    <text id="n31_nf1s" name="jadeText" xy="220,24" size="100,30" fontSize="24" color="#ffffff" vAlign="middle" leading="0" autoSize="none" bold="true" text="9999999">
+      <relation target="n30_nf1s" sidePair="middle-middle,left-right"/>
+    </text>
+    <component id="n33_j7k2" name="head" src="md4a33k" fileName="component/head.xml" pkg="739g5yti" xy="-2,-3" size="60,60">
+      <relation target="n15_qnp0" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n32_id0m" name="avatarNumHint" src="id0m9d" fileName="component/avatarNumHint.xml" pkg="864gshxx" xy="35,0" scale="0.8,0.8" touchable="false">
+      <relation target="n33_j7k2" sidePair="center-center,middle-middle"/>
+    </component>
+    <loader id="n34_lssh" name="bowlderIcon" xy="320,24" size="26,26" url="ui://864gshxxlsshd0" fill="scaleMatchWidth">
+      <relation target="n15_qnp0" sidePair="left-left,bottom-bottom"/>
+    </loader>
+    <text id="n35_lssh" name="bowlderText" xy="346,24" size="100,30" fontSize="24" color="#ffffff" vAlign="middle" leading="0" autoSize="none" bold="true" text="9999999">
+      <relation target="n34_lssh" sidePair="middle-middle,left-right"/>
+    </text>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Alpha" target="n19_ym25" value="1"/>
+    <item time="0" type="Size" target="n19_ym25" value="175,157"/>
+    <item time="0" type="XY" target="n19_ym25" tween="true" startValue="240,625" endValue="152,343" duration="18" ease="Quart.Out"/>
+    <item time="18" type="Size" target="n19_ym25" tween="true" startValue="175,157" endValue="138,104" duration="18" ease="Quint.Out"/>
+    <item time="18" type="XY" target="n19_ym25" tween="true" startValue="152,343" endValue="-4,578" duration="18" ease="Quart.Out"/>
+    <item time="37" type="Alpha" target="n19_ym25" value="0"/>
+    <item time="37" type="Size" target="n19_ym25" value="175,157"/>
+    <item time="37" type="XY" target="n19_ym25" value="152,643"/>
+  </transition>
+  <transition name="t1">
+    <item time="0" type="Alpha" target="n19_ym25" value="1"/>
+    <item time="0" type="Size" target="n19_ym25" value="175,157"/>
+    <item time="0" type="XY" target="n19_ym25" tween="true" startValue="240,625" endValue="152,343" duration="18" ease="Quart.Out"/>
+    <item time="18" type="Size" target="n19_ym25" tween="true" startValue="175,157" endValue="138,104" duration="18" ease="Quint.Out"/>
+    <item time="18" type="XY" target="n19_ym25" tween="true" startValue="152,343" endValue="113,578" duration="18" ease="Quart.Out"/>
+    <item time="37" type="Alpha" target="n19_ym25" value="0"/>
+    <item time="37" type="Size" target="n19_ym25" value="175,157"/>
+    <item time="37" type="XY" target="n19_ym25" value="152,643"/>
+  </transition>
+  <transition name="t2">
+    <item time="0" type="Alpha" target="n19_ym25" value="1"/>
+    <item time="0" type="Size" target="n19_ym25" value="175,157"/>
+    <item time="0" type="XY" target="n19_ym25" tween="true" startValue="240,625" endValue="152,343" duration="18" ease="Quart.Out"/>
+    <item time="18" type="Size" target="n19_ym25" tween="true" startValue="175,157" endValue="138,104" duration="18" ease="Quint.Out"/>
+    <item time="18" type="XY" target="n19_ym25" tween="true" startValue="152,343" endValue="230,578" duration="18" ease="Quart.Out"/>
+    <item time="37" type="Alpha" target="n19_ym25" value="0"/>
+    <item time="37" type="Size" target="n19_ym25" value="175,157"/>
+    <item time="37" type="XY" target="n19_ym25" value="152,643"/>
+  </transition>
+  <transition name="t3">
+    <item time="0" type="Alpha" target="n19_ym25" value="1"/>
+    <item time="0" type="Size" target="n19_ym25" value="175,157"/>
+    <item time="0" type="XY" target="n19_ym25" tween="true" startValue="240,643" endValue="152,343" duration="18" ease="Quart.Out"/>
+    <item time="18" type="Size" target="n19_ym25" tween="true" startValue="175,157" endValue="138,104" duration="18" ease="Quint.Out"/>
+    <item time="18" type="XY" target="n19_ym25" tween="true" startValue="152,343" endValue="346,578" duration="18" ease="Quart.Out"/>
+    <item time="37" type="Alpha" target="n19_ym25" value="0"/>
+    <item time="37" type="Size" target="n19_ym25" value="175,157"/>
+    <item time="37" type="XY" target="n19_ym25" value="152,643"/>
+  </transition>
+  <transition name="2:1">
+    <item time="0" type="XY" target="n20_qmvh" tween="true" startValue="97,720" endValue="2,720" duration="6" ease="Quart.Out"/>
+  </transition>
+  <transition name="2:3">
+    <item time="0" type="XY" target="n20_qmvh" tween="true" startValue="97,720" endValue="192,720" duration="6" ease="Quart.Out"/>
+  </transition>
+  <transition name="2:4">
+    <item time="0" type="XY" target="n20_qmvh" tween="true" startValue="97,720" endValue="287,720" duration="6" ease="Quart.Out"/>
+  </transition>
+  <transition name="1:2">
+    <item time="0" type="XY" target="n20_qmvh" tween="true" startValue="2,720" endValue="97,720" duration="6" ease="Quart.Out"/>
+  </transition>
+  <transition name="1:3">
+    <item time="0" type="XY" target="n20_qmvh" tween="true" startValue="2,720" endValue="197,720" duration="6" ease="Quart.Out"/>
+  </transition>
+  <transition name="1:4">
+    <item time="0" type="XY" target="n20_qmvh" tween="true" startValue="2,720" endValue="287,720" duration="6" ease="Quart.Out"/>
+  </transition>
+  <transition name="3:1">
+    <item time="0" type="XY" target="n20_qmvh" tween="true" startValue="192,720" endValue="2,720" duration="6" ease="Quart.Out"/>
+  </transition>
+  <transition name="3:2">
+    <item time="0" type="XY" target="n20_qmvh" tween="true" startValue="192,720" endValue="97,720" duration="6" ease="Quart.Out"/>
+  </transition>
+  <transition name="3:4">
+    <item time="0" type="XY" target="n20_qmvh" tween="true" startValue="192,-" endValue="287,-" duration="6" ease="Quart.Out"/>
+  </transition>
+  <transition name="4:1">
+    <item time="0" type="XY" target="n20_qmvh" tween="true" startValue="287,-" endValue="2,-" duration="6" ease="Quart.Out"/>
+  </transition>
+  <transition name="4:2">
+    <item time="0" type="XY" target="n20_qmvh" tween="true" startValue="287,-" endValue="97,-" duration="6" ease="Quart.Out"/>
+  </transition>
+  <transition name="4:3">
+    <item time="0" type="XY" target="n20_qmvh" tween="true" startValue="287,-" endValue="192,-" duration="6" ease="Quart.Out"/>
+  </transition>
+  <transition name="4:5">
+    <item time="0" type="XY" target="n20_qmvh" tween="true" startValue="287,-" endValue="383,-" duration="6" ease="Quart.Out"/>
+  </transition>
+  <transition name="3:5">
+    <item time="0" type="XY" target="n20_qmvh" tween="true" startValue="192,-" endValue="383,-" duration="6" ease="Quart.Out"/>
+  </transition>
+  <transition name="2:5">
+    <item time="0" type="XY" target="n20_qmvh" tween="true" startValue="92,-" endValue="383,-" duration="6" ease="Quart.Out"/>
+  </transition>
+  <transition name="1:5">
+    <item time="0" type="XY" target="n20_qmvh" tween="true" startValue="2,-" endValue="383,-" duration="6" ease="Quart.Out"/>
+  </transition>
+  <transition name="5:1">
+    <item time="0" type="XY" target="n20_qmvh" tween="true" startValue="383,-" endValue="2,-" duration="6" ease="Quart.Out"/>
+  </transition>
+  <transition name="5:2">
+    <item time="0" type="XY" target="n20_qmvh" tween="true" startValue="383,-" endValue="97,-" duration="6" ease="Quart.Out"/>
+  </transition>
+  <transition name="5:3">
+    <item time="0" type="XY" target="n20_qmvh" tween="true" startValue="383,-" endValue="192,-" duration="6" ease="Quart.Out"/>
+  </transition>
+  <transition name="5:4">
+    <item time="0" type="XY" target="n20_qmvh" tween="true" startValue="383,-" endValue="287,-" duration="6" ease="Quart.Out"/>
+  </transition>
+</component>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,700" pivot="0.5,0.5">
+  <controller name="c1" pages="0,citizen,1,help,2,captive" selected="0"/>
+  <displayList>
+    <list id="n11_10tc3" name="headFrameList" xy="25,200" size="450,440" layout="flow_hz" overflow="scroll" scrollBarFlags="4" margin="10,10,0,0" lineGap="10" defaultItem="ui://739g5yti10tc339" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <loader id="n17_j66l" name="n17" xy="0,0" size="480,700" url="ui://739g5ytiri662b" fill="scaleFree"/>
+    <component id="n18_j66l" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="420,10"/>
+    <loader id="n20_j66l" name="bottom" xy="15,120" size="450,560" touchable="false" url="ui://739g5ytiyykel" fill="scaleFree"/>
+    <list id="n21_j66l" name="playerList" xy="20,125" size="440,550" overflow="scroll" scrollBarFlags="4" scrollBar="auto" defaultItem="ui://2ipmzghtgv9810" align="center" autoClearItems="true">
+      <gearDisplay controller="c1" pages="0"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n33_ooha" name="emptyHintText" xy="40,380" size="400,40" fontSize="30" color="#666666" align="center" vAlign="middle" leading="0" autoSize="none" text="#TEXT_60365">
+      <gearDisplay controller="c1" pages="0"/>
+    </text>
+    <list id="n41_ir7y" name="helpList" xy="20,125" size="440,550" overflow="scroll" scrollBarFlags="4" scrollBar="auto" defaultItem="ui://2ipmzghtgv9810" align="center" autoClearItems="true">
+      <gearDisplay controller="c1" pages="1"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n43_ir7y" name="emptyHintText2" xy="40,380" size="400,40" fontSize="30" color="#666666" align="center" vAlign="middle" leading="0" autoSize="none" text="#TEXT_60365">
+      <gearDisplay controller="c1" pages="1"/>
+    </text>
+    <list id="n42_ir7y" name="captiveList" xy="20,125" size="440,550" overflow="scroll" scrollBarFlags="4" scrollBar="auto" defaultItem="ui://2ipmzghtgv9810" align="center" autoClearItems="true">
+      <gearDisplay controller="c1" pages="2"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n44_ir7y" name="emptyHintText3" xy="40,380" size="400,40" fontSize="30" color="#666666" align="center" vAlign="middle" leading="0" autoSize="none" text="#TEXT_60365">
+      <gearDisplay controller="c1" pages="2"/>
+    </text>
+    <loader id="n35_u5xl" name="n35" xy="140,5" size="200,65" url="ui://864gshxxroydj" autoSize="true"/>
+    <loader id="n36_u5xl" name="n36" xy="165,11" size="150,51" url="ui://864gshxxu5xld7" autoSize="true"/>
+    <component id="n38_ir7y" name="countryChk" src="u5xl85" fileName="component/checkButton.xml" xy="20,70" size="100,44">
+      <Button checked="true" title="#TEXT_60371" controller="c1" page="0"/>
+    </component>
+    <component id="n39_ir7y" name="honorChk" src="u5xl85" fileName="component/checkButton.xml" xy="360,70" size="100,44">
+      <Button title="#TEXT_60373" controller="c1" page="2"/>
+    </component>
+    <component id="n40_ir7y" name="bounsBtn" src="u5xl85" fileName="component/checkButton.xml" xy="190,70" size="100,44">
+      <Button title="#TEXT_60372" controller="c1" page="1"/>
+    </component>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Scale" tween="true" startValue="0.8,0.9" endValue="1,1" duration="6" ease="Quart.Out"/>
+  </transition>
+</component>

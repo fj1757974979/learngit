@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="629,589" designImage="ui://t63zsq4zx88n1" designImageOffsetX="-10" designImageOffsetY="-402">
+  <controller name="pvpLevel" pages="" selected="-1"/>
+  <displayList>
+    <loader id="n0_jed2" name="n0" xy="0,0" size="629,589" url="ui://t63zsq4zdwsyy"/>
+    <loader id="n18_one8" name="n18" xy="224,85" size="288,63" scale="0.65,0.65" url="ui://864gshxxroydj"/>
+    <component id="n2_jed2" name="nextListBtn" src="bzh4o" pkg="864gshxx" xy="394,75"/>
+    <component id="n3_jed2" name="preListBtn" src="bzh4p" pkg="864gshxx" xy="176,75"/>
+    <text id="n4_jed2" name="levelTxt" xy="284,94" size="61,32" font="楷体" fontSize="28" color="#ffffff" leading="2" strokeColor="#000000" strokeSize="2" text="一阶"/>
+    <list id="n8_jed2" name="levelList" xy="55,140" size="540,221" pageController="pvpLevel" layout="pagination" selectionMode="none" overflow="scroll" scroll="horizontal" scrollBarFlags="138" defaultItem="ui://t63zsq4zone8t" vAlign="middle"/>
+    <text id="n14_jed2" name="skillDescTxt" xy="77,368" size="475,97" font="行楷-简 细体" fontSize="28" color="#ffffff" align="center" vAlign="middle" autoSize="none" bold="true" strokeColor="#000000" strokeSize="2" text="进场时，每有1张手牌便＋1；每次自己出牌前－1"/>
+    <component id="n15_jed2" name="confirmBtn" src="jed213" pkg="864gshxx" xy="66,458" scale="0.8,0.8">
+      <Button title="确定"/>
+    </component>
+    <component id="n17_jed2" name="cancelBtn" src="jed21c" pkg="864gshxx" xy="325,457" scale="0.8,0.8">
+      <Button title="取消"/>
+    </component>
+  </displayList>
+</component>

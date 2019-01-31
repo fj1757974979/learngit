@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="791,377">
+  <displayList>
+    <loader id="n0_qifi" name="n0" xy="0,0" size="791,377" url="ui://864gshxxdlva1m" fill="scaleFree" autoSize="true"/>
+    <text id="n2_qifi" name="title" xy="56,119" size="700,45" restrictSize="0,700,0,0" fontSize="40" color="#ffffff" vAlign="middle" letterSpacing="1" bold="true" strokeColor="#000000" strokeSize="2" text="还玩不玩还玩不玩还玩不玩还玩不玩还玩不玩还玩不玩">
+      <relation target="n0_qifi" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n3_qifi" name="cancelBtn" src="jed213" xy="69,215">
+      <Button title="取消"/>
+    </component>
+    <component id="n5_qifi" name="acceptBtn" src="qifi1d" xy="437,214">
+      <Button title="确定"/>
+    </component>
+  </displayList>
+</component>

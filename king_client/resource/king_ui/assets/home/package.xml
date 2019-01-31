@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="8d3e8y55" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="roydc" name="homeKuang.png" path="/" exported="true"/>
+    <image id="roydg" name="levelIcon.png" path="/" exported="true"/>
+    <component id="nzuip" name="cmdWnd.xml" path="/component/" exported="true"/>
+    <component id="n2epq" name="newHome.xml" path="/component/" exported="true"/>
+    <component id="n2epr" name="homeListItem.xml" path="/component/" exported="true"/>
+    <component id="n2epv" name="campignTag.xml" path="/component/" exported="true"/>
+    <component id="n2epw" name="matchTag.xml" path="/component/" exported="true"/>
+    <component id="n2epx" name="cardPoolTag.xml" path="/component/" exported="true"/>
+    <image id="qxr1z" name="yinliang3.png" path="/" exported="true"/>
+    <image id="qxr110" name="kuang.png" path="/" exported="true"/>
+    <image id="qxr115" name="yinyue3.png" path="/" exported="true"/>
+    <component id="qxr118" name="musicBtn.xml" path="/component/" exported="true"/>
+    <image id="qxr119" name="yinliang0.png" path="/" exported="true"/>
+    <image id="qxr11a" name="yinliang1.png" path="/" exported="true"/>
+    <image id="qxr11b" name="yinliang2.png" path="/" exported="true"/>
+    <image id="qxr11c" name="yinyue0.png" path="/" exported="true"/>
+    <image id="qxr11d" name="yinyue1.png" path="/" exported="true"/>
+    <image id="qxr11e" name="yinyue2.png" path="/" exported="true"/>
+    <component id="qxr11f" name="soundBtn.xml" path="/component/" exported="true"/>
+    <component id="gas91i" name="teamTag.xml" path="/component/" exported="true"/>
+    <image id="ul111x" name="bannerBg.png" path="/" exported="true"/>
+    <image id="ul1120" name="campignIcon.png" path="/" exported="true"/>
+    <image id="ul1121" name="cardPoolIcon.png" path="/" exported="true"/>
+    <image id="ul1122" name="libraryIcon.png" path="/" exported="true"/>
+    <image id="ul1123" name="matchIcon.png" path="/" exported="true"/>
+    <image id="ul1124" name="tagBgSelected.png" path="/" exported="true"/>
+    <image id="ul1125" name="topBg.png" path="/" exported="true"/>
+    <image id="ijr426" name="btnBg.png" path="/" exported="true"/>
+    <image id="qof02a" name="optionBtn1.png" path="/" exported="true"/>
+    <image id="qof02b" name="optionBtn2.png" path="/" exported="true"/>
+    <image id="qof02c" name="surveyBg.png" path="/" exported="true"/>
+    <component id="qof02e" name="survey.xml" path="/component/" exported="true"/>
+    <component id="qof02f" name="surveyItem.xml" path="/component/" exported="true"/>
+    <component id="veqf2m" name="modifyName.xml" path="/component/" exported="true"/>
+    <image id="vco42p" name="randomBtn.png" path="/" exported="true"/>
+    <component id="vco42q" name="randomBtn.xml" path="/component/" exported="true"/>
+    <component id="jbrh2r" name="societyTag.xml" path="/component/" exported="true"/>
+    <component id="e0um2s" name="bubbleTips.xml" path="/component/" exported="true"/>
+    <image id="yyke2t" name="societyIcon.png" path="/" exported="true"/>
+    <component id="tlw52u" name="languageItem.xml" path="/component/" exported="true"/>
+    <component id="tlw52v" name="languageChange.xml" path="/component/" exported="true"/>
+  </resources>
+  <publish name="home"/>
+</packageDescription>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,800">
+  <controller name="c1" pages="0,randomMode,1,banMode,2,switchMod" selected="1"/>
+  <displayList>
+    <component id="n18_sx8w" name="background" src="qg2m2q" fileName="component/AdjustBg.xml" pkg="864gshxx" xy="0,0" alpha="0"/>
+    <graph id="n13_9o2m" name="bg" xy="0,0" size="480,800" type="rect" lineSize="0" lineColor="#00000000" fillColor="#00ffffff">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <relation target="n18_sx8w" sidePair="width-width,height-height"/>
+    </graph>
+    <list id="n21_msue" name="randomModeCardList" xy="0,175" size="480,450" group="n24_msue" layout="flow_hz" selectionMode="multipleSingleClick" lineGap="3" defaultItem="ui://rdb04el0msue3jh" align="center" vAlign="middle">
+      <relation target="n18_sx8w" sidePair="center-center,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n23_msue" name="randomModeTxt" xy="85,80" size="305,76" group="n24_msue" fontSize="24" color="#ffffff" align="center" leading="0" strokeColor="#000000" text="随机模式&#xA;&#xA;选择5张牌作为你的初始手牌">
+      <relation target="n18_sx8w" sidePair="top-top,center-center"/>
+    </text>
+    <component id="n22_msue" name="setBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="150,700" size="180,60" group="n24_msue">
+      <relation target="n18_sx8w" sidePair="bottom-bottom,center-center"/>
+      <Button title="确定" icon="ui://864gshxxj6006u"/>
+    </component>
+    <text id="n34_msue" name="time" xy="222,20" size="35,34" group="n24_msue" fontSize="30" color="#ffffff" align="center" leading="0" strokeColor="#000000" text="30">
+      <relation target="n18_sx8w" sidePair="top-top,center-center"/>
+    </text>
+    <group id="n24_msue" name="randomMode" xy="0,20" size="480,740" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <loader id="n35_si7j" name="n35" xy="40,300" size="400,200" url="ui://864gshxxdlva1y" align="center" vAlign="middle" fill="scaleFree">
+      <gearDisplay controller="c1" pages="1,2"/>
+    </loader>
+    <list id="n30_msue" name="handCardEnemy" xy="0,45" size="480,113" layout="flow_hz" lineGap="3" defaultItem="ui://rdb04el0msue3jh" align="center" vAlign="middle">
+      <gearDisplay controller="c1" pages="1,2"/>
+      <relation target="n18_sx8w" sidePair="center-center,middle-middle%"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n32_msue" name="handCardSelf" xy="0,677" size="480,113" layout="flow_hz" lineGap="3" defaultItem="ui://rdb04el0msue3jh" align="center" vAlign="middle">
+      <gearDisplay controller="c1" pages="1,2"/>
+      <relation target="n18_sx8w" sidePair="center-center,middle-middle%"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n31_msue" name="txt" xy="65,358" size="350,99" fontSize="24" align="center" leading="0" autoSize="none" text="禁卡模式/交换模式&#xA;&#xA;双方随机去除一张手牌，并补一张手牌。">
+      <gearDisplay controller="c1" pages="1,2"/>
+      <relation target="n18_sx8w" sidePair="top-top,center-center"/>
+    </text>
+  </displayList>
+  <transition name="t0" autoPlayRepeat="-1">
+    <item time="0" type="XY" target="n23_msue" tween="true" startValue="-,-120" endValue="-,80" duration="12"/>
+    <item time="0" type="XY" target="n22_msue" tween="true" startValue="-,900" endValue="-,700" duration="12"/>
+  </transition>
+</component>

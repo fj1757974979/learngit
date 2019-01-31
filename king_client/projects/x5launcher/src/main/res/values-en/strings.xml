@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Reverse Three Kingdoms</string>
+    <string name="init_game">The game is being initialized, please wait a minute</string>
+    <string name="init_install">Unzipping resources, please wait a moment</string>
+    <string name="sdk_init_fail">SDK initialization failed, please check the permission settings, restart the game and try again</string>
+    <string name="auth_hint">The game needs access to the relevant mobile phone permissions, please go to the permission setting to authorize</string>
+    <string name="auth_confirm">Go to authorize</string>
+    <string name="cancel">Cancel</string>
+    <string name="exit_hint">Press again to exit</string>
+    <string name="record_permission_hint">Please open the recording permission and try again.</string>
+    <string name="record_not_support">The current Android version does not support recording screen.</string>
+    <string name="share_fail">Sharing failed. Check to see if the latest version of Facebook is installed.</string>
+    <string name="share_no_video">You haven\'t recorded a combat video yet.</string>
+</resources>

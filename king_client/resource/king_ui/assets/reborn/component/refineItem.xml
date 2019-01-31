@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="200,200" pivot="0.5,0.5" extention="Button">
+  <displayList>
+    <loader id="n21_7ykc" name="icon" xy="0,0" size="200,200" url="ui://47ikzi2a7ykcp" fill="scaleMatchWidth"/>
+    <loader id="n22_7ykc" name="n22" xy="25,170" size="150,30" touchable="false" url="ui://47ikzi2ab59w1h" align="center" vAlign="middle" fill="scaleMatchWidth"/>
+    <text id="n23_7ykc" name="honorText" xy="73,172" size="77,28" fontSize="24" color="#ffffff" vAlign="middle" leading="0" bold="true" strokeColor="#000000" text="+20000">
+      <relation target="n22_7ykc" sidePair="center-center,middle-middle"/>
+    </text>
+    <loader id="n24_7ykc" name="honorIconImg" xy="43,171" size="30,30" touchable="false" url="ui://864gshxxcnowc7" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <relation target="n23_7ykc" sidePair="middle-middle,right-left"/>
+    </loader>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.95"/>
+  <transition name="t0">
+    <item time="0" type="Scale" tween="true" startValue="1,1" endValue="0.95,0.95" duration="3"/>
+    <item time="3" type="Scale" tween="true" startValue="0.95,0.95" endValue="1,1" duration="3"/>
+  </transition>
+</component>

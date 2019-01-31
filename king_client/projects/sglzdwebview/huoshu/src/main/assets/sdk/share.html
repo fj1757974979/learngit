@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, user-scalable=no,target-densitydpi=device-dpi" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<meta name="format-detection" content="telephone=no">
+<meta name="screen-orientation" content="portrait">
+<meta name="full-screen" content="yes">
+<meta http-equiv="x-ua-compatible" content="IE=edge" />
+<link href="skin/new_sdk.min.css?v=20150318002" type="text/css" rel="stylesheet" />
+<link id="skin" data-v="20150318001" type="text/css" rel="stylesheet" />
+<link href="skin/responsive.min.css?v=20150318001" type="text/css" rel="stylesheet" />
+<title>
+手游平台登录
+</title>
+</head>
+<body>
+
+
+<div class="mask">
+<div class="container_load" id="loading">
+	<div class="content">
+		<div class="circle"></div>
+		<div class="circle1"></div>
+	</div>
+</div>
+<div class="alert alert-success hide" id="alert">
+	<button type="button" class="close" data-dismiss="alert">&times;</button>
+	<span></span>
+</div>
+<section id="home" data-attr="dot" class="hide"></section>
+<section id="frame" data-attr="dot" class="hide" ></section>
+<script id="frame_template" type="text/x-jquery-tmpl" >
+	<div class="header">
+		<span class="title">{{=Core.Data.frame_title}}</span>
+		<a class="btn pull-left op-back" href="#main">返回</a>
+	</div>
+	<div class="container" style="">
+		<div class="container_load in_frame" id="loading_frame">
+			<div class="content">
+				<div class="circle"></div>
+				<div class="circle1"></div>
+			</div>
+		</div>
+		{{? Core.isIos}}<div class="ios_scroll">{{?}}
+		<iframe frameborder=0 src="{{=Core.Data.frame_src}}" scrolling="yes" width="100%" height="100%"></iframe>
+		{{? Core.isIos}}</div>{{?}}
+	</div>
+</script>
+<script id="home_template" type="text/x-jquery-tmpl">
+	<div class="header">
+		<span class="title">分享游戏</span>
+		<a class="btn pull-left op-back" href="sdk://exit?action=share">回到游戏</a>
+	</div>
+	<div class="container"> 
+		<div class="box_info_center"> 
+			<div class="share_box1">
+			 	<div class="share_game clearfix">
+			 		<img class="pull-left game_face" src="{{=Core.Data.icon || ''}}" height="75" width="75"> 
+				<textarea class="s_content">{{=Core.Data.content || '这款游戏还不错噢，一起来玩吧!'}}</textarea>
+				</div>
+			</div>
+			<div class="share_box2">
+				<div class="">
+					<h3 class="text-info">分享到</h3>
+					<ul class="other-login inline clearfix">
+						<li><a href="/sdk/share/game/qq/?app_id={{=Core.Data.app_id || ''}}" class="qq" title="QQ空间分享"></a></li>
+						<li><a href="/sdk/share/game/sina/?app_id={{=Core.Data.app_id || ''}}" class="sina" title="新浪微博分享"></a></li>
+						<li><a href="/sdk/share/game/tqq/?app_id={{=Core.Data.app_id || ''}}" class="tqq" title="腾讯微博分享"></a></li>
+					</ul>
+					<div class="invite_box">
+			<h3 class="text-info">奖励说明:</h3>
+			<p>
+			1.成功邀请好友一起玩游戏，您可获得<span class="text-info">5{{=Core.Data.game_unit_name}}</span>的奖励。
+			</p>
+			<p>
+			2.好友若充值(限前10笔)，您可获得<span class="text-info">5%</span>充值奖励。
+			</p>
+			<p>
+			3.好友首次充值，因被您邀请可额外获得<span class="text-info">10%</span>充值返利。
+			</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</script>
+</div>
+
+<script type="text/javascript" src="js/fastclick.min.1.0.js?201309041309"></script>
+<script type="text/javascript" src="js/zepto.min.js?201309041309"></script>
+<script type="text/javascript" src="js/doT.min.js?201309041309" ></script>
+<script type="text/javascript">
+window.isGetData = 0;
+$(function() {
+FastClick.attach(document.body);
+});
+</script>
+<script type="text/javascript" src="js/core.min.js?201403141112" ></script>
+<script type="text/javascript">
+	(function(){
+		// Home模块
+		var Home = function(modId) {
+			Module.call(this, modId);
+		}
+		// 继承基础模块
+		Core.inherit(Home, Module);
+		Home.prototype.bind = function(){
+			var that = this;
+			that.$c.on('click', '.other-login a', function(e){
+				e.preventDefault();
+				//分享连接
+				var $tar = $(e.target);
+				var content = that.$c.find('.s_content').val();
+				$tar.attr('params', 'content=' + content);
+				Core.ajax_do($tar, function(data){
+					console.log(data);
+					if(data.code == 0){
+						if(data.msg.next_url){
+							// 需要重新授权
+							var src = data.msg.next_url;
+							if (Core.isFile) {
+								src = Core.server + src;
+							}
+							Core.Data.frame_title = $tar.attr('title');
+							Core.Data.frame_src = src;
+							Core.updateMod('frame');
+						} else {
+							//
+							Core.showTips(data.msg);
+						}
+					}
+				}, that);
+			});
+		}
+		Core.registerMod('home', Home);
+		var Frame = function(modId) {
+			Module.call(this, modId);
+		}
+		Core.inherit(Frame, Module);
+		Frame.prototype.show_after = function() {
+			var that = this;
+			var _des = Core.last_mod ? Core.last_mod : 'home';
+			this.$c.find('a.btn.pull-left').attr('href', '#' + _des);
+			this.$c.find('iframe')[0].onload = function() {
+				that.$c.find('#loading_frame').hide();
+			}
+		}
+		Core.registerMod('frame', Frame);
+	})();
+</script>
+<script type="text/javascript" src="js/loader.min.js?201401151617"></script>
+<script type="text/javascript">
+(function(){
+	window.isGetData = 1;
+	getData('/game/info/');
+})();
+</script>
+
+</body>
+</html>

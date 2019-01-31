@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,800" designImage="ui://164za4d7t03j4" designImageLayer="1">
+  <displayList>
+    <loader id="n7_j4cj" name="bg" xy="0,0" size="480,800" url="ui://10li2aq3pcunf" fill="scaleFree"/>
+    <text id="n9_liqn" name="goodTxt" xy="13,703" size="453,39" fontSize="16" color="#bcb5a4" align="center" vAlign="middle" text="抵制不良游戏，拒绝盗版游戏。注意自我保护，谨防受骗上当。&#xA;适度游戏益脑，沉迷游戏伤身。合理安排时间，享受健康生活。">
+      <relation target="n7_j4cj" sidePair="center-center,bottom-bottom"/>
+    </text>
+    <text id="n13_ge0i" name="isnbTxt" xy="0,750" size="480,40" visible="false" fontSize="16" color="#bcb5a4" align="center" vAlign="middle" autoSize="none" text="软著登记号：2016SR103245  ISBN：978-7-7979-9027-1&#xA;苏网文：(2016)1185-034号  审批文号： 新广出审[2017]5785号&#xA;">
+      <relation target="n9_liqn" sidePair="center-center,top-bottom"/>
+    </text>
+  </displayList>
+</component>

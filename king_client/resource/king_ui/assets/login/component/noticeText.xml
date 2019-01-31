@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="350,444">
+  <displayList>
+    <richtext id="n14_gtjh" name="mailText" xy="0,0" size="350,444" fontSize="20" leading="10" ubb="true" autoSize="height" text="阿斯达阿斯达盛大盛大盛大阿斯达阿斯达盛大盛大盛大阿斯达阿斯达盛大盛大盛大阿斯达阿斯达盛大盛大盛大阿斯达阿斯达盛大盛大盛大阿斯达阿斯达盛大盛大盛大阿斯达阿斯达盛大盛大盛大阿斯达阿斯达盛大盛大盛大阿斯达阿斯达盛大盛大盛大阿斯达阿斯达盛大盛大盛大阿斯达阿斯达盛大盛大盛大阿斯达阿斯达盛大盛大盛大阿斯达阿斯达盛大盛大盛大阿斯达阿斯达盛大盛大盛大阿斯达阿斯达盛大盛大盛大阿斯达阿斯达盛大盛大盛大阿斯达阿斯达盛大盛大盛大阿斯达阿斯达盛大盛大盛大阿斯达阿斯达盛大盛大盛大阿斯达阿斯达盛大盛大盛大"/>
+  </displayList>
+  <relation target="n14_gtjh" sidePair="height-height"/>
+</component>

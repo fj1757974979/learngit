@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,100">
+  <displayList>
+    <loader id="n70_ipob" name="bg" xy="0,0" size="400,100" url="ui://2ipmzghtu5xl8g" fill="scaleFree"/>
+    <component id="n71_ipob" name="progress" src="xjab9" fileName="component/resourceProgressItem.xml" xy="25,15" size="300,50"/>
+    <component id="n72_ipob" name="newBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="300,65" size="90,30">
+      <Button title="#TEXT_60308" titleFontSize="20" icon="ui://864gshxxj6006u"/>
+    </component>
+    <text id="n73_ipob" name="n75" xy="130,70" size="115,24" fontSize="20" color="#666666" leading="0" text="#TEXT_60310"/>
+    <text id="n75_ipob" name="title" xy="133,10" size="135,24" fontSize="20" align="right" leading="0" text="粮草运输-长沙">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n76_ipob" name="Budget" xy="203,70" size="55,24" fontSize="20" color="#666666" leading="0" text="11/33">
+      <relation target="" sidePair="left-left"/>
+    </text>
+    <component id="n79_ipob" name="stopBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="10,65" size="90,30">
+      <Button title="#TEXT_60307" titleFontSize="20" icon="ui://864gshxxj6006x"/>
+    </component>
+    <loader id="n80_u5xl" name="textImg" xy="30,15" size="50,50" url="ui://2ipmzghtu5xl8l" align="center" vAlign="middle" fill="scaleMatchWidth"/>
+  </displayList>
+</component>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="rdb04el0" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="uoof0" name="back1_b.png" path="/" exported="true"/>
+    <image id="uoof1" name="back2_b.png" path="/" exported="true"/>
+    <image id="uoof2" name="base_b.png" path="/" exported="true"/>
+    <image id="uoof3" name="base_m.png" path="/" exported="true"/>
+    <image id="uoof4" name="base_s.png" path="/" exported="true"/>
+    <image id="uoof8" name="circle_m.png" path="/" exported="true"/>
+    <image id="uoof9" name="circle_s.png" path="/" exported="true"/>
+    <image id="uoofc" name="front1_m.png" path="/" exported="true"/>
+    <image id="uoofd" name="front1_s.png" path="/" exported="true"/>
+    <image id="uoofe" name="front2_m.png" path="/" exported="true"/>
+    <image id="uooff" name="front2_s.png" path="/" exported="true"/>
+    <image id="uoofh" name="opponent2_s.png" path="/" exported="true"/>
+    <image id="uoofi" name="text_b.png" path="/" exported="true"/>
+    <component id="uoofj" name="smallCard.xml" path="/component/" exported="true"/>
+    <component id="uoofk" name="cardsNum.xml" path="/component/" exported="true"/>
+    <component id="uoofm" name="cardItem.xml" path="/component/" exported="true"/>
+    <image id="uoofn" name="progressFront.png" path="/" exported="true"/>
+    <image id="uoofo" name="energyBarImg.png" path="/" exported="true"/>
+    <image id="uoofp" name="expBarImg.png" path="/" exported="true"/>
+    <component id="uoofq" name="valueProgressBar.xml" path="/component/" exported="true"/>
+    <component id="bzh4r" name="middleCard.xml" path="/component/" exported="true"/>
+    <component id="bzh4s" name="cardmNum.xml" path="/component/" exported="true"/>
+    <image id="nlbnu" name="lightCircleImg.png" path="/" exported="true"/>
+    <component id="10uxgv" name="selectedCard.xml" path="/component/" exported="true"/>
+    <image id="10uxgw" name="selectedCardImg.png" path="/" exported="true"/>
+    <component id="x88ngx" name="bigCard.xml" path="/component/" exported="true"/>
+    <image id="ohc6gy" name="circle_m_w.png" path="/" exported="true"/>
+    <image id="qp5hgz" name="circle_b.png" path="/"/>
+  </resources>
+  <publish name="cards"/>
+</packageDescription>

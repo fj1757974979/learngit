@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,800" pivot="0.5,0.5">
+  <displayList>
+    <graph id="n84_b59w" name="closeBg" xy="0,0" pivot="0.5,0.5" size="480,800" type="rect" lineColor="#00000000" fillColor="#80000000">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <component id="n83_msue" name="equip" src="j66l2" fileName="component/equipCom.xml" xy="0,160" size="480,480" touchable="false">
+      <relation target="n84_b59w" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+  <transition name="open" autoPlay="true">
+    <item time="0" type="Scale" target="n83_msue" tween="true" startValue="0.5,0.5" endValue="1,1" duration="12" ease="Back.Out"/>
+    <item time="0" type="Sound" value="ui://864gshxxdzyk47,100"/>
+  </transition>
+</component>

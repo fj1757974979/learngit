@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,60">
+  <displayList>
+    <loader id="n81_m276" name="icon" xy="0,0" size="400,60" touchable="false" url="ui://47ikzi2ak9is1c" fill="scaleFree"/>
+    <loader id="n83_m276" name="n83" xy="250,10" pivot="0.5,0.5" size="40,40" touchable="false" url="ui://864gshxxmsuecc" align="center" vAlign="middle" fill="scale"/>
+    <text id="n84_m276" name="n1" xy="5,5" size="115,24" font="楷体" fontSize="20" vAlign="middle" leading="0" text="#TEXT_70154"/>
+    <text id="n85_m276" name="fameCnt" xy="291,16" size="89,28" font="楷体" fontSize="24" color="#666666" vAlign="middle" leading="0" ubb="true" text="9999999">
+      <relation target="n83_m276" sidePair="middle-middle,left-right"/>
+    </text>
+    <text id="n87_m276" name="title" xy="75,29" size="85,24" font="楷体" fontSize="20" color="#666666" vAlign="middle" leading="0" text="99999999"/>
+    <loader id="n88_m276" name="n88" xy="40,26" pivot="0.5,0.5" size="30,30" touchable="false" url="ui://864gshxxnf1s9a" align="center" vAlign="middle" fill="scale"/>
+    <loader id="n89_b59w" name="n2" xy="210,20" size="30,20" url="ui://864gshxxpdhx9q" vAlign="middle" fill="scaleFree">
+      <relation target="n81_m276" sidePair="middle-middle,left-right"/>
+    </loader>
+  </displayList>
+</component>

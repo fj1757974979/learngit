@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="440,662" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n0_xjab" name="n0" xy="0,0" size="440,662" url="ui://2ipmzghtk6o669" fill="scaleFree">
+      <relation target="" sidePair="height-height,middle-middle"/>
+    </loader>
+    <text id="n1_xjab" name="n1" xy="157,30" size="125,34" group="n20_xjab" fontSize="30" leading="0" text="灌溉任务">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <component id="n2_xjab" name="confirmBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="130,560" size="180,60" group="n20_xjab">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+      <Button title="发布" icon="ui://864gshxxj6006u"/>
+    </component>
+    <component id="n4_xjab" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="350,40" group="n20_xjab"/>
+    <text id="n5_xjab" name="n5" xy="169,160" size="101,28" group="n20_xjab" fontSize="24" color="#999999" leading="0" text="任务个数">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <text id="n7_xjab" name="memberInput" xy="157,195" size="125,44" group="n20_xjab" fontSize="40" align="center" vAlign="middle" leading="0" singleLine="true" text="123123">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n8_xjab" name="n8" xy="145,320" size="149,28" group="n20_xjab" fontSize="24" color="#999999" leading="0" text="单次任务奖励">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <text id="n10_xjab" name="goldInput" xy="222,355" size="20,34" group="n20_xjab" fontSize="30" color="#ffff00" align="center" vAlign="middle" leading="0" strokeColor="#000000" singleLine="true" text="1">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <loader id="n11_xjab" name="n11" xy="182,357" size="30,30" group="n20_xjab" url="ui://864gshxxnf1s9a" fill="scaleFree">
+      <relation target="n10_xjab" sidePair="right-left,middle-middle"/>
+    </loader>
+    <text id="n16_xjab" name="txt2" xy="102,435" size="235,24" group="n20_xjab" visible="false" fontSize="20" align="center" vAlign="middle" leading="0" text="总共划拨奖励金币x100000">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <text id="n17_xjab" name="txt1" xy="132,280" size="175,24" group="n20_xjab" visible="false" fontSize="20" align="center" vAlign="middle" leading="0" text="总共可提升x点农业">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <component id="n21_xjab" name="nongyeProgress" src="xjab9" fileName="component/resourceProgressItem.xml" xy="75,80" size="250,50" group="n20_xjab"/>
+    <component id="n22_onso" name="res" src="qjxh5o" fileName="component/resourceValueItem.xml" xy="190,500" size="200,50" group="n20_xjab"/>
+    <component id="n25_n91y" name="memberCnt" src="n91ydh" fileName="component/Slider1.xml" pkg="864gshxx" xy="70,235" size="300,18" group="n20_xjab">
+      <Slider max="100"/>
+    </component>
+    <text id="n23_u5xl" name="n23" xy="75,513" size="105,24" group="n20_xjab" fontSize="20" color="#999999" align="center" leading="0" text="金库剩余：">
+      <relation target="" sidePair="left-left,top-top"/>
+    </text>
+    <component id="n26_n91y" name="goldCnt" src="n91ydh" fileName="component/Slider1.xml" pkg="864gshxx" xy="70,390" size="300,18" group="n20_xjab">
+      <Slider max="100"/>
+    </component>
+    <text id="n27_n91y" name="totalGold" xy="233,475" size="29,28" group="n20_xjab" fontSize="24" align="center" vAlign="middle" leading="0" singleLine="true" text="24">
+      <relation target="" sidePair="left-left"/>
+    </text>
+    <loader id="n28_n91y" name="n28" xy="193,471" size="35,35" group="n20_xjab" url="ui://864gshxxnf1s9a" fill="scaleFree">
+      <relation target="n27_n91y" sidePair="right-left,middle-middle"/>
+    </loader>
+    <text id="n29_n91y" name="n29" xy="75,476" size="65,24" group="n20_xjab" fontSize="20" color="#999999" align="center" leading="0" text="拨款：">
+      <relation target="" sidePair="left-left,top-top"/>
+    </text>
+    <group id="n20_xjab" name="n20" xy="70,30" size="334,590" advanced="true"/>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Alpha" target="n20_xjab" value="0"/>
+    <item time="0" type="Size" tween="true" startValue="-,120" endValue="-,662" duration="9"/>
+    <item time="9" type="Alpha" target="n20_xjab" tween="true" startValue="0" endValue="1" duration="6"/>
+  </transition>
+</component>

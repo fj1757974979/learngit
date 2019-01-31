@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,800">
+  <displayList>
+    <component id="n29_n9kc" name="bg" src="qg2m2q" fileName="component/AdjustBg.xml" pkg="864gshxx" xy="0,0"/>
+    <list id="n19_g33r" name="resultList" xy="11,80" size="458,430" layout="flow_hz" selectionMode="none" overflow="scroll" scrollBarFlags="74" scrollBar="hidden" margin="0,0,10,10" lineGap="10" colGap="20" defaultItem="ui://zfg0revpg33rg" align="center" autoClearItems="true">
+      <item/>
+      <item url="ui://zfg0revpl1gi4a"/>
+      <item url="ui://zfg0revpq13d4g"/>
+      <item url="ui://zfg0revpq13d4j"/>
+      <item/>
+      <item url="ui://zfg0revprjva4n"/>
+    </list>
+    <loader id="n32_d54g" name="n32" xy="140,5" pivot="0.5,0.5" size="200,65" touchable="false" url="ui://864gshxxroydj" fill="scaleFree">
+      <relation target="n7_g33r" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n7_g33r" name="text" xy="165,11" size="150,51" restrictSize="0,423,0,0" url="ui://864gshxxd54ga1" align="center" vAlign="middle" autoSize="true">
+      <relation target="n32_d54g" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n30_u6us" name="n30" xy="134,670" size="212,107" touchable="false" url="ui://zfg0revpu6us2j">
+      <relation target="n9_g33r" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n9_g33r" name="box0" xy="120,560" size="240,240" touchable="false" url="ui://zfg0revpy4nl1m" fill="scaleMatchWidth"/>
+    <loader id="n11_g33r" name="box4" xy="120,560" size="240,240" touchable="false" url="ui://zfg0revpy4nl1q" fill="scaleMatchWidth"/>
+    <component id="n28_g33r" name="btnOk" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="165,705" size="150,50" hideByEditor="true" visible="false">
+      <Button title="#TEXT_70005" icon="ui://864gshxxj6006t"/>
+    </component>
+    <component id="n31_yyke" name="shareBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="65,705" size="150,50" hideByEditor="true" visible="false">
+      <Button title="#TEXT_70079" icon="ui://864gshxxj6006u"/>
+    </component>
+  </displayList>
+  <transition name="t0" options="1" autoPlay="true">
+    <item time="0" type="Sound" value="ui://864gshxxfs4l4h,100"/>
+    <item time="0" type="XY" target="n11_g33r" tween="true" startValue="120,560" endValue="120,500" duration="24"/>
+    <item time="0" type="XY" target="n9_g33r" tween="true" startValue="120,560" endValue="120,500" duration="24"/>
+  </transition>
+</component>

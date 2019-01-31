@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="460,800" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n11_cnow" name="n11" xy="30,0" size="400,91" url="ui://47ikzi2acnowu" autoSize="true"/>
+    <loader id="n8_7ykc" name="n8" xy="-9,60" size="478,760" url="ui://47ikzi2a7ykct" fill="scaleFree"/>
+    <list id="n2_nf1s" name="list" xy="0,150" size="460,400" layout="flow_hz" lineGap="70" colGap="20" lineItemCount="3" defaultItem="ui://47ikzi2am2761" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n9_cnow" name="n9" xy="145,110" pivot="0.5,0.5" size="170,34" fontSize="30" align="center" vAlign="middle" leading="0" text="#TEXT_70146">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n10_cnow" name="n10" xy="145,340" pivot="0.5,0.5" size="170,34" fontSize="30" align="center" vAlign="middle" leading="0" text="#TEXT_70147">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <loader id="n12_cnow" name="n12" xy="10,124" size="126,5" touchable="false" url="ui://994sajasryqpl" fill="scaleFree">
+      <relation target="n9_cnow" sidePair="rightext-left,middle-middle"/>
+    </loader>
+    <loader id="n13_cnow" name="n13" xy="323,124" size="122,5" touchable="false" url="ui://994sajasryqpm" fill="scaleFree">
+      <relation target="n9_cnow" sidePair="middle-middle,leftext-right"/>
+    </loader>
+    <loader id="n14_cnow" name="n14" xy="10,354" size="126,5" touchable="false" url="ui://994sajasryqpl" fill="scaleFree">
+      <relation target="n10_cnow" sidePair="rightext-left,middle-middle"/>
+    </loader>
+    <loader id="n15_cnow" name="n15" xy="322,354" size="122,5" touchable="false" url="ui://994sajasryqpm" fill="scaleFree">
+      <relation target="n10_cnow" sidePair="middle-middle,leftext-right"/>
+    </loader>
+    <text id="n16_k332" name="n16" xy="145,570" pivot="0.5,0.5" size="170,34" fontSize="30" align="center" vAlign="middle" leading="0" text="#TEXT_60283">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <loader id="n17_k332" name="n17" xy="10,584" size="126,5" touchable="false" url="ui://994sajasryqpl" fill="scaleFree">
+      <relation target="n16_k332" sidePair="rightext-left,middle-middle"/>
+    </loader>
+    <loader id="n18_k332" name="n18" xy="322,584" size="122,5" touchable="false" url="ui://994sajasryqpm" fill="scaleFree">
+      <relation target="n16_k332" sidePair="middle-middle,leftext-right"/>
+    </loader>
+  </displayList>
+  <transition name="t0" options="4">
+    <item time="0" type="XY" tween="true" startValue="230,-" endValue="0,-" duration="6" ease="Back.Out"/>
+  </transition>
+</component>

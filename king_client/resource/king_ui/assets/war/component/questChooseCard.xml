@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,650" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n0_qof0" name="n0" xy="0,0" size="480,650" url="ui://739g5ytiri662b" fill="scaleFree"/>
+    <component id="n5_qof0" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="415,10"/>
+    <loader id="n1_qof0" name="bottom" xy="10,70" pivot="0.5,0.5" size="460,440" touchable="false" url="ui://739g5ytiyykel" fill="scaleFree"/>
+    <list id="n4_qof0" name="headList" xy="15,70" size="450,440" layout="flow_hz" selectionMode="multipleSingleClick" overflow="scroll" scrollBarFlags="4" scrollBar="auto" margin="5,5,0,0" defaultItem="ui://2ipmzghtxjabn" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n22_xjab" name="confirmBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="150,575" size="180,60">
+      <Button title="确定" titleFontSize="32" icon="ui://864gshxxj6006u"/>
+    </component>
+    <text id="n23_xjab" name="jobText" xy="20,515" size="440,60" fontSize="20" color="#666666" align="center" vAlign="middle" leading="0" autoSize="none" text="#TEXT_60345"/>
+    <loader id="n25_n91y" name="icon" xy="250,20" size="150,35" url="ui://t63zsq4zx88nd" fill="scaleFree">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n24_xjab" name="time" xy="292,25" size="65,24" fontSize="20" color="#ffff00" align="center" vAlign="middle" leading="0" strokeColor="#333333" text="99小时">
+      <relation target="n25_n91y" sidePair="center-center"/>
+    </text>
+    <text id="n26_n91y" name="txt2" xy="180,25" size="115,24" fontSize="20" align="center" vAlign="middle" leading="0" text="#TEXT_60344"/>
+    <text id="n27_drdd" name="txt1" xy="10,25" size="115,24" fontSize="20" align="center" vAlign="middle" leading="0" text="#TEXT_60343"/>
+    <text id="n28_drdd" name="power" xy="80,23" size="53,28" fontSize="24" color="#66ff00" align="center" vAlign="middle" leading="0" strokeColor="#000000" text="政治"/>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Scale" tween="true" startValue="0.8,0.9" endValue="1,1" duration="6" ease="Quart.Out"/>
+  </transition>
+  <transition name="t1">
+    <item time="0" type="Alpha" target="n4_qof0" tween="true" startValue="0" endValue="1" duration="6" ease="Back.In"/>
+  </transition>
+  <transition name="t2"/>
+</component>

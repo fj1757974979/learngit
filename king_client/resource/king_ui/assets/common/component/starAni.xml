@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="30,30">
+  <displayList>
+    <loader id="n1_l90u" name="star" xy="0,0" pivot="0.5,0.5" size="30,30" touchable="false" url="ui://864gshxxgy104y" align="center" vAlign="middle" fill="scaleMatchWidth"/>
+  </displayList>
+  <transition name="win" options="4" autoPlayRepeat="-1">
+    <item time="0" type="Scale" target="n1_l90u" tween="true" startValue="10,10" endValue="1,1" duration="6" ease="Expo.In"/>
+    <item time="3" type="Sound" value="ui://864gshxxdzyk47,100"/>
+  </transition>
+  <transition name="lose" options="4">
+    <item time="0" type="Sound" value="ui://864gshxxdzyk48,100"/>
+    <item time="6" type="Alpha" target="n1_l90u" value="1"/>
+    <item time="6" type="ColorFilter" target="n1_l90u" tween="true" startValue="0.00,0.00,0.00,0.00" endValue="0.50,0.00,0.00,0.00" duration="24" ease="Sine.In"/>
+    <item time="6" type="Scale" target="n1_l90u" tween="true" startValue="1,1" endValue="1,1" duration="24" ease="Bounce.In"/>
+    <item time="6" type="Shake" target="n1_l90u" value="1,0.5"/>
+    <item time="18" type="Alpha" target="n1_l90u" tween="true" startValue="1" endValue="0" duration="18"/>
+  </transition>
+</component>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="464,706" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n36_o3cu" name="n3" xy="0,0" size="464,706" url="ui://2ipmzghtvv6j8t" fill="scaleFree" autoSize="true"/>
+    <component id="n37_o3cu" name="campCom" src="wwgm5v" fileName="component/campItem.xml" xy="25,40" touchable="false"/>
+    <text id="n38_o3cu" name="cityName" xy="120,50" size="77,40" fontSize="36" vAlign="middle" leading="0" strokeColor="#ffffff" text="建业"/>
+    <component id="n39_o3cu" name="nongye" src="xjab9" fileName="component/resourceProgressItem.xml" xy="35,210" size="220,50"/>
+    <component id="n40_o3cu" name="shangye" src="xjab9" fileName="component/resourceProgressItem.xml" xy="35,260" size="220,50"/>
+    <component id="n41_o3cu" name="liangcao" src="qjxh5o" fileName="component/resourceValueItem.xml" xy="270,210" size="150,50"/>
+    <component id="n42_o3cu" name="jinbi" src="qjxh5o" fileName="component/resourceValueItem.xml" xy="270,260" size="150,50"/>
+    <component id="n43_o3cu" name="chengfang" src="xjab9" fileName="component/resourceProgressItem.xml" xy="35,160" size="220,50"/>
+    <component id="n44_o3cu" name="rongyu" src="qjxh5o" fileName="component/resourceValueItem.xml" xy="270,160" size="150,50"/>
+    <loader id="n45_o3cu" name="bottom" xy="22,310" pivot="0.5,0.5" size="420,310" touchable="false" url="ui://739g5ytiyykel" fill="scaleFree"/>
+    <list id="n46_o3cu" name="playList" xy="27,315" size="410,300" overflow="scroll" defaultItem="ui://2ipmzghtxjaba">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n48_o3cu" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="390,40"/>
+    <text id="n51_o3cu" name="emptyHint" xy="109,445" size="245,34" fontSize="30" color="#999999" leading="0" text="等待主公建立势力"/>
+    <richtext id="n55_o3cu" name="skillDesc" xy="295,56" size="53,28" fontSize="24" align="center" vAlign="middle" leading="0" text="据守"/>
+    <loader id="n56_o3cu" name="lordHead" xy="240,45" size="50,50" url="ui://2ipmzghtu5xl86" fill="scaleMatchWidth"/>
+    <component id="n57_o3cu" name="allMemberBtn" src="u5xl8m" fileName="component/allMemberBtn.xml" xy="360,120" size="80,40">
+      <Button title=" "/>
+    </component>
+    <component id="n58_o3cu" name="addGoldBtn" src="gv9813" fileName="component/addBtn.xml" xy="410,270"/>
+    <component id="n59_o3cu" name="noticeBtn" src="xjab4" fileName="component/commonBtn.xml" xy="275,120" size="80,40">
+      <Button title="公告" titleFontSize="24"/>
+    </component>
+    <component id="n60_o3cu" name="kingHead" src="md4a33k" fileName="component/head.xml" pkg="739g5yti" xy="40,120" size="40,40"/>
+    <text id="n61_o3cu" name="kingName" xy="80,129" size="209,22" fontSize="18" color="#ffffff" vAlign="middle" leading="0" strokeColor="#333333" singleLine="true" text="玩家啊啊啊啊啊啊啊啊">
+      <relation target="" sidePair="rightext-right"/>
+    </text>
+    <component id="n26_xjab" name="enterBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="151,646" size="150,50">
+      <Button title="进驻" titleFontSize="30" icon="ui://864gshxxj6006u"/>
+    </component>
+    <component id="n25_xjab" name="banFightBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="151,646" size="150,50">
+      <Button title="禁止攻击" titleFontSize="30"/>
+    </component>
+  </displayList>
+</component>

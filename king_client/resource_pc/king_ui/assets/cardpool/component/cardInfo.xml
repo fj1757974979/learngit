@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="936,1016" designImage="ui://ravbpjp3dwsyu" designImageLayer="1">
+  <displayList>
+    <loader id="n1_bzh4" name="n1" xy="0,0" size="936,1016" url="ui://ravbpjp3dwsyv" fill="scaleFree"/>
+    <loader id="n3_bzh4" name="n3" xy="112,76" size="43,43" scale="1.5,1.5" url="ui://864gshxxx6w824" fill="scaleFree"/>
+    <loader id="n4_bzh4" name="campText" xy="113,77" size="43,43" scale="1.5,1.5" url="ui://ravbpjp3uoof1" fill="scaleFree"/>
+    <component id="n8_bzh4" name="closeBtn" src="bzh4m" pkg="864gshxx" xy="804,-14"/>
+    <loader id="n13_bzh4" name="n13" xy="139,379" size="673,202" scale="1,0.9" url="ui://864gshxxx88n1h"/>
+    <text id="n14_bzh4" name="skillDescText" xy="146,389" size="653,186" scale="1,0.9" font="楷体" fontSize="35" color="#ffffff" leading="6" letterSpacing="1" autoSize="none" strokeColor="#666666" strokeSize="2" text="11111111111111111111111111啊啊啊啊啊啊啊啊啊啊啊啊啊啊&#xA;得到的点点滴滴点点滴滴发反反复复反反复复反反复复反反复复"/>
+    <text id="n15_bzh4" name="n15" xy="131,575" size="155,36" font="楷体" fontSize="30" color="#ffffff" align="center" vAlign="middle" leading="5" strokeColor="#666666" strokeSize="2" text="升级消耗："/>
+    <text id="n16_bzh4" name="n16" xy="131,673" size="104,49" font="楷体" fontSize="30" color="#ffffff" align="center" vAlign="middle" leading="6" autoSize="none" strokeColor="#666666" strokeSize="2" text="经验："/>
+    <text id="n17_bzh4" name="n17" xy="131,764" size="95,37" font="楷体" fontSize="30" color="#ffffff" align="center" vAlign="middle" leading="6" strokeColor="#666666" strokeSize="2" text="体力："/>
+    <component id="n18_bzh4" name="expProgressBar" src="bzh4k" xy="138,716"/>
+    <component id="n19_bzh4" name="energyProgressBar" src="bzh4k" xy="138,805"/>
+    <component id="n20_bzh4" name="uplevelBtn" src="bzh4l" xy="712,671"/>
+    <component id="n21_bzh4" name="treatBtn" src="ohc6p" xy="718,771"/>
+    <component id="n24_bzh4" name="goldLabel" src="bzh4r" pkg="864gshxx" xy="621,607" size="159,81" scale="0.8,0.8">
+      <Label icon="ui://864gshxxroyd6"/>
+    </component>
+    <component id="n25_bzh4" name="horseLabel" src="bzh4r" pkg="864gshxx" xy="307,607" scale="0.8,0.8">
+      <Label icon="ui://864gshxxroyd0"/>
+    </component>
+    <component id="n26_bzh4" name="weapLabel" src="bzh4r" pkg="864gshxx" xy="135,607" scale="0.8,0.8">
+      <Label icon="ui://864gshxxroyd4"/>
+    </component>
+    <component id="n27_bzh4" name="matLabel" src="bzh4r" pkg="864gshxx" xy="466,607" size="159,81" scale="0.8,0.8">
+      <Label icon="ui://864gshxxroyd1"/>
+    </component>
+    <component id="n29_bzh4" name="card" src="bzh4r" pkg="rdb04el0" xy="366,65"/>
+    <loader id="n11_bzh4" name="n11" xy="619,310" size="150,42" scale="1.2,1.2" url="ui://864gshxxroydj" fill="scaleFree"/>
+    <component id="n9_bzh4" name="nextLevelBtn" src="bzh4o" pkg="864gshxx" xy="764,302" size="70,63"/>
+    <component id="n10_bzh4" name="preLevelBtn" src="bzh4p" pkg="864gshxx" xy="572,300" size="70,69"/>
+    <text id="n12_bzh4" name="levelText" xy="640,322" size="125,34" font="楷体" fontSize="30" color="#ffffff" align="center" vAlign="middle" strokeColor="#666666" strokeSize="2" text="一级卡牌">
+      <relation target="n11_bzh4" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>

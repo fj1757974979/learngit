@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="126,58" extention="Button">
+  <controller name="button" pages="2,up,3,down,6,disabled,7,otherSelected" selected="0"/>
+  <displayList>
+    <loader id="n1" name="n1" xy="0,0" size="126,58" url="ui://t63zsq4zx88ng" autoSize="true">
+      <gearDisplay controller="button" pages="2,4,5"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n2" name="n2" xy="0,0" size="127,59" url="ui://t63zsq4zx88nf">
+      <gearDisplay controller="button" pages="3,7"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n6_jed2" name="n6" xy="0,0" size="125,57" url="ui://t63zsq4zx88ne">
+      <gearDisplay controller="button" pages="6"/>
+    </loader>
+    <text id="n3" name="title" xy="1,2" size="123,53" fontSize="28" color="#ffffff" align="center" vAlign="middle" autoSize="none" bold="true" strokeColor="#000000" strokeSize="2" singleLine="true" text="据守">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <loader id="n5_jed2" name="n5" xy="-9,-10" size="145,78" url="ui://t63zsq4zx88nl">
+      <gearDisplay controller="button" pages="3"/>
+    </loader>
+  </displayList>
+  <Button mode="Check"/>
+  <transition name="t0"/>
+  <transition name="t1"/>
+</component>

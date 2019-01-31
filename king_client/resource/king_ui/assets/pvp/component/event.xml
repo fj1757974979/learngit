@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,800" pivot="0.5,0.5">
+  <displayList>
+    <component id="n7_evvl" name="bg" src="qg2m2q" fileName="component/AdjustBg.xml" pkg="864gshxx" xy="0,0"/>
+    <component id="n24_npy0" name="btnClose" src="royda" fileName="component/backBtn.xml" pkg="864gshxx" xy="5,5">
+      <relation target="n7_evvl" sidePair="left-left,top-top"/>
+    </component>
+    <list id="n25_m7jy" name="list" xy="15,100" size="450,680" overflow="scroll" lineGap="10" defaultItem="ui://dvmsogfrm7jy6v" autoItemSize="false" align="center" autoClearItems="true">
+      <relation target="n7_evvl" sidePair="middle-middle,center-center"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n27_m7jy" name="n27" xy="17,65" size="445,24" fontSize="20" leading="0" text="开启对战宝箱收集金桶兑换券，兑换新春奖励吧！">
+      <relation target="n7_evvl" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>

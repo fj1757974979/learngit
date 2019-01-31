@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="90,120">
+  <displayList>
+    <loader id="n33_rk7d" name="baseImg" xy="0,0" size="90,120" visible="false" url="ui://rdb04el0b950ha" fill="scaleFree"/>
+    <loader id="n34_rk7d" name="cardImg" xy="0,0" size="90,120" url="ui://rakljql9uoof2j" fill="scaleFree"/>
+    <loader id="n56_otmf" name="frameImg" xy="0,0" size="90,120" url="ui://rdb04el0pqokhm" fill="scaleFree"/>
+    <loader id="n57_p18y" name="nameBg" xy="3,88" size="84,30" url="ui://dvmsogfrb4dv4c" fill="scaleFree"/>
+    <text id="n54_rk7d" name="nameText" xy="5,88" size="80,30" fontSize="24" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="shrink" text="曹操">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </text>
+    <component id="n58_tlw5" name="equipBtn" src="j66l23" fileName="component/equipBtn.xml" pkg="ravbpjp3" xy="5,5" size="20,20" touchable="false">
+      <relation target="" sidePair="top-top%,left-left%"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,800">
+  <displayList>
+    <loader id="n1_jbrh" name="n1" xy="10,50" size="460,700" touchable="false" url="ui://dvmsogfrgtjh5i" fill="scaleFree">
+      <relation target="" sidePair="height-height"/>
+    </loader>
+    <loader id="n7_mhry" name="n7" xy="35,135" size="410,580" touchable="false" url="ui://dvmsogfra64j2l" fill="scaleFree"/>
+    <list id="n5_jbrh" name="chatletList" xy="40,140" size="400,570" overflow="scroll" scrollBarFlags="4" scrollBar="auto" scrollBarRes="ui://864gshxxjzjo62," defaultItem="ui://2ipmzghtnew85s" align="center" renderOrder="descent" autoClearItems="true">
+      <relation target="" sidePair=""/>
+      <relation target="" sidePair="height-height"/>
+      <item title="【长沙太守】无敌铁拳孙中山 将 穿林北腿蒋中正 任命为 校尉"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n6_mhry" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="395,70">
+      <Button title="确定" icon="ui://864gshxxj6006u"/>
+    </component>
+    <loader id="n8_n91y" name="n8" xy="140,65" size="200,65" url="ui://864gshxxroydj" autoSize="true"/>
+    <loader id="n9_n91y" name="n9" xy="165,71" size="150,51" url="ui://864gshxxuy1sds" autoSize="true"/>
+    <text id="n10_mzma" name="emptyHintText" xy="40,380" size="400,40" fontSize="30" color="#666666" align="center" vAlign="middle" leading="0" autoSize="none" text="暂无通知"/>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="XY" tween="true" startValue="0,-600" endValue="0,0" duration="12" ease="Back.Out"/>
+  </transition>
+</component>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="300,18" extention="Slider">
+  <displayList>
+    <loader id="n1_n91y" name="bar" xy="14,0" size="272,18" url="ui://864gshxxn91ydm" fill="scaleFree"/>
+    <loader id="n0_n91y" name="n0" xy="14,0" size="272,18" url="ui://864gshxxn91ydk" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n4_n91y" name="n4" xy="0,0" size="14,18" url="ui://864gshxxn91ydj">
+      <relation target="" sidePair="height-height"/>
+    </loader>
+    <loader id="n5_n91y" name="n5" xy="286,0" size="14,18" url="ui://864gshxxn91ydl">
+      <relation target="" sidePair="height-height"/>
+    </loader>
+    <text id="n2_n91y" name="title" xy="144,-13" size="10,44" fontSize="40" align="center" vAlign="middle" leading="0" text="">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n3_n91y" name="grip" src="n91ydg" fileName="component/Slider1_grip.xml" xy="264,0">
+      <relation target="n1_n91y" sidePair="right-right"/>
+    </component>
+  </displayList>
+  <Slider titleType="value"/>
+</component>

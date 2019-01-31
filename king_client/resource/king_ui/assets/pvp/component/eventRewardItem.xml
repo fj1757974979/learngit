@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="450,120">
+  <controller name="c1" pages="0,不可领取,1,可领取,2,已领取" selected="0"/>
+  <displayList>
+    <loader id="n0_b60p" name="n0" xy="0,0" size="450,120" url="ui://dvmsogfrmh9570" fill="scaleFree"/>
+    <loader id="n2_b60p" name="rewardBg1" xy="32,20" size="80,80" url="ui://dvmsogfrmh956z" fill="scaleFree"/>
+    <loader id="n9_b60p" name="rewardIcon1" xy="42,30" size="60,60" url="ui://864gshxxnf1s9a" fill="scaleFree">
+      <relation target="n2_b60p" sidePair="center-center,middle-middle"/>
+    </loader>
+    <component id="n7_b60p" name="noGet" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="330,40" size="100,40" touchable="false">
+      <gearDisplay controller="c1" pages="0"/>
+      <Button title="兑换" titleFontSize="20" icon="ui://864gshxxj6006v"/>
+    </component>
+    <component id="n12_b60p" name="btnReceive" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="330,40" size="100,40">
+      <gearDisplay controller="c1" pages="1"/>
+      <Button title="兑换" titleFontSize="20" icon="ui://864gshxxal2v9n"/>
+    </component>
+    <loader id="n13_b60p" name="gotten" xy="330,35" size="100,50" url="ui://dvmsogfrtn1u5r" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <gearDisplay controller="c1" pages="2"/>
+    </loader>
+    <text id="n15_lgrt" name="exchangeCnt" xy="330,75" size="100,30" fontSize="20" align="center" vAlign="middle" leading="0" autoSize="none" text="（1/99）"/>
+    <text id="n16_lgrt" name="countText" xy="49,76" size="45,24" fontSize="20" color="#ffffff" align="center" vAlign="middle" leading="0" strokeColor="#000000" text="1000">
+      <relation target="n2_b60p" sidePair="center-center,bottom-bottom"/>
+    </text>
+    <loader id="n14_m7jy" name="itemIcon" xy="220,20" size="60,60" url="ui://864gshxxgsm4dv" fill="scaleFree"/>
+    <text id="n6_b60p" name="processTxt" xy="223,80" size="53,28" fontSize="24" color="#ffffff" align="center" vAlign="middle" leading="0" strokeColor="#000000" text="1/99">
+      <relation target="n14_m7jy" sidePair="center-center"/>
+    </text>
+  </displayList>
+</component>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="265,212">
+  <displayList>
+    <component id="n7_n1w9" name="starMax" src="n1w93w" fileName="component/pvpRankBannerMax.xml" xy="0,0"/>
+    <component id="n0_qw7t" name="star0" src="j4zv3j" fileName="component/pvpRankBanner0.xml" xy="0,0"/>
+    <component id="n1_qw7t" name="star1" src="j4zv3k" fileName="component/pvpRankBanner1.xml" xy="0,0"/>
+    <component id="n2_qw7t" name="star2" src="j4zv3l" fileName="component/pvpRankBanner2.xml" xy="0,0"/>
+    <component id="n3_qw7t" name="star3" src="j4zv3m" fileName="component/pvpRankBanner3.xml" xy="0,0"/>
+    <component id="n4_qw7t" name="star4" src="j4zv3n" fileName="component/pvpRankBanner4.xml" xy="0,0"/>
+    <component id="n5_qw7t" name="star5" src="j4zv3o" fileName="component/pvpRankBanner5.xml" xy="0,0"/>
+  </displayList>
+</component>

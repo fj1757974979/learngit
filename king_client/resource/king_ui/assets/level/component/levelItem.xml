@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,55" extention="Button" designImage="ui://8pche6l7royd0" designImageOffsetX="-36" designImageOffsetY="-128">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n4_uomq" name="bgImg" xy="20,-2" size="440,60" url="ui://8pche6l7a64jp" fill="scaleFree">
+      <gearDisplay controller="button" pages=""/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n7_uomq" name="levelNameTxt" xy="77,7" size="291,41" font="行楷-简 粗体" fontSize="24" color="#ffffff" vAlign="middle" leading="0" autoSize="none" text="第一回   宴桃园豪杰三结义"/>
+  </displayList>
+  <Button sound="ui://864gshxxyyke6n" downEffect="scale" downEffectValue="0.99"/>
+</component>

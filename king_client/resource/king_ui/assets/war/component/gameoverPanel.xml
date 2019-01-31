@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="320,200" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n11_pdhx" name="bg1" xy="-38,-4" size="397,229" group="n16_ej80" url="ui://2ipmzghtv2ye9o" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="width-width,center-center"/>
+    </loader>
+    <text id="n15_eo7t" name="n1" xy="10,20" size="300,30" group="n16_ej80" fontSize="20" align="center" vAlign="middle" leading="0" autoSize="none" bold="true" text="【长沙】被【民】攻占">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n27_ej80" name="txt2" xy="10,50" size="300,60" group="n16_ej80" fontSize="20" color="#ff0000" align="center" vAlign="middle" leading="0" autoSize="none" bold="true" text="#TEXT_60322">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <group id="n16_ej80" name="n16" xy="-38,-4" size="397,229" advanced="true"/>
+    <component id="n25_ej80" name="surrenderBtn" src="bo40av" fileName="component/surrenderBtn.xml" xy="211,110">
+      <Button titleFontSize="24"/>
+    </component>
+    <component id="n34_d8ql" name="runAwayBtn" src="mhry7g" fileName="component/breakBtn.xml" xy="50,110">
+      <Button titleFontSize="24"/>
+    </component>
+    <text id="n37_d8ql" name="n37" xy="231,165" size="37,20" group="n44_d8ql" fontSize="16" color="#ffffff" leading="0" bold="true" strokeColor="#000000" text="-20%"/>
+    <loader id="n41_d8ql" name="n41" xy="211,165" size="20,20" group="n44_d8ql" url="ui://2ipmzghtmhry72" fill="scaleFree"/>
+    <group id="n44_d8ql" name="n44" xy="211,165" size="57,20" advanced="true">
+      <relation target="n25_ej80" sidePair="center-center"/>
+    </group>
+    <text id="n38_d8ql" name="n38" xy="65,165" size="45,20" group="n43_d8ql" fontSize="16" color="#ffffff" leading="0" bold="true" strokeColor="#000000" text="-2000"/>
+    <loader id="n39_d8ql" name="n39" xy="45,165" size="20,20" group="n43_d8ql" url="ui://864gshxxnf1s9a" fill="scaleFree"/>
+    <group id="n43_d8ql" name="n43" xy="45,165" size="66,20" advanced="true">
+      <relation target="n34_d8ql" sidePair="center-center"/>
+    </group>
+  </displayList>
+  <transition name="entry" autoPlay="true">
+    <item time="0" type="Alpha" tween="true" startValue="0" endValue="1" duration="24" ease="Quart.Out"/>
+  </transition>
+</component>

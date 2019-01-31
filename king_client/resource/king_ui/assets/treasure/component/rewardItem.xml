@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="180,50">
+  <displayList>
+    <loader id="n0_gtjh" name="rewardBg" xy="0,0" size="50,50" url="ui://739g5ytivfpoh" fill="scaleFree"/>
+    <loader id="n1_gtjh" name="rewardIcon" xy="5,5" size="40,40" url="ui://864gshxxnf1s9a" align="center" vAlign="middle" fill="scaleMatchHeight">
+      <relation target="n0_gtjh" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n2_gtjh" name="cnt" xy="50,11" size="124,28" fontSize="24" color="#ffffff" align="center" vAlign="middle" leading="0" strokeColor="#333333" text="1000~10000">
+      <relation target="" sidePair="left-left,middle-middle"/>
+    </text>
+  </displayList>
+</component>

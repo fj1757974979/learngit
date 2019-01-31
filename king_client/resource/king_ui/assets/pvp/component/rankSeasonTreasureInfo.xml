@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,300" pivot="0.5,0.5">
+  <displayList>
+    <graph id="n27_hrlg" name="closeBg" xy="-40,-250" pivot="0.5,0.5" size="480,800" type="rect" lineColor="#00000000" fillColor="#00ffffff">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <loader id="n1_l90u" name="n1" xy="8,2" size="383,300" url="ui://zfg0revpy4nl1k" fill="scaleFree"/>
+    <loader id="n22_y4nl" name="n22" xy="12,130" pivot="0.5,0.5" size="376,100" url="ui://zfg0revpy4nl1j" fill="scaleFree"/>
+    <text id="n5_l90u" name="txt2" xy="50,75" size="300,50" font="楷体" fontSize="28" color="#ffffff" align="center" vAlign="middle" leading="2" autoSize="shrink" strokeColor="#000000" text="宝箱奖励"/>
+    <text id="n7_l90u" name="txt1" xy="30,235" size="300,30" font="楷体" fontSize="20" color="#00ff00" vAlign="middle" leading="0" autoSize="none" bold="true" strokeColor="#000000" text="至少x张新卡">
+      <relation target="n20_l90u" sidePair="center-center"/>
+    </text>
+    <text id="n11_l90u" name="goldCnt" xy="245,164" size="101,28" font="楷体" fontSize="24" color="#ffffff" vAlign="middle" leading="2" bold="true" strokeColor="#000000" text="x100~100">
+      <relation target="n21_y4nl" sidePair="middle-middle,left-right"/>
+    </text>
+    <text id="n13_l90u" name="cardCnt" xy="80,162" size="88,32" font="楷体" fontSize="24" color="#ffffff" vAlign="middle" leading="2" autoSize="shrink" bold="true" strokeColor="#000000" text="x100">
+      <relation target="n20_l90u" sidePair="middle-middle,left-right"/>
+    </text>
+    <loader id="n20_l90u" name="n20" xy="30,147" pivot="0.5,0.5" size="50,60" touchable="false" url="ui://864gshxxd54gao" align="center" vAlign="middle" fill="scale"/>
+    <loader id="n21_y4nl" name="n21" xy="200,151" pivot="0.5,0.5" size="45,53" touchable="false" url="ui://864gshxxnf1s9a" align="center" vAlign="middle" fill="scale"/>
+    <loader id="n23_mno2" name="shadow" xy="94,-10" pivot="0.5,0.5" size="212,107" scale="0.7,0.7" touchable="false" url="ui://zfg0revpu6us2j"/>
+    <loader id="n24_mno2" name="box0" xy="110,-80" pivot="0.5,0.5" size="180,180" touchable="false" url="ui://zfg0revpsi0m1r" fill="scaleMatchWidth"/>
+    <loader id="n25_mno2" name="box1" xy="110,-80" pivot="0.5,0.5" size="180,180" touchable="false" url="ui://zfg0revpsi0m1s" fill="scaleMatchWidth"/>
+    <component id="n28_hrlg" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="330,10">
+      <Button sound="ui://864gshxxyyke6m"/>
+    </component>
+    <text id="n29_lyri" name="jadeCnt" xy="462,187" size="101,28" visible="false" font="楷体" fontSize="24" color="#ffffff" vAlign="middle" leading="2" bold="true" strokeColor="#000000" text="x100~100">
+      <relation target="n30_lyri" sidePair="middle-middle,left-right"/>
+    </text>
+    <loader id="n30_lyri" name="n30" xy="417,175" pivot="0.5,0.5" size="45,53" visible="false" touchable="false" url="ui://864gshxxnf1s9b" align="center" vAlign="middle" fill="scale"/>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Scale" tween="true" startValue="0.2,0.2" endValue="1,1" duration="6" ease="Back.Out"/>
+    <item time="0" type="Scale" target="n23_mno2" tween="true" startValue="0.1,0.1" endValue="0.7,0.7" duration="9" ease="Sine.In"/>
+    <item time="0" type="Scale" target="n24_mno2" tween="true" startValue="0.5,0.5" endValue="1,1" duration="9" ease="Sine.In"/>
+    <item time="0" type="Scale" target="n25_mno2" tween="true" startValue="0.5,0.5" endValue="1,1" duration="9" ease="Sine.In"/>
+    <item time="0" type="Sound" value="ui://864gshxxfuyj42,100"/>
+    <item time="0" type="XY" target="n24_mno2" tween="true" startValue="110,-80" endValue="110,-160" duration="6" ease="Quart.Out"/>
+    <item time="0" type="XY" target="n25_mno2" tween="true" startValue="110,-80" endValue="110,-160" duration="6" ease="Quart.Out"/>
+    <item time="6" type="XY" target="n24_mno2" tween="true" startValue="110,-160" endValue="110,-80" duration="9" ease="Elastic.Out"/>
+    <item time="6" type="XY" target="n25_mno2" tween="true" startValue="110,-160" endValue="110,-80" duration="9" ease="Elastic.Out"/>
+  </transition>
+</component>

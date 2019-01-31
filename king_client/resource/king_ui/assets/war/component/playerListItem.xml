@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="440,70">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n17_xjab" name="bg" xy="0,0" pivot="0.5,0.5" size="440,70" url="ui://2ipmzghtn91y8v" fill="scaleFree">
+      <gearDisplay controller="button" pages="0,2"/>
+    </loader>
+    <text id="n9_lwj0" name="nameText" xy="70,10" size="205,24" fontSize="20" color="#ffffff" vAlign="middle" leading="0" strokeColor="#333333" singleLine="true" text="玩家啊啊啊啊啊啊啊啊">
+      <relation target="" sidePair="left-left"/>
+    </text>
+    <component id="n16_xjab" name="lordHead" src="md4a33k" fileName="component/head.xml" pkg="739g5yti" xy="10,7" size="55,55"/>
+    <richtext id="n18_xjab" name="job" xy="70,35" size="45,24" fontSize="20" color="#ffffff" vAlign="middle" leading="0" strokeColor="#000000" singleLine="true" text="太守">
+      <relation target="" sidePair="left-left"/>
+    </richtext>
+    <loader id="n22_mhry" name="rankImg" xy="333,10" size="50,50" touchable="false" url="ui://864gshxxgy104q" align="center" vAlign="middle" fill="scaleMatchHeight">
+      <relation target="" sidePair="right-right"/>
+    </loader>
+    <text id="n23_mhry" name="rankTitleText" xy="330,23" size="55,24" fontSize="20" color="#ffffff" align="center" vAlign="middle" leading="0" bold="true" strokeColor="#000033" shadowColor="#000033" shadowOffset="1,1" text="专家I">
+      <relation target="n22_mhry" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n20_gv98" name="deleteBtn" src="l2zza4" fileName="component/closeBtn.xml" xy="390,15"/>
+    <loader id="n24_n91y" name="n24" xy="210,34" size="25,25" url="ui://2ipmzghtmhry72" align="center" vAlign="middle" fill="scaleFree"/>
+    <text id="n25_n91y" name="battlePoint" xy="240,35" size="75,24" fontSize="20" vAlign="middle" leading="0" text="9999999">
+      <relation target="" sidePair="left-left"/>
+    </text>
+    <text id="n21_uivn" name="banTime" xy="70,35" size="135,24" fontSize="20" color="#ff0000" vAlign="middle" leading="0" text="19:99后被驱逐">
+      <relation target="" sidePair="left-left"/>
+    </text>
+    <text id="n26_uy1s" name="fightTxt" xy="275,12" size="53,20" visible="false" fontSize="16" color="#336600" vAlign="middle" leading="0" singleLine="true" text="支援中">
+      <relation target="n9_lwj0" sidePair="left-right"/>
+    </text>
+  </displayList>
+</component>

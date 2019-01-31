@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="133,27">
+  <displayList>
+    <loader id="n3_uoof" name="bar" xy="0,0" size="133,27" url="ui://rdb04el0uoofp"/>
+    <loader id="n1_uoof" name="n1" xy="0,0" size="133,27" url="ui://rdb04el0uoofn"/>
+  </displayList>
+</component>

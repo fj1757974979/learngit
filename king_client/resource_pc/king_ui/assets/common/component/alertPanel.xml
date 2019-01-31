@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="791,377">
+  <displayList>
+    <loader id="n0_qifi" name="n0" xy="0,0" size="791,377" url="ui://864gshxxdlva1m" fill="scaleFree"/>
+    <text id="n2_qifi" name="title" xy="332,147" size="125,45" restrictSize="0,670,0,0" fontSize="40" color="#ffffff" vAlign="middle" letterSpacing="1" bold="true" strokeColor="#000000" strokeSize="2" text="还玩不">
+      <relation target="n0_qifi" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n5_qifi" name="acceptBtn" src="qifi1d" xy="241,228">
+      <Button title="确定"/>
+    </component>
+  </displayList>
+</component>

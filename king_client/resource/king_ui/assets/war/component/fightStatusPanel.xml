@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="320,150" pivot="0.5,0.5">
+  <controller name="status" pages="7,move,0,attackPlayer,1,attackCity,6,defenseCity,3,wait,5,continue" selected="5"/>
+  <displayList>
+    <loader id="n11_pdhx" name="bg1" xy="-38,0" size="397,150" url="ui://2ipmzghtv2ye9p" align="center" vAlign="middle" fill="scaleFree" autoSize="true">
+      <relation target="" sidePair="width-width,center-center"/>
+    </loader>
+    <text id="n15_eo7t" name="attackPlayerTxt1" xy="10,25" size="300,30" group="n16_ej80" fontSize="20" align="center" vAlign="middle" leading="0" autoSize="none" bold="true" text="#TEXT_60328">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n27_ej80" name="attackPlayerTxt2" xy="10,55" size="300,30" group="n16_ej80" fontSize="20" align="center" vAlign="middle" leading="0" autoSize="none" bold="true" text="目标：【长沙】">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <group id="n16_ej80" name="attackPlayer" xy="10,25" size="300,60" advanced="true" collapsed="true">
+      <gearDisplay controller="status" pages="0"/>
+    </group>
+    <text id="n26_ej80" name="attackCityTxt1" xy="10,25" size="300,30" group="n20_ej80" fontSize="20" align="center" vAlign="middle" leading="0" autoSize="none" bold="true" text="#TEXT_60329">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n42_jo08" name="attackCityTxt2" xy="10,55" size="300,30" group="n20_ej80" fontSize="20" align="center" vAlign="middle" leading="0" autoSize="none" bold="true" text="目标：【长沙】">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <group id="n20_ej80" name="attackCity" xy="10,25" size="300,60" advanced="true" collapsed="true">
+      <gearDisplay controller="status" pages="1"/>
+    </group>
+    <text id="n35_bo40" name="defenseCItyTxt1" xy="10,25" size="300,30" group="n37_bo40" fontSize="20" align="center" vAlign="middle" leading="0" autoSize="none" bold="true" text="#TEXT_60330">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n36_bo40" name="defenseCItyTxt2" xy="10,55" size="300,30" group="n37_bo40" fontSize="20" align="center" vAlign="middle" leading="0" autoSize="none" bold="true" text="目标：【长沙】">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <group id="n37_bo40" name="defenseCity" xy="10,25" size="300,60" advanced="true" collapsed="true">
+      <gearDisplay controller="status" pages="6"/>
+    </group>
+    <component id="n33_ej80" name="shangyeProgress" src="g0v3k" fileName="component/levelProgressBar.xml" pkg="8pche6l7" xy="35,55" size="250,25" group="n32_ej80">
+      <ProgressBar value="100" max="100"/>
+    </component>
+    <text id="n29_ej80" name="waitTxt1" xy="10,25" size="300,30" group="n32_ej80" fontSize="20" align="center" vAlign="middle" leading="0" autoSize="none" bold="true" text="#TEXT_60331">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <group id="n32_ej80" name="wait" xy="10,25" size="300,30" advanced="true" collapsed="true">
+      <gearDisplay controller="status" pages="3"/>
+    </group>
+    <text id="n43_jo08" name="movePlayerTxt1" xy="10,25" size="300,30" group="n45_jo08" fontSize="20" align="center" vAlign="middle" leading="0" autoSize="none" bold="true" text="#TEXT_60327">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n44_jo08" name="movePlayerTxt2" xy="10,55" size="300,30" group="n45_jo08" fontSize="20" align="center" vAlign="middle" leading="0" autoSize="none" bold="true" text="目标：【长沙】">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <group id="n45_jo08" name="movePlayer" xy="10,25" size="300,60" advanced="true" collapsed="true">
+      <gearDisplay controller="status" pages="7"/>
+    </group>
+    <text id="n38_bo40" name="attackPlayerContinueTxt1" xy="10,55" size="300,30" group="n40_bo40" fontSize="20" align="center" vAlign="middle" leading="0" autoSize="none" bold="true" text="要继续出征【长沙】吗？">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <group id="n40_bo40" name="attackPlayerContinue" xy="10,55" size="300,30" advanced="true" collapsed="true">
+      <gearDisplay controller="status" pages="5"/>
+    </group>
+    <component id="n25_ej80" name="quitBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="30,90">
+      <gearDisplay controller="status" pages="5"/>
+      <Button title="#TEXT_60377" titleFontSize="24" icon="ui://864gshxxj6006x"/>
+    </component>
+    <component id="n34_bo40" name="continueBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="170,90">
+      <gearDisplay controller="status" pages="5"/>
+      <Button title="#TEXT_70094" titleFontSize="24" icon="ui://864gshxxj6006u"/>
+    </component>
+    <component id="n41_bo40" name="cancelBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="100,90">
+      <gearDisplay controller="status" pages="7,0,1,6,3"/>
+      <Button title="#TEXT_60377" titleFontSize="24" icon="ui://864gshxxj6006x"/>
+    </component>
+    <text id="n46_bo40" name="foodInput" xy="44,20" size="20,34" fontSize="30" color="#ffffff" align="center" vAlign="middle" leading="0" strokeColor="#000000" singleLine="true" text="5">
+      <gearDisplay controller="status" pages="0,1,6,3,5"/>
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <loader id="n47_bo40" name="foodIcon" xy="12,22" size="30,30" url="ui://2ipmzghtonso6f" fill="scaleFree">
+      <gearDisplay controller="status" pages="0,1,6,3,5"/>
+      <relation target="n46_bo40" sidePair="right-left,middle-middle"/>
+    </loader>
+  </displayList>
+  <transition name="entry" autoPlay="true">
+    <item time="0" type="Alpha" tween="true" startValue="0" endValue="1" duration="24" ease="Quart.Out"/>
+  </transition>
+</component>

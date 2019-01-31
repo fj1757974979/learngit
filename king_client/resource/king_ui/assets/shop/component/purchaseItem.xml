@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="420,240" pivot="0.5,0.5" extention="Button">
+  <displayList>
+    <loader id="n0_nf1s" name="bg1" xy="0,5" size="420,210" url="ui://994sajasye0u1q" fill="scaleFree"/>
+    <loader id="n13_ye0u" name="bg2" xy="0,5" size="420,210" fill="scaleFree"/>
+    <loader id="n12_nf1s" name="buy" xy="130,190" pivot="0.5,0.5" size="160,40" url="ui://994sajasryqp15" align="center" vAlign="middle" fill="scaleMatchWidth"/>
+    <list id="n16_ye0u" name="list" xy="0,50" size="420,0" layout="row" colGap="10" autoItemSize="false" align="center" vAlign="middle" autoClearItems="true">
+      <item url="ui://994sajasye0u1v"/>
+      <item url="ui://994sajasl1gi23"/>
+      <item url="ui://994sajastcupe"/>
+    </list>
+    <text id="n14_ye0u" name="price" xy="200,193" size="55,34" fontSize="30" color="#ffffff" align="center" vAlign="middle" leading="0" bold="true" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="328">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n17_ye0u" name="treasureName" xy="15,12" size="392,24" fontSize="20" color="#ffffff" vAlign="middle" leading="0" autoSize="shrink" bold="true" strokeColor="#000000" text="新手限定优惠礼包">
+      <relation target="n0_nf1s" sidePair="left-left,top-top"/>
+    </text>
+    <loader id="n18_ty6t" name="resIcon" xy="165,192" size="35,35" url="ui://864gshxxhfmh9m" align="center" vAlign="middle" fill="scaleMatchHeight">
+      <relation target="n14_ye0u" sidePair="right-left,middle-middle"/>
+    </loader>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.95"/>
+  <transition name="t0">
+    <item time="0" type="Scale" tween="true" startValue="1,1" endValue="0.95,0.95" duration="3"/>
+    <item time="3" type="Scale" tween="true" startValue="0.95,0.95" endValue="1,1" duration="3"/>
+  </transition>
+</component>

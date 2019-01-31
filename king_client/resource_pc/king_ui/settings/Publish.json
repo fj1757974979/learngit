@@ -1,0 +1,15 @@
+{
+	"codeGeneration":{
+		"classNamePrefix":"UI_",
+		"codePath":"/Users/cyf/Documents/EgretProjects/king_client_v2/src/game/view/",
+		"codeType":"",
+		"getMemberByName":true,
+		"ignoreNoname":true,
+		"memberNamePrefix":"m_",
+		"packageName":""
+	},
+	"compressDesc":true,
+	"fileExtension":"",
+	"packageCount":2,
+	"path":"./fui"
+}

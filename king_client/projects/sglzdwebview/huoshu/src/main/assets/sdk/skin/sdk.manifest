@@ -1,0 +1,23 @@
+CACHE MANIFEST
+
+#version=20151112001
+/static/sdk_3/login.html?20151112001
+/static/sdk_3/center.html?20151112001
+/static/sdk_3/pay.html?20151112001
+/static/sdk_3/share.html?20151112001
+/static/sdk_3/js/fastclick.min.1.0.js?20151112001
+/static/sdk_3/js/zepto.min.js?20151112001
+/static/sdk_3/js/doT.min.js?20151112001
+/static/sdk_3/js/iscroll.min.1.0.js?20151112001
+/static/sdk_3/skin/login.css?20151112001
+/static/sdk_3/skin/pay.css?20151112001
+
+/static/sdk_3/js/core.min.js?20151112001
+/static/sdk_3/js/loader.min.js?20151112001
+/static/sdk_3/js/center.min.js?20151112001
+/static/sdk_3/js/pay.min.js?20151112001
+/static/sdk_3/js/login.min.js?20151112001
+/static/sdk_3/images/login_icon.png?20151112001
+/static/sdk_3/images/new-sdk-logo.png?20151112001
+NETWORK:
+*

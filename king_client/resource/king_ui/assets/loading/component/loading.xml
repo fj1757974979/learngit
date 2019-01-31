@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,800">
+  <displayList>
+    <loader id="n0_t03j" name="bg" xy="0,0" size="480,800" url="ui://10li2aq3pcunf" fill="scaleFree"/>
+    <component id="n1_t03j" name="progressBar" src="t03j2" fileName="component/loadingProgressBar.xml" xy="72,638">
+      <relation target="n0_t03j" sidePair="center-center,middle-middle%"/>
+    </component>
+    <text id="n4_liqn" name="goodTxt" xy="13,703" size="453,39" fontSize="16" color="#bcb5a4" align="center" vAlign="middle" text="抵制不良游戏，拒绝盗版游戏。注意自我保护，谨防受骗上当。&#xA;适度游戏益脑，沉迷游戏伤身。合理安排时间，享受健康生活。">
+      <relation target="n0_t03j" sidePair="center-center,bottom-bottom"/>
+    </text>
+    <text id="n5_liqn" name="n5" xy="15,47" size="61,20" fontSize="16" text="Ver 1.1">
+      <relation target="n0_t03j" sidePair="top-top"/>
+    </text>
+    <text id="n6_ge0i" name="isnbTxt" xy="9,750" size="461,40" visible="false" fontSize="16" color="#bcb5a4" align="center" vAlign="middle" text="软著登记号：2016SR103245  ISBN：978-7-7979-9027-1&#xA;苏网文：(2016)1185-034号  审批文号： 新广出审[2017]5785号&#xA;">
+      <relation target="n4_liqn" sidePair="center-center,top-bottom"/>
+    </text>
+  </displayList>
+</component>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="90,113" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="c1" pages="0,face,1,back" selected="0"/>
+  <displayList>
+    <loader id="n4_msue" name="choice" xy="4,-6" size="100,125" url="ui://rdb04el0h24d3ja" fill="scaleFree">
+      <gearDisplay controller="button" pages="1,3"/>
+    </loader>
+    <component id="n0_msue" name="card" src="uoofj" fileName="component/smallCard.xml" xy="1,0" pivot="0.5,0.5" touchable="false">
+      <gearDisplay controller="button" pages=""/>
+    </component>
+    <loader id="n5_msue" name="back" xy="1,0" pivot="0.5,0.5" size="87,113" touchable="false" url="ui://rdb04el0uoofh" fill="scaleFree" autoSize="true">
+      <gearDisplay controller="c1" pages="0,1"/>
+    </loader>
+  </displayList>
+  <Button mode="Check"/>
+  <transition name="enter">
+    <item time="0" type="XY" tween="true" startValue="200,-" endValue="0,-" duration="12" ease="Back.Out"/>
+  </transition>
+  <transition name="disappearEnemy">
+    <item time="0" type="ColorFilter" target="n5_msue" value="0.00,0.00,0.00,0.00"/>
+    <item time="0" type="ColorFilter" target="n0_msue" value="0.00,0.00,0.00,0.00"/>
+    <item time="0" type="Scale" value="1,1"/>
+    <item time="0" type="Visible" target="n5_msue" value="true"/>
+    <item time="0" type="Visible" target="n0_msue" value="false"/>
+    <item time="1" type="ColorFilter" target="n0_msue" tween="true" startValue="0.00,0.00,0.00,0.00" endValue="1.00,0.00,0.00,0.00" duration="6"/>
+    <item time="1" type="Skew" target="n5_msue" tween="true" startValue="0,0" endValue="0,-180" duration="12" ease="Back.InOut"/>
+    <item time="1" type="Skew" target="n0_msue" tween="true" startValue="0,-180" endValue="0,-360" duration="12" ease="Back.InOut"/>
+    <item time="7" type="ColorFilter" target="n5_msue" tween="true" startValue="0.00,0.00,0.00,0.00" endValue="0.50,0.00,0.00,0.00" duration="6"/>
+    <item time="7" type="ColorFilter" target="n0_msue" tween="true" startValue="1.00,0.00,0.00,0.00" endValue="0.00,0.00,0.00,0.00" duration="6"/>
+    <item time="7" type="Visible" target="n0_msue" value="true"/>
+    <item time="7" type="Visible" target="n5_msue" value="false"/>
+    <item time="13" type="ColorFilter" target="n5_msue" tween="true" startValue="0.50,0.00,0.00,0.00"/>
+    <item time="36" type="Scale" tween="true" startValue="1,1" endValue="0,0" duration="24" ease="Back.In"/>
+  </transition>
+  <transition name="add">
+    <item time="0" type="Scale" value="1,1"/>
+    <item time="0" type="Scale" tween="true" startValue="0,0" endValue="1,1" duration="24" ease="Back.Out"/>
+  </transition>
+  <transition name="disappearSelf">
+    <item time="0" type="Scale" value="1,1"/>
+    <item time="36" type="Scale" tween="true" startValue="1,1" endValue="0,0" duration="24" ease="Back.In"/>
+  </transition>
+</component>

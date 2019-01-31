@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080" designImage="ui://ryvvr3p0dwsyw" designImageAlpha="20" designImageLayer="1">
+  <controller name="castler" pages="0,noCastler,1,enemyCastler,2,ownCastler" selected="0"/>
+  <displayList>
+    <component id="n0_xx0v" name="bg" src="qg2m2q" pkg="864gshxx" xy="0,0">
+      <relation target="" sidePair=""/>
+    </component>
+    <loader id="n1_xx0v" name="n1" xy="634,203" size="663,678" group="n19_dlva" url="ui://ryvvr3p0xx0v1"/>
+    <component id="n5_xx0v" name="grid1" src="xx0v3" xy="661,220" size="203,215" group="n19_dlva"/>
+    <component id="n7_xx0v" name="grid2" src="xx0v3" xy="864,220" size="203,215" group="n19_dlva"/>
+    <component id="n8_xx0v" name="grid3" src="xx0v3" xy="1067,220" size="203,215" group="n19_dlva"/>
+    <component id="n9_xx0v" name="grid4" src="xx0v3" xy="661,435" size="203,215" group="n19_dlva"/>
+    <component id="n10_xx0v" name="grid5" src="xx0v3" xy="864,435" size="203,215" group="n19_dlva"/>
+    <component id="n11_xx0v" name="grid6" src="xx0v3" xy="1067,435" size="203,215" group="n19_dlva"/>
+    <component id="n12_xx0v" name="grid7" src="xx0v3" xy="661,650" size="203,215" group="n19_dlva"/>
+    <component id="n13_xx0v" name="grid8" src="xx0v3" xy="864,650" size="203,215" group="n19_dlva"/>
+    <component id="n14_xx0v" name="grid9" src="xx0v3" xy="1067,650" size="203,215" group="n19_dlva"/>
+    <group id="n19_dlva" name="desk" xy="634,203" size="663,678" advanced="true" collapsed="true">
+      <gearXY controller="castler" pages="0,1,2" values="634,203|634,224|634,168"/>
+    </group>
+    <component id="n18_xx0v" name="beginBtn" src="qifi1d" pkg="864gshxx" xy="813,721" pivot="0.5,0.5" scale="1.2,1.2">
+      <Button title="开始战斗"/>
+    </component>
+    <component id="n3_xx0v" name="oppHand" src="jed2u" pkg="864gshxx" xy="545,5"/>
+    <component id="n25_dlva" name="oppCastlerSkill" src="x6w822" pkg="864gshxx" xy="688,154">
+      <gearDisplay controller="castler" pages="1"/>
+    </component>
+    <component id="n30_x6w8" name="ownCastlerSkill" src="x6w822" pkg="864gshxx" xy="688,830">
+      <gearDisplay controller="castler" pages="2"/>
+    </component>
+    <component id="n2_xx0v" name="myHand" src="jed2u" pkg="864gshxx" xy="545,912"/>
+    <component id="n29_nzui" name="gmWinBtn" src="dlva1x" pkg="864gshxx" xy="248,149" pivot="0.5,0.5" anchor="true" size="92,49">
+      <Button titleFontSize="0"/>
+    </component>
+    <component id="n32_qbac" name="surrenderBtn" src="qbact" xy="437,124" size="59,56"/>
+  </displayList>
+</component>

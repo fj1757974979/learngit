@@ -1,0 +1,10 @@
+
+{
+            "rmb500": {"__id__": "rmb500", "price": 500, "jadePrice": 0, "jadeCnt": 9000, "desc": "#TEXT_10306", "icon": "shop_jadeIcon6_png", "textFlag": "" },
+			"rmb200": {"__id__": "rmb200", "price": 200, "jadePrice": 0, "jadeCnt": 3200, "desc": "#TEXT_10305", "icon": "shop_jadeIcon5_png", "textFlag": "" },
+			"rmb100": {"__id__": "rmb100", "price": 100, "jadePrice": 0, "jadeCnt": 1450, "desc": "#TEXT_10304", "icon": "shop_jadeIcon4_png", "textFlag": "" },
+			"rmb50": {"__id__": "rmb50", "price": 50, "jadePrice": 0, "jadeCnt": 650, "desc": "#TEXT_10303", "icon": "shop_jadeIcon3_png", "textFlag": "" },
+			"rmb30": {"__id__": "rmb30", "price": 30, "jadePrice": 0, "jadeCnt": 345, "desc": "#TEXT_10302", "icon": "shop_jadeIcon2_png", "textFlag": "" },
+			"rmb10": {"__id__": "rmb10", "price": 10, "jadePrice": 0, "jadeCnt": 100, "desc": "#TEXT_10301", "icon": "shop_jadeIcon1_png", "textFlag": "" }
+   }
+    

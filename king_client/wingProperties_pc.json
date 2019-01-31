@@ -1,0 +1,15 @@
+{
+    "resourcePlugin": {
+        "configs": [
+            {
+                "configPath": "resource_pc/default.res.json",
+                "relativePath": "resource_pc/"
+            }
+        ],
+        "ignoreList": [
+            ""
+        ]
+    },
+    "theme": "resource_pc/default.thm.json",
+    "nameGroupFunction": "/**\n * 指定一个资源的资源名，及该资源所属的组\n * @param info 传入数据有资源文件名，扩展名及url：{url:string, name:string, extention:string};\n * @param filejson 资源文件 ***.res.json的JSON反序列化对象\n * @return 返回数据是资源名及其所属的组{name:string, groups:Array[]} groups可设置为一个或多个组\n * 请不要改变函数名nameRule及参数列表\n */\nfunction nameRule(info, filejson) {\n    var result = {};\n    var allResName = [];\n    if (filejson.resources) {\n        for (var i = 0; i < filejson.resources.length; i++) {\n            allResName.push(filejson.resources[i].name);\n        }\n    }\n    var name_suffix = 0;\n    var url_info = info.url.split(\"/\");\n    do {\n        var name_suffix_str = name_suffix++ === 0 ? \"\" : \"\" + name_suffix;\n        result.name = \"\";\n        for (var i=2; i<url_info.length-1; i++) {\n            result.name += url_info[i] + \"_\";\n        }\n        result.name += info.name + name_suffix_str + \"_\" + info.extention;\n    } while (allResName.indexOf(result.name) !== -1);\n\n    if (url_info[2] == \"card_b\" || url_info[2] == \"card_m\" || url_info[2]== \"card_s\" || \n        url_info[2] == \"cards\") {\n        result.groups = [\"card\"];\n    } else {\n        result.groups = [\"preload\"];\n    }\n    return result;\n}\n"
+}

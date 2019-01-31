@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080" designImage="ui://ryvvr3p0x88nf" designImageLayer="1">
+  <controller name="result" pages="0,win,1,lose" selected="0"/>
+  <displayList>
+    <component id="n15_x88n" name="winBg" src="qg2mu" xy="0,0">
+      <gearDisplay controller="result" pages="0"/>
+    </component>
+    <image id="n23_dwsy" name="n23" src="x88no" xy="556,-132">
+      <gearDisplay controller="result" pages="0"/>
+    </image>
+    <component id="n19_x88n" name="loseBg" src="qg2mv" xy="0,0" size="1920,1080">
+      <gearDisplay controller="result" pages="1"/>
+    </component>
+    <loader id="n6_x88n" name="rewardResBg" xy="636,508" size="648,63" url="ui://864gshxxx88n1e">
+      <gearDisplay controller="result" pages="0"/>
+    </loader>
+    <component id="n11_x88n" name="pvpExpProgressBar" src="jed210" pkg="864gshxx" xy="612,712"/>
+    <text id="n12_x88n" name="pvpLevelTxt" xy="518,709" size="83,42" font="楷体" fontSize="38" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="2" text="Lv5: ">
+      <relation target="n11_x88n" sidePair="right-left"/>
+    </text>
+    <loader id="n17_x88n" name="n17" xy="584,31" size="752,319" url="ui://ryvvr3p0x88nd">
+      <gearDisplay controller="result" pages="0"/>
+    </loader>
+    <loader id="n21_x88n" name="n21" xy="585,47" size="750,381" url="ui://ryvvr3p0x88nl">
+      <gearDisplay controller="result" pages="1"/>
+    </loader>
+    <component id="n22_x6w8" name="rewardResBar" src="dlva1o" pkg="864gshxx" xy="688,504" size="465,68">
+      <gearDisplay controller="result" pages="0"/>
+      <relation target="" sidePair="center-center"/>
+      <Label title="1" titleFontSize="0"/>
+    </component>
+    <text id="n24_qp5h" name="rewardTitle" xy="644,412" size="205,44" fontSize="40" color="#ffffff" strokeColor="#000000" strokeSize="3" text="恭喜获得：">
+      <gearDisplay controller="result" pages="0"/>
+    </text>
+  </displayList>
+</component>

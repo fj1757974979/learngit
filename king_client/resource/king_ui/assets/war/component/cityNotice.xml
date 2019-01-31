@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,800" pivot="0.5,0.5">
+  <controller name="view" pages="0,view,1,edit" selected="0"/>
+  <displayList>
+    <component id="n8_d54g" name="bg" src="qg2m2q" fileName="component/AdjustBg.xml" pkg="864gshxx" xy="0,0" visible="false" alpha="0"/>
+    <loader id="n0_tuc5" name="n0" xy="4,126" size="471,548" url="ui://dvmsogfrgtjh5i" fill="scaleFree"/>
+    <component id="n1_tuc5" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="405,140">
+      <relation target="n0_tuc5" sidePair="right-right,top-top"/>
+    </component>
+    <component id="n17_gtjh" name="confirmBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="165,590" size="150,50">
+      <gearDisplay controller="view" pages="1"/>
+      <Button title="确定修改" icon="ui://864gshxxj6006u"/>
+    </component>
+    <loader id="n23_n91y" name="bottom" xy="30,200" size="420,380" touchable="false" url="ui://739g5ytiyykel" fill="scaleFree">
+      <gearDisplay controller="view" pages="1"/>
+    </loader>
+    <richtext id="n22_srbf" name="notice" xy="40,215" size="400,350" fontSize="26" autoSize="none" text="">
+      <gearDisplay controller="view" pages="0"/>
+    </richtext>
+    <component id="n24_n91y" name="modifyBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="165,590" size="150,50">
+      <gearDisplay controller="view" pages="0"/>
+      <Button title="修改" icon="ui://864gshxxj6006u" controller="view" page="1"/>
+    </component>
+    <text id="n25_n91y" name="noticeInput" xy="40,215" size="400,350" input="true" fontSize="26" autoSize="none" text="的">
+      <gearDisplay controller="view" pages="1"/>
+    </text>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Scale" tween="true" startValue="0.8,0.9" endValue="1,1" duration="6" ease="Quart.Out"/>
+  </transition>
+</component>

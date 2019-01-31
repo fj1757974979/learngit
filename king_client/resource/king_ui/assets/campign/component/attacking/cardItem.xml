@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="87,155">
+  <displayList>
+    <component id="n0_uoof" name="card" src="uoofj" pkg="rdb04el0" xy="0,0"/>
+    <component id="n3_uoof" name="expProgressBar" src="uoofq" pkg="rdb04el0" xy="1,115"/>
+    <component id="n4_uoof" name="energyProgressBar" src="uoofq" pkg="rdb04el0" xy="1,135"/>
+    <component id="n6_r0by" name="treatBtn" src="r0by2e" xy="-22,-59" group="n8_r0by"/>
+    <component id="n7_r0by" name="uplevelBtn" src="r0by2f" xy="46,-59" group="n8_r0by"/>
+    <group id="n8_r0by" name="BtnGroup" xy="-22,-59" size="126,58" hideByEditor="true" advanced="true" collapsed="true" layout="hz" colGap="10"/>
+  </displayList>
+</component>

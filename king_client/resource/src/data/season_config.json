@@ -1,0 +1,9 @@
+
+{
+            "1": {"__id__": 1, "team": 6, "beginTime": "2018-10-23 10:00:00", "endTime": "2018-11-12 23:59:59", "handCardType": [1], "player1Buff": [], "player2Buff": [], "battleCard": [], "again": [] },
+			"2": {"__id__": 2, "team": 6, "beginTime": "2018-11-20 10:00:00", "endTime": "2018-11-26 23:59:59", "handCardType": [2, 8, 5], "player1Buff": [], "player2Buff": [], "battleCard": [], "again": [3, 3] },
+			"3": {"__id__": 3, "team": 6, "beginTime": "2018-12-11 10:00:00", "endTime": "2018-12-17 23:59:59", "handCardType": [2, 8, 5], "player1Buff": [], "player2Buff": [], "battleCard": [], "again": [3, 3] },
+			"4": {"__id__": 4, "team": 6, "beginTime": "2019-01-08 10:00:00", "endTime": "2019-01-14 23:59:59", "handCardType": [2, 8, 5], "player1Buff": [], "player2Buff": [], "battleCard": [], "again": [3, 3] },
+			"5": {"__id__": 5, "team": 6, "beginTime": "2019-01-03 10:00:00", "endTime": "2019-02-09 23:59:59", "handCardType": [2, 8, 5], "player1Buff": [], "player2Buff": [], "battleCard": [], "again": [3, 3] }
+   }
+    

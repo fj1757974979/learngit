@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,650" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n0_qof0" name="n0" xy="0,0" size="480,650" url="ui://739g5ytiri662b" fill="scaleFree"/>
+    <component id="n5_qof0" name="confirmBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="419,10"/>
+    <list id="n4_qof0" name="headList" xy="10,65" size="460,580" layout="flow_hz" overflow="scroll" scrollBarFlags="4" scrollBar="auto" margin="10,10,0,0" scrollBarRes="ui://864gshxxjzjo62," lineGap="20" defaultItem="ui://739g5ytimsue33o" align="center" autoClearItems="true">
+      <item title="士族特权" icon="ui://994sajasye0u1u"/>
+      <item title="宝箱卡牌+1" icon="ui://47ikzi2anf1m11"/>
+      <item title="宝箱金币+5%" icon="ui://47ikzi2anf1m13"/>
+      <item title="宝箱上限+1" icon="ui://47ikzi2anf1m12"/>
+      <item title="优惠加速+1" icon="ui://47ikzi2anf1m16"/>
+      <item title="每日宝箱卡牌+10" icon="ui://47ikzi2anf1m15"/>
+      <item title="宝箱时间-5%" icon="ui://47ikzi2anf1m14"/>
+      <item title="哇你好强"/>
+      <item title="哦你好劲"/>
+      <item title="大佬受我一拜"/>
+      <item title="久仰大名"/>
+    </list>
+    <loader id="n14_mfce" name="n14" xy="150,0" pivot="0.5,0.5" size="200,65" touchable="false" url="ui://864gshxxroydj" autoSize="true"/>
+    <loader id="n15_mfce" name="n15" xy="174,6" pivot="0.5,0.5" size="150,51" touchable="false" url="ui://864gshxxmsuecb" autoSize="true"/>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Scale" tween="true" startValue="0.8,0.9" endValue="1,1" duration="6" ease="Quart.Out"/>
+  </transition>
+</component>

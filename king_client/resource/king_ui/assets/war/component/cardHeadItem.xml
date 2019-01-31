@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="90,90" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="disable" pages="0,,1," selected="0"/>
+  <controller name="select" pages="0,,1," selected="0"/>
+  <controller name="team" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <loader id="n6_ryqp" name="n6" xy="4,4" size="82,82" url="ui://739g5ytivfpoh" fill="scaleFree">
+      <relation target="" sidePair="width-width%,height-height%"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <image id="n7_ryqp" name="headIcon" src="vfpog" fileName="headicon1.png" pkg="739g5yti" xy="5,5" size="80,80">
+      <relation target="" sidePair="width-width%,height-height%"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <loader id="n8_ryqp" name="headFrame" xy="-19,-19" size="128,128" touchable="false" url="ui://739g5ytivfpoi" fill="scaleFree">
+      <relation target="" sidePair="width-width%,height-height%"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n9_ryqp" name="check1" xy="2,2" size="85,85" url="ui://739g5ytihfmh2e" fill="scaleFree">
+      <gearDisplay controller="select" pages="1"/>
+      <relation target="" sidePair="width-width%,height-height%"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n13_xjab" name="n13" xy="20,20" pivot="0.5,0.5" size="50,50" url="ui://864gshxxjed2v" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <relation target="" sidePair="width-width%,height-height%"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n17_n91y" name="nameBg" xy="6,65" size="78,20" alpha="0.8" url="ui://dvmsogfrb4dv4d" fill="scaleFree">
+      <relation target="" sidePair="width-width%,height-height%"/>
+      <relation target="" sidePair="center-center%,middle-middle%"/>
+    </loader>
+    <text id="n16_n91y" name="name" xy="15,62" size="59,22" fontSize="16" color="#ffffff" align="center" vAlign="bottom" leading="0" autoSize="shrink" text="武将名">
+      <relation target="n17_n91y" sidePair="center-center%,middle-middle%"/>
+      <relation target="n17_n91y" sidePair="width-width%,height-height%"/>
+    </text>
+    <text id="n14_xjab" name="value" xy="12,0" size="67,24" fontSize="20" color="#ffffff" align="center" vAlign="middle" leading="0" strokeColor="#000000" text="政治99">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <graph id="n15_xjab" name="n15" xy="0,0" size="90,90" touchable="false" type="rect" lineColor="#4d000000" fillColor="#80000000">
+      <gearDisplay controller="disable" pages="1"/>
+      <relation target="" sidePair="width-width%,height-height%"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <text id="n18_seoj" name="n18" xy="12,33" size="66,24" fontSize="20" color="#ff0000" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" text="">
+      <gearDisplay controller="team" pages="1,2"/>
+      <gearText controller="team" pages="0,2" values="|锦标赛中" default="队伍中"/>
+    </text>
+    <loader id="n10_ryqp" name="check2" xy="25,25" pivot="0.5,0.5" size="40,40" url="ui://rdb04el010uxgw" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <gearDisplay controller="select" pages="1"/>
+      <relation target="" sidePair="width-width%,height-height%"/>
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </loader>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

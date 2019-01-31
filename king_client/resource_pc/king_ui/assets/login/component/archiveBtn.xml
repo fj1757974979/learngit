@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="393,129" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="archive" pages="0,new,1,old" selected="0"/>
+  <displayList>
+    <loader id="n1" name="n1" xy="0,0" size="393,129" url="ui://864gshxxroydd">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n2_mbcj" name="n2" xy="138,33" size="147,62" url="ui://164za4d7eaib9">
+      <gearDisplay controller="archive" pages="0"/>
+    </loader>
+    <loader id="n3_mbcj" name="n3" xy="55,36" size="62,56" url="ui://164za4d7eaibb">
+      <gearDisplay controller="archive" pages="0"/>
+    </loader>
+    <text id="n5_mbcj" name="title" xy="122,48" size="193,33" fontSize="28" color="#ffffff" align="center" vAlign="middle" strokeColor="#000000" strokeSize="3" text="17-03-18 00:00">
+      <gearDisplay controller="archive" pages="1"/>
+      <relation target="" sidePair="middle-middle"/>
+      <relation target="n6_mbcj" sidePair="left-right"/>
+    </text>
+    <loader id="n6_mbcj" name="n6" xy="55,36" size="62,56" url="ui://164za4d7eaiba">
+      <gearDisplay controller="archive" pages="1"/>
+    </loader>
+  </displayList>
+  <Button sound="ui://864gshxxlr3f2n" downEffect="scale" downEffectValue="0.90"/>
+</component>

@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<meta name="format-detection" content="telephone=no">
+<meta name="screen-orientation" content="portrait">
+<meta name="full-screen" content="yes">
+<meta http-equiv="x-ua-compatible" content="IE=edge" />
+
+<link href="skin/pay.css?v=20150318002" type="text/css" rel="stylesheet" />
+<link id="skin" data-v="20150318001" type="text/css" rel="stylesheet" />
+<style>
+	.ios input[type="text"], .ios input[type="password"]{ width: auto; line-height: 84px;}
+</style>
+<title>
+手游平台支付
+</title>
+</head>
+<body>
+<div class="mask">
+<div class="container_load" id="loading">
+	<div class="content">
+		<div class="circle"></div>
+		<div class="circle1"></div>
+	</div>
+</div>
+<div class="alert alert-success hide" id="alert">
+	<button type="button" class="close" data-dismiss="alert">&times;</button>
+	<span></span>
+</div>
+<!-- 首页模块 -->
+<section id="home" class="hide" data-attr="dot" data-auth="1"></section>
+<!-- end -->
+<!-- 兑换元宝列表模块 -->
+<section id="exchange" class="hide" data-attr="dot" data-auth="1"></section>
+<!-- end -->
+<!-- 充值方式列表模块 -->
+<section id="channel_list" class="hide" data-attr="dot" data-auth="1"></section>
+<!-- end -->
+<!-- 充值操作模块 -->
+<section id="pay" class="hide" data-attr="dot" data-auth="1"></section>
+<!-- end -->
+<!-- 客服问题列表模块 -->
+<section id="kefu_list" class="hide" data-auth="1" data-attr="dot"></section>
+<!-- end -->
+<!-- 账号升级模块 -->
+<section id="modify_pwd" class="hide" data-auth="1" data-attr="dot"></section>
+<!-- end -->
+<!-- 客服问题详细页面模块 -->
+<section id="question_detail" class="hide" data-auth="1" data-attr="dot"></section>
+<!-- 充值记录模块 -->
+<section id="trade_record" class="hide"  data-auth="1" >
+<div class="header">
+		<span class="title">充值记录</span>
+		<a class="iconfont icon-iconfontxiangyou poslft"  href="#channel_list"></a>
+		<!-- <a class="btn pull-right" href="#proxy_record">代付记录</a> -->
+	</div>
+<div class="container">	
+	<div class="box_info_center"> 
+	<div id="wrapper" style="position:relative" class="scroll">
+		<div id="scroller">		
+			
+			<ol class="trade-list" data-role="ajax-html" 
+				data-params-url="/trade/list/user?page_size=5" data-params-template="tpl_trade_record">				
+			</ol>
+		</div>
+	</div>
+	</div>
+</div>
+</section>
+<!-- 代付记录模块 -->
+<section id="proxy_record"  class="hide" data-auth="1">
+<div class="header">
+		<span class="title">代付记录</span>
+		<a class="iconfont icon-iconfontxiangyou poslft" href="#trade_record">返回</a>
+	</div>
+<div class="container">
+	<div class="box_info_center"> 
+		<div id="proxy_wrapper" style="position:relative" class="scroll">
+			<div id="proxy_scroller">
+				<ol class="trade-list" data-role="ajax-html" data-params-url="/trade/list/proxy?page_size=5" data-params-template="tpl_proxy_record">
+					
+				</ol>
+			</div>
+		</div>
+	</div>
+</div>
+</section>
+<section id="pay_feedback" class="hide" data-replace="1">
+	<div class="header">
+		<span class="title">充值问题</span>
+		<a class="iconfont icon-iconfontxiangyou poslft" href="#pay"></a>
+		<a class="btn-link posrgt" href="#kefu_list">在线客服</a>
+	</div>
+	<div class="container">
+		<div class="box_info_center">
+			<form class="ajax mar-t-10" method="post" action="/user/question/add"> 
+			<input type="hidden" name="game_id" data-replace="value" value="{app_id}"/>
+			<input type="hidden" name="q_type" value="2"/>
+			<input type="hidden" name="secret" value="1">
+			<textarea name="content" cols="40" rows="5" placeholder="请输入问题描述,字数限制在150内."></textarea>
+			<input type="submit" class="btn submit" value="提交" style="background: #ff9600;"/>
+			</form>
+			<p class="text-muted align-left">注:提交问题后，可通过在线客服，查看问题是否得到解决</p>
+		</div>
+	</div>
+</section>
+<!-- 代付模块 -->
+<section id="pay_proxy" data-attr="dot" class="hide" data-auth="1"></section>
+<!-- end -->
+<!-- 充值结果模块 -->
+<section id="pay_result" data-attr="dot" class="hide" data-auth="1"></section>
+<!-- end -->
+<!-- 确认付款 模块 -->
+<!-- <section id="pay_confirm" data-attr="dot" class="hide" data-auth="1"></section> -->
+<!-- end -->
+<!-- 其他充值方式模块 -->
+<section id="other" data-attr="dot" class="hide" data-auth="1"></section>
+<!-- end -->
+<!-- 邀请好友模块 -->
+<section id="invite_friend" data-attr="dot" class="hide" data-auth="1"></section>
+<!-- end -->
+<!-- 验证码模块 -->
+<section id="verify" data-attr="dot" class="hide" data-auth="1"></section>
+<!-- end -->
+<section id="pay_for" data-attr="dot" class="hide" data-auth="1"></section>
+<section id="frame" data-attr="dot" class="hide" data-auth="1"></section>
+<script id="frame_template" type="text/x-jquery-tmpl" >
+	<div class="header">
+		<span class="title">{{=Core.Data.frame_title}}</span>
+		<a class="iconfont icon-iconfontxiangyou poslft" href="javascript:Core.finishPay()"></a>
+	</div>
+	<div class="container" style="">
+		<div class="container_load in_frame" id="loading_frame" onclick="$(this).hide()">
+			<div class="content">
+				<div class="circle"></div>
+				<div class="circle1"></div>
+			</div>
+		</div>
+		<a class="btn scroll-btn scroll-up"><img src="skin/img/s_up.png"></a> 
+		<a class="btn scroll-btn scroll-down"><img src="skin/img/s_down.png"></a> 
+		<div class="ios_scroll">
+		<iframe frameborder=0 src="{{=Core.Data.frame_src}}" scrolling="yes" width="100%" height="100%"></iframe>
+		</div>
+	</div>
+</script>
+<script id='home_template' type='text/x-jquery-tmpl'>
+	<div class="header">
+		<span class="title">充值中心</span>
+		<a class="iconfont icon-iconfontxiangyou poslft" href="javascript:Core.finishPay()"></a>
+		{{? Core.Data.pay_only != 1 }}
+
+			<a class="btn-link posrgt" href="#trade_record">充值记录</a>
+
+		{{?}}
+	</div>
+	<div class="container">
+	<div class="box_info_center"> 
+	<h2 class="align-left">
+	
+	</h2>
+	<p class="align-left text-muted">
+
+	</p>
+    <br>
+	<p class="align-left text-success tips9133">
+		{{? Core.Data.pay_only != 1 }}
+		{{? Core.Data.is_guest == 1}}
+		亲爱的<span class="text-info">游客</span>玩家,为确保账号资金安全,请先<a href="#modify_pwd">免费升级账号</a>再充值。
+		{{??}}
+
+		{{?}}
+		{{?}}
+	</p>
+    
+     <br>
+    <div class="amount_level align-left" >
+        <a href="javascript:Core.finishPay()" id="back-btn" class="btn larg conBtn " style="text-align: center;display:none">请返回游戏</a>
+         <br>
+	</div>
+    
+	</div>
+	</div>
+</script>
+
+<script id='modify_pwd_template' type='text/x-jquery-tmpl'>
+	<div class="header">
+		<a class="iconfont icon-iconfontxiangyou poslft" href="##home"></a>
+		<span class="title">帐号升级</span>
+	</div>
+	<div class="container">
+	<div class="box_info_center">
+	{{? Core.Data.is_guest >= 1}}
+	<form action="/sdk/change_password" method="post" class="ajax " todo="modify_pwd_callback" >
+		<input type="text" class="old_pwd required larg" name="username" value="" required="required" placeholder="请设置登录帐号名"   />	 			
+		<input class="larg" name="newpwd" required type="password" placeholder="输入新密码" />
+		<input type="submit" class="btn larg" value="确认升级" autocomplete="off" /> 
+	</form>
+	<p class="text-warning align-left">游客账号是系统临时生成，存在风险，为了您的账号安全建议升级永久账号。</p> 
+	{{??}}
+	<p class="text-success align-left">您的账号已经成功升级成手游平台永久账号。</p>
+	{{?}}
+	</div>
+	</div>
+</script>
+
+<script id="pay_for_template" type="text/x-jquery-tmpl" >
+	<div class="header">
+		<span class="title">找他人代付</span>
+		<a class="iconfont icon-iconfontxiangyou poslft" href="#channel_list"></a>
+		<a class="btn-link posrgt" href="#proxy_record">代付记录</a>
+	</div>
+<div class="container">
+<div class="box_info_center"> 
+	<form id="pay_for_form" action="/sdk/pay" method="post" class="ajax" >
+		<input type="hidden" name="callback" value="{{=Core.Data.callback}}" />
+		<input type="hidden" name="userid" value="{{=Core.Data.user_id}}" />
+		<input type="hidden" name="serverid" value="{{=Core.Data.server_id}}" />
+		<input type="hidden" name="role_name" value="{{=Core.Data.role_name}}" />
+		<input type="hidden" name="game_amount" value="{{? Core.Data.game_amount}}{{=Core.Data.game_amount}}{{?}}" />
+		<input type="hidden" name="money" value="{{=Core.Data.money}}" />
+		<p class="align-left" >
+			充值<span class="text-info">{{=Core.Data.game_amount}}</span>{{=Core.Data.game_unit}}{{=Core.Data.game_unit_name}}需要对方支付<span class="text-info">{{=Core.Data.money}}</span>元
+		</p>
+		
+		<div class="proxy_pay">
+		<p>
+			<input class="larg" type="text" data-key="pay_user" required="required" name="pay_user" placeholder="请输入代付人手游平台帐号" />
+		</p>
+		<p>
+			<input class="larg" type="text" name="pay_message" placeholder="给他留言···" />
+		</p>
+
+		<p class="align-left small"><span class="error">*</span>注：手游平台登录帐号，不是游戏角色名称</p>
+		</div>
+	</div>
+</div>
+</script>
+<script id="exchange_template" type="text/x-jquery-tmpl" >
+	<div class="header">
+		<span class="title">兑换{{=Core.Data.game_unit_name}}</span>
+		{{? Core.Data.enter_amount && Core.Data.enter_amount >0}}
+		<a class="btn pull-left op-back  op-primary" href="javascript:Core.finishPay()">返回游戏</a>
+		{{??}}
+		<a class="btn pull-left op-back  op-primary" href="#home">修改数量</a>
+		{{?}}
+		<a class="btn pull-right" href="#trade_record">兑换记录</a>
+	</div>
+	<div class="container">
+	<div class="box_info_center"> 
+	<form id="exchange_form" action="/sdk/pay" method="post" class="ajax" todo="feedback" >
+		<input type="hidden" name="callback" value="{{=Core.Data.callback}}" />
+		<input type="hidden" name="userid" value="{{=Core.Data.user_id}}" />
+		<input type="hidden" name="serverid" value="{{=Core.Data.server_id}}" />
+		<input type="hidden" name="role_name" value="{{=Core.Data.role_name}}" />
+		<input type="hidden" name="game_amount" value="{{? Core.Data.game_amount}}{{=Core.Data.game_amount}}{{?}}" />
+		<input type="hidden" name="money" value="{{=Core.Data.money}}" />
+		<p class="align-left" >
+			当前可用游爱星为<span class="text-info">{{=Core.Data.total_amount}}</span>颗,兑换<span class="text-info">{{=Core.Data.game_amount}}</span>{{=Core.Data.game_unit}}{{=Core.Data.game_unit_name}}需要支付<span class="text-info">{{=Core.Data.youai_star}}</span>个游爱星
+		</p>
+		<p class="align-left text-muted">
+			注:<span class="text-info">1</span>颗游爱星可兑换<span class="text-info">{{=Core.Data.exchange_rate}}</span>{{=Core.Data.game_unit}}{{=Core.Data.game_unit_name}}
+		</p>
+		<div class="verify align-left">
+			<input type="number" name="vdcode" id="vdcode" required="" placeholder="输入验证码">	
+			<img id="vdimgck1" src="{{=Core.server}}/validate_code/" onclick="this.src=this.src+'?'+(new Date()).getTime()" style="cursor: pointer;" alt="看不清？点击更换" />
+		</div>	
+
+		<hr/>
+		<div class="clearfix">
+	 		<a href="#channel_list&force" class="btn width100" >使用支付宝、银行卡、神州行充值</a>
+		</div>
+	</form>
+	</div>
+	</div>
+</script>
+
+<script id='channel_list_template' type='text/x-jquery-tmpl'> 
+	<div class="header">
+		<span class="title">充值中心</span>
+		{{? Core.Data.enter_amount && Core.Data.enter_amount >= 0 }}
+		<a class="iconfont icon-iconfontxiangyou poslft"  href="javascript:Core.finishPay()"></a>
+		{{??}}
+		<a class="btn-link poslft" href="#home">修改数量</a>
+		{{?}}
+		{{? Core.Data.pay_only != 1 }}
+		<a class="btn-link posrgt" href="#trade_record">充值记录</a>
+		{{?}}
+	</div>
+
+
+	<div class="container">
+	
+		<div id="channel_list_wrapper" style="position:relative" class="scroll">
+			<div id="channel_list_scroller">
+			<div class="pay-info-cont clearfix">
+				<div class="iconfont icon-yonghutouxiang pull-left"></div>
+				<div class="user-msg pull-left align-left">
+					<h2>玩家:{{=Core.Data.username}}</h2>
+					<h2>ID:{{=Core.Data.user_id}}</h2>
+					<p>充值金额：<span>{{=Core.Data.money}}元</span></p>
+				</div>
+			</div>
+
+
+
+			<div class="box_info_center"> 
+			
+				<div class="channel_list align-left" >
+					{{? Core.Data.youai_star <= Core.Data.total_amount }}
+						<!--<a href="#exchange" class="btn btn-block">游爱星兑换 <span style="float:right;color:#d2d2d2">＞</span></a>-->
+					{{?}}
+					{{~Core.Data.game_pay_channel_list :item:index }}
+						{{?item.name}}
+							
+							<a href="#" data-id="{{=item.id}}" class="btn channel btn-block clearfix">
+								<div class="image pull-left"><img src="{{=item.icon}}"/></div>
+							{{=item.name}} <i class="iconfont icon-xiangyou pull-right" style="color:#b5b5b6;font-size:24px;"></i></a>
+			
+						{{?}}
+					{{~}}
+					{{? Core.Data.pay_only != 1 }}
+						{{? Core.Data.ad_game.length >= 1}}
+						{{??}}
+						{{?}}
+					{{?}}
+					
+				</div>
+			
+			
+				<div class="warm-prompt align-left">
+					<h2>温馨提示</h2>		
+					<p>*  充值过程中遇到问题，可<a href="#">联系客服</a></p>
+					<p>*  {{=Core.Data.money}}元={{=Core.Data.game_amount}} {{=Core.Data.game_unit}}{{=Core.Data.game_unit_name}}，充值一般1-10分钟即可到账，请放心充值。</p>
+					/*<p>
+					*  充值<span class="text-info">{{=Core.Data.game_amount}}</span>{{=Core.Data.game_unit}}{{=Core.Data.game_unit_name}}需要支付<span class="text-info">{{=Core.Data.money}}</span>元人民币.
+				</p>*/
+				</div>
+		
+		
+				{{? Core.Data.pay_only != 1 }}
+				<p class="align-left text-muted tips9133">
+					{{? Core.Data.vip > 0}}
+					{{??}}
+					{{?}}
+				</p>
+				{{?}}
+			</div>
+			</div>
+		</div>
+	</div>
+
+</script>
+
+
+<script id='pay_template' type='text/x-jquery-tmpl'>
+ 	<div class="header">
+		<span class="title">{{=Core.Data.current_pay_channel.name}}充值</span>
+		<a class="iconfont icon-iconfontxiangyou poslft" href="#channel_list"></a>
+		<a class="btn-link posrgt" href="#pay_feedback">无法充值?</a>
+	</div>
+	<div class="container">
+
+	<div id="pay_panel_wrapper">
+
+		<div class="pay-info-cont clearfix">
+			<div class="iconfont icon-yonghutouxiang pull-left"></div>
+			<div class="user-msg pull-left align-left">
+				<h2>玩家:{{=Core.Data.username}}</h2>
+				<h2>ID:{{=Core.Data.user_id}}</h2>
+				<p>充值金额：<span>{{=Core.Data.money}}元</span></p>
+			</div>
+		</div>
+	<div class="box_info_center"> 
+	<form id="pay_form" action="/sdk/pay" method="post" class="ajax" todo="feedback" >
+		<input type="hidden" name="callback" value="{{=Core.Data.callback}}" />
+		<input type="hidden" name="userid" value="{{=Core.Data.user_id}}" />
+		<input type="hidden" name="serverid" value="{{=Core.Data.server_id}}" />
+		<input type="hidden" name="role_name" value="{{=Core.Data.role_name}}" />
+		{{? Core.Data.current_pay_channel }}
+			<input type="hidden" name="pay_channel_id" value="{{=Core.Data.current_pay_channel.id}}" />
+		
+		<input type="hidden" name="game_amount" value="{{? Core.Data.game_amount}}{{=Core.Data.game_amount}}{{?}}" />
+		<input type="hidden" name="money" value="{{=Core.Data.money}}" />
+		<div class="require_input "> 
+		{{? Core.Data.current_pay_channel.config['input_item'] }}
+			<p class="align-left">
+				<label>您选择了<span>{{=Core.Data.current_pay_channel.name}}</span>充值方式</label>
+			</p>
+			<p class="clearfix" style="margin:15px 0 20px">
+				<label class="pull-left">充值卡面额：</label>
+				<select class="card_amount larg pull-left" name="amount" >
+					<option value='选择金额' >选择金额</option>
+					{{~ Core.Data.current_pay_channel.config['amount_level'] :amount}}
+						{{? amount >= Core.Data.money }}
+						<option value="{{=amount}}" >{{=amount}}</option>
+						{{?}}
+					{{~}}
+				</select>
+			</p>
+			{{~ Core.Data.current_pay_channel.config['input_item'] :item:index }}
+				{{? item.name === 'card_num' }}
+					<p class="clearfix">
+						<label class="pull-left">充值卡号：</label>
+						<input type="text" required="" class="larg pull-left" name="{{=item.name}}" format="{{=item.format}}" title="{{=item.title}}" placeholder="{{=item.placeholder}}"  />
+					</p>									
+				{{?? item.name === 'card_pwd' }}
+					<p class="clearfix">
+						<label class="pull-left">充值密码：</label>
+						<input type="password" required class="larg pull-left" name="{{=item.name}}"  title="{{=item.title}}"  placeholder="{{=item.placeholder}}" />
+					</p>					
+				{{?}}
+			{{~}} 
+			
+			<div class="clearfix">
+				<a href="#channel_list" class="btn-cancel pull-left w235 btn">取消</a>
+				<input class="larg btn btn-determine pull-right" style="width:235px; margin:0;" type="submit" value="确定" />
+			</div>
+			
+			<div class="warm-prompt">
+				<h2>温馨提示</h2>
+				<p>*  请根据充值卡面额选择正确的充值金额，并确保卡号密码输入无误。</p>
+				<p>*  充值过程中遇到问题，<a href="#">可联系客服</a></p>
+				/*<p class="align-left text-muted select-info"></p>*/
+			</div>			
+		{{?? }}
+			<div class="align-left">
+				充值<span class="text-info">{{=Core.Data.game_amount}}</span>{{=Core.Data.game_unit}}{{=Core.Data.game_unit_name}}需要支付<span class="text-info">{{=Core.Data.money}}</span>元
+			</div>
+			<div class="align-left text-muted">注:<span class="text-info">1</span>元人民币可以兑换<span class="text-info">{{=Core.Data.rate*Core.Data.exchange_rate}}</span>{{=Core.Data.game_unit}}{{=Core.Data.game_unit_name}}.</div>
+			<input class="larg btn zhifubaoBtn" type="submit" value="前往付款" />	
+		{{?}}
+		</div>
+		{{?}}
+		</form>
+		</div>
+
+	</div>
+</div>
+</script>
+
+<script id="pay_proxy_template" type="text/x-jquery-tmpl">
+	 <div class="header">
+		<span class="title">确认代付</span>
+		<a class="iconfont icon-iconfontxiangyou poslft" href="#proxy_record"></a>
+	</div>
+	<div class="container">
+	{{? !Core.Data.temp.msg }}
+		<h4 class="align-left" >
+			来自<span class="text-info" >
+				【{{=Core.Data.temp.game_name}}】</span> - 【{{=Core.Data.temp.server_name}}】的
+				 <span class="text-warning">【{{=Core.Data.temp.role_name}}】</span>
+			向你发起一笔代付，请你帮忙付款
+			<span class="text-warning" >
+				{{=Core.Data.temp.game_amount}}
+				{{=Core.Data.temp.game_amount_unit}}
+				{{=Core.Data.temp.game_amount_unit_name}}
+			</span>
+		</h4>
+		<form action="/pay/proxy/pay" method="post" class="ajax" data-todo="pay_proxy_callback" >
+			<div class="pay-proxy-info clearfix">
+				<div class="btn-group clearfix" >
+					<input type="hidden" name="id" value="{{=Core.Data.temp.trade_id}}" />
+					<button class="btn btn-payfor" type="submit">确认为他付款</button><br/>
+					or<br/>
+					<a class="ajax btn-undo" href="/pay/proxy/undo?id={{=Core.Data.temp.trade_id}}">拒绝付款</a>
+				</div>
+				<div class="desc">
+					<p>
+						 可用游爱星：<span class="text-warning">{{=Core.Data.temp.amount}}颗</span>
+					</p>
+					<p>
+						应付游爱星：<span class="text-warning">{{=Core.Data.temp.youai_star}}颗</span>
+						<small>(1:{{=Core.Data.temp.exchange_rate}})</small>
+					</p>
+					{{?Core.Data.temp.pay_message != ''}}
+					<p class="pay-message">
+						<small>他说：{{=Core.Data.temp.pay_message}}</small>
+					</p>
+					{{?}}
+				</div>
+			</div>
+		</form>
+		<div class="alert align-left">
+			<small>为避免风险，建议和代付申请人通过电话等方式确认以上信息</small>
+		</div>
+	{{??}}
+		<h1>{{=Core.Data.temp.msg}}</h1>
+		<a class="btn larg" href="#back" >
+			返回
+		</a> 
+	{{?}}
+	</div>
+</script>
+
+<script id='pay_result_template' type='text/x-jquery-tmpl'>
+	 <div class="header">
+		<span class="title">支付结果</span>
+
+	</div>
+	<div class="container">
+	<p class="lead" style=" font-size:30px; text-align:center; margin:30px 0;">
+		{{=Core.Data.success_msg}}
+	</p>
+	
+	<a href="javascript:Core.finishPay()" class="btn larg conBtn">继续游戏</a>
+	</div>
+</script>
+<script id="invite_friend_template" type="text/x-jquery-tmpl">
+	<div class="header">
+		<span class="title">分享得{{=Core.Data.game_unit_name}}</span>
+		<a class="iconfont icon-iconfontxiangyou poslft" href="#channel_list"></a>
+	</div>
+	<div class="container align-left"> 
+		<div class="box_info_center"> 
+
+		<div class="fs_box invite_box">
+			<h3 class="text-info">奖励说明:</h3>
+
+		</div>
+	</div>
+	</div>
+</script>
+<script id='other_template' type='text/x-jquery-tmpl'>
+	<div class="header">
+		<span class="title">免费获得{{=Core.Data.game_unit_name}}</span>
+		<a class="btn pull-left op-back  op-primary" href="#channel_list">返回</a>
+	</div>
+	<div class="container align-left">
+		{{? Core.Data.ad_game.length >= 1}}
+		<div class="sec sec_invtite">
+			<p class="title-fs">方式一：下载指定游戏可获得{{=Core.Data.game_unit_name}}</p>
+			<ol class="other-pay">
+				{{~ Core.Data.ad_game :item:index}}
+				{{? item.id}}
+					<li>
+						<a href="/ad/get/star/?id={{=item.id}}" target="_bank">
+							<img src="{{=item.icon}}"/>
+							<h4>{{=item.name}}</h4>
+							<span>可获<strong class="text-info">{{=item.ad_prize}}颗</strong>游戏币</span>
+						</a>
+					</li>
+				{{?}}
+				{{~}}
+			</ol>
+		</div>
+		<div class="sec sec_invtite">
+
+		</div>
+		{{??}}
+		<div class="sec sec_invtite">
+
+		</div>
+		{{?}}
+	</div>
+</script>
+<script id="kefu_list_template" type="text/x-jquery-tmpl">
+	<div class="header">
+		<span class="title">在线客服</span> 
+		{{? Core.start_page == 'kefu_list'}}
+		<a class="btn-link poslft" href="sdk://exit?action=center">返回游戏</a>
+		{{??}}
+		<a class="iconfont icon-iconfontxiangyou poslft" href="#pay_feedback"></a> 
+		{{?}}
+	</div>
+	<div class="container">
+	<div class="box_info_center padding_box"> 
+		<div id="kefu_wrapper" style="position: relative" class="scroll">
+				<ol class="kefu-list list" data-role="ajax-html"
+					data-params-url="/user/question/list?page_size=10"
+					data-params-template="tpl_kefu_list">
+
+				</ol>
+		</div>
+	</div>
+	</div>
+</script>
+<script id="question_detail_template" type="text/x-jquery-tmpl">
+	<div class="header">
+		<span class="title">问题详细</span>
+		<a class="btn pull-left op-back" href="#kefu_list">返回</a>
+	</div>
+	<div class="container"> 
+		<div class="detail_scroller scroll" id="question_detail_scroller">
+		<div>
+		<div class="align-left question_del">
+			<h2>Q:【{{=Core.Data.question_detail.q_type}}】{{=Core.Data.question_detail.question}} <span class="q_time">{{=Core.Data.question_detail.create_time}}</span> </h2>
+		</div>
+		<hr>
+		<ol class="question-list list">
+			{{? Core.Data.question_detail.the_question_list.length == 1 }}
+			<p class="tip">客服MM还没回复...</p>
+			{{??}}
+			{{~ Core.Data.question_detail.the_question_list :item:index }}
+			{{? item.id}}
+			<li >
+				<span class="pull-right">{{=item.reply_time}}</span>
+				<span class="kefu text-warning">
+				客服-{{=item.nickname}}说:
+				</span>
+				<div class="content">{{=item.answer}}
+				</div>
+				<p class="scroe">
+				{{? item.score != -1 }}
+					您的评价:&nbsp;&nbsp;<span class="btn">{{=item.score_name}}</span>
+				{{??}}
+				{{~ Core.Data.question_detail.score_map :qa:pos}}
+					{{? qa.key}}
+					<a href="/user/question/evaluate/?id={{=item.id}}&score={{=qa.key}}" class="btn  ajax" data-todo="question_evaluate">{{=qa.val}}</a>
+					{{?}}
+				{{~}}
+				{{?}}
+				</p>
+			</li>
+			{{?}}
+			{{~ }}
+			{{? Core.Data.question_detail.page_num < Core.Data.question_detail.total_page}}
+			<li class="more">
+				<a class="btn" href="/user/question/{{=Core.Data.question_detail.id}}&format=json&page_size=5&page_num={{=(Core.Data.question_detail.page_num+1)}}.html" data-role="ajax-html" data-params-template="tpl_question_detail"   data-params-append="true"  >点击加载</a>
+			</li>
+			{{?}}
+			{{?}}
+		</ol>
+		</div> 	
+		</div>
+	</div>
+	</script>
+
+<script id='tpl_kefu_list_template' type='text/x-jquery-tmpl'>
+{{? it.model_list.length == 1 }}
+	<p>您好，手游平台客服MM全身心为您服务。请点击右上角的按钮输入您所遇到的问题，或者点击常见问题查看是否有您遇到的问题。</p>
+{{??}}
+	{{~ it.model_list :item:index }}
+	{{? item.id}}
+		<li >
+				<a class="item" href="" type="button" data-id="{{=item.id}}">
+				<span class="question_title">{{=item.question}}</span>
+				{{? item.status == 1 }}
+				<span class="statu statu_yes">已解答</span>
+				{{??}}
+				<span class="statu statu_no">未解答</span>
+				{{?}}
+				<span class="pull-right q_time">{{=item.create_time}}</span>
+				</a>
+		</li>
+	{{?}}
+	{{~ }}
+	{{? it.page_num < it.total_page}}
+	<li class="more">
+		<a class="btn" href="/user/question/list?format=json&page_num={{=(it.page_num+1)}}" data-role="ajax-html" data-params-template="tpl_kefu_list"   data-params-append="true"  >点击加载</a>
+	</li>
+	{{?}}
+{{?}}
+</script>
+<script id='tpl_question_detail_template' type='text/x-jquery-tmpl'>
+{{~ it.model_list :item:index }}
+			{{? item.id}}
+			<li >
+				<span class="pull-right">{{=item.reply_time}}</span>
+				<span class="kefu text-warning">
+				客服-{{=item.nickname}}说:
+				</span>
+				<div class="content ">{{=item.answer}}
+				</div>
+				<p class="score">
+				{{? item.score != -1 }}
+					您的评价:&nbsp;&nbsp;<span class="btn">{{=item.score_name}}</span>
+				{{??}}
+				{{~ it.score_map :qa:pos}}
+					{{? qa.key}}
+					<a href="/user/question/evaluate/?id={{=item.id}}&score={{=qa.key}}" class="btn  ajax" data-todo="question_evaluate">{{=qa.val}}</a>
+					{{?}}
+				{{~}}
+				{{?}}
+				</p>
+			</li>
+			{{?}}
+			{{~ }}
+			{{? it.page_num < it.total_page}}
+			<li class="more">
+				<a class="btn" href="/user/question/{{=it.id}}&format=json&page_size=5&page_num={{=(it.page_num+1)}}.html" data-role="ajax-html" data-params-template="tpl_question_detail"   data-params-append="true"  >点击加载</a>
+			</li>
+			{{?}}
+</script>
+<script id='tpl_trade_record_template' type='text/x-jquery-tmpl'>
+{{? it.model_list.length == 1 }}
+	<p style="text-align:center; font-size:30px; margin:20px auto;">没记录...</p>
+{{??}}
+{{? it.page_num == 1}}
+	<div class="pay-info-cont clearfix">
+		<div class="iconfont icon-yonghutouxiang pull-left"></div>
+		<div class="user-msg pull-left align-left">
+			<h2>玩家:{{=Core.Data.username}}</h2>
+		</div>
+	</div>
+{{?}}
+	{{~ it.model_list :item:index }}
+	{{? item.id}}
+		<li class="integral">
+			<div class="box">
+                <h2>
+                    <i class="icon iconfont icon-shuangyuanquan"></i>
+                    <div class="time"><h3>{{=item.last_firendlyTime}}</h3></div>
+                </h2>
+                <div class="textbox">
+                    <div class="text">
+                        <h3>
+                        	<strong>{{=item.server_name}}</strong><small>&lt;{{=item.role_name}}&gt;</small>
+	                        <span class="statu {{? item.get_status.indexOf('成功') > -1 }} text-success {{?? item.get_status.indexOf('拒绝')>-1 || item.get_status.indexOf('失败')>-1}} text-error{{??}} text-info{{?}}">
+							[{{? item.remark}}
+							<span class="text-error">{{=item.remark}}</span>
+							{{?}}
+							{{=item.get_status}}]
+							</span>
+                    	</h3>
+                        <div class="txt">
+                        	<h3>获得{{=Core.Data.game_unit_name}}<strong>{{=item.game_amount}}</strong>{{=Core.Data.game_unit}}。</h3>
+                        	<p>订单：{{=item.id}}</>
+                        </div>
+                        <div class="position"><i class="iconfont icon-triangle-left-copy"></i></div>
+                    </div>
+                </div>
+            </div>
+		
+			
+		</li>
+	{{?}}
+	{{~ }}
+	{{? it.page_num < it.total_page}}
+	<li class="more">
+		<a class="btn" href="/trade/list/user?page_size=5&page_num={{=(it.page_num+1)}}&game_id={{=it.search_profile.game_id}}&server_id={{=it.search_profile.server_id}}" data-role="ajax-html" data-params-template="tpl_trade_record"  data-params-append="true"  data-params-todo="refresh_iscorll" >下一页</a>
+	</li>
+	{{?}}
+{{?}}
+</script>
+
+<script id='tpl_proxy_record_template' type='text/x-jquery-tmpl'>
+{{? it.model_list.length == 1 }}
+	<p style="text-align:center; font-size:30px; margin:20px auto;">没记录...</p>
+{{??}}
+	{{~ it.model_list :item:index }}
+	{{? item.id}}
+		<li>
+			<p class="detail">
+				<span class="statu {{? item.get_status.indexOf('成功') > -1 }} text-success {{?? item.get_status.indexOf('拒绝')>-1 || item.get_status.indexOf('失败')>-1}} text-error{{??}} text-info{{?}}">
+				[{{? item.status == 1 }}
+					<a class="btn op-payfor" href="#pay_proxy&id={{=item.id}}" data-id="{{=item.id}}">支付</a>
+				{{??}}
+					{{=item.get_status}}]
+				{{?}}
+				</span>
+				<strong>{{=item.game_name}}</strong><small>{{=item.server_name}}&lt;{{=item.role_name}}&gt;</small>
+			</p>
+			<p class="muted">消费游爱星<strong>{{=item.youai_star}}</strong>颗，获得{{=Core.Data.game_unit_name}}<strong>{{=item.game_amount}}</strong>{{=Core.Data.game_unit}}。</p>
+			<p class="info"><small class="pull-right muted time_p">{{=item.last_firendlyTime}}</small>
+			
+			<span class="order-text">订单：{{=item.id}}</span>
+			</p>
+		</li>
+	{{?}}
+	{{~ }}
+	{{? it.page_num < it.total_page}}
+	<li class="more">
+		<a class="btn" href="/trade/list/proxy?page_num={{=(it.page_num+1)}}" data-role="ajax-html" data-params-template="tpl_proxy_record"   data-params-append="true"  >下一页</a>
+	</li>
+	{{?}}
+{{?}}
+</script>
+</div>
+
+<script type="text/javascript" src="js/fastclick.min.1.0.js?201309041309"></script>
+<script type="text/javascript" src="js/zepto.min.js?201309041309"></script>
+<script type="text/javascript" src="js/doT.min.js?201309041309" ></script>
+<script type="text/javascript" src="js/iscroll.min.1.0.js?201309041309" ></script>
+<script type="text/javascript">
+window.isGetData = 0;
+$(function() {
+FastClick.attach(document.body);
+});
+</script>
+<script type="text/javascript" src="js/core.min.js?201504218002" ></script>
+<script type="text/javascript" src="js/pay.min.js?201504218001" ></script>
+<script type="text/javascript" src="js/loader.min.js?201504218001"></script>
+
+<script type="text/javascript">
+(function(){
+	getData('/sdk/pay/json');
+})();
+$(function(){
+	if (Core.isIos) {
+		$('meta[name="viewport"]').attr('content','width=800,maximum-scale=1,user-scalable=no');
+	}
+});
+</script>
+
+</body>
+</html>

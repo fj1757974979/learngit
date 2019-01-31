@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="64,77" extention="Button">
+  <displayList>
+    <loader id="n18_royd" name="n18" xy="2,0" size="60,60" url="ui://864gshxxroydf"/>
+    <loader id="n22_dlva" name="icon" xy="2,0" size="60,60" align="center" vAlign="middle"/>
+    <loader id="n20_royd" name="n20" xy="2,57" size="62,19" url="ui://864gshxxroydg"/>
+    <text id="n21_royd" name="title" xy="0,55" size="58,22" font="行楷-简 细体" fontSize="13" color="#339966" align="center" vAlign="middle" letterSpacing="2" autoSize="none" text="99999"/>
+  </displayList>
+  <Button/>
+</component>

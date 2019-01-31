@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,800" pivot="0.5,0.5">
+  <displayList>
+    <component id="n8_d54g" name="bg" src="qg2m2q" fileName="component/AdjustBg.xml" pkg="864gshxx" xy="0,0" visible="false" alpha="0"/>
+    <loader id="n0_tuc5" name="n0" xy="20,50" size="440,700" url="ui://ravbpjp3kyov1h" fill="scaleFree"/>
+    <loader id="n11_eo7t" name="n11" xy="35,130" size="410,600" touchable="false" url="ui://739g5ytiyykel" fill="scaleFree">
+      <relation target="n0_tuc5" sidePair="bottom-bottom"/>
+    </loader>
+    <component id="n1_tuc5" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="395,60">
+      <relation target="n0_tuc5" sidePair="right-right,top-top"/>
+    </component>
+    <list id="n3_tuc5" name="questList" xy="40,135" size="400,590" overflow="scroll" lineGap="5" defaultItem="ui://2ipmzghtt2089h" align="center" autoClearItems="true">
+      <relation target="n0_tuc5" sidePair="center-center,bottom-bottom"/>
+      <item url="ui://2ipmzghtusvo9i"/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <loader id="n16_u5xl" name="n16" xy="140,60" size="200,65" url="ui://864gshxxroydj" autoSize="true"/>
+    <loader id="n17_u5xl" name="n17" xy="165,66" size="150,51" url="ui://864gshxxbo40dp" autoSize="true"/>
+    <text id="n18_bo40" name="emptyHint" xy="40,413" size="400,34" fontSize="30" color="#666666" align="center" leading="0" autoSize="none" text="太守还未发布军令"/>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Scale" tween="true" startValue="0.8,0.9" endValue="1,1" duration="6" ease="Quart.Out"/>
+  </transition>
+</component>

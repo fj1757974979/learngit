@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,0" extention="ScrollBar">
+  <displayList>
+    <loader id="n4_jzjo" name="bar" xy="0,0" size="400,1" url="ui://864gshxxgvaqbl" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="width-width,left-left"/>
+    </loader>
+    <component id="n3" name="grip" src="gvaqbm" fileName="component/ScrollBar_grip2.xml" xy="169,-5"/>
+  </displayList>
+  <ScrollBar fixedGripSize="true"/>
+</component>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,800" designImage="ui://du367xmdjed20">
+  <controller name="weapon" pages="0,knife,1,gun,2,finger,3,arrow,4,hammer,5,lighting,6,stone,7,wave,8,flower" selected="0"/>
+  <displayList>
+    <component id="n47_jed2" name="bg" src="qg2m2q" pkg="864gshxx" xy="0,0" size="480,800"/>
+    <loader id="n88_jed2" name="n88" xy="12,66" size="456,524" url="ui://t63zsq4zx88na"/>
+    <component id="n0_jed2" name="backBtn" src="royda" pkg="864gshxx" xy="7,5"/>
+    <text id="n16_jed2" name="n16" xy="19,445" size="159,26" font="楷体" fontSize="22" color="#ffffff" leading="2" strokeColor="#000000" strokeSize="2" text="选择攻击动画："/>
+    <component id="n27_jed2" name="n27" src="x88nm" xy="25,479" group="n36_jed2">
+      <Button checked="true" icon="ui://t63zsq4zx88n2" controller="weapon" page="0"/>
+    </component>
+    <component id="n28_jed2" name="n28" src="x88nm" xy="74,479" group="n36_jed2">
+      <Button icon="ui://t63zsq4zx88n0" controller="weapon" page="1"/>
+    </component>
+    <component id="n29_jed2" name="n29" src="x88nm" xy="123,479" group="n36_jed2">
+      <Button icon="ui://t63zsq4zx88n7" controller="weapon" page="2"/>
+    </component>
+    <component id="n30_jed2" name="n30" src="x88nm" xy="172,479" group="n36_jed2">
+      <Button icon="ui://t63zsq4zx88n5" controller="weapon" page="3"/>
+    </component>
+    <component id="n31_jed2" name="n31" src="x88nm" xy="221,479" group="n36_jed2">
+      <Button icon="ui://t63zsq4zx88n4" controller="weapon" page="4"/>
+    </component>
+    <component id="n32_jed2" name="n32" src="x88nm" xy="270,479" group="n36_jed2">
+      <Button icon="ui://t63zsq4zx88n8" controller="weapon" page="5"/>
+    </component>
+    <component id="n33_jed2" name="n33" src="x88nm" xy="319,479" group="n36_jed2">
+      <Button icon="ui://t63zsq4zx88n9" controller="weapon" page="6"/>
+    </component>
+    <component id="n34_jed2" name="n34" src="x88nm" xy="368,479" group="n36_jed2">
+      <Button icon="ui://t63zsq4zx88n6" controller="weapon" page="7"/>
+    </component>
+    <component id="n35_jed2" name="n35" src="x88nm" xy="417,479" group="n36_jed2">
+      <Button icon="ui://t63zsq4zx88n3" controller="weapon" page="8"/>
+    </component>
+    <group id="n36_jed2" name="n36" xy="25,479" size="433,42" advanced="true" collapsed="true"/>
+    <text id="n37_jed2" name="n37" xy="18,545" size="159,26" font="楷体" fontSize="22" color="#ffffff" leading="2" strokeColor="#000000" strokeSize="2" text="制作卡牌所需："/>
+    <text id="n38_jed2" name="wineAmountTxt" xy="234,540" size="44,27" font="微软雅黑" fontSize="23" color="#00cc00" align="center" vAlign="middle" leading="2" italic="true" strokeColor="#000000" text="×24">
+      <relation target="n68_jed2" sidePair="left-right"/>
+    </text>
+    <text id="n39_jed2" name="bookAmountTxt" xy="374,540" size="44,27" font="微软雅黑" fontSize="23" color="#00cc00" align="center" vAlign="middle" leading="2" italic="true" strokeColor="#000000" text="×24">
+      <relation target="n67_jed2" sidePair="left-right"/>
+    </text>
+    <component id="n40_jed2" name="confirmBtn" src="jed213" pkg="864gshxx" xy="243,612">
+      <Button title="确定制作"/>
+    </component>
+    <loader id="n41_jed2" name="n41" xy="0,705" size="480,95" url="ui://864gshxxroyde">
+      <relation target="n47_jed2" sidePair="bottom-bottom"/>
+    </loader>
+    <loader id="n90_dlva" name="n90" xy="145,153" size="375,486" scale="0.5,0.5" url="ui://rdb04el0uoof2"/>
+    <loader id="n87_jed2" name="cardImg" xy="145,153" size="375,486" scale="0.5,0.5" url="ui://rdb04el0uoof2"/>
+    <loader id="n11_jed2" name="n11" xy="146,153" size="375,486" scale="0.5,0.5" url="ui://rdb04el0uoof0"/>
+    <component id="n89_x88n" name="uploadImgBtn" src="qbacv" xy="163,172" size="154,115"/>
+    <component id="n64_jed2" name="nameInput" src="x88np" xy="172,288"/>
+    <component id="n65_jed2" name="addSkillBtn1" src="x88no" xy="172,332"/>
+    <component id="n66_jed2" name="addSkillBtn2" src="x88no" xy="244,331"/>
+    <loader id="n69_jed2" name="n69" xy="91,242" pivot="0.5,0.5" size="56,56" rotation="-90" url="ui://rdb04el0uoof8" fill="scaleFree"/>
+    <text id="n13_jed2" name="n13" xy="172,227" size="137,26" font="楷体" fontSize="22" color="#666633" leading="2" text="点击更换形象"/>
+    <loader id="n70_jed2" name="n70" xy="335,237" pivot="0.5,0.5" size="53,56" rotation="90" url="ui://rdb04el0uoof8" fill="scaleFree"/>
+    <loader id="n71_jed2" name="n71" xy="217,397" pivot="0.5,0.5" size="53,56" rotation="180" url="ui://rdb04el0uoof8" fill="scaleFree"/>
+    <loader id="n72_jed2" name="n72" xy="209,102" pivot="0.5,0.5" size="53,56" url="ui://rdb04el0uoof8" fill="scaleFree"/>
+    <text id="n73_jed2" name="leftNumText" xy="111,257" size="26,26" font="微软雅黑" fontSize="22" color="#ffffff" leading="0" autoSize="none" text="3"/>
+    <text id="n74_jed2" name="upNumText" xy="230,119" size="26,26" font="微软雅黑" fontSize="22" color="#ffffff" leading="0" autoSize="none" text="3"/>
+    <text id="n75_jed2" name="downNumText" xy="236,414" size="26,26" font="微软雅黑" fontSize="22" color="#ffffff" leading="0" autoSize="none" text="3"/>
+    <text id="n76_jed2" name="rightNumText" xy="354,255" size="26,26" font="微软雅黑" fontSize="22" color="#ffffff" leading="0" autoSize="none" text="3"/>
+    <text id="n77_jed2" name="leftNumOffset" xy="118,238" size="27,29" font="微软雅黑" fontSize="25" color="#33ff66" leading="0" letterSpacing="-3" strokeColor="#000000" text="＋"/>
+    <text id="n78_jed2" name="upNumOffset" xy="240,103" size="27,29" font="微软雅黑" fontSize="25" color="#33ff66" leading="0" letterSpacing="-3" strokeColor="#000000" text="＋"/>
+    <text id="n79_jed2" name="downNumOffset" xy="242,398" size="27,29" font="微软雅黑" fontSize="25" color="#33ff66" leading="0" letterSpacing="-3" strokeColor="#000000" text="＋"/>
+    <text id="n80_jed2" name="rightNumOffset" xy="360,239" size="27,29" font="微软雅黑" fontSize="25" color="#33ff66" leading="0" letterSpacing="-3" strokeColor="#000000" text="＋"/>
+    <text id="n1_jed2" name="n1" xy="19,79" size="89,26" group="n50_jed2" font="楷体" fontSize="22" color="#ffffff" leading="2" letterSpacing="-2" strokeColor="#000000" strokeSize="2" text="单项点数 "/>
+    <text id="n2_jed2" name="n2" xy="178,79" size="85,26" group="n50_jed2" font="楷体" fontSize="22" color="#ffffff" leading="2" letterSpacing="-2" strokeColor="#000000" strokeSize="2" text="点数总和"/>
+    <text id="n3_jed2" name="singleNumText" xy="110,80" size="47,24" group="n50_jed2" font="楷体" fontSize="20" color="#3399ff" leading="2" italic="true" strokeColor="#000000" text="1～9">
+      <relation target="n1_jed2" sidePair="left-right"/>
+    </text>
+    <text id="n4_jed2" name="totalNumText" xy="274,80" size="69,24" group="n50_jed2" font="楷体" fontSize="20" color="#3399ff" leading="2" italic="true" strokeColor="#000000" text="20～30">
+      <relation target="n2_jed2" sidePair="left-right"/>
+    </text>
+    <group id="n50_jed2" name="n50" xy="19,79" size="320,26"/>
+    <component id="n63_jed2" name="saveBtn" src="x88n1k" pkg="864gshxx" xy="17,612">
+      <Button title="保存卡牌"/>
+    </component>
+    <loader id="n68_jed2" name="n68" xy="190,536" size="40,45" url="ui://864gshxxx88n1g"/>
+    <loader id="n67_jed2" name="n67" xy="327,541" size="45,39" url="ui://864gshxxx88n1f"/>
+    <component id="n81_jed2" name="n81" src="dlva1p" pkg="864gshxx" xy="138,717" customData="8">
+      <Button icon="ui://864gshxxx88n1g"/>
+    </component>
+    <component id="n82_jed2" name="n82" src="dlva1p" pkg="864gshxx" xy="281,717" customData="9">
+      <Button icon="ui://864gshxxx88n1f"/>
+    </component>
+  </displayList>
+</component>

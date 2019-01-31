@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,100">
+  <displayList>
+    <loader id="n0_b59w" name="n0" xy="11,-1" size="456,101" url="ui://kzx2kelphyug3" fill="scaleFree">
+      <relation target="n1_b59w" sidePair="width-width%,height-height%"/>
+      <relation target="n1_b59w" sidePair="middle-middle,center-center"/>
+    </loader>
+    <loader id="n1_b59w" name="n1" xy="28,13" size="425,78" url="ui://kzx2kelphyug2" fill="scaleFree">
+      <relation target="n2_b59w" sidePair="height-height,width-width"/>
+      <relation target="n2_b59w" sidePair="middle-middle,center-center"/>
+    </loader>
+    <text id="n2_b59w" name="n2" xy="40,36" size="400,28" fontSize="24" align="center" vAlign="middle" leading="0" autoSize="height" text="欢迎来到锦标赛"/>
+  </displayList>
+</component>

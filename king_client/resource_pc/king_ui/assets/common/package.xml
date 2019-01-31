@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="864gshxx" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="royd0" name="horse.png" path="/" exported="true"/>
+    <image id="royd1" name="mat.png" path="/" exported="true"/>
+    <image id="royd2" name="med.png" path="/" exported="true"/>
+    <image id="royd3" name="forage.png" path="/" exported="true"/>
+    <image id="royd4" name="weap.png" path="/" exported="true"/>
+    <image id="royd5" name="ban.png" path="/" exported="true"/>
+    <image id="royd6" name="gold.png" path="/" exported="true"/>
+    <image id="royd7" name="homeBg.png" path="/" exported="true"/>
+    <image id="royd9" name="backBtnImg.png" path="/" exported="true"/>
+    <component id="royda" name="backBtn.xml" path="/component/" exported="true"/>
+    <image id="roydb" name="setupBtnImg.png" path="/" exported="true"/>
+    <component id="roydc" name="setupBtn.xml" path="/component/" exported="true"/>
+    <image id="roydd" name="choiceBtnBgImg.png" path="/" exported="true"/>
+    <image id="royde" name="resBarBg.png" path="/" exported="true"/>
+    <image id="roydf" name="resIconBg.png" path="/" exported="true"/>
+    <image id="roydg" name="amountBg.png" path="/" exported="true"/>
+    <component id="roydh" name="ResBar.xml" path="/component/" exported="true"/>
+    <image id="roydj" name="titleTxtBg.png" path="/" exported="true"/>
+    <image id="jh6fk" name="bgKuang.png" path="/" exported="true"/>
+    <image id="bzh4l" name="closeBtnImg.png" path="/" exported="true"/>
+    <component id="bzh4m" name="closeBtn.xml" path="/component/" exported="true"/>
+    <image id="bzh4n" name="preBtnImg.png" path="/" exported="true"/>
+    <component id="bzh4o" name="preBtn.xml" path="/component/" exported="true"/>
+    <component id="bzh4p" name="nextBtn.xml" path="/component/" exported="true"/>
+    <image id="bzh4q" name="nextBtnImg.png" path="/" exported="true"/>
+    <component id="bzh4r" name="resLabel.xml" path="/component/" exported="true"/>
+    <image id="jed2r" name="labelIcon1.png" path="/" exported="true"/>
+    <image id="jed2s" name="blueBtnImg.png" path="/" exported="true"/>
+    <component id="jed2t" name="baseLabel.xml" path="/component/" exported="true"/>
+    <component id="jed2u" name="handCardGrid.xml" path="/component/" exported="true"/>
+    <image id="jed2v" name="cardClickIcon.png" path="/" exported="true"/>
+    <image id="jed2w" name="hand_grid.png" path="/" exported="true"/>
+    <component id="jed2x" name="handGrid.xml" path="/component/" exported="true"/>
+    <image id="jed2y" name="progressBarImg1.png" path="/" exported="true"/>
+    <image id="jed2z" name="progressBgImg1.png" path="/" exported="true"/>
+    <component id="jed210" name="pvpScoreProgressBar.xml" path="/component/" exported="true"/>
+    <component id="jed213" name="functionBtn.xml" path="/component/" exported="true"/>
+    <image id="jed21b" name="grayBtnImg.png" path="/" exported="true"/>
+    <component id="jed21c" name="cancelBtn.xml" path="/component/" exported="true"/>
+    <image id="jed214" name="shuIcon.png" path="/" exported="true"/>
+    <image id="jed215" name="wuIcon.png" path="/" exported="true"/>
+    <image id="jed216" name="weiIcon.png" path="/" exported="true"/>
+    <image id="lmb317" name="redBtnImg.png" path="/" exported="true"/>
+    <image id="i3o219" name="textImg1.png" path="/" exported="true"/>
+    <component id="i3o21b" name="choiceFightCard.xml" path="/component/" exported="true"/>
+    <component id="qifi1d" name="functionBtn2.xml" path="/component/" exported="true"/>
+    <image id="x88n1e" name="labelBg.png" path="/" exported="true"/>
+    <image id="x88n1f" name="book.png" path="/" exported="true"/>
+    <image id="x88n1g" name="wine.png" path="/" exported="true"/>
+    <image id="x88n1h" name="skillDescTextBg.png" path="/" exported="true"/>
+    <image id="x88n1i" name="grayBtnImg2.png" path="/" exported="true"/>
+    <image id="x88n1j" name="greenBtnImg.png" path="/" exported="true"/>
+    <component id="x88n1k" name="functionBtn3.xml" path="/component/" exported="true"/>
+    <component id="dlva1l" name="confirmPanel.xml" path="/component/" exported="true"/>
+    <image id="dlva1m" name="panelBg.png" path="/" exported="true"/>
+    <image id="dlva1n" name="castleSkillIcon.png" path="/" exported="true"/>
+    <component id="dlva1o" name="rewardResBar.xml" path="/component/" exported="true"/>
+    <component id="dlva1p" name="resBarBtn.xml" path="/component/" exported="true"/>
+    <component id="dlva1q" name="exchangeRes.xml" path="/component/" exported="true"/>
+    <image id="dlva1w" name="baseBtnImg.png" path="/" exported="true"/>
+    <component id="dlva1x" name="baseBtn.xml" path="/component/" exported="true"/>
+    <image id="dlva1y" name="bg1.png" path="/" exported="true"/>
+    <image id="s3df1z" name="figIcon.png" path="/" exported="true"/>
+    <image id="s3df20" name="tapBtnImg.png" path="/" exported="true"/>
+    <component id="x6w821" name="resList.xml" path="/component/" exported="true"/>
+    <component id="x6w822" name="castlerSkill.xml" path="/component/" exported="true"/>
+    <image id="x6w823" name="resBg.png" path="/" exported="true"/>
+    <image id="x6w824" name="tapBtnImg2.png" path="/" exported="true"/>
+    <component id="tkst25" name="alertPanel.xml" path="/component/" exported="true"/>
+    <image id="d65g26" name="uplevelTitle.png" path="/" exported="true"/>
+    <sound id="lr3f27" name="arrow.mp3" path="/sound/"/>
+    <sound id="lr3f28" name="cable.mp3" path="/sound/"/>
+    <sound id="lr3f29" name="finger.mp3" path="/sound/"/>
+    <sound id="lr3f2a" name="flower.mp3" path="/sound/"/>
+    <sound id="lr3f2b" name="frame.mp3" path="/sound/"/>
+    <sound id="lr3f2c" name="guard.mp3" path="/sound/"/>
+    <sound id="lr3f2d" name="gun.mp3" path="/sound/"/>
+    <sound id="lr3f2e" name="hammer.mp3" path="/sound/"/>
+    <sound id="lr3f2f" name="hook.mp3" path="/sound/"/>
+    <sound id="lr3f2g" name="knife.mp3" path="/sound/"/>
+    <sound id="lr3f2h" name="lighting.mp3" path="/sound/"/>
+    <sound id="lr3f2i" name="newcard.mp3" path="/sound/"/>
+    <sound id="lr3f2j" name="stone.mp3" path="/sound/"/>
+    <sound id="lr3f2k" name="turn.mp3" path="/sound/"/>
+    <sound id="lr3f2l" name="uplevel.mp3" path="/sound/"/>
+    <sound id="lr3f2m" name="wave.mp3" path="/sound/"/>
+    <sound id="lr3f2n" name="click.mp3" path="/sound/"/>
+    <component id="qg2m2q" name="AdjustBg.xml" path="/component/" exported="true"/>
+    <sound id="dwsy2r" name="addexp.mp3" path="/sound/"/>
+    <sound id="dwsy2t" name="page.mp3" path="/sound/"/>
+    <sound id="dwsy2u" name="playcard.mp3" path="/sound/"/>
+    <sound id="bj262v" name="bg.mp3" path="/sound/"/>
+    <sound id="bj262w" name="fightbg.mp3" path="/sound/"/>
+  </resources>
+  <publish name="common"/>
+</packageDescription>

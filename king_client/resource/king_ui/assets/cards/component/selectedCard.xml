@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="87,113" designImageAlpha="20">
+  <displayList>
+    <graph id="n0_10uxg" name="n0" xy="0,0" size="87,113" type="rect" lineSize="0" fillColor="#33000000" corner="7"/>
+    <loader id="n1_10uxg" name="n1" xy="18,31" pivot="0.5,0.5" size="50,50" url="ui://rdb04el010uxgw" align="center" vAlign="middle" fill="scaleMatchWidth"/>
+  </displayList>
+</component>

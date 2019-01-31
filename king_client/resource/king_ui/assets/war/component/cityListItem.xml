@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="440,70">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="showCom" pages="3,null,0,notice,1,reward,2,apply" selected="3"/>
+  <displayList>
+    <loader id="n17_xjab" name="bg" xy="0,2" pivot="0.5,0.5" size="440,65" url="ui://2ipmzghtu5xl81" fill="scaleFree">
+      <gearDisplay controller="button" pages="0,2"/>
+    </loader>
+    <loader id="n19_xjab" name="bg2" xy="0,-2" pivot="0.5,0.5" size="440,64" url="ui://8d3e8y55qof02b" fill="scaleFree">
+      <gearDisplay controller="button" pages="1,3"/>
+    </loader>
+    <text id="n9_lwj0" name="cityName" xy="60,20" size="53,28" fontSize="24" vAlign="middle" leading="0" singleLine="true" text="建业">
+      <relation target="" sidePair="rightext-right"/>
+    </text>
+    <loader id="n22_gv98" name="playerCntIcon" xy="360,20" size="30,30" url="ui://2ipmzghtmhry75" fill="scaleFree"/>
+    <text id="n23_gv98" name="playerCnt" xy="390,21" size="31,28" fontSize="24" vAlign="middle" leading="0" text="12">
+      <relation target="" sidePair="left-left,middle-middle"/>
+    </text>
+    <loader id="n24_mhry" name="flag" xy="5,5" size="60,60" url="ui://2ipmzghtmyl16v" fill="scaleMatchWidth"/>
+    <text id="n25_mhry" name="campName" xy="15,10" size="40,40" fontSize="30" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="清">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <loader id="n26_u5xl" name="honorIcon" xy="260,20" size="30,30" url="ui://2ipmzghtonso6j" fill="scaleFree"/>
+    <text id="n27_u5xl" name="honor" xy="290,21" size="38,28" fontSize="24" vAlign="middle" leading="0" text="1.5">
+      <relation target="" sidePair="left-left,middle-middle"/>
+    </text>
+    <loader id="n28_u5xl" name="goldIcon" xy="140,35" size="20,20" group="n31_u5xl" url="ui://864gshxxnf1s9a" fill="scaleFree"/>
+    <text id="n29_u5xl" name="txt1" xy="140,15" size="69,20" group="n31_u5xl" fontSize="16" vAlign="middle" leading="0" singleLine="true" text="最高竞价">
+      <relation target="" sidePair="rightext-right"/>
+    </text>
+    <text id="n30_u5xl" name="goldCnt" xy="160,35" size="76,20" group="n31_u5xl" fontSize="16" vAlign="middle" leading="0" singleLine="true" text="99999999">
+      <relation target="" sidePair="left-left"/>
+    </text>
+    <group id="n31_u5xl" name="price" xy="140,15" size="96,40" advanced="true">
+      <gearDisplay controller="showCom" pages="2"/>
+    </group>
+    <loader id="n33_ir7y" name="goldIcon2" xy="140,35" size="20,20" group="n36_ir7y" url="ui://864gshxxnf1s9a" fill="scaleFree"/>
+    <text id="n34_ir7y" name="txt2" xy="140,15" size="69,20" group="n36_ir7y" fontSize="16" vAlign="middle" leading="0" singleLine="true" text="政令最高">
+      <relation target="" sidePair="rightext-right"/>
+    </text>
+    <text id="n35_ir7y" name="bounsCnt" xy="160,35" size="76,20" group="n36_ir7y" fontSize="16" vAlign="middle" leading="0" singleLine="true" text="99999999">
+      <relation target="" sidePair="left-left"/>
+    </text>
+    <group id="n36_ir7y" name="bouns" xy="140,16" size="89,40" advanced="true">
+      <gearDisplay controller="showCom" pages="1"/>
+    </group>
+    <component id="n32_n91y" name="noticeBtn" src="xjab4" fileName="component/commonBtn.xml" xy="142,15" size="80,40">
+      <gearDisplay controller="showCom" pages="0"/>
+      <Button title="公告" titleFontSize="24"/>
+    </component>
+  </displayList>
+</component>

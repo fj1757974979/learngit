@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="90,113">
+  <displayList>
+    <loader id="n24_ujqd" name="bg" xy="4,6" size="82,82" url="ui://739g5ytivfpoh" fill="scaleFree"/>
+    <loader id="n23_ryqp" name="icon" xy="5,7" size="80,80" touchable="false" url="ui://g6ma6zzkpar0m" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n25_ujqd" name="frame" xy="-17,-15" pivot="0.5,0.5" size="124,124" touchable="false" url="ui://739g5ytivfpoi" align="center" vAlign="middle" fill="scaleFree"/>
+    <text id="n19_nf1s" name="equipName" xy="3,89" size="85,20" font="楷体" fontSize="16" align="center" vAlign="middle" leading="0" text="青龙偃月刀">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+</component>

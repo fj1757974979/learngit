@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="440,620" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n0_u5xl" name="n0" xy="0,0" size="440,620" url="ui://864gshxxdlva1m" fill="scaleFree"/>
+    <loader id="n4_u5xl" name="n4" xy="15,90" size="410,450" url="ui://dvmsogfra64j2l" fill="scaleFree"/>
+    <component id="n1_u5xl" name="n1" src="xjabf" fileName="component/cityAppoint.xml" xy="20,90" size="400,450"/>
+    <component id="n2_u5xl" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="375,10"/>
+    <loader id="n7_n91y" name="n7" xy="120,15" size="200,65" url="ui://864gshxxroydj" autoSize="true"/>
+    <loader id="n8_n91y" name="n8" xy="145,21" size="150,51" url="ui://864gshxxuy1sdr" autoSize="true"/>
+    <component id="n10_ir7y" name="surrenderBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="25,550" size="120,50">
+      <Button title="#TEXT_60305" titleFontSize="30"/>
+    </component>
+    <component id="n11_ir7y" name="quitBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="295,550" size="120,50">
+      <Button title="#TEXT_60306" titleFontSize="30"/>
+    </component>
+    <component id="n12_vvhm" name="indeBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="160,550" size="120,50">
+      <Button title="#TEXT_60374" titleFontSize="30"/>
+    </component>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Scale" tween="true" startValue="0.8,0.9" endValue="1,1" duration="6" ease="Quart.Out"/>
+  </transition>
+</component>

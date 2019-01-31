@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="30,30" pivot="0.5,0.5" anchor="true">
+  <controller name="dir" pages="0,,1,,2,,3,,4," selected="0"/>
+  <controller name="attacking" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <loader id="n12_pgn0" name="n12" xy="2,-38" pivot="0.5,0.5" size="25,25" url="ui://864gshxxroyd4" fill="scaleFree">
+      <gearDisplay controller="attacking" pages="2"/>
+    </loader>
+    <component id="n10_gs2a" name="flag" src="wwgm5v" fileName="component/campItem.xml" xy="2,-17" size="25,25"/>
+    <text id="n13_il32" name="amount" xy="-10,-35" size="50,19" fontSize="15" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="x1000">
+      <relation target="n10_gs2a" sidePair="left-right,middle-middle"/>
+    </text>
+    <component id="n14_ltmq" name="head" src="md4a33k" fileName="component/head.xml" pkg="739g5yti" xy="25,-18" size="25,25" visible="false"/>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Scale" target="n12_pgn0" tween="true" startValue="1,1" endValue="0.8,0.8" duration="6" repeat="-1" yoyo="true"/>
+    <item time="6" type="Scale" target="n12_pgn0" tween="true" startValue="0.8,0.8"/>
+  </transition>
+</component>

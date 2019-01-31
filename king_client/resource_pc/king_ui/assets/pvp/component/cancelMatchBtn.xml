@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="369,121" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n1" name="n1" xy="0,0" size="308,101" scale="1.2,1.2" url="ui://864gshxxlmb317">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n5_jed2" name="n5" xy="62,35" size="245,60" url="ui://dvmsogfrjed2d"/>
+  </displayList>
+  <Button sound="ui://864gshxxlr3f2n" downEffect="scale" downEffectValue="0.80"/>
+</component>

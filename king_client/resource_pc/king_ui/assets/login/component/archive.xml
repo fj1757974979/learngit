@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080" designImageLayer="1">
+  <displayList>
+    <component id="n0_mbcj" name="bg" src="qg2m2q" pkg="864gshxx" xy="0,0"/>
+    <loader id="n1_mbcj" name="n1" xy="716,192" size="487,624" url="ui://164za4d7eaib8"/>
+    <component id="n2_mbcj" name="archiveBtn1" src="eaib7" xy="750,268"/>
+    <component id="n3_mbcj" name="archiveBtn2" src="eaib7" xy="750,430"/>
+    <component id="n4_mbcj" name="archiveBtn3" src="eaib7" xy="750,599"/>
+    <component id="n5_mbcj" name="delArchiveBtn1" src="bzh4m" pkg="864gshxx" xy="1073,325" size="106,111" scale="0.8,0.8"/>
+    <component id="n6_mbcj" name="delArchiveBtn2" src="bzh4m" pkg="864gshxx" xy="1073,482" size="109,109" scale="0.8,0.8"/>
+    <component id="n7_mbcj" name="delArchiveBtn3" src="bzh4m" pkg="864gshxx" xy="1073,651" size="108,115" scale="0.8,0.8"/>
+  </displayList>
+</component>

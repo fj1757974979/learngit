@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="10li2aq3" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="t03j0" name="loadingBar.png" path="/" exported="true" scale9grid="54,4,108,8"/>
+    <component id="t03j2" name="loadingProgressBar.xml" path="/component/" exported="true"/>
+    <component id="t03j3" name="loading.xml" path="/component/" exported="true"/>
+    <component id="gwr75" name="netWaiting.xml" path="/component/" exported="true"/>
+    <image id="gwr76" name="loadingCircle.png" path="/" exported="true"/>
+    <component id="gwr77" name="loadResWaiting.xml" path="/component/" exported="true"/>
+    <image id="gwr78" name="resLoadingCircle.png" path="/" exported="true"/>
+    <image id="j4cja" name="loadingHead.png" path="/" exported="true"/>
+    <movieclip id="icczb" name="loadingHeadAni.jta" path="/" exported="true"/>
+    <movieclip id="snqec" name="fireHeadAni.jta" path="/" exported="true"/>
+    <image id="pcunf" name="logo_lzd.jpg" path="/" exported="true"/>
+    <image id="s8o9h" name="logo_yxasg.jpg" path="/" exported="true"/>
+    <image id="ik28i" name="bottom.png" path="/" exported="true"/>
+    <image id="qcz8j" name="logoName.png" path="/" exported="true"/>
+  </resources>
+  <publish name="loading"/>
+</packageDescription>

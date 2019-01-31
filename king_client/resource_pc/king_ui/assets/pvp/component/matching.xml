@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1926,387" designImage="ui://dvmsogfrjed2a" designImageOffsetY="-255">
+  <displayList>
+    <loader id="n0_jed2" name="n0" xy="0,0" size="1926,387" url="ui://dvmsogfrjed2h"/>
+    <component id="n9_jed2" name="cancelMatchBtn" src="jed2i" xy="778,221"/>
+  </displayList>
+</component>

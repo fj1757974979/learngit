@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="60,60" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0">
+    <action type="play_transition" fromPage="0" toPage="1" transition="t0"/>
+  </controller>
+  <displayList>
+    <text id="n4_jed2" name="title" xy="3,35" size="53,28" fontSize="24" color="#ffffff" align="center" vAlign="middle" leading="0" bold="true" text="9999">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <loader id="n5_u843" name="n5" xy="10,-4" size="40,40" url="ui://dvmsogfru84354" fill="scaleFree">
+      <relation target="n4_jed2" sidePair="center-center,middle-middle"/>
+    </loader>
+  </displayList>
+  <Button sound="ui://864gshxxlr3f2n"/>
+  <transition name="t0"/>
+</component>

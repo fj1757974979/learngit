@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="120,40" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver,4,disable" selected="0"/>
+  <displayList>
+    <loader id="n5_j600" name="disableIcon" xy="0,0" size="120,40" url="ui://864gshxxj6006v" fill="scaleFree">
+      <gearDisplay controller="button" pages="4"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n10_hfmh" name="btn" xy="0,0" size="120,40" url="ui://864gshxxj6006u" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n11_hfmh" name="icon" xy="10,-5" size="50,50" url="ui://864gshxxhfmh9m" align="center" vAlign="middle" fill="scaleMatchHeight">
+      <relation target="n12_hfmh" sidePair="right-left,middle-middle"/>
+    </loader>
+    <text id="n12_hfmh" name="title" xy="60,5" size="38,34" fontSize="30" color="#ffffff" align="center" vAlign="middle" leading="0" bold="true" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="99">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <Button sound="ui://864gshxxlr3f2n" downEffect="scale" downEffectValue="0.80"/>
+  <transition name="t0"/>
+</component>

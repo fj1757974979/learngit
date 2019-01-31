@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="572,33">
+  <displayList>
+    <loader id="n3_bzh4" name="n3" xy="0,0" size="572,33" url="ui://ravbpjp3bzh4d"/>
+    <loader id="n2_bzh4" name="bar" xy="0,0" size="572,33" url="ui://ravbpjp3bzh4c" autoSize="true"/>
+  </displayList>
+</component>

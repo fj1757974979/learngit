@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="60,60" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n4_nsea" name="icon" xy="-10,-10" size="80,80" url="ui://dvmsogfrcpg52z" align="center" vAlign="middle" autoSize="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+  </displayList>
+  <Button sound="ui://864gshxxyyke6n" downEffect="scale" downEffectValue="0.80"/>
+</component>

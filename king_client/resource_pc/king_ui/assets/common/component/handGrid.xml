@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="153,163" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver,4,disabled" selected="0"/>
+  <displayList>
+    <loader id="n1" name="n1" xy="0,0" size="153,163" url="ui://864gshxxjed2w">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n4_jed2" name="n4" xy="41,44" size="71,74" url="ui://864gshxxjed2v">
+      <gearDisplay controller="button" pages="0,1,2,3"/>
+    </loader>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

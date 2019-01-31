@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,300" pivot="1,1" opaque="false">
+  <controller name="pageCtrl" pages="0,1,1,2" selected="0"/>
+  <displayList>
+    <loader id="n2_ijr4" name="n2" xy="0,0" size="400,300" url="ui://ryvvr3p0eo7t33" align="center" vAlign="middle" fill="scaleFree"/>
+    <list id="n11_j66l" name="pageList" xy="10,250" size="380,40" layout="row" overflow="scroll" scroll="horizontal" defaultItem="ui://864gshxxj66lci" autoItemSize="false" vAlign="middle" autoClearItems="true">
+      <item title="诸葛亮"/>
+      <item title="左慈"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n14_bi34" name="view1" src="j66l4b" fileName="component/emojiView1.xml" xy="10,10">
+      <gearDisplay controller="pageCtrl" pages="0"/>
+    </component>
+    <component id="n15_bi34" name="view2" src="j1ca4c" fileName="component/emojiView2.xml" xy="10,10">
+      <gearDisplay controller="pageCtrl" pages="1"/>
+    </component>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Scale" tween="true" startValue="0,0" endValue="1,1" duration="12" ease="Quart.Out"/>
+  </transition>
+</component>

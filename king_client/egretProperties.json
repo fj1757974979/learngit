@@ -1,0 +1,74 @@
+{
+  "engineVersion": "5.2.8",
+  "compilerVersion": "5.2.8",
+  "template": {},
+  "target": {
+    "current": "web"
+  },
+  "modules": [
+    {
+      "name": "egret"
+    },
+    {
+      "name": "game"
+    },
+    {
+      "name": "tween"
+    },
+    {
+      "name": "assetsmanager"
+    },
+    {
+      "name": "socket"
+    },
+    {
+      "name": "promise"
+    },
+    {
+      "name": "native",
+      "path": "./libs/native"
+    },
+    {
+      "name": "acorn",
+      "path": "./libs/acorn"
+    },
+    {
+      "name": "fairygui",
+      "path": "./libs/fairygui"
+    },
+    {
+      "name": "h5uploader",
+      "path": "./libs/h5uploader"
+    },
+    {
+      "name": "md5",
+      "path": "./libs/md5"
+    },
+    {
+      "name": "protobuf-library",
+      "path": "protobuf/library"
+    },
+    {
+      "name": "protobuf-bundles",
+      "path": "protobuf/bundles"
+    },
+    {
+      "name": "crypto-js",
+      "path": "./libs/crypto-js"
+    }
+  ],
+  "targets": {
+    "ios": {
+      "appname": "隆中对",
+      "packagename": "com.openew.sglzd",
+      "hybrid": false
+    },
+    "android": {
+      "appname": "隆中对",
+      "packagename": "com.openew.sglzd"
+    },
+    "wxgame": {
+      "appname": "我是大军师"
+    }
+  }
+}

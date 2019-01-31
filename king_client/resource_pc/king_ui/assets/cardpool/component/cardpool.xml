@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080" designImage="ui://ravbpjp3dwsyq" designImageLayer="1">
+  <controller name="campTap" pages="0,1,1,2,2,3,3,4" selected="0"/>
+  <displayList>
+    <component id="n1_uoof" name="bg" src="qg2m2q" pkg="864gshxx" xy="0,0"/>
+    <component id="n0_uoof" name="n0" src="roydh" pkg="864gshxx" xy="0,935">
+      <relation target="n1_uoof" sidePair="bottom-bottom"/>
+    </component>
+    <component id="n2_uoof" name="backBtn" src="royda" pkg="864gshxx" xy="7,5"/>
+    <loader id="n13_jh6f" name="n13" xy="501,79" size="918,841" url="ui://864gshxxjh6fk" fill="scaleFree"/>
+    <loader id="n12_jh6f" name="n12" xy="816,14" size="288,63" url="ui://864gshxxroydj"/>
+    <list id="n14_jh6f" name="tapList" xy="551,140" size="814,722" pageController="campTap" layout="pagination" selectionMode="none" overflow="scroll" scroll="horizontal" scrollBarFlags="138" scrollBar="hidden" lineItemCount2="1" defaultItem="ui://ravbpjp3jh6fa" vAlign="bottom">
+      <item name="wei"/>
+      <item name="shu"/>
+      <item name="wu"/>
+      <item name="qun"/>
+    </list>
+    <component id="n4_jh6f" name="weiTapBtn" src="jh6f9" xy="806,9">
+      <Button checked="true" sound="" volume="0" controller="campTap" page="0"/>
+    </component>
+    <component id="n6_jh6f" name="shuTapBtn" src="jh6f9" xy="882,9">
+      <Button sound="" volume="0" controller="campTap" page="1"/>
+    </component>
+    <component id="n8_jh6f" name="wuTapBtn" src="jh6f9" xy="957,9">
+      <Button sound="" volume="0" controller="campTap" page="2"/>
+    </component>
+    <component id="n10_jh6f" name="qunTapBtn" src="jh6f9" xy="1033,9">
+      <Button sound="" volume="0" controller="campTap" page="3"/>
+    </component>
+    <loader id="n5_jh6f" name="n5" xy="817,16" size="54,53" touchable="false" url="ui://ravbpjp3uoof4"/>
+    <loader id="n7_jh6f" name="n7" xy="893,17" size="54,53" touchable="false" url="ui://ravbpjp3uoof1"/>
+    <loader id="n9_jh6f" name="n9" xy="968,16" size="54,53" touchable="false" url="ui://ravbpjp3uoof2"/>
+    <loader id="n11_jh6f" name="n11" xy="1044,17" size="54,53" touchable="false" url="ui://ravbpjp3uoof3"/>
+  </displayList>
+</component>

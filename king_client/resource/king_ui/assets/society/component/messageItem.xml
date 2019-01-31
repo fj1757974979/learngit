@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="440,175">
+  <displayList>
+    <text id="n3_jbrh" name="time" xy="20,0" size="400,40" fontSize="16" color="#666666" align="center" vAlign="middle" leading="0" autoSize="none" text="11:22"/>
+    <loader id="n6_jbrh" name="bottom" xy="70,57" size="371,105" touchable="false" url="ui://739g5ytiyyke11" fill="scaleFree">
+      <relation target="n7_jbrh" sidePair="height-height,top-top"/>
+    </loader>
+    <loader id="n17_yyke" name="n17" xy="67,69" size="10,8" touchable="false" url="ui://739g5ytiyyke12">
+      <relation target="n6_jbrh" sidePair="right-left,top-top"/>
+    </loader>
+    <component id="n21_j7k2" name="head" src="md4a33k" fileName="component/head.xml" xy="0,25" size="70,70" group="n14_j7l7"/>
+    <text id="n4_jbrh" name="name" xy="75,30" size="205,24" group="n14_j7l7" fontSize="20" color="#ffffff" vAlign="middle" leading="0" strokeColor="#2c2c2c" singleLine="true" text="对酒当歌，人生几何？">
+      <relation target="n7_jbrh" sidePair="left-left,bottom-top"/>
+    </text>
+    <image id="n20_qkz0" name="countryFlagImg" src="vfpog" fileName="headicon1.png" xy="281,32" size="30,19" group="n14_j7l7" aspect="true" visible="false">
+      <relation target="n4_jbrh" sidePair="left-right,middle-middle"/>
+    </image>
+    <text id="n19_61kp" name="rankTitleText" xy="16,92" size="37,20" group="n14_j7l7" fontSize="16" color="#333333" align="center" vAlign="middle" leading="0" bold="true" text="入门">
+      <relation target="n21_j7k2" sidePair="center-center"/>
+    </text>
+    <text id="n7_jbrh" name="messageTxt" xy="80,70" size="350,84" group="n14_j7l7" fontSize="20" leading="0" autoSize="height" text="一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十">
+      <relation target="" sidePair="left-left,top-top"/>
+    </text>
+    <group id="n14_j7l7" name="contentGrp" xy="0,25" size="430,129" advanced="true">
+      <relation target="n3_jbrh" sidePair="top-bottom"/>
+    </group>
+  </displayList>
+  <relation target="n7_jbrh" sidePair="height-height"/>
+</component>

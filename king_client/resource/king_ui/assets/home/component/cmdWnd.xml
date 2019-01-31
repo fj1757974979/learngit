@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,300" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n0_nzui" name="n0" xy="0,0" size="400,300" url="ui://864gshxxf7m85d" fill="scaleFree">
+      <relation target="" sidePair="height-height"/>
+    </loader>
+    <text id="n2_nzui" name="cmdText" xy="0,-40" size="400,41" input="true" font="微软雅黑" fontSize="26" color="#ffffff" align="center" vAlign="middle" letterSpacing="1" autoSize="none" text=""/>
+    <component id="n4_nzui" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="340,10"/>
+    <component id="n12_qxr1" name="musicVolumeBtn" src="qxr118" fileName="component/musicBtn.xml" xy="40,80"/>
+    <component id="n15_qxr1" name="soundVolumeBtn" src="qxr11f" fileName="component/soundBtn.xml" xy="217,80"/>
+    <richtext id="n16_ysmu" name="qqtext" xy="50,230" size="300,70" visible="false" fontSize="20" vAlign="middle" autoSize="height" text="加入QQ群，获得加群礼包&#xA;2群：&lt;font color=&quot;#0000ff&quot;>&lt;u>834284169&lt;/u>&lt;/font>&#xA;1群：&lt;font color=&quot;#0000ff&quot;>&lt;u>763721838&lt;/u>&lt;/font>&lt;font color=&quot;#ff0000&quot;>(已满)&lt;/font>&#xA;&lt;href=&quot;//shang.qq.com/wpa/qunwpa?idkey=86ba364953ff34fee6de365aadd400cc90731589b739be6d66e751b0a5e0692e&quot;>"/>
+    <component id="n17_ysmu" name="confirmBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="125,235" size="150,50">
+      <relation target="" sidePair="bottom-bottom"/>
+      <Button title="#TEXT_70005" icon="ui://864gshxxj6006t" sound="ui://864gshxxlr3f2n"/>
+    </component>
+    <loader id="n18_snqe" name="cmdBg" xy="50,177" size="300,42" visible="false" url="ui://164za4d7a53pg" fill="scaleFree">
+      <relation target="n0_nzui" sidePair="center-center,bottom-bottom"/>
+    </loader>
+    <text id="n18_snqe" name="codText" xy="50,175" size="300,41" visible="false" input="true" prompt="输入加群礼包码" keyboardType="1" fontSize="24" align="center" vAlign="middle" leading="0" autoSize="none" text="">
+      <relation target="n0_nzui" sidePair="center-center,bottom-bottom"/>
+    </text>
+    <text id="n20_snqe" name="warning" xy="43,497" size="300,38" visible="false" fontSize="20" color="#ff0000" align="center" vAlign="middle" leading="0" letterSpacing="2" autoSize="none" text=""/>
+    <loader id="n22_d54g" name="n22" xy="100,5" size="200,65" touchable="false" url="ui://864gshxxroydj" autoSize="true"/>
+    <loader id="n23_d54g" name="n23" xy="125,11" size="150,51" touchable="false" url="ui://864gshxxd54ga0" autoSize="true"/>
+    <component id="n25_tlw5" name="languageBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="6,12" size="88,50">
+      <relation target="n0_nzui" sidePair="left-left,top-top"/>
+      <Button title="切换语言" titleFontSize="20" icon="ui://864gshxxal2v9n" sound="ui://864gshxxlr3f2n"/>
+    </component>
+    <text id="n26_vf5n" name="phoneModel" xy="195,305" size="10,22" fontSize="18" leading="0" text="">
+      <relation target="n0_nzui" sidePair="center-center"/>
+    </text>
+  </displayList>
+</component>

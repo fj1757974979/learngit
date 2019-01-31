@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">英雄爱三国</string>
+    <string name="init_game">正在初始化游戏，请稍后...</string>
+    <string name="init_install">正在解压资源，请稍后...</string>
+    <string name="sdk_init_fail">SDK初始化失败，请检查权限设置，重启游戏再试...</string>
+    <string name="auth_hint">游戏需要访问相关手机权限，请到权限设置中授权</string>
+    <string name="auth_confirm">去授权</string>
+    <string name="cancel">取消</string>
+    <string name="exit_hint">再按一次退出游戏</string>
+    <string name="record_permission_hint">请打开录屏权限后再试</string>
+    <string name="record_not_support">当前安卓版本不支持录制屏幕</string>
+    <string name="share_fail">分享失败，请检测是否安装了最新版的Facebook应用</string>
+    <string name="share_no_video">您还没有录制战斗视屏呢</string>
+</resources>

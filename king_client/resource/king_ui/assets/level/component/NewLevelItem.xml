@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,55">
+  <displayList>
+    <component id="n7_jhly" name="levelBtn" src="uomqc" fileName="component/levelItem.xml" xy="0,0"/>
+    <loader id="n2_jhly" name="left" xy="0,10" size="23,35" url="ui://8pche6l7a64js" align="center" vAlign="middle" autoSize="true"/>
+    <loader id="n3_jhly" name="right" xy="457,10" size="23,35" url="ui://8pche6l7a64jt" align="center" vAlign="middle" autoSize="true"/>
+    <component id="n4_jhly" name="appealBtn" src="u84310" fileName="component/appealBtn.xml" xy="385,2">
+      <Button title="求 助" titleFontSize="20"/>
+    </component>
+  </displayList>
+  <transition name="t0" options="2">
+    <item time="0" type="XY" target="n2_jhly" tween="true" startValue="0,10" endValue="10,10" duration="12"/>
+    <item time="0" type="XY" target="n3_jhly" tween="true" startValue="457,10" endValue="447,10" duration="12"/>
+    <item time="12" type="XY" target="n2_jhly" tween="true" startValue="10,10" endValue="0,10" duration="12"/>
+    <item time="12" type="XY" target="n3_jhly" tween="true" startValue="447,10" endValue="457,10" duration="12"/>
+  </transition>
+</component>

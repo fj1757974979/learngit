@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="159,80" extention="Label">
+  <displayList>
+    <loader id="n4_lmb3" name="icon" xy="3,0" size="96,80" url="ui://864gshxxroyd6" fill="scale">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n1_bzh4" name="title" xy="92,20" size="63,39" font="楷体" fontSize="35" color="#00ff00" align="center" vAlign="middle" bold="true" strokeColor="#000000" text="x20">
+      <relation target="" sidePair="middle-middle"/>
+    </text>
+  </displayList>
+</component>

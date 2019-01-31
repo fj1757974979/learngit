@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="150,200" pivot="0.5,0.5" extention="Button">
+  <displayList>
+    <loader id="n0_nf1s" name="bg1" xy="8,7" size="133,187" touchable="false" url="ui://994sajasal2v18" fill="scaleFree"/>
+    <text id="n9_nf1s" name="name" xy="15,20" size="120,24" font="楷体" fontSize="20" align="center" vAlign="middle" leading="0" autoSize="shrink" text="一把金币">
+      <relation target="n0_nf1s" sidePair="center-center,top-top"/>
+    </text>
+    <loader id="n23_ryqp" name="icon" xy="7,40" size="135,136" touchable="false" url="ui://994sajasryqpv" align="center" vAlign="middle" autoSize="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n26_ryqp" name="n26" xy="15,170" size="120,30" touchable="false" url="ui://994sajasryqpu" fill="scaleMatchWidth"/>
+    <text id="n21_nf1s" name="price" xy="15,173" size="120,24" fontSize="20" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="shrink" bold="true" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="免费">
+      <relation target="n26_ryqp" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n19_nf1s" name="cnt" xy="48,45" size="58,28" font="楷体" fontSize="24" color="#ffff00" align="center" vAlign="middle" leading="0" bold="true" strokeColor="#333333" text="1000">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.95"/>
+  <transition name="t0">
+    <item time="0" type="Scale" tween="true" startValue="1,1" endValue="0.9,0.9" duration="3"/>
+    <item time="3" type="Scale" tween="true" startValue="0.9,0.9" endValue="1,1" duration="3"/>
+  </transition>
+</component>

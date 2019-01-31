@@ -1,0 +1,7 @@
+
+{
+            "rmb6": {"__id__": "rmb6", "price": 6, "jadePrice": 0, "jadeCnt": 60, "desc": "#TEXT_10301", "icon": "shop_jadeIcon1_png", "textFlag": "" },
+			"rmb30": {"__id__": "rmb30", "price": 30, "jadePrice": 0, "jadeCnt": 320, "desc": "#TEXT_10302", "icon": "shop_jadeIcon2_png", "textFlag": "" },
+			"rmb128": {"__id__": "rmb128", "price": 128, "jadePrice": 0, "jadeCnt": 1500, "desc": "#TEXT_10304", "icon": "shop_jadeIcon4_png", "textFlag": "" }
+   }
+    

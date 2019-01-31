@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="450,600">
+  <controller name="delete" pages="0,normal,1,delete" selected="0"/>
+  <displayList>
+    <loader id="n1_jbrh" name="n1" xy="0,0" size="450,600" touchable="false" url="ui://739g5ytiyykel" fill="scaleFree">
+      <relation target="" sidePair="height-height"/>
+    </loader>
+    <list id="n2_jbrh" name="chatEntryList" xy="0,0" size="450,600" overflow="scroll" scrollBarFlags="4" margin="5,5,0,0" scrollBarRes="ui://864gshxxjzjo62," defaultItem="ui://739g5ytijbrh5" autoItemSize="false" align="center" autoClearItems="true">
+      <relation target="" sidePair="height-height"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n3_jbrh" name="deleteBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="150,606" size="150,50" visible="false">
+      <Button title="#TEXT_70068" titleFontSize="28" controller="delete" page="0"/>
+    </component>
+    <text id="n4_ndj5" name="emptyHintText" xy="25,275" size="400,40" fontSize="30" color="#666666" align="center" vAlign="middle" leading="0" autoSize="none" text="#TEXT_70067">
+      <relation target="" sidePair="middle-middle"/>
+    </text>
+  </displayList>
+</component>

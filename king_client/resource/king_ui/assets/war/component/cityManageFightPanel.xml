@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,600" pivot="0.5,0.5">
+  <displayList>
+    <component id="n33_bo40" name="bg" src="qg2m2q" fileName="component/AdjustBg.xml" pkg="864gshxx" xy="0,0" visible="false" alpha="0"/>
+    <loader id="n24_u5xl" name="n24" xy="-5,0" size="410,520" url="ui://dvmsogfra64j2l" fill="scaleFree"/>
+    <list id="n28_t208" name="list" xy="0,5" size="400,510" overflow="scroll" lineGap="5" defaultItem="ui://2ipmzghtt20890" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n29_t208" name="attackBtn" src="t2089d" fileName="component/cityFightNew1.xml" xy="5,530" size="100,62">
+      <Button icon="ui://2ipmzghtpgn0ad"/>
+    </component>
+    <component id="n30_t208" name="defenseBtn" src="bo40aw" fileName="component/cityFightNew2.xml" xy="150,530" size="100,62">
+      <Button icon="ui://2ipmzghtpgn0af"/>
+    </component>
+    <component id="n31_t208" name="moveBtn" src="bo40ax" fileName="component/cityFightNew3.xml" xy="295,530" size="100,62">
+      <Button icon="ui://2ipmzghtpgn0ah"/>
+    </component>
+    <text id="n32_pgn0" name="emptyHint" xy="0,243" size="400,34" fontSize="30" color="#666666" align="center" leading="0" autoSize="none" text="#TEXT_60375"/>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Scale" tween="true" startValue="0.8,0.9" endValue="1,1" duration="6" ease="Quart.Out"/>
+  </transition>
+</component>

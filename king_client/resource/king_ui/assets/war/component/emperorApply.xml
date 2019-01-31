@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,700" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n17_j66l" name="n17" xy="0,0" size="480,700" url="ui://739g5ytiri662b" fill="scaleFree"/>
+    <component id="n18_j66l" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="420,10"/>
+    <loader id="n20_j66l" name="bottom" xy="15,130" size="450,250" touchable="false" url="ui://739g5ytiyykel" fill="scaleFree"/>
+    <list id="n21_j66l" name="playerList" xy="15,135" size="450,240" layout="flow_hz" overflow="scroll" scrollBarFlags="4" scrollBar="auto" defaultItem="ui://2ipmzghtxjabj" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n25_j66l" name="confirmBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="150,620" size="180,60">
+      <Button title="竞选" titleFontSize="32" icon="ui://864gshxxj6006u"/>
+    </component>
+    <text id="n33_ooha" name="emptyHintText" xy="40,235" size="400,40" fontSize="30" color="#666666" align="center" vAlign="middle" leading="0" autoSize="none" text="暂无申请"/>
+    <text id="n36_xjab" name="txt2" xy="20,390" size="440,24" fontSize="20" color="#666666" vAlign="middle" leading="0" autoSize="height" text="#TEXT_60326"/>
+    <text id="n37_xjab" name="treasureTime" xy="90,65" size="300,32" font="楷体" fontSize="24" color="#00ffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#333333" text="剩余：23小时23分"/>
+    <text id="n39_xjab" name="goldInput" xy="240,470" size="20,34" fontSize="30" color="#ffff00" align="center" vAlign="middle" leading="0" strokeColor="#000000" singleLine="true" text="1">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <loader id="n40_xjab" name="n40" xy="200,472" size="30,30" url="ui://864gshxxnf1s9a" fill="scaleFree">
+      <relation target="n39_xjab" sidePair="right-left,middle-middle"/>
+    </loader>
+    <text id="n41_myl1" name="txt1" xy="182,100" size="115,24" fontSize="20" color="#666666" align="center" vAlign="middle" leading="0" text="#TEXT_60325">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <loader id="n42_u5xl" name="n42" xy="140,5" size="200,65" url="ui://864gshxxroydj" autoSize="true"/>
+    <loader id="n43_u5xl" name="n43" xy="165,11" size="150,51" url="ui://864gshxxu5xld8" autoSize="true"/>
+    <component id="n44_n91y" name="goldCnt" src="n91ydh" fileName="component/Slider1.xml" pkg="864gshxx" xy="90,505" size="300,18">
+      <Slider max="100"/>
+    </component>
+    <text id="n46_n91y" name="goldMaxCnt" xy="128,565" size="221,28" fontSize="24" align="center" vAlign="middle" leading="0" singleLine="true" text="我的金币：99999999">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Scale" tween="true" startValue="0.8,0.9" endValue="1,1" duration="6" ease="Quart.Out"/>
+  </transition>
+</component>

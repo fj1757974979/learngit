@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="140,180" opaque="false">
+  <displayList>
+    <loader id="n1_l90u" name="bottom" xy="0,0" size="140,180" url="ui://739g5ytiyyke18" fill="scaleFree">
+      <relation target="" sidePair="right-right,middle-middle"/>
+    </loader>
+    <component id="n42_kv3d" name="viewBtn" src="qifi1d" fileName="component/functionBtn2.xml" pkg="864gshxx" xy="30,15" size="100,50">
+      <relation target="n1_l90u" sidePair="center-center,top-top"/>
+      <Button title="#TEXT_70059" titleFontSize="28" sound="ui://864gshxxlr3f2n"/>
+    </component>
+    <component id="n43_kv3d" name="fightBtn" src="qifi1d" fileName="component/functionBtn2.xml" pkg="864gshxx" xy="30,70" size="100,50">
+      <relation target="n1_l90u" sidePair="center-center,top-top"/>
+      <Button title="#TEXT_70060" titleFontSize="28" sound="ui://864gshxxlr3f2n"/>
+    </component>
+    <component id="n48_jbrh" name="chatBtn" src="qifi1d" fileName="component/functionBtn2.xml" pkg="864gshxx" xy="30,125" size="100,50">
+      <relation target="n1_l90u" sidePair="center-center,top-top"/>
+      <Button title="#TEXT_70061" titleFontSize="28" sound="ui://864gshxxlr3f2n"/>
+    </component>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Scale" tween="true" startValue="0.8,0.9" endValue="1,1" duration="6" ease="Quart.Out"/>
+  </transition>
+</component>

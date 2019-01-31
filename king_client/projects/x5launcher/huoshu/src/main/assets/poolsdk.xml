@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+
+    <sdkconfig
+        YA_APPID="5b07ac27d8aa0f29fda4f712"
+        YA_APPKEY="cf580d0911a264633b1a826b242d44eb"
+        gamesimplename="lzd"
+        sdksimplename="i9133"
+        sdkversioncode="V1_0"
+        channelparameter1=""
+        channelparameter2=""
+        custom=""
+        gamechannelid=""
+        logincheckurl="http://login.public.sdk.gzyouai.com/logincheck/check"
+        paycheckurl="http://pay.public.sdk.gzyouai.com/paycheck/confirm"
+        payorderurl="http://pay.public.sdk.gzyouai.com/paycheck/create"
+        usertype="gssaXIIEiL0=" />
+
+</config>

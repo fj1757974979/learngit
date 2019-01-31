@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="440,662" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n0_xjab" name="n0" xy="-10,5" size="460,652" url="ui://2ipmzghtl2zza3" fill="scaleFree">
+      <relation target="" sidePair="height-height,middle-middle"/>
+    </loader>
+    <text id="n1_xjab" name="n1" xy="157,50" size="125,34" group="n20_xjab" fontSize="30" leading="0" text="准备出征">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <component id="n2_xjab" name="confirmBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="130,560" size="180,60" group="n20_xjab">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+      <Button title="出发" titleFontSize="32" icon="ui://864gshxxj6006u"/>
+    </component>
+    <component id="n4_xjab" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="350,40" group="n20_xjab"/>
+    <text id="n26_gv98" name="n26" xy="45,120" size="350,28" group="n20_xjab" fontSize="24" leading="0" autoSize="none" text="出征城市：">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <text id="n33_ej80" name="n33" xy="45,336" size="350,50" group="n20_xjab" fontSize="20" color="#666666" align="center" leading="0" autoSize="none" text="战斗失败后，消耗1点粮草可整顿队伍重新战斗。">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <loader id="n35_wwgm" name="n35" xy="101,150" size="238,64" group="n20_xjab" touchable="false" url="ui://2ipmzghtonso6e" fill="scaleFree" autoSize="true">
+      <relation target="" sidePair="bottom-bottom"/>
+    </loader>
+    <text id="n36_wwgm" name="cityName" xy="175,163" size="90,38" group="n20_xjab" fontSize="30" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" singleLine="true" text="长沙">
+      <relation target="" sidePair="bottom-bottom"/>
+    </text>
+    <text id="n32_ej80" name="n32" xy="45,240" size="350,28" group="n20_xjab" fontSize="24" leading="0" autoSize="none" text="携带粮草：">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <component id="n34_ej80" name="buyFoodBtn" src="gv9813" fileName="component/addBtn.xml" xy="350,282" size="40,40" group="n20_xjab"/>
+    <text id="n42_rzn9" name="dayCnt" xy="269,168" size="70,28" group="n20_xjab" fontSize="24" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="height" singleLine="true" text="3天">
+      <relation target="" sidePair="bottom-bottom"/>
+    </text>
+    <loader id="n43_rzn9" name="n43" xy="101,270" size="238,64" group="n20_xjab" touchable="false" url="ui://2ipmzghtonso6e" fill="scaleFree" autoSize="true">
+      <relation target="" sidePair="bottom-bottom"/>
+    </loader>
+    <text id="n41_onso" name="cnt1" xy="190,282" size="59,40" group="n20_xjab" fontSize="36" color="#ffffff" align="center" vAlign="middle" leading="0" strokeColor="#000000" text="5/5"/>
+    <loader id="n40_onso" name="rewardIcon1" xy="110,282" size="40,40" group="n20_xjab" url="ui://2ipmzghtonso6f" fill="scaleFree"/>
+    <group id="n20_xjab" name="n20" xy="45,40" size="359,580" advanced="true"/>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Alpha" target="n20_xjab" value="0"/>
+    <item time="0" type="Size" tween="true" startValue="-,80" endValue="-,662" duration="9"/>
+    <item time="9" type="Alpha" target="n20_xjab" tween="true" startValue="0" endValue="1" duration="6"/>
+  </transition>
+</component>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="440,121">
+  <displayList>
+    <loader id="n6_jbrh" name="bottom" xy="70,31" size="330,87" touchable="false" url="ui://739g5ytiyyke11" fill="scaleFree">
+      <relation target="n7_jbrh" sidePair="height-height,top-top"/>
+    </loader>
+    <loader id="n17_yyke" name="n17" xy="67,43" size="10,8" touchable="false" url="ui://739g5ytiyyke12">
+      <relation target="n6_jbrh" sidePair="right-left,top-top"/>
+    </loader>
+    <component id="n21_j7k2" name="head" src="md4a33k" fileName="component/head.xml" pkg="739g5yti" xy="0,0" size="70,70" group="n14_j7l7"/>
+    <text id="n3_jbrh" name="time" xy="380,5" size="55,24" group="n14_j7l7" fontSize="20" color="#666666" align="right" vAlign="middle" leading="0" text="11:22">
+      <relation target="" sidePair="right-right"/>
+    </text>
+    <text id="n4_jbrh" name="name" xy="78,5" size="85,24" group="n14_j7l7" fontSize="20" color="#ffffff" vAlign="middle" leading="0" strokeColor="#2c2c2c" singleLine="true" text="系统通知">
+      <relation target="n7_jbrh" sidePair="left-left,bottom-top"/>
+    </text>
+    <text id="n7_jbrh" name="title" xy="83,46" size="310,64" group="n14_j7l7" fontSize="20" leading="0" autoSize="height" text="【长沙太守】无敌铁拳孙中山 从【清】脱离，建立了新的势力，国号为 【民】。">
+      <relation target="" sidePair="left-left,top-top"/>
+    </text>
+    <group id="n14_j7l7" name="contentGrp" xy="0,0" size="435,110" advanced="true"/>
+  </displayList>
+  <relation target="n7_jbrh" sidePair="height-height"/>
+</component>

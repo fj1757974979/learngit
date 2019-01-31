@@ -1,0 +1,16 @@
+
+{
+            "EQ1": {"__id__": "EQ1", "name": "#TEXT_11001", "icon": "eq1", "iconSmall": "eq1_s", "version": 0, "skill": [5001], "type": 2 },
+			"EQ2": {"__id__": "EQ2", "name": "#TEXT_11002", "icon": "eq2", "iconSmall": "eq2_s", "version": 0, "skill": [5002], "type": 1 },
+			"EQ3": {"__id__": "EQ3", "name": "#TEXT_11003", "icon": "eq3", "iconSmall": "eq3_s", "version": 0, "skill": [5003, 5007, 5008, 5009], "type": 2 },
+			"EQ4": {"__id__": "EQ4", "name": "#TEXT_11004", "icon": "eq4", "iconSmall": "eq4_s", "version": 0, "skill": [5004], "type": 3 },
+			"EQ5": {"__id__": "EQ5", "name": "#TEXT_11005", "icon": "eq5", "iconSmall": "eq5_s", "version": 0, "skill": [5005], "type": 3 },
+			"EQ6": {"__id__": "EQ6", "name": "#TEXT_11006", "icon": "eq6", "iconSmall": "eq6_s", "version": 0, "skill": [5006], "type": 1 },
+			"EQ7": {"__id__": "EQ7", "name": "#TEXT_11007", "icon": "eq7", "iconSmall": "eq7_s", "version": 0, "skill": [5011], "type": 4 },
+			"EQ8": {"__id__": "EQ8", "name": "#TEXT_11008", "icon": "eq8", "iconSmall": "eq8_s", "version": 0, "skill": [5012, 5015, 5016], "type": 1 },
+			"EQ9": {"__id__": "EQ9", "name": "#TEXT_11009", "icon": "eq9", "iconSmall": "eq9_s", "version": 0, "skill": [5013], "type": 4 },
+			"EQ10": {"__id__": "EQ10", "name": "#TEXT_11010", "icon": "eq10", "iconSmall": "eq10_s", "version": 0, "skill": [5017], "type": 2 },
+			"EQ11": {"__id__": "EQ11", "name": "#TEXT_11011", "icon": "eq11", "iconSmall": "eq11_s", "version": 0, "skill": [5018], "type": 1 },
+			"EQ12": {"__id__": "EQ12", "name": "#TEXT_11012", "icon": "eq12", "iconSmall": "eq12_s", "version": 0, "skill": [5019], "type": 3 }
+   }
+    

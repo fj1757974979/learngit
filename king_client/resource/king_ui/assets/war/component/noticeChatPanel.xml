@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,800" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n1_jbrh" name="n1" xy="-4,50" size="488,700" touchable="false" url="ui://dvmsogfrgtjh5i" fill="scaleFree">
+      <relation target="" sidePair="height-height"/>
+    </loader>
+    <component id="n6_mhry" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="410,70">
+      <Button title="确定" icon="ui://864gshxxj6006u"/>
+    </component>
+    <loader id="n8_n91y" name="n8" xy="140,65" size="200,65" url="ui://864gshxxroydj" autoSize="true"/>
+    <component id="n11_iro7" name="chatCom" src="jbrh1" fileName="component/worldChat.xml" pkg="739g5yti" xy="15,125"/>
+    <loader id="n13_uy1s" name="n13" xy="165,71" size="150,51" url="ui://864gshxxuy1sds" autoSize="true"/>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Scale" tween="true" startValue="0.5,0.5" endValue="1,1" duration="6"/>
+  </transition>
+</component>

@@ -1,0 +1,79 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.openew.sdks.huoshu">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true">
+
+        <receiver
+            android:name="com.gzyouai.fengniao.sdk.framework.AppInstallReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <!--activity
+            android:name="com.youai.sdk.YouaiSDK"
+            android:label="youai_sdk"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Dialog" />
+
+        <service
+            android:name="com.youai.sdk.YouaiService"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="com.youai.sdk.YouaiService" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.youai.sdk.FloatViewService"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.youai.sdk.FloatViewService" />
+            </intent-filter>
+        </service>
+
+        <receiver android:name="com.youai.sdk.Receiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </receiver-->
+
+        <activity
+            android:name="com.alipay.sdk.app.H5PayActivity"
+            android:configChanges="keyboardHidden|navigation|orientation"
+            android:exported="false"
+            android:screenOrientation="behind" />
+        <activity
+            android:name="com.alipay.sdk.auth.AuthActivity"
+            android:configChanges="keyboardHidden|navigation|orientation"
+            android:exported="false"
+            android:screenOrientation="behind" />
+        <activity
+            android:name=".wxapi.WXPayEntryActivity"
+            android:exported="true"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".wxapi.WXEntryActivity"
+            android:exported="true"
+            android:launchMode="singleTop" />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,620">
+  <displayList>
+    <component id="n69_xjab" name="independeBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="10,560" size="100,50">
+      <Button title="独立" titleFontSize="30" icon="ui://864gshxxj6006x"/>
+    </component>
+    <component id="n78_xjab" name="memberBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="290,560" size="100,50">
+      <Button title="献城" titleFontSize="30" icon="ui://864gshxxj6006x"/>
+    </component>
+    <component id="n98_ir7y" name="bg1" src="ir7yb3" fileName="component/cityButton.xml" xy="0,5" size="400,100"/>
+    <text id="n99_ir7y" name="title1" xy="125,25" size="149,37" fontSize="32" color="#ffffff" align="center" vAlign="middle" leading="0" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="任免(5/7)">
+      <relation target="n98_ir7y" sidePair="center-center"/>
+    </text>
+    <text id="n100_ir7y" name="txt1" xy="57,70" size="285,24" fontSize="20" color="#666666" align="center" vAlign="middle" leading="0" text="太守任命官员或是官员自己辞职">
+      <relation target="n98_ir7y" sidePair="center-center"/>
+    </text>
+    <component id="n101_ir7y" name="bg2" src="ir7yb3" fileName="component/cityButton.xml" xy="0,115" size="400,100"/>
+    <text id="n102_ir7y" name="title2" xy="163,135" size="69,37" fontSize="32" color="#ffffff" align="center" vAlign="middle" leading="0" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="政令">
+      <relation target="n101_ir7y" sidePair="center-center"/>
+    </text>
+    <text id="n103_ir7y" name="txt2" xy="65,180" size="265,24" fontSize="20" color="#666666" align="center" vAlign="middle" leading="0" text="通过发布政令来建设城市属性">
+      <relation target="n101_ir7y" sidePair="center-center"/>
+    </text>
+    <component id="n104_ir7y" name="bg3" src="ir7yb3" fileName="component/cityButton.xml" xy="0,225" size="400,100"/>
+    <text id="n105_ir7y" name="title3" xy="163,245" size="69,37" fontSize="32" color="#ffffff" align="center" vAlign="middle" leading="0" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="军令">
+      <relation target="n104_ir7y" sidePair="center-center"/>
+    </text>
+    <text id="n106_ir7y" name="txt3" xy="65,290" size="265,24" fontSize="20" color="#666666" align="center" vAlign="middle" leading="0" text="通过发布军令来制定作战计划">
+      <relation target="n104_ir7y" sidePair="center-center"/>
+    </text>
+  </displayList>
+</component>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080" designImage="ui://164za4d7t03j4" designImageLayer="1">
+  <displayList>
+    <image id="n0_t03j" name="bg" src="t03j2" xy="0,0" size="1920,1080"/>
+    <image id="n1_t03j" name="n1" src="t03j1" xy="1738,101">
+      <relation target="" sidePair="right-right"/>
+    </image>
+    <component id="n2_t03j" name="loginBtn" src="royd5" xy="1438,896"/>
+    <graph id="n4_t03j" name="nameTextBg" xy="870,521" size="179,38" type="rect"/>
+    <text id="n3_t03j" name="nameTextInput" xy="870,521" size="179,38" input="true" prompt="请输入名字" maxLength="10" fontSize="26" align="center" vAlign="middle" leading="0" letterSpacing="2" autoSize="none" text="">
+      <relation target="n4_t03j" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>

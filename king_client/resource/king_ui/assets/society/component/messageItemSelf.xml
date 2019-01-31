@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="440,175">
+  <displayList>
+    <text id="n3_jbrh" name="time" xy="20,0" size="400,40" fontSize="16" color="#666666" align="center" vAlign="middle" leading="0" autoSize="none" text="11:22"/>
+    <loader id="n6_jbrh" name="bottom" xy="0,57" pivot="1,0" size="370,105" touchable="false" url="ui://739g5ytiyyke1a" fill="scaleFree">
+      <relation target="n7_jbrh" sidePair="height-height,top-top"/>
+    </loader>
+    <loader id="n12_yyke" name="n12" xy="363,68" pivot="0.5,0.5" size="10,8" touchable="false" url="ui://739g5ytiyyke1b">
+      <relation target="n6_jbrh" sidePair="left-right,top-top"/>
+    </loader>
+    <component id="n17_j7k2" name="head" src="md4a33k" fileName="component/head.xml" xy="370,25" size="70,70" group="n9_j7l7"/>
+    <text id="n4_jbrh" name="name" xy="160,30" size="205,24" group="n9_j7l7" fontSize="20" color="#ffffff" align="right" vAlign="middle" leading="0" strokeColor="#2c2c2c" text="对酒当歌，人生几何？">
+      <relation target="n7_jbrh" sidePair="right-right,bottom-top"/>
+    </text>
+    <text id="n15_61kp" name="rankTitleText" xy="382,92" size="45,20" group="n9_j7l7" fontSize="16" color="#333333" align="center" vAlign="middle" leading="0" bold="true" text="专家I">
+      <relation target="n17_j7k2" sidePair="center-center"/>
+    </text>
+    <image id="n16_qkz0" name="countryFlagImg" src="vfpog" fileName="headicon1.png" xy="128,32" size="30,18" group="n9_j7l7" aspect="true" visible="false">
+      <relation target="n4_jbrh" sidePair="right-left,middle-middle"/>
+    </image>
+    <text id="n7_jbrh" name="messageTxt" xy="10,70" pivot="1,0" size="350,84" group="n9_j7l7" fontSize="20" align="right" leading="0" autoSize="height" text="一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十">
+      <relation target="" sidePair="right-right,top-top"/>
+    </text>
+    <group id="n9_j7l7" name="contentGrp" xy="10,25" size="430,129" advanced="true">
+      <relation target="n3_jbrh" sidePair="top-bottom"/>
+    </group>
+  </displayList>
+  <relation target="n7_jbrh" sidePair="height-height"/>
+</component>

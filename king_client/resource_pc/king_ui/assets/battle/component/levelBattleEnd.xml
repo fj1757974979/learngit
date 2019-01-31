@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080" designImage="ui://ryvvr3p0x88ne" designImageLayer="1">
+  <controller name="result" pages="0,win,1,lose" selected="0"/>
+  <displayList>
+    <component id="n2_x88n" name="winBg" src="qg2mu" xy="0,0" size="1920,1080">
+      <gearDisplay controller="result" pages="0"/>
+    </component>
+    <image id="n15_dwsy" name="n15" src="x88no" xy="556,-106">
+      <gearDisplay controller="result" pages="0"/>
+    </image>
+    <component id="n5_x88n" name="loseBg" src="qg2mv" xy="0,0" size="1920,1080">
+      <gearDisplay controller="result" pages="1"/>
+    </component>
+    <loader id="n7_x88n" name="n7" xy="584,22" size="752,319" url="ui://ryvvr3p0x88nd">
+      <gearDisplay controller="result" pages="0"/>
+    </loader>
+    <loader id="n8_x88n" name="n8" xy="585,4" size="750,381" url="ui://ryvvr3p0x88nl">
+      <gearDisplay controller="result" pages="1"/>
+    </loader>
+    <list id="n9_x88n" name="cardList" xy="0,0" size="1920,1080" layout="flow_hz" selectionMode="none" overflow="hidden" lineGap="9" colGap="3" lineItemCount="5" defaultItem="ui://rdb04el0uoofm" align="center"/>
+    <text id="n10_s3df" name="noRewardTips" xy="777,855" size="355,39" fontSize="35" color="#ffffff" strokeColor="#000000" strokeSize="3" text="多次通关不会获得奖励"/>
+    <loader id="n14_s3df" name="rewardResBg" xy="636,508" size="648,63" url="ui://864gshxxx88n1e" playing="false">
+      <gearDisplay controller="result" pages="0"/>
+    </loader>
+    <component id="n13_s3df" name="rewardResBar" src="dlva1o" pkg="864gshxx" xy="694,507" size="465,68">
+      <gearDisplay controller="result" pages="0"/>
+      <relation target="" sidePair="center-center"/>
+      <Label title="1" titleFontSize="0"/>
+    </component>
+    <text id="n16_qp5h" name="rewardTitle" xy="643,455" size="205,44" fontSize="40" color="#ffffff" strokeColor="#000000" strokeSize="3" text="通关获得：">
+      <gearDisplay controller="result" pages="0"/>
+    </text>
+  </displayList>
+</component>

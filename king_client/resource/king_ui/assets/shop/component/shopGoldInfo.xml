@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="300,350" pivot="0.5,0.5">
+  <displayList>
+    <graph id="n48_tn1u" name="closeBg" xy="-90,-225" pivot="0.5,0.5" size="480,800" type="rect" lineColor="#00000000" fillColor="#00ffffff">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <loader id="n1_l90u" name="n1" xy="0,0" size="300,350" url="ui://zfg0revpy4nl1k" fill="scaleFree"/>
+    <component id="n28_utpt" name="btnBuy" src="nf1s9c" fileName="component/jadeBtn.xml" pkg="864gshxx" xy="75,270" size="150,50">
+      <Button title="999" sound="ui://864gshxxlr3f2n"/>
+    </component>
+    <text id="n39_nf1s" name="name" xy="42,15" size="203,34" font="楷体" fontSize="30" align="center" vAlign="middle" leading="0" autoSize="shrink" text="购买一把金币？">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <loader id="n43_ryqp" name="bg1" xy="85,110" size="130,186" scale="1,0.75" url="ui://994sajasryqpj" autoSize="true"/>
+    <loader id="n46_ryqp" name="icon" xy="82,110" size="135,136" touchable="false" url="ui://994sajasryqpv" align="center" vAlign="middle" fill="scaleFree" autoSize="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n41_gl62" name="goldCnt" xy="117,70" size="71,34" font="楷体" fontSize="30" color="#ffff00" align="center" vAlign="middle" leading="0" bold="true" strokeColor="#333333" text="1000">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n47_hrlg" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="240,5">
+      <Button sound="ui://864gshxxyyke6m"/>
+    </component>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Scale" tween="true" startValue="0.2,0.2" endValue="1,1" duration="6" ease="Back.Out"/>
+    <item time="0" type="Sound" value="ui://864gshxxfuyj45,100"/>
+    <item time="0" type="XY" tween="true" startValue="0,0" endValue="0,0" duration="3" ease="Sine.Out"/>
+  </transition>
+</component>

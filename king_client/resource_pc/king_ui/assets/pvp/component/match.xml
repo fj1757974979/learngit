@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080" designImageLayer="1">
+  <controller name="campCtrl" pages="0,,1,,2," selected="0"/>
+  <controller name="weiPoolCtrl" pages="0,,1,,3," selected="0"/>
+  <controller name="shuPoolCtrl" pages="0,,1,,2," selected="0"/>
+  <controller name="wuPoolCtrl" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <component id="n35_jed2" name="bg" src="qg2m2q" pkg="864gshxx" xy="0,0"/>
+    <component id="n0_jed2" name="backBtn" src="royda" pkg="864gshxx" xy="7,5"/>
+    <component id="n1_jed2" name="diyBtn" src="dlva1x" pkg="864gshxx" xy="1442,676">
+      <Button title="自制卡牌"/>
+    </component>
+    <component id="n3_jed2" name="weiNextPoolBtn" src="bzh4o" pkg="864gshxx" xy="1026,49"/>
+    <component id="n4_jed2" name="weiPrePoolBtn" src="bzh4p" pkg="864gshxx" xy="826,47"/>
+    <component id="n10_jed2" name="weiRadiioBtn" src="jed28" xy="1175,49">
+      <Button checked="true" controller="campCtrl" page="0"/>
+    </component>
+    <component id="n11_jed2" name="shuRadiioBtn" src="jed28" xy="1174,322">
+      <Button controller="campCtrl" page="1"/>
+    </component>
+    <component id="n12_jed2" name="wuRadiioBtn" src="jed28" xy="1174,591">
+      <Button controller="campCtrl" page="2"/>
+    </component>
+    <component id="n13_jed2" name="n13" src="jed2t" pkg="864gshxx" xy="902,60" scale="1.5,1.5">
+      <gearDisplay controller="weiPoolCtrl" pages="1"/>
+      <Label title="2" titleColor="#ffffff"/>
+    </component>
+    <component id="n14_jed2" name="n14" src="jed2t" pkg="864gshxx" xy="902,60" size="77,32" scale="1.5,1.5">
+      <gearDisplay controller="weiPoolCtrl" pages="0"/>
+      <Label title="1" titleColor="#ffffff"/>
+    </component>
+    <list id="n15_jed2" name="weiPoolList" xy="547,126" size="834,173" pageController="weiPoolCtrl" layout="pagination" selectionMode="none" overflow="scroll" scroll="horizontal" scrollBarFlags="138" scrollBar="hidden" defaultItem="ui://864gshxxjed2u" vAlign="middle">
+      <item name="pool1"/>
+      <item name="pool2"/>
+      <item name="pool3"/>
+    </list>
+    <component id="n16_jed2" name="scoreProgressBar" src="jed210" pkg="864gshxx" xy="622,892"/>
+    <text id="n17_jed2" name="pvpLevelText" xy="516,893" size="80,44" font="楷体" fontSize="40" color="#ffffff" strokeColor="#000000" strokeSize="2" text="Lv1:"/>
+    <component id="n20_jed2" name="matchBtn" src="jed213" pkg="864gshxx" xy="622,957">
+      <Button title="休闲匹配" titleFontSize="50"/>
+    </component>
+    <list id="n21_jed2" name="shuPoolList" xy="540,396" size="834,173" pageController="shuPoolCtrl" layout="pagination" selectionMode="none" overflow="scroll" scroll="horizontal" scrollBarFlags="138" scrollBar="hidden" defaultItem="ui://864gshxxjed2u" vAlign="middle">
+      <item name="pool1"/>
+      <item name="pool2"/>
+      <item name="pool3"/>
+    </list>
+    <list id="n22_jed2" name="wuPoolList" xy="540,666" size="834,173" pageController="wuPoolCtrl" layout="pagination" selectionMode="none" overflow="scroll" scroll="horizontal" scrollBarFlags="138" scrollBar="hidden" defaultItem="ui://864gshxxjed2u" vAlign="middle">
+      <item name="pool1"/>
+      <item name="pool2"/>
+      <item name="pool3"/>
+    </list>
+    <component id="n23_jed2" name="n23" src="jed2t" pkg="864gshxx" xy="902,336" size="77,32" scale="1.5,1.5">
+      <gearDisplay controller="shuPoolCtrl" pages="0"/>
+      <Label title="1" titleColor="#ffffff"/>
+    </component>
+    <component id="n24_jed2" name="n24" src="jed2t" pkg="864gshxx" xy="902,602" scale="1.5,1.5">
+      <gearDisplay controller="wuPoolCtrl" pages="0"/>
+      <Label title="1" titleColor="#ffffff"/>
+    </component>
+    <component id="n25_jed2" name="shuNextPoolBtn" src="bzh4o" pkg="864gshxx" xy="1026,326"/>
+    <component id="n26_jed2" name="shuPrePoolBtn" src="bzh4p" pkg="864gshxx" xy="826,325"/>
+    <component id="n27_jed2" name="wuNextPoolBtn" src="bzh4o" pkg="864gshxx" xy="1026,591"/>
+    <component id="n28_jed2" name="wuPrePoolBtn" src="bzh4p" pkg="864gshxx" xy="826,590"/>
+    <component id="n30_jed2" name="n30" src="jed2t" pkg="864gshxx" xy="902,60" scale="1.5,1.5">
+      <gearDisplay controller="weiPoolCtrl" pages="3"/>
+      <Label title="3" titleColor="#ffffff"/>
+    </component>
+    <component id="n31_jed2" name="n31" src="jed2t" pkg="864gshxx" xy="902,336" scale="1.5,1.5">
+      <gearDisplay controller="shuPoolCtrl" pages="1"/>
+      <Label title="2" titleColor="#ffffff"/>
+    </component>
+    <component id="n32_jed2" name="n32" src="jed2t" pkg="864gshxx" xy="902,336" scale="1.5,1.5">
+      <gearDisplay controller="shuPoolCtrl" pages="2"/>
+      <Label title="3" titleColor="#ffffff"/>
+    </component>
+    <component id="n33_jed2" name="n33" src="jed2t" pkg="864gshxx" xy="902,602" scale="1.5,1.5">
+      <gearDisplay controller="wuPoolCtrl" pages="1"/>
+      <Label title="2" titleColor="#ffffff"/>
+    </component>
+    <component id="n34_jed2" name="n34" src="jed2t" pkg="864gshxx" xy="902,602" scale="1.5,1.5">
+      <gearDisplay controller="wuPoolCtrl" pages="2"/>
+      <Label title="3" titleColor="#ffffff"/>
+    </component>
+    <loader id="n36_jed2" name="n36" xy="407,422" size="115,115" url="ui://864gshxxjed214"/>
+    <loader id="n37_jed2" name="n37" xy="407,688" size="115,115" url="ui://864gshxxjed215"/>
+    <loader id="n38_jed2" name="n38" xy="408,152" size="115,115" url="ui://864gshxxjed216"/>
+    <component id="n41_dwsy" name="n41" src="qifi1d" pkg="864gshxx" xy="994,957">
+      <Button title="竞技匹配"/>
+    </component>
+  </displayList>
+</component>

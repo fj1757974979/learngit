@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  lzdios
+
+  Created by elliotlee on 2018/11/28.
+  Copyright © 2018年 egret. All rights reserved.
+*/
+"updateTitle" = "Memperbarui petunjuk";
+"updateMessage" = "versi baru tersedia di AppStore, memperbarui sekarang";
+"updateConfirm" = "memperbarui sekarang";
+"updateCancel" = "memperbarui kemudian";
+"loginCancel" = "Login canceled";
+"loginFail" = "Login failed";

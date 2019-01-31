@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="450,450">
+  <controller name="c1" pages="0,camp,1,card" selected="0">
+    <action type="play_transition" fromPage="0" toPage="1" transition="t1"/>
+  </controller>
+  <controller name="c2" pages="0,魏,1,蜀,2,吴" selected="0"/>
+  <displayList>
+    <component id="n0_b59w" name="background" src="qg2m2q" fileName="component/AdjustBg.xml" pkg="864gshxx" xy="0,0" size="450,450" visible="false"/>
+    <loader id="n27_p9m3" name="n27" xy="0,0" size="450,450" url="ui://zfg0revpy4nl1k" fill="scaleFree"/>
+    <text id="n17_b59w" name="txt1" xy="29,60" size="392,79" group="n11_b59w" font="楷体" fontSize="30" align="center" vAlign="middle" leading="0" autoSize="shrink" text="#TEXT_60260">
+      <relation target="n0_b59w" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n6_b59w" name="btnWei" src="b59wcf" fileName="component/btnCamp.xml" pkg="864gshxx" xy="30,150" size="120,120" group="n11_b59w">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button checked="true" icon="ui://kzx2kelpnkld6" controller="c2" page="0"/>
+    </component>
+    <component id="n7_b59w" name="btnShu" src="b59wcf" fileName="component/btnCamp.xml" pkg="864gshxx" xy="165,150" size="120,120" group="n11_b59w">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button icon="ui://kzx2kelpnkld5" controller="c2" page="1"/>
+    </component>
+    <component id="n8_b59w" name="btnWu" src="b59wcf" fileName="component/btnCamp.xml" pkg="864gshxx" xy="300,150" size="120,120" group="n11_b59w">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button icon="ui://kzx2kelpnkld7" controller="c2" page="2"/>
+    </component>
+    <component id="n9_b59w" name="nextBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="150,365" size="150,50" group="n11_b59w">
+      <relation target="n0_b59w" sidePair="center-center,middle-middle"/>
+      <Button title="#TEXT_70031" titleFontSize="28" icon="ui://864gshxxj6006t" sound="ui://864gshxxlr3f2n" controller="c1" page="1"/>
+    </component>
+    <group id="n11_b59w" name="camp" xy="29,60" size="392,355" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <text id="n24_mg9j" name="txt2" xy="56,20" size="337,34" group="n20_b59w" font="楷体" fontSize="30" align="center" vAlign="middle" leading="0" autoSize="shrink" text="#TEXT_60261">
+      <relation target="n0_b59w" sidePair="center-center,middle-middle"/>
+    </text>
+    <list id="n2_b59w" name="cardList" xy="25,70" size="400,300" group="n20_b59w" layout="flow_hz" selectionMode="multipleSingleClick" overflow="hidden" scrollBarRes="ui://864gshxxjzjo62," lineGap="9" colGap="3" lineItemCount="4" defaultItem="ui://rdb04el0uoofm" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n22_eybr" name="handCard" src="ea826n" fileName="component/rankhandCardGrid.xml" xy="0,866" group="n20_b59w" visible="false"/>
+    <text id="n19_b59w" name="txt3" xy="156,653" size="159,28" group="n20_b59w" visible="false" font="楷体" fontSize="24" color="#333333" align="center" vAlign="middle" leading="0" text="#TEXT_60262">
+      <relation target="n0_b59w" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n26_mg9j" name="txt4" xy="67,818" size="316,24" group="n20_b59w" visible="false" font="楷体" fontSize="20" color="#666666" align="center" vAlign="middle" leading="0" text="失败3场你可以重新选择阵营和卡牌">
+      <relation target="n0_b59w" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n21_b59w" name="fightBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="265,380" size="150,50" group="n20_b59w">
+      <relation target="n0_b59w" sidePair="center-center,middle-middle"/>
+      <Button title="#TEXT_60264" titleFontSize="28" icon="ui://864gshxxj6006t" sound="ui://864gshxxlr3f2n" controller="c1" page="1"/>
+    </component>
+    <component id="n28_j66l" name="refreshFreeBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="35,380" size="150,50" group="n20_b59w">
+      <relation target="n0_b59w" sidePair="center-center,middle-middle"/>
+      <Button title="#TEXT_60265" titleFontSize="28" icon="ui://864gshxxj6006u" sound="ui://864gshxxlr3f2n" controller="c1" page="1"/>
+    </component>
+    <component id="n29_j66l" name="refreshBtn" src="nf1s9c" fileName="component/jadeBtn.xml" pkg="864gshxx" xy="35,380" size="150,50" group="n20_b59w" visible="false">
+      <Button title="10" titleColor="#ffff00" titleFontSize="32" icon="ui://864gshxxlsshd0"/>
+    </component>
+    <group id="n20_b59w" name="card" xy="0,20" size="451,959" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+    <component id="n30_j66l" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="389,5">
+      <Button sound="ui://864gshxxyyke6m"/>
+    </component>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Alpha" target="n8_b59w" tween="true" startValue="0" endValue="1" duration="12" ease="Back.In"/>
+    <item time="0" type="Alpha" target="n7_b59w" tween="true" startValue="0" endValue="1" duration="12" ease="Back.In"/>
+    <item time="0" type="Alpha" target="n6_b59w" tween="true" startValue="0" endValue="1" duration="12" ease="Back.In"/>
+    <item time="0" type="Alpha" target="n9_b59w" tween="true" startValue="0" endValue="1" duration="12" ease="Back.In"/>
+  </transition>
+  <transition name="t1">
+    <item time="0" type="Alpha" target="n19_b59w" tween="true" startValue="0" endValue="1" duration="12" ease="Back.In"/>
+    <item time="0" type="Alpha" target="n20_b59w" tween="true" startValue="0" endValue="1" duration="12" ease="Back.In"/>
+  </transition>
+</component>

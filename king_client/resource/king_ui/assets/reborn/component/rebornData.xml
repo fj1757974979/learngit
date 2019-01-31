@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,780" overflow="scroll" scrollBarRes="ui://864gshxxjzjo62,">
+  <displayList>
+    <loader id="n10_lyri" name="txt1" xy="28,50" size="423,127" url="ui://47ikzi2ap8yyw" autoSize="true">
+      <relation target="" sidePair="center-center"/>
+    </loader>
+    <loader id="n38_m276" name="n38" xy="139,224" pivot="0.5,0.5" size="200,200" alpha="0.8" url="ui://dvmsogfrltzk2h" align="center" vAlign="middle" fill="scale"/>
+    <loader id="n25_pe5l" name="rankIcon" xy="140,250" pivot="0.5,0.5" size="200,150" url="ui://864gshxxgy104p" align="center" vAlign="middle" fill="scaleMatchWidth"/>
+    <text id="n26_pe5l" name="rankLevel" xy="192,308" size="95,34" fontSize="30" color="#ffffff" align="center" vAlign="middle" leading="0" strokeColor="#000033" shadowColor="#000033" shadowOffset="1,1" text="高级Ⅲ">
+      <relation target="n25_pe5l" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n32_m276" name="txt2" xy="118,200" size="245,28" fontSize="24" color="#ffffff" align="center" leading="0" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="[你的天梯段位将回到]">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n33_m276" name="txt3" xy="140,490" size="197,28" fontSize="24" color="#ffffff" align="center" leading="0" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="[你的卡牌将回到]">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <loader id="n34_m276" name="n34" xy="5,530" size="470,125" url="ui://dvmsogfrfm9324" fill="scaleFree"/>
+    <list id="n35_m276" name="cardList" xy="10,532" pivot="0.5,0.5" size="460,120" layout="row" selectionMode="none" overflow="scroll" scroll="horizontal" lineGap="5" colGap="5" defaultItem="ui://rdb04el0uoofj" align="center" vAlign="middle" autoClearItems="true">
+      <relation target="n34_m276" sidePair="top-top,center-center"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n36_m276" name="tip2" xy="0,660" size="480,50" fontSize="16" color="#333333" align="center" vAlign="middle" leading="0" autoSize="none" text="包含所有高级段位解锁的卡牌，且初始等级为2级。&#xA;提升段位后会自动获得曾经获得过的卡牌x1">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n37_m276" name="tip1" xy="0,410" size="480,50" fontSize="16" color="#333333" align="center" vAlign="middle" leading="0" autoSize="none" text="你的最好成绩将保留，相关玩法仍按照最高段位计算">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n39_m276" name="txt4" xy="140,740" size="197,28" fontSize="24" color="#ffffff" align="center" leading="0" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="[释权后你将得到]">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <loader id="n53_m276" name="bg3" xy="273,785" size="133,187" touchable="false" url="ui://994sajasal2v1a" fill="scaleFree"/>
+    <text id="n54_m276" name="cnt3" xy="300,934" size="77,28" font="楷体" fontSize="24" color="#ffffff" align="center" vAlign="middle" leading="0" strokeColor="#000000" text="x10000">
+      <relation target="n53_m276" sidePair="center-center,top-top"/>
+    </text>
+    <loader id="n55_m276" name="honorIcon" xy="290,819" size="100,100" touchable="false" url="ui://864gshxxroyd4" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <relation target="n53_m276" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n56_m276" name="bg1" xy="73,785" size="133,187" touchable="false" url="ui://994sajasal2v1b" fill="scaleFree"/>
+    <text id="n57_m276" name="cnt1" xy="124,934" size="29,28" font="楷体" fontSize="24" color="#ffffff" align="center" vAlign="middle" leading="0" strokeColor="#000000" text="x1">
+      <relation target="n56_m276" sidePair="center-center,top-top"/>
+    </text>
+    <loader id="n58_m276" name="treasureIcon" xy="90,819" size="100,100" touchable="false" url="ui://zfg0revpdez53w" align="center" vAlign="middle" fill="scaleMatchHeight">
+      <relation target="n56_m276" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n59_m276" name="tip3" xy="0,980" size="480,50" fontSize="16" color="#333333" align="center" vAlign="middle" leading="0" autoSize="none" text="你当前的段位决定了宝箱的奖励&#xA;你当前的牌库决定了功勋的奖励">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n62_m276" name="rebornBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="150,1610" size="180,60">
+      <relation target="" sidePair="center-center"/>
+      <Button title="我要释权" titleFontSize="32"/>
+    </component>
+    <text id="n63_m276" name="txt5" xy="153,1060" size="173,28" fontSize="24" color="#ffffff" align="center" leading="0" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="[功勋计算方式]">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n65_m276" name="n65" src="m276k" fileName="component/rebornDateItem.xml" xy="54,1100"/>
+    <component id="n66_m276" name="n66" src="m276k" fileName="component/rebornDateItem.xml" xy="54,1165"/>
+    <component id="n67_m276" name="n67" src="m276k" fileName="component/rebornDateItem.xml" xy="54,1230"/>
+    <component id="n68_m276" name="n68" src="m276k" fileName="component/rebornDateItem.xml" xy="54,1295"/>
+    <component id="n69_m276" name="n69" src="m276k" fileName="component/rebornDateItem.xml" xy="54,1360"/>
+    <component id="n70_m276" name="n70" src="m276o" fileName="component/rebornDateGoldItem.xml" xy="55,1425"/>
+    <component id="n71_m276" name="n71" src="m276l" fileName="component/rebornDateAllItem.xml" xy="54,1490"/>
+    <text id="n72_m276" name="tip4" xy="0,1555" size="480,50" fontSize="16" color="#333333" align="center" vAlign="middle" leading="0" autoSize="none" text="卡牌总数包含升级消耗的卡牌">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+</component>

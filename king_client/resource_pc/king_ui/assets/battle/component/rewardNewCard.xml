@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080">
+  <controller name="type" pages="0,new,1,uplevel" selected="0"/>
+  <displayList>
+    <loader id="n12_d65g" name="bg" xy="0,0" size="1920,1080" url="ui://ryvvr3p0x88nb">
+      <gearDisplay controller="type" pages="1"/>
+    </loader>
+    <loader id="n1_x88n" name="newCardLight" xy="556,0" size="807,669" url="ui://ryvvr3p0x88no"/>
+    <text id="n3_x88n" name="text1" xy="813,88" size="285,39" font="楷体" fontSize="35" color="#ffffff" align="center" vAlign="middle" leading="2" strokeColor="#000000" strokeSize="2" text="恭喜您获得新武将">
+      <gearDisplay controller="type" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <loader id="n8_x88n" name="img2" xy="623,706" size="673,202" url="ui://864gshxxx88n1h"/>
+    <text id="n9_x88n" name="skillDescTxt" xy="641,723" size="638,168" font="行楷-简 细体" fontSize="30" color="#ffffff" leading="0" autoSize="none" bold="true" strokeColor="#000000" text="斗狠2：进场时，若有敌方相邻，则＋2；否则－2&#xA;斗狠2：进场时，若有敌方相邻，则＋2；否则－2"/>
+    <component id="n2_x88n" name="card" src="bzh4r" pkg="rdb04el0" xy="842,186" pivot="0.5,0.5"/>
+    <text id="n10_s3df" name="tips" xy="687,596" size="539,39" fontSize="35" color="#ffffff" align="center" vAlign="middle" strokeColor="#000000" strokeSize="3" text="#cg＋#n表示该数值可能增大1点。">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <loader id="n5_x88n" name="img1" xy="870,456" size="150,42" scale="1.2,1.2" url="ui://864gshxxroydj" align="center" vAlign="middle" fill="scale"/>
+    <text id="n7_x88n" name="levelText" xy="915,465" size="89,33" font="行楷-简 粗体" fontSize="21" color="#ffffff" align="center" vAlign="middle" strokeColor="#333333" strokeSize="3" text="一级卡牌"/>
+    <graph id="n0_x88n" name="bgMask" xy="0,0" size="1920,1080" locked="true" type="rect" lineSize="0" lineColor="#00000000" fillColor="#00ffffff"/>
+    <component id="n4_x88n" name="preLevelBtn" src="bzh4o" pkg="864gshxx" xy="1014,446"/>
+    <component id="n6_x88n" name="nextLevelBtn" src="bzh4p" pkg="864gshxx" xy="834,448" size="71,65"/>
+    <loader id="n11_d65g" name="n11" xy="851,49" size="217,100" url="ui://864gshxxd65g26">
+      <gearDisplay controller="type" pages="1"/>
+    </loader>
+  </displayList>
+</component>

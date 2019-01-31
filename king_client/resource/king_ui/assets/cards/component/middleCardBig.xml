@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="192,248">
+  <displayList>
+    <loader id="n0_bzh4" name="baseImg" xy="0,0" size="192,248" url="ui://rdb04el0b950h9" fill="scaleFree"/>
+    <image id="n15_lr3f" name="cardImg" pkg="r43qceqx" src="uoof2j" fileName="999.png" xy="0,0" pivot="0.5,0.5" size="192,248"/>
+    <loader id="n3_bzh4" name="frontImg" xy="0,0" size="192,248" url="ui://rdb04el0g6zkhr" fill="scaleFree"/>
+    <loader id="n33_epib" name="nameImg" xy="162,0" size="30,84" url="ui://rdb04el0epibi6" fill="scaleFree"/>
+    <text id="n4_bzh4" name="nameText" xy="162,1" size="30,82" font="微软雅黑" fontSize="22" color="#ffffff" align="center" vAlign="middle" leading="1" autoSize="none" bold="true" text="夏侯顿"/>
+    <loader id="n34_g0c1" name="levelFlagWnd" xy="144,9" size="36,50" visible="false" url="ui://rdb04el0g0c13jv" fill="scale"/>
+    <component id="n7_bzh4" name="upNum" src="tn1uj1" fileName="component/cardbNum.xml" xy="79,2" size="33,37"/>
+    <component id="n8_bzh4" name="downNum" src="tn1uj1" fileName="component/cardbNum.xml" xy="79,209" size="33,37"/>
+    <component id="n9_bzh4" name="leftNum" src="tn1uj1" fileName="component/cardbNum.xml" xy="3,105" size="33,37"/>
+    <component id="n10_bzh4" name="rightNum" src="tn1uj1" fileName="component/cardbNum.xml" xy="153,105" size="33,37"/>
+    <text id="n11_bzh4" name="upNumOffset" xy="101,-2" size="14,21" font="微软雅黑" fontSize="17" color="#33ff66" align="center" vAlign="middle" strokeColor="#000000" text="+"/>
+    <text id="n12_bzh4" name="leftNumOffset" xy="29,103" size="14,21" font="微软雅黑" fontSize="17" color="#33ff66" align="center" vAlign="middle" strokeColor="#000000" text="+"/>
+    <text id="n13_bzh4" name="rightNumOffset" xy="176,102" size="14,21" font="微软雅黑" fontSize="17" color="#33ff66" align="center" vAlign="middle" strokeColor="#000000" text="+"/>
+    <text id="n14_bzh4" name="downNumOffset" xy="102,208" size="14,21" font="微软雅黑" fontSize="17" color="#33ff66" align="center" vAlign="middle" strokeColor="#000000" text="+"/>
+    <loader id="n29_l8xi" name="skill4Bottom" xy="125,156" size="19,44" group="n32_l8xi" url="ui://rdb04el0l8xihb" fill="scaleFree"/>
+    <loader id="n30_l8xi" name="skill3Bottom" xy="102,156" size="19,44" group="n32_l8xi" url="ui://rdb04el0l8xihb" fill="scaleFree"/>
+    <loader id="n31_l8xi" name="skill2Bottom" xy="79,156" size="19,44" group="n32_l8xi" url="ui://rdb04el0l8xihb" fill="scaleFree"/>
+    <loader id="n28_l8xi" name="skill1Bottom" xy="56,156" size="19,44" group="n32_l8xi" url="ui://rdb04el0l8xihb" fill="scaleFree"/>
+    <text id="n5_bzh4" name="skill1Text" xy="56,157" size="19,42" group="n32_l8xi" font="微软雅黑" fontSize="13" color="#ffffff" align="center" vAlign="middle" leading="1" autoSize="none" text="邺炎一">
+      <relation target="n28_l8xi" sidePair="center-center,middle-middle"/>
+      <relation target="n28_l8xi" sidePair="width-width,height-height"/>
+    </text>
+    <text id="n6_bzh4" name="skill2Text" xy="79,157" size="19,42" group="n32_l8xi" font="微软雅黑" fontSize="13" color="#ffffff" align="center" vAlign="middle" leading="1" autoSize="none" text="据守二">
+      <relation target="n31_l8xi" sidePair="center-center,middle-middle"/>
+      <relation target="n31_l8xi" sidePair="width-width,height-height"/>
+    </text>
+    <text id="n17_paou" name="skill3Text" xy="102,157" size="19,42" group="n32_l8xi" font="微软雅黑" fontSize="13" color="#ffffff" align="center" vAlign="middle" leading="1" autoSize="none" text="邺炎三">
+      <relation target="n30_l8xi" sidePair="center-center,middle-middle"/>
+      <relation target="n30_l8xi" sidePair="width-width,height-height"/>
+    </text>
+    <text id="n18_paou" name="skill4Text" xy="125,157" size="19,42" group="n32_l8xi" font="微软雅黑" fontSize="13" color="#ffffff" align="center" vAlign="middle" leading="1" autoSize="none" text="邺炎四">
+      <relation target="n29_l8xi" sidePair="center-center,middle-middle"/>
+      <relation target="n29_l8xi" sidePair="width-width,height-height"/>
+    </text>
+    <group id="n32_l8xi" name="skillGroup" xy="56,156" size="88,44" advanced="true" collapsed="true"/>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Scale" target="n15_lr3f" value="0.8,0.8"/>
+    <item time="0" type="Scale" target="n15_lr3f" tween="true" startValue="0.8,0.8" endValue="0.95,0.95" duration="15" ease="Back.InOut"/>
+  </transition>
+</component>

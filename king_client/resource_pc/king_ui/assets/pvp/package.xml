@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="dvmsogfr" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="jed25" name="match.xml" path="/component/" exported="true"/>
+    <component id="jed28" name="baseRadioBtn.xml" path="/component/" exported="true"/>
+    <component id="jed2b" name="matching.xml" path="/component/" exported="true"/>
+    <image id="jed2d" name="cancelMatchText.png" path="/" exported="true"/>
+    <image id="jed2h" name="matchingBg.png" path="/" exported="true"/>
+    <component id="jed2i" name="cancelMatchBtn.xml" path="/component/" exported="true"/>
+  </resources>
+  <publish name="pvp"/>
+</packageDescription>

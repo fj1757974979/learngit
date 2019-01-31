@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="55,55">
+  <displayList>
+    <loader id="n6_ryqp" name="n6" xy="0,0" size="55,55" url="ui://739g5ytib60p2j" fill="scaleFree"/>
+    <loader id="n10_ryqp" name="n1" xy="7,7" pivot="0.5,0.5" size="40,40" url="ui://864gshxxjed2v" align="center" vAlign="middle" fill="scaleMatchWidth"/>
+    <image id="n7_ryqp" name="headIcon" src="vfpog" fileName="headicon1.png" xy="0,0" size="55,55"/>
+    <loader id="n8_ryqp" name="headFrame" xy="-15,-15" size="85,85" touchable="false" url="ui://739g5ytivfpoi" fill="scaleFree"/>
+    <text id="n13_b60p" name="n13" xy="2,35" size="50,20" fontSize="16" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="中级III">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+</component>

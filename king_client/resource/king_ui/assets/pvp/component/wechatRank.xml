@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="430,600" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n0_lnsl" name="n0" xy="0,0" size="430,600" url="ui://dvmsogfrfm9321" fill="scaleFree"/>
+    <loader id="n43_kkim" name="listBg" xy="15,60" pivot="0.5,0.5" size="400,390" touchable="false" url="ui://dvmsogfrvco433" fill="scaleFree">
+      <relation target="" sidePair="center-center"/>
+    </loader>
+    <component id="n36_f7m8" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="364,10"/>
+    <list id="n37_kkim" name="wechatList" xy="20,65" size="390,385" overflow="scroll" scrollBarFlags="416" scrollBar="hidden" defaultItem="ui://dvmsogfrkkim3h" autoItemSize="false" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n42_kkim" name="groupRankBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="235,535" size="120,40">
+      <Button title="#TEXT_70044" titleFontSize="24" icon="ui://864gshxxj6006t"/>
+    </component>
+    <component id="n38_kkim" name="rightBtn" src="uomqe" fileName="component/nextCptBtn.xml" pkg="8pche6l7" xy="372,530" pivot="0.5,0.5">
+      <relation target="" sidePair="right-right"/>
+    </component>
+    <component id="n39_kkim" name="leftBtn" src="uomqe" fileName="component/nextCptBtn.xml" pkg="8pche6l7" xy="20,530" pivot="0.5,0.5" rotation="180">
+      <relation target="" sidePair="right-right"/>
+    </component>
+    <component id="n40_kkim" name="selfInfo" src="kkim3h" fileName="component/wechatFriend.xml" xy="20,460" visible="false"/>
+    <loader id="n44_muyr" name="n44" xy="21,455" size="388,3" visible="false" url="ui://dvmsogfrmuyr3n" autoSize="true"/>
+    <component id="n41_kkim" name="inviteBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="80,535" size="120,40">
+      <Button title="#TEXT_70043" titleFontSize="24" icon="ui://864gshxxj6006u"/>
+    </component>
+    <loader id="n45_ne14" name="titleImg" xy="131,5" size="168,55" touchable="false" url="ui://dvmsogfrmuyr3p" autoSize="true">
+      <relation target="n0_lnsl" sidePair="center-center"/>
+    </loader>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Scale" tween="true" startValue="0.8,0.8" endValue="1,1" duration="6"/>
+  </transition>
+</component>

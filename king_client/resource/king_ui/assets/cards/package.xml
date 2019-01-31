@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="rdb04el0" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="uoof8" name="circle_m.png" path="/" exported="true"/>
+    <image id="uoof9" name="circle_s.png" path="/" exported="true"/>
+    <image id="uoofc" name="front1_m.png" path="/" exported="true"/>
+    <image id="uoofd" name="front1_s.png" path="/" exported="true"/>
+    <image id="uoofe" name="front2_m.png" path="/" exported="true"/>
+    <image id="uooff" name="front2_s.png" path="/" exported="true"/>
+    <image id="uoofg" name="opponent1_s.png" path="/" exported="true"/>
+    <image id="uoofh" name="opponent2_s.png" path="/" exported="true"/>
+    <image id="uoofi" name="text_b.png" path="/" exported="true"/>
+    <component id="uoofj" name="smallCard.xml" path="/component/" exported="true"/>
+    <component id="uoofk" name="cardsNum.xml" path="/component/" exported="true"/>
+    <component id="uoofm" name="cardItem.xml" path="/component/" exported="true"/>
+    <image id="uoofn" name="progressFront.png" path="/" exported="true"/>
+    <image id="uoofo" name="energyBarImg.png" path="/" exported="true"/>
+    <image id="uoofp" name="expBarImg.png" path="/" exported="true"/>
+    <component id="uoofq" name="valueProgressBar.xml" path="/component/" exported="true"/>
+    <component id="bzh4r" name="middleCard.xml" path="/component/" exported="true"/>
+    <component id="bzh4s" name="cardmNum.xml" path="/component/" exported="true"/>
+    <image id="nlbnu" name="lightCircleImg.png" path="/" exported="true" scale="9grid" scale9grid="27,33,54,66"/>
+    <component id="10uxgv" name="selectedCard.xml" path="/component/" exported="true"/>
+    <image id="10uxgw" name="selectedCardImg.png" path="/" exported="true"/>
+    <component id="x88ngx" name="bigCard.xml" path="/component/" exported="true"/>
+    <image id="ohc6gy" name="circle_m_w.png" path="/" exported="true"/>
+    <image id="paougz" name="base1_m.png" path="/" exported="true"/>
+    <image id="paouh0" name="base2_m.png" path="/" exported="true"/>
+    <image id="paouh1" name="base2_b.png" path="/" exported="true"/>
+    <image id="paouh2" name="base2_s.png" path="/" exported="true" scale="9grid" scale9grid="10,10,67,93"/>
+    <image id="paouh3" name="base1_b.png" path="/" exported="true"/>
+    <image id="paouh4" name="base1_s.png" path="/" exported="true" scale="9grid" scale9grid="10,10,67,93"/>
+    <image id="b950h8" name="back_b.png" path="/" exported="true"/>
+    <image id="b950h9" name="back_m.png" path="/" exported="true" scale9grid="32,41,64,82"/>
+    <image id="b950ha" name="back_s.png" path="/" exported="true"/>
+    <image id="l8xihb" name="skillSlot_m.png" path="/" exported="true"/>
+    <image id="l8xihc" name="skillSlot_s.png" path="/" exported="true"/>
+    <image id="c3kwhd" name="skillBg2.png" path="/" exported="true"/>
+    <image id="c3kwhe" name="skillBg1.png" path="/" exported="true"/>
+    <component id="stg9hf" name="middleCardBig.xml" path="/component/" exported="true"/>
+    <component id="t0lwhg" name="skillInfo.xml" path="/component/" exported="true"/>
+    <image id="t0lwhh" name="panel.png" path="/" exported="true" scale="9grid" scale9grid="67,18,134,36"/>
+    <image id="pqokhi" name="deck_m1.png" path="/" exported="true"/>
+    <image id="pqokhj" name="deck_m2.png" path="/" exported="true"/>
+    <image id="pqokhk" name="deck_m3.png" path="/" exported="true"/>
+    <image id="pqokhl" name="deck_m4.png" path="/" exported="true"/>
+    <image id="pqokhm" name="deck_s1.png" path="/" exported="true"/>
+    <image id="pqokhn" name="deck_s2.png" path="/" exported="true"/>
+    <image id="pqokho" name="deck_s3.png" path="/" exported="true"/>
+    <image id="pqokhp" name="deck_s4.png" path="/" exported="true"/>
+    <image id="g6zkhq" name="back1_b2.png" path="/" exported="true"/>
+    <image id="g6zkhr" name="back1_b3.png" path="/" exported="true"/>
+    <image id="g6zkhs" name="back1_b1.png" path="/" exported="true"/>
+    <image id="g6zkht" name="back2_b3.png" path="/" exported="true"/>
+    <image id="g6zkhu" name="back2_b2.png" path="/" exported="true"/>
+    <image id="g6zkhv" name="back2_b1.png" path="/" exported="true"/>
+    <image id="l60rhz" name="base2_m_ex.png" path="/" exported="true"/>
+    <image id="l60ri0" name="base1_b_ex.png" path="/" exported="true"/>
+    <image id="l60ri1" name="base2_s_ex.png" path="/" exported="true"/>
+    <image id="l60ri2" name="base2_b_ex.png" path="/" exported="true"/>
+    <image id="l60ri3" name="base1_m_ex.png" path="/" exported="true"/>
+    <image id="l60ri4" name="base1_s_ex.png" path="/" exported="true"/>
+    <image id="epibi5" name="name_b.png" path="/" exported="true"/>
+    <image id="epibi6" name="name_m.png" path="/" exported="true"/>
+    <image id="epibi7" name="name_s.png" path="/" exported="true"/>
+    <image id="epibi8" name="back1_b4.png" path="/" exported="true"/>
+    <image id="epibi9" name="back1_b5.png" path="/" exported="true"/>
+    <image id="epibia" name="deck_m99.png" path="/" exported="true"/>
+    <image id="epibib" name="name_b_ex.png" path="/" exported="true"/>
+    <image id="epibic" name="back2_b99.png" path="/" exported="true"/>
+    <image id="epibid" name="deck_s99.png" path="/" exported="true"/>
+    <image id="epibie" name="back1_b99.png" path="/" exported="true"/>
+    <image id="epibif" name="back2_b5.png" path="/" exported="true"/>
+    <image id="epibig" name="back2_b4.png" path="/" exported="true"/>
+    <image id="epibih" name="name_m_ex.png" path="/" exported="true"/>
+    <image id="epibii" name="deck_m5.png" path="/" exported="true"/>
+    <image id="epibij" name="deck_s5.png" path="/" exported="true"/>
+    <image id="epibik" name="name_s_ex.png" path="/" exported="true"/>
+    <image id="ojhgil" name="back_b_ex.png" path="/" exported="true"/>
+    <image id="ojhgim" name="back_m_ex.png" path="/" exported="true"/>
+    <image id="ojhgin" name="back_s_ex.png" path="/" exported="true"/>
+    <component id="k33dio" name="cardRareSmall.xml" path="/component/" exported="true"/>
+    <image id="k33dip" name="rare_star.png" path="/" exported="true"/>
+    <image id="k33dir" name="rare_star_big.png" path="/" exported="true"/>
+    <component id="k33dis" name="cardRareMiddle.xml" path="/component/" exported="true"/>
+    <image id="l21uit" name="bg4.png" path="/" exported="true"/>
+    <image id="l21uiu" name="bg99.png" path="/" exported="true"/>
+    <image id="ryqpiv" name="bg5.png" path="/" exported="true"/>
+    <image id="ryqpiw" name="bg6.png" path="/" exported="true"/>
+    <component id="ize0iy" name="bigCardView.xml" path="/component/" exported="true"/>
+    <image id="u843iz" name="cardLightEnemy.png" path="/" exported="true"/>
+    <image id="u843j0" name="cardLightSelf.png" path="/" exported="true"/>
+    <component id="tn1uj1" name="cardbNum.xml" path="/component/" exported="true"/>
+    <component id="10tc3j2" name="skinBig.xml" path="/component/" exported="true"/>
+    <component id="10tc3j3" name="skinView.xml" path="/component/" exported="true"/>
+    <component id="qvsx3j4" name="skinCom.xml" path="/component/" exported="true"/>
+    <component id="qvsx3j5" name="skinMiddle.xml" path="/component/" exported="true"/>
+    <component id="l1gi3j6" name="skinSmall.xml" path="/component/" exported="true"/>
+    <image id="h24d3j7" name="skinFrame_b.png" path="/" exported="true"/>
+    <image id="h24d3j8" name="skinFrame_s.png" path="/" exported="true"/>
+    <image id="h24d3j9" name="skinFrame_m.png" path="/" exported="true"/>
+    <image id="h24d3ja" name="skinCurrent.png" path="/" exported="true"/>
+    <image id="h24d3jb" name="skinNameBg.png" path="/" exported="true"/>
+    <image id="h24d3jc" name="skinUsingFlag.png" path="/" exported="true"/>
+    <image id="i5hm3jd" name="skinBg_s.png" path="/" exported="true"/>
+    <image id="i5hm3je" name="skinBg_b.png" path="/" exported="true"/>
+    <image id="i5hm3jf" name="skinBg_m.png" path="/" exported="true"/>
+    <component id="msue3jh" name="smallCardBattle.xml" path="/component/" exported="true"/>
+    <image id="par03ji" name="skillBg3.png" path="/" exported="true"/>
+    <component id="tlw53jj" name="cardUp.xml" path="/component/" exported="true"/>
+    <component id="fqnc3jw" name="selectedCardWar.xml" path="/component/" exported="true"/>
+    <component id="evha3jk" name="bigCard2.xml" path="/component/" exported="true"/>
+    <component id="evha3jl" name="middleCard2.xml" path="/component/" exported="true"/>
+    <component id="evha3jm" name="middleCardBig2.xml" path="/component/" exported="true"/>
+    <component id="evha3jn" name="smallCard2.xml" path="/component/" exported="true"/>
+    <component id="evha3jo" name="smallCardBattle2.xml" path="/component/" exported="true"/>
+    <component id="evha3jp" name="cardItem2.xml" path="/component/" exported="true"/>
+    <image id="g0c13jq" name="levelFlag1.png" path="/" exported="true"/>
+    <image id="g0c13jr" name="levelFlagLimited.png" path="/" exported="true"/>
+    <image id="g0c13js" name="levelFlag2.png" path="/" exported="true"/>
+    <image id="g0c13jt" name="levelFlag3.png" path="/" exported="true"/>
+    <image id="g0c13ju" name="levelFlag4.png" path="/" exported="true"/>
+    <image id="g0c13jv" name="levelFlag5.png" path="/" exported="true"/>
+  </resources>
+  <publish name="cards"/>
+</packageDescription>

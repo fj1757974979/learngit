@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="440,70" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n17_xjab" name="bg" xy="0,0" pivot="0.5,0.5" size="440,70" url="ui://2ipmzghtn91y8v" fill="scaleFree">
+      <relation target="" sidePair="width-width"/>
+    </loader>
+    <text id="n9_lwj0" name="nameText" xy="70,10" size="145,24" fontSize="20" color="#ffffff" vAlign="middle" leading="0" strokeColor="#333333" text="玩家啊啊啊啊啊">
+      <relation target="" sidePair="rightext-right"/>
+    </text>
+    <component id="n16_xjab" name="lordHead" src="md4a33k" fileName="component/head.xml" pkg="739g5yti" xy="10,7" size="55,55"/>
+    <text id="n20_xjab" name="goldInput" xy="347,33" size="77,28" fontSize="24" align="right" vAlign="middle" leading="0" singleLine="true" text="999999">
+      <relation target="" sidePair="right-right,middle-middle"/>
+    </text>
+    <loader id="n21_xjab" name="n21" xy="312,32" size="30,30" url="ui://864gshxxnf1s9a" fill="scaleFree">
+      <relation target="n20_xjab" sidePair="right-left"/>
+    </loader>
+    <text id="n22_r8z5" name="n1" xy="309,10" size="115,24" fontSize="20" color="#ffffff" align="right" vAlign="middle" leading="0" strokeColor="#000000" singleLine="true" text="#TEXT_60376">
+      <relation target="" sidePair="right-right,middle-middle"/>
+    </text>
+  </displayList>
+  <Button/>
+</component>

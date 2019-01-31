@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,800" pivot="0.5,0.5" designImage="ui://dvmsogfrjed2a" designImageOffsetY="-255">
+  <displayList>
+    <component id="n22_sx8w" name="background" src="qg2m2q" fileName="component/AdjustBg.xml" pkg="864gshxx" xy="0,0" size="480,800" alpha="0"/>
+    <graph id="n18_eat6" name="bg" xy="0,0" size="480,800" type="rect">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <relation target="n22_sx8w" sidePair="width-width,height-height"/>
+    </graph>
+    <loader id="n12_jyo9" name="door2" xy="0,0" size="480,800" visible="false" touchable="false" url="ui://dvmsogfrjyo9v" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="n22_sx8w" sidePair="width-width,height-height"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n20_eat6" name="light3" xy="0,0" size="480,800" visible="false" touchable="false" url="ui://dvmsogfrm65e16" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="n22_sx8w" sidePair="width-width,height-height"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n11_jyo9" name="door1" xy="0,0" size="480,800" visible="false" touchable="false" url="ui://dvmsogfrjyo9u" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="n22_sx8w" sidePair="width-width,height-height"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n21_eat6" name="light2" xy="0,0" size="480,800" visible="false" touchable="false" url="ui://dvmsogfrm65e15" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="n22_sx8w" sidePair="width-width,height-height"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n10_jyo9" name="door0" xy="0,0" size="480,800" visible="false" touchable="false" url="ui://dvmsogfrjyo9t" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="n22_sx8w" sidePair="width-width,height-height"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n19_eat6" name="light1" xy="0,0" size="480,800" visible="false" alpha="0" touchable="false" url="ui://dvmsogfrm65e14" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="n22_sx8w" sidePair="width-width,height-height"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n23_fi4y" name="doorMc" xy="0,0" size="480,800" url="ui://dvmsogfrfi4y6t">
+      <relation target="n22_sx8w" sidePair="center-center,middle-middle"/>
+      <relation target="n22_sx8w" sidePair="width-width,height-height"/>
+    </loader>
+    <component id="n9_jed2" name="cancelMatchBtn" src="jed2i" fileName="component/cancelMatchBtn.xml" xy="152,640">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </component>
+    <text id="n14_jyo9" name="txt1" xy="135,200" size="209,40" font="楷体" fontSize="36" color="#ffffff" align="center" vAlign="middle" leading="0" letterSpacing="-2" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="正在排队取餐">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <text id="n15_ysmu" name="n15" xy="349,206" size="18,30" fontSize="26" color="#ffffff" strokeColor="#000000" text=".">
+      <relation target="n14_jyo9" sidePair="left-right,middle-middle"/>
+    </text>
+    <text id="n16_ysmu" name="n16" xy="366,206" size="18,30" fontSize="26" color="#ffffff" strokeColor="#000000" text=".">
+      <relation target="n14_jyo9" sidePair="left-right,middle-middle"/>
+    </text>
+    <text id="n17_ysmu" name="n17" xy="383,206" size="18,30" fontSize="26" color="#ffffff" strokeColor="#000000" text=".">
+      <relation target="n14_jyo9" sidePair="left-right,middle-middle"/>
+    </text>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Alpha" target="n10_jyo9" value="1"/>
+    <item time="0" type="Scale" tween="true" startValue="0.5,0.5" endValue="1,1" duration="12" ease="Expo.Out"/>
+    <item time="0" type="Scale" target="n10_jyo9" value="1,1"/>
+    <item time="0" type="Visible" target="n14_jyo9" value="true"/>
+    <item time="0" type="XY" target="n23_fi4y" value="0,0"/>
+  </transition>
+  <transition name="shake" autoPlayRepeat="-1">
+    <item time="0" type="Shake" target="n10_jyo9" value="1,1"/>
+    <item time="0" type="Shake" target="n23_fi4y" value="1,1"/>
+    <item time="0" type="Sound" value="ui://864gshxxt4qv4b,100"/>
+    <item time="0" type="Visible" target="n15_ysmu" value="false"/>
+    <item time="0" type="Visible" target="n16_ysmu" value="false"/>
+    <item time="0" type="Visible" target="n17_ysmu" value="false"/>
+    <item time="1" type="Visible" target="n15_ysmu" value="true"/>
+    <item time="7" type="Visible" target="n16_ysmu" value="true"/>
+    <item time="15" type="Visible" target="n17_ysmu" value="true"/>
+    <item time="22" type="Visible" target="n15_ysmu" value="false"/>
+    <item time="22" type="Visible" target="n16_ysmu" value="false"/>
+    <item time="22" type="Visible" target="n17_ysmu" value="false"/>
+    <item time="24" type="Shake" target="n10_jyo9" value="0,3"/>
+    <item time="24" type="Shake" target="n23_fi4y" value="0,3"/>
+    <item time="27" type="Visible" target="n15_ysmu" value="true"/>
+    <item time="34" type="Visible" target="n16_ysmu" value="true"/>
+    <item time="42" type="Visible" target="n17_ysmu" value="true"/>
+    <item time="48" type="Visible" target="n15_ysmu" value="false"/>
+    <item time="48" type="Visible" target="n16_ysmu" value="false"/>
+    <item time="48" type="Visible" target="n17_ysmu" value="false"/>
+    <item time="54" type="Visible" target="n15_ysmu" value="true"/>
+    <item time="60" type="Visible" target="n16_ysmu" value="true"/>
+    <item time="66" type="Visible" target="n17_ysmu" value="true"/>
+    <item time="72" type="Visible" target="n15_ysmu" value="false"/>
+    <item time="72" type="Visible" target="n16_ysmu" value="false"/>
+    <item time="72" type="Visible" target="n17_ysmu" value="false"/>
+  </transition>
+  <transition name="open">
+    <item time="0" type="Alpha" target="n10_jyo9" value="1"/>
+    <item time="0" type="Alpha" target="n11_jyo9" value="1"/>
+    <item time="0" type="Alpha" target="n12_jyo9" value="1"/>
+    <item time="0" type="Alpha" target="n18_eat6" value="1"/>
+    <item time="0" type="Alpha" target="n19_eat6" value="0"/>
+    <item time="0" type="Alpha" target="n20_eat6" value="1"/>
+    <item time="0" type="Alpha" target="n21_eat6" value="1"/>
+    <item time="0" type="Scale" tween="true" startValue="1,1" endValue="1.25,1.25" duration="24" ease="Expo.In"/>
+    <item time="0" type="Visible" target="n14_jyo9" value="true"/>
+    <item time="0" type="Visible" target="n15_ysmu" value="false"/>
+    <item time="0" type="Visible" target="n16_ysmu" value="false"/>
+    <item time="0" type="Visible" target="n17_ysmu" value="false"/>
+    <item time="0" type="XY" target="n23_fi4y" value="0,0"/>
+    <item time="6" type="Sound" value="ui://864gshxxt4qv4d,100"/>
+    <item time="6" type="Visible" target="n14_jyo9" value="false"/>
+    <item time="12" type="Alpha" target="n19_eat6" value="1"/>
+    <item time="20" type="Alpha" target="n10_jyo9" tween="true" startValue="1" endValue="0" duration="1"/>
+    <item time="20" type="XY" target="n23_fi4y" tween="true" startValue="0,0" endValue="0,-1200" duration="22"/>
+    <item time="21" type="Alpha" target="n19_eat6" value="0"/>
+    <item time="23" type="Alpha" target="n11_jyo9" tween="true" startValue="1" endValue="0" duration="1"/>
+    <item time="23" type="Alpha" target="n21_eat6" tween="true" startValue="1" endValue="0" duration="1"/>
+    <item time="24" type="Alpha" target="n18_eat6" tween="true" startValue="0" endValue="0" duration="18"/>
+    <item time="24" type="Visible" target="n15_ysmu" value="false"/>
+    <item time="24" type="Visible" target="n16_ysmu" value="false"/>
+    <item time="24" type="Visible" target="n17_ysmu" value="false"/>
+    <item time="26" type="Alpha" target="n12_jyo9" tween="true" startValue="1" endValue="0" duration="1"/>
+    <item time="26" type="Alpha" target="n20_eat6" tween="true" startValue="1" endValue="0" duration="1"/>
+  </transition>
+</component>

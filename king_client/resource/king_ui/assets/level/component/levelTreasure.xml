@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,60" extention="Button">
+  <controller name="button" pages="0,unlock,1,open,2,lock,3,got" selected="0"/>
+  <displayList>
+    <loader id="n8_hpi8" name="n8" xy="0,0" size="400,60" grayed="true" url="ui://8pche6l7ltzkm" align="center" vAlign="middle" fill="scaleFree">
+      <gearDisplay controller="button" pages="2,3"/>
+    </loader>
+    <loader id="n5_g0v3" name="n5" xy="0,0" size="400,60" url="ui://8pche6l7ltzkm" align="center" vAlign="middle" fill="scaleFree" color="#ffcc33">
+      <gearDisplay controller="button" pages="1"/>
+    </loader>
+    <loader id="n3_g0v3" name="n3" xy="0,0" size="400,60" grayed="true" url="ui://8pche6l7ltzkm" align="center" vAlign="middle" fill="scaleFree">
+      <gearDisplay controller="button" pages="0"/>
+    </loader>
+    <component id="n1_g0v3" name="boxProgress" src="g0v3k" fileName="component/levelProgressBar.xml" xy="15,28">
+      <ProgressBar max="100"/>
+    </component>
+    <loader id="n9_ltzk" name="boxIconBg" xy="270,-40" pivot="0.5,0.5" size="175,157" scale="0.35,0.35" url="ui://zfg0revpu6us2j" align="center" vAlign="middle">
+      <gearDisplay controller="button" pages="0,1,2,3"/>
+    </loader>
+    <loader id="n0_g0v3" name="boxIcon" xy="272,-55" pivot="0.5,0.5" size="175,157" scale="0.5,0.5" url="ui://zfg0revpl8xiq" align="center" vAlign="middle">
+      <gearDisplay controller="button" pages="0,1"/>
+    </loader>
+    <text id="n4_g0v3" name="txt1" xy="20,2" size="300,30" fontSize="20" align="center" vAlign="middle" leading="0" autoSize="shrink" text="通关第三章且达到大师1段解锁"/>
+    <loader id="n6_hpi8" name="boxIconGrey" xy="272,-55" pivot="0.5,0.5" size="175,157" scale="0.5,0.5" grayed="true" url="ui://zfg0revpxtqn33" align="center" vAlign="middle">
+      <gearDisplay controller="button" pages="2"/>
+    </loader>
+    <loader id="n10_xtqn" name="boxIconGot" xy="295,-45" pivot="0.5,0.5" size="136,128" scale="0.5,0.5" url="ui://zfg0revpxtqn34" align="center" vAlign="middle">
+      <gearDisplay controller="button" pages="3"/>
+    </loader>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.90"/>
+  <transition name="t0" autoPlayRepeat="-1">
+    <item time="0" type="Rotation" target="n0_g0v3" tween="true" startValue="0" endValue="10" duration="2"/>
+    <item time="2" type="Rotation" target="n0_g0v3" tween="true" startValue="10" endValue="-10" duration="2"/>
+    <item time="4" type="Rotation" target="n0_g0v3" tween="true" startValue="-10" endValue="10" duration="2"/>
+    <item time="6" type="Rotation" target="n0_g0v3" tween="true" startValue="10" endValue="-10" duration="2"/>
+    <item time="8" type="Rotation" target="n0_g0v3" tween="true" startValue="-10" endValue="10" duration="2"/>
+    <item time="10" type="Rotation" target="n0_g0v3" tween="true" startValue="10" endValue="0" duration="2"/>
+    <item time="60" type="Rotation" target="n0_g0v3" value="0"/>
+  </transition>
+</component>

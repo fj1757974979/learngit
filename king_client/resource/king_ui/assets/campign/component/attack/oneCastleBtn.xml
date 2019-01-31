@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="118,50" extention="Button">
+  <displayList>
+    <loader id="n0_lnvf" name="icon" xy="0,0" size="34,50" url="ui://864gshxxdlva1n"/>
+    <text id="n1_lnvf" name="attName" xy="31,30" size="85,24" font="微软雅黑" fontSize="20" color="#ffffff" strokeColor="#000000" strokeSize="2" text="攻城名字">
+      <relation target="n0_lnvf" sidePair="left-right"/>
+    </text>
+    <component id="n2_x6w8" name="attackIdx" src="jed2t" pkg="864gshxx" xy="55,-3" size="32,32">
+      <relation target="n1_lnvf" sidePair="center-center"/>
+      <Label icon="ui://864gshxxs3df20"/>
+    </component>
+  </displayList>
+  <Button sound="ui://864gshxxlr3f2n" downEffect="scale" downEffectValue="0.80"/>
+</component>

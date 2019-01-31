@@ -1,0 +1,9 @@
+
+{
+            "1": {"__id__": 1, "question": "#TEXT_20160", "type": 1, "answerA": "#TEXT_20161", "answerB": "#TEXT_20162", "answerC": "#TEXT_20163", "answerD": "#TEXT_20164", "answerE": "#TEXT_0", "answerF": "#TEXT_0", "answerG": "#TEXT_0", "answerH": "#TEXT_0" },
+			"2": {"__id__": 2, "question": "#TEXT_20170", "type": 1, "answerA": "#TEXT_20171", "answerB": "#TEXT_20172", "answerC": "#TEXT_20173", "answerD": "#TEXT_20174", "answerE": "#TEXT_0", "answerF": "#TEXT_0", "answerG": "#TEXT_0", "answerH": "#TEXT_0" },
+			"3": {"__id__": 3, "question": "#TEXT_20180", "type": 1, "answerA": "#TEXT_20181", "answerB": "#TEXT_20182", "answerC": "#TEXT_20183", "answerD": "#TEXT_20184", "answerE": "#TEXT_0", "answerF": "#TEXT_0", "answerG": "#TEXT_0", "answerH": "#TEXT_0" },
+			"4": {"__id__": 4, "question": "#TEXT_20190", "type": 2, "answerA": "#TEXT_20191", "answerB": "#TEXT_20192", "answerC": "#TEXT_20193", "answerD": "#TEXT_20194", "answerE": "#TEXT_0", "answerF": "#TEXT_0", "answerG": "#TEXT_0", "answerH": "#TEXT_0" },
+			"5": {"__id__": 5, "question": "#TEXT_20200", "type": 2, "answerA": "#TEXT_20201", "answerB": "#TEXT_20202", "answerC": "#TEXT_20203", "answerD": "#TEXT_20204", "answerE": "#TEXT_0", "answerF": "#TEXT_0", "answerG": "#TEXT_0", "answerH": "#TEXT_0" }
+   }
+    

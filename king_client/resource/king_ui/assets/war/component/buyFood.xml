@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="440,442" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n0_xjab" name="n0" xy="0,0" size="440,442" url="ui://2ipmzghtk6o669" fill="scaleFree">
+      <relation target="" sidePair="height-height,middle-middle"/>
+    </loader>
+    <text id="n1_xjab" name="n1" xy="158,30" size="125,34" group="n30_onso" fontSize="30" leading="0" text="购买粮草">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <component id="n2_xjab" name="confirmBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="130,350" size="180,60" group="n30_onso">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+      <Button title="购买" titleFontSize="32" icon="ui://864gshxxj6006u"/>
+    </component>
+    <component id="n4_xjab" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="350,40" group="n30_onso"/>
+    <text id="n10_xjab" name="goldInput" xy="208,206" size="65,34" group="n30_onso" fontSize="30" color="#ffff00" align="center" vAlign="middle" leading="0" strokeColor="#000000" singleLine="true" text="9999">
+      <relation target="n28_rian" sidePair="center-center,top-bottom"/>
+    </text>
+    <text id="n26_gv98" name="n26" xy="45,270" size="350,44" group="n30_onso" fontSize="20" color="#666666" align="center" leading="0" autoSize="height" text="粮草价格由本城太守决定，如果你觉得过于高昂，可向太守反应。">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <loader id="n11_xjab" name="n11" xy="164,203" size="40,40" group="n30_onso" url="ui://864gshxxnf1s9a" fill="scaleFree">
+      <relation target="n10_xjab" sidePair="right-left,middle-middle"/>
+    </loader>
+    <loader id="n27_rian" name="rewardBg1" xy="175,100" size="90,90" group="n30_onso" url="ui://739g5ytivfpoh" fill="scaleFree"/>
+    <loader id="n28_rian" name="rewardIcon1" xy="175,100" size="90,90" group="n30_onso" url="ui://2ipmzghtonso6f" fill="scaleFree">
+      <relation target="n27_rian" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n29_rian" name="cnt1" xy="224,150" size="41,40" group="n30_onso" fontSize="36" color="#ffffff" align="center" vAlign="middle" leading="0" strokeColor="#000000" text="+5">
+      <relation target="n28_rian" sidePair="center-center"/>
+    </text>
+    <group id="n30_onso" name="n30" xy="45,30" size="359,380" advanced="true"/>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Alpha" target="n30_onso" value="0"/>
+    <item time="0" type="Size" tween="true" startValue="-,120" endValue="-,442" duration="9"/>
+    <item time="9" type="Alpha" target="n30_onso" tween="true" startValue="0" endValue="1" duration="6"/>
+  </transition>
+</component>

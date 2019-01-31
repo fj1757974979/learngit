@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="440,662" pivot="0.5,0.5">
+  <controller name="resource" pages="0,gold,1,food" selected="1"/>
+  <displayList>
+    <loader id="n0_xjab" name="n0" xy="0,0" size="440,662" url="ui://2ipmzghtk6o669" fill="scaleFree">
+      <relation target="" sidePair="height-height,middle-middle"/>
+    </loader>
+    <text id="n1_xjab" name="n1" xy="134,30" size="170,34" group="n20_xjab" fontSize="30" leading="0" text="#TEXT_60359">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <component id="n2_xjab" name="goldConfirmBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="130,570" size="180,60" group="n20_xjab">
+      <gearDisplay controller="resource" pages="0"/>
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+      <Button title="发布" icon="ui://864gshxxj6006u"/>
+    </component>
+    <component id="n4_xjab" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="350,40" group="n20_xjab"/>
+    <text id="n5_xjab" name="n5" xy="151,190" size="136,28" group="n20_xjab" fontSize="24" color="#999999" leading="0" text="#TEXT_60358">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <text id="n7_xjab" name="goldMemberInput" xy="187,225" size="65,44" group="n20_xjab" fontSize="40" align="center" vAlign="middle" leading="0" singleLine="true" text="123">
+      <gearDisplay controller="resource" pages="0"/>
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n10_xjab" name="goldInput" xy="207,370" size="50,34" group="n20_xjab" fontSize="30" color="#ffff00" align="center" vAlign="middle" leading="0" strokeColor="#000000" singleLine="true" text="111">
+      <gearDisplay controller="resource" pages="0"/>
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n23_wwgm" name="goldTxt1" xy="255,235" size="105,24" group="n20_xjab" fontSize="20" align="center" vAlign="middle" leading="0" text="共1000金币">
+      <gearDisplay controller="resource" pages="0"/>
+      <relation target="n7_xjab" sidePair="left-right,top-top"/>
+    </text>
+    <loader id="n24_wwgm" name="n24" xy="63,145" size="140,38" group="n20_xjab" url="ui://2ipmzghtonso6e" fill="scaleFree"/>
+    <text id="n25_wwgm" name="cityName" xy="63,145" size="140,38" group="n20_xjab" fontSize="30" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" singleLine="true" text="长沙">
+      <relation target="" sidePair="bottom-bottom"/>
+    </text>
+    <text id="n27_uivn" name="dayCnt" xy="276,150" size="41,28" group="n20_xjab" fontSize="24" align="center" vAlign="middle" leading="0" singleLine="true" text="3天">
+      <relation target="n39_n91y" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n26_wwgm" name="n26" xy="75,120" size="115,24" group="n20_xjab" fontSize="20" color="#999999" leading="0" text="#TEXT_60338">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <text id="n29_onso" name="n29" xy="151,340" size="136,28" group="n20_xjab" fontSize="24" color="#999999" align="center" vAlign="middle" leading="0" text="#TEXT_60352">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <loader id="n11_xjab" name="goldIcon1" xy="167,372" size="30,30" group="n20_xjab" url="ui://864gshxxnf1s9a" fill="scaleFree">
+      <gearDisplay controller="resource" pages="0"/>
+      <relation target="n10_xjab" sidePair="right-left,middle-middle"/>
+    </loader>
+    <text id="n33_fqnc" name="goldTxt2" xy="102,450" size="235,24" group="n20_xjab" visible="false" fontSize="20" align="right" leading="0" text="总共划拨金币奖励x100000">
+      <gearDisplay controller="resource" pages="0"/>
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <component id="n32_fqnc" name="food" src="qjxh5o" fileName="component/resourceValueItem.xml" xy="190,525" size="200,50" group="n20_xjab">
+      <gearDisplay controller="resource" pages="1"/>
+    </component>
+    <component id="n34_fqnc" name="worldChk" src="u5xl85" fileName="component/checkButton.xml" xy="110,70" size="100,44" group="n20_xjab">
+      <Button title="#TEXT_70362" sound="ui://864gshxxyyke6k" controller="resource" page="0"/>
+    </component>
+    <component id="n35_fqnc" name="warChk" src="u5xl85" fileName="component/checkButton.xml" xy="230,70" size="100,44" group="n20_xjab">
+      <Button checked="true" title="#TEXT_70363" sound="ui://864gshxxyyke6k" controller="resource" page="1"/>
+    </component>
+    <component id="n36_rzn9" name="gold1" src="qjxh5o" fileName="component/resourceValueItem.xml" xy="190,480" size="200,50" group="n20_xjab">
+      <gearDisplay controller="resource" pages="0"/>
+    </component>
+    <text id="n37_u5xl" name="n37" xy="75,493" size="115,24" group="n20_xjab" fontSize="20" color="#999999" align="center" leading="0" text="#TEXT_60354">
+      <relation target="" sidePair="left-left,top-top"/>
+    </text>
+    <text id="n38_u5xl" name="n38" xy="75,538" size="115,24" group="n20_xjab" fontSize="20" color="#999999" align="center" leading="0" text="#TEXT_60342">
+      <gearDisplay controller="resource" pages="1"/>
+      <relation target="" sidePair="left-left,top-top"/>
+    </text>
+    <text id="n39_n91y" name="n39" xy="240,120" size="115,24" group="n20_xjab" fontSize="20" color="#999999" leading="0" text="#TEXT_60360">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <component id="n40_n91y" name="goldMemberCnt" src="n91ydh" fileName="component/Slider1.xml" pkg="864gshxx" xy="70,265" size="300,18" group="n20_xjab">
+      <gearDisplay controller="resource" pages="0"/>
+      <Slider max="100"/>
+    </component>
+    <component id="n41_n91y" name="goldCnt" src="n91ydh" fileName="component/Slider1.xml" pkg="864gshxx" xy="70,405" size="300,18" group="n20_xjab">
+      <gearDisplay controller="resource" pages="0"/>
+      <Slider max="100"/>
+    </component>
+    <text id="n42_n91y" name="foodInput" xy="207,370" size="50,34" group="n20_xjab" fontSize="30" color="#ffff00" align="center" vAlign="middle" leading="0" strokeColor="#000000" singleLine="true" text="111">
+      <gearDisplay controller="resource" pages="1"/>
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n43_n91y" name="foodCnt" src="n91ydh" fileName="component/Slider1.xml" pkg="864gshxx" xy="70,405" size="300,18" group="n20_xjab">
+      <gearDisplay controller="resource" pages="1"/>
+      <Slider max="100"/>
+    </component>
+    <text id="n44_n91y" name="foodMemberInput" xy="187,225" size="65,44" group="n20_xjab" fontSize="40" align="center" vAlign="middle" leading="0" singleLine="true" text="123">
+      <gearDisplay controller="resource" pages="1"/>
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n45_n91y" name="foodMemberCnt" src="n91ydh" fileName="component/Slider1.xml" pkg="864gshxx" xy="70,265" size="300,18" group="n20_xjab">
+      <gearDisplay controller="resource" pages="1"/>
+      <Slider max="100"/>
+    </component>
+    <text id="n46_n91y" name="foodTxt1" xy="255,235" size="115,24" group="n20_xjab" fontSize="20" align="center" vAlign="middle" leading="0" text="共10000粮草">
+      <gearDisplay controller="resource" pages="1"/>
+      <relation target="n44_n91y" sidePair="left-right,middle-middle"/>
+    </text>
+    <text id="n48_n91y" name="foodTxt2" xy="102,450" size="235,24" group="n20_xjab" visible="false" fontSize="20" align="right" leading="0" text="总共划拨金币奖励x100000">
+      <gearDisplay controller="resource" pages="1"/>
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <component id="n49_n91y" name="gold2" src="qjxh5o" fileName="component/resourceValueItem.xml" xy="190,480" size="200,50" group="n20_xjab">
+      <gearDisplay controller="resource" pages="1"/>
+    </component>
+    <component id="n50_n91y" name="foodConfirmBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="130,570" size="180,60" group="n20_xjab">
+      <gearDisplay controller="resource" pages="1"/>
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+      <Button title="发布" icon="ui://864gshxxj6006u"/>
+    </component>
+    <loader id="n51_n91y" name="goldIcon2" xy="167,372" size="30,30" group="n20_xjab" url="ui://864gshxxnf1s9a" fill="scaleFree">
+      <gearDisplay controller="resource" pages="1"/>
+      <relation target="n42_n91y" sidePair="right-left,middle-middle"/>
+    </loader>
+    <group id="n20_xjab" name="n20" xy="63,30" size="341,600" advanced="true"/>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Alpha" target="n20_xjab" value="0"/>
+    <item time="0" type="Size" tween="true" startValue="-,120" endValue="-,662" duration="9"/>
+    <item time="9" type="Alpha" target="n20_xjab" tween="true" startValue="0" endValue="1" duration="6"/>
+  </transition>
+</component>

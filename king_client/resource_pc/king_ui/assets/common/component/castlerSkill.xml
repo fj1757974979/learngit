@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="678,79">
+  <displayList>
+    <loader id="n8_w5uu" name="n8" xy="-9,13" size="458,44" scale="1.5,1.5" url="ui://864gshxxx6w823"/>
+    <loader id="n6_w5uu" name="skillIcon" xy="3,-9" size="63,92" group="n60_x6w8" url="ui://864gshxxdlva1n"/>
+    <text id="n24_w5uu" name="skillText" xy="70,24" size="438,44" group="n60_x6w8" font="楷体" fontSize="40" color="#ffffff" strokeColor="#000000" strokeSize="2" text="后勤 : 防守方单位每回合"/>
+    <group id="n60_x6w8" name="skillGroup" xy="3,-9" size="505,92" advanced="true">
+      <relation target="n8_w5uu" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

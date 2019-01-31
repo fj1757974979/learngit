@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="570,870" designImage="ui://8pche6l7royd0" designImageOffsetX="-24" designImageOffsetY="-43">
+  <displayList>
+    <list id="n3_euag" name="levelList" xy="5,92" size="562,776" overflow="scroll" scrollBarFlags="130" scrollBar="hidden" lineGap="12" defaultItem="ui://8pche6l7uomqc" align="center"/>
+    <loader id="n1_euag" name="n1" xy="96,8" size="376,81" url="ui://864gshxxroydj" align="center">
+      <relation target="" sidePair="center-center,top-top"/>
+    </loader>
+    <text id="n2_euag" name="chapterNameTxt" xy="132,22" size="296,44" font="楷体" fontSize="40" color="#ffffff" align="center" vAlign="middle" strokeColor="#000000" strokeSize="3" shadowColor="#000000" shadowOffset="1,1" singleLine="true" text="第一章 群雄逐鹿">
+      <relation target="n1_euag" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>

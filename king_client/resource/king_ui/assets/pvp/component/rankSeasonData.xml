@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="460,800">
+  <controller name="c1" pages="0,normal,1,handjoy" selected="1"/>
+  <displayList>
+    <loader id="n0_lyri" name="n0" xy="0,120" size="460,170" url="ui://739g5ytiyyke16" fill="scaleFree"/>
+    <text id="n1_lyri" name="n1" xy="24,174" size="100,35" fontSize="20" color="#333333" align="center" vAlign="middle" leading="0" autoSize="shrink" text="#TEXT_70025"/>
+    <text id="n2_lyri" name="n2" xy="24,208" size="100,35" fontSize="20" color="#333333" align="center" vAlign="middle" leading="0" autoSize="shrink" text="#TEXT_70026"/>
+    <text id="n3_lyri" name="totalCnt" xy="124,174" size="100,35" fontSize="24" color="#333333" align="center" vAlign="middle" leading="0" autoSize="none" text="9999"/>
+    <text id="n4_lyri" name="winCnt" xy="124,208" size="100,35" fontSize="24" color="#333333" align="center" vAlign="middle" leading="0" autoSize="none" text="9999"/>
+    <text id="n5_lyri" name="n4" xy="234,208" size="100,35" fontSize="20" color="#333333" align="center" vAlign="middle" leading="0" autoSize="shrink" text="#TEXT_70028"/>
+    <text id="n6_lyri" name="offensiveRate" xy="334,174" size="100,35" fontSize="24" color="#333333" align="center" vAlign="middle" leading="0" autoSize="none" text="99%"/>
+    <text id="n7_lyri" name="n3" xy="234,174" size="100,35" fontSize="20" color="#333333" align="center" vAlign="middle" leading="0" autoSize="shrink" text="#TEXT_70027"/>
+    <text id="n8_lyri" name="defensiveRate" xy="334,208" size="100,35" fontSize="24" color="#333333" align="center" vAlign="middle" leading="0" autoSize="none" text="99%"/>
+    <text id="n10_lyri" name="time" xy="131,47" size="202,28" fontSize="24" color="#66ffff" align="center" leading="0" strokeColor="#000000" text="剩余：21天21小时">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <loader id="n13_lyri" name="n13" xy="128,255" size="204,46" url="ui://864gshxxpe5lbw" align="center" autoSize="true" color="#ff9900">
+      <relation target="" sidePair="center-center"/>
+    </loader>
+    <loader id="n28_pe5l" name="n28" xy="33,295" size="392,265" url="ui://864gshxxpe5lbx" autoSize="true"/>
+    <loader id="n22_lyri" name="n22" xy="142,350" size="175,157" url="ui://zfg0revpl8xin"/>
+    <text id="n23_lyri" name="treasureName" xy="114,500" size="230,28" fontSize="24" align="center" leading="0" autoSize="shrink" text="大师赛季宝箱">
+      <relation target="n22_lyri" sidePair="center-center"/>
+    </text>
+    <loader id="n24_pe5l" name="n7" xy="159,70" pivot="0.5,0.5" size="141,136" scale="0.6,0.6" visible="false" url="ui://dvmsogfrfm9323" align="center" vAlign="middle" fill="scaleMatchHeight" autoSize="true"/>
+    <loader id="n25_pe5l" name="rankIcon" xy="161,78" pivot="0.5,0.5" size="138,125" scale="0.6,0.6" visible="false" url="ui://864gshxxgy104s" align="center" vAlign="middle" fill="scaleMatchHeight"/>
+    <text id="n26_pe5l" name="rankLevel" xy="200,126" size="59,28" visible="false" fontSize="24" color="#ffffff" align="center" vAlign="middle" leading="0" bold="true" strokeColor="#000033" shadowColor="#000033" shadowOffset="1,1" text="大师I">
+      <relation target="n25_pe5l" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n31_gahz" name="n10" xy="114,312" size="230,24" fontSize="20" color="#333333" align="center" leading="0" autoSize="shrink" text="#TEXT_70129">
+      <relation target="n22_lyri" sidePair="center-center"/>
+    </text>
+    <loader id="n36_k13j" name="star" xy="180,90" size="60,60" url="ui://dvmsogfrk13j6p" fill="scaleMatchWidth">
+      <relation target="n37_k13j" sidePair="right-left"/>
+    </loader>
+    <text id="n37_k13j" name="title" xy="240,103" size="36,34" font="ui://tlhdbap0e8aza" fontSize="30" color="#ffffff" align="center" vAlign="middle" leading="0" bold="true" text="10">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n16_lyri" name="skinReward" src="qvsx3j5" fileName="component/skinMiddle.xml" pkg="rdb04el0" xy="60,585" group="n38_vvhm"/>
+    <text id="n17_lyri" name="skinDesc" xy="34,755" size="175,24" group="n38_vvhm" fontSize="20" align="center" leading="0" autoSize="shrink" text="达到宗师I">
+      <relation target="n16_lyri" sidePair="center-center"/>
+    </text>
+    <text id="n20_lyri" name="skinName" xy="55,560" size="133,24" group="n38_vvhm" fontSize="20" color="#ffffff" align="center" leading="0" bold="true" strokeColor="#000000" text="#TEXT_70130">
+      <relation target="n16_lyri" sidePair="center-center"/>
+    </text>
+    <group id="n38_vvhm" name="n38" xy="34,560" size="175,219" advanced="true"/>
+    <loader id="n27_pe5l" name="n27" xy="487,578" size="150,150" group="n39_vvhm" visible="false" url="ui://dvmsogfrul1129" fill="scaleFree"/>
+    <loader id="n30_kzm3" name="n30" xy="522,613" size="80,80" group="n39_vvhm" visible="false" url="ui://739g5ytivfpoh" fill="scaleFree"/>
+    <image id="n29_pe5l" name="headIcon" src="vfpog" fileName="headicon1.png" pkg="739g5yti" xy="522,613" size="80,80" group="n39_vvhm" visible="false"/>
+    <component id="n12_lyri" name="headFrame" src="10tc339" fileName="component/headFrameItemCom.xml" pkg="739g5yti" xy="517,608" size="90,90" group="n39_vvhm" visible="false" touchable="false"/>
+    <text id="n18_lyri" name="headFrameDesc" xy="519,744" size="85,24" group="n39_vvhm" visible="false" fontSize="20" align="center" leading="0" text="达到王者">
+      <relation target="n27_pe5l" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n21_lyri" name="headFrameName" xy="504,548" size="133,24" group="n39_vvhm" visible="false" fontSize="20" color="#ffffff" align="center" leading="0" bold="true" strokeColor="#000000" text="#TEXT_70131">
+      <relation target="n27_pe5l" sidePair="center-center,middle-middle"/>
+    </text>
+    <group id="n39_vvhm" name="n39" xy="487,548" size="150,220" visible="false" advanced="true"/>
+    <loader id="n32_vtez" name="n32" xy="260,590" size="150,150" group="n40_vvhm" url="ui://dvmsogfrul1129" fill="scaleFree"/>
+    <text id="n33_vtez" name="rankTreasureName" xy="245,755" size="179,24" group="n40_vvhm" fontSize="20" align="center" leading="0" autoSize="shrink" text="#TEXT_70179">
+      <relation target="n32_vtez" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n34_vtez" name="rankTreasure" xy="277,560" size="133,24" group="n40_vvhm" fontSize="20" color="#ffffff" align="center" leading="0" bold="true" strokeColor="#000000" text="#TEXT_70178">
+      <relation target="n32_vtez" sidePair="center-center,middle-middle"/>
+    </text>
+    <loader id="n35_vtez" name="n35" xy="275,605" size="120,120" group="n40_vvhm" url="ui://zfg0revpl8xin" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <relation target="n32_vtez" sidePair="center-center,middle-middle"/>
+    </loader>
+    <group id="n40_vvhm" name="n40" xy="245,560" size="179,219" advanced="true"/>
+    <component id="n41_f2ut" name="faqBtn" src="l1gibz" fileName="component/helpBtn.xml" pkg="864gshxx" xy="410,5" visible="false"/>
+  </displayList>
+</component>

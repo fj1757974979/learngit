@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="104,44" pivot="0.5,0.5" anchor="true" extention="Button">
+  <displayList>
+    <loader id="n0_s6x4" name="icon" xy="64,8" size="38,33" url="ui://ww6xhnp6dofq1x">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n1_s6x4" name="defName" xy="1,10" size="65,24" fontSize="20" color="#ffffff" align="center" vAlign="middle" strokeColor="#000000" strokeSize="2" text="守城名">
+      <relation target="n0_s6x4" sidePair="right-left"/>
+    </text>
+  </displayList>
+  <Button sound="ui://864gshxxlr3f2n" downEffect="scale" downEffectValue="0.80"/>
+</component>

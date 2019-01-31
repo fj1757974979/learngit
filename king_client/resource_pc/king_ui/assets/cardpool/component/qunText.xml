@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="495,41" extention="Label">
+  <displayList>
+    <text id="n0_qpuo" name="title" xy="0,2" size="495,39" font="楷体" fontSize="35" color="#ffffff" text="群雄武将可以加入任意国家卡组"/>
+  </displayList>
+</component>

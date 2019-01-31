@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,60">
+  <displayList>
+    <loader id="n81_m276" name="icon" xy="0,0" size="400,60" touchable="false" url="ui://47ikzi2ak9is1c" fill="scaleFree"/>
+    <loader id="n83_m276" name="n83" xy="200,10" pivot="0.5,0.5" size="40,40" touchable="false" url="ui://864gshxxcnowc7" align="center" vAlign="middle" fill="scale"/>
+    <text id="n84_m276" name="title" xy="35,16" size="136,28" font="楷体" fontSize="24" align="center" vAlign="middle" leading="0" text="#TEXT_70155">
+      <relation target="n81_m276" sidePair="center-center"/>
+    </text>
+    <text id="n85_m276" name="honorCnt" xy="241,13" size="110,34" font="楷体" fontSize="30" vAlign="middle" leading="0" ubb="true" text="9999999">
+      <relation target="n83_m276" sidePair="middle-middle,left-right"/>
+    </text>
+  </displayList>
+</component>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,800">
+  <displayList>
+    <component id="n37_m276" name="bg" src="qg2m2q" fileName="component/AdjustBg.xml" pkg="864gshxx" xy="0,0"/>
+    <list id="n32_m276" name="cardList" xy="10,70" size="460,640" layout="flow_hz" selectionMode="multipleSingleClick" overflow="scroll" scrollBarFlags="4" scrollBarRes="ui://864gshxxjzjo62," colGap="3" lineItemCount="5" defaultItem="ui://47ikzi2am276h" align="center">
+      <relation target="n37_m276" sidePair="height-height,center-center"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n33_m276" name="text" xy="105,30" size="269,28" font="楷体" fontSize="24" align="center" vAlign="middle" leading="0" text="选择要分解的多余的卡牌">
+      <relation target="n37_m276" sidePair="top-top,center-center"/>
+    </text>
+    <component id="n35_m276" name="n35" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="150,725" size="180,60">
+      <relation target="n37_m276" sidePair="center-center,bottom-bottom"/>
+      <Button title="分解预览" titleFontSize="32"/>
+    </component>
+    <component id="n36_m276" name="allBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="165,650" size="150,50">
+      <relation target="n32_m276" sidePair="bottom-bottom,center-center"/>
+      <Button title="全选" titleFontSize="32"/>
+    </component>
+    <component id="n38_7ykc" name="btnClose" src="royda" fileName="component/backBtn.xml" pkg="864gshxx" xy="5,5">
+      <relation target="n37_m276" sidePair="left-left,top-top"/>
+    </component>
+  </displayList>
+</component>

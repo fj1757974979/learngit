@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="369,30" extention="Label">
+  <displayList>
+    <text id="n0_qpuo" name="title" xy="0,0" size="174,30" font="微软雅黑" fontSize="26" color="#ffffff" text="#TEXT_70089"/>
+  </displayList>
+</component>

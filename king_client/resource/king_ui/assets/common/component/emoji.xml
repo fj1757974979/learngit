@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,100" extention="Label">
+  <displayList>
+    <loader id="n0_f5jo" name="icon" xy="1,1" size="98,98" playing="false"/>
+  </displayList>
+</component>

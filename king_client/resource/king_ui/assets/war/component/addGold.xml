@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="440,662" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n0_xjab" name="n0" xy="0,0" size="440,662" url="ui://2ipmzghtk6o669" fill="scaleFree">
+      <relation target="" sidePair="height-height,middle-middle"/>
+    </loader>
+    <component id="n2_xjab" name="confirmBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="130,540" size="180,60" group="n27_onso">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+      <Button title="#TEXT_70005" titleFontSize="32" icon="ui://864gshxxj6006u"/>
+    </component>
+    <component id="n4_xjab" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="350,40" group="n27_onso"/>
+    <text id="n8_xjab" name="n8" xy="150,330" size="136,28" group="n27_onso" fontSize="24" align="center" leading="0" text="#TEXT_60293">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <text id="n10_xjab" name="goldInput" xy="222,365" size="20,34" group="n27_onso" fontSize="30" color="#ffff00" align="center" vAlign="middle" leading="0" strokeColor="#000000" singleLine="true" text="1">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n24_gv98" name="jinbi" src="qjxh5o" fileName="component/resourceValueItem.xml" xy="190,180" size="200,50" group="n27_onso"/>
+    <text id="n26_gv98" name="n26" xy="45,100" size="350,24" group="n27_onso" fontSize="20" color="#666666" align="center" leading="0" autoSize="height" text="#TEXT_60290">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <loader id="n11_xjab" name="n11" xy="182,367" size="30,30" group="n27_onso" url="ui://864gshxxnf1s9a" fill="scaleFree">
+      <relation target="n10_xjab" sidePair="right-left,middle-middle"/>
+    </loader>
+    <text id="n18_xjab" name="goldMaxCnt" xy="235,248" size="101,28" group="n27_onso" fontSize="24" align="center" vAlign="middle" leading="0" singleLine="true" text="99999999">
+      <relation target="" sidePair="left-left"/>
+    </text>
+    <text id="n30_u5xl" name="n30" xy="75,193" size="115,24" group="n27_onso" fontSize="20" color="#999999" align="center" leading="0" text="#TEXT_60291">
+      <relation target="" sidePair="left-left,top-top"/>
+    </text>
+    <component id="n31_u5xl" name="recordBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="160,475" size="120,40" group="n27_onso">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+      <Button title="#TEXT_60294" titleFontSize="24" icon="ui://864gshxxal2v9n"/>
+    </component>
+    <component id="n32_n91y" name="goldCnt" src="n91ydh" fileName="component/Slider1.xml" pkg="864gshxx" xy="70,400" size="300,18" group="n27_onso">
+      <Slider max="100"/>
+    </component>
+    <text id="n33_po2j" name="n33" xy="75,250" size="115,24" group="n27_onso" fontSize="20" color="#999999" align="center" leading="0" text="#TEXT_60292">
+      <relation target="" sidePair="left-left,top-top"/>
+    </text>
+    <loader id="n34_po2j" name="n34" xy="195,247" size="30,30" group="n27_onso" url="ui://864gshxxnf1s9a" fill="scaleFree">
+      <relation target="" sidePair="left-left,middle-middle"/>
+    </loader>
+    <group id="n27_onso" name="n27" xy="45,40" size="359,560" advanced="true"/>
+    <loader id="n28_u5xl" name="n28" xy="120,20" size="200,65" url="ui://864gshxxroydj" autoSize="true"/>
+    <loader id="n29_u5xl" name="n29" xy="145,26" size="150,51" url="ui://864gshxxu5xld3" autoSize="true"/>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Alpha" target="n27_onso" value="0"/>
+    <item time="0" type="Size" tween="true" startValue="-,120" endValue="-,662" duration="9"/>
+    <item time="9" type="Alpha" target="n27_onso" tween="true" startValue="0" endValue="1" duration="6"/>
+  </transition>
+</component>

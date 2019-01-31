@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="30,30" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n1" name="n1" xy="0,0" size="30,30" url="ui://t63zsq4zx88nc" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n3" name="icon" xy="5,5" size="20,20" url="ui://t63zsq4zx88nb" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n5_x88n" name="title" xy="9,1" size="10,26" font="微软雅黑" fontSize="22" color="#ffffff" align="center" vAlign="middle" text="">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.90"/>
+</component>

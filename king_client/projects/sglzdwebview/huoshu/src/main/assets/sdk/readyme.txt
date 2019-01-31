@@ -1,0 +1,39 @@
+date:2017-4-11
+author
+:lizenghua
+instructions
+:与星玩SDK同步
+
+date:2017-4-12
+author:lizenghua
+instructions:修复当账户及密码为空时（本地存储的账号密码数据为空），通过密保找回密码时一直处于加载中无法跳转的问题
+
+date:2017-4-21
+author:lizenghua
+instructions:
+	1、当用户是正式用户并绑定了手机后进行实名认证；身份证校验js：identity_id.js
+		改动的文件有：login.html、login.js（同步在sdk_xingwan、sdk_6）
+	2、改动注释了pay.js里面的911行到918行：进入sdk要购买的游戏币>0时强制进入渠道充值页面（已同步在sdk_xingwan、sdk_6）
+
+date:2017-4-24
+author:lizenghua
+instructions:
+	1、处理绑定手机的手机验证规则（176），
+	2、手机找回密码中重置密码残留旧密码问题
+
+
+date:2017-5-3
+author:lizenghua
+instructions:
+	1、注释掉pay.html中的“游爱星”兑换入口
+	2、处理支付方式切换中出现 input_item 为undefind 的bug （将383行的{{?}}移至435行）
+	3、去掉设置密保中select默认的下拉图标（login.css）
+	4、如果没有第三方登录则隐藏掉“第三方登录”字眼
+
+date:2017-5-8
+author:lizenghua
+instructions:处理支付方式点击支付图标出现 input_item 为undefind 的bug（将150行$c改成$(this)）
+
+date:2017-5-12
+author:lizenghua
+instructions:与游娱同步

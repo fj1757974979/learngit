@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="120,120" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n4_ivo1" name="icon" xy="0,0" size="120,120" url="ui://kzx2kelpnkld6" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n6_b59w" name="check2" xy="63,73" pivot="0.5,0.5" size="67,58" url="ui://rdb04el010uxgw" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </loader>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

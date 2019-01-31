@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="460,250" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n22_ujqd" name="n22" xy="0,30" size="460,230" url="ui://47ikzi2a7ykct" fill="scaleFree"/>
+    <list id="n2_nf1s" name="list" xy="30,60" size="400,170" layout="flow_hz" margin="5,0,0,0" colGap="20" lineItemCount="3" defaultItem="ui://2ipmzghtvvhmbd" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n19_vvhm" name="n19" xy="128,0" pivot="0.5,0.5" size="203,40" fontSize="36" align="center" vAlign="middle" leading="0" text="#TEXT_60380"/>
+    <loader id="n20_vvhm" name="n20" xy="78,11" pivot="0.5,0.5" size="44,12" rotation="180" touchable="false" url="ui://47ikzi2a7ykcs" fill="scaleFree" autoSize="true">
+      <relation target="n19_vvhm" sidePair="right-left,middle-middle"/>
+    </loader>
+    <loader id="n21_vvhm" name="n21" xy="338,15" size="44,12" touchable="false" url="ui://47ikzi2a7ykcs" fill="scaleFree" autoSize="true">
+      <relation target="n19_vvhm" sidePair="left-right,middle-middle"/>
+    </loader>
+  </displayList>
+  <transition name="t0" options="4">
+    <item time="0" type="XY" tween="true" startValue="230,-" endValue="0,-" duration="6" ease="Back.Out"/>
+  </transition>
+</component>

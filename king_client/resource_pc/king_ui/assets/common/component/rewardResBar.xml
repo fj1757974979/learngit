@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="465,68" restrictSize="0,480,0,0" extention="Label">
+  <displayList>
+    <component id="n3_dlva" name="resList" src="x6w821" xy="195,-5" size="270,60">
+      <relation target="n2_dlva" sidePair="left-right"/>
+    </component>
+    <text id="n2_dlva" name="title" xy="0,12" size="205,44" fontSize="40" color="#ffffff" vAlign="middle" strokeColor="#000000" strokeSize="2" text="攻城获得：">
+      <relation target="" sidePair="middle-middle"/>
+    </text>
+  </displayList>
+</component>

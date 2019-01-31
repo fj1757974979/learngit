@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080" designImage="ui://864gshxxdwsy2x" designImageLayer="1">
+  <displayList>
+    <component id="n0_i3o2" name="bg" src="qg2m2q" xy="0,0"/>
+    <component id="n1_i3o2" name="backBtn" src="royda" xy="7,5"/>
+    <loader id="n2_i3o2" name="n2" xy="737,18" size="288,63" scale="1.5,1" url="ui://864gshxxroydj"/>
+    <text id="n3_i3o2" name="title" xy="729,32" size="467,39" font="楷体" fontSize="35" color="#ffffff" align="center" vAlign="middle" strokeColor="#000000" strokeSize="2" text="请选择X国或群雄武将（Y/Z）"/>
+    <loader id="n4_i3o2" name="n4" xy="498,89" size="918,841" url="ui://864gshxxjh6fk" fill="scaleFree"/>
+    <list id="n5_i3o2" name="cardList" xy="558,144" size="799,733" layout="flow_hz" selectionMode="multipleSingleClick" overflow="scroll" scrollBarFlags="2" lineGap="23" colGap="3" lineItemCount="5" defaultItem="ui://rdb04el0uoofm" align="center"/>
+    <component id="n6_i3o2" name="confirmBtn" src="jed213" xy="1420,956">
+      <Button title="确定"/>
+    </component>
+    <component id="n7_i3o2" name="forAmountLabel" src="jed2t" xy="1051,966" size="77,32" scale="1.2,1.2">
+      <Label title="0"/>
+    </component>
+    <component id="n8_i3o2" name="forSubBtn" src="bzh4o" xy="1148,951" scale="0.8,0.8"/>
+    <component id="n9_i3o2" name="forAddBtn" src="bzh4p" xy="980,950" scale="0.8,0.8"/>
+    <text id="n10_i3o2" name="text1" xy="716,967" size="173,32" fontSize="28" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="3" text="选择粮草数量"/>
+    <text id="n12_i3o2" name="text2" xy="634,954" size="10,30" fontSize="26" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="3" text="">
+      <relation target="n11_i3o2" sidePair="left-right"/>
+    </text>
+    <loader id="n11_i3o2" name="img1" xy="891,953" pivot="0,-0.2" size="96,80" scale="0.8,0.8" url="ui://864gshxxroyd3"/>
+    <text id="n13_i3o2" name="text3" xy="701,1024" size="530,39" fontSize="35" color="#009966" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="3" text="注：战败后消耗粮草可以继续征战"/>
+    <text id="n14_mx2o" name="text4" xy="776,984" size="355,39" fontSize="35" color="#ffffff" strokeColor="#000000" strokeSize="3" text="长按武将可以查看详情">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>

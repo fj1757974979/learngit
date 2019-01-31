@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="95,75" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0">
+    <action type="play_transition" fromPage="0" toPage="1" transition="down"/>
+    <action type="play_transition" fromPage="1" toPage="0" transition="up"/>
+  </controller>
+  <displayList>
+    <loader id="n7_m1um" name="n7" xy="0,-2" size="95,80" url="ui://8d3e8y55ul1124" align="center" vAlign="middle">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n1" name="n1" xy="7,0" pivot="0.5,0.5" size="80,76" scale="0.9,0.9" url="ui://8d3e8y55yyke2t" align="center" vAlign="middle">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <component id="n6_j7l7" name="socialNumHint" src="j7l76f" fileName="component/socialNewHint.xml" pkg="864gshxx" xy="63,0"/>
+  </displayList>
+  <Button mode="Radio"/>
+  <transition name="down">
+    <item time="0" type="Scale" target="n1" tween="true" startValue="0.9,0.9" endValue="1,1" duration="6"/>
+  </transition>
+  <transition name="up">
+    <item time="0" type="Scale" target="n1" tween="true" startValue="1,1" endValue="0.9,0.9" duration="6"/>
+  </transition>
+</component>

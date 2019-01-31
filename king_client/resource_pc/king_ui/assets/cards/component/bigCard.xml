@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="610,647">
+  <displayList>
+    <loader id="n1_x88n" name="n1" xy="0,0" size="610,647" url="ui://rdb04el0uoof2"/>
+    <image id="n2_x88n" name="icon" src="uoof2j" pkg="rcm1dlbr" xy="0,0" size="610,647"/>
+    <loader id="n0_x88n" name="frontImg" xy="0,0" size="610,647" url="ui://rdb04el0uoof0"/>
+    <loader id="n3_x88n" name="n3" xy="0,0" size="610,647" url="ui://rdb04el0uoofi"/>
+    <text id="n4_x88n" name="skillDescTxt" xy="114,324" size="368,180" font="微软雅黑" fontSize="30" color="#ffffff" leading="4" autoSize="none" strokeColor="#000000" strokeSize="3" text="mamamamam我我我我我说的是颠三倒四"/>
+  </displayList>
+</component>

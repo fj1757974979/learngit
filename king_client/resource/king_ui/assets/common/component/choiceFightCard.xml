@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,800" designImage="ui://864gshxxi3o218" designImageLayer="1">
+  <displayList>
+    <component id="n0_i3o2" name="bg" src="qg2m2q" fileName="component/AdjustBg.xml" xy="0,0" size="480,800"/>
+    <component id="n1_i3o2" name="backBtn" src="royda" fileName="component/backBtn.xml" xy="5,5">
+      <relation target="n0_i3o2" sidePair="top-top,left-left"/>
+    </component>
+    <loader id="n2_i3o2" name="n2" xy="113,34" size="288,63" hideByEditor="true" visible="false" url="ui://864gshxxroydj"/>
+    <text id="n3_i3o2" name="title" xy="53,25" size="373,28" font="楷体" fontSize="24" align="center" vAlign="middle" leading="0" autoSize="shrink" bold="true" text="请选择X国或群雄武将（Y/Z）">
+      <relation target="n0_i3o2" sidePair="center-center,top-top"/>
+    </text>
+    <list id="n5_i3o2" name="cardList" xy="11,70" size="458,620" layout="flow_hz" selectionMode="multipleSingleClick" overflow="scroll" scrollBarFlags="6" scrollBarRes="ui://864gshxxjzjo62," lineGap="9" colGap="3" lineItemCount="5" defaultItem="ui://rdb04el0uoofm" align="center">
+      <relation target="n0_i3o2" sidePair="bottomext-bottom,topext-top"/>
+    </list>
+    <component id="n6_i3o2" name="confirmBtn" src="jed213" fileName="component/functionBtn.xml" xy="165,735" size="150,50">
+      <relation target="n0_i3o2" sidePair="bottom-bottom,center-center"/>
+      <Button title="#TEXT_70005" titleFontSize="28" icon="ui://864gshxxj6006u" sound="ui://864gshxxlr3f2n"/>
+    </component>
+    <component id="n7_i3o2" name="forAmountLabel" src="jed2t" fileName="component/baseLabel.xml" xy="305,649">
+      <Label title="0"/>
+    </component>
+    <component id="n8_i3o2" name="forSubBtn" src="bzh4o" fileName="component/preBtn.xml" xy="260,642"/>
+    <component id="n9_i3o2" name="forAddBtn" src="bzh4p" fileName="component/nextBtn.xml" xy="385,642"/>
+    <text id="n10_i3o2" name="text1" xy="27,642" size="161,30" fontSize="26" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="3" text="选择粮草数量">
+      <relation target="n11_i3o2" sidePair="right-left"/>
+    </text>
+    <text id="n12_i3o2" name="text2" xy="230,642" size="31,30" fontSize="26" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="3" text="：">
+      <relation target="n11_i3o2" sidePair="left-right"/>
+    </text>
+    <loader id="n11_i3o2" name="img1" xy="179,631" size="60,60" url="ui://864gshxxroyd3"/>
+    <text id="n13_i3o2" name="text3" xy="72,683" size="335,26" fontSize="22" color="#009966" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="3" text="注：战败后消耗粮草可以继续征战">
+      <relation target="" sidePair="center-center"/>
+      <relation target="n11_i3o2" sidePair="top-bottom"/>
+    </text>
+    <text id="n14_mx2o" name="text4" xy="159,700" size="159,28" fontSize="24" color="#333333" leading="0" text="#TEXT_70087">
+      <relation target="n0_i3o2" sidePair="bottom-bottom,center-center"/>
+    </text>
+  </displayList>
+</component>

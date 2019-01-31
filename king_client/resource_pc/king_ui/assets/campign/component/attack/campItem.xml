@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="799,305" designImage="ui://ww6xhnp6s6x40" designImageOffsetY="-60" designImageLayer="1">
+  <displayList>
+    <loader id="n6_sqcs" name="bg" xy="0,0" size="799,305" url="ui://ww6xhnp6s6x47"/>
+    <loader id="n7_sqcs" name="camp" xy="45,122" size="62,62" url="ui://ww6xhnp6s6x4f"/>
+    <component id="n2_w5uu" name="bar1" src="nzui2b" xy="102,70">
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <component id="n3_w5uu" name="bar2" src="nzui2b" xy="105,166">
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <loader id="n4_w5uu" name="icon1" xy="633,69" size="62,62" url="ui://ww6xhnp6s6x4f">
+      <relation target="" sidePair="right-right"/>
+    </loader>
+    <loader id="n5_w5uu" name="icon2" xy="632,166" size="62,62" url="ui://ww6xhnp6s6x4d">
+      <relation target="" sidePair="right-right"/>
+    </loader>
+  </displayList>
+</component>

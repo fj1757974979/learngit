@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="450,600" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n0_lnsl" name="n0" xy="37,59" size="375,482" url="ui://dvmsogfrfirs44" fill="scaleFree"/>
+    <text id="n40_k73y" name="txt2" xy="75,390" size="300,80" fontSize="24" color="#333333" align="center" vAlign="middle" leading="0" ubb="true" autoSize="shrink" text="#TEXT_60237"/>
+    <loader id="n46_yyke" name="n46" xy="119,185" pivot="0.5,0.5" size="212,107" scale="0.7,0.7" touchable="false" url="ui://zfg0revpu6us2j">
+      <relation target="" sidePair="middle-middle"/>
+    </loader>
+    <loader id="n47_yyke" name="boxIcon" xy="137,140" pivot="0.5,0.5" size="175,157" touchable="false" url="ui://zfg0revps4m72p" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <relation target="" sidePair="middle-middle"/>
+    </loader>
+    <text id="n48_yyke" name="boxName" xy="75,250" size="300,50" fontSize="24" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="shrink" strokeColor="#000000" text="宝箱名字">
+      <relation target="" sidePair="middle-middle"/>
+    </text>
+    <loader id="n61_h33x" name="n61" xy="39,310" size="372,70" touchable="false" url="ui://dvmsogfrh33x42" fill="scaleFree"/>
+    <loader id="n51_yyke" name="n51" xy="70,313" pivot="0.5,0.5" size="50,60" touchable="false" url="ui://864gshxxd54gao" align="center" vAlign="middle" fill="scale"/>
+    <loader id="n52_yyke" name="n52" xy="200,325" pivot="0.5,0.5" size="40,40" touchable="false" url="ui://864gshxxnf1s9a" align="center" vAlign="middle" fill="scale"/>
+    <text id="n54_yyke" name="cardCntNew" xy="121,330" size="61,32" font="楷体" fontSize="28" color="#ffffff" vAlign="middle" leading="0" strokeColor="#000000" text="x200">
+      <relation target="n51_yyke" sidePair="middle-middle,left-right"/>
+    </text>
+    <text id="n55_yyke" name="goldCntNew" xy="241,330" size="117,32" font="楷体" fontSize="28" color="#ffffff" vAlign="middle" leading="0" ubb="true" strokeColor="#000000" text="x200~200">
+      <relation target="n52_yyke" sidePair="middle-middle,left-right"/>
+    </text>
+    <component id="n38_ul11" name="shareBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="245,475" size="150,60" visible="false">
+      <Button title="#TEXT_70014" titleFontSize="28" icon="ui://864gshxxj6006u"/>
+    </component>
+    <component id="n58_eibg" name="openBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="55,475" size="150,60">
+      <Button title="#70013" titleFontSize="28" icon="ui://864gshxxj6006t"/>
+    </component>
+    <component id="n59_eibg" name="advertBtn" src="rbz09e" fileName="component/advertBtn.xml" pkg="864gshxx" xy="245,475" size="150,60" visible="false">
+      <Button icon="ui://864gshxxrbz09h"/>
+    </component>
+    <loader id="n60_h33x" name="n60" xy="125,64" pivot="0.5,0.5" size="200,65" touchable="false" url="ui://864gshxxroydj" fill="scaleFree">
+      <relation target="n64_d54g" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n62_h33x" name="cardDoubleHint" xy="240,150" pivot="0.5,0.5" size="80,50" touchable="false" url="ui://dvmsogfrfwlx47" align="center" vAlign="middle" fill="scaleMatchHeight"/>
+    <component id="n43_yyke" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="355,65"/>
+    <loader id="n64_d54g" name="n64" xy="150,70" pivot="0.5,0.5" size="150,51" touchable="false" url="ui://864gshxxd54gal" autoSize="true">
+      <relation target="n60_h33x" sidePair="center-center,middle-middle"/>
+    </loader>
+    <component id="n65_srbf" name="jadeSkipBtn" src="nf1s9c" fileName="component/jadeBtn.xml" pkg="864gshxx" xy="55,475" size="150,60" visible="false">
+      <Button title="3" titleColor="#ffff00" titleFontSize="32"/>
+    </component>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Scale" target="n62_h33x" tween="true" startValue="0.8,0.8" endValue="1.2,1.2" duration="12" ease="Linear"/>
+    <item time="12" type="Scale" target="n62_h33x" tween="true" startValue="1.2,1.2" endValue="0.8,0.8" duration="12" ease="Linear"/>
+  </transition>
+  <transition name="t1" autoPlay="true">
+    <item time="0" type="Alpha" tween="true" startValue="0.8" endValue="1" duration="6"/>
+    <item time="0" type="Scale" tween="true" startValue="0.8,0.8" endValue="1,1" duration="6"/>
+    <item time="0" type="Sound" value="ui://864gshxxyyke6n,100"/>
+  </transition>
+</component>

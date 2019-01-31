@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,800">
+  <displayList>
+    <component id="n10_ir7y" name="bg" src="qg2m2q" fileName="component/AdjustBg.xml" pkg="864gshxx" xy="0,0" size="480,800" visible="false" alpha="0"/>
+    <loader id="n5_xjab" name="left1" xy="0,0" pivot="0.5,0.5" size="697,800" url="ui://2ipmzghtbo40an" fill="scaleFree">
+      <relation target="n10_ir7y" sidePair="width-width%,height-height%"/>
+      <relation target="n10_ir7y" sidePair="left-left,middle-middle"/>
+    </loader>
+    <loader id="n6_bo40" name="right1" xy="-217,0" pivot="0.5,0.5" size="697,800" url="ui://2ipmzghtbo40ar" align="right" vAlign="bottom" fill="scaleFree">
+      <relation target="n10_ir7y" sidePair="width-width%,height-height%"/>
+      <relation target="n10_ir7y" sidePair="right-right,middle-middle"/>
+    </loader>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="XY" target="n5_xjab" value="-914,0"/>
+    <item time="0" type="XY" target="n6_bo40" value="680,0"/>
+    <item time="6" type="XY" target="n5_xjab" tween="true" startValue="-914,0" endValue="0,0" duration="12" ease="Quad.In"/>
+    <item time="6" type="XY" target="n6_bo40" tween="true" startValue="680,0" endValue="-217,0" duration="12" ease="Quad.In"/>
+  </transition>
+  <transition name="t1">
+    <item time="0" type="XY" target="n5_xjab" tween="true" startValue="0,0" endValue="-914,0" duration="12"/>
+    <item time="0" type="XY" target="n6_bo40" tween="true" startValue="-217,0" endValue="680,0" duration="12"/>
+  </transition>
+</component>

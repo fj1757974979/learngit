@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,800" designImage="ui://ww6xhnp6s6x40" designImageAlpha="51" designImageLayer="1">
+  <displayList>
+    <component id="n0_s6x4" name="bg" src="qg2m2q" pkg="864gshxx" xy="0,0" size="480,800"/>
+    <component id="n3_w5uu" name="ResBar" src="roydh" pkg="864gshxx" xy="0,705">
+      <relation target="" sidePair="bottom-bottom"/>
+    </component>
+    <component id="n4_w5uu" name="backBtn" src="royda" pkg="864gshxx" xy="7,5"/>
+    <loader id="n6_x6w8" name="n6" xy="25,653" size="458,44" url="ui://864gshxxx6w823"/>
+    <component id="n5_x6w8" name="supportRewardResBar" src="dlva1o" pkg="864gshxx" xy="81,655" size="318,43">
+      <relation target="n6_x6w8" sidePair="center-center,middle-middle"/>
+      <Label title="城池总产出：" titleFontSize="19"/>
+    </component>
+    <component id="n8_mbcj" name="resTipsBtn" src="mbcj2i" xy="59,664">
+      <relation target="n5_x6w8" sidePair="right-left,middle-middle"/>
+    </component>
+    <component id="n9_qp5h" name="weiCampItem" src="nzui27" xy="0,61"/>
+    <component id="n10_qp5h" name="shuCampItem" src="nzui27" xy="0,260"/>
+    <component id="n11_qp5h" name="wuCampItem" src="nzui27" xy="0,459"/>
+  </displayList>
+</component>

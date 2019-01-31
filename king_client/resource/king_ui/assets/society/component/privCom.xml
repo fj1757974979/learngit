@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,480" pivot="0.5,0.5" opaque="false">
+  <displayList>
+    <loader id="n71_d54g" name="light" xy="90,50" pivot="0.5,0.5" size="300,300" touchable="false" url="ui://864gshxxvco45w" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="n78_qvsx" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n78_qvsx" name="icon" xy="140,100" pivot="0.5,0.5" size="200,200" touchable="false" url="ui://994sajasye0u1u" align="center" vAlign="middle" fill="scaleMatchWidth"/>
+    <text id="n79_msue" name="desc" xy="40,350" size="400,100" fontSize="24" color="#ffffff" align="center" leading="0" autoSize="height" strokeColor="#000000" strokeSize="2" text="1.你可以跳过视频广告，优惠加速也不再消耗宝玉。&#xA;2.离线时会自动解锁未开启的宝箱（天命宝箱除外）。">
+      <relation target="n78_qvsx" sidePair="center-center,top-bottom"/>
+    </text>
+    <text id="n81_msue" name="name" xy="165,20" pivot="0.5,0.5" size="149,40" fontSize="36" color="#ffffff" align="center" vAlign="middle" leading="0" strokeColor="#333333" strokeSize="2" shadowColor="#333333" shadowOffset="1,1" text="士族特权">
+      <relation target="n78_qvsx" sidePair="center-center,bottom-top"/>
+    </text>
+  </displayList>
+  <transition name="t1" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Rotation" target="n71_d54g" tween="true" startValue="0" endValue="360" duration="144" ease="Linear" repeat="-1"/>
+    <item time="144" type="Rotation" target="n71_d54g" tween="true" startValue="360"/>
+  </transition>
+</component>

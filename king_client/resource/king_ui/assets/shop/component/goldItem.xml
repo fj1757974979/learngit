@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="150,200" pivot="0.5,0.5" extention="Button">
+  <displayList>
+    <loader id="n0_nf1s" name="bg1" xy="8,7" size="133,187" touchable="false" url="ui://994sajasal2v18" fill="scaleFree"/>
+    <text id="n9_nf1s" name="name" xy="12,20" size="126,24" font="楷体" fontSize="20" align="center" vAlign="middle" leading="0" autoSize="shrink" text="一把金币">
+      <relation target="n0_nf1s" sidePair="center-center,top-top"/>
+    </text>
+    <loader id="n23_ryqp" name="icon" xy="7,40" size="135,136" touchable="false" url="ui://994sajasryqpv" align="center" vAlign="middle" autoSize="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n26_ryqp" name="n26" xy="15,170" size="120,30" touchable="false" url="ui://994sajasryqpu" fill="scaleMatchWidth"/>
+    <text id="n21_nf1s" name="price" xy="62,165" size="50,34" fontSize="30" color="#ffffff" align="center" vAlign="middle" leading="0" bold="true" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="999">
+      <relation target="n26_ryqp" sidePair="center-center,middle-middle"/>
+    </text>
+    <loader id="n22_nf1s" name="resIcon" xy="25,162" size="40,40" touchable="false" url="ui://864gshxxnf1s9b" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <relation target="n21_nf1s" sidePair="middle-middle,right-left"/>
+    </loader>
+    <text id="n19_nf1s" name="goldCnt" xy="48,45" size="53,28" font="楷体" fontSize="24" color="#ffff00" align="center" vAlign="middle" leading="0" bold="true" strokeColor="#333333" text="1000">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.95"/>
+  <transition name="t0">
+    <item time="0" type="Scale" tween="true" startValue="1,1" endValue="0.9,0.9" duration="3"/>
+    <item time="3" type="Scale" tween="true" startValue="0.9,0.9" endValue="1,1" duration="3"/>
+  </transition>
+</component>

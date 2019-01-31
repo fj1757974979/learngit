@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080">
+  <controller name="result" pages="0,win,1,lose" selected="1"/>
+  <displayList>
+    <component id="n0_x6w8" name="winBg" src="qg2mu" xy="0,0" size="1920,1080">
+      <gearDisplay controller="result" pages="0"/>
+    </component>
+    <loader id="n2_x6w8" name="n2" xy="584,47" size="752,319" url="ui://ryvvr3p0x88nd">
+      <gearDisplay controller="result" pages="0"/>
+    </loader>
+    <component id="n3_x6w8" name="loseBg" src="qg2mv" xy="0,0" size="1920,1080">
+      <gearDisplay controller="result" pages="1"/>
+    </component>
+    <loader id="n5_x6w8" name="n5" xy="585,47" size="750,381" url="ui://ryvvr3p0x88nl">
+      <gearDisplay controller="result" pages="1"/>
+    </loader>
+    <list id="n6_mbcj" name="cardList" xy="728,480" size="463,320" layout="flow_hz" selectionMode="none" overflow="hidden" lineGap="9" colGap="3" lineItemCount="5" defaultItem="ui://rdb04el0uoofm" align="center"/>
+  </displayList>
+</component>

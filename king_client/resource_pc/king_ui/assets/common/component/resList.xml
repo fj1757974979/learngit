@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="182,60">
+  <displayList>
+    <list id="n1_x6w8" name="list" xy="0,-10" pivot="0,0.5" size="223,80" scale="0.75,0.75" layout="row" selectionMode="none" colGap="8" defaultItem="ui://864gshxxbzh4r"/>
+  </displayList>
+</component>

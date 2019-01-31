@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="430,680" designImage="ui://ravbpjp3bzh4h" designImageOffsetX="-10" designImageOffsetY="-108" designImageLayer="1">
+  <controller name="type" pages="0,pvp,1,war,2,common" selected="0"/>
+  <displayList>
+    <graph id="n64_d22g" name="closeBg" xy="-25,-95" size="480,800" type="rect" lineColor="#00000000" fillColor="#00ffffff"/>
+    <loader id="n1_bzh4" name="bg" xy="0,0" size="430,680" url="ui://ravbpjp3kyov1h" fill="scaleFree">
+      <gearSize controller="type" pages="2" values="430,630,1,1" default="430,680,1,1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <component id="n29_bzh4" name="card" src="stg9hf" fileName="component/middleCardBig.xml" pkg="rdb04el0" xy="15,15" size="193,248"/>
+    <loader id="n13_bzh4" name="n13" xy="16,357" size="397,171" url="ui://864gshxxdz7b54" fill="scaleFree">
+      <relation target="n1_bzh4" sidePair="center-center,bottom-bottom"/>
+    </loader>
+    <component id="n18_bzh4" name="expProgressBar" src="bzh4k" fileName="component/valueProgressBar.xml" xy="225,240" size="172,20"/>
+    <component id="n20_bzh4" name="uplevelBtn" src="bzh4l" fileName="component/uplevelBtn.xml" xy="111,584" pivot="0.5,0.5">
+      <relation target="n1_bzh4" sidePair="center-center,bottom-bottom"/>
+      <Button title="升  级"/>
+    </component>
+    <component id="n24_bzh4" name="goldLabel" src="bzh4r" fileName="component/resLabel.xml" pkg="864gshxx" xy="159,554" size="200,63" scale="0.8,0.8">
+      <relation target="n1_bzh4" sidePair="center-center,bottom-bottom"/>
+      <Label title="1000/100" icon="ui://864gshxxnf1s9a"/>
+    </component>
+    <loader id="n31_j4cj" name="txtCost" xy="114,572" size="48,20" url="ui://ravbpjp3j4cjq">
+      <relation target="n24_bzh4" sidePair="right-left,middle-middle"/>
+    </loader>
+    <component id="n32_j4cj" name="btnLevel1" src="j4cjz" fileName="component/levelBtn.xml" xy="250,10">
+      <Button checked="true"/>
+    </component>
+    <component id="n33_j4cj" name="btnLevel2" src="j4cjz" fileName="component/levelBtn.xml" xy="250,55"/>
+    <component id="n34_j4cj" name="btnLevel3" src="j4cjz" fileName="component/levelBtn.xml" xy="250,100"/>
+    <component id="n35_j4cj" name="btnLevel4" src="j4cjz" fileName="component/levelBtn.xml" xy="250,145"/>
+    <component id="n36_j4cj" name="btnLevel5" src="j4cjz" fileName="component/levelBtn.xml" xy="250,190" grayed="true"/>
+    <loader id="n37_j4cj" name="levelTxt1" xy="283,21" size="55,27" touchable="false" url="ui://ravbpjp3j4cju"/>
+    <loader id="n38_j4cj" name="levelTxt2" xy="283,66" size="55,27" touchable="false" url="ui://ravbpjp3j4cjt"/>
+    <loader id="n39_j4cj" name="levelTxt3" xy="283,111" size="56,27" touchable="false" url="ui://ravbpjp3j4cjs"/>
+    <loader id="n40_j4cj" name="levelTxt4" xy="283,156" size="55,27" touchable="false" url="ui://ravbpjp3j4cjw"/>
+    <loader id="n41_j4cj" name="levelTxt5" xy="283,201" size="56,27" touchable="false" url="ui://ravbpjp3j4cjv"/>
+    <loader id="n44_c3kw" name="curLevelImg" xy="230,21" size="32,25" url="ui://ravbpjp3c3kw10"/>
+    <component id="n45_c3kw" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="365,10"/>
+    <loader id="n46_c3kw" name="imgMaxLevel" xy="122,571" size="187,102" url="ui://ravbpjp3c3kw17">
+      <relation target="n1_bzh4" sidePair="center-center,bottom-bottom"/>
+    </loader>
+    <text id="n47_ih68" name="upTxt1" xy="106,110" pivot="0.5,0.5" size="50,50" visible="false" fontSize="50" color="#ffff00" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="等"/>
+    <text id="n51_ih68" name="upTxt2" xy="156,110" pivot="0.5,0.5" size="50,50" visible="false" fontSize="50" color="#ffff00" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="级"/>
+    <text id="n50_ih68" name="upTxt3" xy="206,110" pivot="0.5,0.5" size="50,50" visible="false" fontSize="50" color="#ffff00" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="提"/>
+    <text id="n49_ih68" name="upTxt4" xy="258,110" pivot="0.5,0.5" size="50,50" visible="false" fontSize="50" color="#ffff00" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="升"/>
+    <text id="n52_ih68" name="upTxt5" xy="306,109" pivot="0.5,0.5" size="50,50" visible="false" fontSize="50" color="#ffff00" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="！&#xA;"/>
+    <richtext id="n53_stg9" name="tips" xy="20,270" size="390,32" font="Kaiti SC Regular" fontSize="20" align="center" vAlign="middle" autoSize="shrink" text="#TEXT_70103"/>
+    <graph id="n56_stg9" name="skillDescBg2" xy="19,412" size="392,59" alpha="0" type="rect" lineSize="0" corner="5">
+      <relation target="n13_bzh4" sidePair="center-center,middle-middle"/>
+    </graph>
+    <graph id="n58_stg9" name="skillDescBg3" xy="19,463" size="391,62" alpha="0" type="rect" lineSize="0" corner="5">
+      <relation target="n13_bzh4" sidePair="center-center,bottom-bottom"/>
+    </graph>
+    <graph id="n57_stg9" name="skillDescBg1" xy="19,357" size="391,63" alpha="0" type="rect" lineSize="0" corner="5">
+      <relation target="n13_bzh4" sidePair="center-center,top-top"/>
+    </graph>
+    <richtext id="n43_c3kw" name="skillDescText1" xy="25,365" size="376,52" font="Kaiti SC Regular" fontSize="20" color="#ffffff" leading="6" autoSize="shrink" text="仁德：&lt;font color=&quot;black&quot;>给队友手牌&lt;/font>">
+      <gearDisplay controller="type" pages="0,2"/>
+      <relation target="n57_stg9" sidePair="center-center,middle-middle"/>
+    </richtext>
+    <richtext id="n54_stg9" name="skillDescText2" xy="25,416" size="376,52" font="Kaiti SC Regular" fontSize="20" color="#ffffff" leading="6" autoSize="shrink" text="龙胆：&lt;font color=&quot;black&quot;>杀当闪，闪当杀&lt;/font>">
+      <gearDisplay controller="type" pages="0,2"/>
+      <relation target="n56_stg9" sidePair="center-center,middle-middle"/>
+    </richtext>
+    <richtext id="n55_stg9" name="skillDescText3" xy="25,467" size="376,52" font="Kaiti SC Regular" fontSize="20" color="#ffffff" leading="6" autoSize="shrink" text="斗狠：&lt;font color=&quot;black&quot;>进场时，若有敌方相邻，则+2；否则-2警戒&lt;/font>&#xA;每当敌方卡牌进场置于相邻空格时，尝试对其进攻。">
+      <gearDisplay controller="type" pages="0,2"/>
+      <relation target="n58_stg9" sidePair="center-center,middle-middle"/>
+    </richtext>
+    <richtext id="n60_fa1u" name="say" xy="104,532" size="221,32" font="Kaiti SC Regular" fontSize="18" color="#333333" align="center" vAlign="middle" singleLine="true" text="宁我负人，勿人负我！哈哈&#xA;">
+      <relation target="n13_bzh4" sidePair="center-center,top-bottom"/>
+    </richtext>
+    <loader id="n61_fa1u" name="n61" xy="325,546" size="44,3" url="ui://ravbpjp3fa1u1s">
+      <relation target="n60_fa1u" sidePair="left-right,middle-middle"/>
+    </loader>
+    <loader id="n63_fa1u" name="n63" xy="61,546" size="44,3" url="ui://ravbpjp3fa1u1r">
+      <relation target="n60_fa1u" sidePair="left-left,middle-middle"/>
+    </loader>
+    <richtext id="n66_l231" name="limitTips" xy="216,234" size="196,32" visible="false" font="Kaiti SC Regular" fontSize="16" align="center" vAlign="middle" leading="0" autoSize="shrink" text="#TEXT_70104"/>
+    <loader id="n67_l231" name="limitImg" xy="120,177" size="90,90" visible="false" url="ui://ravbpjp3l2311u" fill="scaleFree"/>
+    <component id="n68_h24d" name="skinBtn" src="h24d22" fileName="component/skinBtn.xml" xy="15,203" visible="false"/>
+    <component id="n69_j66l" name="equipBtn" src="j66l23" fileName="component/equipBtn.xml" xy="20,20" size="50,50" visible="false"/>
+    <component id="n70_tlw5" name="upBtn" src="tlw526" fileName="component/levelUpBtn.xml" xy="370,220" size="60,60" visible="false"/>
+    <component id="n71_u5xl" name="pvpChk" src="u5xl2b" fileName="component/pvpChk.xml" xy="65,305">
+      <gearDisplay controller="type" pages="0,1"/>
+      <Button checked="true" title="对战" controller="type" page="0"/>
+    </component>
+    <component id="n72_u5xl" name="warChk" src="u5xl2c" fileName="component/warChk.xml" xy="245,305">
+      <gearDisplay controller="type" pages="0,1"/>
+      <Button title="国战" controller="type" page="1"/>
+    </component>
+    <richtext id="n73_u5xl" name="politicsText" xy="40,365" size="77,37" font="Kaiti SC Regular" fontSize="24" color="#ffffff" leading="0" text="政治：">
+      <gearDisplay controller="type" pages="1"/>
+    </richtext>
+    <richtext id="n74_u5xl" name="forceText" xy="40,445" size="77,37" font="Kaiti SC Regular" fontSize="24" color="#ffffff" leading="0" text="武力：">
+      <gearDisplay controller="type" pages="1"/>
+    </richtext>
+    <richtext id="n75_u5xl" name="commandText" xy="40,485" size="77,37" font="Kaiti SC Regular" fontSize="24" color="#ffffff" leading="0" text="统率：">
+      <gearDisplay controller="type" pages="1"/>
+    </richtext>
+    <richtext id="n76_u5xl" name="intelligenceText" xy="40,405" size="77,37" font="Kaiti SC Regular" fontSize="24" color="#ffffff" leading="0" text="智力：">
+      <gearDisplay controller="type" pages="1"/>
+    </richtext>
+    <richtext id="n77_u5xl" name="politics" xy="125,365" size="27,37" font="Kaiti SC Regular" fontSize="24" color="#ffffff" leading="0" bold="true" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="99">
+      <gearDisplay controller="type" pages="1"/>
+    </richtext>
+    <richtext id="n78_u5xl" name="force" xy="125,445" size="27,37" font="Kaiti SC Regular" fontSize="24" color="#ffffff" leading="0" bold="true" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="99">
+      <gearDisplay controller="type" pages="1"/>
+    </richtext>
+    <richtext id="n79_u5xl" name="command" xy="125,484" size="27,37" font="Kaiti SC Regular" fontSize="24" color="#ffffff" leading="0" bold="true" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="99">
+      <gearDisplay controller="type" pages="1"/>
+    </richtext>
+    <richtext id="n80_u5xl" name="intelligence" xy="125,404" size="27,37" font="Kaiti SC Regular" fontSize="24" color="#ffffff" leading="0" bold="true" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="99">
+      <gearDisplay controller="type" pages="1"/>
+    </richtext>
+    <text id="n81_n0vf" name="levelUpTxt1" xy="110,110" pivot="0.5,0.5" size="130,54" visible="false" fontSize="50" color="#ffff00" align="center" vAlign="middle" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="LEVEL"/>
+    <text id="n82_n0vf" name="levelUpTxt2" xy="250,110" pivot="0.5,0.5" size="80,54" visible="false" fontSize="50" color="#ffff00" align="center" vAlign="middle" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="UP!">
+      <relation target="n81_n0vf" sidePair="left-right"/>
+    </text>
+    <loader id="n59_qehe" name="campBottom" xy="26,26" size="45,45" group="n83_s6w4" visible="false" url="ui://ravbpjp3qehe1o" align="center" vAlign="middle" autoSize="true"/>
+    <loader id="n4_bzh4" name="campText" xy="32,27" size="34,41" group="n83_s6w4" visible="false" url="ui://ravbpjp3u8431v" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <relation target="n59_qehe" sidePair="center-center,middle-middle"/>
+    </loader>
+    <group id="n83_s6w4" name="n83" xy="26,26" size="45,45"/>
+    <loader id="n84_ih5b" name="lockTxt" xy="350,199" size="65,32" url="ui://ravbpjp3v5w12d" align="center" vAlign="middle" fill="scaleMatchWidth"/>
+  </displayList>
+  <transition name="levelup" options="6">
+    <item time="0" type="ColorFilter" target="n29_bzh4" tween="true" startValue="0.00,0.00,0.00,0.00" endValue="1.00,0.00,0.00,0.00" duration="24" ease="Cubic.In"/>
+    <item time="0" type="Sound" value="ui://864gshxxt4qv4a,100"/>
+    <item time="24" type="ColorFilter" target="n29_bzh4" tween="true" startValue="1.00,0.00,0.00,0.00" endValue="0.00,0.00,0.00,0.00" duration="24"/>
+  </transition>
+  <transition name="levelupTip" options="6">
+    <item time="0" type="Visible" target="n47_ih68" value="false"/>
+    <item time="0" type="Visible" target="n49_ih68" value="false"/>
+    <item time="0" type="Visible" target="n50_ih68" value="false"/>
+    <item time="0" type="Visible" target="n51_ih68" value="false"/>
+    <item time="0" type="Visible" target="n52_ih68" value="false"/>
+    <item time="1" type="Visible" target="n47_ih68" value="true"/>
+    <item time="1" type="XY" target="n47_ih68" tween="true" startValue="80,60" endValue="80,110" duration="18" ease="Elastic.Out"/>
+    <item time="4" type="Visible" target="n51_ih68" value="true"/>
+    <item time="4" type="XY" target="n51_ih68" tween="true" startValue="130,60" endValue="130,110" duration="18" ease="Elastic.Out"/>
+    <item time="10" type="Visible" target="n50_ih68" value="true"/>
+    <item time="10" type="XY" target="n50_ih68" tween="true" startValue="180,60" endValue="180,110" duration="18" ease="Elastic.Out"/>
+    <item time="16" type="Visible" target="n49_ih68" value="true"/>
+    <item time="16" type="XY" target="n49_ih68" tween="true" startValue="230,60" endValue="230,110" duration="18" ease="Elastic.Out"/>
+    <item time="22" type="Visible" target="n52_ih68" value="true"/>
+    <item time="22" type="XY" target="n52_ih68" tween="true" startValue="280,60" endValue="280,110" duration="18" ease="Elastic.Out"/>
+    <item time="41" type="Visible" target="n47_ih68" value="false"/>
+    <item time="41" type="Visible" target="n49_ih68" value="false"/>
+    <item time="41" type="Visible" target="n50_ih68" value="false"/>
+    <item time="41" type="Visible" target="n51_ih68" value="false"/>
+    <item time="41" type="Visible" target="n52_ih68" value="false"/>
+  </transition>
+  <transition name="skill1blink" options="5">
+    <item time="0" type="Alpha" target="n57_stg9" tween="true" startValue="0" endValue="1" duration="12"/>
+    <item time="0" type="Sound" value="ui://864gshxxlxfs6t,100"/>
+    <item time="12" type="Alpha" target="n57_stg9" tween="true" startValue="1" endValue="0" duration="12"/>
+  </transition>
+  <transition name="skill2blink" options="5">
+    <item time="0" type="Alpha" target="n56_stg9" tween="true" startValue="0" endValue="1" duration="12"/>
+    <item time="0" type="Sound" value="ui://864gshxxt4qv4a,100"/>
+    <item time="12" type="Alpha" target="n56_stg9" tween="true" startValue="1" endValue="0" duration="12"/>
+  </transition>
+  <transition name="skill3blink" options="5">
+    <item time="0" type="Alpha" target="n58_stg9" tween="true" startValue="0" endValue="1" duration="12"/>
+    <item time="0" type="Sound" value="ui://864gshxxt4qv4a,100"/>
+    <item time="12" type="Alpha" target="n58_stg9" tween="true" startValue="1" endValue="0" duration="12"/>
+  </transition>
+  <transition name="skin" options="6">
+    <item time="0" type="ColorFilter" target="n29_bzh4" tween="true" startValue="1.00,0.00,0.00,0.00"/>
+    <item time="0" type="ColorFilter" target="n29_bzh4" tween="true" startValue="1.00,0.00,0.00,0.00" endValue="0.00,0.00,0.00,0.00" duration="24" ease="Quad.In"/>
+    <item time="0" type="Sound" value="ui://864gshxxyyke6p,100"/>
+  </transition>
+  <transition name="levelupTip2" options="6">
+    <item time="0" type="Visible" target="n81_n0vf" value="false"/>
+    <item time="0" type="Visible" target="n82_n0vf" value="false"/>
+    <item time="1" type="Visible" target="n81_n0vf" value="true"/>
+    <item time="1" type="XY" target="n81_n0vf" tween="true" startValue="110,60" endValue="110,110" duration="18" ease="Elastic.Out"/>
+    <item time="4" type="Visible" target="n82_n0vf" value="true"/>
+    <item time="4" type="XY" target="n82_n0vf" tween="true" startValue="250,60" endValue="250,110" duration="18" ease="Elastic.Out"/>
+    <item time="41" type="Visible" target="n81_n0vf" value="false"/>
+    <item time="41" type="Visible" target="n82_n0vf" value="false"/>
+  </transition>
+</component>

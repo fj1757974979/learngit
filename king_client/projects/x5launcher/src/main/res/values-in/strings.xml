@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Terbalik Tiga Kerajaan</string>
+    <string name="init_game">Sedang inisialisasi game, harap sabar...</string>
+    <string name="init_install">Sedang ekstrak material, harap sabar...</string>
+    <string name="sdk_init_fail">Inisialisasi SDK gagal, silakan periksa pengaturan izin, restart game dan coba lagi...</string>
+    <string name="auth_hint">Game perlu mengakses izin ponsel yg berhubungan, silakan otorisasi di pengaturan izin.</string>
+    <string name="auth_confirm">Otorisasi</string>
+    <string name="cancel">Batal</string>
+    <string name="exit_hint">Tekan 1X lagi untuk logout game</string>
+    <string name="record_permission_hint">Silakan aktifkan izin rekam layar dan coba kembali</string>
+    <string name="record_not_support">Versi android saat ini tidak mendukung rekam layar</string>
+    <string name="share_fail">Gagal berbagi, silakan periksa apakah telah menginstall app Facebook versi terbaru</string>
+    <string name="share_no_video">Kamu belum rekam layar perang</string>
+</resources>

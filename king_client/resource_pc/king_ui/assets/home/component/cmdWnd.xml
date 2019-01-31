@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="696,970">
+  <displayList>
+    <loader id="n3_nzui" name="n3" xy="0,0" size="696,890" url="ui://8d3e8y55roydc" fill="scaleFree"/>
+    <component id="n4_nzui" name="closeBtn" src="bzh4m" pkg="864gshxx" xy="604,-28"/>
+    <component id="n5_nzui" name="confirmBtn" src="jed213" pkg="864gshxx" xy="196,874">
+      <Button title="确定"/>
+    </component>
+    <graph id="n1_nzui" name="n1" xy="201,459" size="317,48" type="rect"/>
+    <text id="n2_nzui" name="cmdText" xy="203,462" size="312,41" input="true" font="微软雅黑" fontSize="26" align="center" vAlign="middle" letterSpacing="1" autoSize="none" text=""/>
+  </displayList>
+</component>

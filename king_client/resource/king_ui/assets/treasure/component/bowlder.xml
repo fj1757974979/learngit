@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="125,162" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n0_bzh4" name="baseImg" xy="0,0" size="125,162" touchable="false" url="ui://zfg0revpab4x1c" fill="scaleFree"/>
+    <loader id="n17_ab4x" name="cardImg" xy="32,51" size="60,60" touchable="false" url="ui://864gshxxlsshd1" align="center" vAlign="middle" fill="scaleMatchWidth"/>
+  </displayList>
+</component>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="814,722" designImageOffsetY="-1">
+  <displayList>
+    <list id="n0_jh6f" name="cardList" xy="0,0" size="814,722" layout="flow_hz" overflow="scroll" scrollBarFlags="6" lineGap="19" colGap="6" lineItemCount="5" defaultItem="ui://rdb04el0uoofm" align="center"/>
+    <text id="n1_ohc6" name="qunTips" xy="152,663" size="509,39" visible="false" fontSize="35" color="#ffffff" align="center" vAlign="middle" letterSpacing="1" strokeColor="#000000" strokeSize="3" text="群雄武将可以加入任意国家卡组">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+</component>

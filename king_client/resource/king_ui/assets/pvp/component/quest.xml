@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,800">
+  <displayList>
+    <component id="n8_d54g" name="bg" src="qg2m2q" fileName="component/AdjustBg.xml" pkg="864gshxx" xy="0,0" visible="false" alpha="0"/>
+    <loader id="n0_tuc5" name="n0" xy="25,75" size="430,620" url="ui://ravbpjp3kyov1h" fill="scaleFree"/>
+    <loader id="n11_eo7t" name="n11" xy="40,320" pivot="0.5,0.5" size="400,360" touchable="false" url="ui://dvmsogfra64j2l" fill="scaleFree">
+      <relation target="n0_tuc5" sidePair="bottom-bottom"/>
+    </loader>
+    <component id="n1_tuc5" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="390,85">
+      <relation target="n0_tuc5" sidePair="right-right,top-top"/>
+    </component>
+    <loader id="n2_tuc5" name="titleImg" xy="140,85" size="200,65" touchable="false" url="ui://864gshxxroydj" autoSize="true">
+      <relation target="n0_tuc5" sidePair="center-center,top-top"/>
+    </loader>
+    <list id="n3_tuc5" name="questList" xy="40,321" size="400,360" layout="flow_vt" overflow="hidden" defaultItem="ui://dvmsogfrtuc54m" align="center" autoClearItems="true">
+      <relation target="n0_tuc5" sidePair="center-center,bottom-bottom"/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <loader id="n9_d54g" name="n1" xy="165,91" size="150,51" touchable="false" url="ui://864gshxxd54gai" autoSize="true">
+      <relation target="n0_tuc5" sidePair="center-center,top-top"/>
+    </loader>
+    <text id="n10_d54g" name="n10" xy="43,286" size="394,30" fontSize="20" color="#333333" align="center" vAlign="middle" leading="0" autoSize="shrink" text="#TEXT_70111">
+      <relation target="n0_tuc5" sidePair="center-center,bottom-bottom"/>
+    </text>
+    <text id="n13_t1m6" name="dailyTreasure" xy="60,165" size="155,24" fontSize="20" leading="0" autoSize="shrink" text="对战宝箱：24/24">
+      <relation target="n0_tuc5" sidePair="left-left,top-top"/>
+    </text>
+    <text id="n14_t1m6" name="dailyGold" xy="265,165" size="155,24" fontSize="20" leading="0" autoSize="shrink" text="对战金币：20/20">
+      <relation target="n0_tuc5" sidePair="left-left,top-top"/>
+    </text>
+    <component id="n4_tuc5" name="questBox" src="tuc54k" fileName="component/questTreasure.xml" xy="40,185">
+      <relation target="n0_tuc5" sidePair="center-center,top-top"/>
+    </component>
+  </displayList>
+</component>

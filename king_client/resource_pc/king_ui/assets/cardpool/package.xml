@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="ravbpjp3" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="uoof1" name="shuText.png" path="/" exported="true"/>
+    <image id="uoof2" name="wuText.png" path="/" exported="true"/>
+    <image id="uoof3" name="qunText.png" path="/" exported="true"/>
+    <image id="uoof4" name="weiText.png" path="/" exported="true"/>
+    <component id="uoof8" name="cardpool.xml" path="/component/" exported="true"/>
+    <component id="jh6f9" name="campBtn.xml" path="/component/" exported="true"/>
+    <component id="jh6fa" name="campCardPool.xml" path="/component/" exported="true"/>
+    <image id="bzh4b" name="energyBarImg.png" path="/" exported="true"/>
+    <image id="bzh4c" name="expBarImg.png" path="/" exported="true"/>
+    <image id="bzh4d" name="progressFront.png" path="/" exported="true"/>
+    <image id="bzh4e" name="uplevelBtnImg.png" path="/" exported="true"/>
+    <image id="bzh4f" name="treatBtnImg.png" path="/" exported="true"/>
+    <component id="bzh4i" name="cardInfo.xml" path="/component/" exported="true"/>
+    <component id="bzh4k" name="valueProgressBar.xml" path="/component/" exported="true"/>
+    <component id="bzh4l" name="uplevelBtn.xml" path="/component/" exported="true"/>
+    <component id="qpuoo" name="qunText.xml" path="/component/" exported="true"/>
+    <component id="ohc6p" name="treatBtn.xml" path="/component/" exported="true"/>
+    <image id="dwsyv" name="bgKuang1.png" path="/" exported="true"/>
+  </resources>
+  <publish name="cardpool"/>
+</packageDescription>

@@ -1,0 +1,17 @@
+
+{
+            "SK02801": {"__id__": "SK02801", "resource": "SK02801", "general": 28, "head": "28_1", "name": "#TEXT_23001", "desc": "#TEXT_23002", "bind": "" },
+			"SK07201": {"__id__": "SK07201", "resource": "SK07201", "general": 72, "head": "72_1", "name": "#TEXT_23003", "desc": "#TEXT_23004", "bind": "" },
+			"SK04401": {"__id__": "SK04401", "resource": "SK04401", "general": 44, "head": "44_1", "name": "#TEXT_23005", "desc": "#TEXT_23006", "bind": "" },
+			"SK07501": {"__id__": "SK07501", "resource": "SK07501", "general": 75, "head": "75_1", "name": "#TEXT_23007", "desc": "#TEXT_23008", "bind": "" },
+			"SK00801": {"__id__": "SK00801", "resource": "SK00801", "general": 8, "head": "8_1", "name": "#TEXT_23009", "desc": "#TEXT_23010", "bind": "" },
+			"SK07301": {"__id__": "SK07301", "resource": "SK07301", "general": 73, "head": "73_1", "name": "#TEXT_23011", "desc": "#TEXT_23012", "bind": "SK07401" },
+			"SK07401": {"__id__": "SK07401", "resource": "SK07401", "general": 74, "head": "", "name": "#TEXT_0", "desc": "#TEXT_0", "bind": "SK07301" },
+			"SK03201": {"__id__": "SK03201", "resource": "SK03201", "general": 32, "head": "32_1", "name": "#TEXT_23013", "desc": "#TEXT_23014", "bind": "" },
+			"SK01001": {"__id__": "SK01001", "resource": "SK01001", "general": 10, "head": "10_1", "name": "#TEXT_23015", "desc": "#TEXT_23016", "bind": "" },
+			"SK02601": {"__id__": "SK02601", "resource": "SK02601", "general": 26, "head": "26_1", "name": "#TEXT_23017", "desc": "#TEXT_23018", "bind": "" },
+			"SK05101": {"__id__": "SK05101", "resource": "SK05101", "general": 51, "head": "51_1", "name": "#TEXT_23019", "desc": "#TEXT_23020", "bind": "" },
+			"SK00901": {"__id__": "SK00901", "resource": "SK00901", "general": 9, "head": "9_1", "name": "#TEXT_23021", "desc": "#TEXT_23022", "bind": "" },
+			"SK06101": {"__id__": "SK06101", "resource": "SK06101", "general": 61, "head": "61_1", "name": "#TEXT_23023", "desc": "#TEXT_23024", "bind": "" }
+   }
+    

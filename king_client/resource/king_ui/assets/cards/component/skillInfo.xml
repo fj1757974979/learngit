@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="329,69">
+  <displayList>
+    <loader id="n0_t0lw" name="skillBg3" xy="-12,-11" size="352,91" url="ui://rdb04el0t0lwhh" fill="scaleFree">
+      <relation target="n1_t0lw" sidePair="width-width,height-height"/>
+    </loader>
+    <richtext id="n1_t0lw" name="skillDescTxt" xy="11,11" size="307,47" font="微软雅黑" fontSize="20" color="#ffffff" vAlign="middle" autoSize="height" text="mamamama我我说的是颠三倒四sdfadf&#xA;"/>
+  </displayList>
+  <relation target="n1_t0lw" sidePair="width-width,height-height"/>
+</component>

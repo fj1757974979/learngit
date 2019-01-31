@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="460,250" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n0_nf1s" name="n0" xy="200,5" pivot="0.5,0.5" size="58,30" touchable="false" url="ui://994sajaspdhx1l" autoSize="true">
+      <relation target="" sidePair="center-center,top-top"/>
+    </loader>
+    <list id="n2_nf1s" name="list" xy="0,40" size="460,200" layout="flow_hz" overflow="hidden" defaultItem="ui://994sajaspdhx1f" align="center" autoClearItems="true">
+      <item name="gold"/>
+      <item url="ui://994sajaspdhx1j" name="jade"/>
+      <item url="ui://994sajaspdhx1g" name="treasure"/>
+    </list>
+    <loader id="n3_ryqp" name="n3" xy="0,20" size="195,5" touchable="false" url="ui://994sajasryqpl" fill="scaleFree">
+      <relation target="n0_nf1s" sidePair="rightext-left,middle-middle"/>
+    </loader>
+    <loader id="n4_ryqp" name="n4" xy="265,20" size="195,5" touchable="false" url="ui://994sajasryqpm" fill="scaleFree">
+      <relation target="n0_nf1s" sidePair="leftext-right,middle-middle"/>
+    </loader>
+  </displayList>
+  <transition name="t0" options="4">
+    <item time="0" type="XY" tween="true" startValue="230,-" endValue="0,-" duration="6" ease="Back.Out"/>
+  </transition>
+</component>

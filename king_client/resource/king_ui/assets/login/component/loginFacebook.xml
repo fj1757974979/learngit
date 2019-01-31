@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,800" designImage="ui://164za4d7t03j4" designImageLayer="1">
+  <displayList>
+    <loader id="n7_j4cj" name="bg" xy="0,0" size="480,800" url="ui://10li2aq3pcunf" fill="scaleFree"/>
+    <component id="n18_pgqt" name="facebookBtn" src="pgqtp" fileName="component/facebookBtn.xml" xy="12,664"/>
+    <component id="n19_pgqt" name="touristBtn" src="pgqtr" fileName="component/touristBtn.xml" xy="122,730"/>
+    <component id="n21_bgyq" name="googleBtn" src="bgyqu" fileName="component/googleBtn.xml" xy="232,664"/>
+  </displayList>
+</component>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">สามก๊กพลิกแผ่นดิน</string>
+    <string name="init_game">กำลังตั้งค่าเริ่มต้นเกม กรุณารอสักครู่...</string>
+    <string name="init_install">กำลังแตกไฟล์ กรุณารอสักครู่...</string>
+    <string name="sdk_init_fail">SDKตั้งค่าเริ่มต้นล้มเหลว กรุณาตรวจสอบการตั้งค่าการอนุญาต แล้วเริ่มเกมใหม่อีกครั้ง...</string>
+    <string name="auth_hint">เกมต้องมีการตอบรับจากการให้อนุญาตจากอุปกรณ์มือถือ กรุณาไปยังหน้าตั้งค่าเพื่อมอบอำนาจ</string>
+    <string name="auth_confirm">ไปมอบอำนาจ</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="exit_hint">กดออกจากเกมอีกครั้ง</string>
+    <string name="record_permission_hint">กรุณาเปิดสิทธิ์การอัดวีดิโอก่อนแล้วลองใหม่</string>
+    <string name="record_not_support">เวอร์ชั่นAndroidปัจจุบันไม่ลองรับการอัดวีดิโอ</string>
+    <string name="share_fail">แชร์ล้มเหลว กรุณาตรวจสอบว่าได้ติดตั้งแอพFacebookเป็นเวอร์ชั่นล่าสุดหรือไม่</string>
+    <string name="share_no_video">คุณยังไม่ได้อัดการต่อสู้ไว้เลยนะ</string>
+</resources>

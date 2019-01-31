@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,700" pivot="0.5,0.5">
+  <controller name="filter" pages="0,shili,3,bouns,1,rongyu,2,chengyuan" selected="0"/>
+  <displayList>
+    <list id="n11_10tc3" name="headFrameList" xy="25,200" size="450,440" layout="flow_hz" overflow="scroll" scrollBarFlags="4" margin="10,10,0,0" lineGap="10" defaultItem="ui://739g5yti10tc339" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <loader id="n17_j66l" name="n17" xy="0,0" size="480,700" url="ui://739g5ytiri662b" fill="scaleFree"/>
+    <component id="n18_j66l" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="420,10"/>
+    <loader id="n20_j66l" name="bottom" xy="15,120" size="450,560" touchable="false" url="ui://739g5ytiyykel" fill="scaleFree"/>
+    <list id="n21_j66l" name="playerList" xy="20,125" size="440,550" overflow="scroll" scrollBarFlags="4" scrollBar="auto" defaultItem="ui://2ipmzghtgv9812" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <loader id="n23_u5xl" name="n23" xy="140,5" size="200,65" url="ui://864gshxxroydj" autoSize="true"/>
+    <loader id="n22_uivn" name="n22" xy="165,11" size="150,51" url="ui://864gshxxu5xld6" autoSize="true"/>
+    <component id="n24_n91y" name="countryChk" src="u5xl85" fileName="component/checkButton.xml" xy="25,70" size="100,44">
+      <Button checked="true" title="#TEXT_60289" selectedTitle="#TEXT_60295" controller="filter" page="0"/>
+    </component>
+    <component id="n25_n91y" name="honorChk" src="u5xl85" fileName="component/checkButton.xml" xy="245,70" size="100,44">
+      <Button title="#TEXT_60299" selectedTitle="#TEXT_60300" controller="filter" page="1"/>
+    </component>
+    <component id="n26_n91y" name="memberChk" src="u5xl85" fileName="component/checkButton.xml" xy="355,70" size="100,44">
+      <Button title="#TEXT_60301" selectedTitle="#TEXT_60302" controller="filter" page="2"/>
+    </component>
+    <component id="n27_ir7y" name="bounsBtn" src="u5xl85" fileName="component/checkButton.xml" xy="135,70" size="100,44">
+      <Button title="#TEXT_60296" selectedTitle="#TEXT_60297" controller="filter" page="3"/>
+    </component>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Scale" tween="true" startValue="0.8,0.9" endValue="1,1" duration="6" ease="Quart.Out"/>
+  </transition>
+</component>

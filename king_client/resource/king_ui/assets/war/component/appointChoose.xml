@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,800" pivot="0.5,0.5">
+  <displayList>
+    <list id="n11_10tc3" name="headFrameList" xy="25,200" size="450,440" layout="flow_hz" overflow="scroll" scrollBarFlags="4" margin="10,10,0,0" lineGap="10" defaultItem="ui://739g5yti10tc339" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <loader id="n17_j66l" name="n17" xy="0,0" size="480,800" url="ui://739g5ytiri662b" fill="scaleFree"/>
+    <component id="n18_j66l" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="420,10"/>
+    <text id="n19_j66l" name="nowPlayerName" xy="26,210" size="185,24" fontSize="20" color="#ffffff" vAlign="middle" leading="0" strokeColor="#000000" singleLine="true" text="玩家名玩家名玩家名">
+      <relation target="n24_j66l" sidePair="center-center,top-bottom"/>
+    </text>
+    <loader id="n20_j66l" name="bottom" xy="15,240" size="450,450" touchable="false" url="ui://739g5ytiyykel" fill="scaleFree"/>
+    <list id="n21_j66l" name="playerList" xy="15,245" size="450,440" layout="flow_hz" overflow="scroll" scrollBarFlags="4" scrollBar="auto" defaultItem="ui://2ipmzghtxjabh" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n24_j66l" name="nowPlayer" src="md4a33k" fileName="component/head.xml" pkg="739g5yti" xy="80,130" size="80,80" touchable="false"/>
+    <component id="n25_j66l" name="confirmBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="150,720" size="180,60">
+      <Button title="#TEXT_70005" titleFontSize="32" icon="ui://864gshxxj6006u"/>
+    </component>
+    <text id="n26_j66l" name="newPlayerName" xy="266,210" size="185,24" fontSize="20" color="#ffffff" vAlign="middle" leading="0" strokeColor="#000000" singleLine="true" text="玩家名玩家名玩家名">
+      <relation target="n27_j66l" sidePair="center-center,top-bottom"/>
+    </text>
+    <component id="n27_j66l" name="newPlayer" src="md4a33k" fileName="component/head.xml" pkg="739g5yti" xy="320,130" size="80,80" touchable="false"/>
+    <text id="n31_par0" name="n1" xy="75,110" size="90,25" fontSize="16" color="#660000" align="center" vAlign="middle" leading="0" autoSize="none" text="#TEXT_60303">
+      <relation target="n24_j66l" sidePair="center-center,bottom-top"/>
+    </text>
+    <text id="n32_par0" name="n2" xy="315,110" size="90,25" fontSize="16" color="#000066" align="center" vAlign="middle" leading="0" autoSize="none" text="#TEXT_60304">
+      <relation target="n27_j66l" sidePair="center-center,bottom-top"/>
+    </text>
+    <text id="n33_ooha" name="emptyHintText" xy="40,445" size="400,40" fontSize="30" color="#666666" align="center" vAlign="middle" leading="0" autoSize="none" text="暂无成员"/>
+    <loader id="n35_xjab" name="n35" xy="213,155" size="53,31" url="ui://864gshxxpdhx9q" autoSize="true"/>
+    <text id="n36_xjab" name="jobText" xy="20,60" size="450,44" fontSize="20" color="#666666" vAlign="middle" leading="0" autoSize="height" text="太守职责：任免都尉、校尉，驱逐本城市玩家，设定城市内政方针，管理粮仓。"/>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Scale" tween="true" startValue="0.8,0.9" endValue="1,1" duration="6" ease="Quart.Out"/>
+  </transition>
+</component>
