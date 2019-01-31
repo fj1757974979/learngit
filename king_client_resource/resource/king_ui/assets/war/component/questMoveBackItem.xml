@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,100" pivot="0.5,0.5">
+  <controller name="c1" pages="0,process,2,lock" selected="0"/>
+  <displayList>
+    <loader id="n3_g0v3" name="bg" xy="0,0" size="400,100" url="ui://2ipmzghtv2ye9t" align="center" vAlign="middle" fill="scaleFree">
+      <gearDisplay controller="c1" pages="0"/>
+    </loader>
+    <loader id="n11_pdhx" name="lock" xy="0,0" size="400,120" url="ui://dvmsogfrvco436" align="center" vAlign="middle" fill="scaleFree">
+      <gearDisplay controller="c1" pages="2"/>
+    </loader>
+    <text id="n4_g0v3" name="text" xy="35,25" size="330,30" fontSize="18" align="center" vAlign="middle" leading="0" autoSize="none" text="正在【长沙】驻守。">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n15_eo7t" name="title" xy="15,65" size="137,28" fontSize="24" color="#ffffff" align="center" vAlign="middle" leading="0" bold="true" strokeColor="#000000" text="驻军中-长沙">
+      <relation target="" sidePair="left-left"/>
+    </text>
+    <loader id="n12_d54g" name="n12" xy="140,60" pivot="0.5,0.5" size="120,61" url="ui://864gshxxd54gaq" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <gearDisplay controller="c1" pages="2"/>
+    </loader>
+    <component id="n20_xjab" name="backBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="270,55" size="120,40">
+      <Button title="返回City" titleFontSize="20" icon="ui://864gshxxj6006x"/>
+    </component>
+  </displayList>
+  <transition name="t0" options="4" autoPlayRepeat="-1">
+    <item time="0" type="Scale" target="n12_d54g" tween="true" startValue="2,2" endValue="1,1" duration="24" ease="Elastic.Out"/>
+    <item time="0" type="Sound" value="ui://864gshxxfuyj45,100"/>
+  </transition>
+  <transition name="t1">
+    <item time="0" type="Scale" tween="true" startValue="1,0" endValue="1,1" duration="6" ease="Sine.Out"/>
+  </transition>
+</component>

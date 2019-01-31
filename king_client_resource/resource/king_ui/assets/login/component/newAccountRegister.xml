@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,300">
+  <displayList>
+    <loader id="n0_qifi" name="n0" xy="1,3" size="398,293" url="ui://164za4d7dq5610" fill="scaleFree" autoSize="true"/>
+    <loader id="n14_jsu7" name="n14" xy="106,10" pivot="0.5,0.5" size="187,53" url="ui://164za4d7dq5612" autoSize="true"/>
+    <component id="n6_f7m8" name="acceptBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="125,240" size="150,50">
+      <Button title="绑定" icon="ui://864gshxxal2v9n"/>
+    </component>
+    <loader id="n21_dq56" name="n21" xy="150,90" size="200,40" url="ui://164za4d7a53pg" fill="scaleFree"/>
+    <loader id="n22_dq56" name="n22" xy="150,140" size="200,40" url="ui://164za4d7a53pg" fill="scaleFree"/>
+    <loader id="n23_dq56" name="n23" xy="150,190" size="200,40" url="ui://164za4d7a53pg" fill="scaleFree"/>
+    <text id="n8_jsu7" name="account" xy="155,90" size="190,40" input="true" maxLength="16" fontSize="20" vAlign="middle" leading="0" autoSize="none" text=""/>
+    <text id="n11_jsu7" name="password" xy="155,140" size="190,40" input="true" maxLength="8" password="true" fontSize="20" vAlign="middle" leading="0" autoSize="none" text=""/>
+    <text id="n12_jsu7" name="txt" xy="21,65" size="357,20" fontSize="16" color="#ff0000" align="center" vAlign="middle" leading="0" text="请牢记您的账号和密码，旧账号未来将不再使用。"/>
+    <text id="n18_dq56" name="n18" xy="30,98" size="105,24" fontSize="20" leading="0" text="账    号："/>
+    <text id="n19_dq56" name="n19" xy="30,148" size="105,24" fontSize="20" leading="0" text="密    码："/>
+    <text id="n20_dq56" name="n20" xy="30,198" size="105,24" fontSize="20" leading="0" text="确认密码："/>
+    <text id="n24_dq56" name="password2" xy="155,190" size="190,40" input="true" maxLength="8" password="true" fontSize="20" vAlign="middle" leading="0" autoSize="none" text=""/>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Scale" tween="true" startValue="0.8,0.9" endValue="1,1" duration="6" ease="Quart.Out"/>
+  </transition>
+</component>

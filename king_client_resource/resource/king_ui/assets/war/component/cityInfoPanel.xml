@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="464,706" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n3_xjab" name="n3" xy="0,0" size="464,706" url="ui://2ipmzghtvv6j8t" fill="scaleFree" autoSize="true"/>
+    <component id="n4_xjab" name="campCom" src="wwgm5v" fileName="component/campItem.xml" xy="25,40" touchable="false"/>
+    <text id="n5_xjab" name="cityName" xy="120,50" size="77,40" fontSize="36" vAlign="middle" leading="0" strokeColor="#ffffff" text="建业"/>
+    <component id="n13_xjab" name="nongye" src="xjab9" fileName="component/resourceProgressItem.xml" xy="35,210" size="220,50"/>
+    <component id="n14_xjab" name="shangye" src="xjab9" fileName="component/resourceProgressItem.xml" xy="35,260" size="220,50"/>
+    <component id="n15_xjab" name="liangcao" src="qjxh5o" fileName="component/resourceValueItem.xml" xy="270,210" size="150,50"/>
+    <component id="n16_xjab" name="jinbi" src="qjxh5o" fileName="component/resourceValueItem.xml" xy="270,260" size="150,50"/>
+    <component id="n17_xjab" name="chengfang" src="xjab9" fileName="component/resourceProgressItem.xml" xy="35,160" size="220,50"/>
+    <component id="n18_xjab" name="rongyu" src="qjxh5o" fileName="component/resourceValueItem.xml" xy="270,160" size="150,50"/>
+    <loader id="n20_xjab" name="bottom" xy="22,312" pivot="0.5,0.5" size="420,310" touchable="false" url="ui://739g5ytiyykel" fill="scaleFree"/>
+    <list id="n19_xjab" name="playList" xy="27,315" size="410,300" overflow="scroll" defaultItem="ui://2ipmzghtxjaba">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n29_mhry" name="emptyHint" xy="169,445" size="125,34" fontSize="30" color="#666666" leading="0" text="暂无官员"/>
+    <component id="n23_xjab" name="moreBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="254,645" size="150,50">
+      <Button title="#TEXT_60315" titleFontSize="30"/>
+    </component>
+    <component id="n24_xjab" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="390,40"/>
+    <component id="n25_xjab" name="enterBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="157,645" size="150,50">
+      <Button title="#TEXT_60314" titleFontSize="30" icon="ui://864gshxxj6006u"/>
+    </component>
+    <component id="n28_mhry" name="applyBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="157,645" size="150,50" group="n31_mhry">
+      <Button title="#TEXT_60313" titleFontSize="30"/>
+    </component>
+    <text id="n30_mhry" name="time" xy="226,625" size="10,24" group="n31_mhry" fontSize="20" color="#66ffff" leading="0" strokeColor="#000000" text="">
+      <relation target="n28_mhry" sidePair="center-center,middle-middle"/>
+    </text>
+    <group id="n31_mhry" name="n31" xy="157,625" size="150,70" advanced="true"/>
+    <richtext id="n34_u5xl" name="skillDesc" xy="295,56" size="53,28" fontSize="24" align="center" vAlign="middle" leading="0" text="据守"/>
+    <loader id="n9_xjab" name="lordHead" xy="240,45" size="50,50" url="ui://2ipmzghtu5xl86" fill="scaleMatchWidth"/>
+    <component id="n35_u5xl" name="allMemberBtn" src="u5xl8m" fileName="component/allMemberBtn.xml" xy="360,120" size="80,40">
+      <Button title=" "/>
+    </component>
+    <component id="n36_u5xl" name="addGoldBtn" src="gv9813" fileName="component/addBtn.xml" xy="410,270"/>
+    <component id="n37_n91y" name="noticeBtn" src="xjab4" fileName="component/commonBtn.xml" xy="275,120" size="80,40">
+      <Button title="#TEXT_60274" titleFontSize="24"/>
+    </component>
+    <component id="n38_n91y" name="kingHead" src="md4a33k" fileName="component/head.xml" pkg="739g5yti" xy="40,120" size="40,40"/>
+    <text id="n39_n91y" name="kingName" xy="80,129" size="185,22" fontSize="18" color="#ffffff" vAlign="middle" leading="0" strokeColor="#333333" singleLine="true" text="玩家啊啊啊啊啊啊啊啊">
+      <relation target="" sidePair="rightext-right"/>
+    </text>
+    <component id="n40_t208" name="appointBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="60,645" size="150,50">
+      <Button title="#TEXT_60311" titleFontSize="30"/>
+    </component>
+    <component id="n41_ir7y" name="moveBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="254,645" size="150,50">
+      <Button title="#TEXT_60312" titleFontSize="30" icon="ui://864gshxxj6006u"/>
+    </component>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Scale" tween="true" startValue="0.8,0.9" endValue="1,1" duration="6" ease="Quart.Out"/>
+  </transition>
+</component>

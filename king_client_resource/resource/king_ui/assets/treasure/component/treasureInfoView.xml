@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,340" pivot="0.5,0.5">
+  <displayList>
+    <graph id="n36_uslq" name="closeBg" xy="-40,-230" pivot="0.5,0.5" size="480,800" type="rect" lineColor="#00000000" fillColor="#00ffffff">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <loader id="n1_l90u" name="n1" xy="0,0" size="400,340" url="ui://zfg0revpy4nl1k" fill="scaleFree">
+      <relation target="n41_j66l" sidePair="bottomext-bottom,top-top"/>
+    </loader>
+    <loader id="n22_y4nl" name="n22" xy="2,150" pivot="0.5,0.5" size="396,134" touchable="false" url="ui://zfg0revpy4nl1j" fill="scaleFree">
+      <relation target="n41_j66l" sidePair="top-top,bottomext-bottom"/>
+    </loader>
+    <loader id="n2_l90u" name="n2" xy="100,70" pivot="0.5,0.5" size="200,65" touchable="false" url="ui://864gshxxroydj" autoSize="true">
+      <relation target="n5_l90u" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n5_l90u" name="treasureName" xy="113,86" size="173,32" font="楷体" fontSize="28" color="#ffffff" align="center" vAlign="middle" leading="2" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="白银军备宝箱">
+      <relation target="n2_l90u" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n7_l90u" name="txt1" xy="10,285" size="380,30" font="楷体" fontSize="20" color="#00ff00" vAlign="middle" leading="0" autoSize="none" bold="true" strokeColor="#000000" text="至少x张新卡">
+      <relation target="" sidePair="bottom-bottom"/>
+    </text>
+    <loader id="n30_ul11" name="shadow" xy="94,-10" pivot="0.5,0.5" size="212,107" scale="0.7,0.7" touchable="false" url="ui://zfg0revpu6us2j"/>
+    <loader id="n17_l90u" name="box0" xy="110,-80" pivot="0.5,0.5" size="180,180" touchable="false" url="ui://zfg0revpsi0m1r" fill="scaleMatchWidth"/>
+    <loader id="n18_l90u" name="box1" xy="110,-80" pivot="0.5,0.5" size="180,180" touchable="false" url="ui://zfg0revpsi0m1s" fill="scaleMatchWidth"/>
+    <component id="n38_b60p" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="330,10">
+      <Button sound="ui://864gshxxyyke6m"/>
+    </component>
+    <list id="n41_j66l" name="rewardList" xy="10,165" size="380,100" layout="flow_hz" lineGap="5" colGap="5" defaultItem="ui://zfg0revpj66l4e" align="center" vAlign="middle" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+  <relation target="n41_j66l" sidePair="bottomext-bottom"/>
+  <transition name="t0">
+    <item time="0" type="Scale" target="n30_ul11" tween="true" startValue="0.1,0.1" endValue="0.7,0.7" duration="9" ease="Sine.In"/>
+    <item time="0" type="Scale" target="n17_l90u" tween="true" startValue="0.5,0.5" endValue="1,1" duration="9" ease="Sine.In"/>
+    <item time="0" type="Scale" tween="true" startValue="0.2,0.2" endValue="1,1" duration="6" ease="Back.Out"/>
+    <item time="0" type="Scale" target="n18_l90u" tween="true" startValue="0.5,0.5" endValue="1,1" duration="9" ease="Sine.In"/>
+    <item time="0" type="Sound" value="ui://864gshxxfuyj42,100"/>
+    <item time="0" type="XY" target="n17_l90u" tween="true" startValue="110,-80" endValue="110,-160" duration="6" ease="Quart.Out"/>
+    <item time="0" type="XY" target="n18_l90u" tween="true" startValue="110,-80" endValue="110,-160" duration="6" ease="Quart.Out"/>
+    <item time="6" type="XY" target="n18_l90u" tween="true" startValue="110,-160" endValue="110,-80" duration="9" ease="Elastic.Out"/>
+    <item time="6" type="XY" target="n17_l90u" tween="true" startValue="110,-160" endValue="110,-80" duration="9" ease="Elastic.Out"/>
+  </transition>
+  <transition name="t1">
+    <item time="0" type="Scale" target="n17_l90u" tween="true" startValue="0.5,0.5" endValue="1,1" duration="9" ease="Sine.In"/>
+    <item time="0" type="Scale" target="n30_ul11" tween="true" startValue="0.1,0.1" endValue="0.7,0.7" duration="9" ease="Sine.In"/>
+    <item time="0" type="Scale" tween="true" startValue="0.2,0.2" endValue="1,1" duration="6" ease="Back.Out"/>
+    <item time="0" type="Scale" target="n18_l90u" tween="true" startValue="0.5,0.5" endValue="1,1" duration="9" ease="Sine.In"/>
+    <item time="0" type="Sound" value="ui://864gshxxfuyj42,100"/>
+    <item time="0" type="XY" target="n17_l90u" tween="true" startValue="110,-80" endValue="110,-160" duration="6" ease="Quart.Out"/>
+    <item time="0" type="XY" target="n18_l90u" tween="true" startValue="110,-80" endValue="110,-160" duration="6" ease="Quart.Out"/>
+    <item time="6" type="XY" target="n17_l90u" tween="true" startValue="110,-160" endValue="110,-80" duration="9" ease="Elastic.Out"/>
+    <item time="6" type="XY" target="n18_l90u" tween="true" startValue="110,-160" endValue="110,-80" duration="9" ease="Elastic.Out"/>
+  </transition>
+  <transition name="t2">
+    <item time="0" type="Scale" tween="true" startValue="0.2,0.2" endValue="1,1" duration="6" ease="Back.Out"/>
+    <item time="0" type="Scale" target="n30_ul11" tween="true" startValue="0.1,0.1" endValue="0.7,0.7" duration="9" ease="Sine.In"/>
+    <item time="0" type="Scale" target="n18_l90u" tween="true" startValue="0.5,0.5" endValue="1,1" duration="9" ease="Sine.In"/>
+    <item time="0" type="Scale" target="n17_l90u" tween="true" startValue="0.5,0.5" endValue="1,1" duration="9" ease="Sine.In"/>
+    <item time="0" type="Sound" value="ui://864gshxxfuyj42,100"/>
+    <item time="0" type="XY" target="n17_l90u" tween="true" startValue="110,-80" endValue="110,-160" duration="6" ease="Quart.Out"/>
+    <item time="0" type="XY" target="n18_l90u" tween="true" startValue="110,-80" endValue="110,-160" duration="6" ease="Quart.Out"/>
+    <item time="6" type="XY" target="n17_l90u" tween="true" startValue="110,-160" endValue="110,-80" duration="9" ease="Elastic.Out"/>
+    <item time="6" type="XY" target="n18_l90u" tween="true" startValue="110,-160" endValue="110,-80" duration="9" ease="Elastic.Out"/>
+  </transition>
+  <transition name="t3">
+    <item time="0" type="Scale" tween="true" startValue="0.2,0.2" endValue="1,1" duration="6" ease="Back.Out"/>
+    <item time="0" type="Scale" target="n30_ul11" tween="true" startValue="0.1,0.1" endValue="0.7,0.7" duration="9" ease="Sine.In"/>
+    <item time="0" type="Scale" target="n18_l90u" tween="true" startValue="0.5,0.5" endValue="1,1" duration="9" ease="Sine.In"/>
+    <item time="0" type="Scale" target="n17_l90u" tween="true" startValue="0.5,0.5" endValue="1,1" duration="9" ease="Sine.In"/>
+    <item time="0" type="Sound" value="ui://864gshxxfuyj42,100"/>
+    <item time="0" type="XY" target="n17_l90u" tween="true" startValue="110,-80" endValue="110,-160" duration="6" ease="Quart.Out"/>
+    <item time="0" type="XY" target="n18_l90u" tween="true" startValue="110,-80" endValue="110,-160" duration="6" ease="Quart.Out"/>
+    <item time="6" type="XY" target="n17_l90u" tween="true" startValue="110,-160" endValue="110,-80" duration="9" ease="Elastic.Out"/>
+    <item time="6" type="XY" target="n18_l90u" tween="true" startValue="110,-160" endValue="110,-80" duration="9" ease="Elastic.Out"/>
+  </transition>
+</component>

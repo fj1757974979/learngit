@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,800">
+  <displayList>
+    <component id="n8_d54g" name="bg" src="qg2m2q" fileName="component/AdjustBg.xml" pkg="864gshxx" xy="0,0" visible="false" alpha="0"/>
+    <loader id="n0_tuc5" name="n0" xy="5,100" size="470,600" url="ui://dvmsogfrgtjh5i" fill="scaleFree"/>
+    <loader id="n11_eo7t" name="n11" xy="17,180" pivot="0.5,0.5" size="445,455" touchable="false" url="ui://dvmsogfra64j2l" fill="scaleFree"/>
+    <component id="n1_tuc5" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="405,114">
+      <relation target="n0_tuc5" sidePair="right-right,top-top"/>
+    </component>
+    <loader id="n2_tuc5" name="titleImg" xy="139,110" size="200,65" touchable="false" url="ui://864gshxxroydj" autoSize="true">
+      <relation target="n0_tuc5" sidePair="center-center,top-top"/>
+    </loader>
+    <list id="n3_tuc5" name="mailList" xy="17,180" size="445,450" overflow="scroll" scrollBarFlags="2" defaultItem="ui://dvmsogfrgtjh5m" align="center" autoClearItems="true">
+      <relation target="n0_tuc5" sidePair="center-center,bottom-bottom"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <loader id="n9_d54g" name="n1" xy="164,116" size="150,51" touchable="false" url="ui://864gshxxgtjhb7" autoSize="true">
+      <relation target="n0_tuc5" sidePair="center-center,top-top"/>
+    </loader>
+    <component id="n12_gtjh" name="getBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="165,700" size="150,50">
+      <Button title="#TEXT_70015" titleFontSize="28" icon="ui://864gshxxj6006u"/>
+    </component>
+    <text id="n13_fgnc" name="emptyHintText" xy="40,380" size="400,40" fontSize="30" color="#666666" align="center" vAlign="middle" leading="0" autoSize="none" text="#TEXT_70016"/>
+    <text id="n14_tn1u" name="tips" xy="28,639" size="424,35" fontSize="20" color="#333333" align="center" vAlign="middle" leading="0" autoSize="shrink" text="#TEXT_70017"/>
+  </displayList>
+</component>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="50,35" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n4_yyke" name="n1" xy="9,1" size="31,33" url="ui://739g5ytiyykex" fill="scaleFree"/>
+  </displayList>
+  <Button sound="ui://864gshxxyyke6k" downEffect="scale" downEffectValue="0.80"/>
+</component>

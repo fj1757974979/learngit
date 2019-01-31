@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="180,140" opaque="false">
+  <displayList>
+    <loader id="n0_ye0u" name="treasureIcon" xy="-1,0" size="123,120" url="ui://994sajasye0u1w" align="center" vAlign="middle" fill="scaleMatchWidth"/>
+    <text id="n2_ye0u" name="treasureName" xy="17,105" size="85,24" font="楷体" fontSize="20" color="#ffffff" align="center" vAlign="middle" leading="0" strokeColor="#000000" text="皇家军备">
+      <relation target="n0_ye0u" sidePair="center-center"/>
+    </text>
+    <text id="n3_t1m6" name="n1" xy="111,56" size="80,24" font="楷体" fontSize="20" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="shrink" strokeColor="#000000" text="#TEXT_70134"/>
+  </displayList>
+</component>

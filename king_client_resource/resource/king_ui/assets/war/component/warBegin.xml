@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="200,200">
+  <displayList>
+    <loader id="n0_ir7y" name="n0" xy="0,0" size="200,200" url="ui://2ipmzghtir7yb1" fill="scaleMatchWidth"/>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Scale" tween="true" startValue="0.5,0.5" endValue="1,1" duration="6"/>
+  </transition>
+</component>

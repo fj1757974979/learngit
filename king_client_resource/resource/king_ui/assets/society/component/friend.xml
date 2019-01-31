@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="450,600" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n34_qof0" name="n34" xy="0,0" size="450,540" touchable="false" url="ui://739g5ytiyykel" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <list id="n5_lnsl" name="friendList" xy="0,0" size="450,540" overflow="scroll" scrollBarFlags="4" scrollBar="auto" margin="5,5,0,0" scrollBarRes="ui://864gshxxjzjo62," defaultItem="ui://739g5ytijbrh8" align="center" autoClearItems="true">
+      <relation target="n34_qof0" sidePair="height-height,bottom-bottom"/>
+      <item url="ui://739g5ytijbrh9"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n41_qof0" name="searchBtn" src="yykey" fileName="component/searchBtn.xml" xy="305,553" size="50,35">
+      <relation target="" sidePair="bottom-bottom"/>
+      <Button title="🔍" titleFontSize="24"/>
+    </component>
+    <component id="n42_qof0" name="applyBtn" src="yykez" fileName="component/applyBtn.xml" xy="365,553" size="50,35">
+      <relation target="" sidePair="bottom-bottom"/>
+      <Button title="🤝" titleFontSize="24"/>
+    </component>
+    <component id="n43_jbrh" name="wechatBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="140,550" size="120,40">
+      <relation target="" sidePair="bottom-bottom"/>
+      <Button title="#TEXT_70052" titleFontSize="24" icon="ui://864gshxxj6006u"/>
+    </component>
+    <component id="n45_jbrh" name="inviteBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="10,550" size="120,40">
+      <relation target="" sidePair="bottom-bottom"/>
+      <Button title="#TEXT_70043" titleFontSize="24" icon="ui://864gshxxj6006u"/>
+    </component>
+    <text id="n46_ndj5" name="emptyHintText" xy="25,275" size="400,40" fontSize="30" color="#666666" align="center" vAlign="middle" leading="0" autoSize="none" text="#TEXT_70053"/>
+    <component id="n47_mpkn" name="applyFriendNewHint" src="j7l76e" fileName="component/applyFriendNumHint.xml" pkg="864gshxx" xy="401,545" touchable="false">
+      <relation target="" sidePair="bottom-bottom"/>
+    </component>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Alpha" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="0" type="Scale" tween="true" startValue="0.75,0.75" endValue="1,1" duration="6" ease="Quart.Out"/>
+  </transition>
+</component>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,600" pivot="0.5,0.5">
+  <controller name="war" pages="0,available,1,unavailable" selected="1"/>
+  <displayList>
+    <loader id="n0_lnsl" name="n0" xy="0,0" size="480,600" url="ui://dvmsogfrfm9321" fill="scaleFree"/>
+    <text id="n23_lnsl" name="name" xy="105,20" size="125,28" restrictSize="100,280,0,0" fontSize="24" color="#ffffff" vAlign="middle" leading="0" strokeColor="#2c2c2c" singleLine="true" text="玩家名字啊">
+      <relation target="" sidePair="left-left"/>
+    </text>
+    <text id="n60_qof0" name="id" xy="105,55" size="142,28" fontSize="24" color="#333333" vAlign="middle" leading="0" singleLine="true" text="3H3GNC345"/>
+    <loader id="n35_mpq3" name="n35" xy="5,440" size="470,125" url="ui://dvmsogfrfm9324" fill="scaleFree"/>
+    <text id="n25_lnsl" name="n3" xy="171,410" size="159,28" font="楷体" fontSize="24" color="#666666" align="center" vAlign="middle" leading="2" text="#TEXT_70056">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <loader id="n64_yyke" name="n64" xy="10,115" size="460,170" url="ui://739g5ytiyyke16" fill="scaleFree"/>
+    <loader id="n34_fm93" name="n7" xy="169,55" pivot="0.5,0.5" size="141,136" scale="0.6,0.6" url="ui://dvmsogfrfm9323" align="center" vAlign="middle" fill="scaleMatchHeight" autoSize="true"/>
+    <loader id="n32_lnsl" name="rankIcon" xy="171,63" pivot="0.5,0.5" size="138,125" scale="0.6,0.6" url="ui://864gshxxgy104s" align="center" vAlign="middle" fill="scaleMatchHeight"/>
+    <text id="n31_lnsl" name="rankLevel" xy="210,111" size="59,28" fontSize="24" color="#ffffff" align="center" vAlign="middle" leading="0" bold="true" strokeColor="#000033" shadowColor="#000033" shadowOffset="1,1" text="大师I">
+      <relation target="n32_lnsl" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n36_f7m8" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="414,10"/>
+    <text id="n37_kv3d" name="totalCntTitle" xy="35,166" size="120,35" fontSize="20" color="#333333" align="center" vAlign="middle" leading="0" autoSize="shrink" text="#TEXT_70025"/>
+    <text id="n38_kv3d" name="winCntTitle" xy="35,201" size="120,35" fontSize="20" color="#333333" align="center" vAlign="middle" leading="0" autoSize="shrink" text="#TEXT_70026"/>
+    <text id="n39_kv3d" name="totalCnt" xy="155,166" size="80,35" fontSize="24" color="#333333" align="center" vAlign="middle" leading="0" autoSize="none" text="9999"/>
+    <text id="n40_kv3d" name="winCnt" xy="155,201" size="80,35" fontSize="24" color="#333333" align="center" vAlign="middle" leading="0" autoSize="none" text="9999"/>
+    <text id="n50_qof0" name="defensiveRateTitle" xy="245,201" size="120,35" fontSize="20" color="#333333" align="center" vAlign="middle" leading="0" autoSize="shrink" text="#TEXT_70028"/>
+    <text id="n51_qof0" name="offensiveRate" xy="365,166" size="80,35" fontSize="24" color="#333333" align="center" vAlign="middle" leading="0" autoSize="none" text="99%"/>
+    <text id="n52_qof0" name="offensiveRateTitle" xy="245,166" size="120,35" fontSize="20" color="#333333" align="center" vAlign="middle" leading="0" autoSize="shrink" text="#TEXT_70027"/>
+    <text id="n53_qof0" name="defensiveRate" xy="365,201" size="80,35" fontSize="24" color="#333333" align="center" vAlign="middle" leading="0" autoSize="none" text="99%"/>
+    <text id="n61_jzjo" name="rankingValue" xy="310,120" size="150,34" visible="false" fontSize="20" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" strokeSize="2" text="实力：9999"/>
+    <list id="n26_lnsl" name="cardList" xy="10,444" pivot="0.5,0.5" size="460,120" layout="flow_hz" selectionMode="none" overflow="hidden" lineGap="5" colGap="5" defaultItem="ui://rdb04el0uoofj" align="center" vAlign="middle" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n66_ryqp" name="changeHeadBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="12,96" size="90,30">
+      <Button title="#TEXT_70070" titleFontSize="16" icon="ui://864gshxxj6006t"/>
+    </component>
+    <component id="n68_id0m" name="avatarNumHint" src="id0m9d" fileName="component/avatarNumHint.xml" pkg="864gshxx" xy="90,88" touchable="false"/>
+    <component id="n69_htoj" name="modifyNameBtn" src="egmwbd" fileName="component/modifyBtn.xml" pkg="864gshxx" xy="229,7" visible="false">
+      <relation target="n23_lnsl" sidePair="left-right,middle-middle"/>
+    </component>
+    <component id="n71_j7k2" name="head" src="md4a33k" fileName="component/head.xml" xy="15,15" size="80,80"/>
+    <image id="n70_qkz0" name="countryFlagImg" src="vfpog" fileName="headicon1.png" xy="65,75" size="30,19" aspect="true" visible="false"/>
+    <component id="n72_msue" name="privBtn" src="msue33s" fileName="component/privBtn.xml" xy="417,80"/>
+    <text id="n81_uy1s" name="cityJob" xy="150,370" size="45,24" group="n89_envj" fontSize="20" color="#ffffff" vAlign="middle" leading="0" strokeColor="#000000" singleLine="true" text="太守"/>
+    <text id="n82_uy1s" name="city" xy="150,335" size="65,24" group="n89_envj" fontSize="20" color="#ffffff" vAlign="middle" leading="0" strokeColor="#000000" singleLine="true" text="虎牢关"/>
+    <text id="n83_uy1s" name="country" xy="150,265" size="85,24" group="n89_envj" fontSize="20" color="#ffffff" vAlign="middle" leading="0" strokeColor="#000000" singleLine="true" text="主公名字"/>
+    <text id="n84_uy1s" name="countryJob" xy="150,300" size="45,24" group="n89_envj" fontSize="20" color="#ffffff" vAlign="middle" leading="0" strokeColor="#000000" singleLine="true" text="主公"/>
+    <text id="n85_uy1s" name="txt1" xy="30,265" size="105,24" group="n89_envj" fontSize="20" color="#666666" vAlign="middle" leading="0" singleLine="true" text="所属势力："/>
+    <text id="n86_uy1s" name="txt3" xy="30,335" size="105,24" group="n89_envj" fontSize="20" color="#666666" vAlign="middle" leading="0" singleLine="true" text="所在城池："/>
+    <text id="n87_uy1s" name="txt2" xy="30,300" size="105,24" group="n89_envj" fontSize="20" color="#666666" vAlign="middle" leading="0" singleLine="true" text="中央官职："/>
+    <text id="n88_uy1s" name="txt4" xy="30,370" size="105,24" group="n89_envj" fontSize="20" color="#666666" vAlign="middle" leading="0" singleLine="true" text="城池官职："/>
+    <group id="n89_envj" name="n89" xy="30,265" size="205,129" advanced="true">
+      <gearDisplay controller="war" pages="0"/>
+    </group>
+    <text id="n54_qof0" name="n33" xy="171,249" size="159,28" group="n90_envj" font="楷体" fontSize="24" color="#666666" align="center" vAlign="middle" leading="2" text="#TEXT_70055">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <list id="n55_qof0" name="commonlyCard" xy="90,282" pivot="0.5,0.5" size="300,120" group="n90_envj" layout="flow_hz" selectionMode="none" overflow="hidden" lineGap="5" colGap="5" lineItemCount="3" defaultItem="ui://rdb04el0uoofj" align="center" vAlign="middle" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n90_envj" name="n90" xy="90,249" size="300,153" advanced="true">
+      <gearDisplay controller="war" pages="1"/>
+    </group>
+    <component id="n91_qlj9" name="changeFlagBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="12,126" size="90,30" visible="false">
+      <Button title="#TEXT_60382" titleFontSize="16" icon="ui://864gshxxj6006t"/>
+    </component>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Scale" tween="true" startValue="0.8,0.8" endValue="1,1" duration="6"/>
+  </transition>
+</component>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="90,113">
+  <displayList>
+    <loader id="n0_nf1s" name="bg1" xy="0,0" size="90,113" touchable="false" url="ui://994sajasal2v18" fill="scaleFree"/>
+    <loader id="n23_ryqp" name="icon" xy="0,15" size="90,113" touchable="false" url="ui://994sajasryqpv" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n19_nf1s" name="goldCnt" xy="22,10" size="45,24" font="楷体" fontSize="20" color="#ffff00" align="center" vAlign="middle" leading="0" bold="true" strokeColor="#333333" text="1000">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+</component>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="90,120" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="disable" pages="0,,1," selected="0"/>
+  <controller name="select" pages="0,,1," selected="1"/>
+  <controller name="team" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n19_v2ye" name="card" src="uoofj" fileName="component/smallCard.xml" pkg="rdb04el0" xy="1,3"/>
+    <graph id="n15_xjab" name="n15" xy="0,0" size="90,120" touchable="false" type="rect" lineColor="#4d000000" fillColor="#80000000">
+      <gearDisplay controller="disable" pages="1"/>
+      <relation target="" sidePair="width-width%,height-height%"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <text id="n18_seoj" name="n18" xy="12,48" size="66,24" fontSize="20" color="#ff0000" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" text="政令中">
+      <gearDisplay controller="team" pages="1"/>
+    </text>
+    <graph id="n20_b8as" name="n20" xy="1,3" size="87,113" group="n21_b8as" type="rect" lineSize="0" fillColor="#33000000" corner="7">
+      <relation target="n19_v2ye" sidePair="width-width,height-height"/>
+      <relation target="n19_v2ye" sidePair="center-center,middle-middle"/>
+    </graph>
+    <loader id="n10_ryqp" name="check2" xy="25,33" pivot="0.5,0.5" size="40,53" group="n21_b8as" url="ui://rdb04el010uxgw" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <relation target="" sidePair="width-width%,height-height%"/>
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </loader>
+    <group id="n21_b8as" name="n21" xy="1,3" size="87,113" advanced="true">
+      <gearDisplay controller="select" pages="1"/>
+    </group>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

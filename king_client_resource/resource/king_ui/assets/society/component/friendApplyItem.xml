@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="450,64" pivot="0.5,0.5">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="online" pages="0,未在线,1,在线" selected="0"/>
+  <displayList>
+    <loader id="n4_lwj0" name="bg" xy="0,0" pivot="0.5,0.5" size="450,64" url="ui://739g5ytiyykeq" fill="scaleFree"/>
+    <text id="n9_lwj0" name="nameText" xy="65,12" size="210,40" fontSize="20" color="#ffffff" vAlign="middle" leading="0" autoSize="none" strokeColor="#2c2c2c" singleLine="true" text="玩家名字啊啊啊啊啊啊"/>
+    <loader id="n10_lwj0" name="rankImg" xy="285,7" size="50,50" touchable="false" url="ui://864gshxxgy104q" align="center" vAlign="middle" fill="scaleMatchHeight"/>
+    <text id="n11_lwj0" name="rankTitleText" xy="284,20" size="51,24" fontSize="20" color="#ffffff" align="center" vAlign="bottom" leading="0" autoSize="none" strokeColor="#000033" shadowColor="#000033" shadowOffset="1,1" text="专家I">
+      <relation target="n10_lwj0" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n16_qof0" name="agreeBtn" src="yyke6i" fileName="component/yesBtn.xml" pkg="864gshxx" xy="345,9" pivot="0.5,0.5" size="45,45">
+      <Button title="√"/>
+    </component>
+    <component id="n17_qof0" name="refuseBtn" src="yyke6j" fileName="component/noBtn.xml" pkg="864gshxx" xy="395,9" pivot="0.5,0.5" size="45,45">
+      <Button title="×"/>
+    </component>
+    <component id="n21_j7k2" name="head" src="md4a33k" fileName="component/head.xml" xy="5,1" size="60,60"/>
+  </displayList>
+</component>

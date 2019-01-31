@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="180,60" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver,4,disabled" selected="0"/>
+  <displayList>
+    <loader id="n1" name="btn" xy="0,0" size="180,60" url="ui://864gshxxal2v9n" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n6_jed2" name="advert" xy="25,13" pivot="0.5,0.5" size="53,34" url="ui://864gshxxrbz09g" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="width-width%,height-height%"/>
+      <relation target="" sidePair="center-center%,middle-middle%"/>
+    </loader>
+    <loader id="n7_rbz0" name="icon" xy="80,18" size="76,23" touchable="false" url="ui://864gshxxrbz09h" align="center" vAlign="middle" autoSize="true">
+      <relation target="n1" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n8_pdhx" name="title" xy="80,13" size="10,34" fontSize="30" color="#ffffff" vAlign="middle" leading="0" bold="true" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="">
+      <relation target="n6_jed2" sidePair="left-right"/>
+    </text>
+  </displayList>
+  <Button sound="ui://864gshxxlr3f2n" downEffect="scale" downEffectValue="0.80"/>
+</component>

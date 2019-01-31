@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,560" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n0_qof0" name="n0" xy="0,0" size="480,560" url="ui://dvmsogfrfm9321" fill="scaleFree"/>
+    <loader id="n1_qof0" name="bottom" xy="10,70" pivot="0.5,0.5" size="460,480" touchable="false" url="ui://739g5ytiyykel" fill="scaleFree"/>
+    <loader id="n2_qof0" name="title2" xy="140,5" pivot="0.5,0.5" size="200,65" touchable="false" url="ui://864gshxxroydj" fill="scaleFree">
+      <relation target="n3_qof0" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n3_qof0" name="title" xy="165,11" size="150,51" touchable="false" url="ui://864gshxxd54g9w" align="center" vAlign="middle" autoSize="true">
+      <relation target="n2_qof0" sidePair="center-center,middle-middle"/>
+    </loader>
+    <list id="n4_qof0" name="applyList" xy="12,75" size="455,470" overflow="scroll" scrollBarFlags="4" scrollBar="auto" scrollBarRes="ui://864gshxxjzjo62," defaultItem="ui://739g5ytijbrhb" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n5_qof0" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="420,10"/>
+    <text id="n6_vwup" name="emptyHintText" xy="40,260" size="400,40" fontSize="30" color="#666666" align="center" vAlign="middle" leading="0" autoSize="none" text="#TEXT_70054"/>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Scale" tween="true" startValue="0.8,0.9" endValue="1,1" duration="6" ease="Quart.Out"/>
+  </transition>
+</component>

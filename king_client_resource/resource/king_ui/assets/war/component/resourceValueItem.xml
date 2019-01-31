@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="150,50">
+  <displayList>
+    <loader id="n0_xjab" name="icon" xy="0,5" size="40,40" url="ui://2ipmzghtonso6i" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <relation target="" sidePair="left-left"/>
+    </loader>
+    <text id="n3_qjxh" name="time" xy="45,11" size="95,28" fontSize="24" vAlign="middle" leading="0" autoSize="none" text="0">
+      <relation target="" sidePair="left-left"/>
+    </text>
+  </displayList>
+</component>

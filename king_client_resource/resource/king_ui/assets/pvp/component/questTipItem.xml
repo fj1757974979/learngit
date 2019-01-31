@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="372,90" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n11_pdhx" name="bg" xy="11,0" size="349,90" url="ui://dvmsogfriedd57" align="center" vAlign="middle" fill="scaleFree" autoSize="true">
+      <relation target="" sidePair="width-width,center-center"/>
+    </loader>
+    <component id="n1_g0v3" name="boxProgress" src="g0v3k" fileName="component/levelProgressBar.xml" pkg="8pche6l7" xy="36,45">
+      <relation target="" sidePair="center-center"/>
+      <ProgressBar max="100"/>
+    </component>
+    <text id="n4_g0v3" name="text" xy="-14,-30" size="400,30" visible="false" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" text="排位模式中使用魏国卡组对战胜利3次">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n15_eo7t" name="title" xy="-14,15" size="400,30" fontSize="20" align="center" vAlign="middle" leading="0" autoSize="none" bold="true" text="魏武至强">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+  <transition name="entry" autoPlay="true">
+    <item time="0" type="Alpha" tween="true" startValue="0" endValue="1" duration="24" ease="Quart.Out"/>
+    <item time="48" type="Alpha" tween="true" startValue="1" endValue="0" duration="24" ease="Quart.In"/>
+  </transition>
+</component>

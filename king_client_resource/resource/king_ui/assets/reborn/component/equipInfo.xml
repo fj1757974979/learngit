@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,800" pivot="0.5,0.5">
+  <displayList>
+    <graph id="n51_b59w" name="closeBg" xy="0,0" pivot="0.5,0.5" size="480,800" type="rect" lineColor="#00000000" fillColor="#80000000">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <component id="n28_utpt" name="btnBuyFree" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="150,650" size="180,60">
+      <Button title="#TEXT_60022" titleFontSize="40" icon="ui://864gshxxj6006u"/>
+    </component>
+    <component id="n49_msue" name="priv" src="j66l2" fileName="component/equipCom.xml" pkg="g6ma6zzk" xy="0,160" touchable="false"/>
+    <component id="n52_otp4" name="btnBuy" src="fpr6ce" fileName="component/fameBtn.xml" pkg="864gshxx" xy="150,650" size="180,60">
+      <Button title="20000" titleFontSize="40"/>
+    </component>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Scale" target="n49_msue" tween="true" startValue="0.2,0.2" endValue="1,1" duration="12" ease="Back.Out"/>
+    <item time="0" type="Sound" value="ui://864gshxxdzyk47,100"/>
+  </transition>
+</component>

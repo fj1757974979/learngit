@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,55">
+  <displayList>
+    <loader id="n8_w5uu" name="n8" xy="60,11" size="380,44" url="ui://864gshxxx6w823" fill="scaleFree">
+      <relation target="n24_w5uu" sidePair="width-width,center-center"/>
+    </loader>
+    <loader id="n6_w5uu" name="skillIcon" xy="97,0" size="34,50" group="n60_x6w8" url="ui://864gshxxdlva1n">
+      <relation target="n24_w5uu" sidePair="right-left"/>
+    </loader>
+    <richtext id="n24_w5uu" name="skillText" xy="133,22" size="248,22" group="n60_x6w8" font="楷体" fontSize="18" color="#ffffff" leading="0" strokeColor="#000000" text="后勤 : 防守方单位每回合后勤">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <group id="n60_x6w8" name="skillGroup" xy="97,0" size="284,50" advanced="true"/>
+  </displayList>
+</component>

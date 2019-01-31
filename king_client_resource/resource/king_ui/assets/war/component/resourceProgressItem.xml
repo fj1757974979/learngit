@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="200,50">
+  <displayList>
+    <component id="n2_qjxh" name="pro" src="pgn0aj" fileName="component/warProgress2.xml" xy="55,20" size="140,20">
+      <relation target="" sidePair="width-width,middle-middle"/>
+      <relation target="" sidePair="left-left"/>
+      <ProgressBar value="67" max="100"/>
+    </component>
+    <loader id="n0_xjab" name="icon" xy="0,0" size="50,50" url="ui://2ipmzghtonso6i" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <relation target="" sidePair="left-left"/>
+    </loader>
+  </displayList>
+</component>

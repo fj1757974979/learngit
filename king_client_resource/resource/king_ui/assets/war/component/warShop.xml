@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,800" pivot="0.5,0.5">
+  <displayList>
+    <component id="n0_nf1s" name="bg" src="qg2m2q" fileName="component/AdjustBg.xml" pkg="864gshxx" xy="0,0" size="480,800"/>
+    <loader id="n6_nf1s" name="n6" xy="0,0" size="480,60" url="ui://8d3e8y55ul1125" fill="scaleFree">
+      <relation target="" sidePair="center-center"/>
+      <relation target="n0_nf1s" sidePair="width-width,top-top"/>
+    </loader>
+    <loader id="n8_nf1s" name="fightIconImg" xy="70,15" size="30,30" touchable="false" url="ui://2ipmzghtmhry72" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <relation target="n6_nf1s" sidePair="left-left,top-top"/>
+    </loader>
+    <text id="n9_nf1s" name="fightCnt" xy="100,14" pivot="0.5,0.5" size="113,32" fontSize="28" color="#ffffff" vAlign="middle" leading="0" autoSize="none" bold="true" text="9999999">
+      <relation target="n8_nf1s" sidePair="middle-middle,left-right"/>
+    </text>
+    <component id="n15_nf1s" name="closeBtn" src="royda" fileName="component/backBtn.xml" pkg="864gshxx" xy="5,5">
+      <relation target="n0_nf1s" sidePair="top-top,left-left"/>
+    </component>
+    <list id="n18_vvhm" name="shopList" xy="14,65" size="450,720" layout="flow_hz" overflow="scroll" lineGap="10" defaultItem="ui://2ipmzghtvvhmbg" align="center">
+      <relation target="n0_nf1s" sidePair="top-top,height-height"/>
+      <item name="cardCom"/>
+      <item url="ui://2ipmzghtvvhmbi" name="equipCom"/>
+      <item url="ui://2ipmzghtvvhmbh" name="skinCom"/>
+      <item url="ui://2ipmzghtvvhmbj" name="resCom"/>
+    </list>
+  </displayList>
+</component>

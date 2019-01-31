@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="442,78" pivot="0.5,0.5">
+  <controller name="c1" pages="0,new,2,read" selected="1"/>
+  <displayList>
+    <loader id="n3_g0v3" name="new" xy="0,0" size="442,78" url="ui://dvmsogfrgtjh5h" align="center" vAlign="middle" fill="scaleFree" autoSize="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </loader>
+    <loader id="n11_pdhx" name="read" xy="0,0" size="442,78" url="ui://dvmsogfrgtjh5k" align="center" vAlign="middle" fill="scaleFree" autoSize="true">
+      <gearDisplay controller="c1" pages="2"/>
+    </loader>
+    <text id="n4_g0v3" name="text" xy="85,45" size="350,30" visible="false" fontSize="18" color="#666666" vAlign="middle" leading="0" autoSize="none" singleLine="true" text="邮件内容文字很多啊">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n15_eo7t" name="title" xy="85,19" size="250,40" fontSize="24" vAlign="middle" leading="0" autoSize="none" bold="true" singleLine="true" text="邮件标题">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <loader id="n16_gtjh" name="n16" xy="5,1" size="76,76" touchable="false" url="ui://dvmsogfrgtjh5g" autoSize="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </loader>
+    <text id="n17_gtjh" name="time" xy="340,19" size="100,40" fontSize="20" color="#701d1d" align="center" vAlign="middle" leading="0" autoSize="none" text="12:00">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <loader id="n18_gtjh" name="n18" xy="5,1" size="76,76" url="ui://dvmsogfrgtjh5j" autoSize="true">
+      <gearDisplay controller="c1" pages="2"/>
+    </loader>
+  </displayList>
+</component>

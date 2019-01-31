@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="440,662" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n0_xjab" name="n0" xy="0,0" size="440,662" url="ui://2ipmzghtk6o669" fill="scaleFree">
+      <relation target="" sidePair="height-height,middle-middle"/>
+    </loader>
+    <text id="n1_xjab" name="n1" xy="134,50" size="170,34" group="n20_xjab" fontSize="30" leading="0" text="#TEXT_60321">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <component id="n24_gv98" name="liangcao" src="qjxh5o" fileName="component/resourceValueItem.xml" xy="120,180" size="200,40" group="n20_xjab"/>
+    <text id="n25_gv98" name="n25" xy="120,180" size="37,20" group="n20_xjab" fontSize="16" color="#ffffff" align="right" leading="0" strokeColor="#000000" text="战功"/>
+    <loader id="n31_onso" name="n31" xy="41,267" size="357,128" group="n20_xjab" url="ui://2ipmzghtonso6c" autoSize="true"/>
+    <text id="n26_gv98" name="n26" xy="70,140" size="300,24" group="n20_xjab" fontSize="20" color="#666666" align="center" leading="0" autoSize="height" text="#TEXT_60322">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <text id="n18_xjab" name="n2" xy="58,275" size="150,25" group="n20_xjab" fontSize="20" color="#66ff00" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" singleLine="true" text="#TEXT_60323">
+      <relation target="" sidePair="bottom-bottom"/>
+    </text>
+    <text id="n27_uivn" name="n3" xy="233,275" size="150,25" group="n20_xjab" fontSize="20" color="#ff0000" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" singleLine="true" text="#TEXT_60324">
+      <relation target="" sidePair="bottom-bottom"/>
+    </text>
+    <text id="n28_uivn" name="getCity" xy="59,305" size="150,80" group="n20_xjab" fontSize="20" color="#66ff00" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="长沙、洛阳">
+      <relation target="" sidePair="bottom-bottom"/>
+    </text>
+    <text id="n29_uivn" name="loseCity" xy="233,305" size="150,80" group="n20_xjab" fontSize="20" color="#ff0000" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" singleLine="true" text="广州">
+      <relation target="" sidePair="bottom-bottom"/>
+    </text>
+    <component id="n2_xjab" name="confirmBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="130,540" size="180,60" group="n20_xjab">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+      <Button title="#TEXT_70005" titleFontSize="32"/>
+    </component>
+    <group id="n20_xjab" name="n20" xy="41,50" size="357,550" advanced="true"/>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Alpha" target="n20_xjab" value="0"/>
+    <item time="0" type="Size" tween="true" startValue="-,120" endValue="-,662" duration="9"/>
+    <item time="9" type="Alpha" target="n20_xjab" tween="true" startValue="0" endValue="1" duration="6"/>
+  </transition>
+</component>

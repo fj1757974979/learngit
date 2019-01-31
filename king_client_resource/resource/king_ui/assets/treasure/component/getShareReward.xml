@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="450,600" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n0_lnsl" name="n0" xy="33,68" size="383,463" url="ui://zfg0revpy4nl1k" fill="scaleFree"/>
+    <component id="n38_ul11" name="getBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="150,465" size="150,50">
+      <Button title="#TEXT_70013" icon="ui://864gshxxj6006u"/>
+    </component>
+    <text id="n40_k73y" name="txt2" xy="75,365" size="300,80" fontSize="20" color="#333333" align="center" vAlign="middle" autoSize="none" text="#TEXT_70136"/>
+    <loader id="n49_pdhx" name="n49" xy="-58,0" pivot="0.5,0.5" size="566,518" scale="0.6,0.6" touchable="false" url="ui://864gshxxvco45w" autoSize="true"/>
+    <loader id="n44_yyke" name="n44" xy="119,220" pivot="0.5,0.5" size="212,107" scale="0.7,0.7" url="ui://zfg0revpu6us2j">
+      <relation target="" sidePair="middle-middle"/>
+    </loader>
+    <loader id="n45_yyke" name="boxIcon" xy="137,175" pivot="0.5,0.5" size="175,157" scale="0.8,0.8" url="ui://zfg0revpl8xiq">
+      <relation target="" sidePair="middle-middle"/>
+    </loader>
+    <loader id="n51_d54g" name="n51" xy="131,73" pivot="0.5,0.5" size="200,65" touchable="false" url="ui://864gshxxroydj" autoSize="true"/>
+    <loader id="n50_d54g" name="n50" xy="156,79" pivot="0.5,0.5" size="150,51" touchable="false" url="ui://864gshxxd54gah" autoSize="true"/>
+  </displayList>
+  <transition name="t1" autoPlay="true">
+    <item time="0" type="Alpha" tween="true" startValue="0.8" endValue="1" duration="6"/>
+    <item time="0" type="Scale" tween="true" startValue="0.8,0.8" endValue="1,1" duration="6"/>
+    <item time="0" type="Sound" value="ui://864gshxxyyke6p,100"/>
+  </transition>
+</component>

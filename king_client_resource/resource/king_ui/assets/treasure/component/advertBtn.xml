@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="180,60" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n6_yyke" name="n6" xy="0,0" size="180,60" url="ui://864gshxxal2v9n" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n9_yyke" name="title1" xy="24,45" size="131,28" fontSize="15" align="center" vAlign="middle" leading="0" autoSize="none" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <loader id="n10_rbz0" name="n10" xy="20,13" size="53,34" touchable="false" url="ui://864gshxxrbz09g" align="center" vAlign="middle" fill="scaleMatchHeight">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n12_rbz0" name="icon" xy="75,17" size="90,25" touchable="false" url="ui://864gshxxrbz09i" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <relation target="" sidePair="center-center%,middle-middle"/>
+    </loader>
+  </displayList>
+  <Button sound="ui://864gshxxlr3f2n" downEffect="scale" downEffectValue="0.80"/>
+</component>

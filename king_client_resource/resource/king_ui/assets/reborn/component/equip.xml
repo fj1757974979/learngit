@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="460,620" pivot="0.5,0.5">
+  <displayList>
+    <text id="n0_nf1s" name="n0" xy="128,2" pivot="0.5,0.5" size="203,40" fontSize="36" align="center" vAlign="middle" leading="0" text="#TEXT_60271"/>
+    <loader id="n8_7ykc" name="n8" xy="-9,60" size="478,580" url="ui://47ikzi2a7ykct" fill="scaleFree"/>
+    <list id="n2_nf1s" name="list" xy="20,100" size="420,500" layout="flow_hz" scroll="horizontal" lineGap="10" colGap="20" lineItemCount="3" defaultItem="ui://47ikzi2aj66l1k" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <loader id="n6_ryqp" name="n6" xy="78,13" pivot="0.5,0.5" size="44,12" rotation="180" touchable="false" url="ui://47ikzi2a7ykcs" fill="scaleFree" autoSize="true">
+      <relation target="n0_nf1s" sidePair="right-left,middle-middle"/>
+    </loader>
+    <loader id="n7_ryqp" name="n7" xy="338,17" size="44,12" touchable="false" url="ui://47ikzi2a7ykcs" fill="scaleFree" autoSize="true">
+      <relation target="n0_nf1s" sidePair="left-right,middle-middle"/>
+    </loader>
+    <text id="n9_j66l" name="n9" xy="172,50" pivot="0.5,0.5" size="115,24" fontSize="20" color="#333333" align="center" vAlign="middle" leading="0" text="#TEXT_70181"/>
+  </displayList>
+  <transition name="t0" options="4">
+    <item time="0" type="XY" tween="true" startValue="230,-" endValue="0,-" duration="6" ease="Back.Out"/>
+  </transition>
+</component>

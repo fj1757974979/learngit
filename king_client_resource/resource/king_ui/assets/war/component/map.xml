@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,800" overflow="hidden" scroll="both">
+  <displayList>
+    <component id="n5_n91y" name="bg" src="qg2m2q" fileName="component/AdjustBg.xml" pkg="864gshxx" xy="0,0" alpha="0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n3_s8an" name="map" src="qjxh5j" fileName="component/mainMap.xml" xy="0,0"/>
+    <component id="n4_u5xl" name="backBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="180,730">
+      <relation target="" sidePair="bottom-bottom,center-center"/>
+      <Button title="取消"/>
+    </component>
+    <component id="n6_po2j" name="selectCityPanel" src="qjxh5m" fileName="component/warStatusPanel.xml" xy="0,60" touchable="false">
+      <relation target="n5_n91y" sidePair="top-top,center-center"/>
+      <relation target="n5_n91y" sidePair="width-width"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,560" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n6_jbrh" name="n6" xy="0,0" size="480,560" url="ui://dvmsogfrfm9321" fill="scaleFree"/>
+    <component id="n7_jbrh" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="414,10"/>
+    <loader id="n1_jbrh" name="n1" xy="15,60" size="450,440" touchable="false" url="ui://dvmsogfra64j2l" fill="scaleFree"/>
+    <loader id="n2_jbrh" name="n2" xy="15,505" size="300,42" touchable="false" url="ui://164za4d7a53pg" fill="scaleFree"/>
+    <text id="n3_jbrh" name="inputText" xy="20,508" size="290,38" input="true" maxLength="60" fontSize="20" vAlign="middle" leading="0" autoSize="none" singleLine="true" text=""/>
+    <component id="n4_jbrh" name="sendBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="365,505" size="100,40">
+      <Button title="#TEXT_70069" titleFontSize="28" icon="ui://864gshxxj6006u" sound="ui://864gshxxlr3f2n"/>
+    </component>
+    <list id="n5_jbrh" name="chatletList" xy="20,65" size="440,430" overflow="scroll" scrollBarFlags="4" scrollBar="auto" scrollBarRes="ui://864gshxxjzjo62," defaultItem="ui://739g5ytijbrh3" autoItemSize="false" autoClearItems="true">
+      <item/>
+      <item url="ui://739g5ytijbrh4"/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n8_jbrh" name="name" xy="65,20" size="350,30" fontSize="24" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#2c2c2c" text="愿天下有情人意外怀孕"/>
+    <component id="n9_j66l" name="emojiBtn" src="jsu72h" fileName="component/emojiBtn.xml" pkg="ryvvr3p0" xy="320,505"/>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Scale" tween="true" startValue="0.5,0.5" endValue="1,1" duration="12" ease="Quart.Out"/>
+  </transition>
+</component>

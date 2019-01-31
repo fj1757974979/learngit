@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,800">
+  <displayList>
+    <list id="n6_iy1p" name="resultList" xy="11,310" pivot="0.5,0.5" size="458,480" layout="flow_hz" selectionMode="none" overflow="hidden" scroll="horizontal" margin="5,0,0,0" lineGap="-22" colGap="3" defaultItem="ui://rdb04el0uoofm" align="center" vAlign="middle" autoClearItems="true">
+      <relation target="" sidePair="center-center,bottomext-bottom"/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n7_iy1p" name="txt1" xy="90,270" size="300,44" font="楷体" fontSize="24" color="#66ffff" align="center" vAlign="middle" leading="2" autoSize="none" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="#TEXT_70023">
+      <relation target="" sidePair="center-center"/>
+      <relation target="n6_iy1p" sidePair="bottom-top"/>
+    </text>
+    <component id="n8_evvl" name="rankIcon1" src="qw7t3q" fileName="component/pvpRankBanner.xml" pkg="864gshxx" xy="107,60" pivot="0.5,0.5" visible="false">
+      <relation target="" sidePair="middle-middle%,top-top"/>
+    </component>
+    <loader id="n9_10tc3" name="rankIcon" xy="107,60" size="265,212" url="ui://864gshxxgy104s" autoSize="true"/>
+    <text id="n4_iy1p" name="RankName" xy="196,144" size="85,44" font="楷体" fontSize="40" color="#ffffff" align="center" vAlign="middle" leading="0" bold="true" strokeColor="#000000" strokeSize="2" shadowColor="#000000" shadowOffset="1,1" text="军师">
+      <relation target="n9_10tc3" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <transition name="t0" options="4">
+    <item time="0" type="XY" target="n9_10tc3" tween="true" startValue="107,178" endValue="107,60" duration="12"/>
+    <item time="0" type="XY" target="n6_iy1p" tween="true" startValue="11,900" endValue="11,310" duration="12"/>
+  </transition>
+  <transition name="t1" options="6">
+    <item time="0" type="XY" target="n6_iy1p" tween="true" startValue="11,310" endValue="11,900" duration="12"/>
+    <item time="0" type="XY" target="n9_10tc3" tween="true" startValue="107,60" endValue="107,178" duration="12"/>
+  </transition>
+</component>

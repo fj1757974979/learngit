@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="440,662" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n0_xjab" name="n0" xy="0,0" size="440,662" url="ui://2ipmzghtk6o669" fill="scaleFree" autoSize="true">
+      <relation target="" sidePair="height-height,middle-middle"/>
+    </loader>
+    <text id="n1_xjab" name="n1" xy="164,50" size="109,30" group="n20_xjab" fontSize="26" text="开仓发粮">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <component id="n2_xjab" name="confirmBtn" src="xjab4" fileName="component/commonBtn.xml" xy="160,582" group="n20_xjab">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+      <Button title="确定" titleFontSize="24"/>
+    </component>
+    <component id="n4_xjab" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="350,40" group="n20_xjab"/>
+    <text id="n8_xjab" name="n8" xy="70,250" size="300,24" group="n20_xjab" fontSize="20" align="center" leading="0" autoSize="height" text="给所有成员发放">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <loader id="n9_xjab" name="n9" xy="145,487" size="150,42" group="n20_xjab" touchable="false" url="ui://739g5ytiyyke10" fill="scaleFree">
+      <relation target="" sidePair="bottom-bottom"/>
+    </loader>
+    <text id="n10_xjab" name="goldInput" xy="170,489" size="100,38" group="n20_xjab" fontSize="20" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" singleLine="true" text="5">
+      <relation target="" sidePair="bottom-bottom"/>
+    </text>
+    <component id="n24_gv98" name="liangcao" src="qjxh5o" fileName="component/resourceValueItem.xml" xy="145,160" group="n20_xjab"/>
+    <text id="n25_gv98" name="n25" xy="145,160" size="37,20" group="n20_xjab" fontSize="16" color="#ffffff" align="right" leading="0" strokeColor="#000000" text="粮草"/>
+    <text id="n26_gv98" name="n26" xy="70,100" size="300,36" group="n20_xjab" fontSize="16" color="#666666" align="center" leading="0" autoSize="height" text="战争已经打响，军事动员离不开后勤补给。开仓发粮，保家卫国。">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <loader id="n11_xjab" name="n11" xy="145,493" size="30,30" group="n20_xjab" url="ui://864gshxxroyd3" fill="scaleFree"/>
+    <text id="n27_ej80" name="n27" xy="70,330" size="300,24" group="n20_xjab" fontSize="20" align="center" leading="0" autoSize="height" text="总共需要：99999">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <group id="n20_xjab" name="n20" xy="70,40" size="336,582" advanced="true"/>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Alpha" target="n20_xjab" value="0"/>
+    <item time="0" type="Size" tween="true" startValue="350,80" endValue="350,450" duration="9"/>
+    <item time="9" type="Alpha" target="n20_xjab" tween="true" startValue="0" endValue="1" duration="6"/>
+  </transition>
+</component>

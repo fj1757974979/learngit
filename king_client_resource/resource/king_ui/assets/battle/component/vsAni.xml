@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,800">
+  <displayList>
+    <component id="n18_sx8w" name="background" src="qg2m2q" fileName="component/AdjustBg.xml" pkg="864gshxx" xy="0,0" alpha="0"/>
+    <graph id="n13_9o2m" name="bg" xy="0,0" size="480,800" type="rect" lineSize="0" lineColor="#00000000" fillColor="#00ffffff">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <relation target="n18_sx8w" sidePair="width-width,height-height"/>
+    </graph>
+    <loader id="n5_rcak" name="enemyBg" xy="0,0" pivot="0.5,0.5" size="480,450" group="n16_m3rm" url="ui://ryvvr3p0rcak1x" fill="scaleFree">
+      <relation target="n13_9o2m" sidePair="width-width"/>
+    </loader>
+    <component id="n6_sxt3" name="enemyRankIcon" src="qw7t3q" fileName="component/pvpRankBanner.xml" pkg="864gshxx" xy="107,0" pivot="0.5,0.5" group="n16_m3rm" visible="false"/>
+    <loader id="n15_m3rm" name="enemyCountryBg" xy="116,190" size="247,48" group="n16_m3rm" touchable="false" url="ui://ryvvr3p0m3rm25" fill="scaleFree">
+      <relation target="n6_sxt3" sidePair="center-center,top-bottom"/>
+      <relation target="n10_sxt3" sidePair="width-width"/>
+    </loader>
+    <text id="n10_sxt3" name="enemyName" xy="178,197" size="145,34" group="n16_m3rm" font="楷体" fontSize="30" color="#ffffff" align="center" vAlign="middle" leading="0" letterSpacing="-2" text="华府伴书童">
+      <relation target="n15_m3rm" sidePair="center-center,middle-middle"/>
+    </text>
+    <loader id="n7_sxt3" name="enemyCountry" xy="110,186" pivot="0.5,0.5" size="55,55" group="n16_m3rm" touchable="false" url="ui://ryvvr3p0m3rm2a" align="center" vAlign="middle">
+      <relation target="n15_m3rm" sidePair="left-left,middle-middle"/>
+    </loader>
+    <component id="n19_mfce" name="enemyHead" src="md4a33k" fileName="component/head.xml" pkg="739g5yti" xy="195,90" size="90,90" group="n16_m3rm">
+      <relation target="n5_rcak" sidePair="center-center,middle-middle"/>
+    </component>
+    <group id="n16_m3rm" name="enemy" xy="0,0" size="480,450" advanced="true">
+      <relation target="n13_9o2m" sidePair="width-width,top-top"/>
+    </group>
+    <loader id="n4_rcak" name="selfBg" xy="0,329" pivot="0.5,0.5" size="480,471" group="n17_m3rm" url="ui://ryvvr3p0rcak1z" fill="scaleFree">
+      <relation target="n13_9o2m" sidePair="width-width"/>
+    </loader>
+    <component id="n8_sxt3" name="selfRankIcon" src="qw7t3q" fileName="component/pvpRankBanner.xml" pkg="864gshxx" xy="107,588" pivot="0.5,0.5" group="n17_m3rm" visible="false"/>
+    <loader id="n14_m3rm" name="selfCountryBg" xy="116,620" size="247,48" group="n17_m3rm" touchable="false" url="ui://ryvvr3p0m3rm24" fill="scaleFree">
+      <relation target="n12_sxt3" sidePair="width-width"/>
+      <relation target="n4_rcak" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n12_sxt3" name="selfName" xy="178,627" size="145,34" group="n17_m3rm" font="楷体" fontSize="30" color="#ffffff" align="center" vAlign="middle" leading="0" letterSpacing="-2" text="华府伴书童">
+      <relation target="n14_m3rm" sidePair="center-center,middle-middle"/>
+    </text>
+    <loader id="n9_sxt3" name="selfCountry" xy="108,617" pivot="0.5,0.5" size="55,55" group="n17_m3rm" touchable="false" url="ui://ryvvr3p0m3rm29" align="center" vAlign="middle">
+      <relation target="n14_m3rm" sidePair="left-left,middle-middle"/>
+    </loader>
+    <component id="n20_mfce" name="selfHead" src="md4a33k" fileName="component/head.xml" pkg="739g5yti" xy="195,520" size="90,90" group="n17_m3rm">
+      <relation target="n4_rcak" sidePair="center-center,middle-middle"/>
+    </component>
+    <group id="n17_m3rm" name="self" xy="0,329" size="480,471" advanced="true">
+      <relation target="n13_9o2m" sidePair="width-width,bottom-bottom"/>
+    </group>
+    <loader id="n3_rcak" name="vsText" xy="147,306" pivot="0.5,0.5" size="185,188" touchable="false" url="ui://ryvvr3p0m3rm27">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+  </displayList>
+  <transition name="t0" autoPlayRepeat="-1">
+    <item time="0" type="XY" target="n16_m3rm" tween="true" startValue="0,-550" endValue="0,-30" duration="18" ease="Quart.Out"/>
+    <item time="0" type="XY" target="n17_m3rm" tween="true" startValue="0,879" endValue="0,359" duration="18" ease="Quart.Out"/>
+    <item time="0" type="XY" target="n3_rcak" tween="true" startValue="-300,406" endValue="147,306" duration="18" ease="Quart.Out"/>
+    <item time="60" type="XY" target="n3_rcak" tween="true" startValue="147,306" endValue="594,206" duration="18" ease="Quart.Out"/>
+    <item time="60" type="XY" target="n16_m3rm" tween="true" startValue="0,-30" endValue="0,-550" duration="18" ease="Quart.Out"/>
+    <item time="60" type="XY" target="n17_m3rm" tween="true" startValue="0,359" endValue="0,879" duration="18" ease="Quart.Out"/>
+  </transition>
+</component>

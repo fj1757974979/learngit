@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="864gshxx" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="royd0" name="horse.png" path="/" exported="true"/>
+    <image id="royd1" name="mat.png" path="/" exported="true"/>
+    <image id="royd2" name="med.png" path="/" exported="true"/>
+    <image id="royd3" name="forage.png" path="/" exported="true"/>
+    <image id="royd4" name="weap.png" path="/" exported="true"/>
+    <image id="royd5" name="ban.png" path="/" exported="true"/>
+    <image id="royd6" name="gold.png" path="/" exported="true"/>
+    <component id="royda" name="backBtn.xml" path="/component/" exported="true"/>
+    <image id="roydb" name="setupBtnImg.png" path="/" exported="true"/>
+    <component id="roydc" name="setupBtn.xml" path="/component/" exported="true"/>
+    <image id="royde" name="resBarBg.png" path="/" exported="true"/>
+    <image id="roydf" name="resIconBg.png" path="/" exported="true"/>
+    <image id="roydg" name="amountBg.png" path="/" exported="true"/>
+    <component id="roydh" name="ResBar.xml" path="/component/" exported="true"/>
+    <image id="roydj" name="titleTxtBg.png" path="/" exported="true"/>
+    <image id="bzh4l" name="closeBtnImg.png" path="/" exported="true"/>
+    <component id="bzh4m" name="closeBtn.xml" path="/component/" exported="true"/>
+    <image id="bzh4n" name="preBtnImg.png" path="/" exported="true"/>
+    <component id="bzh4o" name="preBtn.xml" path="/component/" exported="true"/>
+    <component id="bzh4p" name="nextBtn.xml" path="/component/" exported="true"/>
+    <image id="bzh4q" name="nextBtnImg.png" path="/" exported="true"/>
+    <component id="bzh4r" name="resLabel.xml" path="/component/" exported="true"/>
+    <image id="jed2r" name="labelIcon1.png" path="/" exported="true"/>
+    <component id="jed2t" name="baseLabel.xml" path="/component/" exported="true"/>
+    <component id="jed2u" name="handCardGrid.xml" path="/component/" exported="true"/>
+    <image id="jed2v" name="cardClickIcon.png" path="/" exported="true"/>
+    <image id="jed2w" name="hand_grid.png" path="/" exported="true"/>
+    <component id="jed2x" name="handGrid.xml" path="/component/" exported="true"/>
+    <image id="jed2y" name="progressBarImg1.png" path="/" exported="true"/>
+    <image id="jed2z" name="progressBgImg1.png" path="/" exported="true"/>
+    <component id="jed210" name="pvpScoreProgressBar.xml" path="/component/" exported="true"/>
+    <component id="jed213" name="functionBtn.xml" path="/component/" exported="true"/>
+    <image id="i3o219" name="textImg1.png" path="/" exported="true"/>
+    <component id="i3o21b" name="choiceFightCard.xml" path="/component/" exported="true"/>
+    <component id="qifi1d" name="functionBtn2.xml" path="/component/" exported="true"/>
+    <image id="x88n1f" name="book.png" path="/" exported="true"/>
+    <image id="x88n1g" name="wine.png" path="/" exported="true"/>
+    <component id="x88n1k" name="functionBtn3.xml" path="/component/" exported="true"/>
+    <component id="dlva1l" name="confirmPanel.xml" path="/component/" exported="true"/>
+    <image id="dlva1m" name="panelBg.png" path="/" exported="true" scale="9grid" scale9grid="116,98,232,196"/>
+    <image id="dlva1n" name="castleSkillIcon.png" path="/" exported="true"/>
+    <component id="dlva1o" name="rewardResBar.xml" path="/component/" exported="true"/>
+    <component id="dlva1p" name="resBarBtn.xml" path="/component/" exported="true"/>
+    <component id="dlva1q" name="exchangeRes.xml" path="/component/" exported="true"/>
+    <image id="dlva1w" name="baseBtnImg.png" path="/" exported="true" scale="9grid" scale9grid="27,9,54,18"/>
+    <component id="dlva1x" name="baseBtn.xml" path="/component/" exported="true"/>
+    <image id="dlva1y" name="bg1.png" path="/" exported="true" scale="9grid" scale9grid="73,53,146,106"/>
+    <image id="s3df1z" name="figIcon.png" path="/" exported="true"/>
+    <image id="s3df20" name="tapBtnImg.png" path="/" exported="true"/>
+    <component id="x6w821" name="resList.xml" path="/component/" exported="true"/>
+    <component id="x6w822" name="castlerSkill.xml" path="/component/" exported="true"/>
+    <image id="x6w823" name="resBg.png" path="/" exported="true"/>
+    <image id="x6w824" name="tapBtnImg2.png" path="/" exported="true"/>
+    <component id="tkst25" name="alertPanel.xml" path="/component/" exported="true"/>
+    <image id="d65g26" name="uplevelTitle.png" path="/" exported="true"/>
+    <sound id="lr3f27" name="arrow.mp3" path="/sound/"/>
+    <sound id="lr3f28" name="cable.mp3" path="/sound/"/>
+    <sound id="lr3f29" name="finger.mp3" path="/sound/"/>
+    <sound id="lr3f2a" name="flower.mp3" path="/sound/"/>
+    <sound id="lr3f2b" name="frame.mp3" path="/sound/"/>
+    <sound id="lr3f2c" name="guard.mp3" path="/sound/"/>
+    <sound id="lr3f2d" name="gun.mp3" path="/sound/"/>
+    <sound id="lr3f2e" name="hammer.mp3" path="/sound/"/>
+    <sound id="lr3f2f" name="hook.mp3" path="/sound/"/>
+    <sound id="lr3f2g" name="knife.mp3" path="/sound/"/>
+    <sound id="lr3f2h" name="lighting.mp3" path="/sound/"/>
+    <sound id="lr3f2i" name="newcard.mp3" path="/sound/" exported="true"/>
+    <sound id="lr3f2j" name="stone.mp3" path="/sound/"/>
+    <sound id="lr3f2k" name="turn.mp3" path="/sound/"/>
+    <sound id="lr3f2l" name="uplevel.mp3" path="/sound/"/>
+    <sound id="lr3f2m" name="wave.mp3" path="/sound/"/>
+    <sound id="lr3f2n" name="click.mp3" path="/sound/" exported="true"/>
+    <component id="qg2m2q" name="AdjustBg.xml" path="/component/" exported="true"/>
+    <sound id="jwzv2r" name="page.mp3" path="/sound/"/>
+    <sound id="jwzv2s" name="bg.mp3" path="/sound/"/>
+    <sound id="jwzv2t" name="playcard.mp3" path="/sound/"/>
+    <sound id="jwzv2u" name="addexp.mp3" path="/sound/"/>
+    <sound id="jwzv2v" name="fightbg.mp3" path="/sound/"/>
+    <image id="l8xi2w" name="highlight.png" path="/" exported="true"/>
+    <sound id="l8xi2x" name="count1.mp3" path="/sound/"/>
+    <sound id="l8xi2y" name="count3.mp3" path="/sound/"/>
+    <sound id="l8xi2z" name="count2.mp3" path="/sound/"/>
+    <sound id="l8xi30" name="count6.mp3" path="/sound/"/>
+    <sound id="l8xi31" name="count7.mp3" path="/sound/"/>
+    <sound id="l8xi32" name="count5.mp3" path="/sound/"/>
+    <sound id="l8xi33" name="count.mp3" path="/sound/"/>
+    <sound id="l8xi34" name="count4.mp3" path="/sound/"/>
+    <sound id="l8xi35" name="win.mp3" path="/sound/"/>
+    <sound id="l8xi36" name="count9.mp3" path="/sound/"/>
+    <sound id="l8xi37" name="count8.mp3" path="/sound/"/>
+    <sound id="l8xi38" name="blank.mp3" path="/sound/"/>
+    <sound id="l8xi39" name="lose.mp3" path="/sound/"/>
+    <component id="j4zv3j" name="pvpRankBanner0.xml" path="/component/" exported="true"/>
+    <component id="j4zv3k" name="pvpRankBanner1.xml" path="/component/" exported="true"/>
+    <component id="j4zv3l" name="pvpRankBanner2.xml" path="/component/" exported="true"/>
+    <component id="j4zv3m" name="pvpRankBanner3.xml" path="/component/" exported="true"/>
+    <component id="j4zv3n" name="pvpRankBanner4.xml" path="/component/" exported="true"/>
+    <component id="j4zv3o" name="pvpRankBanner5.xml" path="/component/" exported="true"/>
+    <component id="j4zv3p" name="starAni.xml" path="/component/" exported="true"/>
+    <component id="qw7t3q" name="pvpRankBanner.xml" path="/component/" exported="true"/>
+    <image id="qw7t3r" name="ranklv1.png" path="/" exported="true"/>
+    <image id="qw7t3s" name="ranklv2.png" path="/" exported="true"/>
+    <image id="qw7t3t" name="ranklv3.png" path="/" exported="true"/>
+    <image id="qw7t3u" name="ranklv4.png" path="/" exported="true"/>
+    <image id="qw7t3v" name="ranklv5.png" path="/" exported="true"/>
+    <component id="n1w93w" name="pvpRankBannerMax.xml" path="/component/" exported="true"/>
+    <sound id="fuyj42" name="treasureLand.mp3" path="/sound/" exported="true"/>
+    <sound id="fuyj43" name="treasureOpen.mp3" path="/sound/" exported="true"/>
+    <sound id="fuyj44" name="getCard.mp3" path="/sound/" exported="true"/>
+    <sound id="fuyj45" name="getGold.mp3" path="/sound/" exported="true"/>
+    <sound id="fuyj46" name="drum.mp3" path="/sound/" exported="true"/>
+    <sound id="dzyk47" name="starAdd.mp3" path="/sound/" exported="true"/>
+    <sound id="dzyk48" name="starDec.mp3" path="/sound/" exported="true"/>
+    <sound id="dzyk49" name="refresh.mp3" path="/sound/" exported="true"/>
+    <sound id="t4qv4a" name="levelup.mp3" path="/sound/" exported="true"/>
+    <sound id="t4qv4b" name="noke.mp3" path="/sound/" exported="true"/>
+    <sound id="t4qv4d" name="opendoor.mp3" path="/sound/" exported="true"/>
+    <sound id="t4qv4e" name="matching.mp3" path="/sound/"/>
+    <component id="fs4l4g" name="cardNumHint.xml" path="/component/" exported="true"/>
+    <sound id="fs4l4h" name="openResult.mp3" path="/sound/" exported="true"/>
+    <sound id="s3lb4i" name="blink.mp3" path="/" exported="true"/>
+    <sound id="s3lb4j" name="blink.mp3" path="/sound/" exported="true"/>
+    <image id="s8ot4k" name="newhint.png" path="/" exported="true"/>
+    <image id="s8ot4l" name="uphint.png" path="/" exported="true"/>
+    <image id="gy104m" name="rank1.png" path="/" exported="true"/>
+    <image id="gy104n" name="rank2.png" path="/" exported="true"/>
+    <image id="gy104o" name="rank3.png" path="/" exported="true"/>
+    <image id="gy104p" name="rank4.png" path="/" exported="true"/>
+    <image id="gy104q" name="rank5.png" path="/" exported="true"/>
+    <image id="gy104r" name="rank6.png" path="/" exported="true"/>
+    <image id="gy104s" name="rank7.png" path="/" exported="true"/>
+    <image id="gy104t" name="rank8.png" path="/" exported="true"/>
+    <image id="gy104u" name="star2.png" path="/" exported="true"/>
+    <image id="gy104v" name="star3.png" path="/" exported="true"/>
+    <image id="gy104w" name="star4.png" path="/" exported="true"/>
+    <image id="gy104x" name="star5.png" path="/" exported="true"/>
+    <image id="gy104y" name="star.png" path="/" exported="true"/>
+    <component id="u6us4z" name="tips.xml" path="/component/" exported="true"/>
+    <image id="ul1151" name="homeBg.png" path="/" exported="true"/>
+    <component id="o0co52" name="levelNumHint.xml" path="/component/" exported="true"/>
+    <image id="dz7b54" name="skillDescTextBg.png" path="/" exported="true"/>
+    <sound id="dz7b55" name="count10.mp3" path="/sound/"/>
+    <sound id="dz7b56" name="count11.mp3" path="/sound/"/>
+    <sound id="dz7b57" name="count12.mp3" path="/sound/"/>
+    <sound id="dz7b58" name="count13.mp3" path="/sound/"/>
+    <sound id="dz7b59" name="count14.mp3" path="/sound/"/>
+    <sound id="dz7b5a" name="count15.mp3" path="/sound/"/>
+    <image id="f7m85c" name="backBtnImg.png" path="/" exported="true"/>
+    <image id="f7m85d" name="bgKuang.png" path="/" exported="true"/>
+    <image id="f7m85g" name="confirmBg.png" path="/" exported="true" scale="9grid" scale9grid="10,10,344,104"/>
+    <component id="f5jo5p" name="emoji.xml" path="/component/" exported="true"/>
+    <image id="vco45w" name="clearLight.png" path="/" exported="true"/>
+    <image id="jzjo5x" name="slider.png" path="/" exported="true"/>
+    <image id="jzjo5y" name="sliderBg.png" path="/" exported="true"/>
+    <component id="jzjo61" name="ScrollBar_grip.xml" path="/component/" exported="true"/>
+    <component id="jzjo62" name="ScrollBar.xml" path="/component/" exported="true"/>
+    <movieclip id="jzjo63" name="emoji1.jta" path="/" exported="true"/>
+    <movieclip id="jzjo64" name="emoji2.jta" path="/" exported="true"/>
+    <movieclip id="jzjo65" name="emoji3.jta" path="/" exported="true"/>
+    <movieclip id="jzjo66" name="emoji4.jta" path="/" exported="true"/>
+    <movieclip id="jzjo67" name="emoji5.jta" path="/" exported="true"/>
+    <movieclip id="jzjo6c" name="emoji6.jta" path="/" exported="true"/>
+    <component id="j7l76d" name="privateChatNumHint.xml" path="/component/" exported="true"/>
+    <component id="j7l76e" name="applyFriendNumHint.xml" path="/component/" exported="true"/>
+    <component id="j7l76f" name="socialNewHint.xml" path="/component/" exported="true"/>
+    <image id="yyke6g" name="noBtn.png" path="/" exported="true"/>
+    <image id="yyke6h" name="yesBtn.png" path="/" exported="true"/>
+    <component id="yyke6i" name="yesBtn.xml" path="/component/" exported="true"/>
+    <component id="yyke6j" name="noBtn.xml" path="/component/" exported="true"/>
+    <sound id="yyke6k" name="check.mp3" path="/sound/" exported="true"/>
+    <sound id="yyke6l" name="checkCancel.mp3" path="/sound/" exported="true"/>
+    <sound id="yyke6m" name="clickClose.mp3" path="/sound/" exported="true"/>
+    <sound id="yyke6n" name="clickFunction.mp3" path="/sound/" exported="true"/>
+    <sound id="yyke6o" name="dice.mp3" path="/sound/" exported="true"/>
+    <sound id="yyke6p" name="newRank.mp3" path="/sound/" exported="true"/>
+    <sound id="yyke6q" name="newSkill.mp3" path="/sound/" exported="true"/>
+    <sound id="yyke6r" name="tips1.mp3" path="/sound/" exported="true"/>
+    <image id="j6006s" name="btnBlack.png" path="/" exported="true"/>
+    <image id="j6006t" name="btnBlue.png" path="/" exported="true"/>
+    <image id="j6006u" name="btnGreen.png" path="/" exported="true"/>
+    <image id="j6006v" name="btnGrey.png" path="/" exported="true"/>
+    <image id="j6006x" name="btnRed.png" path="/" exported="true"/>
+    <image id="q5ca6y" name="btnSmallGreen.png" path="/" exported="true"/>
+    <image id="q5ca6z" name="btnSmallRed.png" path="/" exported="true"/>
+    <image id="q5ca70" name="btnSamllBlue.png" path="/" exported="true"/>
+    <component id="q5ca71" name="functionChk.xml" path="/component/" exported="true"/>
+    <image id="q5ca72" name="btnSmallGrey.png" path="/" exported="true"/>
+    <sound id="q5ca7a" name="add.mp3" path="/sound/"/>
+    <sound id="q5ca7b" name="caocao.mp3" path="/sound/"/>
+    <sound id="q5ca7c" name="caoren.mp3" path="/sound/"/>
+    <sound id="q5ca7d" name="chengong.mp3" path="/sound/"/>
+    <sound id="q5ca7e" name="chengpu.mp3" path="/sound/"/>
+    <sound id="q5ca7f" name="daqiao.mp3" path="/sound/"/>
+    <sound id="q5ca7g" name="defense.mp3" path="/sound/"/>
+    <sound id="q5ca7h" name="dengai.mp3" path="/sound/"/>
+    <sound id="q5ca7i" name="deplus.mp3" path="/sound/"/>
+    <sound id="q5ca7j" name="dianwei.mp3" path="/sound/"/>
+    <sound id="q5ca7k" name="diaochan.mp3" path="/sound/"/>
+    <sound id="q5ca7l" name="dongzhuo.mp3" path="/sound/"/>
+    <sound id="q5ca7m" name="douhen.mp3" path="/sound/"/>
+    <sound id="q5ca7n" name="eye.mp3" path="/sound/"/>
+    <sound id="q5ca7o" name="fazheng.mp3" path="/sound/"/>
+    <sound id="q5ca7p" name="ganning.mp3" path="/sound/"/>
+    <sound id="q5ca7q" name="gaoshun.mp3" path="/sound/"/>
+    <sound id="q5ca7r" name="gone.mp3" path="/sound/"/>
+    <sound id="q5ca7s" name="guanping.mp3" path="/sound/"/>
+    <sound id="q5ca7t" name="guanyu.mp3" path="/sound/"/>
+    <sound id="q5ca7u" name="guojia.mp3" path="/sound/"/>
+    <sound id="q5ca7v" name="huanggai.mp3" path="/sound/"/>
+    <sound id="q5ca7w" name="huangzhong.mp3" path="/sound/"/>
+    <sound id="q5ca7x" name="huaxiong.mp3" path="/sound/"/>
+    <sound id="q5ca7y" name="jiangwei.mp3" path="/sound/"/>
+    <sound id="q5ca7z" name="jiaxu.mp3" path="/sound/"/>
+    <sound id="q5ca80" name="jingjie.mp3" path="/sound/"/>
+    <sound id="q5ca81" name="liubei.mp3" path="/sound/"/>
+    <sound id="q5ca82" name="lusu.mp3" path="/sound/"/>
+    <sound id="q5ca83" name="luxun.mp3" path="/sound/"/>
+    <sound id="q5ca84" name="lvbu.mp3" path="/sound/"/>
+    <sound id="q5ca85" name="lvmeng.mp3" path="/sound/"/>
+    <sound id="q5ca86" name="machao.mp3" path="/sound/"/>
+    <sound id="q5ca87" name="masu.mp3" path="/sound/"/>
+    <sound id="q5ca88" name="pangde.mp3" path="/sound/"/>
+    <sound id="q5ca89" name="pangtong.mp3" path="/sound/"/>
+    <sound id="q5ca8a" name="panzhang.mp3" path="/sound/"/>
+    <sound id="q5ca8b" name="simayi.mp3" path="/sound/"/>
+    <sound id="q5ca8c" name="success.mp3" path="/sound/"/>
+    <sound id="q5ca8d" name="sunce.mp3" path="/sound/"/>
+    <sound id="q5ca8e" name="sunquan.mp3" path="/sound/"/>
+    <sound id="q5ca8f" name="taishici.mp3" path="/sound/"/>
+    <sound id="q5ca8g" name="treasureResult.mp3" path="/sound/"/>
+    <sound id="q5ca8h" name="warning1.mp3" path="/sound/"/>
+    <sound id="q5ca8i" name="weiyan.mp3" path="/sound/"/>
+    <sound id="q5ca8j" name="wenchou.mp3" path="/sound/"/>
+    <sound id="q5ca8k" name="xiahoudun.mp3" path="/sound/"/>
+    <sound id="q5ca8l" name="xiahouyuan.mp3" path="/sound/"/>
+    <sound id="q5ca8m" name="xiaoqiao.mp3" path="/sound/"/>
+    <sound id="q5ca8n" name="xuchu.mp3" path="/sound/"/>
+    <sound id="q5ca8o" name="xunyu.mp3" path="/sound/"/>
+    <sound id="q5ca8p" name="xushu.mp3" path="/sound/"/>
+    <sound id="q5ca8q" name="yanliang.mp3" path="/sound/"/>
+    <sound id="q5ca8r" name="yuanshao.mp3" path="/sound/"/>
+    <sound id="q5ca8s" name="yujin.mp3" path="/sound/"/>
+    <sound id="q5ca8t" name="zhangfei.mp3" path="/sound/"/>
+    <sound id="q5ca8u" name="zhangjiao.mp3" path="/sound/"/>
+    <sound id="q5ca8v" name="zhangliao.mp3" path="/sound/"/>
+    <sound id="q5ca8w" name="zhaoyun.mp3" path="/sound/"/>
+    <sound id="q5ca8x" name="zhoutai.mp3" path="/sound/"/>
+    <sound id="q5ca8y" name="zhouyu.mp3" path="/sound/"/>
+    <sound id="q5ca8z" name="zhugeliang.mp3" path="/sound/"/>
+    <sound id="q5ca90" name="zuoci.mp3" path="/sound/"/>
+    <sound id="h33x97" name="huangyueying.mp3" path="/sound/"/>
+    <sound id="h33x98" name="sunshangxiang.mp3" path="/sound/"/>
+    <sound id="h33x99" name="zhenji.mp3" path="/sound/"/>
+    <image id="nf1s9a" name="goldIcon.png" path="/" exported="true"/>
+    <image id="nf1s9b" name="jadeIcon.png" path="/" exported="true"/>
+    <component id="nf1s9c" name="jadeBtn.xml" path="/component/" exported="true"/>
+    <component id="id0m9d" name="avatarNumHint.xml" path="/component/" exported="true"/>
+    <component id="rbz09e" name="advertBtn.xml" path="/component/" exported="true"/>
+    <image id="rbz09g" name="advertIcon.png" path="/" exported="true"/>
+    <image id="rbz09h" name="advertReward1.png" path="/" exported="true"/>
+    <image id="rbz09i" name="advertReward2.png" path="/" exported="true"/>
+    <image id="rbz09j" name="advertReward3.png" path="/" exported="true"/>
+    <image id="hfmh9m" name="accJace.png" path="/" exported="true"/>
+    <image id="al2v9n" name="btnOrange.png" path="/" exported="true"/>
+    <component id="pdhx9o" name="refreshBtn.xml" path="/component/" exported="true"/>
+    <component id="pdhx9p" name="TreasureUpAdvert.xml" path="/component/" exported="true"/>
+    <image id="pdhx9q" name="arrow.png" path="/" exported="true"/>
+    <image id="pdhx9r" name="wechatPlatformBg.png" path="/" exported="true"/>
+    <component id="pdhx9s" name="cardMoreAdvert.xml" path="/component/" exported="true"/>
+    <image id="d54g9t" name="refreshBtn.png" path="/" exported="true"/>
+    <image id="d54g9w" name="titleFriendApply.png" path="/" exported="true"/>
+    <image id="d54g9x" name="titleRank.png" path="/" exported="true"/>
+    <image id="d54g9y" name="titleSearchPlayer.png" path="/" exported="true"/>
+    <image id="d54g9z" name="titleSearchVideo.png" path="/" exported="true"/>
+    <image id="d54ga0" name="titleSettings.png" path="/" exported="true"/>
+    <image id="d54ga1" name="titleTreasureReward.png" path="/" exported="true"/>
+    <image id="d54ga2" name="titleVideo.png" path="/" exported="true"/>
+    <image id="d54ga3" name="titleVideoHall.png" path="/" exported="true"/>
+    <sound id="d54ga4" name="sunjian.mp3" path="/sound/"/>
+    <sound id="d54ga5" name="madai.mp3" path="/sound/"/>
+    <sound id="d54ga6" name="menghuo.mp3" path="/sound/"/>
+    <sound id="d54ga7" name="liaohua.mp3" path="/sound/"/>
+    <sound id="d54ga8" name="lingtong.mp3" path="/sound/"/>
+    <sound id="d54ga9" name="zhanghe.mp3" path="/sound/"/>
+    <sound id="d54gaa" name="zhangzhao.mp3" path="/sound/"/>
+    <sound id="d54gab" name="xunyou.mp3" path="/sound/"/>
+    <sound id="d54gac" name="zhurong.mp3" path="/sound/"/>
+    <sound id="d54gad" name="xuhuang.mp3" path="/sound/"/>
+    <sound id="d54gae" name="caopi.mp3" path="/sound/"/>
+    <sound id="d54gaf" name="liushan.mp3" path="/sound/"/>
+    <sound id="d54gag" name="dingfeng.mp3" path="/sound/"/>
+    <image id="d54gah" name="titleGift.png" path="/" exported="true"/>
+    <image id="d54gai" name="titleQuest.png" path="/" exported="true"/>
+    <image id="d54gaj" name="titleRankUp.png" path="/" exported="true"/>
+    <image id="d54gak" name="titleReward.png" path="/" exported="true"/>
+    <image id="d54gal" name="titleRewardUp.png" path="/" exported="true"/>
+    <image id="d54gam" name="titleSurvey.png" path="/" exported="true"/>
+    <image id="d54gan" name="add2.png" path="/" exported="true"/>
+    <image id="d54gao" name="cardIconBig.png" path="/" exported="true"/>
+    <image id="d54gap" name="titleAppeal.png" path="/" exported="true"/>
+    <image id="d54gaq" name="completedFlag.png" path="/" exported="true"/>
+    <image id="d54gar" name="barBottom.png" path="/" exported="true"/>
+    <image id="d54gas" name="barGreen.png" path="/" exported="true"/>
+    <image id="d54gat" name="barYellow.png" path="/" exported="true"/>
+    <image id="eo7tau" name="barGrey.png" path="/" exported="true"/>
+    <image id="u843av" name="redHint.png" path="/" exported="true"/>
+    <image id="u843aw" name="redHintWnd.png" path="/" exported="true"/>
+    <image id="b60pay" name="titleInvite.png" path="/" exported="true"/>
+    <image id="m1umb0" name="titleVideoUpload.png" path="/" exported="true"/>
+    <component id="pp6ob1" name="getReward.xml" path="/component/" exported="true"/>
+    <image id="gtjhb7" name="titleMail.png" path="/" exported="true"/>
+    <image id="hrlgb8" name="goldIconBig.png" path="/" exported="true"/>
+    <image id="hrlgb9" name="jadeIconBig.png" path="/" exported="true"/>
+    <image id="s8o9ba" name="wechatPlatformBg2.png" path="/" exported="true"/>
+    <image id="egmwbb" name="modifyIcon.png" path="/" exported="true"/>
+    <component id="egmwbd" name="modifyBtn.xml" path="/component/" exported="true"/>
+    <component id="gvaqbj" name="ScrollBar2.xml" path="/component/" exported="true"/>
+    <image id="gvaqbk" name="slider2.png" path="/" exported="true"/>
+    <image id="gvaqbl" name="sliderBg2.png" path="/" exported="true"/>
+    <component id="gvaqbm" name="ScrollBar_grip2.xml" path="/component/" exported="true"/>
+    <sound id="srbfbn" name="piliche.mp3" path="/sound/"/>
+    <sound id="srbfbo" name="muliuma.mp3" path="/sound/"/>
+    <sound id="srbfbp" name="doujian.mp3" path="/sound/"/>
+    <image id="61kpbq" name="rank9.png" path="/" exported="true"/>
+    <image id="ew1vbr" name="titleShare.png" path="/" exported="true"/>
+    <image id="ew1vbs" name="shareBtn.png" path="/" exported="true"/>
+    <image id="ew1vbt" name="pyqIcon.png" path="/" exported="true"/>
+    <component id="ew1vbu" name="sharePyqBtn.xml" path="/component/" exported="true"/>
+    <component id="ew1vbv" name="shareBtn.xml" path="/component/" exported="true"/>
+    <image id="pe5lbw" name="titleRankSeasonReward.png" path="/" exported="true"/>
+    <image id="pe5lbx" name="treasureRewardBg.png" path="/" exported="true"/>
+    <image id="spoxby" name="helpBtn.png" path="/" exported="true"/>
+    <component id="l1gibz" name="helpBtn.xml" path="/component/" exported="true"/>
+    <image id="mfcec0" name="titleHeadChange.png" path="/" exported="true"/>
+    <sound id="mfcec1" name="huatuo.mp3" path="/sound/"/>
+    <sound id="mfcec2" name="shichangshi.mp3" path="/sound/"/>
+    <sound id="mfcec3" name="yuji.mp3" path="/sound/"/>
+    <sound id="mfcec4" name="zhangren.mp3" path="/sound/"/>
+    <sound id="mfcec5" name="yuanshu.mp3" path="/sound/"/>
+    <component id="m276c6" name="honorBtn.xml" path="/component/" exported="true"/>
+    <image id="cnowc7" name="honorIcon.png" path="/" exported="true"/>
+    <image id="gdngc8" name="shareFacebook.png" path="/" exported="true"/>
+    <component id="gdngc9" name="shareFacebookBtn.xml" path="/component/" exported="true"/>
+    <image id="k9isca" name="honorIconBig.png" path="/" exported="true"/>
+    <image id="msuecb" name="titleDecorated.png" path="/" exported="true"/>
+    <image id="msuecc" name="fameIcon.png" path="/" exported="true"/>
+    <image id="msuecd" name="fameIconBig.png" path="/" exported="true"/>
+    <component id="fpr6ce" name="fameBtn.xml" path="/component/" exported="true"/>
+    <component id="b59wcf" name="btnCamp.xml" path="/component/" exported="true"/>
+    <component id="b59wcg" name="guideTips.xml" path="/component/" exported="true"/>
+    <movieclip id="j66lch" name="emoji7.jta" path="/" exported="true"/>
+    <component id="j66lci" name="emojiChk.xml" path="/component/" exported="true"/>
+    <image id="q13dcj" name="cardIcon.png" path="/" exported="true"/>
+    <image id="q13dck" name="skinIcon.png" path="/" exported="true"/>
+    <image id="q13dcl" name="headFrameIcon.png" path="/" exported="true"/>
+    <image id="q13dcm" name="emojiIcon.png" path="/" exported="true"/>
+    <movieclip id="q13dcn" name="emoji8.jta" path="/" exported="true"/>
+    <movieclip id="q13dco" name="emoji9.jta" path="/" exported="true"/>
+    <movieclip id="q13dcp" name="emoji10.jta" path="/" exported="true"/>
+    <movieclip id="q13dcq" name="emoji11.jta" path="/" exported="true"/>
+    <movieclip id="q13dcr" name="emoji12.jta" path="/" exported="true"/>
+    <image id="par0cs" name="titleEquipChange.png" path="/" exported="true"/>
+    <image id="par0ct" name="titleEquip.png" path="/" exported="true"/>
+    <sound id="tlw5cx" name="equip.mp3" path="/sound/" exported="true"/>
+    <image id="phrrcy" name="wechatIcon.png" path="/" exported="true"/>
+    <image id="phrrcz" name="emojiTeam2.png" path="/" exported="true"/>
+    <component id="pz4od0" name="honorAni.xml" path="/component/" exported="true"/>
+    <component id="cb8pd1" name="PrivShowPanel.xml" path="/component/" exported="true"/>
+    <component id="k13jd2" name="winFlagAni.xml" path="/component/" exported="true"/>
+    <image id="u5xld3" name="titleGoldBagAdd.png" path="/" exported="true"/>
+    <image id="u5xld4" name="titleWarQuest.png" path="/" exported="true"/>
+    <image id="u5xld5" name="titleFoodPrice.png" path="/" exported="true"/>
+    <image id="u5xld6" name="titleAllCity.png" path="/" exported="true"/>
+    <image id="u5xld7" name="titleAllMember.png" path="/" exported="true"/>
+    <image id="u5xld8" name="titleApplyLord.png" path="/" exported="true"/>
+    <component id="u5xld9" name="descTip.xml" path="/component/" exported="true"/>
+    <image id="n91ydb" name="titleFlag.png" path="/" exported="true"/>
+    <image id="n91ydc" name="titleNotice.png" path="/" exported="true"/>
+    <image id="n91ydd" name="titleManage.png" path="/" exported="true"/>
+    <image id="n91yde" name="titleAddGoldRecord.png" path="/" exported="true"/>
+    <image id="n91ydf" name="titleMessage.png" path="/" exported="true"/>
+    <component id="n91ydg" name="Slider1_grip.xml" path="/component/" exported="true"/>
+    <component id="n91ydh" name="Slider1.xml" path="/component/" exported="true"/>
+    <image id="n91ydi" name="slider_grip.png" path="/" exported="true"/>
+    <image id="n91ydj" name="slider_left.png" path="/" exported="true"/>
+    <image id="n91ydk" name="slider_pro.png" path="/" exported="true"/>
+    <image id="n91ydl" name="slider_right.png" path="/" exported="true"/>
+    <image id="n91ydm" name="slider_bar.png" path="/" exported="true"/>
+    <image id="n91ydn" name="noticeBtn.png" path="/" exported="true"/>
+    <image id="bo40dp" name="titleWarQuestFight.png" path="/" exported="true"/>
+    <image id="uy1sdq" name="titleCountryJob.png" path="/" exported="true"/>
+    <image id="uy1sdr" name="titleCityJob.png" path="/" exported="true"/>
+    <image id="uy1sds" name="titleChat.png" path="/" exported="true"/>
+    <image id="lsshd0" name="bowlderIcon.png" path="/" exported="true"/>
+    <image id="lsshd1" name="bowlderIconBig.png" path="/" exported="true"/>
+    <component id="vvhmdt" name="goldCard.xml" path="/component/" exported="true"/>
+    <component id="vvhmdu" name="equipCard.xml" path="/component/" exported="true"/>
+    <image id="gsm4dv" name="yanhua.png" path="/" exported="true"/>
+    <image id="qlj9dv" name="titleFlagChange.png" path="/" exported="true"/>
+  </resources>
+  <publish name="common"/>
+</packageDescription>

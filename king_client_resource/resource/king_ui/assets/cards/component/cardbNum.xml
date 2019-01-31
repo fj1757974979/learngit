@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="40,40" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n0_bzh4" name="img" xy="0,0" pivot="0.5,0.5" size="40,40" url="ui://rdb04el0uoof8" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n1_bzh4" name="value" xy="0,0" pivot="0.5,0.5" size="40,40" font="ui://tlhdbap0e8aza" fontSize="30" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" singleLine="true" text="20">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <transition name="blink" options="4">
+    <item time="0" type="ColorFilter" target="n0_bzh4" tween="true" startValue="0.00,0.00,0.00,0.00" endValue="1.00,0.00,0.00,0.00" duration="18"/>
+    <item time="0" type="Scale" tween="true" startValue="1,1" endValue="1.5,1.5" duration="18"/>
+    <item time="18" type="ColorFilter" target="n0_bzh4" tween="true" startValue="1.00,0.00,0.00,0.00" endValue="0.00,0.00,0.00,0.00" duration="18"/>
+    <item time="18" type="Scale" tween="true" startValue="1.5,1.5" endValue="1,1" duration="18"/>
+  </transition>
+  <transition name="newbieFightBegin" options="4">
+    <item time="0" type="Scale" value="2,2"/>
+    <item time="0" type="Scale" tween="true" startValue="1,1" endValue="2,2" duration="6"/>
+  </transition>
+  <transition name="newbieFightWin" options="4">
+    <item time="0" type="Scale" value="2,2"/>
+    <item time="0" type="Scale" tween="true" startValue="2,2" endValue="1,1" duration="12"/>
+  </transition>
+  <transition name="newbieFightFlash" options="4" autoPlayRepeat="-1">
+    <item time="0" type="ColorFilter" tween="true" startValue="0.00,0.00,0.00,0.00" endValue="0.60,0.00,0.00,0.00" duration="18"/>
+    <item time="18" type="ColorFilter" tween="true" startValue="0.60,0.00,0.00,0.00" endValue="0.00,0.00,0.00,0.00" duration="18"/>
+  </transition>
+  <transition name="newbieFightLose" options="4">
+    <item time="0" type="Scale" value="2,2"/>
+    <item time="0" type="Scale" tween="true" startValue="2,2" endValue="1,1" duration="12"/>
+  </transition>
+</component>

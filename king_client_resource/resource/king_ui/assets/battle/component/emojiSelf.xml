@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="120,135" pivot="0.5,1" anchor="true">
+  <displayList>
+    <loader id="n0_ijr4" name="n0" xy="0,0" size="120,135" url="ui://ryvvr3p0lxfs2r" align="center" vAlign="middle" fill="scaleMatchHeight"/>
+    <loader id="n6_ijr4" name="emojiIcon" xy="10,10" size="100,100" url="ui://864gshxxf5jo5p" fill="scaleMatchHeight" autoSize="true"/>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Scale" tween="true" startValue="0,0" endValue="1,1" duration="12" ease="Quart.Out"/>
+    <item time="48" type="Scale" tween="true" startValue="1,1" endValue="0,0" duration="12" ease="Quart.In"/>
+  </transition>
+</component>

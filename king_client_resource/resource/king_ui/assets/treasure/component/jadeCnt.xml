@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="125,210">
+  <displayList>
+    <text id="n1_g33r" name="title" xy="0,180" size="125,30" restrictSize="0,423,0,0" fontSize="30" color="#66ff99" align="center" vAlign="middle" leading="0" autoSize="none" bold="true" strokeColor="#000000" text="x99">
+      <relation target="n2_g33r" sidePair="center-center,top-bottom"/>
+    </text>
+    <component id="n2_g33r" name="n2" src="tcup3d" fileName="component/jade.xml" xy="0,10"/>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Alpha" target="n1_g33r" tween="true" startValue="0" ease="Quad.In"/>
+    <item time="0" type="Scale" target="n2_g33r" tween="true" startValue="0,0" endValue="1,1" duration="6" ease="Quart.Out"/>
+    <item time="6" type="Alpha" target="n1_g33r" value="1"/>
+  </transition>
+</component>

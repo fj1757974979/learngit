@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="450,600" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n0_qifi" name="n0" xy="0,0" size="450,600" url="ui://164za4d7a53ph" fill="scaleFree"/>
+    <component id="n6_f7m8" name="confirmBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="135,510" size="180,60">
+      <Button title="#TEXT_70005" icon="ui://864gshxxj6006u"/>
+    </component>
+    <text id="n20_qof0" name="txt" xy="50,75" size="350,38" fontSize="20" color="#333333" align="center" vAlign="middle" leading="0" autoSize="none" text="#TEXT_60333"/>
+    <component id="n21_flh7" name="randomNameBtn" src="vco42q" fileName="component/randomBtn.xml" pkg="8d3e8y55" xy="390,125" pivot="0.5,0.5" hideByEditor="true"/>
+    <component id="n22_htoj" name="modifyBtn" src="nf1s9c" fileName="component/jadeBtn.xml" pkg="864gshxx" xy="150,230" size="150,50" hideByEditor="true" visible="false">
+      <Button title="50" titleFontSize="32"/>
+    </component>
+    <component id="n23_htoj" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="390,10"/>
+    <loader id="n24_t9p0" name="bottom" xy="25,121" pivot="0.5,0.5" size="400,240" touchable="false" url="ui://739g5ytiri662c" fill="scaleFree"/>
+    <list id="n25_t9p0" name="headList" xy="25,120" size="400,240" layout="flow_hz" overflow="scroll" scrollBarFlags="4" scrollBar="auto" margin="10,10,0,0" lineGap="10" colGap="10" defaultItem="ui://2ipmzghtwwgm5v" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <loader id="n27_t9p0" name="campFlag" xy="175,375" size="100,100" url="ui://2ipmzghtmyl16s" align="center" vAlign="middle" fill="scaleMatchWidth"/>
+    <text id="n28_t9p0" name="campName" xy="195,385" size="60,64" fontSize="50" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="阿">
+      <relation target="n27_t9p0" sidePair="center-center,middle-middle"/>
+    </text>
+    <loader id="n29_n91y" name="n29" xy="125,10" size="200,65" url="ui://864gshxxroydj" autoSize="true"/>
+    <loader id="n30_n91y" name="n30" xy="150,16" size="150,51" url="ui://864gshxxn91ydb" autoSize="true"/>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Scale" tween="true" startValue="0.8,0.9" endValue="1,1" duration="6" ease="Quart.Out"/>
+  </transition>
+</component>

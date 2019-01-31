@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,800" overflow="hidden">
+  <displayList>
+    <loader id="n1_qg2m" name="adjustContext" xy="0,0" size="480,800" alpha="0.25" url="ui://ryvvr3p0x88nk" fill="scaleFree" color="#000000"/>
+    <loader id="n21_xi2m" name="blood1" xy="290,70" size="100,100" url="ui://ryvvr3p0xi2m1j" align="center" vAlign="middle"/>
+    <loader id="n3_xi2m" name="blood2" xy="200,50" size="100,100" url="ui://ryvvr3p0xi2m1k" align="center" vAlign="middle"/>
+    <loader id="n4_xi2m" name="blood3" xy="220,90" size="100,100" url="ui://ryvvr3p0xi2m1l" align="center" vAlign="middle"/>
+    <loader id="n5_xi2m" name="blood4" xy="270,160" size="100,100" url="ui://ryvvr3p0xi2m1m" align="center" vAlign="middle"/>
+    <loader id="n6_xi2m" name="blood5" xy="150,220" size="100,100" url="ui://ryvvr3p0xi2m1n" align="center" vAlign="middle"/>
+    <loader id="n7_xi2m" name="blood6" xy="210,270" size="100,100" url="ui://ryvvr3p0xi2m1o" align="center" vAlign="middle"/>
+    <loader id="n8_xi2m" name="blood8" xy="230,360" size="100,100" url="ui://ryvvr3p0xi2m1p" align="center" vAlign="middle"/>
+    <loader id="n9_xi2m" name="blood7" xy="90,350" size="100,100" url="ui://ryvvr3p0xi2m1q" align="center" vAlign="middle"/>
+    <loader id="n10_xi2m" name="blood9" xy="199,460" size="100,100" url="ui://ryvvr3p0xi2m1r" align="center" vAlign="middle"/>
+    <loader id="n11_xi2m" name="blood10" xy="205,500" size="100,100" url="ui://ryvvr3p0xi2m1s" align="center" vAlign="middle"/>
+    <loader id="n12_xi2m" name="blood11" xy="200,570" size="100,100" url="ui://ryvvr3p0xi2m1t" align="center" vAlign="middle"/>
+    <loader id="n13_xi2m" name="blood12" xy="195,610" size="100,100" url="ui://ryvvr3p0xi2m1u" align="center" vAlign="middle"/>
+    <loader id="n14_xi2m" name="loseText1" xy="176,250" pivot="0.5,0.5" size="128,125" url="ui://ryvvr3p0xi2m1w" align="center" vAlign="middle"/>
+    <loader id="n15_xi2m" name="loseText2" xy="176,400" pivot="0.5,0.5" size="128,125" url="ui://ryvvr3p0xi2m1x" align="center" vAlign="middle"/>
+  </displayList>
+  <transition name="t0" autoPlayRepeat="-1">
+    <item time="0" type="Alpha" target="n9_xi2m" value="0"/>
+    <item time="0" type="Alpha" target="n21_xi2m" tween="true" startValue="0" endValue="1" duration="12" ease="Quad.In"/>
+    <item time="0" type="Alpha" target="n5_xi2m" value="0"/>
+    <item time="0" type="Alpha" target="n4_xi2m" value="0"/>
+    <item time="0" type="Alpha" target="n7_xi2m" value="0"/>
+    <item time="0" type="Alpha" target="n6_xi2m" value="0"/>
+    <item time="0" type="Alpha" target="n3_xi2m" value="0"/>
+    <item time="0" type="Alpha" target="n11_xi2m" value="0"/>
+    <item time="0" type="Alpha" target="n13_xi2m" value="0"/>
+    <item time="0" type="Alpha" target="n10_xi2m" value="0"/>
+    <item time="0" type="Alpha" target="n12_xi2m" value="0"/>
+    <item time="0" type="Alpha" target="n8_xi2m" value="0"/>
+    <item time="0" type="Scale" target="n15_xi2m" value="0,0"/>
+    <item time="0" type="Scale" target="n14_xi2m" value="0,0"/>
+    <item time="2" type="Alpha" target="n3_xi2m" tween="true" startValue="0" endValue="1" duration="12"/>
+    <item time="4" type="Alpha" target="n4_xi2m" tween="true" startValue="0" endValue="1" duration="12"/>
+    <item time="6" type="Alpha" target="n5_xi2m" tween="true" startValue="0" endValue="1" duration="12"/>
+    <item time="8" type="Alpha" target="n6_xi2m" tween="true" startValue="0" endValue="1" duration="12"/>
+    <item time="10" type="Alpha" target="n7_xi2m" tween="true" startValue="0" endValue="1" duration="12"/>
+    <item time="12" type="Alpha" target="n9_xi2m" tween="true" startValue="0" endValue="1" duration="12"/>
+    <item time="12" type="Scale" target="n14_xi2m" tween="true" startValue="2,2" endValue="1,1" duration="18" ease="Elastic.Out"/>
+    <item time="14" type="Alpha" target="n8_xi2m" tween="true" startValue="0" endValue="1" duration="12"/>
+    <item time="16" type="Alpha" target="n10_xi2m" tween="true" startValue="0" endValue="1" duration="12"/>
+    <item time="18" type="Alpha" target="n11_xi2m" tween="true" startValue="0" endValue="1" duration="12"/>
+    <item time="20" type="Alpha" target="n12_xi2m" tween="true" startValue="0" endValue="1" duration="12"/>
+    <item time="22" type="Alpha" target="n13_xi2m" tween="true" startValue="0" endValue="1" duration="12"/>
+    <item time="24" type="Scale" target="n15_xi2m" tween="true" startValue="2,2" endValue="1,1" duration="18" ease="Elastic.Out"/>
+  </transition>
+</component>

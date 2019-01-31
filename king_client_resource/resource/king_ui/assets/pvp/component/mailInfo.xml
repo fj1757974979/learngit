@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,800">
+  <displayList>
+    <component id="n8_d54g" name="bg" src="qg2m2q" fileName="component/AdjustBg.xml" pkg="864gshxx" xy="0,0" visible="false" alpha="0"/>
+    <loader id="n0_tuc5" name="n0" xy="4,126" size="471,548" url="ui://dvmsogfrgtjh5i" fill="scaleFree"/>
+    <component id="n1_tuc5" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="405,140" visible="false">
+      <relation target="n0_tuc5" sidePair="right-right,top-top"/>
+    </component>
+    <component id="n15_gtjh" name="backBtn" src="royda" fileName="component/backBtn.xml" pkg="864gshxx" xy="20,140">
+      <relation target="n0_tuc5" sidePair="right-right,top-top"/>
+    </component>
+    <list id="n16_gtjh" name="rewardList" xy="40,495" size="400,80" layout="row" overflow="hidden" scroll="horizontal" defaultItem="ui://dvmsogfrgtjh5o" align="center" vAlign="middle">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n17_gtjh" name="getBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="165,590" size="150,50" touchable="false">
+      <Button title="#TEXT_70009" icon="ui://864gshxxj6006u"/>
+    </component>
+    <text id="n18_gtjh" name="mailTitle" xy="90,170" size="300,40" fontSize="28" align="center" vAlign="middle" leading="0" autoSize="none" bold="true" text="邮件标题"/>
+    <loader id="n19_tn1u" name="line" xy="40,490" size="400,3" url="ui://dvmsogfrb60p5a" fill="scaleFree"/>
+    <loader id="n20_tn1u" name="recievedFlag" xy="171,580" size="138,74" visible="false" url="ui://dvmsogfrtn1u5r" autoSize="true"/>
+    <richtext id="n22_srbf" name="mailText" xy="40,230" size="400,250" fontSize="26" autoSize="none" text=""/>
+    <list id="n21_srbf" name="mailList" xy="40,230" size="400,250" selectionMode="none" overflow="scroll" scrollBarFlags="132" scrollBarRes="ui://864gshxxjzjo62," defaultItem="ui://dvmsogfrizh965" autoItemSize="false" align="center">
+      <relation target="n0_tuc5" sidePair="top-top"/>
+      <item/>
+    </list>
+  </displayList>
+</component>

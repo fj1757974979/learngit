@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,500" pivot="0.5,0.5" opaque="false">
+  <displayList>
+    <loader id="n2_ijr4" name="n2" xy="0,0" size="400,500" url="ui://164za4d7a53ph" align="center" vAlign="middle" fill="scaleFree"/>
+    <list id="n11_j66l" name="pageList" xy="10,60" size="380,58" layout="row" overflow="scroll" scroll="horizontal" colGap="5" defaultItem="ui://864gshxxj66lci" autoItemSize="false" vAlign="middle" autoClearItems="true">
+      <item title="更新预告"/>
+      <item title="活动预告"/>
+      <item title="畅销商品"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n16_emvz" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="340,5"/>
+    <text id="n17_emvz" name="n17" xy="65,15" size="270,40" fontSize="36" align="center" vAlign="middle" leading="0" autoSize="shrink" text="#TEXT_60274">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <list id="n19_emvz" name="textList" xy="14,132" size="372,351" selectionMode="none" overflow="scroll" scrollBarFlags="132" scrollBarRes="ui://864gshxxjzjo62," defaultItem="ui://164za4d7emvzx" autoItemSize="false" align="center">
+      <item/>
+    </list>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Scale" tween="true" startValue="0,0" endValue="1,1" duration="12" ease="Quart.Out"/>
+  </transition>
+</component>

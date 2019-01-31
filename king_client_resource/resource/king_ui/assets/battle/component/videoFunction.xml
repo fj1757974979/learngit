@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,800" opaque="false">
+  <displayList>
+    <component id="n1_m1um" name="bg" src="qg2m2q" fileName="component/AdjustBg.xml" pkg="864gshxx" xy="0,0" size="480,800" visible="false" alpha="0" touchable="false"/>
+    <loader id="n0_m1um" name="functionBg" xy="430,430" size="51,212" touchable="false" url="ui://ryvvr3p0po2p43" fill="scaleFree" autoSize="true">
+      <relation target="n1_m1um" sidePair="right-right,bottom-bottom"/>
+    </loader>
+    <graph id="n3_m1um" name="top" xy="0,0" size="480,60" visible="false" alpha="0.7" touchable="false" type="rect" fillColor="#ff000000">
+      <relation target="n1_m1um" sidePair="top-top,width-width"/>
+      <relation target="n1_m1um" sidePair="center-center"/>
+    </graph>
+    <component id="n6_m1um" name="likeBtn" src="m1um40" fileName="component/likeBtn.xml" xy="426,450">
+      <relation target="n0_m1um" sidePair="center-center,middle-middle"/>
+      <Button title="32"/>
+    </component>
+    <component id="n7_m1um" name="discussBtn" src="m1um41" fileName="component/discussBtn.xml" xy="426,520">
+      <relation target="n0_m1um" sidePair="center-center,middle-middle"/>
+      <Button title="22"/>
+    </component>
+    <text id="n8_m1um" name="title" xy="123,14" size="229,32" visible="false" fontSize="28" color="#ffffff" leading="0" text="一张打爆对手狗头">
+      <relation target="n3_m1um" sidePair="top-top,center-center"/>
+    </text>
+    <component id="n9_m1um" name="shareWechatBtn" src="kv3d30" fileName="component/shareBtn.xml" pkg="dvmsogfr" xy="438,590" size="35,35">
+      <relation target="n0_m1um" sidePair="center-center,middle-middle"/>
+      <Button title="➚" sound="ui://864gshxxlr3f2n"/>
+    </component>
+    <component id="n10_m1um" name="viewBtn" src="u84356" fileName="component/playBtn.xml" pkg="dvmsogfr" xy="200,380">
+      <relation target="n1_m1um" sidePair="center-center,middle-middle"/>
+      <Button titleFontSize="24" icon=" " sound="ui://864gshxxlr3f2n"/>
+    </component>
+  </displayList>
+  <transition name="t3">
+    <item time="0" type="Alpha" target="n8_m1um" tween="true" startValue="1" endValue="0" duration="12"/>
+    <item time="0" type="Alpha" target="n3_m1um" tween="true" startValue="0.7" endValue="0" duration="12"/>
+  </transition>
+  <transition name="t4">
+    <item time="0" type="Alpha" target="n3_m1um" tween="true" startValue="0.7"/>
+    <item time="0" type="Alpha" target="n8_m1um" tween="true" startValue="1"/>
+  </transition>
+</component>

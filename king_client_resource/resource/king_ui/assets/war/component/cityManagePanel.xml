@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="440,700" pivot="0.5,0.5">
+  <controller name="page" pages="1,manage,4,fightmanage" selected="0"/>
+  <displayList>
+    <loader id="n17_xjab" name="n17" xy="0,0" size="440,700" url="ui://864gshxxdlva1m" fill="scaleFree"/>
+    <component id="n7_jbrh" name="buildChk" src="u5xl85" fileName="component/checkButton.xml" xy="114,20">
+      <Button title="#TEXT_60296" sound="ui://864gshxxyyke6k"/>
+    </component>
+    <component id="n9_jbrh" name="fightChk" src="u5xl85" fileName="component/checkButton.xml" xy="234,20">
+      <Button checked="true" title="#TEXT_60298" sound="ui://864gshxxyyke6k"/>
+    </component>
+    <component id="n21_xjab" name="n21" src="xjabc" fileName="component/cityBuild.xml" xy="20,80" size="400,600">
+      <gearDisplay controller="page" pages="1"/>
+    </component>
+    <component id="n25_ir7y" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="376,10"/>
+    <component id="n26_ir7y" name="n26" src="t2088z" fileName="component/cityManageFightPanel.xml" xy="20,80">
+      <gearDisplay controller="page" pages="4"/>
+    </component>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Scale" tween="true" startValue="0.8,0.9" endValue="1,1" duration="6" ease="Quart.Out"/>
+  </transition>
+</component>

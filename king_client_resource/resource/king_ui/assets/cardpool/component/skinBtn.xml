@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="60,60" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n1" name="icon" xy="0,0" pivot="0.5,0.5" size="60,60" url="ui://ravbpjp3l1gi21" autoSize="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+  </displayList>
+  <Button sound="ui://864gshxxlxfs6n" downEffect="scale" downEffectValue="0.80"/>
+  <transition name="heartbeat">
+    <item time="0" type="Scale" target="n1" value="1,1"/>
+    <item time="24" type="Scale" target="n1" tween="true" startValue="1,1" endValue="1.08,1.08" duration="12" ease="Bounce.Out"/>
+    <item time="36" type="Scale" target="n1" tween="true" startValue="1.08,1.08" endValue="1,1" duration="36" ease="Expo.Out"/>
+  </transition>
+</component>

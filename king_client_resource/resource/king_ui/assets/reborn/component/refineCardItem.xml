@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="87,155" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <text id="n3_m276" name="price" xy="23,120" size="41,28" fontSize="24" color="#ffffff" align="center" vAlign="middle" leading="0" bold="true" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="200">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n4_m276" name="card" src="uoofj" fileName="component/smallCard.xml" pkg="rdb04el0" xy="0,5"/>
+    <component id="n5_m276" name="selectedMask" src="10uxgv" fileName="component/selectedCard.xml" pkg="rdb04el0" xy="0,4">
+      <gearDisplay controller="button" pages="1,3"/>
+    </component>
+  </displayList>
+  <Button mode="Check"/>
+</component>

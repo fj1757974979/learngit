@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,30">
+  <displayList>
+    <loader id="n0_u6us" name="n0" xy="30,0" size="420,30" touchable="false" url="ui://rdb04el0c3kwhe" fill="scaleFree" color="#000000">
+      <relation target="n1_u6us" sidePair="center-center,width-width"/>
+      <relation target="n1_u6us" sidePair="height-height,middle-middle"/>
+    </loader>
+    <text id="n1_u6us" name="text" xy="47,1" size="389,28" restrictSize="0,400,0,0" fontSize="24" color="#ffffff" align="center" vAlign="middle" leading="0" text="金币不足，卡牌不足你还想上天！？">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Alpha" value="1"/>
+    <item time="0" type="XY" tween="true" startValue="0,0" endValue="0,-100" duration="24" ease="Quart.Out"/>
+    <item time="45" type="Alpha" tween="true" startValue="1" endValue="0" duration="3"/>
+    <item time="47" type="XY" value="0,-100"/>
+    <item time="48" type="XY" value="0,0"/>
+  </transition>
+</component>

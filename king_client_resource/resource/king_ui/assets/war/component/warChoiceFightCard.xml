@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,800" designImage="ui://864gshxxi3o218" designImageLayer="1">
+  <controller name="country" pages="0,wei,1,shu,2,wu" selected="0"/>
+  <displayList>
+    <component id="n0_i3o2" name="bg" src="qg2m2q" fileName="component/AdjustBg.xml" pkg="864gshxx" xy="0,0" size="480,800"/>
+    <component id="n1_i3o2" name="backBtn" src="royda" fileName="component/backBtn.xml" pkg="864gshxx" xy="5,5">
+      <relation target="n0_i3o2" sidePair="top-top,left-left"/>
+    </component>
+    <component id="n6_i3o2" name="confirmBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="165,735" size="150,50">
+      <relation target="n0_i3o2" sidePair="bottom-bottom,center-center"/>
+      <Button title="#TEXT_70005" titleFontSize="28" icon="ui://864gshxxj6006u" sound="ui://864gshxxlr3f2n"/>
+    </component>
+    <text id="n14_mx2o" name="text4" xy="171,700" size="137,28" visible="false" fontSize="24" color="#333333" leading="0" text="#TEXT_70087">
+      <relation target="n0_i3o2" sidePair="bottom-bottom,center-center"/>
+    </text>
+    <component id="n15_ir7y" name="weiTapBtn" src="jh6f9" fileName="component/weiCampBtn.xml" pkg="ravbpjp3" xy="126,11">
+      <relation target="n0_i3o2" sidePair="top-top,center-center"/>
+      <Button checked="true" sound="" volume="0" controller="country" page="0"/>
+    </component>
+    <component id="n16_ir7y" name="shuTapBtn" src="qw7t14" fileName="component/shuCampBtn.xml" pkg="ravbpjp3" xy="206,10">
+      <relation target="n0_i3o2" sidePair="top-top,center-center"/>
+      <Button sound="" volume="0" controller="country" page="1"/>
+    </component>
+    <component id="n17_ir7y" name="wuTapBtn" src="qw7t15" fileName="component/wuCampBtn.xml" pkg="ravbpjp3" xy="286,11">
+      <relation target="n0_i3o2" sidePair="top-top,center-center"/>
+      <Button sound="" volume="0" controller="country" page="2"/>
+    </component>
+    <list id="n5_i3o2" name="weiCardList" xy="11,80" size="458,600" layout="flow_hz" selectionMode="none" overflow="scroll" scrollBarFlags="6" scrollBarRes="ui://864gshxxjzjo62," lineGap="9" colGap="3" lineItemCount="5" defaultItem="ui://2ipmzghtv2ye9m" align="center" autoClearItems="true">
+      <gearDisplay controller="country" pages="0"/>
+      <relation target="n0_i3o2" sidePair="top-top,bottomext-bottom"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n18_ir7y" name="shuCardList" xy="11,80" size="458,600" layout="flow_hz" selectionMode="none" overflow="scroll" scrollBarFlags="6" scrollBarRes="ui://864gshxxjzjo62," lineGap="9" colGap="3" lineItemCount="5" defaultItem="ui://2ipmzghtv2ye9m" align="center" autoClearItems="true">
+      <gearDisplay controller="country" pages="1"/>
+      <relation target="n0_i3o2" sidePair="top-top,bottomext-bottom"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n19_ir7y" name="wuCardList" xy="11,80" size="458,600" layout="flow_hz" selectionMode="none" overflow="scroll" scrollBarFlags="6" scrollBarRes="ui://864gshxxjzjo62," lineGap="9" colGap="3" lineItemCount="5" defaultItem="ui://2ipmzghtv2ye9m" align="center" autoClearItems="true">
+      <gearDisplay controller="country" pages="2"/>
+      <relation target="n0_i3o2" sidePair="top-top,bottomext-bottom"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

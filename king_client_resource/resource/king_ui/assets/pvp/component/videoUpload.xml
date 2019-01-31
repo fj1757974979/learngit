@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="450,400" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n0_qifi" name="n0" xy="0,0" size="450,400" url="ui://164za4d7a53ph" fill="scaleFree"/>
+    <component id="n6_f7m8" name="confirmBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="150,340" size="150,50">
+      <Button title="#TEXT_70036" icon="ui://864gshxxj6006t"/>
+    </component>
+    <loader id="n17_a53p" name="n17" xy="25,110" size="400,42" touchable="false" url="ui://164za4d7a53pg" fill="scaleFree"/>
+    <text id="n8_jsu7" name="searchInput" xy="25,112" size="400,38" input="true" maxLength="20" fontSize="20" align="center" vAlign="middle" leading="0" autoSize="none" text=""/>
+    <component id="n15_iczu" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="390,5"/>
+    <loader id="n18_qof0" name="title2" xy="125,5" pivot="0.5,0.5" size="200,65" touchable="false" url="ui://864gshxxroydj" fill="scaleMatchWidth"/>
+    <loader id="n19_qof0" name="title" xy="150,11" size="150,51" url="ui://864gshxxm1umb0" align="center" vAlign="middle" autoSize="true"/>
+    <text id="n20_qof0" name="txt" xy="75,70" size="300,38" fontSize="20" color="#333333" align="center" vAlign="middle" leading="0" autoSize="none" text="#TEXT_70042"/>
+    <loader id="n38_m1um" name="resultTxt2" xy="225,185" size="200,145" alpha="0.5" touchable="false" url="ui://rdb04el0paouh2" fill="scaleFree"/>
+    <loader id="n39_m1um" name="resultTxt1" xy="25,185" size="200,145" alpha="0.5" touchable="false" url="ui://rdb04el0paouh4" fill="scaleFree"/>
+    <text id="n22_u843" name="name1" xy="25,165" size="200,20" fontSize="16" color="#ffffff" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="玩家名字"/>
+    <text id="n23_u843" name="name2" xy="225,165" size="200,20" fontSize="16" color="#ffffff" align="right" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="玩家名字"/>
+    <component id="n24_u843" name="card1" src="rk7d2q" fileName="component/videoCard.xml" xy="25,185" scale="0.6,0.6"/>
+    <component id="n25_u843" name="card2" src="rk7d2q" fileName="component/videoCard.xml" xy="80,185" scale="0.6,0.6"/>
+    <component id="n26_u843" name="card3" src="rk7d2q" fileName="component/videoCard.xml" xy="135,185" scale="0.6,0.6"/>
+    <component id="n27_u843" name="card5" src="rk7d2q" fileName="component/videoCard.xml" xy="80,258" scale="0.6,0.6"/>
+    <component id="n28_u843" name="card4" src="rk7d2q" fileName="component/videoCard.xml" xy="25,258" scale="0.6,0.6"/>
+    <component id="n29_u843" name="card6" src="rk7d2q" fileName="component/videoCard.xml" xy="261,185" scale="0.6,0.6"/>
+    <component id="n30_u843" name="card7" src="rk7d2q" fileName="component/videoCard.xml" xy="316,185" scale="0.6,0.6"/>
+    <component id="n31_u843" name="card8" src="rk7d2q" fileName="component/videoCard.xml" xy="371,185" scale="0.6,0.6"/>
+    <component id="n32_u843" name="card10" src="rk7d2q" fileName="component/videoCard.xml" xy="371,259" scale="0.6,0.6"/>
+    <component id="n33_u843" name="card9" src="rk7d2q" fileName="component/videoCard.xml" xy="316,259" scale="0.6,0.6"/>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Scale" tween="true" startValue="0.8,0.9" endValue="1,1" duration="6" ease="Quart.Out"/>
+  </transition>
+</component>

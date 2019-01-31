@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,800" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n40_npy0" name="bg" xy="0,0" size="480,800">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n1_l90u" name="bottom" xy="48,227" size="383,346" url="ui://zfg0revpy4nl1k" fill="scaleFree"/>
+    <loader id="n2_l90u" name="n2" xy="140,232" pivot="0.5,0.5" size="200,65" touchable="false" url="ui://864gshxxroydj" autoSize="true">
+      <relation target="n1_l90u" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n5_l90u" name="treasureName" xy="165,238" size="150,51" touchable="false" url="ui://864gshxxd54ga1" align="center" autoSize="true">
+      <relation target="n1_l90u" sidePair="center-center,middle-middle"/>
+    </loader>
+    <component id="n36_hpi8" name="card" src="g33rg" fileName="component/cardCnt.xml" pkg="zfg0revp" xy="97,320" group="n38_hpi8">
+      <relation target="n1_l90u" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n37_hpi8" name="gold" src="g33ri" fileName="component/goldCnt.xml" pkg="zfg0revp" xy="258,320" group="n38_hpi8">
+      <relation target="n1_l90u" sidePair="center-center,middle-middle"/>
+    </component>
+    <group id="n38_hpi8" name="n38" xy="97,320" size="286,200"/>
+    <component id="n42_hrlg" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="370,235">
+      <Button sound="ui://864gshxxyyke6m"/>
+    </component>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Scale" tween="true" startValue="0.8,0.9" endValue="1,1" duration="6" ease="Quart.Out"/>
+    <item time="0" type="Sound" value="ui://864gshxxlr3f2n,100"/>
+  </transition>
+</component>

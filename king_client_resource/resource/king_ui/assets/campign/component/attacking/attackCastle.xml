@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,800" designImage="ui://ww6xhnp6bhli2o" designImageAlpha="36" designImageLayer="1">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n3_w5uu" name="road1" xy="0,0" size="480,800" url="ui://ww6xhnp6w5uu1a" fill="scaleFree"/>
+    <loader id="n47_v6di" name="road2" xy="0,-800" size="480,800" url="ui://ww6xhnp6w5uu1a" fill="scaleFree"/>
+    <loader id="n16_w5uu" name="castle" xy="0,-301" size="480,301" url="ui://ww6xhnp6yrk32h"/>
+    <loader id="n13_w5uu" name="wall" xy="0,581" size="480,219" url="ui://ww6xhnp6w5uu1d">
+      <relation target="n46_gz12" sidePair="bottom-bottom"/>
+    </loader>
+    <graph id="n46_gz12" name="touchPad" xy="0,0" size="480,800" alpha="0" type="rect"/>
+    <component id="n4_w5uu" name="battleBtn" src="nzui20" xy="195,348" hideByEditor="true"/>
+    <component id="n10_w5uu" name="figBtn" src="nzui22" xy="195,348" hideByEditor="true"/>
+    <component id="n11_w5uu" name="goBackBtn" src="nzui23" xy="418,567" hideByEditor="true"/>
+    <component id="n67_oswy" name="defBtn" src="oswy2r" xy="195,348" hideByEditor="true"/>
+    <component id="n12_w5uu" name="marchBtn" src="nzui24" xy="195,348" hideByEditor="true"/>
+    <component id="n39_w5uu" name="backBtn" src="royda" pkg="864gshxx" xy="7,5"/>
+    <component id="n40_w5uu" name="nextTypeBtn" src="uomqe" pkg="8pche6l7" xy="406,329"/>
+    <component id="n41_w5uu" name="preTypeBtn" src="uomqd" pkg="8pche6l7" xy="-5,330"/>
+    <loader id="n14_w5uu" name="n14" xy="168,52" size="156,42" group="n42_ul3p" url="ui://ww6xhnp6w5uu14"/>
+    <component id="n8_w5uu" name="attackCastlerSkill" src="x6w822" pkg="864gshxx" xy="0,121" group="n42_ul3p"/>
+    <loader id="n9_w5uu" name="n9" xy="106,93" size="309,43" group="n42_ul3p" url="ui://ww6xhnp6w5uu1e"/>
+    <component id="n57_ohc6" name="rewardResBar" src="dlva1o" pkg="864gshxx" xy="90,93" size="318,43" group="n42_ul3p">
+      <relation target="n9_w5uu" sidePair="center-center,middle-middle"/>
+      <Label title="产出：" titleFontSize="19"/>
+    </component>
+    <loader id="n1_w5uu" name="attCamp" xy="423,6" size="45,44" group="n42_ul3p" scale="1.2,1.2" url="ui://ww6xhnp6s6x4d"/>
+    <loader id="n54_ohc6" name="n54" xy="106,172" size="309,43" group="n55_ohc6" url="ui://ww6xhnp6w5uu1e"/>
+    <text id="n51_mtqd" name="n51" xy="198,182" size="48,23" group="n55_ohc6" font="楷体" fontSize="19" color="#ffffff" vAlign="middle" strokeColor="#000000" strokeSize="2" text="行程:"/>
+    <text id="n52_mtqd" name="trip" xy="248,182" size="34,23" group="n55_ohc6" font="楷体" fontSize="19" color="#ffffff" vAlign="middle" strokeColor="#000000" strokeSize="2" text="5天">
+      <relation target="n51_mtqd" sidePair="left-right,middle-middle"/>
+    </text>
+    <group id="n55_ohc6" name="tripGroup" xy="106,172" size="309,43" group="n42_ul3p" advanced="true"/>
+    <text id="n26_w5uu" name="attLevel" xy="172,61" size="143,23" group="n42_ul3p" font="楷体" fontSize="19" color="#ff0000" align="center" vAlign="middle" strokeColor="#000000" strokeSize="2" text="前方城池:汉中啊">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <group id="n42_ul3p" name="attGroup" xy="0,6" size="480,209" advanced="true" collapsed="true"/>
+    <loader id="n15_w5uu" name="n15" xy="168,497" size="156,42" group="n43_ul3p" url="ui://ww6xhnp6w5uu14"/>
+    <text id="n22_w5uu" name="defLevelName" xy="174,506" size="141,22" group="n43_ul3p" font="楷体" fontSize="18" color="#00ff00" vAlign="middle" strokeColor="#000000" strokeSize="2" text="我方城池: 阳平关">
+      <relation target="n15_w5uu" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n7_w5uu" name="defCastlerSkill" src="x6w822" pkg="864gshxx" xy="0,530" group="n43_ul3p"/>
+    <group id="n43_ul3p" name="defGroup" xy="0,497" size="480,88" advanced="true" collapsed="true"/>
+    <loader id="n2_w5uu" name="defCamp" xy="423,493" size="45,44" scale="1.2,1.2" url="ui://ww6xhnp6s6x4f"/>
+    <text id="n28_w5uu" name="guardsText" xy="71,607" size="74,22" group="n44_z35c" font="楷体" fontSize="18" color="#ffffff" align="center" vAlign="middle" strokeColor="#000000" strokeSize="2" text="行军中..."/>
+    <component id="n49_mtqd" name="handCardGrid" src="r0by2d" xy="16,641" group="n44_z35c"/>
+    <group id="n44_z35c" name="guardsGroup" xy="16,607" size="451,147" advanced="true"/>
+    <component id="n33_w5uu" name="attProBar" src="nzui25" xy="66,295" group="n45_z35c">
+      <ProgressBar value="100" max="100"/>
+    </component>
+    <text id="n34_w5uu" name="n34" xy="71,272" size="51,22" group="n45_z35c" fontSize="18" color="#ffffff" align="center" vAlign="middle" strokeColor="#000000" strokeSize="2" text="行程 : "/>
+    <text id="n35_w5uu" name="fieldCnt" xy="120,272" size="79,22" group="n45_z35c" fontSize="18" color="#ffffff" align="center" vAlign="middle" strokeColor="#000000" strokeSize="2" text="剩余 1 天">
+      <relation target="n34_w5uu" sidePair="left-right,middle-middle"/>
+    </text>
+    <component id="n62_x6w8" name="forageLabel" src="bzh4r" pkg="864gshxx" xy="213,259" group="n45_z35c" scale="0.8,0.8">
+      <Label titleColor="#ffffff" icon="ui://864gshxxroyd3"/>
+    </component>
+    <group id="n45_z35c" name="battleMesGroup" xy="66,259" size="371,80" hideByEditor="true" advanced="true"/>
+    <loader id="n64_bhli" name="clearLight" xy="-43,46" size="566,518" group="n66_bhli" touchable="false" url="ui://ww6xhnp6bhli2m"/>
+    <loader id="n63_bhli" name="clearIcon" xy="29,137" size="428,293" group="n66_bhli" touchable="false" url="ui://ww6xhnp6bhli2n"/>
+    <loader id="n65_bhli" name="clearCloud" xy="0,466" size="480,334" group="n66_bhli" touchable="false" url="ui://ww6xhnp6bhli2l">
+      <relation target="n46_gz12" sidePair="bottom-bottom"/>
+    </loader>
+    <group id="n66_bhli" name="clearGroup" xy="-43,46" size="566,754" hideByEditor="true" advanced="true"/>
+    <component id="n68_oswy" name="enemyHand" src="jed2u" pkg="864gshxx" xy="14,195" hideByEditor="true"/>
+  </displayList>
+</component>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="60,60" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n2_veqf" name="n1" xy="-10,-10" size="80,80" url="ui://dvmsogfrjknu5d" autoSize="true"/>
+    <component id="n3_tn1u" name="rewardHint" src="j7l76e" fileName="component/applyFriendNumHint.xml" pkg="864gshxx" xy="40,0" size="32,27">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+  <Button sound="ui://864gshxxyyke6n" downEffect="scale" downEffectValue="0.80"/>
+</component>

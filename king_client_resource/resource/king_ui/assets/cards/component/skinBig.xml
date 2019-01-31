@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="300,400" pivot="0.5,1">
+  <displayList>
+    <loader id="n7_h24d" name="baseImg" xy="0,0" size="300,400" url="ui://rdb04el0b950h8" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n8_i5hm" name="baseImg2" xy="0,0" size="300,400" alpha="0" url="ui://rdb04el0i5hm3je" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <image id="n2_x88n" name="icon" pkg="rcm1dlbr" src="uoof2j" fileName="null" xy="0,0" size="300,400">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <loader id="n0_x88n" name="frontImg" xy="0,0" size="300,400" url="ui://rdb04el0h24d3j7" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n5_h24d" name="nameImg" xy="65,343" size="169,57" url="ui://rdb04el0h24d3jb" fill="scaleFree">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+      <relation target="n6_h24d" sidePair="height-height,width-width"/>
+    </loader>
+    <text id="n6_h24d" name="nameText" xy="85,346" size="127,44" font="微软雅黑" fontSize="30" color="#ffffff" align="center" vAlign="middle" leading="0" bold="true" text="渤海纵横">
+      <relation target="n5_h24d" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>

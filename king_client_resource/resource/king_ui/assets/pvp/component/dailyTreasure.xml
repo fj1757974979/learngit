@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="200,60" pivot="0.5,0.5" extention="Button">
+  <displayList>
+    <loader id="n0_lnsl" name="boxWnd" xy="0,0" size="200,60" touchable="false" url="ui://dvmsogfrxu9e4s" fill="scaleFree"/>
+    <component id="n1_lnsl" name="starProgress" src="jed210" fileName="component/pvpScoreProgressBar.xml" pkg="864gshxx" xy="10,35" size="120,18">
+      <ProgressBar max="100"/>
+    </component>
+    <loader id="n3_lnsl" name="treasureIcon" xy="75,-48" pivot="0.5,0.5" size="175,157" scale="0.5,0.5" url="ui://zfg0revps4m72p" align="center" vAlign="middle" fill="scaleFree"/>
+    <loader id="n4_lnsl" name="wnd1" xy="36,10" pivot="0.5,0.5" size="67,17" touchable="false" url="ui://dvmsogfrxu9e4r" align="center" vAlign="middle" autoSize="true"/>
+    <loader id="n6_lnsl" name="starIcon2" xy="-20,8" pivot="0.5,0.5" size="71,67" scale="0.4,0.4" touchable="false" url="ui://864gshxxgy104y" align="center" vAlign="middle" color="#000000"/>
+    <loader id="n9_lnsl" name="starIcon" xy="-20,8" pivot="0.5,0.5" size="71,67" scale="0.35,0.35" touchable="false" url="ui://864gshxxgy104y" align="center" vAlign="middle"/>
+    <text id="n11_lnsl" name="nextTxt" xy="10,30" size="120,24" fontSize="20" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text=""/>
+  </displayList>
+  <Button sound="ui://864gshxxyyke6n" downEffect="scale" downEffectValue="0.95"/>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1"/>
+  <transition name="t1">
+    <item time="0" type="Scale" tween="true" startValue="1,1" endValue="0.95,0.95" duration="3"/>
+    <item time="3" type="Scale" tween="true" startValue="0.95,0.95" endValue="1,1" duration="3"/>
+  </transition>
+</component>

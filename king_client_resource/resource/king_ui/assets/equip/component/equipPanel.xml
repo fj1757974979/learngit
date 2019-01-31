@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="500,700" pivot="0.5,0.5">
+  <displayList>
+    <list id="n11_10tc3" name="headFrameList" xy="25,200" size="450,440" layout="flow_hz" overflow="scroll" scrollBarFlags="4" margin="10,10,0,0" lineGap="10" defaultItem="ui://739g5yti10tc339" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <loader id="n17_j66l" name="n17" xy="0,0" size="500,700" url="ui://739g5ytiri662b" fill="scaleFree"/>
+    <component id="n18_j66l" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="435,10"/>
+    <text id="n19_j66l" name="nowEquipName" xy="150,75" size="159,28" fontSize="24" color="#ffffff" vAlign="middle" leading="0" strokeColor="#000000" strokeSize="2" singleLine="true" text="#TEXT_60269"/>
+    <loader id="n20_j66l" name="bottom" xy="15,300" pivot="0.5,0.5" size="470,300" touchable="false" url="ui://739g5ytiri662c" fill="scaleFree"/>
+    <list id="n21_j66l" name="equipList" xy="25,300" size="450,300" layout="flow_hz" overflow="scroll" scrollBarFlags="4" scrollBar="auto" margin="10,10,0,0" defaultItem="ui://g6ma6zzkj66l3" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <loader id="n22_j66l" name="n22" xy="150,0" pivot="0.5,0.5" size="200,65" touchable="false" url="ui://864gshxxroydj" autoSize="true"/>
+    <component id="n24_j66l" name="nowEquip" src="j66l3" fileName="component/equipItemCom.xml" xy="50,70" size="90,90" touchable="false"/>
+    <component id="n25_j66l" name="confirmBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="160,620" size="180,60">
+      <Button title="#TEXT_60270" titleFontSize="32"/>
+    </component>
+    <text id="n26_j66l" name="newEquipName" xy="150,195" size="269,28" fontSize="24" color="#ffffff" vAlign="middle" leading="0" strokeColor="#000000" strokeSize="2" singleLine="true" text="要你命3000 Ultra Deluxe"/>
+    <component id="n27_j66l" name="newEquip" src="j66l3" fileName="component/equipItemCom.xml" xy="50,190" size="90,90" touchable="false"/>
+    <richtext id="n28_j66l" name="nowEquipDesc" xy="150,110" size="300,24" fontSize="20" color="#333333" autoSize="height" text="使装备者上下左右点数提高9999"/>
+    <richtext id="n29_j66l" name="newEquipDesc" xy="150,230" size="300,70" fontSize="20" color="#333333" autoSize="height" text="使装备者上下左右点数提高9999，且获得[警戒]、[点破]、[据守5]、[幕帘]"/>
+    <loader id="n30_j66l" name="11" xy="175,6" size="150,51" url="ui://864gshxxpar0cs" vAlign="middle"/>
+    <text id="n31_par0" name="n1" xy="50,50" size="90,25" fontSize="16" color="#660000" align="center" vAlign="middle" leading="0" autoSize="none" text="#TEXT_60267"/>
+    <text id="n32_par0" name="n2" xy="50,170" size="90,25" fontSize="16" color="#000066" align="center" vAlign="middle" leading="0" autoSize="none" text="#TEXT_60268"/>
+    <text id="n33_ooha" name="emptyHintText" xy="56,420" size="400,40" fontSize="30" color="#666666" align="center" vAlign="middle" leading="0" autoSize="none" text="#TEXT_60272"/>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Scale" tween="true" startValue="0.8,0.9" endValue="1,1" duration="6" ease="Quart.Out"/>
+  </transition>
+</component>

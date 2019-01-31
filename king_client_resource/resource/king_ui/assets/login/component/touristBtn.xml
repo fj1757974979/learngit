@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="235,64" extention="Button">
+  <displayList>
+    <loader id="n0_sbfv" name="icon" xy="0,0" size="235,64" url="ui://164za4d7pgqtn">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+  </displayList>
+  <Button sound="ui://864gshxxlr3f2n" downEffect="scale" downEffectValue="0.80"/>
+</component>

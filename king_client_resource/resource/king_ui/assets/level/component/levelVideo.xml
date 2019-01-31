@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="450,250" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n0_qifi" name="n0" xy="0,0" size="450,250" url="ui://164za4d7a53ph" fill="scaleFree"/>
+    <component id="n23_htoj" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="384,10"/>
+    <component id="n24_61kp" name="fightBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="270,180" size="150,50">
+      <Button title="#TEXT_70110" titleFontSize="28" icon="ui://864gshxxj6006u"/>
+    </component>
+    <component id="n25_61kp" name="playBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="30,180" size="150,50">
+      <Button title="#TEXT_70109" titleFontSize="28" icon="ui://864gshxxal2v9n"/>
+    </component>
+    <text id="n26_61kp" name="txt1" xy="75,80" size="300,80" fontSize="24" color="#333333" align="center" vAlign="middle" leading="10" autoSize="none" bold="true" text="#TEXT_70108"/>
+    <text id="n20_qof0" name="txt2" xy="10,5" size="300,40" fontSize="20" color="#474747" vAlign="middle" leading="0" autoSize="none" text="本关战报：999999999999"/>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Scale" tween="true" startValue="0.8,0.9" endValue="1,1" duration="6" ease="Quart.Out"/>
+  </transition>
+</component>

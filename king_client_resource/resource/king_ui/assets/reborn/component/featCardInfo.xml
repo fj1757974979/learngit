@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="430,560" pivot="0.5,0.5">
+  <controller name="type" pages="0,pvp,1,war" selected="0"/>
+  <displayList>
+    <graph id="n48_tn1u" name="closeBg" xy="-25,-120" pivot="0.5,0.5" size="480,800" type="rect" lineColor="#00000000" fillColor="#00ffffff">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <component id="n28_utpt" name="btnBuy" src="m276c6" fileName="component/honorBtn.xml" pkg="864gshxx" xy="140,561" size="150,50">
+      <Button title="999" icon="ui://864gshxxal2v9n" sound="ui://864gshxxlr3f2n"/>
+    </component>
+    <loader id="n53_nf1m" name="bg" xy="0,0" size="430,560" url="ui://ravbpjp3kyov1h" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <component id="n54_nf1m" name="card" src="stg9hf" fileName="component/middleCardBig.xml" pkg="rdb04el0" xy="15,9" size="193,248"/>
+    <loader id="n55_nf1m" name="n55" xy="16,344" size="397,171" url="ui://864gshxxdz7b54" fill="scaleFree"/>
+    <component id="n56_nf1m" name="btnLevel1" src="j4cjz" fileName="component/levelBtn.xml" pkg="ravbpjp3" xy="250,4">
+      <Button checked="true"/>
+    </component>
+    <component id="n57_nf1m" name="btnLevel2" src="j4cjz" fileName="component/levelBtn.xml" pkg="ravbpjp3" xy="250,49"/>
+    <component id="n58_nf1m" name="btnLevel3" src="j4cjz" fileName="component/levelBtn.xml" pkg="ravbpjp3" xy="250,94"/>
+    <component id="n59_nf1m" name="btnLevel4" src="j4cjz" fileName="component/levelBtn.xml" pkg="ravbpjp3" xy="250,139"/>
+    <component id="n60_nf1m" name="btnLevel5" src="j4cjz" fileName="component/levelBtn.xml" pkg="ravbpjp3" xy="250,184"/>
+    <loader id="n61_nf1m" name="levelTxt1" xy="283,15" size="55,27" touchable="false" url="ui://ravbpjp3j4cju"/>
+    <loader id="n62_nf1m" name="levelTxt2" xy="283,60" size="55,27" touchable="false" url="ui://ravbpjp3j4cjt"/>
+    <loader id="n63_nf1m" name="levelTxt3" xy="283,105" size="56,27" touchable="false" url="ui://ravbpjp3j4cjs"/>
+    <loader id="n64_nf1m" name="levelTxt4" xy="283,150" size="55,27" touchable="false" url="ui://ravbpjp3j4cjw"/>
+    <loader id="n65_nf1m" name="levelTxt5" xy="283,196" size="56,27" touchable="false" url="ui://ravbpjp3j4cjv"/>
+    <loader id="n66_nf1m" name="curLevelImg" xy="230,15" size="32,25" url="ui://ravbpjp3c3kw10"/>
+    <component id="n67_nf1m" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="365,9"/>
+    <richtext id="n68_nf1m" name="tips" xy="21,262" size="382,32" font="Kaiti SC Regular" fontSize="20" align="center" vAlign="middle" autoSize="none" text="#TEXT_70103"/>
+    <graph id="n69_nf1m" name="skillDescBg2" xy="19,349" size="392,59" alpha="0" type="rect" lineSize="0" corner="5"/>
+    <graph id="n70_nf1m" name="skillDescBg3" xy="19,450" size="391,62" alpha="0" type="rect" lineSize="0" corner="5"/>
+    <graph id="n71_nf1m" name="skillDescBg1" xy="19,344" size="391,63" alpha="0" type="rect" lineSize="0" corner="5"/>
+    <richtext id="n72_nf1m" name="skillDescText1" xy="25,352" size="376,52" font="Kaiti SC Regular" fontSize="20" color="#ffffff" leading="6" autoSize="none" text="仁德：&lt;font color=&quot;black&quot;>给队友手牌&lt;/font>">
+      <gearDisplay controller="type" pages="0"/>
+    </richtext>
+    <richtext id="n73_nf1m" name="skillDescText2" xy="25,403" size="376,52" font="Kaiti SC Regular" fontSize="20" color="#ffffff" leading="6" autoSize="none" text="龙胆：&lt;font color=&quot;black&quot;>杀当闪，闪当杀&lt;/font>">
+      <gearDisplay controller="type" pages="0"/>
+    </richtext>
+    <richtext id="n74_nf1m" name="skillDescText3" xy="25,454" size="376,52" font="Kaiti SC Regular" fontSize="20" color="#ffffff" leading="6" autoSize="none" text="斗狠：&lt;font color=&quot;black&quot;>进场时，若有敌方相邻，则+2；否则-2警戒&lt;/font>&#xA;每当敌方卡牌进场置于相邻空格时，尝试对其进攻。">
+      <gearDisplay controller="type" pages="0"/>
+    </richtext>
+    <loader id="n75_nf1m" name="campBottom" xy="30,24" size="45,45" url="ui://ravbpjp3qehe1o" align="center" vAlign="middle" autoSize="true"/>
+    <loader id="n76_nf1m" name="campText" xy="35,25" size="34,41" hideByEditor="true" url="ui://ravbpjp3u8431v" align="center" vAlign="middle" fill="scaleFree" autoSize="true"/>
+    <richtext id="n77_nf1m" name="say" xy="104,517" size="221,32" font="Kaiti SC Regular" fontSize="18" color="#333333" align="center" vAlign="middle" singleLine="true" text="宁我负人，勿人负我！哈哈&#xA;">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <loader id="n78_nf1m" name="n78" xy="325,531" size="44,3" url="ui://ravbpjp3fa1u1s">
+      <relation target="n77_nf1m" sidePair="left-right,middle-middle"/>
+    </loader>
+    <loader id="n79_nf1m" name="n79" xy="61,531" size="44,3" url="ui://ravbpjp3fa1u1r">
+      <relation target="n77_nf1m" sidePair="left-left,middle-middle"/>
+    </loader>
+    <richtext id="n80_nf1m" name="limitTips" xy="215,227" size="196,32" visible="false" font="Kaiti SC Regular" fontSize="16" align="center" vAlign="middle" autoSize="none" text="#TEXT_70104"/>
+    <richtext id="n81_nf1m" name="limitTips2" xy="117,478" size="196,32" visible="false" font="Kaiti SC Regular" fontSize="16" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="#TEXT_70139">
+      <gearDisplay controller="type" pages="0"/>
+    </richtext>
+    <loader id="n82_nf1m" name="limitImg" xy="120,169" size="90,90" visible="false" url="ui://ravbpjp3l2311u" fill="scaleFree"/>
+    <component id="n84_el7v" name="pvpChk" src="u5xl2b" fileName="component/pvpChk.xml" pkg="ravbpjp3" xy="82,295">
+      <Button checked="true" title="对战" controller="type" page="0"/>
+    </component>
+    <component id="n85_el7v" name="warChk" src="u5xl2c" fileName="component/warChk.xml" pkg="ravbpjp3" xy="262,295">
+      <Button title="国战" controller="type" page="1"/>
+    </component>
+    <richtext id="n86_el7v" name="politicsText" xy="27,353" size="77,37" font="Kaiti SC Regular" fontSize="24" color="#ffffff" leading="0" text="政治：">
+      <gearDisplay controller="type" pages="1"/>
+    </richtext>
+    <richtext id="n87_el7v" name="forceText" xy="27,433" size="77,37" font="Kaiti SC Regular" fontSize="24" color="#ffffff" leading="0" text="武力：">
+      <gearDisplay controller="type" pages="1"/>
+    </richtext>
+    <richtext id="n88_el7v" name="commandText" xy="27,473" size="77,37" font="Kaiti SC Regular" fontSize="24" color="#ffffff" leading="0" text="统率：">
+      <gearDisplay controller="type" pages="1"/>
+    </richtext>
+    <richtext id="n89_el7v" name="intelligenceText" xy="27,393" size="77,37" font="Kaiti SC Regular" fontSize="24" color="#ffffff" leading="0" text="智力：">
+      <gearDisplay controller="type" pages="1"/>
+    </richtext>
+    <richtext id="n90_el7v" name="politics" xy="112,353" size="27,37" font="Kaiti SC Regular" fontSize="24" color="#ffffff" leading="0" bold="true" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="99">
+      <gearDisplay controller="type" pages="1"/>
+    </richtext>
+    <richtext id="n91_el7v" name="force" xy="112,433" size="27,37" font="Kaiti SC Regular" fontSize="24" color="#ffffff" leading="0" bold="true" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="99">
+      <gearDisplay controller="type" pages="1"/>
+    </richtext>
+    <richtext id="n92_el7v" name="command" xy="112,472" size="27,37" font="Kaiti SC Regular" fontSize="24" color="#ffffff" leading="0" bold="true" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="99">
+      <gearDisplay controller="type" pages="1"/>
+    </richtext>
+    <richtext id="n93_el7v" name="intelligence" xy="112,392" size="27,37" font="Kaiti SC Regular" fontSize="24" color="#ffffff" leading="0" bold="true" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="99">
+      <gearDisplay controller="type" pages="1"/>
+    </richtext>
+    <loader id="n94_rs61" name="lockTxt" xy="350,193" size="65,32" url="ui://ravbpjp3v5w12d" align="center" vAlign="middle" fill="scaleMatchWidth"/>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Scale" tween="true" startValue="0.2,0.2" endValue="1,1" duration="6" ease="Back.Out"/>
+    <item time="0" type="Sound" value="ui://864gshxxfuyj44,100"/>
+    <item time="0" type="XY" tween="true" startValue="0,0" endValue="0,0" duration="3" ease="Sine.Out"/>
+  </transition>
+</component>

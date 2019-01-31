@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,800" pivot="0.5,0.5">
+  <controller name="page" pages="0,准备,1,完成,2,答题中" selected="1"/>
+  <displayList>
+    <component id="n20_qof0" name="bg" src="qg2m2q" fileName="component/AdjustBg.xml" pkg="864gshxx" xy="0,0" visible="false" alpha="0"/>
+    <loader id="n1_kv3d" name="panel" xy="0,0" size="480,800" url="ui://864gshxxul1151" fill="scaleFree">
+      <relation target="n20_qof0" sidePair="width-width,height-height"/>
+      <relation target="n20_qof0" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n21_qof0" name="bottom" xy="4,80" pivot="0.5,0.5" size="471,700" url="ui://8d3e8y55qof02c" fill="scaleFree">
+      <relation target="n1_kv3d" sidePair="height-height"/>
+    </loader>
+    <loader id="n27_d54g" name="n27" xy="146,5" pivot="0.5,0.5" size="200,65" touchable="false" url="ui://864gshxxroydj" autoSize="true">
+      <relation target="n1_kv3d" sidePair="top-top,center-center"/>
+    </loader>
+    <loader id="n2_kv3d" name="title1" xy="171,11" pivot="0.5,0.5" size="150,51" url="ui://864gshxxd54gak" autoSize="true">
+      <gearDisplay controller="page" pages="1"/>
+      <relation target="n1_kv3d" sidePair="top-top,center-center"/>
+    </loader>
+    <loader id="n28_d54g" name="n28" xy="171,11" pivot="0.5,0.5" size="150,51" touchable="false" url="ui://864gshxxd54gam" autoSize="true">
+      <gearDisplay controller="page" pages="0"/>
+      <relation target="n1_kv3d" sidePair="top-top,center-center"/>
+    </loader>
+    <text id="n19_kv3d" name="progressTxt" xy="146,12" size="200,50" font="楷体" fontSize="36" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" bold="true" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="1/15">
+      <gearDisplay controller="page" pages="2"/>
+      <relation target="n1_kv3d" sidePair="top-top,middle-middle"/>
+    </text>
+    <component id="n4_kv3d" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="10,10">
+      <gearDisplay controller="page" pages="0,2"/>
+      <relation target="n1_kv3d" sidePair="left-left,top-top"/>
+    </component>
+    <text id="n6_kv3d" name="txt1" xy="30,140" size="420,240" fontSize="24" leading="5" autoSize="none" text="#TEXT_70105">
+      <gearDisplay controller="page" pages="0"/>
+      <relation target="n1_kv3d" sidePair="top-top"/>
+    </text>
+    <text id="n7_kv3d" name="txt2" xy="30,380" size="420,80" fontSize="24" color="#cc0000" align="center" vAlign="middle" leading="0" autoSize="none" text="#TEXT_70106">
+      <gearDisplay controller="page" pages="0"/>
+      <relation target="n1_kv3d" sidePair="top-top"/>
+    </text>
+    <list id="n9_kv3d" name="answerList" xy="25,220" size="430,450" selectionMode="multipleSingleClick" overflow="hidden" margin="5,0,0,0" defaultItem="ui://8d3e8y55qof02f" align="center">
+      <gearDisplay controller="page" pages="2"/>
+      <relation target="n1_kv3d" sidePair="top-top"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n10_kv3d" name="question" xy="25,135" size="430,80" fontSize="24" align="center" vAlign="middle" leading="0" autoSize="none" text="3、通过游戏的新手教学，您是否就能快速掌握游戏基本玩法？（单选）">
+      <gearDisplay controller="page" pages="2"/>
+      <relation target="n1_kv3d" sidePair="top-top"/>
+    </text>
+    <text id="n12_kv3d" name="txt3" xy="30,160" size="420,200" fontSize="24" vAlign="middle" leading="0" autoSize="none" text="#TEXT_70107">
+      <gearDisplay controller="page" pages="1"/>
+      <relation target="n1_kv3d" sidePair="top-top"/>
+    </text>
+    <loader id="n14_kv3d" name="boxLight" xy="14,320" pivot="0.5,0.5" size="452,414" scale="0.6,0.6" touchable="false" url="ui://864gshxxvco45w" align="center" vAlign="middle" fill="scaleFree">
+      <gearDisplay controller="page" pages="1"/>
+      <relation target="" sidePair="middle-middle"/>
+    </loader>
+    <loader id="n22_qof0" name="n22" xy="134,494" pivot="0.5,0.5" size="212,107" scale="0.7,0.7" touchable="false" url="ui://zfg0revpu6us2j">
+      <gearDisplay controller="page" pages="0,1"/>
+      <relation target="" sidePair="middle-middle"/>
+    </loader>
+    <loader id="n13_kv3d" name="boxIcon" xy="152,448" pivot="0.5,0.5" size="175,157" scale="0.8,0.8" touchable="false" url="ui://zfg0revpl8xiq">
+      <gearDisplay controller="page" pages="0,1"/>
+      <relation target="" sidePair="middle-middle"/>
+    </loader>
+    <text id="n15_kv3d" name="boxName" xy="165,540" size="150,80" fontSize="24" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" strokeSize="2" text="镶金宝箱">
+      <gearDisplay controller="page" pages="0,1"/>
+      <relation target="" sidePair="middle-middle"/>
+    </text>
+    <component id="n11_kv3d" name="rewardBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="165,700" size="150,50">
+      <gearDisplay controller="page" pages="1"/>
+      <relation target="n1_kv3d" sidePair="bottom-bottom,center-center"/>
+      <Button title="#TEXT_70009" icon="ui://864gshxxj6006u"/>
+    </component>
+    <component id="n16_kv3d" name="nextBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="165,700" size="150,50">
+      <gearDisplay controller="page" pages="2"/>
+      <relation target="n1_kv3d" sidePair="bottom-bottom,center-center"/>
+      <Button title="#TEXT_70007"/>
+    </component>
+    <component id="n5_kv3d" name="beginBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="165,700" size="150,50">
+      <gearDisplay controller="page" pages="0"/>
+      <relation target="n1_kv3d" sidePair="bottom-bottom,center-center"/>
+      <Button title="#TEXT_70006" icon="ui://864gshxxj6006u"/>
+    </component>
+    <component id="n26_veqf" name="completeBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="165,700" size="150,50" hideByEditor="true">
+      <gearDisplay controller="page" pages="2"/>
+      <relation target="n1_kv3d" sidePair="bottom-bottom,center-center"/>
+      <Button title="#TEXT_70008" icon="ui://864gshxxj6006u"/>
+    </component>
+  </displayList>
+  <transition name="open">
+    <item time="0" type="Alpha" target="n7_kv3d" value="0"/>
+    <item time="0" type="Alpha" target="n6_kv3d" value="0"/>
+    <item time="0" type="Alpha" target="n12_kv3d" value="0"/>
+    <item time="0" type="Scale" tween="true" startValue="0.8,0.9" endValue="1,1" duration="6" ease="Quart.Out"/>
+    <item time="3" type="Alpha" target="n6_kv3d" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="3" type="Alpha" target="n7_kv3d" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="3" type="Alpha" target="n12_kv3d" tween="true" startValue="0" endValue="1" duration="6"/>
+  </transition>
+  <transition name="t1" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Rotation" target="n14_kv3d" tween="true" startValue="0" endValue="360" duration="192" ease="Linear"/>
+  </transition>
+</component>

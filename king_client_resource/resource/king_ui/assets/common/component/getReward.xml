@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="300,300" pivot="0.5,0.5">
+  <controller name="type" pages="0,glod&amp;jade,1,card,2,skin,3,head,4,box" selected="4"/>
+  <displayList>
+    <loader id="n71_d54g" name="n71" xy="0,0" pivot="0.5,0.5" size="300,300" touchable="false" url="ui://864gshxxvco45w" align="center" vAlign="middle" fill="scaleFree"/>
+    <loader id="n67_pdhx" name="resource1" xy="75,75" pivot="0.5,0.5" size="150,150" touchable="false" url="ui://864gshxxhrlgb9" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <gearDisplay controller="type" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n68_pdhx" name="cardRemaining" xy="115,224" pivot="0.5,0.5" size="70,44" font="ui://tlhdbap0e8aza" fontSize="40" color="#ffffff" align="center" vAlign="middle" leading="0" text="100">
+      <gearDisplay controller="type" pages="0"/>
+      <relation target="n67_pdhx" sidePair="center-center,bottom-bottom"/>
+    </text>
+    <component id="n73_p850" name="bg" src="qg2m2q" fileName="component/AdjustBg.xml" xy="-90,-250" alpha="0"/>
+    <component id="n72_tn1u" name="card" src="g33rg" fileName="component/cardCnt.xml" pkg="zfg0revp" xy="87,45">
+      <gearDisplay controller="type" pages="1"/>
+    </component>
+    <component id="n76_gux6" name="skin" src="qvsx3j5" fileName="component/skinMiddle.xml" pkg="rdb04el0" xy="87,69">
+      <gearDisplay controller="type" pages="2"/>
+    </component>
+    <component id="n77_gux6" name="headFrame" src="10tc339" fileName="component/headFrameItemCom.xml" pkg="739g5yti" xy="105,105" touchable="false">
+      <gearDisplay controller="type" pages="3"/>
+    </component>
+    <loader id="n78_qvsx" name="treausre" xy="50,50" pivot="0.5,0.5" size="200,200" touchable="false" url="ui://zfg0revpl8xin" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <gearDisplay controller="type" pages="4"/>
+    </loader>
+    <text id="n79_mrl4" name="name" xy="99,222" size="101,28" fontSize="24" color="#ffffff" align="center" vAlign="middle" leading="0" strokeColor="#000000" strokeSize="2" text="天命宝箱">
+      <gearDisplay controller="type" pages="4"/>
+      <relation target="n78_qvsx" sidePair="center-center,bottom-bottom"/>
+    </text>
+    <text id="n80_tlw5" name="tip" xy="20,272" size="259,28" fontSize="24" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="height" text="#TEXT_60273">
+      <gearDisplay controller="type" pages="4"/>
+      <relation target="n78_qvsx" sidePair="center-center,top-bottom"/>
+    </text>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Alpha" tween="true" startValue="0.6" endValue="1" duration="6"/>
+    <item time="0" type="Scale" tween="true" startValue="0.6,0.6" endValue="1,1" duration="6"/>
+    <item time="0" type="Sound" value="ui://864gshxxfuyj45,100"/>
+  </transition>
+  <transition name="t1" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Rotation" target="n71_d54g" tween="true" startValue="0" endValue="360" duration="144" ease="Linear" repeat="-1"/>
+    <item time="144" type="Rotation" target="n71_d54g" tween="true" startValue="360"/>
+  </transition>
+</component>

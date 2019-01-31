@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="440,70" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="3"/>
+  <controller name="comType" pages="0,,1," selected="0"/>
+  <displayList>
+    <loader id="n17_xjab" name="bg" xy="0,0" pivot="0.5,0.5" size="440,70" url="ui://2ipmzghtn91y8v" fill="scaleFree">
+      <gearDisplay controller="button" pages="0,2"/>
+    </loader>
+    <loader id="n19_xjab" name="bg2" xy="0,0" pivot="0.5,0.5" size="440,70" url="ui://2ipmzghtn91y8u" fill="scaleFree">
+      <gearDisplay controller="button" pages="1,3"/>
+    </loader>
+    <text id="n9_lwj0" name="nameText" xy="70,10" size="205,24" fontSize="20" color="#ffffff" vAlign="middle" leading="0" strokeColor="#333333" singleLine="true" text="玩家啊啊啊啊啊啊啊啊">
+      <gearDisplay controller="comType" pages="1"/>
+      <relation target="" sidePair="rightext-right"/>
+    </text>
+    <component id="n16_xjab" name="lordHead" src="md4a33k" fileName="component/head.xml" pkg="739g5yti" xy="10,7" size="55,55">
+      <gearDisplay controller="comType" pages="1"/>
+    </component>
+    <richtext id="n18_xjab" name="job" xy="70,35" size="45,24" fontSize="20" color="#ffffff" vAlign="middle" leading="0" strokeColor="#000000" singleLine="true" text="太守">
+      <gearDisplay controller="comType" pages="1"/>
+      <relation target="" sidePair="left-left"/>
+    </richtext>
+    <text id="n20_ml1o" name="n1" xy="151,21" size="136,28" fontSize="24" align="center" vAlign="middle" leading="0" singleLine="true" text="#TEXT_60336">
+      <gearDisplay controller="comType" pages="0"/>
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <loader id="n21_mhry" name="rankImg" xy="380,10" size="50,50" touchable="false" url="ui://864gshxxgy104q" align="center" vAlign="middle" fill="scaleMatchHeight">
+      <gearDisplay controller="comType" pages="1"/>
+      <relation target="" sidePair="right-right"/>
+    </loader>
+    <text id="n22_mhry" name="rankTitleText" xy="377,23" size="55,24" fontSize="20" color="#ffffff" align="center" vAlign="middle" leading="0" bold="true" strokeColor="#000033" shadowColor="#000033" shadowOffset="1,1" text="专家I">
+      <gearDisplay controller="comType" pages="1"/>
+      <relation target="n21_mhry" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <Button mode="Check" sound="ui://864gshxxlr3f2n"/>
+</component>

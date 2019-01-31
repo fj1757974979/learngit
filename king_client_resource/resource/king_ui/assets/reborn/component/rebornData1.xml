@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,780" pivot="0.5,0.5" overflow="hidden" scrollBarRes="ui://864gshxxjzjo62,">
+  <displayList>
+    <loader id="n40_k9is" name="img" xy="7,280" pivot="0.5,0.5" size="465,273" url="ui://47ikzi2ak9is17" align="center" vAlign="middle" fill="scale"/>
+    <text id="n41_k9is" name="tip1" xy="0,570" size="480,50" fontSize="20" color="#333333" align="center" vAlign="middle" leading="0" autoSize="none" text="#TEXT_70151">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <loader id="n43_k9is" name="txt1" xy="34,100" size="412,129" url="ui://47ikzi2ap8yyw" autoSize="true">
+      <relation target="" sidePair="center-center"/>
+    </loader>
+  </displayList>
+  <transition name="enter"/>
+</component>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,594" designImage="ui://8pche6l7royd0" designImageOffsetX="-24" designImageOffsetY="-43">
+  <displayList>
+    <component id="n5_g0v3" name="reward" src="g0v3j" fileName="component/levelTreasure.xml" xy="40,40">
+      <relation target="" sidePair="middle-middle%"/>
+    </component>
+    <text id="n2_euag" name="chapterNameTxt" xy="9,1" size="460,37" font="行楷-简 粗体" fontSize="24" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="shrink" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" singleLine="true" text="第一章 群雄逐鹿">
+      <relation target="" sidePair="middle-middle%"/>
+    </text>
+    <list id="n3_euag" name="levelList" xy="0,97" size="480,500" overflow="hidden" defaultItem="ui://8pche6l7jhlyx" align="center">
+      <relation target="" sidePair="middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

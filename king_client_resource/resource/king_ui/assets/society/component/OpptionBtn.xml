@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,40" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <text id="n5_yyke" name="title" xy="0,0" size="100,40" fontSize="30" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" strokeSize="2" text=""/>
+  </displayList>
+  <Button sound="ui://864gshxxyyke6k" downEffect="scale" downEffectValue="0.80"/>
+</component>

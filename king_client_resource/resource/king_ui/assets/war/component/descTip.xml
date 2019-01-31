@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="329,69">
+  <displayList>
+    <loader id="n0_t0lw" name="skillBg3" xy="-12,-11" size="352,91" url="ui://rdb04el0t0lwhh" fill="scaleFree"/>
+    <richtext id="n1_t0lw" name="skillDescTxt" xy="11,2" size="307,64" font="微软雅黑" fontSize="20" color="#ffffff" vAlign="middle" autoSize="none" text="资源说明"/>
+  </displayList>
+</component>

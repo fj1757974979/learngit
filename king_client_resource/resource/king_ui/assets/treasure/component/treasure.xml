@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="110,164" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n3_l8xi" name="readyOpenBg" xy="-54,-13" size="222,140" touchable="false" url="ui://zfg0revpl8xiw" align="center" vAlign="middle" fill="scale"/>
+    <loader id="n6_tkxh" name="boxWnd" xy="0,24" size="110,110" url="ui://zfg0revpul112m" fill="scaleFree">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n2_l8xi" name="canOpenBg" xy="-14,27" size="138,104" alpha="0" url="ui://zfg0revpdez542" align="center" vAlign="middle" fill="scale"/>
+    <loader id="n0_l8xi" name="teasureImg" xy="-14,27" size="138,104" url="ui://zfg0revpl8xin" align="center" vAlign="middle" fill="scale"/>
+    <text id="n1_l8xi" name="nameText" xy="0,134" size="110,30" fontSize="16" align="center" vAlign="middle" leading="1" letterSpacing="-3" autoSize="shrink" text="开开开坎坎坷坷">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n4_l8xi" name="openBtn" src="l8xi10" fileName="component/openBtn.xml" xy="0,-10"/>
+    <text id="n5_l8xi" name="openTimeText" xy="13,2" size="81,21" fontSize="17" align="center" vAlign="middle" text="3小时23分">
+      <relation target="" sidePair="center-center,bottom-top"/>
+    </text>
+    <loader id="n10_rbz0" name="jadeBg" xy="5,100" size="100,30" alpha="0.7" url="ui://dvmsogfrb4dv4d" fill="scaleFree"/>
+    <text id="n7_ryqp" name="jadeCnt" xy="45,103" size="41,28" fontSize="24" color="#ffffff" align="center" vAlign="middle" leading="0" bold="true" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="999">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <loader id="n8_ryqp" name="jadeIcon" xy="16,101" size="30,30" url="ui://zfg0revprbz048" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <relation target="n7_ryqp" sidePair="middle-middle,right-left"/>
+    </loader>
+    <text id="n9_ryqp" name="jadeText" xy="0,75" size="110,24" fontSize="20" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="shrink" bold="true" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="立即打开">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="XY" target="n4_l8xi" tween="true" startValue="0,-20" endValue="0,-10" duration="12" ease="Sine.InOut"/>
+    <item time="12" type="XY" target="n4_l8xi" tween="true" startValue="0,-10" endValue="0,-20" duration="12" ease="Sine.InOut"/>
+  </transition>
+  <transition name="t1">
+    <item time="0" type="Alpha" target="n1_l8xi" value="0"/>
+    <item time="0" type="Alpha" target="n4_l8xi" value="0"/>
+    <item time="0" type="Alpha" target="n5_l8xi" value="0"/>
+    <item time="0" type="Scale" target="n0_l8xi" tween="true" startValue="0.5,0.5" endValue="1,1" duration="18" ease="Back.Out"/>
+    <item time="12" type="Alpha" target="n1_l8xi" tween="true" startValue="0" endValue="1" duration="18"/>
+    <item time="12" type="Alpha" target="n4_l8xi" tween="true" startValue="0" endValue="1" duration="18"/>
+    <item time="12" type="Alpha" target="n5_l8xi" tween="true" startValue="0" endValue="1" duration="18"/>
+  </transition>
+  <transition name="t2" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Alpha" target="n2_l8xi" tween="true" startValue="0" endValue="0" duration="12" ease="Linear"/>
+    <item time="12" type="Alpha" target="n2_l8xi" tween="true" startValue="0" endValue="0" duration="12" ease="Linear"/>
+    <item time="24" type="Alpha" target="n2_l8xi" tween="true" startValue="0" ease="Linear"/>
+  </transition>
+  <transition name="t3">
+    <item time="0" type="Scale" tween="true" startValue="1,1" endValue="0.95,0.95" duration="3"/>
+    <item time="3" type="Scale" tween="true" startValue="0.95,0.95" endValue="1,1" duration="3"/>
+  </transition>
+  <transition name="t4">
+    <item time="0" type="Pivot" target="n0_l8xi" value="0.5,0.5"/>
+    <item time="0" type="Scale" target="n0_l8xi" tween="true" startValue="1,1" endValue="1.2,0.8" duration="6"/>
+    <item time="0" type="Visible" target="n2_l8xi" value="false"/>
+    <item time="0" type="XY" target="n0_l8xi" tween="true" startValue="-14,27" endValue="-14,36" duration="6"/>
+    <item time="6" type="Scale" target="n0_l8xi" tween="true" startValue="1.2,0.8" endValue="0.8,1.2" duration="3" ease="Quint.In"/>
+    <item time="6" type="XY" target="n0_l8xi" tween="true" startValue="-14,36" endValue="-14,10" duration="3" ease="Quint.In"/>
+    <item time="9" type="Scale" target="n0_l8xi" tween="true" startValue="0.8,1.2" endValue="1,1" duration="6" ease="Quint.In"/>
+    <item time="9" type="XY" target="n0_l8xi" tween="true" startValue="-14,10" endValue="-14,27" duration="6"/>
+    <item time="15" type="Pivot" target="n0_l8xi" value="0,0"/>
+    <item time="15" type="Visible" target="n2_l8xi" value="true"/>
+  </transition>
+  <transition name="jump">
+    <item time="0" type="Scale" target="n0_l8xi" tween="true" startValue="0.5,0.5" endValue="1,1" duration="9" ease="Sine.In"/>
+    <item time="0" type="XY" target="n0_l8xi" tween="true" startValue="-14,27" endValue="-14,7" duration="6" ease="Quart.Out"/>
+    <item time="6" type="XY" target="n0_l8xi" tween="true" startValue="-14,7" endValue="-14,27" duration="9" ease="Elastic.Out"/>
+  </transition>
+</component>

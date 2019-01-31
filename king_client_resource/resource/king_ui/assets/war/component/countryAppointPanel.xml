@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="440,620" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n0_u5xl" name="n0" xy="0,0" size="440,620" url="ui://864gshxxdlva1m" fill="scaleFree"/>
+    <loader id="n4_u5xl" name="n4" xy="15,100" size="410,450" url="ui://dvmsogfra64j2l" fill="scaleFree"/>
+    <component id="n1_u5xl" name="n1" src="u5xl8s" fileName="component/countryAppoint.xml" xy="20,100" size="400,450"/>
+    <component id="n2_u5xl" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="375,10"/>
+    <component id="n6_n91y" name="modifyFlag" src="wwgm5v" fileName="component/campItem.xml" xy="15,10"/>
+    <loader id="n7_n91y" name="n7" xy="120,15" size="200,65" url="ui://864gshxxroydj" autoSize="true"/>
+    <loader id="n8_n91y" name="n8" xy="145,21" size="150,51" url="ui://864gshxxuy1sdq" autoSize="true"/>
+    <text id="n9_drdd" name="txt" xy="7,70" size="95,20" fontSize="16" color="#ffffff" leading="0" strokeColor="#000000" text="#TEXT_60319">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <component id="n10_ir7y" name="surrenderBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="145,555" size="150,50">
+      <Button title="#TEXT_60367" titleFontSize="30"/>
+    </component>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Scale" tween="true" startValue="0.8,0.9" endValue="1,1" duration="6" ease="Quart.Out"/>
+  </transition>
+</component>

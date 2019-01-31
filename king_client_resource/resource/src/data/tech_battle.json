@@ -1,0 +1,19 @@
+
+{
+            "1": {"__id__": 1, "enemy_hand": [2015, 2001, 2001, 2001, 2001], "name": 13001, "country": 1, "treasureReward": ["BX0101"], "offensive": 2, "own_side": [], "enemy_side": [], "head": "avatar_7_png", "headFrame": "1" },
+			"2": {"__id__": 2, "enemy_hand": [2031, 2002, 2002, 2002, 2002], "name": 13002, "country": 3, "treasureReward": ["BX0102"], "offensive": 2, "own_side": [], "enemy_side": [], "head": "avatar_49_png", "headFrame": "1" },
+			"3": {"__id__": 3, "enemy_hand": [2031, 2032, 2006, 2006, 2006], "name": 13003, "country": 3, "treasureReward": ["BX0101"], "offensive": 1, "own_side": [], "enemy_side": [], "head": "avatar_50_png", "headFrame": "1" },
+			"4": {"__id__": 4, "enemy_hand": [2025, 2027, 2028, 2006, 2006], "name": 13003, "country": 2, "treasureReward": ["BX0103"], "offensive": 1, "own_side": [], "enemy_side": [], "head": "avatar_22_png", "headFrame": "1" },
+			"5": {"__id__": 5, "enemy_hand": [2029, 2007, 2008, 2033, 2013], "name": 13004, "country": 3, "treasureReward": ["BX0201"], "offensive": 1, "own_side": [], "enemy_side": [], "head": "avatar_42_png", "headFrame": "1" },
+			"6": {"__id__": 6, "enemy_hand": [2015, 2001, 2001, 2001, 2001], "name": 13001, "country": 2, "treasureReward": ["BX0104"], "offensive": 2, "own_side": [], "enemy_side": [], "head": "avatar_26_png", "headFrame": "1" },
+			"7": {"__id__": 7, "enemy_hand": [2023, 2002, 2002, 2002, 2002], "name": 13002, "country": 1, "treasureReward": ["BX0105"], "offensive": 2, "own_side": [], "enemy_side": [], "head": "avatar_7_png", "headFrame": "1" },
+			"8": {"__id__": 8, "enemy_hand": [2023, 2024, 2014, 2014, 2014], "name": 13003, "country": 1, "treasureReward": ["BX0104"], "offensive": 1, "own_side": [], "enemy_side": [], "head": "avatar_9_png", "headFrame": "1" },
+			"9": {"__id__": 9, "enemy_hand": [2029, 2031, 2032, 2006, 2006], "name": 13003, "country": 3, "treasureReward": ["BX0106"], "offensive": 1, "own_side": [], "enemy_side": [], "head": "avatar_42_png", "headFrame": "1" },
+			"10": {"__id__": 10, "enemy_hand": [2021, 2009, 2010, 2033, 2013], "name": 13004, "country": 1, "treasureReward": ["BX0201"], "offensive": 1, "own_side": [], "enemy_side": [], "head": "avatar_2_png", "headFrame": "1" },
+			"11": {"__id__": 11, "enemy_hand": [2015, 2001, 2001, 2001, 2001], "name": 13001, "country": 3, "treasureReward": ["BX0107"], "offensive": 2, "own_side": [], "enemy_side": [], "head": "avatar_43_png", "headFrame": "1" },
+			"12": {"__id__": 12, "enemy_hand": [2027, 2002, 2002, 2002, 2002], "name": 13002, "country": 2, "treasureReward": ["BX0108"], "offensive": 2, "own_side": [], "enemy_side": [], "head": "avatar_25_png", "headFrame": "1" },
+			"13": {"__id__": 13, "enemy_hand": [2006, 2006, 2006], "name": 13003, "country": 2, "treasureReward": ["BX0107"], "offensive": 1, "own_side": [], "enemy_side": [[2012, 1], [2011, 5]], "head": "avatar_28_png", "headFrame": "1" },
+			"14": {"__id__": 14, "enemy_hand": [2021, 2023, 2024, 2006, 2006], "name": 13003, "country": 1, "treasureReward": ["BX0109"], "offensive": 1, "own_side": [], "enemy_side": [], "head": "avatar_2_png", "headFrame": "1" },
+			"15": {"__id__": 15, "enemy_hand": [2026, 2025, 2033, 2013], "name": 13004, "country": 2, "treasureReward": ["BX0201"], "offensive": 1, "own_side": [], "enemy_side": [[2011, 0]], "head": "avatar_22_png", "headFrame": "1" }
+   }
+    

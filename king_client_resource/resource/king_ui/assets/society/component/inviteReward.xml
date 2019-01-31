@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,600" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n0_qof0" name="n0" xy="0,0" size="400,600" url="ui://dvmsogfrfm9321" fill="scaleFree"/>
+    <loader id="n2_qof0" name="title2" xy="100,10" pivot="0.5,0.5" size="200,65" touchable="false" url="ui://864gshxxroydj" autoSize="true"/>
+    <loader id="n3_qof0" name="title" xy="125,16" size="150,51" touchable="false" url="ui://864gshxxb60pay" align="center" vAlign="middle" autoSize="true"/>
+    <component id="n5_qof0" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="340,10"/>
+    <loader id="n8_b60p" name="n8" xy="10,90" size="380,60" url="ui://739g5ytib60p2f" fill="scaleFree"/>
+    <list id="n9_b60p" name="memberList" xy="13,93" size="373,55" layout="row" overflow="scroll" scroll="horizontal" colGap="2" defaultItem="ui://739g5ytib60p2l" vAlign="middle" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n10_b60p" name="n10" xy="13,160" size="110,20" fontSize="16" leading="0" text="#TEXT_70066"/>
+    <list id="n11_b60p" name="rewardList" xy="10,180" size="380,355" overflow="scroll" defaultItem="ui://739g5ytib60p2m" align="center">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n13_b60p" name="inviteBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="140,540" size="120,40">
+      <relation target="" sidePair="bottom-bottom"/>
+      <Button title="#TEXT_70043" titleFontSize="24" icon="ui://864gshxxj6006u"/>
+    </component>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Scale" tween="true" startValue="0.8,0.9" endValue="1,1" duration="6" ease="Quart.Out"/>
+  </transition>
+</component>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,800" pivot="0.5,0.5">
+  <displayList>
+    <component id="n0_nf1s" name="bg" src="qg2m2q" fileName="component/AdjustBg.xml" pkg="864gshxx" xy="0,0" size="480,800"/>
+    <loader id="n6_nf1s" name="n6" xy="0,0" size="480,60" url="ui://8d3e8y55ul1125" fill="scaleFree">
+      <relation target="" sidePair="center-center"/>
+      <relation target="n0_nf1s" sidePair="width-width,top-top"/>
+    </loader>
+    <loader id="n8_nf1s" name="honorIconImg" xy="70,15" size="30,30" touchable="false" url="ui://864gshxxcnowc7" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <relation target="n6_nf1s" sidePair="left-left,top-top"/>
+    </loader>
+    <text id="n9_nf1s" name="honorCnt" xy="100,14" pivot="0.5,0.5" size="113,32" fontSize="28" color="#ffffff" vAlign="middle" leading="0" autoSize="none" bold="true" text="9999999">
+      <relation target="n8_nf1s" sidePair="middle-middle,left-right"/>
+    </text>
+    <list id="n14_nf1s" name="shopList" xy="5,60" size="470,730" overflow="scroll" lineGap="20" autoItemSize="false" align="center" autoClearItems="true">
+      <relation target="n0_nf1s" sidePair="height-height,top-top"/>
+      <relation target="n0_nf1s" sidePair="width-width,center-center"/>
+      <item url="ui://47ikzi2am2767"/>
+      <item url="ui://47ikzi2am2762"/>
+      <item url="ui://47ikzi2am2765"/>
+      <item url="ui://47ikzi2aj66l1j"/>
+    </list>
+    <component id="n15_nf1s" name="closeBtn" src="royda" fileName="component/backBtn.xml" pkg="864gshxx" xy="5,5">
+      <relation target="n0_nf1s" sidePair="top-top,left-left"/>
+    </component>
+    <loader id="n16_msue" name="fameIconImg" xy="240,15" size="30,30" touchable="false" url="ui://864gshxxmsuecc" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <relation target="n6_nf1s" sidePair="left-left,top-top"/>
+    </loader>
+    <text id="n17_msue" name="fameCnt" xy="270,14" pivot="0.5,0.5" size="113,32" fontSize="28" color="#ffffff" vAlign="middle" leading="0" autoSize="none" bold="true" text="9999999">
+      <relation target="n16_msue" sidePair="middle-middle,left-right"/>
+    </text>
+  </displayList>
+</component>

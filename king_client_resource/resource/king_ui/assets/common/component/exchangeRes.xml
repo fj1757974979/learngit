@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="291,209" designImage="ui://864gshxxdlva1v" designImageOffsetX="-65" designImageOffsetY="-512">
+  <displayList>
+    <loader id="n0_qifi" name="n0" xy="0,0" size="291,209" url="ui://864gshxxdlva1y"/>
+    <loader id="n5_qifi" name="n5" xy="23,23" size="60,60" url="ui://864gshxxnf1s9a"/>
+    <loader id="n7_qifi" name="resImg" xy="22,80" size="60,60" url="ui://864gshxxroyd4"/>
+    <component id="n11_qifi" name="confirmBtn" src="dlva1x" fileName="component/baseBtn.xml" xy="89,150">
+      <Button title="确定兑换" titleColor="#00ff66" titleFontSize="20"/>
+    </component>
+    <component id="n12_qifi" name="inputAmount" src="jed2t" fileName="component/baseLabel.xml" xy="136,94"/>
+    <component id="n14_qifi" name="addBtn" src="bzh4p" fileName="component/nextBtn.xml" xy="214,87"/>
+    <component id="n15_qifi" name="subBtn" src="bzh4o" fileName="component/preBtn.xml" xy="92,87"/>
+    <text id="n18_qifi" name="goldAmountTxt" xy="163,29" size="19,46" font="行楷-简 细体" fontSize="30" color="#00ff00" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="2" text="0">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+</component>

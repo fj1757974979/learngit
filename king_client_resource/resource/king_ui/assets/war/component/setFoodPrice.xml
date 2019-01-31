@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="440,662" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n0_xjab" name="n0" xy="0,0" size="440,662" url="ui://2ipmzghtk6o669" fill="scaleFree">
+      <relation target="" sidePair="height-height,middle-middle"/>
+    </loader>
+    <component id="n2_xjab" name="confirmBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="130,560" size="180,60" group="n20_xjab">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+      <Button title="确定" icon="ui://864gshxxj6006u"/>
+    </component>
+    <component id="n4_xjab" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="350,40" group="n20_xjab"/>
+    <loader id="n9_xjab" name="n9" xy="101,290" size="238,64" group="n20_xjab" touchable="false" url="ui://2ipmzghtonso6e" fill="scaleFree" autoSize="true">
+      <relation target="" sidePair="bottom-bottom"/>
+    </loader>
+    <text id="n10_xjab" name="goldInput" xy="145,303" size="150,38" group="n20_xjab" input="true" maxLength="60" keyboardType="4" fontSize="30" color="#ffff00" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" singleLine="true" text="123123">
+      <relation target="" sidePair="bottom-bottom"/>
+    </text>
+    <component id="n24_gv98" name="liangcao" src="qjxh5o" fileName="component/resourceValueItem.xml" xy="190,470" size="200,50" group="n20_xjab"/>
+    <text id="n26_gv98" name="n26" xy="45,100" size="350,44" group="n20_xjab" fontSize="20" color="#666666" align="center" leading="0" autoSize="height" text="协定粮草价格，增加金库收入。价格过高会影响成员的军事行为。">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <loader id="n11_xjab" name="n11" xy="110,302" size="40,40" group="n20_xjab" url="ui://864gshxxnf1s9a" fill="scaleFree"/>
+    <text id="n18_xjab" name="nowPrice" xy="45,355" size="350,25" group="n20_xjab" input="true" maxLength="60" keyboardType="4" fontSize="20" color="#666666" align="center" vAlign="middle" leading="0" autoSize="none" singleLine="true" text="之前价格：9999">
+      <relation target="" sidePair="bottom-bottom"/>
+    </text>
+    <loader id="n27_onso" name="rewardBg1" xy="175,170" size="90,90" group="n20_xjab" url="ui://739g5ytivfpoh" fill="scaleFree"/>
+    <loader id="n28_onso" name="rewardIcon1" xy="175,170" size="90,90" group="n20_xjab" url="ui://2ipmzghtonso6f" fill="scaleFree">
+      <relation target="n27_onso" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n29_onso" name="cnt1" xy="224,219" size="41,40" group="n20_xjab" fontSize="36" color="#ffffff" align="center" vAlign="middle" leading="0" strokeColor="#000000" text="+5">
+      <relation target="n28_onso" sidePair="center-center"/>
+    </text>
+    <group id="n20_xjab" name="n20" xy="45,40" size="359,580" advanced="true"/>
+    <loader id="n30_u5xl" name="n30" xy="120,20" size="200,65" url="ui://864gshxxroydj" autoSize="true"/>
+    <loader id="n31_u5xl" name="n31" xy="145,26" size="150,51" url="ui://864gshxxu5xld5" autoSize="true"/>
+    <text id="n32_u5xl" name="n32" xy="75,483" size="105,24" fontSize="20" align="center" leading="0" text="当前粮仓：">
+      <relation target="" sidePair="left-left,top-top"/>
+    </text>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Alpha" target="n20_xjab" value="0"/>
+    <item time="0" type="Size" tween="true" startValue="-,120" endValue="-,662" duration="9"/>
+    <item time="9" type="Alpha" target="n20_xjab" tween="true" startValue="0" endValue="1" duration="6"/>
+  </transition>
+</component>

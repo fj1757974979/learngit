@@ -1,0 +1,7 @@
+
+{
+            "1": {"__id__": "1", "soldGold": 2000, "jadePrice": 30, "bowdlerPrice": 0, "desc": "#TEXT_10308", "icon": "shop_goldIcon1_png" },
+			"2": {"__id__": "2", "soldGold": 7000, "jadePrice": 100, "bowdlerPrice": 0, "desc": "#TEXT_10309", "icon": "shop_goldIcon3_png" },
+			"3": {"__id__": "3", "soldGold": 15000, "jadePrice": 200, "bowdlerPrice": 0, "desc": "#TEXT_10310", "icon": "shop_goldIcon5_png" }
+   }
+    

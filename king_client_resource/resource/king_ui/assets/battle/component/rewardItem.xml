@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="125,200">
+  <displayList>
+    <component id="n2_kbbq" name="card" src="bzh4r" fileName="component/middleCard.xml" pkg="rdb04el0" xy="0,0"/>
+    <component id="n1_kbbq" name="gold" src="g33ri" fileName="component/goldCnt.xml" pkg="zfg0revp" xy="0,0"/>
+  </displayList>
+</component>

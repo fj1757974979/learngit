@@ -1,0 +1,8 @@
+
+{
+            "1": {"__id__": 1, "type": "gold", "rewardId": "", "cnt": 500, "exchangeCnt": 20, "price": 4 },
+			"2": {"__id__": 2, "type": "treasure", "rewardId": "BX0308", "cnt": 1, "exchangeCnt": 10, "price": 12 },
+			"3": {"__id__": 3, "type": "headFrame", "rewardId": "9", "cnt": 1, "exchangeCnt": 1, "price": 80 },
+			"4": {"__id__": 4, "type": "skin", "rewardId": "SK06101", "cnt": 1, "exchangeCnt": 1, "price": 120 }
+   }
+    

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="450,75">
+  <displayList>
+    <loader id="n1_jbrh" name="n1" xy="0,0" size="450,75" url="ui://739g5ytiyykek" fill="scaleFree"/>
+    <text id="n2_jbrh" name="name" xy="75,12" size="205,24" fontSize="20" color="#ffffff" vAlign="middle" leading="0" strokeColor="#2c2c2c" singleLine="true" text="对酒当歌，人生几何？"/>
+    <text id="n3_jbrh" name="lastMessageTxt" xy="75,40" size="310,24" fontSize="16" color="#999999" vAlign="middle" leading="0" autoSize="none" text="一二三四五六七八九十一二fwfwfwfwfwfwfwfwf的"/>
+    <text id="n4_jbrh" name="lastMessageTime" xy="190,12" size="240,24" fontSize="16" color="#666666" align="right" vAlign="middle" leading="0" autoSize="none" text="2018年12月22日 下午11:22">
+      <relation target="n2_jbrh" sidePair="leftext-right,middle-middle"/>
+    </text>
+    <component id="n12_j7k2" name="head" src="md4a33k" fileName="component/head.xml" xy="10,7" size="60,60"/>
+    <component id="n8_j7l7" name="newHint" src="j7l76d" fileName="component/privateChatNumHint.xml" pkg="864gshxx" xy="400,40">
+      <relation target="n4_jbrh" sidePair="right-right,top-bottom"/>
+    </component>
+    <image id="n11_qkz0" name="countryFlagImg" src="vfpog" fileName="headicon1.png" xy="40,47" size="30,19" aspect="true" visible="false"/>
+  </displayList>
+</component>

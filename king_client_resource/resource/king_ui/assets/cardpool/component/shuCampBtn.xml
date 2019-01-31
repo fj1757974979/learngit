@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="68,68" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n1" name="n1" xy="0,0" size="68,68" url="ui://ravbpjp3a64j1b" align="center" vAlign="middle" fill="scaleFree">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n2" name="n2" xy="0,0" size="68,68" url="ui://ravbpjp3a64j1c" align="center" vAlign="middle" fill="scaleFree">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <component id="n3_fs4l" name="cardNumHint" src="fs4l4g" fileName="component/cardNumHint.xml" pkg="864gshxx" xy="46,0"/>
+  </displayList>
+  <Button mode="Radio" sound="ui://864gshxxyyke6k"/>
+</component>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="460,200" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n0_qifi" name="n0" xy="0,0" size="460,200" url="ui://864gshxxf7m85g" fill="scaleFree">
+      <relation target="n2_qifi" sidePair="bottomext-bottom"/>
+    </loader>
+    <text id="n2_qifi" name="title" xy="20,40" size="420,56" restrictSize="0,423,0,0" fontSize="26" color="#333333" align="center" vAlign="middle" leading="0" autoSize="height" bold="true" text="玩不玩还玩不玩还玩不玩还玩不玩还玩不玩还玩不玩还玩不玩">
+      <relation target="n0_qifi" sidePair="center-center,top-top"/>
+    </text>
+    <component id="n6_f7m8" name="acceptBtn" src="jed213" fileName="component/functionBtn.xml" xy="290,139" size="150,50">
+      <relation target="" sidePair="bottom-bottom"/>
+      <Button title="#TEXT_70005" icon="ui://864gshxxj6006u"/>
+    </component>
+    <component id="n7_f7m8" name="cancelBtn" src="jed213" fileName="component/functionBtn.xml" xy="20,139" size="150,50">
+      <relation target="" sidePair="bottom-bottom"/>
+      <Button title="#TEXT_60020" icon="ui://864gshxxj6006v"/>
+    </component>
+  </displayList>
+  <relation target="n2_qifi" sidePair="bottomext-bottom"/>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Scale" tween="true" startValue="0.5,0.5" endValue="1,1" duration="6" ease="Quart.Out"/>
+    <item time="0" type="Sound" value="ui://864gshxxyyke6r,100"/>
+  </transition>
+</component>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="739g5yti" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="jbrh0" name="society.xml" path="/component/" exported="true"/>
+    <component id="jbrh1" name="worldChat.xml" path="/component/" exported="true"/>
+    <component id="jbrh2" name="privateChat.xml" path="/component/" exported="true"/>
+    <component id="jbrh3" name="messageItem.xml" path="/component/" exported="true"/>
+    <component id="jbrh4" name="messageItemSelf.xml" path="/component/" exported="true"/>
+    <component id="jbrh5" name="privateChatItem.xml" path="/component/" exported="true"/>
+    <component id="jbrh6" name="privateChatWnd.xml" path="/component/" exported="true"/>
+    <component id="jbrh7" name="friend.xml" path="/component/" exported="true"/>
+    <component id="jbrh8" name="friendItem.xml" path="/component/" exported="true"/>
+    <component id="jbrh9" name="lastOpponent.xml" path="/component/" exported="true"/>
+    <component id="jbrha" name="friendApply.xml" path="/component/" exported="true"/>
+    <component id="jbrhb" name="friendApplyItem.xml" path="/component/" exported="true"/>
+    <component id="jbrhc" name="friendInfo.xml" path="/component/" exported="true"/>
+    <component id="jbrhd" name="friendOption.xml" path="/component/" exported="true"/>
+    <component id="jbrhe" name="friendSearch.xml" path="/component/" exported="true"/>
+    <component id="7ocif" name="friendMatching.xml" path="/component/" exported="true"/>
+    <image id="vfpog" name="headicon1.png" path="/" exported="true"/>
+    <image id="vfpoh" name="headBg.png" path="/" exported="true"/>
+    <image id="vfpoi" name="headFront.png" path="/" exported="true"/>
+    <image id="yykej" name="privateChatNumHint.png" path="/" exported="true"/>
+    <image id="yykek" name="chatBg.png" path="/" exported="true" scale="9grid" scale9grid="10,10,415,69"/>
+    <image id="yykel" name="societyListBg.png" path="/" exported="true" scale="9grid" scale9grid="114,144,228,288"/>
+    <component id="yykem" name="checkButton.xml" path="/component/" exported="true"/>
+    <image id="yyken" name="checkButton1.png" path="/" exported="true"/>
+    <image id="yykeo" name="checkButton2.png" path="/" exported="true"/>
+    <image id="yykep" name="lastOpponentIcon.png" path="/" exported="true"/>
+    <image id="yykeq" name="friendBg1.png" path="/" exported="true"/>
+    <image id="yyker" name="friendBg2.png" path="/" exported="true"/>
+    <image id="yykes" name="friendWnd1.png" path="/" exported="true"/>
+    <image id="yyket" name="friendWnd2.png" path="/" exported="true"/>
+    <image id="yykeu" name="fightFlag.png" path="/" exported="true"/>
+    <image id="yykev" name="offlineFlag.png" path="/" exported="true"/>
+    <image id="yykew" name="applyBtn.png" path="/" exported="true"/>
+    <image id="yykex" name="searchBtn.png" path="/" exported="true"/>
+    <component id="yykey" name="searchBtn.xml" path="/component/" exported="true"/>
+    <component id="yykez" name="applyBtn.xml" path="/component/" exported="true"/>
+    <image id="yyke10" name="chatInput.png" path="/" exported="true"/>
+    <image id="yyke11" name="chatPop.png" path="/" exported="true" scale="9grid" scale9grid="15,15,314,56"/>
+    <image id="yyke12" name="chatWnd.png" path="/" exported="true"/>
+    <image id="yyke16" name="friendInfoWnd.png" path="/" exported="true"/>
+    <image id="yyke17" name="friendInfoWnd2.png" path="/" exported="true"/>
+    <image id="yyke18" name="friendOpptionBg.png" path="/" exported="true"/>
+    <component id="yyke19" name="OpptionBtn.xml" path="/component/" exported="true"/>
+    <image id="yyke1a" name="chatPop1.png" path="/" exported="true" scale="9grid" scale9grid="15,15,314,56"/>
+    <image id="yyke1b" name="chatWnd1.png" path="/" exported="true"/>
+    <component id="i3zc1j" name="selfInfo.xml" path="/component/" exported="true"/>
+    <image id="mal81k" name="friendBg0.png" path="/" exported="true"/>
+    <image id="mal81l" name="wechatFlag.png" path="/" exported="true"/>
+    <image id="h1kw1m" name="shareFight1.png" path="/"/>
+    <image id="h33x1n" name="cancelFightBtn.png" path="/" exported="true"/>
+    <component id="h33x1o" name="cancelMatchBtn.xml" path="/component/" exported="true"/>
+    <image id="h33x1p" name="line.png" path="/" exported="true"/>
+    <image id="mxhc1q" name="shareGame.png" path="/"/>
+    <image id="mxhc1r" name="shareGift1.png" path="/"/>
+    <image id="mxhc1s" name="shareLose1.png" path="/"/>
+    <image id="mxhc1t" name="shareInvite1.png" path="/"/>
+    <image id="mxhc1u" name="shareTreasure1.png" path="/"/>
+    <image id="mxhc1v" name="shareCard1.png" path="/"/>
+    <image id="mxhc1w" name="shareVideo1.png" path="/"/>
+    <image id="mxhc1x" name="shareDailyTreasure1.png" path="/"/>
+    <image id="mxhc1y" name="shareGroupRank1.png" path="/"/>
+    <image id="mxhc1z" name="shareGroupRank3.png" path="/"/>
+    <image id="mxhc20" name="shareGroupRank2.png" path="/"/>
+    <image id="wq8j21" name="shareCard2.png" path="/"/>
+    <image id="wq8j22" name="shareFight2.png" path="/"/>
+    <image id="dez523" name="shareLose2.png" path="/"/>
+    <image id="dez524" name="shareInvite2.png" path="/"/>
+    <image id="dez525" name="shareInvite3.png" path="/"/>
+    <image id="dez526" name="shareVideo2.png" path="/"/>
+    <image id="dez527" name="shareFight3.png" path="/"/>
+    <component id="ryqp29" name="headChange.xml" path="/component/" exported="true"/>
+    <component id="ryqp2a" name="headItemCom.xml" path="/component/" exported="true"/>
+    <image id="ri662b" name="headChangeBg.png" path="/" exported="true"/>
+    <image id="ri662c" name="headChangeListBg.png" path="/" exported="true"/>
+    <image id="hfmh2e" name="headCheck.png" path="/" exported="true"/>
+    <image id="b60p2f" name="inviteWnd.png" path="/" exported="true"/>
+    <image id="b60p2g" name="shareGame2.png" path="/"/>
+    <image id="b60p2h" name="shareTreasure2.png" path="/"/>
+    <image id="b60p2i" name="rewardWnd.png" path="/" exported="true"/>
+    <image id="b60p2j" name="inviteHead.png" path="/" exported="true"/>
+    <component id="b60p2k" name="inviteReward.xml" path="/component/" exported="true"/>
+    <component id="b60p2l" name="inviteHeadItem.xml" path="/component/" exported="true"/>
+    <component id="b60p2m" name="inviteRewardItem.xml" path="/component/" exported="true"/>
+    <image id="pp6o2n" name="shareFreeGift1.png" path="/"/>
+    <image id="pp6o2o" name="shareCardMore1.png" path="/"/>
+    <image id="pp6o2p" name="shareTreasureUp1.png" path="/"/>
+    <component id="egmw2r" name="shareReward.xml" path="/component/" exported="true"/>
+    <image id="ridg2s" name="shareGame4.png" path="/"/>
+    <image id="ridg2t" name="shareGame3.png" path="/"/>
+    <image id="ridg2u" name="shareInvite4.png" path="/"/>
+    <image id="ridg2v" name="shareInvite5.png" path="/"/>
+    <image id="ridg2w" name="shareInvite6.png" path="/"/>
+    <image id="ridg2x" name="shareGame1.png" path="/"/>
+    <image id="ridg2y" name="shareCard4.png" path="/"/>
+    <image id="ridg2z" name="shareCard5.png" path="/"/>
+    <image id="ridg30" name="shareCard3.png" path="/"/>
+    <image id="ridg31" name="shareTreasureUp2.png" path="/"/>
+    <image id="ridg32" name="shareGroupRank6.png" path="/"/>
+    <image id="ridg33" name="shareGroupRank5.png" path="/"/>
+    <image id="ridg34" name="shareDailyTreasure4.png" path="/"/>
+    <image id="ridg35" name="shareCardMore2.png" path="/"/>
+    <image id="ridg36" name="shareGroupRank4.png" path="/"/>
+    <image id="ridg37" name="shareDailyTreasure2.png" path="/"/>
+    <image id="ridg38" name="shareDailyTreasure3.png" path="/"/>
+    <component id="10tc339" name="headFrameItemCom.xml" path="/component/" exported="true"/>
+    <image id="9hvm33a" name="headFrameBg.png" path="/" exported="true"/>
+    <image id="9hvm33b" name="headLock.png" path="/" exported="true"/>
+    <image id="l1gi33c" name="headBtn1.png" path="/" exported="true"/>
+    <image id="l1gi33d" name="headBtn2.png" path="/" exported="true"/>
+    <image id="l1gi33e" name="headFrameBtn1.png" path="/" exported="true"/>
+    <image id="l1gi33f" name="headFrameBtn2.png" path="/" exported="true"/>
+    <component id="l1gi33g" name="headChk.xml" path="/component/" exported="true"/>
+    <component id="l1gi33j" name="headFrameChk.xml" path="/component/" exported="true"/>
+    <component id="md4a33k" name="head.xml" path="/component/" exported="true"/>
+    <image id="m27633l" name="headFrameBg2.png" path="/" exported="true"/>
+    <component id="msue33m" name="privPanel.xml" path="/component/" exported="true"/>
+    <component id="msue33o" name="privItem.xml" path="/component/" exported="true"/>
+    <component id="msue33p" name="privView.xml" path="/component/" exported="true"/>
+    <component id="msue33q" name="privCom.xml" path="/component/" exported="true"/>
+    <image id="msue33r" name="privBtn.png" path="/" exported="true"/>
+    <component id="msue33s" name="privBtn.xml" path="/component/" exported="true"/>
+    <component id="hpkq33t" name="friendOptListWnd.xml" path="/component/" exported="true"/>
+    <component id="fqnc33u" name="warChat.xml" path="/component/" exported="true"/>
+    <component id="tqwy33v" name="facebookShareReward.xml" path="/component/" exported="true"/>
+    <component id="jote33w" name="flagChange.xml" path="/component/" exported="true"/>
+    <component id="pln433x" name="haedBig.xml" path="/component/" exported="true"/>
+    <component id="ixdf33y" name="authTip.xml" path="/component/" exported="true"/>
+  </resources>
+  <publish name="society" maxAtlasSize="4096"/>
+</packageDescription>

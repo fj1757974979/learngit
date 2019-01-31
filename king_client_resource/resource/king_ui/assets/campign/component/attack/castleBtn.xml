@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="219,55" pivot="0.5,0.5" anchor="true" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n5_sqcs" name="icon" xy="67,4" size="88,51" url="ui://ww6xhnp6s6x4a"/>
+    <component id="n8_x6w8" name="attackIdx" src="jed2t" pkg="864gshxx" xy="181,-3" size="32,32">
+      <relation target="n3_s6x4" sidePair="center-center"/>
+      <Label icon="ui://864gshxxs3df20"/>
+    </component>
+    <text id="n1_s6x4" name="defName" xy="-12,30" size="85,24" fontSize="20" color="#ffffff" strokeColor="#000000" strokeSize="3" text="守城名字">
+      <relation target="n5_sqcs" sidePair="right-left"/>
+    </text>
+    <text id="n3_s6x4" name="attName" xy="156,30" size="85,27" fontSize="20" color="#ffffff" strokeColor="#000000" strokeSize="3" text="攻城名字&#xA;">
+      <relation target="n5_sqcs" sidePair="left-right"/>
+    </text>
+  </displayList>
+  <Button sound="ui://864gshxxlr3f2n" downEffect="scale" downEffectValue="0.80"/>
+</component>

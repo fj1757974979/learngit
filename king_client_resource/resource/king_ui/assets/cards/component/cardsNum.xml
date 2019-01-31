@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="16,16">
+  <displayList>
+    <loader id="n4_uoof" name="img" xy="-2,-2" pivot="0.5,0.5" size="20,20" url="ui://rdb04el0uoof9" fill="scaleNoBorder"/>
+    <text id="n1_uoof" name="value" xy="-7,-7" size="30,30" font="ui://tlhdbap0e8aza" fontSize="20" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" singleLine="true" text="11">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>

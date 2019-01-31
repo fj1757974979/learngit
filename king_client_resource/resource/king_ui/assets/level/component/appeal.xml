@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,560" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n0_qof0" name="n0" xy="0,0" size="400,560" url="ui://dvmsogfrfm9321" fill="scaleFree"/>
+    <loader id="n1_qof0" name="bottom" xy="10,70" pivot="0.5,0.5" size="380,410" touchable="false" url="ui://739g5ytiyykel" fill="scaleFree"/>
+    <loader id="n2_qof0" name="title2" xy="99,5" pivot="0.5,0.5" size="200,65" scale="0.8,0.8" touchable="false" url="ui://864gshxxroydj" autoSize="true"/>
+    <loader id="n3_qof0" name="title" xy="124,11" size="150,51" touchable="false" url="ui://864gshxxd54gap" align="center" vAlign="middle" autoSize="true"/>
+    <text id="n6_vwup" name="emptyHintText" xy="15,260" size="370,40" fontSize="30" color="#666666" align="center" vAlign="middle" leading="0" autoSize="none" text="快去求助微信好友吧！"/>
+    <list id="n4_qof0" name="applyList" xy="15,75" size="370,400" overflow="scroll" scrollBarFlags="4" scrollBar="auto" scrollBarRes="ui://864gshxxjzjo62," defaultItem="ui://8pche6l7zo79w" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item title="[11:22] 成功通关！"/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n5_qof0" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="340,10"/>
+    <component id="n7_zo79" name="wechatBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="125,490" size="150,50">
+      <Button title="微信求助" titleFontSize="24" icon="ui://864gshxxj6006u"/>
+    </component>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Scale" tween="true" startValue="0.8,0.9" endValue="1,1" duration="6" ease="Quart.Out"/>
+  </transition>
+</component>

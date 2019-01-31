@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,60" pivot="0.5,0.5" opaque="false">
+  <displayList>
+    <loader id="n0_u6us" name="n0" xy="350,-20" pivot="0.5,0.5" size="150,100" touchable="false" url="ui://dvmsogfriedd57" fill="scaleFree">
+      <relation target="" sidePair="center-center"/>
+    </loader>
+    <text id="n1_u6us" name="text" xy="420,13" size="52,34" restrictSize="0,400,0,0" font="ui://tlhdbap0e8aza" fontSize="30" color="#ffffff" align="center" vAlign="middle" leading="0" text="101">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <loader id="n2_pz4o" name="icon" xy="365,0" pivot="0.5,0.5" size="60,60" url="ui://dvmsogfrk13j6p" fill="scaleFree">
+      <relation target="n1_u6us" sidePair="right-left,middle-middle"/>
+    </loader>
+  </displayList>
+  <transition name="win">
+    <item time="0" type="Alpha" target="n2_pz4o" value="0"/>
+    <item time="0" type="XY" tween="true" startValue="480,-" endValue="0,-" duration="9"/>
+    <item time="9" type="Alpha" target="n2_pz4o" value="1"/>
+    <item time="9" type="Scale" target="n2_pz4o" tween="true" startValue="2,2" endValue="1,1" duration="15" ease="Elastic.Out"/>
+  </transition>
+  <transition name="lose">
+    <item time="0" type="XY" tween="true" startValue="480,-" endValue="0,-" duration="9"/>
+    <item time="12" type="ColorFilter" target="n2_pz4o" tween="true" startValue="0.00,0.00,0.00,0.00" endValue="1.00,0.00,0.00,0.00" duration="12"/>
+    <item time="12" type="Shake" target="n2_pz4o" value="3,0.5"/>
+    <item time="24" type="ColorFilter" target="n2_pz4o" tween="true" startValue="1.00,0.00,0.00,0.00" endValue="0.00,0.00,0.00,0.00" duration="12"/>
+  </transition>
+</component>

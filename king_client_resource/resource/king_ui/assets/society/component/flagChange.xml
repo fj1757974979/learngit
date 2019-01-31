@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="500,650" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n0_qof0" name="n0" xy="0,0" size="500,650" url="ui://739g5ytiri662b" fill="scaleFree"/>
+    <component id="n5_qof0" name="confirmBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="435,10"/>
+    <loader id="n1_qof0" name="bottom" xy="15,73" pivot="0.5,0.5" size="470,563" touchable="false" url="ui://739g5ytiri662c" fill="scaleFree"/>
+    <list id="n4_qof0" name="flagList" xy="25,76" size="450,559" layout="flow_hz" overflow="scroll" scrollBarFlags="4" scrollBar="auto" margin="10,10,0,0" defaultItem="ui://739g5ytiryqp2a" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <loader id="n14_mfce" name="n14" xy="150,0" pivot="0.5,0.5" size="200,65" touchable="false" url="ui://864gshxxroydj" autoSize="true">
+      <relation target="n15_mfce" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n15_mfce" name="n15" xy="174,6" pivot="0.5,0.5" size="150,51" touchable="false" url="ui://864gshxxqlj9dv" fill="scaleFree">
+      <relation target="n14_mfce" sidePair="center-center,middle-middle"/>
+    </loader>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Scale" tween="true" startValue="0.8,0.9" endValue="1,1" duration="6" ease="Quart.Out"/>
+  </transition>
+  <transition name="t1">
+    <item time="0" type="Alpha" target="n4_qof0" tween="true" startValue="0" endValue="1" duration="6" ease="Back.In"/>
+  </transition>
+  <transition name="t2"/>
+</component>

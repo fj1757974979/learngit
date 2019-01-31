@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="426,178" designImageOffsetX="-29" designImageOffsetY="-290">
+  <controller name="result" pages="0,win,1,lose" selected="1"/>
+  <displayList>
+    <image id="n0_qifi" name="n0" src="x88n7" fileName="loseBonusBg.png" xy="0,0">
+      <gearDisplay controller="result" pages="1"/>
+    </image>
+    <image id="n1_qifi" name="n1" src="x88n8" fileName="winBonusBg.png" xy="0,0">
+      <gearDisplay controller="result" pages="0"/>
+    </image>
+    <text id="n2_qifi" name="winBonusName" xy="98,10" size="227,64" group="n14_qifi" font="楷体-简 粗体" fontSize="50" color="#ff3333" align="center" vAlign="middle" autoSize="none" bold="true" italic="true" strokeColor="#000000" strokeSize="4" text="克敌制胜"/>
+    <text id="n3_qifi" name="n3" xy="44,93" size="126,28" group="n14_qifi" font="楷体" fontSize="24" color="#ffffff" align="center" vAlign="middle" letterSpacing="-1" bold="true" strokeColor="#000000" strokeSize="3" text="#TEXT_70091"/>
+    <image id="n4_qifi" name="winRes1Img" src="nf1s9a" fileName="goldIcon.png" pkg="864gshxx" xy="120,95" size="25,25" group="n6_qifi" visible="false"/>
+    <text id="n5_qifi" name="winRes1AmountTxt" xy="150,95" size="21,24" group="n6_qifi" visible="false" font="楷体" fontSize="20" color="#00ff00" vAlign="middle" letterSpacing="-2" bold="true" strokeColor="#000000" text="+2">
+      <relation target="n4_qifi" sidePair="left-right"/>
+    </text>
+    <group id="n6_qifi" name="n6" xy="119,94" size="52,26" group="n14_qifi"/>
+    <image id="n7_qifi" name="winRes2Img" src="nf1s9a" fileName="goldIcon.png" pkg="864gshxx" xy="200,95" size="25,25" group="n9_qifi" visible="false"/>
+    <text id="n8_qifi" name="winRes2AmountTxt" xy="230,95" size="21,24" group="n9_qifi" visible="false" font="楷体" fontSize="20" color="#00ff00" vAlign="middle" letterSpacing="-2" bold="true" strokeColor="#000000" text="+2">
+      <relation target="n7_qifi" sidePair="left-right"/>
+    </text>
+    <group id="n9_qifi" name="n9" xy="190,77" size="88,60" group="n14_qifi"/>
+    <image id="n10_qifi" name="winRes3Img" src="nf1s9a" fileName="goldIcon.png" pkg="864gshxx" xy="280,95" size="25,25" group="n12_qifi" visible="false"/>
+    <text id="n11_qifi" name="winRes3AmountTxt" xy="310,95" size="21,24" group="n12_qifi" visible="false" font="楷体" fontSize="20" color="#00ff00" vAlign="middle" letterSpacing="-2" bold="true" strokeColor="#000000" text="+2">
+      <relation target="n10_qifi" sidePair="left-right"/>
+    </text>
+    <group id="n12_qifi" name="n12" xy="280,95" size="51,25" group="n14_qifi"/>
+    <group id="n14_qifi" name="n14" xy="44,10" size="287,127" advanced="true">
+      <gearDisplay controller="result" pages="0"/>
+    </group>
+    <text id="n15_qifi" name="loseBonusName" xy="98,10" size="227,64" group="n26_qifi" font="楷体-简 粗体" fontSize="50" color="#00cc00" align="center" vAlign="middle" autoSize="none" bold="true" italic="true" strokeColor="#000000" strokeSize="4" text="功亏一篑"/>
+    <text id="n16_qifi" name="n16" xy="44,93" size="126,28" group="n26_qifi" font="楷体" fontSize="24" color="#ffffff" align="center" vAlign="middle" letterSpacing="-1" bold="true" strokeColor="#000000" strokeSize="3" text="#TEXT_70092"/>
+    <image id="n17_qifi" name="loseRes1Img" src="nf1s9a" fileName="goldIcon.png" pkg="864gshxx" xy="120,95" size="25,25" group="n19_qifi" visible="false"/>
+    <text id="n18_qifi" name="loseRes1AmountTxt" xy="150,95" size="21,24" group="n19_qifi" visible="false" font="楷体" fontSize="20" color="#ff0000" vAlign="middle" letterSpacing="-2" bold="true" strokeColor="#000000" text="-2">
+      <relation target="n17_qifi" sidePair="left-right"/>
+    </text>
+    <group id="n19_qifi" name="n19" xy="102,77" size="88,60" group="n26_qifi"/>
+    <image id="n20_qifi" name="loseRes2Img" src="nf1s9a" fileName="goldIcon.png" pkg="864gshxx" xy="200,95" size="25,25" group="n22_qifi" visible="false"/>
+    <text id="n21_qifi" name="loseRes2AmountTxt" xy="230,95" size="21,24" group="n22_qifi" visible="false" font="楷体" fontSize="20" color="#ff0000" vAlign="middle" letterSpacing="-2" bold="true" strokeColor="#000000" text="-2">
+      <relation target="n20_qifi" sidePair="left-right"/>
+    </text>
+    <group id="n22_qifi" name="n22" xy="190,77" size="88,60" group="n26_qifi"/>
+    <image id="n23_qifi" name="loseRes3Img" src="nf1s9a" fileName="goldIcon.png" pkg="864gshxx" xy="280,95" size="25,25" group="n25_qifi" visible="false"/>
+    <text id="n24_qifi" name="loseRes3AmountTxt" xy="310,95" size="21,24" group="n25_qifi" visible="false" font="楷体" fontSize="20" color="#ff0000" vAlign="middle" letterSpacing="-2" bold="true" strokeColor="#000000" text="-2">
+      <relation target="n23_qifi" sidePair="left-right"/>
+    </text>
+    <group id="n25_qifi" name="n25" xy="280,95" size="51,25" group="n26_qifi"/>
+    <group id="n26_qifi" name="n26" xy="44,10" size="287,127" advanced="true">
+      <gearDisplay controller="result" pages="1"/>
+    </group>
+  </displayList>
+</component>

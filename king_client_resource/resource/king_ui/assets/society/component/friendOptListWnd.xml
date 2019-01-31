@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="460,600" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n0_qifi" name="n0" xy="0,0" size="460,600" url="ui://164za4d7a53ph" fill="scaleFree"/>
+    <loader id="n41_msue" name="n41" xy="5,65" size="450,525" touchable="false" url="ui://739g5ytiyykel" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <component id="n15_iczu" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="399,10"/>
+    <list id="n40_msue" name="friendList" xy="5,70" size="450,515" selectionMode="multiple" overflow="scroll" defaultItem="ui://739g5ytijbrh8">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Scale" tween="true" startValue="0.8,0.9" endValue="1,1" duration="6" ease="Quart.Out"/>
+  </transition>
+</component>

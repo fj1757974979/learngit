@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="420,240" pivot="0.5,0.5" extention="Button">
+  <displayList>
+    <loader id="n0_nf1s" name="bg1" xy="0,5" size="420,210" url="ui://994sajasjfkp29" fill="scaleFree" autoSize="true"/>
+    <loader id="n12_nf1s" name="buy" xy="130,190" pivot="0.5,0.5" size="160,40" url="ui://994sajasryqp15" align="center" vAlign="middle" fill="scaleMatchWidth"/>
+    <text id="n14_ye0u" name="price" xy="200,193" size="50,34" fontSize="30" color="#ffffff" vAlign="middle" leading="0" bold="true" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="328">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n16_fqnc" name="time" xy="360,10" size="53,28" fontSize="24" color="#ffff00" align="right" vAlign="middle" leading="0" bold="true" strokeColor="#000000" text="30天">
+      <relation target="n0_nf1s" sidePair="right-right,top-top"/>
+    </text>
+    <text id="n18_fqnc" name="day" xy="141,161" size="137,28" fontSize="24" color="#ffffff" vAlign="middle" leading="0" bold="true" strokeColor="#000000" text="#TEXT_60032">
+      <relation target="n0_nf1s" sidePair="center-center,bottom-bottom"/>
+    </text>
+    <text id="n20_fqnc" name="title" xy="130,15" size="137,28" fontSize="24" color="#ffffff" vAlign="middle" leading="0" bold="true" strokeColor="#000000" text="#TEXT_70215">
+      <relation target="n0_nf1s" sidePair="center-center,top-top"/>
+    </text>
+    <loader id="n21_ty6t" name="n21" xy="165,192" size="35,35" url="ui://864gshxxhfmh9m" align="center" vAlign="middle" fill="scaleMatchHeight">
+      <relation target="n14_ye0u" sidePair="right-left,middle-middle"/>
+    </loader>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.95"/>
+  <transition name="t0">
+    <item time="0" type="Scale" tween="true" startValue="1,1" endValue="0.95,0.95" duration="3"/>
+    <item time="3" type="Scale" tween="true" startValue="0.95,0.95" endValue="1,1" duration="3"/>
+  </transition>
+</component>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="370,80" pivot="0.5,0.5">
+  <controller name="win" pages="0,win,1,notWin" selected="0"/>
+  <displayList>
+    <loader id="n25_d54g" name="n25" xy="0,0" size="370,80" url="ui://739g5ytiyykek" fill="scaleFree"/>
+    <text id="n9_lwj0" name="nameText" xy="80,10" size="210,30" fontSize="20" vAlign="middle" leading="0" autoSize="none" singleLine="true" text="玩家名字啊啊啊啊啊啊"/>
+    <text id="n21_zo79" name="title" xy="80,40" size="150,30" fontSize="24" vAlign="middle" leading="0" autoSize="none" bold="true" singleLine="true" text="挑战X次"/>
+    <component id="n22_zo79" name="vedioBtn" src="qifi1d" fileName="component/functionBtn2.xml" pkg="864gshxx" xy="260,35" size="105,35">
+      <gearDisplay controller="win" pages="0"/>
+      <Button title="#TEXT_70012" titleFontSize="20" icon="ui://864gshxxq5ca70" sound="ui://864gshxxlr3f2n"/>
+    </component>
+    <component id="n26_j7k2" name="head" src="md4a33k" fileName="component/head.xml" pkg="739g5yti" xy="5,5" size="70,70"/>
+    <loader id="n23_zo79" name="n23" xy="280,36" size="18,28" touchable="false" url="ui://dvmsogfrah0y43">
+      <gearDisplay controller="win" pages="0"/>
+    </loader>
+    <loader id="n24_zo79" name="stateIcon" xy="40,0" pivot="0.5,0.5" size="39,36" touchable="false" url="ui://8pche6l7d54gy" autoSize="true">
+      <gearDisplay controller="win" pages="0"/>
+    </loader>
+  </displayList>
+</component>

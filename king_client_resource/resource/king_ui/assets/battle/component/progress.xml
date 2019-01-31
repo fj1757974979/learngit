@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,16" extention="ProgressBar">
+  <displayList>
+    <graph id="n1" name="n1" xy="0,0" size="442,1" lineColor="#ffa0a0a0" fillColor="#fff0f0f0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <loader id="n2" name="bar" xy="0,5" size="480,5" url="ui://ryvvr3p0k9is48" fill="scaleFree" fillMethod="hz"/>
+    <movieclip id="n5_iccz" name="head" src="snqec" fileName="fireHeadAni.jta" pkg="10li2aq3" xy="0,-10"/>
+  </displayList>
+  <ProgressBar/>
+</component>

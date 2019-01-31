@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="164za4d7" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="jsu7c" name="loginNew.xml" path="/component/" exported="true"/>
+    <image id="a53pg" name="input.png" path="/" exported="true"/>
+    <image id="a53ph" name="panelBg.png" path="/" exported="true"/>
+    <image id="a53pi" name="titleRegister.png" path="/" exported="true"/>
+    <image id="a53pj" name="registerBtn.png" path="/" exported="true"/>
+    <image id="a53pk" name="titleLogin.png" path="/" exported="true"/>
+    <component id="a53pl" name="registerBtn.xml" path="/component/" exported="true"/>
+    <component id="tq2om" name="connectCircle.xml" path="/component/" exported="true"/>
+    <image id="pgqtn" name="tourist.png" path="/" exported="true"/>
+    <image id="pgqto" name="facebook.png" path="/" exported="true"/>
+    <component id="pgqtp" name="facebookBtn.xml" path="/component/" exported="true"/>
+    <component id="pgqtq" name="loginFacebook.xml" path="/component/" exported="true"/>
+    <component id="pgqtr" name="touristBtn.xml" path="/component/" exported="true"/>
+    <image id="whdvs" name="google.png" path="/" exported="true"/>
+    <component id="bgyqu" name="googleBtn.xml" path="/component/" exported="true"/>
+    <component id="k0giv" name="noticePanel.xml" path="/component/" exported="true"/>
+    <component id="emvzw" name="noticeChk.xml" path="/component/" exported="true"/>
+    <component id="emvzx" name="noticeText.xml" path="/component/" exported="true"/>
+    <image id="dq56y" name="arrow_down.png" path="/" exported="true"/>
+    <image id="dq56z" name="arrow_up.png" path="/" exported="true"/>
+    <image id="dq5610" name="bg.png" path="/" exported="true"/>
+    <image id="dq5611" name="btn.png" path="/" exported="true"/>
+    <image id="dq5612" name="titleBind.png" path="/" exported="true"/>
+    <image id="dq5613" name="wnd.png" path="/" exported="true"/>
+    <component id="dq5614" name="switchLoginBtn.xml" path="/component/" exported="true"/>
+    <component id="dq5615" name="newAccountRegister.xml" path="/component/" exported="true"/>
+    <component id="dq5616" name="loginAccount.xml" path="/component/" exported="true"/>
+    <component id="dq5617" name="accountBox_item.xml" path="/component/" exported="true"/>
+    <component id="dq5618" name="accountBox_popup.xml" path="/component/" exported="true"/>
+    <component id="dq5619" name="accountBox.xml" path="/component/" exported="true"/>
+    <component id="hsfq1a" name="loginRegister.xml" path="/component/" exported="true"/>
+  </resources>
+  <publish name="login" excluded="t03j4">
+    <atlas name="默认" index="0"/>
+  </publish>
+</packageDescription>

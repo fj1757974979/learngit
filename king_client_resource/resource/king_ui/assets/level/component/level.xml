@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,670" designImage="ui://8pche6l7royd0" designImageLayer="1">
+  <controller name="chapterPage" pages="" selected="-1"/>
+  <displayList>
+    <loader id="n7_ul11" name="n7" xy="0,0" size="480,670" visible="false" url="ui://8pche6l7ul11f" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <list id="n1_royd" name="chapterList" xy="0,36" size="480,594" pageController="chapterPage" selectionMode="none" overflow="scroll" scrollBarFlags="142" scrollBar="auto" scrollBarRes="ui://864gshxxjzjo62," defaultItem="ui://8pche6l7euagb" align="center">
+      <relation target="" sidePair="height-height,center-center"/>
+    </list>
+    <component id="n4_uomq" name="preCptBtn" src="uomqd" fileName="component/preCptBtn.xml" xy="221,-6" pivot="0.5,0.5" rotation="90">
+      <relation target="" sidePair="top-top,center-center"/>
+    </component>
+    <component id="n6_uomq" name="nextCptBtn" src="uomqe" fileName="component/nextCptBtn.xml" xy="221,626" pivot="0.5,0.5" rotation="90">
+      <relation target="" sidePair="bottom-bottom,center-center"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="406,26" extention="ProgressBar">
+  <displayList>
+    <loader id="n0_jed2" name="bottom" xy="0,0" size="406,26" url="ui://864gshxxjed2z" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n3_jed2" name="bar" xy="0,0" size="406,26" url="ui://864gshxxjed2y" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n4_pdhx" name="text" xy="197,-1" size="10,28" fontSize="24" color="#ffffff" align="center" vAlign="middle" leading="0" strokeColor="#000000" strokeSize="2" text="">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <ProgressBar/>
+</component>

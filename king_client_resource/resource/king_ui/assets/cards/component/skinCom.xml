@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="330,528" pivot="0.5,0.7">
+  <controller name="c1" pages="0,using,1,owned,2,lock" selected="0"/>
+  <displayList>
+    <text id="n5_lyri" name="tip" xy="114,475" size="101,28" fontSize="24" color="#cccccc" align="center" vAlign="middle" leading="0" bold="true" strokeColor="#000000" text="成就奖励">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <loader id="n7_h24d" name="current" xy="-23,-24" size="376,488" url="ui://rdb04el0h24d3ja" fill="scaleFree">
+      <gearDisplay controller="c1" pages="0"/>
+    </loader>
+    <component id="n6_qvsx" name="n6" src="10tc3j2" fileName="component/skinBig.xml" xy="0,0" size="330,440"/>
+    <loader id="n8_h24d" name="usingFlag" xy="0,0" size="80,60" url="ui://rdb04el0h24d3jc" autoSize="true"/>
+  </displayList>
+</component>

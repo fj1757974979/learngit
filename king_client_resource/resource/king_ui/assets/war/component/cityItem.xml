@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="60,60" pivot="0.5,0.5" anchor="true" extention="Button">
+  <controller name="choose" pages="0,normal,1,choose" selected="0"/>
+  <controller name="fight" pages="0,guard,1,fight,2,destroy" selected="0"/>
+  <displayList>
+    <loader id="n1" name="icon" xy="0,0" size="60,60" url="ui://2ipmzghtc0wx1k" fill="scaleFree">
+      <gearDisplay controller="fight" pages="0,1"/>
+    </loader>
+    <loader id="n12_v2ye" name="icon2" xy="0,0" size="60,60" url="ui://2ipmzghtl2zza2" fill="scaleFree">
+      <gearDisplay controller="fight" pages="2"/>
+    </loader>
+    <loader id="n11_v2ye" name="n11" xy="0,0" pivot="0.5,0.5" size="60,60" visible="false" touchable="false" url="ui://2ipmzghtbo40ay" fill="scaleFree"/>
+    <text id="n4_jed2" name="title" xy="7,36" pivot="0.5,0.5" size="45,24" fontSize="20" color="#ffffff" align="center" vAlign="middle" leading="0" strokeColor="#000000" text="长沙">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </text>
+    <loader id="n6_hh1f" name="flag" xy="10,-30" size="40,40" url="ui://2ipmzghtmyl16v" fill="scaleMatchWidth"/>
+    <text id="n7_hh1f" name="campName" xy="17,-27" size="25,24" fontSize="20" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="清">
+      <relation target="n6_hh1f" sidePair="center-center,middle-middle"/>
+    </text>
+    <loader id="n8_bm3t" name="arrow" xy="9,-80" pivot="0.5,0.5" size="42,55" url="ui://2ipmzghtl2zza6" autoSize="true">
+      <gearDisplay controller="choose" pages="1"/>
+    </loader>
+    <component id="n10_drdd" name="head" src="md4a33k" fileName="component/head.xml" pkg="739g5yti" xy="54,-32" size="40,40" visible="false"/>
+    <component id="n9_d8ql" name="expProgressBar" src="d8ql5t" fileName="component/warProgress1.xml" xy="0,5" size="60,10">
+      <gearDisplay controller="fight" pages="1"/>
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <text id="n13_f81c" name="amount" xy="5,-48" size="50,19" fontSize="15" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="x1000">
+      <relation target="n6_hh1f" sidePair="left-right,middle-middle"/>
+    </text>
+  </displayList>
+  <Button sound="ui://864gshxxlr3f2n" downEffect="scale" downEffectValue="0.80"/>
+  <transition name="choose" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="XY" target="n8_bm3t" tween="true" startValue="-,-100" endValue="-,-80" duration="12" ease="Quad.In"/>
+    <item time="12" type="XY" target="n8_bm3t" tween="true" startValue="-,-80" endValue="-,-100" duration="12"/>
+  </transition>
+  <transition name="hit">
+    <item time="0" type="Shake" target="n9_d8ql" value="1,0.2"/>
+  </transition>
+  <transition name="change">
+    <item time="0" type="ColorFilter" target="n6_hh1f" tween="true" startValue="0.00,0.00,0.00,0.00" endValue="1.00,0.00,0.00,0.00" duration="12"/>
+    <item time="0" type="ColorFilter" target="n7_hh1f" tween="true" startValue="0.00,0.00,0.00,0.00" endValue="1.00,0.00,0.00,0.00" duration="12"/>
+    <item time="12" type="ColorFilter" target="n6_hh1f" tween="true" startValue="1.00,0.00,0.00,0.00" endValue="0.00,0.00,0.00,0.00" duration="12" ease="Quad.In"/>
+    <item time="12" type="ColorFilter" target="n7_hh1f" tween="true" startValue="1.00,0.00,0.00,0.00" endValue="0.00,0.00,0.00,0.00" duration="12" ease="Quad.In"/>
+  </transition>
+  <transition name="attacking" autoPlayRepeat="-1">
+    <item time="0" type="Alpha" target="n11_v2ye" tween="true" startValue="1" endValue="0" duration="12" ease="Linear" repeat="-1" yoyo="true"/>
+    <item time="0" type="Visible" target="n11_v2ye" value="true"/>
+  </transition>
+</component>

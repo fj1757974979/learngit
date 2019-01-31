@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="329,104">
+  <displayList>
+    <loader id="n0_t0lw" name="bg" xy="-12,-11" size="352,126" url="ui://rdb04el0t0lwhh" fill="scaleFree">
+      <relation target="n1_t0lw" sidePair="height-height"/>
+    </loader>
+    <richtext id="n1_t0lw" name="txt" xy="10,17" size="307,70" font="微软雅黑" fontSize="20" color="#ffffff" vAlign="middle" autoSize="height" text="哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇"/>
+  </displayList>
+  <relation target="n0_t0lw" sidePair="width-width,height-height"/>
+</component>

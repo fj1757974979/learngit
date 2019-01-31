@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="380,240">
+  <displayList>
+    <list id="n0_j66l" name="emoji" xy="0,0" size="380,240" layout="flow_hz" overflow="scroll" scrollBarFlags="130" lineGap="20" colGap="25" lineItemCount="3" defaultItem="ui://864gshxxf5jo5p" align="center" vAlign="middle">
+      <item icon="ui://864gshxxjzjo63" name="1"/>
+      <item icon="ui://864gshxxjzjo64" name="2"/>
+      <item icon="ui://864gshxxjzjo65" name="3"/>
+      <item icon="ui://864gshxxjzjo66" name="4"/>
+      <item icon="ui://864gshxxjzjo67" name="5"/>
+      <item icon="ui://864gshxxjzjo6c" name="6"/>
+    </list>
+  </displayList>
+</component>

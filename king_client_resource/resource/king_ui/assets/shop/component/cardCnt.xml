@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,140" opaque="false">
+  <displayList>
+    <component id="n2_n9kc" name="card" src="uoofj" fileName="component/smallCard.xml" pkg="rdb04el0" xy="6,5"/>
+    <text id="n3_ye0u" name="title" xy="-50,116" size="200,24" restrictSize="0,423,0,0" font="冬青黑体简体中文 W6" fontSize="16" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" bold="true" strokeColor="#000000" text="x99">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Scale" target="n2_n9kc" tween="true" startValue="0,0" endValue="1,1" duration="6" ease="Quart.Out"/>
+  </transition>
+</component>

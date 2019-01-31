@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="60,60" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n2_veqf" name="n1" xy="-10,-10" size="80,80" url="ui://dvmsogfrgsm46w" fill="scaleFree"/>
+    <text id="n3_rjva" name="time" xy="14,-10" size="32,22" fontSize="18" color="#ffffff" leading="0" strokeColor="#000000" text="9天">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+  <Button sound="ui://864gshxxyyke6n" downEffect="scale" downEffectValue="0.80"/>
+</component>

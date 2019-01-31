@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="200,60" extention="Button">
+  <displayList>
+    <loader id="n3_g0v3" name="bottom" xy="0,0" size="200,60" url="ui://dvmsogfrxu9e4s" align="center" vAlign="middle" fill="scaleFree"/>
+    <component id="n1_g0v3" name="boxProgress" src="jed210" fileName="component/pvpScoreProgressBar.xml" pkg="864gshxx" xy="10,35" size="120,18" touchable="false">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <loader id="n4_g0v3" name="txt1" xy="36,10" size="67,17" touchable="false" url="ui://dvmsogfrxu9e4w" align="center" vAlign="middle" autoSize="true"/>
+    <loader id="n12_d54g" name="treasureIcon" xy="129,3" pivot="0.5,0.5" size="66,55" touchable="false" url="ui://dvmsogfrxu9e4v" align="center" vAlign="middle"/>
+    <component id="n11_pdhx" name="hint" src="j7l76e" fileName="component/applyFriendNumHint.xml" pkg="864gshxx" xy="185,-5"/>
+    <text id="n13_u843" name="nextTxt" xy="10,30" size="120,24" fontSize="20" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text=""/>
+  </displayList>
+  <Button sound="ui://864gshxxyyke6n" downEffect="scale" downEffectValue="0.95"/>
+  <transition name="t0" autoPlayRepeat="-1"/>
+</component>

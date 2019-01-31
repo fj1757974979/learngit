@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="60,60" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n3_92kj" name="maskWnd" xy="-10,-10" size="80,80" alpha="0" url="ui://g6ma6zzk92kjy" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n2_par0" name="bg" xy="-10,-10" size="80,80" url="ui://g6ma6zzkpar0t" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n1" name="icon" xy="-10,-10" pivot="0.5,0.5" size="80,80" url="ui://g6ma6zzkpar0q" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <relation target="" sidePair="width-width,height-height"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+  </displayList>
+  <Button sound="ui://864gshxxlxfs6n" downEffect="scale" downEffectValue="0.80"/>
+  <transition name="equip">
+    <item time="0" type="ColorFilter" value="0.00,0.00,0.00,0.00"/>
+    <item time="0" type="Scale" target="n1" value="1,1"/>
+    <item time="1" type="ColorFilter" tween="true" startValue="1.00,0.00,0.00,0.00" endValue="0.00,0.00,0.00,0.00" duration="23"/>
+    <item time="1" type="Scale" target="n1" value="2,2"/>
+    <item time="12" type="Scale" target="n1" tween="true" startValue="2,2" endValue="1,1" duration="12" ease="Back.InOut"/>
+    <item time="18" type="Sound" value="ui://864gshxxtlw5cx"/>
+  </transition>
+</component>

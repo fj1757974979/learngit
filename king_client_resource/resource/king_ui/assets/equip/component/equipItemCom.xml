@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="90,90" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n6_ryqp" name="n6" xy="4,4" size="82,82" url="ui://739g5ytivfpoh" fill="scaleFree"/>
+    <loader id="n7_ryqp" name="equipIcon" xy="5,5" size="80,80" url="ui://864gshxxroyd4" fill="scaleMatchWidth"/>
+    <loader id="n13_j66l" name="frame" xy="-17,-17" pivot="0.5,0.5" size="124,124" touchable="false" url="ui://739g5ytivfpoi" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="width-width%,height-height%"/>
+    </loader>
+    <loader id="n9_ryqp" name="check1" xy="2,2" size="85,85" url="ui://739g5ytihfmh2e" fill="scaleFree">
+      <gearDisplay controller="button" pages="1,3"/>
+    </loader>
+    <loader id="n15_par0" name="cardIconBg" xy="50,50" size="40,40" url="ui://739g5ytivfpoh" fill="scaleMatchWidth"/>
+    <loader id="n14_j66l" name="cardIcon" xy="51,51" size="38,38" url="ui://739g5ytivfpog" fill="scaleMatchWidth"/>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

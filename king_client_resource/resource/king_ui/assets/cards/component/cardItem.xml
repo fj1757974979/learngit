@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="87,140">
+  <controller name="select" pages="0,normal,1,selected" selected="0"/>
+  <controller name="state" pages="0,normal,1,forbid,2,campaignBan" selected="0"/>
+  <displayList>
+    <component id="n0_uoof" name="card" src="uoofj" fileName="component/smallCard.xml" xy="0,4"/>
+    <component id="n3_uoof" name="expProgressBar" src="uoofq" fileName="component/valueProgressBar.xml" xy="2,123"/>
+    <component id="n5_10uxg" name="selectedMask" src="10uxgv" fileName="component/selectedCard.xml" xy="0,4">
+      <gearDisplay controller="select" pages="1"/>
+    </component>
+    <loader id="n13_qehe" name="levelUpHint2" xy="1,126" size="85,11" url="ui://rdb04el0uoofp" align="center" vAlign="middle" fill="scaleMatchWidth"/>
+    <text id="n9_b950" name="progressText" xy="0,120" size="87,20" fontSize="16" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" text="222/333">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </text>
+    <text id="n10_q9d9" name="campignUnlockHintText" xy="6,78" size="75,37" fontSize="14" color="#ffffff" align="center" vAlign="middle" letterSpacing="1" autoSize="none" strokeColor="#000000" text="演义第X章通关解锁"/>
+    <loader id="n11_v49l" name="newHint" xy="0,0" size="22,24" url="ui://864gshxxs8ot4k" align="center" vAlign="middle" autoSize="true"/>
+    <loader id="n12_v49l" name="levelUpHint" xy="72,117" size="22,26" url="ui://864gshxxs8ot4l" autoSize="true"/>
+    <component id="n14_fqnc" name="warMask" src="fqnc3jw" fileName="component/selectedCardWar.xml" xy="0,4">
+      <gearDisplay controller="state" pages="2"/>
+    </component>
+  </displayList>
+  <transition name="t0" options="6" autoPlayRepeat="-1"/>
+</component>

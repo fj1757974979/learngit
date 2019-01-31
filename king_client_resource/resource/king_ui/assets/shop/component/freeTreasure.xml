@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="150,200" pivot="0.5,0.5" extention="Button">
+  <displayList>
+    <loader id="n20_rbz0" name="bg1" xy="8,7" size="133,187" touchable="false" url="ui://994sajasal2v1b" fill="scaleFree" autoSize="true"/>
+    <loader id="n18_ryqp" name="n18" xy="15,170" size="120,30" touchable="false" url="ui://994sajasryqpu" align="center" vAlign="middle" fill="scaleMatchWidth"/>
+    <text id="n9_nf1s" name="name" xy="15,20" size="120,24" font="楷体" fontSize="18" align="center" vAlign="middle" leading="0" autoSize="shrink" text="皇家军备"/>
+    <loader id="n17_dez5" name="canOpenBg" xy="7,30" pivot="0.5,0.5" size="138,140" visible="false" touchable="false" url="ui://zfg0revpdez542" align="center" vAlign="middle" fill="scaleMatchHeight"/>
+    <loader id="n16_pyyb" name="icon" xy="5,50" pivot="0.5,0.5" size="140,120" touchable="false" url="ui://zfg0revpdez53w" align="center" vAlign="middle" fill="scaleMatchHeight"/>
+    <text id="n2_nf1s" name="price" xy="15,173" size="120,24" fontSize="20" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="shrink" bold="true" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="免费">
+      <relation target="n18_ryqp" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n22_i2ly" name="cnt" xy="31,-35" size="77,28" visible="false" font="楷体" fontSize="24" color="#ffff00" align="center" vAlign="middle" leading="0" strokeColor="#333333" strokeSize="2" text="别删我">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.95"/>
+  <transition name="t0">
+    <item time="0" type="Scale" tween="true" startValue="1,1" endValue="0.9,0.9" duration="6"/>
+    <item time="0" type="Scale" target="n16_pyyb" tween="true" startValue="1,1" endValue="1.2,0.8" duration="6"/>
+    <item time="0" type="Scale" target="n17_dez5" tween="true" startValue="1,1" endValue="1.2,0.8" duration="6"/>
+    <item time="0" type="XY" target="n16_pyyb" tween="true" startValue="5,50" endValue="5,50" duration="6"/>
+    <item time="0" type="XY" target="n17_dez5" tween="true" startValue="6,44" endValue="6,54" duration="6"/>
+    <item time="6" type="Scale" tween="true" startValue="0.9,0.9" endValue="1,1" duration="6"/>
+    <item time="6" type="Scale" target="n16_pyyb" tween="true" startValue="1.2,0.8" endValue="0.8,1.2" duration="3" ease="Quint.In"/>
+    <item time="6" type="Scale" target="n17_dez5" tween="true" startValue="1.2,0.8" endValue="0.8,1.2" duration="3" ease="Quint.In"/>
+    <item time="6" type="XY" target="n16_pyyb" tween="true" startValue="5,50" endValue="5,25" duration="3" ease="Quint.In"/>
+    <item time="6" type="XY" target="n17_dez5" tween="true" startValue="6,54" endValue="6,29" duration="3" ease="Quint.In"/>
+    <item time="9" type="Scale" target="n16_pyyb" tween="true" startValue="0.8,1.2" endValue="1,1" duration="6" ease="Quint.In"/>
+    <item time="9" type="Scale" target="n17_dez5" tween="true" startValue="0.8,1.2" endValue="1,1" duration="6" ease="Quint.In"/>
+    <item time="9" type="XY" target="n16_pyyb" tween="true" startValue="5,25" endValue="5,50" duration="6"/>
+    <item time="9" type="XY" target="n17_dez5" tween="true" startValue="6,29" endValue="6,45" duration="6"/>
+  </transition>
+</component>

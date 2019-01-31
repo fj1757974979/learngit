@@ -1,0 +1,16 @@
+
+{
+            "emoji1": {"__id__": "emoji1", "team": 1, "name": "#TEXT_10701", "teamName": "#TEXT_96", "emojiPackIcon": "society_headIcon1_png" },
+			"emoji2": {"__id__": "emoji2", "team": 1, "name": "#TEXT_10702", "teamName": "#TEXT_96", "emojiPackIcon": "society_headIcon1_png" },
+			"emoji3": {"__id__": "emoji3", "team": 1, "name": "#TEXT_10703", "teamName": "#TEXT_96", "emojiPackIcon": "society_headIcon1_png" },
+			"emoji4": {"__id__": "emoji4", "team": 1, "name": "#TEXT_10704", "teamName": "#TEXT_96", "emojiPackIcon": "society_headIcon1_png" },
+			"emoji5": {"__id__": "emoji5", "team": 1, "name": "#TEXT_10705", "teamName": "#TEXT_96", "emojiPackIcon": "society_headIcon1_png" },
+			"emoji6": {"__id__": "emoji6", "team": 1, "name": "#TEXT_10706", "teamName": "#TEXT_96", "emojiPackIcon": "society_headIcon1_png" },
+			"emoji7": {"__id__": "emoji7", "team": 2, "name": "#TEXT_10707", "teamName": "#TEXT_281", "emojiPackIcon": "common_emojiTeam2_png" },
+			"emoji8": {"__id__": "emoji8", "team": 2, "name": "#TEXT_10708", "teamName": "#TEXT_281", "emojiPackIcon": "common_emojiTeam2_png" },
+			"emoji9": {"__id__": "emoji9", "team": 2, "name": "#TEXT_10709", "teamName": "#TEXT_281", "emojiPackIcon": "common_emojiTeam2_png" },
+			"emoji10": {"__id__": "emoji10", "team": 2, "name": "#TEXT_10710", "teamName": "#TEXT_281", "emojiPackIcon": "common_emojiTeam2_png" },
+			"emoji11": {"__id__": "emoji11", "team": 2, "name": "#TEXT_10711", "teamName": "#TEXT_281", "emojiPackIcon": "common_emojiTeam2_png" },
+			"emoji12": {"__id__": "emoji12", "team": 2, "name": "#TEXT_10712", "teamName": "#TEXT_281", "emojiPackIcon": "common_emojiTeam2_png" }
+   }
+    

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="50,50">
+  <displayList>
+    <image id="n0_xcyl" name="advert" src="rbz09g" fileName="advertIcon.png" pkg="864gshxx" xy="0,0" size="50,50"/>
+    <loader id="n1_xcyl" name="advertFront" xy="0,0" size="50,50" url="ui://zfg0revpul112m" fill="scaleFree"/>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Alpha" target="n1_xcyl" tween="true" startValue="1" endValue="0.5" duration="12"/>
+    <item time="12" type="Alpha" target="n1_xcyl" tween="true" startValue="0.5" endValue="1" duration="12"/>
+    <item time="48" type="Alpha" target="n1_xcyl" value="1"/>
+  </transition>
+</component>

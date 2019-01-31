@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,60" pivot="0.5,0.5" opaque="false">
+  <displayList>
+    <loader id="n11_pdhx" name="bg1" xy="0,0" size="480,60" group="n16_ej80" url="ui://864gshxxdz7b54" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="width-width,center-center"/>
+    </loader>
+    <text id="n15_eo7t" name="n1" xy="40,0" size="400,30" group="n16_ej80" fontSize="20" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" bold="true" strokeColor="#000000" text="选择目标城市">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n27_ej80" name="txt2" xy="40,30" size="400,30" group="n16_ej80" fontSize="20" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" bold="true" strokeColor="#333333" text="可以将本城物资运输到目标城市">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <group id="n16_ej80" name="n16" xy="0,0" size="480,60" advanced="true"/>
+  </displayList>
+  <transition name="entry" autoPlay="true">
+    <item time="0" type="Alpha" tween="true" startValue="0" endValue="1" duration="24" ease="Quart.Out"/>
+  </transition>
+</component>

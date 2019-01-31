@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,100">
+  <displayList>
+    <loader id="n70_ipob" name="bg" xy="0,0" size="400,100" url="ui://2ipmzghtv2ye9r" fill="scaleFree"/>
+    <text id="n75_ipob" name="title" xy="143,20" size="113,28" fontSize="24" color="#ffffff" align="right" leading="0" bold="true" strokeColor="#000000" text="支援-长沙">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n79_ipob" name="stopBtn" src="l2zza4" fileName="component/closeBtn.xml" xy="355,5">
+      <Button title="取消" titleFontSize="20"/>
+    </component>
+    <text id="n73_ipob" name="n75" xy="141,60" size="115,24" group="n80_pgn0" fontSize="20" color="#333333" leading="0" text="#TEXT_60310"/>
+    <text id="n76_ipob" name="Budget" xy="214,60" size="45,24" group="n80_pgn0" fontSize="20" color="#333333" leading="0" text="11/3">
+      <relation target="" sidePair="left-left"/>
+    </text>
+    <group id="n80_pgn0" name="n80" xy="141,60" size="118,24" advanced="true">
+      <relation target="" sidePair="center-center"/>
+    </group>
+  </displayList>
+</component>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="80,80" extention="Button">
+  <controller name="create" pages="0,no,1,yes" selected="1"/>
+  <displayList>
+    <loader id="n4_xjab" name="campFlag" xy="0,0" size="80,80" url="ui://2ipmzghtu5xl7z" align="center" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n5_wwgm" name="campName" xy="17,10" size="45,44" restrictSize="16,0,16,0" fontSize="40" color="#ffffff" align="center" leading="0" autoSize="none" strokeColor="#000000" text="🐓">
+      <gearDisplay controller="create" pages="1"/>
+      <relation target="" sidePair="center-center%,top-top%"/>
+      <relation target="" sidePair="width-width%,height-height%"/>
+    </text>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.90"/>
+</component>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,200" pivot="0.5,0.5">
+  <displayList>
+    <graph id="n2_b59w" name="closeBg" xy="0,-300" pivot="0.5,0.5" size="480,800" type="rect" lineColor="#00000000" fillColor="#00ffffff">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <loader id="n1_b59w" name="n1" xy="0,0" size="480,200" url="ui://zfg0revpy4nl1k" fill="scaleFree"/>
+    <component id="n4_eybr" name="handCard" src="ea826n" fileName="component/rankhandCardGrid.xml" xy="14,50"/>
+    <text id="n3_b59w" name="txt" xy="352,10" size="113,28" fontSize="24" color="#ffff66" align="right" leading="0" strokeColor="#000000" text="失败：X/Y">
+      <relation target="" sidePair="right-right,top-top"/>
+    </text>
+    <text id="n5_mg9j" name="txt3" xy="7,-37" size="137,28" visible="false" fontSize="24" text="#TEXT_60263">
+      <relation target="" sidePair="left-left,top-top"/>
+    </text>
+    <text id="n6_j66l" name="txt2" xy="15,10" size="89,28" fontSize="24" leading="0" text="胜利：X">
+      <relation target="" sidePair="left-left,top-top"/>
+    </text>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Scale" tween="true" startValue="0.8,0.8" endValue="1,1" duration="6"/>
+  </transition>
+</component>

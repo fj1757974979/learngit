@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="450,75" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="online" pages="0,未在线,1,在线" selected="0"/>
+  <displayList>
+    <loader id="n4_lwj0" name="bg1" xy="0,0" pivot="0.5,0.5" size="450,75" url="ui://739g5ytiyykeq" fill="scaleFree">
+      <gearDisplay controller="online" pages="1"/>
+    </loader>
+    <loader id="n16_jbrh" name="bg2" xy="0,0" pivot="0.5,0.5" size="450,75" url="ui://739g5ytimal81k" fill="scaleFree">
+      <gearDisplay controller="online" pages="0"/>
+    </loader>
+    <loader id="n6_lwj0" name="n6" xy="388,1" size="60,72" touchable="false" url="ui://739g5ytiyykes" align="center" vAlign="middle" fill="scaleFree"/>
+    <text id="n9_lwj0" name="nameText" xy="70,20" size="240,30" fontSize="20" color="#ffffff" vAlign="middle" leading="0" autoSize="none" strokeColor="#2c2c2c" text="玩家啊啊啊啊"/>
+    <loader id="n10_lwj0" name="rankImg" xy="325,10" size="60,55" touchable="false" url="ui://864gshxxgy104q" align="center" vAlign="middle" fill="scaleMatchHeight"/>
+    <text id="n11_lwj0" name="rankTitleText" xy="314,29" size="81,33" fontSize="20" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="shrink" bold="true" strokeColor="#000033" shadowColor="#000033" shadowOffset="1,1" text="专家I">
+      <relation target="n10_lwj0" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n12_lwj0" name="scoreText" xy="393,45" size="50,24" fontSize="20" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="2444">
+      <relation target="n14_lwj0" sidePair="center-center,top-bottom"/>
+    </text>
+    <loader id="n13_lwj0" name="n13" xy="405,15" size="27,27" touchable="false" url="ui://864gshxxgy104y" align="center" vAlign="middle" fill="scaleMatchHeight" color="#000000"/>
+    <loader id="n14_lwj0" name="n14" xy="406,16" size="25,25" touchable="false" url="ui://864gshxxgy104y" align="center" vAlign="middle" fill="scaleMatchHeight"/>
+    <component id="n24_j7k2" name="head" src="md4a33k" fileName="component/head.xml" xy="7,7" size="60,60"/>
+    <loader id="n19_jbrh" name="fightFlag" xy="15,47" pivot="0.5,0.5" size="21,20" visible="false" touchable="false" url="ui://739g5ytiyykeu" align="center" vAlign="middle" fill="scaleFree" autoSize="true">
+      <gearDisplay controller="online" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n18_jbrh" name="offlineTime" xy="70,50" size="62,18" fontSize="14" color="#333333" vAlign="middle" leading="0" text="23小时前">
+      <gearDisplay controller="online" pages="0"/>
+    </text>
+    <loader id="n23_i3zc" name="wechatFlag" xy="50,7" size="21,17" visible="false" touchable="false" url="ui://739g5ytimal81l" autoSize="true"/>
+  </displayList>
+  <Button sound="ui://864gshxxlr3f2n" downEffect="scale" downEffectValue="0.95"/>
+</component>

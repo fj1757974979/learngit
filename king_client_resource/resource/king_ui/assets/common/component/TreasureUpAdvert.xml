@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="450,450" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n0_lnsl" name="n0" xy="0,0" size="450,450" url="ui://dvmsogfrfirs44" fill="scaleFree"/>
+    <loader id="n68_d54g" name="n68" xy="0,65" size="450,200" url="ui://zfg0revpy4nl1j" fill="scaleFree"/>
+    <text id="n40_k73y" name="txt2" xy="25,280" size="400,80" fontSize="24" color="#333333" align="center" vAlign="middle" leading="0" ubb="true" autoSize="none" text="#TEXT_70088"/>
+    <loader id="n47_yyke" name="boxIcon1" xy="49,101" pivot="0.5,0.5" size="120,120" touchable="false" url="ui://zfg0revpl8xiq" align="center" vAlign="middle" fill="scale">
+      <relation target="" sidePair="middle-middle"/>
+    </loader>
+    <text id="n48_yyke" name="boxName1" xy="34,193" size="150,50" fontSize="24" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" strokeSize="2" text="宝箱名字">
+      <relation target="" sidePair="middle-middle"/>
+    </text>
+    <component id="n43_yyke" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" xy="385,10"/>
+    <loader id="n64_pdhx" name="n64" xy="184,10" pivot="0.5,0.5" size="300,300" scale="0.7,0.7" touchable="false" url="ui://864gshxxvco45w" align="center" vAlign="middle" fill="scale">
+      <relation target="" sidePair="middle-middle"/>
+    </loader>
+    <loader id="n65_pdhx" name="boxIcon2" xy="247,82" pivot="0.5,0.5" size="175,157" touchable="false" url="ui://zfg0revpl8xin" align="center" vAlign="middle" fill="scale">
+      <relation target="" sidePair="middle-middle"/>
+    </loader>
+    <text id="n66_pdhx" name="boxName2" xy="260,193" size="150,50" fontSize="24" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" strokeSize="2" text="宝箱名字">
+      <relation target="" sidePair="middle-middle"/>
+    </text>
+    <loader id="n67_d54g" name="n67" xy="190,150" size="53,31" url="ui://864gshxxpdhx9q" autoSize="true"/>
+    <component id="n69_xcyl" name="shareBtn" src="jed213" fileName="component/functionBtn.xml" xy="150,370" size="150,60" visible="false">
+      <Button title="#TEXT_70045" titleFontSize="28"/>
+    </component>
+    <component id="n70_srbf" name="jadeSkipBtn" src="nf1s9c" fileName="component/jadeBtn.xml" xy="30,370" size="150,60">
+      <Button title="3" titleColor="#ffff00" titleFontSize="32"/>
+    </component>
+    <component id="n59_eibg" name="advertBtn" src="srbf49" fileName="component/advertBtn2.xml" pkg="zfg0revp" xy="270,370" size="150,60">
+      <Button title="升级" icon=" "/>
+    </component>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Alpha" value="0"/>
+    <item time="0" type="Alpha" tween="true" startValue="0" endValue="1" duration="12"/>
+    <item time="0" type="Scale" value="0,0"/>
+    <item time="0" type="Scale" tween="true" startValue="0.5,0.5" endValue="1,1" duration="12"/>
+    <item time="0" type="Sound" value="ui://864gshxxyyke6n,100"/>
+  </transition>
+</component>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,800">
+  <displayList>
+    <component id="n8_d54g" name="bg" src="qg2m2q" fileName="component/AdjustBg.xml" pkg="864gshxx" xy="0,0" visible="false" alpha="0"/>
+    <loader id="n0_tuc5" name="n0" xy="4,126" size="471,548" url="ui://dvmsogfrgtjh5i" fill="scaleFree"/>
+    <component id="n1_tuc5" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="405,140">
+      <relation target="n0_tuc5" sidePair="right-right,top-top"/>
+    </component>
+    <text id="n18_gtjh" name="title" xy="90,150" size="300,40" fontSize="28" align="center" vAlign="middle" leading="0" autoSize="none" bold="true" text="#TEXT_70102"/>
+    <list id="n21_srbf" name="textList" xy="40,200" size="400,450" selectionMode="none" overflow="scroll" scrollBarFlags="132" scrollBarRes="ui://864gshxxjzjo62," defaultItem="ui://ravbpjp3spox20" autoItemSize="false" align="center">
+      <relation target="n0_tuc5" sidePair="top-top"/>
+      <item/>
+    </list>
+  </displayList>
+</component>

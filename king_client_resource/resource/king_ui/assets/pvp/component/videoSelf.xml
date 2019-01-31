@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,800" pivot="0.5,0.5">
+  <controller name="switch" pages="0,personal,1,world" selected="1">
+    <action type="play_transition" fromPage="0" toPage="1" transition="t1"/>
+    <action type="play_transition" fromPage="1" toPage="0" transition="t0"/>
+  </controller>
+  <displayList>
+    <loader id="n0_lnsl" name="panel" xy="0,0" pivot="0.5,0.5" size="480,800" url="ui://dvmsogfrfm931u" fill="scaleFree"/>
+    <loader id="n1_lnsl" name="n1" xy="140,5" pivot="0.5,0.5" size="200,65" touchable="false" url="ui://864gshxxroydj" fill="scaleFree" autoSize="true">
+      <relation target="n0_lnsl" sidePair="top-top"/>
+    </loader>
+    <loader id="n2_lnsl" name="name" xy="165,11" size="150,51" touchable="false" url="ui://864gshxxd54ga2" align="center" autoSize="true">
+      <relation target="n1_lnsl" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n4_lnsl" name="listBg" xy="10,130" pivot="0.5,0.5" size="460,660" touchable="false" url="ui://dvmsogfra64j2l" fill="scaleFree">
+      <relation target="" sidePair="center-center"/>
+      <relation target="n0_lnsl" sidePair="height-height"/>
+    </loader>
+    <component id="n28_fm93" name="closeBtn" src="royda" fileName="component/backBtn.xml" pkg="864gshxx" xy="5,5">
+      <relation target="n0_lnsl" sidePair="top-top,left-left"/>
+    </component>
+    <component id="n34_egmw" name="worldChk" src="egmw5w" fileName="component/videoPersonalChk.xml" xy="150,70" pivot="0.5,0.5">
+      <relation target="n0_lnsl" sidePair="top-top"/>
+      <Button title="#TEXT_70037" controller="switch" page="0"/>
+    </component>
+    <component id="n35_egmw" name="friendChk" src="egmw5x" fileName="component/videoWorldChk.xml" xy="270,70">
+      <relation target="n0_lnsl" sidePair="top-top"/>
+      <Button checked="true" title="#TEXT_70038" controller="switch" page="1"/>
+    </component>
+    <list id="n5_lnsl" name="rankList" xy="15,130" pivot="0.5,0.5" size="450,660" overflow="scroll" scrollBarFlags="4" margin="3,3,0,0" scrollBarRes="ui://864gshxxjzjo62," defaultItem="ui://dvmsogfrunq22v" align="center" autoClearItems="true">
+      <gearDisplay controller="switch" pages="0"/>
+      <relation target="n4_lnsl" sidePair="height-height,width-width"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n36_egmw" name="worldList" xy="15,130" pivot="0.5,0.5" size="450,660" overflow="scroll" scrollBarFlags="4" margin="3,3,0,0" scrollBarRes="ui://864gshxxjzjo62," defaultItem="ui://dvmsogfrrk7d2r" align="center" autoClearItems="true">
+      <gearDisplay controller="switch" pages="1"/>
+      <relation target="n4_lnsl" sidePair="height-height,width-width"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n33_jbrh" name="emptyHintText" xy="40,380" size="400,40" fontSize="30" color="#666666" align="center" vAlign="middle" leading="0" autoSize="none" text="#TEXT_70041">
+      <gearDisplay controller="switch" pages="0"/>
+    </text>
+    <text id="n37_egmw" name="emptyHintText2" xy="40,380" size="400,40" fontSize="30" color="#666666" align="center" vAlign="middle" leading="0" autoSize="shrink" text="#TEXT_70041">
+      <gearDisplay controller="switch" pages="1"/>
+    </text>
+    <component id="n38_gvaq" name="searchBtn" src="yykey" fileName="component/searchBtn.xml" pkg="739g5yti" xy="12,80" size="50,35">
+      <relation target="n0_lnsl" sidePair="left-left,top-top"/>
+      <Button title="🔍"/>
+    </component>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Alpha" target="n5_lnsl" tween="true" startValue="0" endValue="1" duration="6" ease="Back.In"/>
+  </transition>
+  <transition name="t1">
+    <item time="0" type="Alpha" target="n36_egmw" tween="true" startValue="0" endValue="1" duration="6" ease="Back.In"/>
+  </transition>
+</component>

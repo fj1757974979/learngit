@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="375,486" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n1_x88n" name="baseImg" xy="0,0" size="375,486" url="ui://rdb04el0b950h8"/>
+    <image id="n2_x88n" name="icon" pkg="rcm1dlbr" src="uoof2j" fileName="null" xy="7,8" size="360,470"/>
+    <loader id="n0_x88n" name="frontImg" xy="0,0" size="375,486" url="ui://rdb04el0g6zkhr"/>
+    <graph id="n14_d22g" name="closeBg" xy="-52,-157" size="480,800" type="rect" lineColor="#00ff0000" fillColor="#00ffffff"/>
+    <loader id="n6_c3kw" name="skillBg3" xy="27,255" size="329,69" url="ui://rdb04el0c3kwhe"/>
+    <loader id="n7_c3kw" name="skillBg2" xy="27,325" size="329,69" url="ui://rdb04el0c3kwhd"/>
+    <loader id="n8_c3kw" name="skillBg1" xy="27,395" size="329,69" url="ui://rdb04el0c3kwhe"/>
+    <loader id="n9_c3kw" name="skillBg4" xy="28,185" size="329,69" url="ui://rdb04el0c3kwhd"/>
+    <loader id="n15_q13d" name="equipSkillBg" xy="28,116" size="329,69" url="ui://rdb04el0par03ji"/>
+    <richtext id="n4_x88n" name="skillDescTxt1" xy="36,399" size="309,61" font="微软雅黑" fontSize="18" color="#ffffff" vAlign="middle" leading="0" autoSize="shrink" bold="true" text="mamamamam我我我我我说的是颠三倒四"/>
+    <richtext id="n10_c3kw" name="skillDescTxt2" xy="36,329" size="309,61" font="微软雅黑" fontSize="18" color="#ffffff" vAlign="middle" leading="0" autoSize="shrink" bold="true" text="mamamamam我我我我我说的是颠三倒四"/>
+    <richtext id="n11_c3kw" name="skillDescTxt3" xy="36,259" size="309,61" font="微软雅黑" fontSize="18" color="#ffffff" vAlign="middle" leading="0" autoSize="shrink" bold="true" text="mamamamam我我我我我说的是颠三倒四"/>
+    <richtext id="n12_c3kw" name="skillDescTxt4" xy="36,185" size="309,67" font="微软雅黑" fontSize="18" color="#ffffff" vAlign="middle" leading="0" autoSize="shrink" bold="true" text="mamamamam我我我我我说的是颠三倒四"/>
+    <richtext id="n16_q13d" name="equipDescTxt" xy="36,116" size="309,67" font="微软雅黑" fontSize="18" color="#ffffff" vAlign="middle" leading="0" autoSize="shrink" bold="true" text="武器技能"/>
+    <loader id="n13_epib" name="nameImg" xy="209,0" size="166,39" url="ui://rdb04el0epibi5" fill="scaleFree">
+      <relation target="" sidePair="right-right,top-top"/>
+    </loader>
+    <text id="n5_b950" name="nameText" xy="209,4" size="166,30" font="微软雅黑" fontSize="24" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="shrink" bold="true" text="Sun Shangxiang">
+      <relation target="n13_epib" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Scale" tween="true" startValue="0.5,0.5" endValue="1,1" duration="6"/>
+  </transition>
+</component>

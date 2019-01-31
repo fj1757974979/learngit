@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="125,162" pivot="0.5,0.5" bgColor="#666666">
+  <displayList>
+    <loader id="n0_bzh4" name="baseImg" xy="0,0" size="125,162" url="ui://rdb04el0b950h9" fill="scaleFree" color="#cccccc"/>
+    <loader id="n36_i5hm" name="baseImg2" xy="0,0" size="125,162" url="ui://rdb04el0i5hm3jf" fill="scaleFree" color="#cccccc"/>
+    <image id="n15_lr3f" name="cardImg" pkg="r43qceqx" src="uoof2j" fileName="999.png" xy="0,0" size="125,162"/>
+    <loader id="n3_bzh4" name="frontImg" xy="0,0" size="125,162" url="ui://rdb04el0h24d3j9" fill="scaleFree"/>
+    <loader id="n34_h24d" name="nameImg" xy="20,132" size="85,30" url="ui://rdb04el0h24d3jb" fill="scaleFree">
+      <relation target="" sidePair="right-right,top-top"/>
+      <relation target="n35_h24d" sidePair="height-height"/>
+    </loader>
+    <text id="n35_h24d" name="nameText" xy="35,133" size="53,25" font="微软雅黑" fontSize="16" color="#ffffff" align="center" vAlign="middle" leading="0" bold="true" text="锦马超">
+      <relation target="n34_h24d" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <transition name="add" options="4">
+    <item time="0" type="Scale" tween="true" startValue="0.75,0.75" endValue="1,1" duration="6" ease="Back.In"/>
+    <item time="6" type="Scale" tween="true" startValue="1,1" ease="Back.In"/>
+  </transition>
+  <transition name="hit">
+    <item time="0" type="ColorFilter" target="n0_bzh4" tween="true" startValue="1.00,0.00,0.00,0.00" endValue="0.00,0.00,0.00,0.00" duration="12"/>
+  </transition>
+  <transition name="readd" options="4">
+    <item time="0" type="Scale" tween="true" startValue="0.75,0.75" endValue="1.2,1.2" duration="6" ease="Back.In"/>
+    <item time="6" type="Scale" tween="true" startValue="1.2,1.2" endValue="1,1" duration="6" ease="Back.Out"/>
+  </transition>
+</component>

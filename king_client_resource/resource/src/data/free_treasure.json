@@ -1,0 +1,12 @@
+
+{
+            "1": {"__id__": 1, "treasureId": "BX0201", "time": 43200, "team": 2, "advert": 1 },
+			"2": {"__id__": 2, "treasureId": "BX0301", "time": 43200, "team": 3, "advert": 1 },
+			"3": {"__id__": 3, "treasureId": "BX0401", "time": 43200, "team": 4, "advert": 1 },
+			"4": {"__id__": 4, "treasureId": "BX0501", "time": 43200, "team": 5, "advert": 1 },
+			"5": {"__id__": 5, "treasureId": "BX0601", "time": 43200, "team": 6, "advert": 1 },
+			"6": {"__id__": 6, "treasureId": "BX0701", "time": 43200, "team": 7, "advert": 1 },
+			"7": {"__id__": 7, "treasureId": "BX0801", "time": 43200, "team": 8, "advert": 1 },
+			"8": {"__id__": 8, "treasureId": "BX0901", "time": 43200, "team": 9, "advert": 1 }
+   }
+    

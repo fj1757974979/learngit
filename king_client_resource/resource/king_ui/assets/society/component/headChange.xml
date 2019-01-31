@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="500,650" pivot="0.5,0.5">
+  <controller name="switch" pages="0,head,1,headFrame" selected="0">
+    <action type="play_transition" fromPage="1" toPage="0" transition="t1"/>
+    <action type="play_transition" fromPage="0" toPage="1" transition="t2"/>
+  </controller>
+  <displayList>
+    <loader id="n0_qof0" name="n0" xy="0,0" size="500,650" url="ui://739g5ytiri662b" fill="scaleFree"/>
+    <component id="n5_qof0" name="confirmBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="435,10"/>
+    <text id="n10_ryqp" name="name" xy="183,101" size="197,28" fontSize="24" color="#ffffff" vAlign="middle" leading="0" strokeColor="#2c2c2c" singleLine="true" text="玩家名字啊啊啊啊"/>
+    <loader id="n1_qof0" name="bottom" xy="15,200" pivot="0.5,0.5" size="470,440" touchable="false" url="ui://739g5ytiri662c" fill="scaleFree"/>
+    <list id="n4_qof0" name="headList" xy="25,200" size="450,440" layout="flow_hz" overflow="scroll" scrollBarFlags="4" scrollBar="auto" margin="10,10,0,0" defaultItem="ui://739g5ytiryqp2a" autoClearItems="true">
+      <gearDisplay controller="switch" pages="0"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n11_10tc3" name="headFrameList" xy="25,200" size="450,440" layout="flow_hz" overflow="scroll" scrollBarFlags="4" margin="10,10,0,0" lineGap="10" defaultItem="ui://739g5yti10tc339" autoClearItems="true">
+      <gearDisplay controller="switch" pages="1"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n12_10tc3" name="headChk" src="l1gi33g" fileName="component/headChk.xml" xy="340,146" pivot="0.5,0.5">
+      <Button checked="true" title="#TEXT_70064" controller="switch" page="0"/>
+    </component>
+    <component id="n13_10tc3" name="headFrameChk" src="l1gi33j" fileName="component/headFrameChk.xml" xy="425,145">
+      <Button title="#TEXT_70065" controller="switch" page="1"/>
+    </component>
+    <loader id="n14_mfce" name="n14" xy="150,0" pivot="0.5,0.5" size="200,65" touchable="false" url="ui://864gshxxroydj" autoSize="true"/>
+    <loader id="n15_mfce" name="n15" xy="174,6" pivot="0.5,0.5" size="150,51" touchable="false" url="ui://864gshxxmfcec0" autoSize="true"/>
+    <component id="n16_j7k2" name="head" src="md4a33k" fileName="component/head.xml" xy="80,70" size="90,90"/>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Scale" tween="true" startValue="0.8,0.9" endValue="1,1" duration="6" ease="Quart.Out"/>
+  </transition>
+  <transition name="t1">
+    <item time="0" type="Alpha" target="n4_qof0" tween="true" startValue="0" endValue="1" duration="6" ease="Back.In"/>
+  </transition>
+  <transition name="t2">
+    <item time="0" type="Alpha" target="n11_10tc3" tween="true" startValue="0" endValue="1" duration="6" ease="Back.In"/>
+  </transition>
+</component>

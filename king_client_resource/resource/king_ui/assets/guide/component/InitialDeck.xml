@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,800">
+  <displayList>
+    <component id="n1_nkld" name="bg" src="qg2m2q" fileName="component/AdjustBg.xml" pkg="864gshxx" xy="0,0" size="480,800"/>
+    <component id="n8_nkld" name="btnWei" src="ivo1c" fileName="component/btnCamp.xml" xy="146,130">
+      <relation target="n1_nkld" sidePair="center-center,middle-middle"/>
+      <Button icon="ui://kzx2kelpnkld6"/>
+    </component>
+    <component id="n9_nkld" name="btnShu" src="ivo1c" fileName="component/btnCamp.xml" xy="146,330">
+      <relation target="n1_nkld" sidePair="center-center,middle-middle"/>
+      <Button icon="ui://kzx2kelpnkld5"/>
+    </component>
+    <component id="n10_nkld" name="btnWu" src="ivo1c" fileName="component/btnCamp.xml" xy="146,530">
+      <relation target="n1_nkld" sidePair="center-center,middle-middle"/>
+      <Button icon="ui://kzx2kelpnkld7"/>
+    </component>
+    <text id="n11_nkld" name="txt1" xy="8,57" size="463,34" font="楷体" fontSize="30" align="center" vAlign="middle" leading="0" autoSize="shrink" text="#TEXT_70010">
+      <relation target="n1_nkld" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n12_b60p" name="txt2" xy="5,748" size="469,42" font="楷体" fontSize="20" color="#333333" align="center" vAlign="middle" leading="0" autoSize="shrink" text="#TEXT_70098">
+      <relation target="n1_nkld" sidePair="center-center,bottom-bottom"/>
+    </text>
+  </displayList>
+</component>

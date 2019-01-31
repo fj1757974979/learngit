@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="ip54owas" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="ysmu0" name="63.png" path="/" exported="true"/>
+    <image id="ysmu1" name="62.png" path="/" exported="true"/>
+    <image id="ysmu2" name="48.png" path="/" exported="true"/>
+    <image id="ysmu3" name="49.png" path="/" exported="true"/>
+    <image id="ysmu4" name="61.png" path="/" exported="true"/>
+    <image id="ysmu5" name="65.png" path="/" exported="true"/>
+    <image id="ysmu6" name="64.png" path="/" exported="true"/>
+    <image id="ysmu7" name="8.png" path="/" exported="true"/>
+    <image id="ysmu8" name="66.png" path="/" exported="true"/>
+    <image id="ysmu9" name="9.png" path="/" exported="true"/>
+    <image id="ysmua" name="115.png" path="/" exported="true"/>
+    <image id="ysmub" name="14.png" path="/" exported="true"/>
+    <image id="ysmuc" name="28.png" path="/" exported="true"/>
+    <image id="ysmud" name="29.png" path="/" exported="true"/>
+    <image id="ysmue" name="12.png" path="/" exported="true"/>
+    <image id="ysmuf" name="13.png" path="/" exported="true"/>
+    <image id="ysmug" name="11.png" path="/" exported="true"/>
+    <image id="ysmuh" name="10.png" path="/" exported="true"/>
+    <image id="ysmui" name="21.png" path="/" exported="true"/>
+    <image id="ysmuj" name="34.png" path="/" exported="true"/>
+    <image id="ysmuk" name="22.png" path="/" exported="true"/>
+    <image id="ysmul" name="23.png" path="/" exported="true"/>
+    <image id="ysmum" name="27.png" path="/" exported="true"/>
+    <image id="ysmun" name="33.png" path="/" exported="true"/>
+    <image id="ysmuo" name="32.png" path="/" exported="true"/>
+    <image id="ysmup" name="26.png" path="/" exported="true"/>
+    <image id="ysmuq" name="30.png" path="/" exported="true"/>
+    <image id="ysmur" name="24.png" path="/" exported="true"/>
+    <image id="ysmus" name="25.png" path="/" exported="true"/>
+    <image id="ysmut" name="31.png" path="/" exported="true"/>
+    <image id="ysmuu" name="4.png" path="/" exported="true"/>
+    <image id="ysmuv" name="42.png" path="/" exported="true"/>
+    <image id="ysmuw" name="43.png" path="/" exported="true"/>
+    <image id="ysmux" name="5.png" path="/" exported="true"/>
+    <image id="ysmuy" name="41.png" path="/" exported="true"/>
+    <image id="ysmuz" name="7.png" path="/" exported="true"/>
+    <image id="ysmu10" name="54.png" path="/" exported="true"/>
+    <image id="ysmu11" name="6.png" path="/" exported="true"/>
+    <image id="ysmu12" name="44.png" path="/" exported="true"/>
+    <image id="ysmu13" name="2.png" path="/" exported="true"/>
+    <image id="ysmu14" name="50.png" path="/" exported="true"/>
+    <image id="ysmu15" name="3.png" path="/" exported="true"/>
+    <image id="ysmu16" name="51.png" path="/" exported="true"/>
+    <image id="ysmu17" name="45.png" path="/" exported="true"/>
+    <image id="ysmu18" name="53.png" path="/" exported="true"/>
+    <image id="ysmu19" name="1.png" path="/" exported="true"/>
+    <image id="ysmu1a" name="47.png" path="/" exported="true"/>
+    <image id="ysmu1b" name="46.png" path="/" exported="true"/>
+    <image id="ysmu1c" name="52.png" path="/" exported="true"/>
+    <image id="ysmu1d" name="0.png" path="/" exported="true"/>
+  </resources>
+  <publish name="card_u"/>
+</packageDescription>

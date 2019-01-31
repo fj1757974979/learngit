@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="440,662" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n0_xjab" name="n0" xy="-10,5" size="460,652" url="ui://2ipmzghtl2zza3" fill="scaleFree">
+      <relation target="" sidePair="height-height,middle-middle"/>
+    </loader>
+    <text id="n5_xjab" name="n5" xy="152,220" size="136,28" group="n52_t208" fontSize="24" color="#666666" leading="0" text="#TEXT_60339">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <text id="n7_xjab" name="memberInput" xy="187,255" size="65,44" group="n52_t208" fontSize="40" align="center" vAlign="middle" leading="0" singleLine="true" text="123">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n10_xjab" name="foodInput" xy="222,380" size="20,34" group="n52_t208" fontSize="30" color="#ffffff" align="center" vAlign="middle" leading="0" strokeColor="#000000" singleLine="true" text="5">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <loader id="n24_wwgm" name="chooseCity" xy="150,165" size="140,38" group="n52_t208" url="ui://2ipmzghtonso6e" fill="scaleFree"/>
+    <text id="n25_wwgm" name="cityName" xy="150,165" size="140,38" group="n52_t208" fontSize="30" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" singleLine="true" text="长沙">
+      <relation target="" sidePair="bottom-bottom"/>
+    </text>
+    <text id="n26_wwgm" name="n26" xy="162,140" size="115,24" group="n52_t208" fontSize="20" color="#666666" leading="0" text="#TEXT_60338">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <text id="n29_onso" name="n29" xy="152,350" size="136,28" group="n52_t208" fontSize="24" color="#666666" align="center" vAlign="middle" leading="0" text="#TEXT_60341">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <loader id="n11_xjab" name="foodIcon" xy="190,382" size="30,30" group="n52_t208" url="ui://2ipmzghtonso6f" fill="scaleFree">
+      <relation target="n10_xjab" sidePair="right-left,middle-middle"/>
+    </loader>
+    <text id="n33_fqnc" name="foodTxt2" xy="132,460" size="175,24" group="n52_t208" fontSize="20" align="right" leading="0" text="共划拨粮草x100000">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <text id="n37_u5xl" name="n37" xy="75,523" size="115,24" group="n52_t208" fontSize="20" color="#666666" align="center" leading="0" text="#TEXT_60342">
+      <relation target="" sidePair="left-left,top-top"/>
+    </text>
+    <text id="n1_xjab" name="n1" xy="134,50" size="170,34" group="n52_t208" fontSize="30" leading="0" text="#TEXT_60337">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <text id="n53_t208" name="n53" xy="45,100" size="350,24" group="n52_t208" fontSize="20" align="center" leading="0" autoSize="none" text="#TEXT_60340">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <component id="n40_n91y" name="memberCnt" src="n91ydh" fileName="component/Slider1.xml" pkg="864gshxx" xy="70,295" size="300,18" group="n52_t208">
+      <Slider max="100"/>
+    </component>
+    <component id="n41_n91y" name="foodCnt" src="n91ydh" fileName="component/Slider1.xml" pkg="864gshxx" xy="70,415" size="300,18" group="n52_t208">
+      <Slider max="100"/>
+    </component>
+    <component id="n2_xjab" name="confirmBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="130,570" size="180,60" group="n52_t208">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+      <Button title="#TEXT_70036" icon="ui://864gshxxj6006u"/>
+    </component>
+    <component id="n4_xjab" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="350,40" group="n52_t208"/>
+    <component id="n49_n91y" name="food" src="qjxh5o" fileName="component/resourceValueItem.xml" xy="190,510" size="200,50" group="n52_t208"/>
+    <group id="n52_t208" name="n52" xy="45,40" size="359,590" advanced="true"/>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Alpha" target="n52_t208" value="0"/>
+    <item time="0" type="Size" tween="true" startValue="-,120" endValue="-,662" duration="9"/>
+    <item time="9" type="Alpha" target="n52_t208" tween="true" startValue="0" endValue="1" duration="9"/>
+  </transition>
+</component>

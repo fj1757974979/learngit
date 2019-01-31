@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,780" pivot="0.5,0.5" overflow="hidden" scrollBarRes="ui://864gshxxjzjo62,">
+  <displayList>
+    <component id="n62_m276" name="rebornBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="150,700" size="180,60">
+      <relation target="" sidePair="center-center"/>
+      <Button title="#TEXT_70161" titleFontSize="32"/>
+    </component>
+    <loader id="n81_k9is" name="n81" xy="140,119" pivot="0.5,0.5" size="200,200" alpha="0.8" url="ui://dvmsogfrltzk2h" align="center" vAlign="middle" fill="scale">
+      <relation target="" sidePair="center-center"/>
+    </loader>
+    <loader id="n82_k9is" name="rankIcon" xy="140,145" pivot="0.5,0.5" size="200,150" url="ui://864gshxxgy104r" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <relation target="n81_k9is" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n83_k9is" name="rankLevel" xy="154,203" size="170,34" fontSize="30" color="#ffffff" align="center" vAlign="middle" leading="0" strokeColor="#000033" shadowColor="#000033" shadowOffset="1,1" text="#TEXT_10016">
+      <relation target="n81_k9is" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n84_k9is" name="txt2" xy="170,85" size="137,28" fontSize="24" color="#ffffff" align="center" leading="0" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="#TEXT_70157">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n85_k9is" name="tip1" xy="0,324" size="480,24" fontSize="20" color="#333333" align="center" vAlign="middle" leading="0" autoSize="height" text="#TEXT_70158">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <loader id="n87_k9is" name="n87" xy="474,342" size="470,200" visible="false" url="ui://dvmsogfrfm9324" fill="scaleFree">
+      <relation target="" sidePair="center-center"/>
+    </loader>
+    <list id="n88_k9is" name="cardList" xy="479,352" pivot="0.5,0.5" size="460,180" visible="false" layout="flow_hz" selectionMode="none" overflow="scroll" lineGap="5" colGap="5" defaultItem="ui://rdb04el0uoofj" align="center" autoClearItems="true">
+      <relation target="n87_k9is" sidePair="middle-middle,center-center"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n86_k9is" name="txt3" xy="170,430" size="137,28" fontSize="24" color="#ffffff" align="center" leading="0" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="#TEXT_70159">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n89_k9is" name="tip2" xy="40,470" size="400,24" fontSize="20" color="#333333" align="center" vAlign="middle" leading="0" autoSize="height" text="#TEXT_70160">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+  <transition name="enter">
+    <item time="0" type="Scale" tween="true" startValue="1,1" endValue="1,1" duration="6" ease="Linear"/>
+  </transition>
+</component>

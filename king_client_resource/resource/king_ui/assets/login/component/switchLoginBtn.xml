@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="114,40" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n4_a53p" name="n4" xy="0,0" size="114,40" url="ui://164za4d7dq5611" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n5_dq56" name="title" xy="14,10" size="85,20" fontSize="16" color="#ffffff" align="center" vAlign="middle" leading="0" text="旧账号登陆">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <Button sound="ui://864gshxxlr3f2n" downEffect="scale" downEffectValue="0.90"/>
+</component>

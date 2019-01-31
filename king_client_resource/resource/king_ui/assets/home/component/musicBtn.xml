@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="143,143" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n12_ijr4" name="n12" xy="5,5" size="132,133" url="ui://8d3e8y55ijr426" autoSize="true"/>
+    <loader id="n8_qxr1" name="icon3" xy="5,5" size="132,133" url="ui://8d3e8y55qxr115" autoSize="true"/>
+    <loader id="n9_qxr1" name="icon2" xy="5,5" size="132,133" url="ui://8d3e8y55qxr11e" autoSize="true"/>
+    <loader id="n10_qxr1" name="icon1" xy="5,5" size="132,133" url="ui://8d3e8y55qxr11d"/>
+    <loader id="n11_qxr1" name="icon0" xy="5,5" size="132,133" url="ui://8d3e8y55qxr11c" autoSize="true"/>
+  </displayList>
+  <Button sound="ui://864gshxxlr3f2n" downEffect="scale" downEffectValue="0.80"/>
+</component>

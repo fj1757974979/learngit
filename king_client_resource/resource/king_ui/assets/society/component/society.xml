@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,670" pivot="0.5,0.5">
+  <controller name="switch" pages="0,world,1,private,2,friend" selected="0"/>
+  <displayList>
+    <loader id="n16_h33x" name="n16" xy="113,40" size="254,3" visible="false" url="ui://739g5ytih33x1p"/>
+    <component id="n6_jbrh" name="worldChk" src="yykem" fileName="component/checkButton.xml" xy="25,16">
+      <Button checked="true" title="#TEXT_70051" sound="ui://864gshxxyyke6k" controller="switch" page="0"/>
+    </component>
+    <component id="n7_jbrh" name="privateChk" src="yykem" fileName="component/checkButton.xml" xy="198,16">
+      <Button title="#TEXT_70074" sound="ui://864gshxxyyke6k" controller="switch" page="1"/>
+    </component>
+    <component id="n9_jbrh" name="friendChk" src="yykem" fileName="component/checkButton.xml" xy="370,15">
+      <Button title="#TEXT_70075" sound="ui://864gshxxyyke6k" controller="switch" page="2"/>
+    </component>
+    <component id="n12_rcv7" name="worldChatCom" src="jbrh1" fileName="component/worldChat.xml" xy="15,63">
+      <gearDisplay controller="switch" pages="0"/>
+      <relation target="" sidePair="height-height"/>
+    </component>
+    <component id="n11_rcv7" name="privateChatCom" src="jbrh2" fileName="component/privateChat.xml" xy="15,63">
+      <gearDisplay controller="switch" pages="1"/>
+      <relation target="" sidePair="height-height"/>
+    </component>
+    <component id="n10_rcv7" name="friendCom" src="jbrh7" fileName="component/friend.xml" xy="15,63">
+      <gearDisplay controller="switch" pages="2"/>
+      <relation target="" sidePair="height-height"/>
+    </component>
+    <component id="n14_j7l7" name="privateChatNewHint" src="j7l76d" fileName="component/privateChatNumHint.xml" pkg="864gshxx" xy="268,16"/>
+    <component id="n15_j7l7" name="applyFriendNewHint" src="j7l76e" fileName="component/applyFriendNumHint.xml" pkg="864gshxx" xy="440,15"/>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Scale" tween="true" startValue="0.8,0.9" endValue="1,1" duration="6" ease="Quart.Out"/>
+  </transition>
+  <transition name="t1">
+    <item time="0" type="Alpha" target="n12_rcv7" tween="true" startValue="0" endValue="1" duration="6"/>
+  </transition>
+  <transition name="t2"/>
+  <transition name="t3">
+    <item time="0" type="Alpha" target="n11_rcv7" tween="true" startValue="0" endValue="1" duration="6"/>
+  </transition>
+  <transition name="t4">
+    <item time="0" type="Alpha" target="n10_rcv7" tween="true" startValue="0" endValue="1" duration="6"/>
+  </transition>
+</component>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,800" pivot="0.5,0.5">
+  <displayList>
+    <component id="n2_qw7t" name="bg" src="qg2m2q" fileName="component/AdjustBg.xml" pkg="864gshxx" xy="0,0" visible="false"/>
+    <graph id="n4_f7m8" name="background" xy="0,0" size="480,800" alpha="0" type="rect" fillColor="#ff000000">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <relation target="n2_qw7t" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="n1_qw7t" name="lose" src="rcak1w" fileName="component/loseNew.xml" xy="0,0" touchable="false">
+      <relation target="n2_qw7t" sidePair="width-width,height-height"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n0_qw7t" name="win" src="rcak1v" fileName="component/winNew.xml" xy="0,0" touchable="false">
+      <relation target="n2_qw7t" sidePair="width-width,height-height"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n6_po0x" name="backBtn" src="royda" fileName="component/backBtn.xml" pkg="864gshxx" xy="20,20" visible="false" alpha="0">
+      <relation target="n2_qw7t" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n7_tcup" name="closeBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="165,675" size="150,50" alpha="0">
+      <Button title="#TEXT_70094"/>
+    </component>
+  </displayList>
+  <transition name="t0" options="4">
+    <item time="0" type="Alpha" target="n4_f7m8" tween="true" startValue="1" endValue="1" duration="12"/>
+    <item time="0" type="Alpha" tween="true" startValue="1" endValue="0" duration="24"/>
+    <item time="12" type="Alpha" target="n4_f7m8" tween="true" startValue="1" endValue="0" duration="12"/>
+    <item time="24" type="Alpha" target="n6_po0x" value="0"/>
+    <item time="24" type="Alpha" target="n7_tcup" value="0"/>
+  </transition>
+  <transition name="t1" options="4">
+    <item time="0" type="Alpha" target="n6_po0x" tween="true" startValue="0" endValue="1" duration="6" ease="Linear"/>
+    <item time="0" type="Alpha" target="n7_tcup" tween="true" startValue="0" endValue="1" duration="6" ease="Linear"/>
+  </transition>
+</component>

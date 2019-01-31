@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="389,64">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n4_lwj0" name="bg" xy="0,0" size="389,64" url="ui://dvmsogfrmuyr3j" fill="scaleFree" autoSize="true">
+      <relation target="" sidePair="rightext-right"/>
+    </loader>
+    <loader id="n17_muyr" name="n17" xy="320,1" size="69,61" touchable="false" url="ui://dvmsogfrmuyr3i" autoSize="true"/>
+    <text id="n7_lwj0" name="orderText" xy="10,12" size="40,40" fontSize="30" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="4"/>
+    <text id="n9_lwj0" name="nameText" xy="113,12" size="200,40" fontSize="18" vAlign="middle" leading="0" ubb="true" autoSize="none" singleLine="true" text="玩家啊啊啊啊啊啊啊啊">
+      <relation target="" sidePair="rightext-right"/>
+    </text>
+    <text id="n12_lwj0" name="scoreText" xy="319,35" size="70,24" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="高级2"/>
+    <loader id="n14_lwj0" name="n14" xy="353,10" size="25,24" touchable="false" url="ui://dvmsogfrmuyr3o" align="center" vAlign="middle" fill="scaleMatchHeight">
+      <relation target="" sidePair="right-right"/>
+    </loader>
+    <loader id="n16_kkim" name="headIcon" xy="57,7" size="50,50" touchable="false" url="ui://739g5ytivfpog" fill="scaleFree"/>
+    <text id="n18_kc52" name="n18" xy="323,13" size="29,24" fontSize="15" color="#ffffff" align="right" vAlign="middle" autoSize="none" strokeColor="#000000" text="99"/>
+    <loader id="n19_j1lb" name="headFrame" xy="42,-8" size="80,80" touchable="false" url="ui://739g5ytivfpoi" fill="scaleFree"/>
+  </displayList>
+</component>

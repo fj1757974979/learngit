@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="380,70">
+  <controller name="c1" pages="0,不可领取,1,可领取,2,已领取" selected="2"/>
+  <displayList>
+    <loader id="n0_b60p" name="n0" xy="0,0" size="380,70" url="ui://739g5ytiyykek" fill="scaleFree"/>
+    <loader id="n2_b60p" name="rewardBg1" xy="10,5" size="60,60" visible="false" url="ui://739g5ytivfpoh" fill="scaleFree"/>
+    <loader id="n3_b60p" name="rewardBg2" xy="90,5" size="60,60" visible="false" url="ui://739g5ytivfpoh" fill="scaleFree"/>
+    <text id="n5_b60p" name="conditionTxt" xy="170,8" size="100,30" fontSize="20" align="center" vAlign="middle" autoSize="none" text="达到中级"/>
+    <text id="n6_b60p" name="processTxt" xy="170,38" size="100,30" fontSize="20" color="#336600" align="center" vAlign="middle" leading="0" autoSize="none" text="（1/99）"/>
+    <loader id="n8_b60p" name="rewardIcon2" xy="92,7" size="55,55" url="ui://739g5ytivfpog" fill="scaleFree">
+      <relation target="n3_b60p" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n9_b60p" name="rewardIcon1" xy="12,7" size="55,55" url="ui://864gshxxnf1s9a" fill="scaleFree">
+      <relation target="n2_b60p" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n10_b60p" name="cnt1" xy="30,45" size="45,24" fontSize="20" color="#ffff00" align="center" vAlign="middle" leading="0" strokeColor="#000000" text="x999"/>
+    <text id="n11_b60p" name="cnt2" xy="110,45" size="45,24" fontSize="20" color="#66ff99" align="center" vAlign="middle" leading="0" strokeColor="#333333" text="x999"/>
+    <component id="n7_b60p" name="noGet" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="270,15" size="100,40" touchable="false">
+      <gearDisplay controller="c1" pages="0"/>
+      <Button title="#TEXT_70009" titleFontSize="20" icon="ui://864gshxxj6006v"/>
+    </component>
+    <component id="n12_b60p" name="btnReceive" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="270,15" size="100,40">
+      <gearDisplay controller="c1" pages="1"/>
+      <Button title="#TEXT_70009" titleFontSize="20" icon="ui://864gshxxj6006u"/>
+    </component>
+    <loader id="n13_b60p" name="gotten" xy="270,15" size="100,40" url="ui://dvmsogfrtn1u5r" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <gearDisplay controller="c1" pages="2"/>
+    </loader>
+  </displayList>
+</component>

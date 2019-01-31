@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="120,40" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="enable" pages="0,true,1,false" selected="0"/>
+  <displayList>
+    <loader id="n1" name="icon1" xy="0,0" size="120,40" url="ui://864gshxxj6006v" fill="scaleFree">
+      <gearDisplay controller="button" pages="0,2,4"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n6_j66l" name="icon2" xy="0,0" size="120,40" url="ui://864gshxxal2v9n" fill="scaleFree">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n4_jed2" name="title" xy="15,8" size="90,24" fontSize="20" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="更新预览">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <loader id="n7_j66l" name="lockIcon" xy="5,10" size="10,10" url="ui://739g5yti9hvm33b" fill="scaleMatchWidth">
+      <gearDisplay controller="enable" pages="1"/>
+    </loader>
+  </displayList>
+  <Button mode="Radio" sound="ui://864gshxxlr3f2n"/>
+  <transition name="t0"/>
+</component>

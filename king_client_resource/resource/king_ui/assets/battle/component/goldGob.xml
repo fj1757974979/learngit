@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="210,70" pivot="0.5,0.5">
+  <controller name="state" pages="0,normal,1,forbid" selected="1"/>
+  <displayList>
+    <loader id="n3_k9is" name="n3" xy="0,0" size="210,70" url="ui://ryvvr3p0x88n8" align="center" vAlign="middle" fill="scaleFree"/>
+    <loader id="n0_y9fz" name="n0" xy="40,10" size="50,50" url="ui://864gshxxhrlgb8" fill="scale">
+      <gearDisplay controller="state" pages="0"/>
+    </loader>
+    <text id="n1_y9fz" name="title" xy="90,18" size="65,34" fontSize="30" color="#ffff00" leading="0" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="+100">
+      <gearDisplay controller="state" pages="0"/>
+    </text>
+    <text id="n2_y9fz" name="forbidTxt" xy="46,23" size="117,24" fontSize="20" color="#ffffff" align="center" vAlign="middle" leading="0" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="#TEXT_70193">
+      <gearDisplay controller="state" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <transition name="show">
+    <item time="0" type="Alpha" value="1"/>
+    <item time="0" type="Scale" tween="true" startValue="0,0" endValue="1,1" duration="12" ease="Expo.Out"/>
+    <item time="12" type="XY" tween="true" startValue="0,0" endValue="0,-100" duration="18" ease="Expo.In"/>
+    <item time="30" type="Alpha" tween="true" startValue="1" endValue="0" duration="12"/>
+    <item time="41" type="XY" value="0,-100"/>
+    <item time="42" type="Scale" value="1,1"/>
+    <item time="42" type="XY" value="0,0"/>
+  </transition>
+  <transition name="show2">
+    <item time="0" type="Alpha" value="1"/>
+    <item time="0" type="Scale" tween="true" startValue="0,0" endValue="1,1" duration="12" ease="Expo.Out"/>
+    <item time="12" type="XY" tween="true" startValue="0,0" endValue="0,-100" duration="18" ease="Expo.In"/>
+    <item time="30" type="Alpha" tween="true" startValue="1" endValue="0" duration="12"/>
+    <item time="41" type="XY" value="0,-100"/>
+    <item time="42" type="Scale" value="1,1"/>
+    <item time="42" type="XY" value="0,0"/>
+  </transition>
+</component>

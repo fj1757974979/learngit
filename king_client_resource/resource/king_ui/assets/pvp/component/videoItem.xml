@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="450,270">
+  <controller name="view" pages="0,未观看,1,已观看" selected="0"/>
+  <displayList>
+    <loader id="n16_rk7d" name="bg1" xy="0,0" size="450,270" url="ui://dvmsogfrvco436" fill="scaleFree">
+      <gearDisplay controller="view" pages="0"/>
+    </loader>
+    <loader id="n40_kv3d" name="bg2" xy="0,0" size="450,260" url="ui://dvmsogfr5wvz3d" fill="scaleFree">
+      <gearDisplay controller="view" pages="1"/>
+    </loader>
+    <loader id="n47_lxfs" name="resultTxt2" xy="225,65" size="215,145" alpha="0.5" touchable="false" url="ui://rdb04el0paouh2" fill="scaleFree"/>
+    <loader id="n48_lxfs" name="resultTxt1" xy="10,65" size="215,145" alpha="0.5" touchable="false" url="ui://rdb04el0paouh4" fill="scaleFree"/>
+    <text id="n28_rk7d" name="name1" xy="10,43" size="200,20" fontSize="16" color="#ffffff" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="玩家名字"/>
+    <text id="n29_rk7d" name="name2" xy="240,43" size="200,20" fontSize="16" color="#ffffff" align="right" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="玩家名字"/>
+    <component id="n18_rk7d" name="card1" src="rk7d2q" fileName="component/videoCard.xml" xy="10,65" scale="0.6,0.6"/>
+    <component id="n19_rk7d" name="card2" src="rk7d2q" fileName="component/videoCard.xml" xy="65,65" scale="0.6,0.6"/>
+    <component id="n20_rk7d" name="card3" src="rk7d2q" fileName="component/videoCard.xml" xy="120,65" scale="0.6,0.6"/>
+    <component id="n21_rk7d" name="card5" src="rk7d2q" fileName="component/videoCard.xml" xy="65,138" scale="0.6,0.6"/>
+    <component id="n22_rk7d" name="card4" src="rk7d2q" fileName="component/videoCard.xml" xy="10,138" scale="0.6,0.6"/>
+    <component id="n23_rk7d" name="card6" src="rk7d2q" fileName="component/videoCard.xml" xy="276,65" scale="0.6,0.6"/>
+    <component id="n24_rk7d" name="card7" src="rk7d2q" fileName="component/videoCard.xml" xy="331,65" scale="0.6,0.6"/>
+    <component id="n25_rk7d" name="card8" src="rk7d2q" fileName="component/videoCard.xml" xy="386,65" scale="0.6,0.6"/>
+    <component id="n26_rk7d" name="card10" src="rk7d2q" fileName="component/videoCard.xml" xy="386,138" scale="0.6,0.6"/>
+    <component id="n27_rk7d" name="card9" src="rk7d2q" fileName="component/videoCard.xml" xy="331,138" scale="0.6,0.6"/>
+    <text id="n37_unq2" name="time" xy="10,235" size="150,25" fontSize="16" color="#333333" vAlign="middle" leading="0" autoSize="none" text="3小时前"/>
+    <component id="n38_unq2" name="viewBtn" src="u84356" fileName="component/playBtn.xml" xy="185,100">
+      <Button titleFontSize="24" icon=" " sound="ui://864gshxxlr3f2n"/>
+    </component>
+    <component id="n39_unq2" name="likeBtn" src="unq22s" fileName="component/likeBtn.xml" xy="250,225">
+      <Button title="9999"/>
+    </component>
+    <text id="n46_5wvz" name="id" xy="10,210" size="200,25" fontSize="16" color="#666666" vAlign="middle" leading="0" autoSize="none" text="12345678901234567890"/>
+    <component id="n49_yyke" name="shareWechatBtn" src="kv3d30" fileName="component/shareBtn.xml" xy="150,225" size="90,35" visible="false">
+      <Button title="#TEXT_60370" sound="ui://864gshxxlr3f2n"/>
+    </component>
+    <text id="n52_u843" name="titleTxt" xy="10,10" size="430,30" fontSize="24" color="#440a0a" vAlign="middle" leading="0" autoSize="none" bold="true" text="暂未发布"/>
+    <component id="n53_u843" name="discussBtn" src="u84350" fileName="component/discussBtn.xml" xy="350,225">
+      <Button title="9999"/>
+    </component>
+    <text id="n54_s8o9" name="viewNum" xy="150,185" size="150,20" fontSize="20" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#ffffff" text="9999次观看"/>
+  </displayList>
+  <transition name="t0"/>
+</component>

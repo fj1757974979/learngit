@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="450,600" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n0_lnsl" name="n0" xy="15,59" size="420,530" url="ui://dvmsogfrfirs44" fill="scaleFree"/>
+    <component id="n58_eibg" name="openBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="150,525" size="150,50">
+      <Button title="#TEXT_70162" titleFontSize="28" icon="ui://864gshxxj6006t"/>
+    </component>
+    <component id="n43_yyke" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="375,65"/>
+    <list id="n86_m276" name="n86" xy="25,160" size="400,360" overflow="scroll" defaultItem="ui://47ikzi2am276k" align="center" vAlign="middle">
+      <item name="lv1"/>
+      <item name="lv2"/>
+      <item name="lv3"/>
+      <item name="lv4"/>
+      <item name="lv5"/>
+      <item url="ui://47ikzi2am276l" title="总计" name="all"/>
+    </list>
+    <text id="n89_m276" name="name" xy="157,122" size="136,28" fontSize="24" align="center" vAlign="middle" leading="0" text="#TEXT_70163">
+      <relation target="n0_lnsl" sidePair="center-center"/>
+    </text>
+    <text id="n90_k9is" name="n1" xy="140,70" size="170,34" fontSize="30" align="center" vAlign="middle" leading="0" text="#TEXT_70164">
+      <relation target="n0_lnsl" sidePair="center-center"/>
+    </text>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1"/>
+  <transition name="t1" autoPlay="true">
+    <item time="0" type="Alpha" tween="true" startValue="0.8" endValue="1" duration="6"/>
+    <item time="0" type="Scale" tween="true" startValue="0.8,0.8" endValue="1,1" duration="6"/>
+    <item time="0" type="Sound" value="ui://864gshxxyyke6n,100"/>
+  </transition>
+</component>

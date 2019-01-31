@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="80,80" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n1" name="icon" xy="0,0" size="79,80" url="ui://2ipmzghtmhry74" fill="scaleFree" autoSize="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <component id="n6_xjab" name="n6" src="o0co52" fileName="component/levelNumHint.xml" pkg="864gshxx" xy="48,0"/>
+  </displayList>
+  <Button sound="ui://864gshxxlr3f2n" downEffect="scale" downEffectValue="0.80"/>
+  <transition name="t0"/>
+</component>

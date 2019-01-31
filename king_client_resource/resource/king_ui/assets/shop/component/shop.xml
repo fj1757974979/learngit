@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,800" pivot="0.5,0.5">
+  <displayList>
+    <component id="n0_nf1s" name="bg" src="qg2m2q" fileName="component/AdjustBg.xml" pkg="864gshxx" xy="0,0" size="480,800"/>
+    <loader id="n6_nf1s" name="n6" xy="0,0" size="480,60" url="ui://8d3e8y55ul1125" fill="scaleFree">
+      <relation target="" sidePair="center-center"/>
+      <relation target="n0_nf1s" sidePair="width-width,top-top"/>
+    </loader>
+    <loader id="n8_nf1s" name="goldIconImg" xy="65,17" size="30,30" touchable="false" url="ui://864gshxxnf1s9a" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <relation target="n6_nf1s" sidePair="left-left,top-top"/>
+    </loader>
+    <text id="n9_nf1s" name="goldText" xy="95,17" pivot="0.5,0.5" size="100,30" fontSize="24" color="#ffffff" vAlign="middle" leading="0" autoSize="none" bold="true" text="9999999">
+      <relation target="n8_nf1s" sidePair="middle-middle,left-right"/>
+    </text>
+    <text id="n11_nf1s" name="jadeText" xy="235,17" size="100,30" fontSize="24" color="#ffffff" vAlign="middle" leading="0" autoSize="none" bold="true" text="9999999">
+      <relation target="n13_nf1s" sidePair="middle-middle,left-right"/>
+    </text>
+    <loader id="n13_nf1s" name="jadeIconImg" xy="205,17" size="30,30" touchable="false" url="ui://864gshxxnf1s9b" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <relation target="n8_nf1s" sidePair="left-right,middle-middle"/>
+    </loader>
+    <list id="n14_nf1s" name="shopList" xy="5,60" size="470,730" overflow="scroll" autoItemSize="false" align="center" autoClearItems="true">
+      <relation target="n0_nf1s" sidePair="height-height,top-top"/>
+      <relation target="n0_nf1s" sidePair="width-width,center-center"/>
+      <item url="ui://994sajasnf1s1" name="limitGift"/>
+      <item url="ui://994sajaspdhx1c" name="free"/>
+      <item url="ui://994sajasnf1s3" name="treasure"/>
+      <item url="ui://994sajasnf1s5" name="jade"/>
+      <item url="ui://994sajasnf1sa" name="gold"/>
+    </list>
+    <component id="n15_nf1s" name="closeBtn" src="royda" fileName="component/backBtn.xml" pkg="864gshxx" xy="5,5">
+      <relation target="n0_nf1s" sidePair="top-top,left-left"/>
+    </component>
+    <loader id="n16_oz5q" name="bowlderIcon" xy="345,19" size="26,26" touchable="false" url="ui://864gshxxlsshd0" fill="scaleMatchWidth">
+      <relation target="n13_nf1s" sidePair="left-right,middle-middle"/>
+    </loader>
+    <text id="n17_oz5q" name="bowlderText" xy="371,17" size="100,30" fontSize="24" color="#ffffff" vAlign="middle" leading="0" autoSize="none" bold="true" text="9999999">
+      <relation target="n16_oz5q" sidePair="middle-middle,left-right"/>
+    </text>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Scale" tween="true" startValue="0.9,0.9" endValue="1,1" duration="6"/>
+  </transition>
+  <transition name="gold" options="4">
+    <item time="42" type="Scale" target="n9_nf1s" tween="true" startValue="1,1" endValue="1.1,1.1" duration="2"/>
+    <item time="44" type="Scale" target="n9_nf1s" tween="true" startValue="1.1,1.1" endValue="1,1" duration="2"/>
+    <item time="46" type="Scale" target="n9_nf1s" tween="true" startValue="1,1" endValue="1.1,1.1" duration="2"/>
+    <item time="48" type="Scale" target="n9_nf1s" tween="true" startValue="1.1,1.1" endValue="1,1" duration="2"/>
+    <item time="50" type="Scale" target="n9_nf1s" tween="true" startValue="1,1" endValue="1.1,1.1" duration="2"/>
+    <item time="52" type="Scale" target="n9_nf1s" tween="true" startValue="1.1,1.1" endValue="1,1" duration="2"/>
+  </transition>
+  <transition name="jade" options="4">
+    <item time="42" type="Scale" target="n11_nf1s" tween="true" startValue="1,1" endValue="1.1,1.1" duration="2"/>
+    <item time="44" type="Scale" target="n11_nf1s" tween="true" startValue="1.1,1.1" endValue="1,1" duration="2"/>
+    <item time="46" type="Scale" target="n11_nf1s" tween="true" startValue="1,1" endValue="1.1,1.1" duration="2"/>
+    <item time="48" type="Scale" target="n11_nf1s" tween="true" startValue="1.1,1.1" endValue="1,1" duration="2"/>
+    <item time="50" type="Scale" target="n11_nf1s" tween="true" startValue="1,1" endValue="1.1,1.1" duration="2"/>
+    <item time="52" type="Scale" target="n11_nf1s" tween="true" startValue="1.1,1.1" endValue="1,1" duration="2"/>
+  </transition>
+</component>

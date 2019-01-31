@@ -1,0 +1,13 @@
+
+{
+            "SK00801": {"__id__": "SK00801", "resource": "SK00801", "general": 8, "head": "8_1", "name": "#TEXT_23009", "desc": "#TEXT_23010", "bind": "", "weapon": "" },
+			"SK07301": {"__id__": "SK07301", "resource": "SK07301", "general": 73, "head": "73_1", "name": "#TEXT_23011", "desc": "#TEXT_23012", "bind": "SK07401", "weapon": "" },
+			"SK07401": {"__id__": "SK07401", "resource": "SK07401", "general": 74, "head": "", "name": "#TEXT_0", "desc": "#TEXT_0", "bind": "SK07301", "weapon": "" },
+			"SK07201": {"__id__": "SK07201", "resource": "SK07201", "general": 72, "head": "72_1", "name": "#TEXT_23003", "desc": "#TEXT_0", "bind": "", "weapon": "" },
+			"SK00901": {"__id__": "SK00901", "resource": "SK00901", "general": 9, "head": "9_1", "name": "#TEXT_23021", "desc": "#TEXT_23022", "bind": "", "weapon": "" },
+			"SK06101": {"__id__": "SK06101", "resource": "SK06101", "general": 61, "head": "61_1", "name": "#TEXT_23023", "desc": "#TEXT_23024", "bind": "", "weapon": "" },
+			"SK02802": {"__id__": "SK02802", "resource": "SK02802", "general": 28, "head": "28", "name": "#TEXT_23025", "desc": "#TEXT_23026", "bind": "", "weapon": "sk02802_att" },
+			"SK07501": {"__id__": "SK07501", "resource": "SK07501", "general": 75, "head": "75", "name": "#TEXT_23007", "desc": "#TEXT_23008", "bind": "", "weapon": "" },
+			"SK04401": {"__id__": "SK04401", "resource": "SK04401", "general": 44, "head": "44_1", "name": "#TEXT_23005", "desc": "#TEXT_23006", "bind": "", "weapon": "" }
+   }
+    

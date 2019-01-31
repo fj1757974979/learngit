@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="g6ma6zzk" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="j66l0" name="equipPanel.xml" path="/component/" exported="true"/>
+    <component id="j66l1" name="equipView.xml" path="/component/" exported="true"/>
+    <component id="j66l2" name="equipCom.xml" path="/component/" exported="true"/>
+    <component id="j66l3" name="equipItemCom.xml" path="/component/" exported="true"/>
+    <component id="j66l5" name="equipBag.xml" path="/component/" exported="true"/>
+    <image id="par0h" name="eq6.png" path="/" exported="true"/>
+    <image id="par0i" name="eq1_s.png" path="/" exported="true"/>
+    <image id="par0j" name="eq3_s.png" path="/" exported="true"/>
+    <image id="par0k" name="eq4.png" path="/" exported="true"/>
+    <image id="par0l" name="eq5.png" path="/" exported="true"/>
+    <image id="par0m" name="eq1.png" path="/" exported="true"/>
+    <image id="par0n" name="eq2.png" path="/" exported="true"/>
+    <image id="par0o" name="eq5_s.png" path="/" exported="true"/>
+    <image id="par0p" name="eq3.png" path="/" exported="true"/>
+    <image id="par0q" name="eq2_s.png" path="/" exported="true"/>
+    <image id="par0r" name="eq4_s.png" path="/" exported="true"/>
+    <image id="par0s" name="eq6_s.png" path="/" exported="true"/>
+    <image id="par0t" name="equipWnd.png" path="/" exported="true"/>
+    <image id="par0u" name="equipBagBtn.png" path="/" exported="true"/>
+    <image id="par0v" name="equipWndEmpty.png" path="/" exported="true"/>
+    <image id="par0w" name="equipWndBlink.png" path="/" exported="true"/>
+    <image id="p07sx" name="equipMaskWnd.png" path="/"/>
+    <image id="p07sy" name="equipWndEnemy.png" path="/" exported="true"/>
+  </resources>
+  <publish name="equip"/>
+</packageDescription>

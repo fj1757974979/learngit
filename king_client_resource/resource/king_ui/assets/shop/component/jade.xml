@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="460,250" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n0_nf1s" name="n0" xy="200,5" pivot="0.5,0.5" size="59,29" touchable="false" url="ui://994sajasryqpn" autoSize="true"/>
+    <list id="n2_nf1s" name="list" xy="0,40" size="460,210" layout="flow_hz" overflow="hidden" lineGap="20" defaultItem="ui://994sajasryqp16" align="center" autoClearItems="true">
+      <item icon="ui://994sajasryqpo"/>
+      <item icon="ui://994sajasryqpp"/>
+      <item icon="ui://994sajasryqpq"/>
+      <item icon="ui://994sajasryqpr"/>
+      <item icon="ui://994sajasryqps"/>
+      <item icon="ui://994sajasryqpt"/>
+    </list>
+    <loader id="n3_ryqp" name="n3" xy="0,20" size="195,5" touchable="false" url="ui://994sajasryqpl" fill="scaleFree"/>
+    <loader id="n4_ryqp" name="n4" xy="265,20" size="195,5" touchable="false" url="ui://994sajasryqpm" fill="scaleFree"/>
+  </displayList>
+  <transition name="t0" options="4">
+    <item time="0" type="XY" tween="true" startValue="230,-" endValue="0,-" duration="6" ease="Back.Out"/>
+  </transition>
+</component>

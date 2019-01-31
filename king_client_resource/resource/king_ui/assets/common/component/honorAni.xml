@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,50" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n0_u6us" name="n0" xy="106,0" size="268,50" touchable="false" url="ui://rdb04el0c3kwhe" fill="scaleFree">
+      <relation target="n1_u6us" sidePair="height-height,width-width"/>
+      <relation target="" sidePair="center-center"/>
+    </loader>
+    <text id="n1_u6us" name="text" xy="165,11" size="197,28" restrictSize="0,400,0,0" fontSize="24" color="#ffffff" align="center" vAlign="middle" leading="0" strokeColor="#333333" text="勋章效果：卡牌+2">
+      <relation target="n0_u6us" sidePair="center-center,middle-middle"/>
+    </text>
+    <loader id="n2_pz4o" name="icon" xy="110,0" size="50,50" url="ui://47ikzi2anf1m15" fill="scaleFree">
+      <relation target="n1_u6us" sidePair="right-left,middle-middle"/>
+    </loader>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Alpha" value="0"/>
+    <item time="0" type="Scale" tween="true" startValue="0.5,0.5" endValue="1,1" duration="24" ease="Elastic.Out"/>
+    <item time="9" type="Alpha" value="1"/>
+    <item time="45" type="Alpha" tween="true" startValue="1" endValue="0" duration="3"/>
+    <item time="48" type="Scale" value="1,1"/>
+  </transition>
+</component>

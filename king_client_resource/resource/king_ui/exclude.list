@@ -1,0 +1,7 @@
+exclude.list
+sync_resource.py
+sync_resource.pyc
+*.DS_Store
+*.xml
+*.json
+*atlas*.png

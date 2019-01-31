@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="125,162" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n18_q13d" name="baseImg" xy="0,0" size="125,162" url="ui://rdb04el0b950h9" fill="scaleFree" color="#cccccc"/>
+    <loader id="n19_q13d" name="frontImg" xy="0,0" size="125,162" url="ui://rdb04el0pqokhk" fill="scaleFree"/>
+    <loader id="n21_92kj" name="headFrame" xy="10,28" size="105,105" url="ui://864gshxxphrrcz" autoSize="true">
+      <relation target="n19_q13d" sidePair="center-center,middle-middle"/>
+    </loader>
+  </displayList>
+</component>

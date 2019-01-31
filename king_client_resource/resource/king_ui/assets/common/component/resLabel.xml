@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="190,60" extention="Label">
+  <displayList>
+    <loader id="n4_lmb3" name="icon" xy="5,10" size="40,40" touchable="false" url="ui://864gshxxnf1s9a" fill="scale">
+      <relation target="" sidePair="left-left,middle-middle"/>
+    </loader>
+    <text id="n5_c3kw" name="title" xy="45,15" size="138,36" fontSize="32" vAlign="middle" leading="0" italic="true" text="100/1000"/>
+  </displayList>
+  <relation target="n5_c3kw" sidePair="rightext-right"/>
+</component>

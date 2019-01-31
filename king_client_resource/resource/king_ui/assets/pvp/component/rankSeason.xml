@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,800" pivot="0.5,0.5">
+  <displayList>
+    <component id="n7_evvl" name="bg" src="qg2m2q" fileName="component/AdjustBg.xml" pkg="864gshxx" xy="0,0"/>
+    <list id="n1_iy1p" name="resultList" xy="0,0" pivot="0.5,0.5" size="480,800" selectionMode="none" overflow="scroll" scrollBarFlags="14" scrollBarMargin="80,80,0,0" scrollBarRes="ui://864gshxxjzjo62," colGap="10" defaultItem="ui://dvmsogfrlyri6c" autoItemSize="false" align="center" autoClearItems="true">
+      <relation target="n7_evvl" sidePair="middle-middle"/>
+      <relation target="n7_evvl" sidePair="width-width"/>
+      <item/>
+    </list>
+    <component id="n24_npy0" name="btnClose" src="royda" fileName="component/backBtn.xml" pkg="864gshxx" xy="5,5">
+      <relation target="n7_evvl" sidePair="left-left,top-top"/>
+    </component>
+  </displayList>
+</component>

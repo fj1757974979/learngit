@@ -1,0 +1,5 @@
+{
+     "status": 0,
+     "message": "",
+     "servers": [ {"host":"server.lzd.openew.com", "port":9100, "wssport":9101} ]
+}

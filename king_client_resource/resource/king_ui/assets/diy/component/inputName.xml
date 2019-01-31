@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="135,35" extention="Label">
+  <displayList>
+    <loader id="n2_jed2" name="n2" xy="0,0" size="135,35" url="ui://t63zsq4zx88nd"/>
+    <text id="n1" name="title" xy="0,0" size="135,35" input="true" prompt="请输入卡名" maxLength="10" font="微软雅黑" fontSize="18" color="#ffffff" align="center" vAlign="middle" autoSize="none" bold="true" singleLine="true" text="">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+</component>

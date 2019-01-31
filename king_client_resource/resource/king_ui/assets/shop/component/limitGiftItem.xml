@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="460,240" pivot="0.5,0.5" extention="Button">
+  <displayList>
+    <loader id="n0_nf1s" name="bg1" xy="20,5" size="420,210" url="ui://994sajasal2v19" fill="scaleFree"/>
+    <text id="n1_nf1s" name="treasureName" xy="132,15" size="197,28" fontSize="24" align="center" leading="0" autoSize="shrink" text="新手限定优惠礼包">
+      <relation target="n0_nf1s" sidePair="center-center,top-top"/>
+    </text>
+    <component id="n10_nf1s" name="card" src="tcupd" fileName="component/cardCnt.xml" xy="105,45" visible="false"/>
+    <loader id="n12_nf1s" name="buy" xy="150,190" pivot="0.5,0.5" size="160,40" url="ui://994sajasryqp15" align="center" vAlign="middle" fill="scaleMatchWidth"/>
+    <text id="n14_nf1s" name="time" xy="30,190" size="102,20" visible="false" fontSize="16" color="#ffffff" align="center" leading="0" bold="true" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="剩余：23小时">
+      <relation target="n0_nf1s" sidePair="left-left,bottom-bottom"/>
+    </text>
+    <loader id="n15_l4e4" name="box" xy="250,55" size="123,120" url="ui://zfg0revpl8xin" fill="scaleMatchHeight"/>
+    <loader id="n8_nf1s" name="n1" xy="321,25" size="80,80" touchable="false" url="ui://994sajasryqp17" align="center" fill="scaleMatchWidth">
+      <relation target="n0_nf1s" sidePair="center-center,top-top"/>
+    </loader>
+    <loader id="n16_rbz0" name="n16" xy="337,124" pivot="0.5,0.5" size="40,40" url="ui://864gshxxd54gao" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <relation target="n9_nf1s" sidePair="right-left,middle-middle"/>
+    </loader>
+    <text id="n9_nf1s" name="cardCnt" xy="341,130" size="31,28" font="楷体" fontSize="24" color="#ffffff" align="center" vAlign="middle" leading="0" bold="true" strokeColor="#000000" strokeSize="2" text="99">
+      <relation target="n15_l4e4" sidePair="center-center"/>
+    </text>
+    <text id="n17_ew1v" name="price" xy="230,196" size="45,28" fontSize="24" color="#ffffff" vAlign="middle" leading="0" bold="true" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="200">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <loader id="n18_ew1v" name="n18" xy="177,187" size="40,40" touchable="false" url="ui://864gshxxnf1s9b" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <relation target="n17_ew1v" sidePair="middle-middle,right-left"/>
+    </loader>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.95"/>
+  <transition name="t0">
+    <item time="0" type="Scale" tween="true" startValue="1,1" endValue="0.95,0.95" duration="3"/>
+    <item time="3" type="Scale" tween="true" startValue="0.95,0.95" endValue="1,1" duration="3"/>
+  </transition>
+</component>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,140">
+  <displayList>
+    <loader id="n4_tcup" name="baseImg" xy="6,5" size="87,113" url="ui://zfg0revpab4x1c" fill="scaleFree"/>
+    <loader id="n5_tcup" name="cardImg" xy="9,25" size="82,100" url="ui://994sajasryqpt" align="center" vAlign="middle" fill="scaleMatchWidth"/>
+    <text id="n6_ye0u" name="title" xy="-50,116" size="200,24" restrictSize="0,423,0,0" font="冬青黑体简体中文 W6" fontSize="16" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" bold="true" strokeColor="#000000" text="x99">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+  <transition name="t0"/>
+</component>

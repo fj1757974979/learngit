@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,480" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n0_lnsl" name="n0" xy="0,0" size="480,480" url="ui://dvmsogfrfm9321" fill="scaleFree"/>
+    <loader id="n36_ul11" name="n36" xy="-43,-19" pivot="0.5,0.5" size="566,518" scale="0.8,0.8" touchable="false" url="ui://864gshxxvco45w" autoSize="true"/>
+    <text id="n23_lnsl" name="txt1" xy="90,30" size="300,50" fontSize="40" color="#ffff00" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#333333" shadowColor="#333333" shadowOffset="1,1" singleLine="true" text="#TEXT_70033"/>
+    <loader id="n32_lnsl" name="rankIcon" xy="150,139" pivot="0.5,0.5" size="180,180" touchable="false" url="ui://864gshxxgy104s" align="center" vAlign="middle" fill="scaleMatchHeight"/>
+    <text id="n31_lnsl" name="rankLevel" xy="140,204" size="200,50" fontSize="40" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" bold="true" strokeColor="#000033" strokeSize="2" shadowColor="#000033" shadowOffset="1,1" text="大师1段"/>
+    <component id="n38_ul11" name="confirmBtn" src="qifi1d" fileName="component/functionBtn2.xml" pkg="864gshxx" xy="165,400" size="150,50">
+      <Button title="#TEXT_70032"/>
+    </component>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Rotation" target="n36_ul11" tween="true" startValue="0" endValue="360" duration="96" ease="Linear"/>
+  </transition>
+  <transition name="t1" autoPlay="true">
+    <item time="0" type="Alpha" tween="true" startValue="0.8" endValue="1" duration="6"/>
+    <item time="0" type="Scale" tween="true" startValue="0.8,0.8" endValue="1,1" duration="6"/>
+  </transition>
+</component>

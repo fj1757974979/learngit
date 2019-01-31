@@ -1,0 +1,11 @@
+
+{
+            "1": {"__id__": 1, "type": "gold", "rewardId": "", "cnt": 5000, "exchangeCnt": 0, "price": 10 },
+			"2": {"__id__": 2, "type": "card", "rewardId": "4", "cnt": 1, "exchangeCnt": 0, "price": 20 },
+			"3": {"__id__": 3, "type": "skin", "rewardId": "SK06101", "cnt": 1, "exchangeCnt": 1, "price": 20 },
+			"4": {"__id__": 4, "type": "headFrame", "rewardId": "2", "cnt": 1, "exchangeCnt": 1, "price": 20 },
+			"5": {"__id__": 5, "type": "jade", "rewardId": "", "cnt": 5, "exchangeCnt": 0, "price": 2 },
+			"6": {"__id__": 6, "type": "bowlder", "rewardId": "", "cnt": 5, "exchangeCnt": 0, "price": 2 },
+			"7": {"__id__": 7, "type": "treasure", "rewardId": "BX0201", "cnt": 1, "exchangeCnt": 3, "price": 2 }
+   }
+    

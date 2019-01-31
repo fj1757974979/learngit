@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,800" pivot="0.5,0.5" scrollBarRes="ui://864gshxxjzjo62,">
+  <controller name="page" pages="0,1,1,2,2,3" selected="2"/>
+  <displayList>
+    <component id="n7_evvl" name="bg" src="qg2m2q" fileName="component/AdjustBg.xml" pkg="864gshxx" xy="0,0"/>
+    <list id="n27_p8yy" name="n27" xy="0,10" size="480,780" pageController="page" selectionMode="none" overflow="scroll" scrollBarFlags="14" scrollBarRes="ui://864gshxxjzjo62," align="center" selectionController="page">
+      <relation target="n7_evvl" sidePair="center-center,middle-middle"/>
+      <item url="ui://47ikzi2ak9is1d" name="data1"/>
+      <item url="ui://47ikzi2ap8yyy" name="data3"/>
+      <item url="ui://47ikzi2ap8yyz" name="data4"/>
+    </list>
+    <component id="n24_npy0" name="btnClose" src="royda" fileName="component/backBtn.xml" pkg="864gshxx" xy="5,5">
+      <relation target="n7_evvl" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n28_k9is" name="preCptBtn" src="uomqd" fileName="component/preCptBtn.xml" pkg="8pche6l7" xy="221,0" pivot="0.5,0.5" rotation="90">
+      <gearDisplay controller="page" pages="1,2"/>
+      <relation target="n7_evvl" sidePair="top-top"/>
+    </component>
+    <component id="n29_k9is" name="nextCptBtn" src="uomqe" fileName="component/nextCptBtn.xml" pkg="8pche6l7" xy="221,752" pivot="0.5,0.5" rotation="90">
+      <gearDisplay controller="page" pages="0,1"/>
+      <relation target="n7_evvl" sidePair="bottom-bottom"/>
+    </component>
+  </displayList>
+</component>

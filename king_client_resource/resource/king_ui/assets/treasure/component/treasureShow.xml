@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="460,164">
+  <displayList>
+    <component id="n5_l8xi" name="treasure1" src="l8xis" fileName="component/treasure.xml" xy="0,0"/>
+    <component id="n6_l8xi" name="treasure2" src="l8xis" fileName="component/treasure.xml" xy="117,0"/>
+    <component id="n7_l8xi" name="treasure3" src="l8xis" fileName="component/treasure.xml" xy="234,0"/>
+    <component id="n8_l8xi" name="treasure4" src="l8xis" fileName="component/treasure.xml" xy="350,0"/>
+    <loader id="n9_mno2" name="boxImg" xy="-14,27" pivot="0.5,0.5" size="138,104" alpha="0" touchable="false" url="ui://zfg0revpl8xin" align="center" vAlign="middle" fill="scale"/>
+  </displayList>
+  <transition name="1"/>
+  <transition name="2"/>
+  <transition name="3"/>
+  <transition name="4"/>
+  <transition name="t4">
+    <item time="0" type="Alpha" target="n9_mno2" value="0"/>
+  </transition>
+  <transition name="t0">
+    <item time="0" type="Alpha" target="n9_mno2" value="1"/>
+    <item time="0" type="Scale" target="n9_mno2" value="1.2,1.2"/>
+    <item time="0" type="XY" target="n9_mno2" tween="true" startValue="300,-100" endValue="161,-153" duration="12" ease="Quart.Out"/>
+    <item time="12" type="Scale" target="n9_mno2" tween="true" startValue="1.2,1.2" endValue="1,1" duration="12" ease="Sine.In"/>
+    <item time="12" type="XY" target="n9_mno2" tween="true" startValue="161,-153" endValue="-14,27" duration="12" ease="Quart.Out"/>
+  </transition>
+  <transition name="t1">
+    <item time="0" type="Alpha" target="n9_mno2" value="1"/>
+    <item time="0" type="Scale" target="n9_mno2" value="1.2,1.2"/>
+    <item time="0" type="XY" target="n9_mno2" tween="true" startValue="300,-100" endValue="220,-153" duration="12" ease="Quart.Out"/>
+    <item time="12" type="Scale" target="n9_mno2" tween="true" startValue="1.2,1.2" endValue="1,1" duration="12" ease="Sine.In"/>
+    <item time="12" type="XY" target="n9_mno2" tween="true" startValue="220,-153" endValue="103,27" duration="12" ease="Quart.Out"/>
+  </transition>
+  <transition name="t2">
+    <item time="0" type="Alpha" target="n9_mno2" value="1"/>
+    <item time="0" type="Scale" target="n9_mno2" value="1.2,1.2"/>
+    <item time="0" type="XY" target="n9_mno2" tween="true" startValue="300,-100" endValue="277,-153" duration="12" ease="Quart.Out"/>
+    <item time="12" type="Scale" target="n9_mno2" tween="true" startValue="1.2,1.2" endValue="1,1" duration="12" ease="Sine.In"/>
+    <item time="12" type="XY" target="n9_mno2" tween="true" startValue="277,-153" endValue="220,27" duration="12" ease="Quart.Out"/>
+  </transition>
+  <transition name="t3">
+    <item time="0" type="Alpha" target="n9_mno2" value="1"/>
+    <item time="0" type="Scale" target="n9_mno2" tween="true" startValue="0.3,0.3" endValue="1,1" duration="15" ease="Sine.In"/>
+    <item time="0" type="XY" target="n9_mno2" tween="true" startValue="336,27" endValue="336,-43" duration="12" ease="Quart.Out"/>
+    <item time="12" type="XY" target="n9_mno2" tween="true" startValue="336,-43" endValue="336,27" duration="12" ease="Elastic.Out"/>
+  </transition>
+</component>

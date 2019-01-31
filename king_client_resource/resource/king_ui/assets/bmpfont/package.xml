@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="tlhdbap0" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="e8az0" name="0.png" path="/" exported="true"/>
+    <image id="e8az1" name="1.png" path="/" exported="true"/>
+    <image id="e8az2" name="2.png" path="/" exported="true"/>
+    <image id="e8az3" name="3.png" path="/" exported="true"/>
+    <image id="e8az4" name="4.png" path="/" exported="true"/>
+    <image id="e8az5" name="5.png" path="/" exported="true"/>
+    <image id="e8az6" name="6.png" path="/" exported="true"/>
+    <image id="e8az7" name="7.png" path="/" exported="true"/>
+    <image id="e8az8" name="8.png" path="/" exported="true"/>
+    <image id="e8az9" name="9.png" path="/" exported="true"/>
+    <font id="e8aza" name="number1.fnt" path="/" exported="true"/>
+    <font id="p1qsm" name="fightBlue.fnt" path="/" exported="true"/>
+    <image id="p1qsn" name="b1.png" path="/" exported="true"/>
+    <image id="p1qso" name="b2.png" path="/" exported="true"/>
+    <image id="p1qsp" name="b3.png" path="/" exported="true"/>
+    <image id="p1qsq" name="b4.png" path="/" exported="true"/>
+    <image id="p1qsr" name="b5.png" path="/" exported="true"/>
+    <image id="p1qss" name="b6.png" path="/" exported="true"/>
+    <image id="p1qst" name="b7.png" path="/" exported="true"/>
+    <image id="p1qsu" name="b8.png" path="/" exported="true"/>
+    <image id="p1qsv" name="b9.png" path="/" exported="true"/>
+    <font id="p1qsw" name="fightRed.fnt" path="/" exported="true"/>
+    <image id="p1qsx" name="r1.png" path="/" exported="true"/>
+    <image id="p1qsy" name="r2.png" path="/" exported="true"/>
+    <image id="p1qsz" name="r3.png" path="/" exported="true"/>
+    <image id="p1qs10" name="r4.png" path="/" exported="true"/>
+    <image id="p1qs11" name="r5.png" path="/" exported="true"/>
+    <image id="p1qs12" name="r6.png" path="/" exported="true"/>
+    <image id="p1qs13" name="r7.png" path="/" exported="true"/>
+    <image id="p1qs14" name="r8.png" path="/" exported="true"/>
+    <image id="p1qs15" name="r9.png" path="/" exported="true"/>
+  </resources>
+  <publish name="bmpfont"/>
+</packageDescription>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="462,144" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n0_qifi" name="n0" xy="0,0" size="462,144" url="ui://864gshxxf7m85g" fill="scaleFree">
+      <relation target="n2_qifi" sidePair="height-height"/>
+    </loader>
+    <text id="n2_qifi" name="title" xy="19,25" size="423,30" restrictSize="0,423,0,0" fontSize="26" align="center" vAlign="middle" leading="0" autoSize="height" bold="true" text="还玩不？">
+      <relation target="n0_qifi" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n6_f7m8" name="acceptBtn" src="jed213" fileName="component/functionBtn.xml" xy="156,80" size="150,50">
+      <relation target="n0_qifi" sidePair="center-center,bottom-bottom"/>
+      <Button title="#TEXT_70005" icon="ui://864gshxxj6006x"/>
+    </component>
+  </displayList>
+  <relation target="n0_qifi" sidePair="width-width,height-height"/>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Scale" tween="true" startValue="0.5,0.5" endValue="1,1" duration="6" ease="Quart.Out"/>
+    <item time="0" type="Sound" value="ui://864gshxxyyke6r,100"/>
+  </transition>
+</component>

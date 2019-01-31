@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,622" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n1_x88n" name="baseImg" xy="0,0" size="480,622" url="ui://rdb04el0b950h8" fill="scaleFree"/>
+    <image id="n2_x88n" name="icon" src="uoof2j" pkg="rcm1dlbr" xy="7,8" size="465,606">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <loader id="n0_x88n" name="frontImg" xy="0,0" size="480,622" url="ui://rdb04el0g6zkhr" fill="scaleFree"/>
+    <graph id="n14_d22g" name="closeBg" xy="0,-89" size="480,800" type="rect" lineColor="#00ff0000" fillColor="#00ffffff"/>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Scale" tween="true" startValue="0.5,0.5" endValue="1,1" duration="6"/>
+  </transition>
+</component>

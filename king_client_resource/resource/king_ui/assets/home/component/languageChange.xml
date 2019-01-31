@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="380,350">
+  <displayList>
+    <loader id="n0_tlw5" name="n0" xy="0,0" size="380,350" url="ui://864gshxxf7m85d" fill="scaleFree">
+      <relation target="" sidePair="height-height"/>
+    </loader>
+    <list id="n1_tlw5" name="languageList" xy="40,70" size="300,201" layout="flow_hz" overflow="scroll" lineItemCount="2" defaultItem="ui://8d3e8y55tlw52u" align="center" autoClearItems="true">
+      <item title="简体中文"/>
+      <item title="繁體中文"/>
+      <item title="Engelish"/>
+      <item title="vxlkerwei"/>
+    </list>
+    <component id="n2_tlw5" name="confirmBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="115,280" size="150,50">
+      <relation target="" sidePair="bottom-bottom"/>
+      <Button title="#TEXT_70005" icon="ui://864gshxxj6006u" sound="ui://864gshxxlr3f2n"/>
+    </component>
+    <component id="n3_tlw5" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="319,10"/>
+  </displayList>
+</component>

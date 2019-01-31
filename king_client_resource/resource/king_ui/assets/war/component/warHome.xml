@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,800" scroll="both">
+  <controller name="more" pages="0,,1," selected="0">
+    <action type="play_transition" fromPage="0" toPage="1" transition="t0"/>
+  </controller>
+  <displayList>
+    <component id="n3_xjab" name="bg" src="qg2m2q" fileName="component/AdjustBg.xml" pkg="864gshxx" xy="0,0" alpha="0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n6_xjab" name="map" src="xjab0" fileName="component/map.xml" xy="0,0" size="480,800">
+      <relation target="n3_xjab" sidePair="width-width,height-height"/>
+      <relation target="n3_xjab" sidePair="center-center,middle-middle"/>
+    </component>
+    <loader id="n19_u5xl" name="top" xy="0,0" size="480,104" touchable="false" url="ui://2ipmzghtv2ye9j" fill="scaleFree" autoSize="true">
+      <relation target="n3_xjab" sidePair="top-top,width-width"/>
+      <relation target="n3_xjab" sidePair="center-center"/>
+    </loader>
+    <component id="n2_xjab" name="n2" src="royda" fileName="component/backBtn.xml" pkg="864gshxx" xy="5,5">
+      <relation target="n3_xjab" sidePair="top-top,left-left"/>
+    </component>
+    <component id="n4_xjab" name="moreBtn" src="srbf69" fileName="component/moreBtn.xml" pkg="dvmsogfr" xy="410,630" visible="false">
+      <relation target="n3_xjab" sidePair="bottom-bottom,right-right"/>
+      <Button controller="more" page="1"/>
+    </component>
+    <list id="n5_xjab" name="commonFunction" xy="400,525" pivot="0.5,0" size="80,160" autoItemSize="false" align="center">
+      <relation target="n3_xjab" sidePair="bottom-bottom,right-right"/>
+      <item url="ui://2ipmzghtxjabu" name="worldBtn"/>
+      <item url="ui://2ipmzghtxjabr" name="noticeBtn"/>
+    </list>
+    <component id="n7_xjab" name="questBtn" src="xjabw" fileName="component/questBtn.xml" xy="306,733">
+      <relation target="n3_xjab" sidePair="right-right,bottom-bottom"/>
+      <Button titleFontSize="30"/>
+    </component>
+    <component id="n8_xjab" name="cityBtn" src="mhry77" fileName="component/cityBtn.xml" xy="0,733">
+      <relation target="n3_xjab" sidePair="left-left,bottom-bottom"/>
+      <Button titleFontSize="30"/>
+    </component>
+    <component id="n14_ej80" name="n14" src="ej805f" fileName="component/fightStatusPanel.xml" xy="80,580">
+      <relation target="n3_xjab" sidePair="center-center,bottom-bottom"/>
+    </component>
+    <component id="n17_d8ql" name="n17" src="d8ql5u" fileName="component/gameoverPanel.xml" xy="80,325">
+      <relation target="" sidePair="middle-middle,center-center"/>
+    </component>
+    <component id="n24_vvhm" name="shopBtn" src="vvhmbf" fileName="component/exchangeBtn.xml" xy="0,525">
+      <relation target="n3_xjab" sidePair="bottom-bottom,left-left"/>
+    </component>
+    <component id="n18_u5xl" name="countryAppointBtn" src="n91y8x" fileName="component/jobBtn.xml" xy="0,605">
+      <relation target="n3_xjab" sidePair="bottom-bottom,left-left"/>
+    </component>
+    <component id="n15_qjxh" name="selectCityPanel" src="qjxh5m" fileName="component/warStatusPanel.xml" xy="0,60" touchable="false">
+      <relation target="n3_xjab" sidePair="top-top,center-center"/>
+      <relation target="n3_xjab" sidePair="width-width"/>
+    </component>
+    <component id="n22_t208" name="fightBtn" src="v2ye9k" fileName="component/fightBtn.xml" xy="306,733">
+      <relation target="n3_xjab" sidePair="left-left,bottom-bottom"/>
+      <Button titleFontSize="30"/>
+    </component>
+    <loader id="n23_l2zz" name="battlePointBg" xy="174,15" size="132,31" url="ui://2ipmzghtonso6g" align="right" vAlign="middle">
+      <relation target="n19_u5xl" sidePair="center-center,top-top"/>
+    </loader>
+    <text id="n21_u5xl" name="battlePoint" xy="206,15" size="77,28" fontSize="24" color="#ffffff" align="right" vAlign="middle" leading="0" bold="true" text="111111">
+      <relation target="n23_l2zz" sidePair="center-center,middle-middle"/>
+    </text>
+    <loader id="n20_u5xl" name="battleIcon" xy="170,14" size="30,30" url="ui://2ipmzghtmhry72" fill="scaleFree">
+      <relation target="n23_l2zz" sidePair="left-left,middle-middle"/>
+    </loader>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Alpha" target="n5_xjab" tween="true" startValue="0" endValue="1" duration="6" ease="Back.In"/>
+  </transition>
+</component>

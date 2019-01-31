@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,800">
+  <displayList>
+    <graph id="n0_gwr7" name="n0" xy="0,0" size="480,800" type="rect" lineColor="#00000000" fillColor="#00ffffff"/>
+    <image id="n1_gwr7" name="loadingCircle" src="gwr78" fileName="resLoadingCircle.png" xy="213,372" pivot="0.5,0.5">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n2_gwr7" name="progressText" xy="129,435" size="223,36" font="行楷-简 细体" fontSize="23" color="#ffffff" bold="true" text="正在加载资源 . . . 10/100"/>
+  </displayList>
+</component>

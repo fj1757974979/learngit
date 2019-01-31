@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="ravbpjp3" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="uoof8" name="cardpool.xml" path="/component/" exported="true"/>
+    <component id="jh6f9" name="weiCampBtn.xml" path="/component/" exported="true"/>
+    <component id="jh6fa" name="campCardPool.xml" path="/component/" exported="true"/>
+    <image id="bzh4e" name="uplevelBtnImg.png" path="/" exported="true"/>
+    <component id="bzh4i" name="cardInfo.xml" path="/component/" exported="true"/>
+    <component id="bzh4k" name="valueProgressBar.xml" path="/component/" exported="true"/>
+    <component id="bzh4l" name="uplevelBtn.xml" path="/component/" exported="true"/>
+    <component id="qpuoo" name="qunText.xml" path="/component/" exported="true"/>
+    <image id="j4cjq" name="txtCost.png" path="/" exported="true"/>
+    <image id="j4cjs" name="level3.png" path="/" exported="true"/>
+    <image id="j4cjt" name="level2.png" path="/" exported="true"/>
+    <image id="j4cju" name="level1.png" path="/" exported="true"/>
+    <image id="j4cjv" name="level5.png" path="/" exported="true"/>
+    <image id="j4cjw" name="level4.png" path="/" exported="true"/>
+    <component id="j4cjz" name="levelBtn.xml" path="/component/" exported="true"/>
+    <component id="qw7t14" name="shuCampBtn.xml" path="/component/" exported="true"/>
+    <component id="qw7t15" name="wuCampBtn.xml" path="/component/" exported="true"/>
+    <component id="qw7t16" name="qunCampBtn.xml" path="/component/" exported="true"/>
+    <image id="c3kw10" name="curLevel.png" path="/" exported="true"/>
+    <image id="c3kw17" name="maxLevel.png" path="/" exported="true"/>
+    <component id="g0v318" name="cardInfoOther.xml" path="/component/" exported="true"/>
+    <image id="a64j19" name="qunText.png" path="/" exported="true"/>
+    <image id="a64j1a" name="qunTextSelected.png" path="/" exported="true"/>
+    <image id="a64j1b" name="shuText.png" path="/" exported="true"/>
+    <image id="a64j1c" name="shuTextSelected.png" path="/" exported="true"/>
+    <image id="a64j1d" name="weiText.png" path="/" exported="true"/>
+    <image id="a64j1e" name="weiTextSelected.png" path="/" exported="true"/>
+    <image id="a64j1f" name="wuText.png" path="/" exported="true"/>
+    <image id="a64j1g" name="wuTextSelected.png" path="/" exported="true"/>
+    <image id="kyov1h" name="infoBg.png" path="/" exported="true"/>
+    <image id="kyov1k" name="levelBtn.png" path="/" exported="true"/>
+    <image id="kyov1l" name="levelBtnSelected.png" path="/" exported="true"/>
+    <image id="kyov1m" name="progressFront.png" path="/" exported="true"/>
+    <image id="kyov1n" name="expBarImg.png" path="/" exported="true"/>
+    <image id="qehe1o" name="countryBg.png" path="/" exported="true"/>
+    <image id="qehe1p" name="cardListBg.png" path="/" exported="true"/>
+    <image id="snqe1q" name="progressBg.png" path="/" exported="true"/>
+    <image id="fa1u1r" name="line_left.png" path="/" exported="true"/>
+    <image id="fa1u1s" name="line_right.png" path="/" exported="true"/>
+    <image id="l2311u" name="limit.png" path="/" exported="true"/>
+    <image id="u8431v" name="qunFlag.png" path="/" exported="true"/>
+    <image id="u8431w" name="shuFlag.png" path="/" exported="true"/>
+    <image id="u8431x" name="weiFlag.png" path="/" exported="true"/>
+    <image id="u8431y" name="wuFlag.png" path="/" exported="true"/>
+    <component id="gwgn1z" name="skillFaq.xml" path="/component/" exported="true"/>
+    <component id="spox20" name="skillFaqText.xml" path="/component/" exported="true"/>
+    <image id="l1gi21" name="skinBtn.png" path="/" exported="true"/>
+    <component id="h24d22" name="skinBtn.xml" path="/component/" exported="true"/>
+    <component id="j66l23" name="equipBtn.xml" path="/component/" exported="true"/>
+    <component id="par024" name="equipBagBtn.xml" path="/component/" exported="true"/>
+    <image id="tlw525" name="levelUpBtn.png" path="/" exported="true"/>
+    <component id="tlw526" name="levelUpBtn.xml" path="/component/" exported="true"/>
+    <image id="u5xl27" name="pvpChk1.png" path="/" exported="true"/>
+    <image id="u5xl28" name="pvpChk2.png" path="/" exported="true"/>
+    <image id="u5xl29" name="warChk1.png" path="/" exported="true"/>
+    <image id="u5xl2a" name="warChk2.png" path="/" exported="true"/>
+    <component id="u5xl2b" name="pvpChk.xml" path="/component/" exported="true"/>
+    <component id="u5xl2c" name="warChk.xml" path="/component/" exported="true"/>
+    <image id="v5w12d" name="lockImg.png" path="/" exported="true"/>
+  </resources>
+  <publish name="cardpool"/>
+</packageDescription>

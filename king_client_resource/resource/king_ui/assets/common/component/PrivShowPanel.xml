@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,100">
+  <displayList>
+    <list id="n0_cb8p" name="privList" xy="0,100" size="480,300" overflow="scroll" defaultItem="ui://864gshxxpz4od0" autoClearItems="true">
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

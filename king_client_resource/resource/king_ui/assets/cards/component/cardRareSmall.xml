@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="88,20">
+  <displayList>
+    <loader id="n0_k33d" name="star1" xy="2,1" size="16,17" group="n5_k33d" url="ui://rdb04el0k33dip" autoSize="true"/>
+    <loader id="n1_k33d" name="star2" xy="19,1" size="16,17" group="n5_k33d" url="ui://rdb04el0k33dip" autoSize="true"/>
+    <loader id="n2_k33d" name="star3" xy="36,1" size="16,17" group="n5_k33d" url="ui://rdb04el0k33dip" autoSize="true"/>
+    <loader id="n3_k33d" name="star4" xy="53,1" size="16,17" group="n5_k33d" url="ui://rdb04el0k33dip" autoSize="true"/>
+    <loader id="n4_k33d" name="star5" xy="70,1" size="16,17" group="n5_k33d" url="ui://rdb04el0k33dip" autoSize="true"/>
+    <group id="n5_k33d" name="starGrp" xy="2,1" size="84,17"/>
+  </displayList>
+</component>

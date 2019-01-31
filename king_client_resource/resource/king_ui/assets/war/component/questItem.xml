@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,100" pivot="0.5,0.5" extention="Button">
+  <displayList>
+    <loader id="n3_g0v3" name="bg" xy="0,0" size="400,100" url="ui://2ipmzghtu5xl8g" align="center" vAlign="middle" fill="scaleFree"/>
+    <text id="n4_g0v3" name="text" xy="89,35" size="221,22" fontSize="18" color="#666666" align="center" vAlign="middle" leading="0" text="发展城市农业，迫在眉睫。">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n7_pdhx" name="rewardCnt1" xy="95,63" size="61,32" fontSize="28" color="#ffff00" vAlign="middle" leading="0" bold="true" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="9999">
+      <relation target="" sidePair="left-left"/>
+    </text>
+    <loader id="n8_pdhx" name="rewardIcon1" xy="65,64" size="30,30" touchable="false" url="ui://864gshxxnf1s9a" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <relation target="n7_pdhx" sidePair="middle-middle,right-left"/>
+    </loader>
+    <text id="n15_eo7t" name="title" xy="149,5" size="101,28" fontSize="24" color="#ffffff" align="center" vAlign="middle" leading="0" bold="true" strokeColor="#000000" text="灌溉任务">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n16_xjab" name="suggest" xy="10,10" size="45,24" fontSize="20" color="#66ff00" vAlign="middle" leading="0" strokeColor="#000000" text="政治">
+      <relation target="" sidePair="left-left"/>
+    </text>
+    <text id="n18_xjab" name="rewardCnt3" xy="295,63" size="33,32" fontSize="28" color="#ffffff" vAlign="middle" leading="0" bold="true" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="+2">
+      <relation target="" sidePair="left-left"/>
+    </text>
+    <loader id="n19_xjab" name="rewardIcon3" xy="265,64" size="30,30" touchable="false" url="ui://2ipmzghtonso6i" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <relation target="n18_xjab" sidePair="middle-middle,right-left"/>
+    </loader>
+    <text id="n21_ioq8" name="n2" xy="10,68" size="115,24" fontSize="20" vAlign="middle" leading="0" text="#TEXT_60348"/>
+    <text id="n22_97pc" name="rewardCnt2" xy="195,64" size="47,32" fontSize="28" color="#ffffff" vAlign="middle" leading="0" bold="true" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="999">
+      <relation target="" sidePair="left-left"/>
+    </text>
+    <loader id="n23_97pc" name="rewardIcon2" xy="165,65" size="30,30" touchable="false" url="ui://2ipmzghtmhry72" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <relation target="n22_97pc" sidePair="middle-middle,right-left"/>
+    </loader>
+    <component id="n24_jarz" name="acceptBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="0,0" size="400,100">
+      <Button title=" " titleFontSize="30" icon=" "/>
+    </component>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.95"/>
+  <transition name="t0" options="4" autoPlayRepeat="-1">
+    <item time="0" type="Sound" value="ui://864gshxxfuyj45,100"/>
+  </transition>
+  <transition name="t1" autoPlay="true">
+    <item time="0" type="Scale" tween="true" startValue="1,0" endValue="1,1" duration="6" ease="Sine.Out"/>
+  </transition>
+</component>

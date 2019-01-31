@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,400" pivot="0.5,0.5">
+  <displayList>
+    <graph id="n43_q13d" name="closeBg" xy="-40,-200" pivot="0.5,0.5" size="480,800" type="rect" lineColor="#00000000" fillColor="#00ffffff">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <loader id="n44_q13d" name="n44" xy="0,0" size="400,400" url="ui://zfg0revpy4nl1k" fill="scaleFree">
+      <relation target="n53_q13d" sidePair="bottomext-bottom,top-top"/>
+    </loader>
+    <loader id="n45_q13d" name="n45" xy="1,149" pivot="0.5,0.5" size="396,134" touchable="false" url="ui://zfg0revpy4nl1j" fill="scaleFree">
+      <relation target="n53_q13d" sidePair="top-top,bottomext-bottom"/>
+    </loader>
+    <loader id="n46_q13d" name="n46" xy="99,69" pivot="0.5,0.5" size="200,65" touchable="false" url="ui://864gshxxroydj" fill="scaleFree">
+      <relation target="n47_q13d" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n47_q13d" name="treasureName" xy="113,85" size="173,32" font="楷体" fontSize="28" color="#ffffff" align="center" vAlign="middle" leading="2" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="白银军备宝箱">
+      <relation target="n46_q13d" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n48_q13d" name="txt1" xy="9,285" size="380,30" font="楷体" fontSize="20" color="#00ff00" vAlign="middle" leading="0" autoSize="none" bold="true" strokeColor="#000000" text="至少x张新卡">
+      <relation target="" sidePair="bottom-bottom"/>
+    </text>
+    <loader id="n49_q13d" name="shadow" xy="93,-10" pivot="0.5,0.5" size="212,107" scale="0.7,0.7" touchable="false" url="ui://zfg0revpu6us2j"/>
+    <loader id="n50_q13d" name="box0" xy="109,-80" pivot="0.5,0.5" size="180,180" touchable="false" url="ui://zfg0revpsi0m1r" fill="scaleMatchWidth"/>
+    <loader id="n51_q13d" name="box1" xy="109,-80" pivot="0.5,0.5" size="180,180" touchable="false" url="ui://zfg0revpsi0m1s" fill="scaleMatchWidth"/>
+    <component id="n52_q13d" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="329,9">
+      <Button sound="ui://864gshxxyyke6m"/>
+    </component>
+    <list id="n53_q13d" name="rewardList" xy="9,164" size="380,100" layout="flow_hz" lineGap="5" colGap="5" defaultItem="ui://zfg0revpj66l4e" align="center" vAlign="middle" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n54_k5ie" name="shareBtn" src="gdngc9" fileName="component/shareFacebookBtn.xml" pkg="864gshxx" xy="120,330" size="160,44" aspect="true">
+      <relation target="n44_q13d" sidePair="center-center,bottom-bottom"/>
+    </component>
+  </displayList>
+  <relation target="n53_q13d" sidePair="bottomext-bottom"/>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Scale" tween="true" startValue="0.2,0.2" endValue="1,1" duration="6" ease="Back.Out"/>
+    <item time="0" type="Sound" value="ui://864gshxxfuyj42,100"/>
+    <item time="0" type="XY" tween="true" startValue="0,0" endValue="0,0" duration="3" ease="Sine.Out"/>
+  </transition>
+</component>

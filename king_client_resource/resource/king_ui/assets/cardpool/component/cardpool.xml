@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,670" designImage="ui://ravbpjp3uoof0" designImageLayer="1">
+  <controller name="campTap" pages="0,1,1,2,2,3,3,4" selected="0"/>
+  <displayList>
+    <component id="n15_n2ep" name="wei" src="jh6fa" fileName="component/campCardPool.xml" xy="11,80">
+      <gearDisplay controller="campTap" pages="0"/>
+      <relation target="" sidePair="top-top"/>
+    </component>
+    <component id="n16_n2ep" name="shu" src="jh6fa" fileName="component/campCardPool.xml" xy="11,80">
+      <gearDisplay controller="campTap" pages="1"/>
+      <relation target="" sidePair="top-top"/>
+    </component>
+    <component id="n17_n2ep" name="wu" src="jh6fa" fileName="component/campCardPool.xml" xy="11,80">
+      <gearDisplay controller="campTap" pages="2"/>
+      <relation target="" sidePair="top-top"/>
+    </component>
+    <component id="n18_n2ep" name="qun" src="jh6fa" fileName="component/campCardPool.xml" xy="11,80">
+      <gearDisplay controller="campTap" pages="3"/>
+      <relation target="" sidePair="top-top"/>
+    </component>
+    <component id="n4_jh6f" name="weiTapBtn" src="jh6f9" fileName="component/weiCampBtn.xml" xy="97,6" group="n19_qw7t">
+      <Button checked="true" sound="" volume="0" controller="campTap" page="0"/>
+    </component>
+    <component id="n6_jh6f" name="shuTapBtn" src="qw7t14" fileName="component/shuCampBtn.xml" xy="170,5" group="n19_qw7t">
+      <Button sound="" volume="0" controller="campTap" page="1"/>
+    </component>
+    <component id="n8_jh6f" name="wuTapBtn" src="qw7t15" fileName="component/wuCampBtn.xml" xy="243,6" group="n19_qw7t">
+      <Button sound="" volume="0" controller="campTap" page="2"/>
+    </component>
+    <component id="n10_jh6f" name="qunTapBtn" src="qw7t16" fileName="component/qunCampBtn.xml" xy="314,6" group="n19_qw7t">
+      <Button sound="" volume="0" controller="campTap" page="3"/>
+    </component>
+    <group id="n19_qw7t" name="n19" xy="97,5" size="285,69" advanced="true" collapsed="true">
+      <relation target="" sidePair="top-top"/>
+    </group>
+    <component id="n20_spox" name="faqBtn" src="l1gibz" fileName="component/helpBtn.xml" pkg="864gshxx" xy="420,16"/>
+    <component id="n21_j66l" name="equipBtn" src="par024" fileName="component/equipBagBtn.xml" xy="10,10"/>
+  </displayList>
+</component>

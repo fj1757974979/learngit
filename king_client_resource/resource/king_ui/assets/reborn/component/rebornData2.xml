@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,780" overflow="hidden" scrollBarRes="ui://864gshxxjzjo62,">
+  <displayList>
+    <loader id="n42_k9is" name="img" xy="7,220" pivot="0.5,0.5" size="465,273" url="ui://47ikzi2ak9is18" align="center" vAlign="middle" fill="scale"/>
+    <text id="n43_k9is" name="tip1" xy="0,510" size="480,50" fontSize="20" color="#333333" align="center" vAlign="middle" leading="0" autoSize="none" text="独特的时代英杰聚集在卧龙岗上等待明主&#xA;你的功勋决定了你能否得到他们的追随">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+  <transition name="enter"/>
+</component>

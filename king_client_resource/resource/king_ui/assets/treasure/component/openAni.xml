@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,800">
+  <displayList>
+    <component id="n25_n9kc" name="bg" src="qg2m2q" fileName="component/AdjustBg.xml" pkg="864gshxx" xy="0,0" size="480,800"/>
+    <loader id="n39_u6us" name="n39" xy="134,660" size="212,107" touchable="false" url="ui://zfg0revpu6us2j"/>
+    <loader id="n4_g33r" name="box0" xy="120,560" pivot="0.5,0.5" size="240,240" touchable="false" url="ui://zfg0revpsi0m1r" fill="scaleMatchWidth"/>
+    <loader id="n6_g33r" name="box4" xy="120,560" size="240,240" visible="false" touchable="false" url="ui://zfg0revpsi0m1v" fill="scaleMatchWidth"/>
+    <loader id="n8_g33r" name="box3" xy="120,560" size="240,240" visible="false" touchable="false" url="ui://zfg0revpsi0m1u" fill="scaleMatchWidth"/>
+    <loader id="n7_g33r" name="box2" xy="120,560" size="240,240" visible="false" touchable="false" url="ui://zfg0revpsi0m1t" fill="scaleMatchWidth"/>
+    <loader id="n5_g33r" name="box1" xy="120,560" size="240,240" visible="false" touchable="false" url="ui://zfg0revpsi0m1s" fill="scaleMatchWidth"/>
+    <loader id="n41_llfp" name="rareLight" xy="69,60" pivot="0.5,0.5" size="339,351" visible="false" alpha="0" touchable="false" url="ui://zfg0revprmgl3c" align="center" vAlign="middle" fill="scaleMatchWidth"/>
+    <loader id="n14_l90u" name="n14" xy="275,690" size="60,80" touchable="false" url="ui://864gshxxd54gao" align="center" vAlign="middle" fill="scaleMatchWidth"/>
+    <text id="n15_l90u" name="cardRemaining" xy="280,706" size="50,54" font="ui://tlhdbap0e8aza" fontSize="40" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" text="8"/>
+    <loader id="n45_tcup" name="cardBack" xy="177,379" pivot="0.5,0.5" size="125,162" visible="false" touchable="false" url="ui://rdb04el0uoofg" fill="scaleFree"/>
+    <text id="n19_femv" name="cardCnt" xy="140,310" size="200,60" restrictSize="0,423,0,0" fontSize="36" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" bold="true" strokeColor="#000000" text="x99"/>
+    <component id="n20_femv" name="expProgressBar" src="bzh4k" fileName="component/valueProgressBar.xml" pkg="ravbpjp3" xy="154,440" size="172,20"/>
+    <text id="n22_femv" name="level" xy="103,420" size="100,60" restrictSize="0,423,0,0" font="楷体" fontSize="24" color="#ffffff" vAlign="middle" leading="0" autoSize="none" bold="true" strokeColor="#000000" text="Lv.1"/>
+    <text id="n23_femv" name="levelTip" xy="210,460" size="100,30" restrictSize="0,423,0,0" font="楷体" fontSize="24" color="#66ff00" vAlign="middle" letterSpacing="1" autoSize="none" bold="true" strokeColor="#000000" strokeSize="2" text="#TEXT_60056"/>
+    <component id="n17_oby8" name="card" src="bzh4r" fileName="component/middleCard.xml" pkg="rdb04el0" xy="177,380"/>
+    <component id="n48_l1gi" name="skin" src="qvsx3j5" fileName="component/skinMiddle.xml" pkg="rdb04el0" xy="177,380"/>
+    <component id="n24_ab4x" name="gold" src="g33rh" fileName="component/gold.xml" xy="177,380"/>
+    <component id="n49_q13d" name="emoji" src="q13d4k" fileName="component/emoji.xml" xy="177,380"/>
+    <component id="n50_q13d" name="headFrame" src="q13d4l" fileName="component/headFrame.xml" xy="177,380"/>
+    <component id="n51_rjva" name="item" src="rjva4m" fileName="component/item.xml" xy="176,380"/>
+    <component id="n52_oirr" name="jade" src="tcup3d" fileName="component/jade.xml" xy="177,380"/>
+    <component id="n46_u83y" name="bowlder" src="oirr4o" fileName="component/bowlder.xml" xy="177,380"/>
+    <loader id="n35_rcak" name="goldIcon" xy="159,420" size="50,50" touchable="false" url="ui://864gshxxnf1s9a" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <relation target="n36_dsji" sidePair="right-left,middle-middle"/>
+    </loader>
+    <text id="n21_femv" name="progressCnt" xy="328,436" size="89,28" restrictSize="0,423,0,0" font="楷体" fontSize="24" color="#ffffff" align="center" vAlign="middle" leading="0" bold="true" strokeColor="#000000" text="999/999">
+      <relation target="n20_femv" sidePair="left-right,middle-middle"/>
+    </text>
+    <text id="n36_dsji" name="goldCnt" xy="211,430" size="80,34" fontSize="30" color="#ffffff" align="center" vAlign="middle" leading="0" bold="true" strokeColor="#000000" text="x1000">
+      <relation target="n19_femv" sidePair="center-center"/>
+    </text>
+    <loader id="n40_orx9" name="newHintIcon" xy="177,380" pivot="0.5,0.5" size="22,30" hideByEditor="true" touchable="false" url="ui://864gshxxs8ot4k" fill="scaleMatchHeight">
+      <relation target="n17_oby8" sidePair="left-left,top-top"/>
+    </loader>
+    <loader id="n47_u83y" name="jadeIcon" xy="159,420" size="50,50" hideByEditor="true" touchable="false" url="ui://864gshxxnf1s9b" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <relation target="n36_dsji" sidePair="right-left,middle-middle"/>
+    </loader>
+  </displayList>
+  <transition name="gold" options="4">
+    <item time="0" type="Alpha" target="n17_oby8" value="0"/>
+    <item time="0" type="Alpha" target="n19_femv" value="0"/>
+    <item time="0" type="Alpha" target="n20_femv" value="0"/>
+    <item time="0" type="Alpha" target="n21_femv" value="0"/>
+    <item time="0" type="Alpha" target="n22_femv" value="0"/>
+    <item time="0" type="Alpha" target="n23_femv" value="0"/>
+    <item time="0" type="Alpha" target="n35_rcak" value="0"/>
+    <item time="0" type="Alpha" target="n36_dsji" value="0"/>
+    <item time="0" type="Alpha" target="n40_orx9" value="0"/>
+    <item time="0" type="Alpha" target="n41_llfp" value="0"/>
+    <item time="0" type="Alpha" target="n46_u83y" value="0"/>
+    <item time="0" type="Alpha" target="n47_u83y" value="0"/>
+    <item time="0" type="Alpha" target="n48_l1gi" value="0"/>
+    <item time="0" type="Alpha" target="n49_q13d" value="0"/>
+    <item time="0" type="Alpha" target="n50_q13d" value="0"/>
+    <item time="0" type="Alpha" target="n51_rjva" value="0"/>
+    <item time="0" type="Alpha" target="n52_oirr" value="0"/>
+    <item time="0" type="Shake" target="n4_g33r" value="3,0.5"/>
+    <item time="0" type="Shake" target="n5_g33r" value="3,0.5"/>
+    <item time="0" type="Visible" target="n24_ab4x" value="false"/>
+    <item time="0" type="Visible" target="n45_tcup" value="false"/>
+    <item time="0" type="Visible" target="n5_g33r" value="false"/>
+    <item time="0" type="Visible" target="n6_g33r" value="false"/>
+    <item time="0" type="Visible" target="n7_g33r" value="false"/>
+    <item time="0" type="Visible" target="n8_g33r" value="false"/>
+    <item time="1" type="Visible" target="n5_g33r" value="true"/>
+    <item time="3" type="Sound" value="ui://864gshxxfuyj43,100"/>
+    <item time="3" type="Visible" target="n5_g33r" value="true"/>
+    <item time="3" type="Visible" target="n6_g33r" value="false"/>
+    <item time="3" type="Visible" target="n7_g33r" value="false"/>
+    <item time="3" type="Visible" target="n8_g33r" value="false"/>
+    <item time="4" type="Visible" target="n5_g33r" value="false"/>
+    <item time="4" type="Visible" target="n6_g33r" value="false"/>
+    <item time="4" type="Visible" target="n7_g33r" value="true"/>
+    <item time="4" type="Visible" target="n8_g33r" value="false"/>
+    <item time="5" type="Visible" target="n5_g33r" value="false"/>
+    <item time="5" type="Visible" target="n6_g33r" value="false"/>
+    <item time="5" type="Visible" target="n7_g33r" value="false"/>
+    <item time="5" type="Visible" target="n8_g33r" value="true"/>
+    <item time="6" type="Scale" target="n24_ab4x" value="1,1"/>
+    <item time="6" type="Visible" target="n24_ab4x" value="false"/>
+    <item time="6" type="Visible" target="n5_g33r" value="false"/>
+    <item time="6" type="Visible" target="n6_g33r" value="true"/>
+    <item time="6" type="Visible" target="n7_g33r" value="false"/>
+    <item time="6" type="Visible" target="n8_g33r" value="false"/>
+    <item time="6" type="XY" target="n24_ab4x" value="168,320"/>
+    <item time="7" type="Scale" target="n24_ab4x" tween="true" startValue="0.6,0.6" endValue="1,1" duration="16" ease="Back.Out"/>
+    <item time="7" type="Visible" target="n24_ab4x" value="true"/>
+    <item time="7" type="Visible" target="n5_g33r" value="false"/>
+    <item time="7" type="Visible" target="n6_g33r" value="true"/>
+    <item time="7" type="Visible" target="n7_g33r" value="false"/>
+    <item time="7" type="Visible" target="n8_g33r" value="false"/>
+    <item time="7" type="XY" target="n24_ab4x" tween="true" startValue="177,499" endValue="177,150" duration="16" ease="Back.Out"/>
+    <item time="18" type="Alpha" target="n19_femv" tween="true" startValue="0" endValue="1" duration="18"/>
+    <item time="18" type="Alpha" target="n20_femv" tween="true" startValue="0" endValue="1" duration="18"/>
+    <item time="18" type="Alpha" target="n21_femv" tween="true" startValue="0" endValue="1" duration="18"/>
+    <item time="18" type="Alpha" target="n22_femv" tween="true" startValue="0" endValue="1" duration="18"/>
+    <item time="18" type="Alpha" target="n23_femv" tween="true" startValue="0" endValue="1" duration="18"/>
+    <item time="18" type="Alpha" target="n35_rcak" tween="true" startValue="0" endValue="1" duration="18"/>
+    <item time="18" type="Alpha" target="n36_dsji" tween="true" startValue="0" endValue="1" duration="18"/>
+    <item time="18" type="Sound" value="ui://864gshxxfuyj45,100"/>
+    <item time="23" type="Visible" target="n24_ab4x" value="true"/>
+    <item time="39" type="Visible" target="n6_g33r" value="true"/>
+  </transition>
+  <transition name="card" options="4">
+    <item time="0" type="Alpha" target="n19_femv" value="0"/>
+    <item time="0" type="Alpha" target="n20_femv" value="0"/>
+    <item time="0" type="Alpha" target="n21_femv" value="0"/>
+    <item time="0" type="Alpha" target="n22_femv" value="0"/>
+    <item time="0" type="Alpha" target="n23_femv" value="0"/>
+    <item time="0" type="Alpha" target="n24_ab4x" value="0"/>
+    <item time="0" type="Alpha" target="n35_rcak" value="0"/>
+    <item time="0" type="Alpha" target="n36_dsji" value="0"/>
+    <item time="0" type="Alpha" target="n41_llfp" value="0"/>
+    <item time="0" type="Alpha" target="n46_u83y" value="0"/>
+    <item time="0" type="Alpha" target="n47_u83y" value="0"/>
+    <item time="0" type="Alpha" target="n48_l1gi" value="0"/>
+    <item time="0" type="Alpha" target="n49_q13d" value="0"/>
+    <item time="0" type="Alpha" target="n50_q13d" value="0"/>
+    <item time="0" type="Alpha" target="n51_rjva" value="0"/>
+    <item time="0" type="Alpha" target="n52_oirr" value="0"/>
+    <item time="0" type="Scale" target="n41_llfp" value="1,1"/>
+    <item time="0" type="Visible" target="n17_oby8" value="false"/>
+    <item time="0" type="Visible" target="n40_orx9" value="false"/>
+    <item time="0" type="Visible" target="n45_tcup" value="false"/>
+    <item time="0" type="Visible" target="n5_g33r" value="false"/>
+    <item time="0" type="Visible" target="n5_g33r" value="false"/>
+    <item time="0" type="Visible" target="n6_g33r" value="true"/>
+    <item time="0" type="Visible" target="n6_g33r" value="true"/>
+    <item time="0" type="Visible" target="n7_g33r" value="false"/>
+    <item time="0" type="Visible" target="n7_g33r" value="false"/>
+    <item time="0" type="Visible" target="n8_g33r" value="false"/>
+    <item time="0" type="Visible" target="n8_g33r" value="false"/>
+    <item time="6" type="Sound" value="ui://864gshxxfuyj44,100"/>
+    <item time="8" type="Scale" target="n17_oby8" tween="true" startValue="0.6,0.6" endValue="1,1" duration="16" ease="Back.Out"/>
+    <item time="8" type="Visible" target="n17_oby8" value="true"/>
+    <item time="8" type="XY" target="n17_oby8" tween="true" startValue="177,499" endValue="177,150" duration="16" ease="Back.Out"/>
+    <item time="18" type="Alpha" target="n19_femv" tween="true" startValue="0" endValue="1" duration="18"/>
+    <item time="18" type="Alpha" target="n20_femv" tween="true" startValue="0" endValue="1" duration="18"/>
+    <item time="18" type="Alpha" target="n21_femv" tween="true" startValue="0" endValue="1" duration="18"/>
+    <item time="18" type="Alpha" target="n22_femv" tween="true" startValue="0" endValue="1" duration="18"/>
+    <item time="18" type="Alpha" target="n23_femv" tween="true" startValue="0" endValue="1" duration="18"/>
+    <item time="18" type="Alpha" target="n36_dsji" tween="true" startValue="0" endValue="1" duration="18"/>
+    <item time="24" type="Alpha" target="n41_llfp" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="24" type="Scale" target="n41_llfp" tween="true" startValue="0,0" endValue="1.2,1.2" duration="6" ease="Back.InOut"/>
+    <item time="24" type="Visible" target="n17_oby8" value="true"/>
+    <item time="30" type="Scale" target="n41_llfp" tween="true" startValue="1.2,1.2" endValue="1,1" duration="3" ease="Quart.Out"/>
+    <item time="33" type="Scale" target="n41_llfp" tween="true" startValue="1,1" endValue="1.2,1.2" duration="3" ease="Quart.Out"/>
+  </transition>
+  <transition name="newCard" options="4">
+    <item time="0" type="Alpha" target="n19_femv" value="0"/>
+    <item time="0" type="Alpha" target="n20_femv" value="0"/>
+    <item time="0" type="Alpha" target="n21_femv" value="0"/>
+    <item time="0" type="Alpha" target="n22_femv" value="0"/>
+    <item time="0" type="Alpha" target="n23_femv" value="0"/>
+    <item time="0" type="Alpha" target="n24_ab4x" value="0"/>
+    <item time="0" type="Alpha" target="n35_rcak" value="0"/>
+    <item time="0" type="Alpha" target="n36_dsji" value="0"/>
+    <item time="0" type="Alpha" target="n41_llfp" value="0"/>
+    <item time="0" type="Alpha" target="n46_u83y" value="0"/>
+    <item time="0" type="Alpha" target="n47_u83y" value="0"/>
+    <item time="0" type="Alpha" target="n48_l1gi" value="0"/>
+    <item time="0" type="Alpha" target="n49_q13d" value="0"/>
+    <item time="0" type="Alpha" target="n50_q13d" value="0"/>
+    <item time="0" type="Alpha" target="n51_rjva" value="0"/>
+    <item time="0" type="Alpha" target="n52_oirr" value="0"/>
+    <item time="0" type="ColorFilter" target="n17_oby8" value="0.00,0.00,0.00,0.00"/>
+    <item time="0" type="ColorFilter" target="n45_tcup" value="0.00,0.00,0.00,0.00"/>
+    <item time="0" type="Scale" target="n41_llfp" value="1,1"/>
+    <item time="0" type="Visible" target="n17_oby8" value="false"/>
+    <item time="0" type="Visible" target="n40_orx9" value="false"/>
+    <item time="0" type="Visible" target="n45_tcup" value="false"/>
+    <item time="0" type="Visible" target="n5_g33r" value="false"/>
+    <item time="0" type="Visible" target="n5_g33r" value="false"/>
+    <item time="0" type="Visible" target="n5_g33r" value="false"/>
+    <item time="0" type="Visible" target="n6_g33r" value="true"/>
+    <item time="0" type="Visible" target="n6_g33r" value="true"/>
+    <item time="0" type="Visible" target="n6_g33r" value="true"/>
+    <item time="0" type="Visible" target="n7_g33r" value="false"/>
+    <item time="0" type="Visible" target="n7_g33r" value="false"/>
+    <item time="0" type="Visible" target="n8_g33r" value="false"/>
+    <item time="0" type="Visible" target="n8_g33r" value="false"/>
+    <item time="6" type="Sound" value="ui://864gshxxlr3f2i,100"/>
+    <item time="8" type="Scale" target="n17_oby8" tween="true" startValue="0.6,0.6" endValue="1,1" duration="16" ease="Back.Out"/>
+    <item time="8" type="Scale" target="n45_tcup" tween="true" startValue="0.6,0.6" endValue="1,1" duration="16" ease="Back.Out"/>
+    <item time="8" type="Visible" target="n17_oby8" value="false"/>
+    <item time="8" type="Visible" target="n45_tcup" value="true"/>
+    <item time="8" type="XY" target="n17_oby8" tween="true" startValue="177,499" endValue="177,150" duration="16" ease="Back.Out"/>
+    <item time="8" type="XY" target="n45_tcup" tween="true" startValue="177,499" endValue="177,150" duration="16" ease="Back.Out"/>
+    <item time="30" type="Alpha" target="n36_dsji" tween="true" startValue="0" endValue="1" duration="18"/>
+    <item time="30" type="ColorFilter" target="n17_oby8" tween="true" startValue="0.00,0.00,0.00,0.00" endValue="1.00,0.00,0.00,0.00" duration="6"/>
+    <item time="30" type="Skew" target="n17_oby8" tween="true" startValue="0,-180" endValue="0,-360" duration="12" ease="Back.InOut"/>
+    <item time="30" type="Skew" target="n45_tcup" tween="true" startValue="0,0" endValue="0,-180" duration="12" ease="Back.InOut"/>
+    <item time="36" type="Alpha" target="n19_femv" tween="true" startValue="0" endValue="1" duration="18"/>
+    <item time="36" type="Alpha" target="n20_femv" tween="true" startValue="0" endValue="1" duration="18"/>
+    <item time="36" type="Alpha" target="n21_femv" tween="true" startValue="0" endValue="1" duration="18"/>
+    <item time="36" type="Alpha" target="n22_femv" tween="true" startValue="0" endValue="1" duration="18"/>
+    <item time="36" type="Alpha" target="n23_femv" tween="true" startValue="0" endValue="1" duration="18"/>
+    <item time="36" type="Alpha" target="n41_llfp" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="36" type="ColorFilter" target="n17_oby8" tween="true" startValue="1.00,0.00,0.00,0.00" endValue="0.00,0.00,0.00,0.00" duration="6"/>
+    <item time="36" type="ColorFilter" target="n45_tcup" tween="true" startValue="0.00,0.00,0.00,0.00" endValue="0.50,0.00,0.00,0.00" duration="6"/>
+    <item time="36" type="Scale" target="n41_llfp" tween="true" startValue="0,0" endValue="1.2,1.2" duration="6" ease="Back.InOut"/>
+    <item time="36" type="Visible" target="n17_oby8" value="true"/>
+    <item time="36" type="Visible" target="n45_tcup" value="false"/>
+    <item time="42" type="ColorFilter" target="n45_tcup" tween="true" startValue="0.50,0.00,0.00,0.00"/>
+    <item time="42" type="Scale" target="n40_orx9" tween="true" startValue="2,2" endValue="1,1" duration="12" ease="Back.InOut"/>
+    <item time="42" type="Scale" target="n41_llfp" tween="true" startValue="1.2,1.2" endValue="1,1" duration="3" ease="Quart.Out"/>
+    <item time="42" type="Visible" target="n40_orx9" value="true"/>
+    <item time="45" type="Scale" target="n41_llfp" tween="true" startValue="1,1" endValue="1.2,1.2" duration="3" ease="Quart.Out"/>
+  </transition>
+  <transition name="jade" options="4">
+    <item time="0" type="Alpha" target="n17_oby8" value="0"/>
+    <item time="0" type="Alpha" target="n19_femv" value="0"/>
+    <item time="0" type="Alpha" target="n20_femv" value="0"/>
+    <item time="0" type="Alpha" target="n21_femv" value="0"/>
+    <item time="0" type="Alpha" target="n22_femv" value="0"/>
+    <item time="0" type="Alpha" target="n23_femv" value="0"/>
+    <item time="0" type="Alpha" target="n24_ab4x" value="0"/>
+    <item time="0" type="Alpha" target="n35_rcak" value="0"/>
+    <item time="0" type="Alpha" target="n36_dsji" value="0"/>
+    <item time="0" type="Alpha" target="n41_llfp" value="0"/>
+    <item time="0" type="Alpha" target="n46_u83y" value="0"/>
+    <item time="0" type="Alpha" target="n47_u83y" value="0"/>
+    <item time="0" type="Alpha" target="n48_l1gi" value="0"/>
+    <item time="0" type="Alpha" target="n49_q13d" value="0"/>
+    <item time="0" type="Alpha" target="n50_q13d" value="0"/>
+    <item time="0" type="Alpha" target="n51_rjva" value="0"/>
+    <item time="0" type="Visible" target="n40_orx9" value="false"/>
+    <item time="0" type="Visible" target="n45_tcup" value="false"/>
+    <item time="0" type="Visible" target="n52_oirr" value="false"/>
+    <item time="0" type="Visible" target="n5_g33r" value="false"/>
+    <item time="0" type="Visible" target="n5_g33r" value="false"/>
+    <item time="0" type="Visible" target="n5_g33r" value="false"/>
+    <item time="0" type="Visible" target="n6_g33r" value="true"/>
+    <item time="0" type="Visible" target="n6_g33r" value="true"/>
+    <item time="0" type="Visible" target="n6_g33r" value="true"/>
+    <item time="0" type="Visible" target="n7_g33r" value="false"/>
+    <item time="0" type="Visible" target="n7_g33r" value="false"/>
+    <item time="0" type="Visible" target="n8_g33r" value="false"/>
+    <item time="0" type="Visible" target="n8_g33r" value="false"/>
+    <item time="6" type="Sound" value="ui://864gshxxfuyj45,100"/>
+    <item time="8" type="Scale" target="n52_oirr" tween="true" startValue="0.6,0.6" endValue="1,1" duration="16" ease="Back.Out"/>
+    <item time="8" type="Visible" target="n52_oirr" value="true"/>
+    <item time="8" type="XY" target="n52_oirr" tween="true" startValue="177,499" endValue="177,150" duration="16" ease="Back.Out"/>
+    <item time="18" type="Alpha" target="n19_femv" tween="true" startValue="0" endValue="1" duration="18"/>
+    <item time="18" type="Alpha" target="n20_femv" tween="true" startValue="0" endValue="1" duration="18"/>
+    <item time="18" type="Alpha" target="n21_femv" tween="true" startValue="0" endValue="1" duration="18"/>
+    <item time="18" type="Alpha" target="n22_femv" tween="true" startValue="0" endValue="1" duration="18"/>
+    <item time="18" type="Alpha" target="n23_femv" tween="true" startValue="0" endValue="1" duration="18"/>
+    <item time="18" type="Alpha" target="n36_dsji" tween="true" startValue="0" endValue="1" duration="18"/>
+    <item time="18" type="Alpha" target="n47_u83y" tween="true" startValue="0" endValue="1" duration="18"/>
+    <item time="24" type="Visible" target="n52_oirr" value="true"/>
+  </transition>
+  <transition name="skin" options="4">
+    <item time="0" type="Alpha" target="n17_oby8" value="0"/>
+    <item time="0" type="Alpha" target="n19_femv" value="0"/>
+    <item time="0" type="Alpha" target="n20_femv" value="0"/>
+    <item time="0" type="Alpha" target="n21_femv" value="0"/>
+    <item time="0" type="Alpha" target="n22_femv" value="0"/>
+    <item time="0" type="Alpha" target="n23_femv" value="0"/>
+    <item time="0" type="Alpha" target="n24_ab4x" value="0"/>
+    <item time="0" type="Alpha" target="n35_rcak" value="0"/>
+    <item time="0" type="Alpha" target="n36_dsji" value="0"/>
+    <item time="0" type="Alpha" target="n41_llfp" value="0"/>
+    <item time="0" type="Alpha" target="n46_u83y" value="0"/>
+    <item time="0" type="Alpha" target="n47_u83y" value="0"/>
+    <item time="0" type="Alpha" target="n49_q13d" value="0"/>
+    <item time="0" type="Alpha" target="n50_q13d" value="0"/>
+    <item time="0" type="Alpha" target="n51_rjva" value="0"/>
+    <item time="0" type="Alpha" target="n52_oirr" value="0"/>
+    <item time="0" type="Scale" target="n41_llfp" value="1,1"/>
+    <item time="0" type="Visible" target="n40_orx9" value="false"/>
+    <item time="0" type="Visible" target="n45_tcup" value="false"/>
+    <item time="0" type="Visible" target="n48_l1gi" value="false"/>
+    <item time="0" type="Visible" target="n5_g33r" value="false"/>
+    <item time="0" type="Visible" target="n5_g33r" value="false"/>
+    <item time="0" type="Visible" target="n6_g33r" value="true"/>
+    <item time="0" type="Visible" target="n6_g33r" value="true"/>
+    <item time="0" type="Visible" target="n7_g33r" value="false"/>
+    <item time="0" type="Visible" target="n7_g33r" value="false"/>
+    <item time="0" type="Visible" target="n8_g33r" value="false"/>
+    <item time="0" type="Visible" target="n8_g33r" value="false"/>
+    <item time="6" type="Sound" value="ui://864gshxxfuyj44,100"/>
+    <item time="8" type="Scale" target="n48_l1gi" tween="true" startValue="0.6,0.6" endValue="1,1" duration="16" ease="Back.Out"/>
+    <item time="8" type="Visible" target="n48_l1gi" value="true"/>
+    <item time="8" type="XY" target="n48_l1gi" tween="true" startValue="177,499" endValue="177,150" duration="16" ease="Back.Out"/>
+    <item time="18" type="Alpha" target="n19_femv" tween="true" startValue="0" endValue="1" duration="18"/>
+    <item time="18" type="Alpha" target="n20_femv" tween="true" startValue="0"/>
+    <item time="18" type="Alpha" target="n21_femv" tween="true" startValue="0"/>
+    <item time="18" type="Alpha" target="n22_femv" tween="true" startValue="0"/>
+    <item time="18" type="Alpha" target="n23_femv" tween="true" startValue="0"/>
+    <item time="18" type="Alpha" target="n36_dsji" tween="true" startValue="0"/>
+    <item time="24" type="Alpha" target="n41_llfp" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="24" type="Scale" target="n41_llfp" tween="true" startValue="0,0" endValue="1.2,1.2" duration="6" ease="Back.InOut"/>
+    <item time="24" type="Visible" target="n48_l1gi" value="true"/>
+    <item time="30" type="Scale" target="n41_llfp" tween="true" startValue="1.2,1.2" endValue="1,1" duration="3" ease="Quart.Out"/>
+    <item time="33" type="Scale" target="n41_llfp" tween="true" startValue="1,1" endValue="1.2,1.2" duration="3" ease="Quart.Out"/>
+  </transition>
+  <transition name="emoji" options="4">
+    <item time="0" type="Alpha" target="n17_oby8" value="0"/>
+    <item time="0" type="Alpha" target="n19_femv" value="0"/>
+    <item time="0" type="Alpha" target="n20_femv" value="0"/>
+    <item time="0" type="Alpha" target="n21_femv" value="0"/>
+    <item time="0" type="Alpha" target="n22_femv" value="0"/>
+    <item time="0" type="Alpha" target="n23_femv" value="0"/>
+    <item time="0" type="Alpha" target="n24_ab4x" value="0"/>
+    <item time="0" type="Alpha" target="n35_rcak" value="0"/>
+    <item time="0" type="Alpha" target="n36_dsji" value="0"/>
+    <item time="0" type="Alpha" target="n41_llfp" value="0"/>
+    <item time="0" type="Alpha" target="n46_u83y" value="0"/>
+    <item time="0" type="Alpha" target="n47_u83y" value="0"/>
+    <item time="0" type="Alpha" target="n48_l1gi" value="0"/>
+    <item time="0" type="Alpha" target="n50_q13d" value="0"/>
+    <item time="0" type="Alpha" target="n51_rjva" value="0"/>
+    <item time="0" type="Alpha" target="n52_oirr" value="0"/>
+    <item time="0" type="Scale" target="n41_llfp" value="1,1"/>
+    <item time="0" type="Visible" target="n40_orx9" value="false"/>
+    <item time="0" type="Visible" target="n45_tcup" value="false"/>
+    <item time="0" type="Visible" target="n49_q13d" value="false"/>
+    <item time="0" type="Visible" target="n5_g33r" value="false"/>
+    <item time="0" type="Visible" target="n5_g33r" value="false"/>
+    <item time="0" type="Visible" target="n6_g33r" value="true"/>
+    <item time="0" type="Visible" target="n6_g33r" value="true"/>
+    <item time="0" type="Visible" target="n7_g33r" value="false"/>
+    <item time="0" type="Visible" target="n7_g33r" value="false"/>
+    <item time="0" type="Visible" target="n8_g33r" value="false"/>
+    <item time="0" type="Visible" target="n8_g33r" value="false"/>
+    <item time="6" type="Sound" value="ui://864gshxxfuyj44,100"/>
+    <item time="8" type="Scale" target="n49_q13d" tween="true" startValue="0.6,0.6" endValue="1,1" duration="16" ease="Back.Out"/>
+    <item time="8" type="Visible" target="n49_q13d" value="true"/>
+    <item time="8" type="XY" target="n49_q13d" tween="true" startValue="177,499" endValue="177,150" duration="16" ease="Back.Out"/>
+    <item time="18" type="Alpha" target="n19_femv" tween="true" startValue="0" endValue="1" duration="18"/>
+    <item time="18" type="Alpha" target="n20_femv" tween="true" startValue="0"/>
+    <item time="18" type="Alpha" target="n21_femv" tween="true" startValue="0"/>
+    <item time="18" type="Alpha" target="n22_femv" tween="true" startValue="0"/>
+    <item time="18" type="Alpha" target="n23_femv" tween="true" startValue="0"/>
+    <item time="18" type="Alpha" target="n36_dsji" tween="true" startValue="0"/>
+    <item time="24" type="Alpha" target="n41_llfp" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="24" type="Scale" target="n41_llfp" tween="true" startValue="0,0" endValue="1.2,1.2" duration="6" ease="Back.InOut"/>
+    <item time="24" type="Visible" target="n49_q13d" value="true"/>
+    <item time="30" type="Scale" target="n41_llfp" tween="true" startValue="1.2,1.2" endValue="1,1" duration="3" ease="Quart.Out"/>
+    <item time="33" type="Scale" target="n41_llfp" tween="true" startValue="1,1" endValue="1.2,1.2" duration="3" ease="Quart.Out"/>
+  </transition>
+  <transition name="headFrame" options="4">
+    <item time="0" type="Alpha" target="n17_oby8" value="0"/>
+    <item time="0" type="Alpha" target="n19_femv" value="0"/>
+    <item time="0" type="Alpha" target="n20_femv" value="0"/>
+    <item time="0" type="Alpha" target="n21_femv" value="0"/>
+    <item time="0" type="Alpha" target="n22_femv" value="0"/>
+    <item time="0" type="Alpha" target="n23_femv" value="0"/>
+    <item time="0" type="Alpha" target="n24_ab4x" value="0"/>
+    <item time="0" type="Alpha" target="n35_rcak" value="0"/>
+    <item time="0" type="Alpha" target="n36_dsji" value="0"/>
+    <item time="0" type="Alpha" target="n41_llfp" value="0"/>
+    <item time="0" type="Alpha" target="n46_u83y" value="0"/>
+    <item time="0" type="Alpha" target="n47_u83y" value="0"/>
+    <item time="0" type="Alpha" target="n48_l1gi" value="0"/>
+    <item time="0" type="Alpha" target="n49_q13d" value="0"/>
+    <item time="0" type="Alpha" target="n51_rjva" value="0"/>
+    <item time="0" type="Alpha" target="n52_oirr" value="0"/>
+    <item time="0" type="Scale" target="n41_llfp" value="1,1"/>
+    <item time="0" type="Visible" target="n40_orx9" value="false"/>
+    <item time="0" type="Visible" target="n45_tcup" value="false"/>
+    <item time="0" type="Visible" target="n50_q13d" value="false"/>
+    <item time="0" type="Visible" target="n5_g33r" value="false"/>
+    <item time="0" type="Visible" target="n5_g33r" value="false"/>
+    <item time="0" type="Visible" target="n6_g33r" value="true"/>
+    <item time="0" type="Visible" target="n6_g33r" value="true"/>
+    <item time="0" type="Visible" target="n7_g33r" value="false"/>
+    <item time="0" type="Visible" target="n7_g33r" value="false"/>
+    <item time="0" type="Visible" target="n8_g33r" value="false"/>
+    <item time="0" type="Visible" target="n8_g33r" value="false"/>
+    <item time="6" type="Sound" value="ui://864gshxxfuyj44,100"/>
+    <item time="8" type="Scale" target="n50_q13d" tween="true" startValue="0.6,0.6" endValue="1,1" duration="16" ease="Back.Out"/>
+    <item time="8" type="Visible" target="n50_q13d" value="true"/>
+    <item time="8" type="XY" target="n50_q13d" tween="true" startValue="177,499" endValue="177,150" duration="16" ease="Back.Out"/>
+    <item time="18" type="Alpha" target="n19_femv" tween="true" startValue="0" endValue="1" duration="18"/>
+    <item time="18" type="Alpha" target="n20_femv" tween="true" startValue="0"/>
+    <item time="18" type="Alpha" target="n21_femv" tween="true" startValue="0"/>
+    <item time="18" type="Alpha" target="n22_femv" tween="true" startValue="0"/>
+    <item time="18" type="Alpha" target="n23_femv" tween="true" startValue="0"/>
+    <item time="18" type="Alpha" target="n36_dsji" tween="true" startValue="0"/>
+    <item time="24" type="Alpha" target="n41_llfp" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="24" type="Scale" target="n41_llfp" tween="true" startValue="0,0" endValue="1.2,1.2" duration="6" ease="Back.InOut"/>
+    <item time="24" type="Visible" target="n50_q13d" value="true"/>
+    <item time="30" type="Scale" target="n41_llfp" tween="true" startValue="1.2,1.2" endValue="1,1" duration="3" ease="Quart.Out"/>
+    <item time="33" type="Scale" target="n41_llfp" tween="true" startValue="1,1" endValue="1.2,1.2" duration="3" ease="Quart.Out"/>
+  </transition>
+  <transition name="item" options="4">
+    <item time="0" type="Alpha" target="n17_oby8" value="0"/>
+    <item time="0" type="Alpha" target="n19_femv" value="0"/>
+    <item time="0" type="Alpha" target="n20_femv" value="0"/>
+    <item time="0" type="Alpha" target="n21_femv" value="0"/>
+    <item time="0" type="Alpha" target="n22_femv" value="0"/>
+    <item time="0" type="Alpha" target="n23_femv" value="0"/>
+    <item time="0" type="Alpha" target="n24_ab4x" value="0"/>
+    <item time="0" type="Alpha" target="n35_rcak" value="0"/>
+    <item time="0" type="Alpha" target="n36_dsji" value="0"/>
+    <item time="0" type="Alpha" target="n41_llfp" value="0"/>
+    <item time="0" type="Alpha" target="n46_u83y" value="0"/>
+    <item time="0" type="Alpha" target="n47_u83y" value="0"/>
+    <item time="0" type="Alpha" target="n48_l1gi" value="0"/>
+    <item time="0" type="Alpha" target="n49_q13d" value="0"/>
+    <item time="0" type="Alpha" target="n50_q13d" value="0"/>
+    <item time="0" type="Alpha" target="n52_oirr" value="0"/>
+    <item time="0" type="Scale" target="n41_llfp" value="1,1"/>
+    <item time="0" type="Visible" target="n40_orx9" value="false"/>
+    <item time="0" type="Visible" target="n45_tcup" value="false"/>
+    <item time="0" type="Visible" target="n51_rjva" value="false"/>
+    <item time="0" type="Visible" target="n5_g33r" value="false"/>
+    <item time="0" type="Visible" target="n5_g33r" value="false"/>
+    <item time="0" type="Visible" target="n6_g33r" value="true"/>
+    <item time="0" type="Visible" target="n6_g33r" value="true"/>
+    <item time="0" type="Visible" target="n7_g33r" value="false"/>
+    <item time="0" type="Visible" target="n7_g33r" value="false"/>
+    <item time="0" type="Visible" target="n8_g33r" value="false"/>
+    <item time="0" type="Visible" target="n8_g33r" value="false"/>
+    <item time="6" type="Sound" value="ui://864gshxxfuyj44,100"/>
+    <item time="8" type="Scale" target="n51_rjva" tween="true" startValue="0.6,0.6" endValue="1,1" duration="16" ease="Back.Out"/>
+    <item time="8" type="Visible" target="n51_rjva" value="true"/>
+    <item time="8" type="XY" target="n51_rjva" tween="true" startValue="177,499" endValue="177,150" duration="16" ease="Back.Out"/>
+    <item time="18" type="Alpha" target="n19_femv" tween="true" startValue="0" endValue="1" duration="18"/>
+    <item time="18" type="Alpha" target="n20_femv" tween="true" startValue="0"/>
+    <item time="18" type="Alpha" target="n21_femv" tween="true" startValue="0"/>
+    <item time="18" type="Alpha" target="n22_femv" tween="true" startValue="0"/>
+    <item time="18" type="Alpha" target="n23_femv" tween="true" startValue="0"/>
+    <item time="18" type="Alpha" target="n36_dsji" tween="true" startValue="0"/>
+    <item time="24" type="Alpha" target="n41_llfp" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="24" type="Scale" target="n41_llfp" tween="true" startValue="0,0" endValue="1.2,1.2" duration="6" ease="Back.InOut"/>
+    <item time="24" type="Visible" target="n51_rjva" value="true"/>
+    <item time="30" type="Scale" target="n41_llfp" tween="true" startValue="1.2,1.2" endValue="1,1" duration="3" ease="Quart.Out"/>
+    <item time="33" type="Scale" target="n41_llfp" tween="true" startValue="1,1" endValue="1.2,1.2" duration="3" ease="Quart.Out"/>
+  </transition>
+  <transition name="bowlder" options="4">
+    <item time="0" type="Alpha" target="n17_oby8" value="0"/>
+    <item time="0" type="Alpha" target="n19_femv" value="0"/>
+    <item time="0" type="Alpha" target="n20_femv" value="0"/>
+    <item time="0" type="Alpha" target="n21_femv" value="0"/>
+    <item time="0" type="Alpha" target="n22_femv" value="0"/>
+    <item time="0" type="Alpha" target="n23_femv" value="0"/>
+    <item time="0" type="Alpha" target="n24_ab4x" value="0"/>
+    <item time="0" type="Alpha" target="n35_rcak" value="0"/>
+    <item time="0" type="Alpha" target="n36_dsji" value="0"/>
+    <item time="0" type="Alpha" target="n41_llfp" value="0"/>
+    <item time="0" type="Alpha" target="n47_u83y" value="0"/>
+    <item time="0" type="Alpha" target="n48_l1gi" value="0"/>
+    <item time="0" type="Alpha" target="n49_q13d" value="0"/>
+    <item time="0" type="Alpha" target="n50_q13d" value="0"/>
+    <item time="0" type="Alpha" target="n51_rjva" value="0"/>
+    <item time="0" type="Alpha" target="n52_oirr" value="0"/>
+    <item time="0" type="Visible" target="n40_orx9" value="false"/>
+    <item time="0" type="Visible" target="n45_tcup" value="false"/>
+    <item time="0" type="Visible" target="n46_u83y" value="false"/>
+    <item time="0" type="Visible" target="n5_g33r" value="false"/>
+    <item time="0" type="Visible" target="n5_g33r" value="false"/>
+    <item time="0" type="Visible" target="n6_g33r" value="true"/>
+    <item time="0" type="Visible" target="n6_g33r" value="true"/>
+    <item time="0" type="Visible" target="n7_g33r" value="false"/>
+    <item time="0" type="Visible" target="n7_g33r" value="false"/>
+    <item time="0" type="Visible" target="n8_g33r" value="false"/>
+    <item time="0" type="Visible" target="n8_g33r" value="false"/>
+    <item time="6" type="Sound" value="ui://864gshxxfuyj45,100"/>
+    <item time="8" type="Scale" target="n46_u83y" tween="true" startValue="0.6,0.6" endValue="1,1" duration="16" ease="Back.Out"/>
+    <item time="8" type="Visible" target="n46_u83y" value="true"/>
+    <item time="8" type="XY" target="n46_u83y" tween="true" startValue="177,499" endValue="177,150" duration="16" ease="Back.Out"/>
+    <item time="18" type="Alpha" target="n19_femv" tween="true" startValue="0" endValue="1" duration="18"/>
+    <item time="18" type="Alpha" target="n20_femv" tween="true" startValue="0" endValue="1" duration="18"/>
+    <item time="18" type="Alpha" target="n21_femv" tween="true" startValue="0" endValue="1" duration="18"/>
+    <item time="18" type="Alpha" target="n22_femv" tween="true" startValue="0" endValue="1" duration="18"/>
+    <item time="18" type="Alpha" target="n23_femv" tween="true" startValue="0" endValue="1" duration="18"/>
+    <item time="18" type="Alpha" target="n36_dsji" tween="true" startValue="0" endValue="1" duration="18"/>
+    <item time="18" type="Alpha" target="n47_u83y" tween="true" startValue="0" endValue="1" duration="18"/>
+    <item time="24" type="Visible" target="n46_u83y" value="true"/>
+  </transition>
+</component>

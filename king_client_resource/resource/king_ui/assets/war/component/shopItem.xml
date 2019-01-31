@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="110,160" pivot="0.5,0.5" extention="Button">
+  <controller name="c1" pages="0,card,1,skin,2,equip,3,gold" selected="0"/>
+  <controller name="c2" pages="0,canbuy,1,owned" selected="0"/>
+  <displayList>
+    <component id="n21_m276" name="card" src="uoofj" fileName="component/smallCard.xml" pkg="rdb04el0" xy="11,10">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+    <component id="n24_vvhm" name="gold" src="vvhmdt" fileName="component/goldCard.xml" pkg="864gshxx" xy="10,10">
+      <gearDisplay controller="c1" pages="3"/>
+    </component>
+    <component id="n25_vvhm" name="equip" src="vvhmdu" fileName="component/equipCard.xml" pkg="864gshxx" xy="10,10">
+      <gearDisplay controller="c1" pages="2"/>
+    </component>
+    <component id="n26_vvhm" name="skin" src="l1gi3j6" fileName="component/skinSmall.xml" pkg="rdb04el0" xy="11,10">
+      <gearDisplay controller="c1" pages="1"/>
+    </component>
+    <loader id="n18_ryqp" name="n18" xy="5,130" size="100,30" touchable="false" url="ui://47ikzi2ab59w1h" align="center" vAlign="middle" fill="scaleMatchWidth"/>
+    <text id="n2_nf1s" name="price" xy="35,132" size="55,24" fontSize="20" color="#ffffff" vAlign="middle" leading="0" bold="true" strokeColor="#000000" text="20000">
+      <relation target="n18_ryqp" sidePair="center-center,middle-middle"/>
+    </text>
+    <loader id="n15_nf1s" name="n15" xy="10,131" size="25,25" touchable="false" url="ui://2ipmzghtmhry72" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <relation target="n2_nf1s" sidePair="middle-middle,right-left"/>
+    </loader>
+    <graph id="n29_vvhm" name="tipBg" xy="0,0" size="110,160" alpha="0.5" type="rect" fillColor="#ff000000">
+      <gearDisplay controller="c2" pages="1"/>
+    </graph>
+    <text id="n30_vvhm" name="tip" xy="0,0" size="110,160" fontSize="30" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" bold="true" strokeColor="#000000" strokeSize="2" shadowColor="#000000" shadowOffset="1,1" text="#TEXT_70141&#xA;">
+      <gearDisplay controller="c2" pages="1"/>
+    </text>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.95"/>
+  <transition name="t0"/>
+</component>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="ryvvr3p0" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="xx0v1" name="desk.png" path="/" exported="true"/>
+    <component id="xx0v2" name="battle.xml" path="/component/" exported="true"/>
+    <component id="xx0v3" name="battleGrid.xml" path="/component/" exported="true"/>
+    <image id="xx0v4" name="selectGrid.png" path="/" exported="true" scale="9grid" scale9grid="10,10,105,142"/>
+    <image id="x88n7" name="loseBonusBg.png" path="/" exported="true"/>
+    <image id="x88n8" name="winBonusBg.png" path="/" exported="true"/>
+    <image id="x88nk" name="loseBg1.png" path="/" exported="true"/>
+    <image id="x88no" name="newCardLight.png" path="/" exported="true"/>
+    <component id="qbact" name="surrenderBtn.xml" path="/component/" exported="true"/>
+    <component id="qg2mv" name="loseBg.xml" path="/component/" exported="true"/>
+    <component id="l90ux" name="bonus.xml" path="/component/" exported="true"/>
+    <component id="l90uy" name="vsAni.xml" path="/component/" exported="true"/>
+    <component id="qry518" name="progress.xml" path="/component/" exported="true"/>
+    <image id="j4cj1a" name="xuedi12.png" path="/" exported="true"/>
+    <image id="j4cj1b" name="xuedi10.png" path="/" exported="true"/>
+    <image id="j4cj1c" name="xuedi11.png" path="/" exported="true"/>
+    <image id="j4cj1d" name="xuedi8.png" path="/" exported="true"/>
+    <image id="j4cj1e" name="xuedi9.png" path="/" exported="true"/>
+    <image id="j4cj1h" name="xuedi4.png" path="/" exported="true"/>
+    <image id="j4cj1i" name="xuedi5.png" path="/" exported="true"/>
+    <image id="j4cj1j" name="xuedi7.png" path="/" exported="true"/>
+    <image id="j4cj1k" name="xuedi6.png" path="/" exported="true"/>
+    <image id="j4cj1l" name="xuedi2.png" path="/" exported="true"/>
+    <image id="j4cj1m" name="xuedi3.png" path="/" exported="true"/>
+    <image id="j4cj1n" name="xuedi1.png" path="/" exported="true"/>
+    <image id="rcak1o" name="loseText1.png" path="/" exported="true"/>
+    <image id="rcak1p" name="loseText2.png" path="/" exported="true"/>
+    <image id="rcak1q" name="winText1.png" path="/" exported="true"/>
+    <image id="rcak1r" name="winText2.png" path="/" exported="true"/>
+    <image id="rcak1t" name="bg.png" path="/" exported="true"/>
+    <image id="rcak1u" name="winFlag.png" path="/" exported="true"/>
+    <component id="rcak1v" name="winNew.xml" path="/component/" exported="true"/>
+    <component id="rcak1w" name="loseNew.xml" path="/component/" exported="true"/>
+    <image id="rcak1x" name="vsEnemyBg.png" path="/" exported="true"/>
+    <image id="rcak1y" name="vsNameBg.png" path="/" exported="true"/>
+    <image id="rcak1z" name="vsSelfbg.png" path="/" exported="true"/>
+    <component id="qw7t21" name="pvpNewBattleEnd.xml" path="/component/" exported="true"/>
+    <component id="nm6w22" name="levelNewBattleEnd.xml" path="/component/" exported="true"/>
+    <image id="m3rm24" name="nameShu.png" path="/" exported="true"/>
+    <image id="m3rm25" name="nameWei.png" path="/" exported="true"/>
+    <image id="m3rm26" name="nameWu.png" path="/" exported="true"/>
+    <image id="m3rm27" name="vsText.png" path="/" exported="true"/>
+    <image id="m3rm29" name="txtShu.png" path="/" exported="true"/>
+    <image id="m3rm2a" name="txtWei.png" path="/" exported="true"/>
+    <image id="m3rm2b" name="txtWu.png" path="/" exported="true"/>
+    <component id="jbdo2c" name="rewardItem.xml" path="/component/" exported="true"/>
+    <image id="nked2d" name="exit.png" path="/" exported="true"/>
+    <component id="ijr42e" name="emojiSelf.xml" path="/component/" exported="true"/>
+    <component id="ijr42f" name="emojiEnemy.xml" path="/component/" exported="true"/>
+    <component id="ijr42g" name="emojiChoice.xml" path="/component/" exported="true"/>
+    <component id="jsu72h" name="emojiBtn.xml" path="/component/" exported="true"/>
+    <image id="qof02p" name="emojiBtn.png" path="/" exported="true"/>
+    <image id="qof02q" name="surrenderBtn.png" path="/" exported="true"/>
+    <image id="lxfs2r" name="emojiSelfBg.png" path="/" exported="true"/>
+    <component id="i3zc2s" name="friendBattleEnd.xml" path="/component/" exported="true"/>
+    <image id="a2m92t" name="rec.png" path="/"/>
+    <image id="d22g2u" name="exit1.png" path="/"/>
+    <image id="d22g2v" name="recordStart.png" path="/"/>
+    <image id="d22g2w" name="recordStop.png" path="/"/>
+    <component id="d22g2x" name="exitBtn.xml" path="/component/"/>
+    <component id="d22g2y" name="startRecordBtn.xml" path="/component/"/>
+    <component id="d22g2z" name="stopRecordBtn.xml" path="/component/"/>
+    <image id="rbz030" name="continueBtn.png" path="/" exported="true"/>
+    <image id="rbz031" name="winReward.png" path="/" exported="true"/>
+    <image id="eo7t33" name="emojiChoiceBg.png" path="/" exported="true"/>
+    <movieclip id="u84334" name="myTurnAni.jta" path="/" exported="true"/>
+    <image id="u84336" name="myTurn.png" path="/" exported="true"/>
+    <movieclip id="u84337" name="myTurnCardAni.jta" path="/" exported="true"/>
+    <image id="u84338" name="myTurnCard.png" path="/" exported="true" scale=""/>
+    <image id="iedd39" name="b9.png" path="/"/>
+    <image id="iedd3a" name="b8.png" path="/"/>
+    <image id="iedd3b" name="r2.png" path="/"/>
+    <image id="iedd3c" name="r3.png" path="/"/>
+    <image id="iedd3d" name="r1.png" path="/"/>
+    <image id="iedd3e" name="r4.png" path="/"/>
+    <image id="iedd3f" name="r5.png" path="/"/>
+    <image id="iedd3g" name="r7.png" path="/"/>
+    <image id="iedd3h" name="r6.png" path="/"/>
+    <image id="iedd3i" name="r8.png" path="/"/>
+    <image id="iedd3j" name="r9.png" path="/"/>
+    <image id="iedd3k" name="b5.png" path="/"/>
+    <image id="iedd3l" name="b4.png" path="/"/>
+    <image id="iedd3m" name="b6.png" path="/"/>
+    <image id="iedd3n" name="b7.png" path="/"/>
+    <image id="iedd3o" name="b3.png" path="/"/>
+    <image id="iedd3p" name="b2.png" path="/"/>
+    <image id="iedd3r" name="b1.png" path="/"/>
+    <movieclip id="p1qs3u" name="oppTurnCardAni.jta" path="/" exported="true"/>
+    <image id="p1qs3v" name="oppTurnCard.png" path="/" exported="true" scale=""/>
+    <image id="to5i3w" name="numLose.png" path="/" exported="true"/>
+    <image id="to5i3x" name="numWin.png" path="/" exported="true"/>
+    <component id="to5i3y" name="numResultAni.xml" path="/component/" exported="true"/>
+    <component id="m1um3z" name="videoFunction.xml" path="/component/" exported="true"/>
+    <component id="m1um40" name="likeBtn.xml" path="/component/" exported="true"/>
+    <component id="m1um41" name="discussBtn.xml" path="/component/" exported="true"/>
+    <image id="pp6o42" name="winDrum.png" path="/" exported="true"/>
+    <image id="po2p43" name="videoFunctionBg.png" path="/" exported="true" scale="9grid" scale9grid="20,20,11,172"/>
+    <image id="ridg44" name="emojiRefuse.png" path="/" exported="true"/>
+    <component id="ridg45" name="emojiRefuse.xml" path="/component/" exported="true"/>
+    <image id="ridg46" name="emojiRefuse2.png" path="/" exported="true"/>
+    <component id="y9fz47" name="goldGob.xml" path="/component/" exported="true"/>
+    <image id="k9is48" name="loadingBar.png" path="/" exported="true"/>
+    <component id="msue49" name="handAni.xml" path="/component/" exported="true"/>
+    <image id="b59w4a" name="enemeyInfoWnd.png" path="/" exported="true"/>
+    <component id="j66l4b" name="emojiView1.xml" path="/component/" exported="true"/>
+    <component id="j1ca4c" name="emojiView2.xml" path="/component/" exported="true"/>
+  </resources>
+  <publish name="battle"/>
+</packageDescription>

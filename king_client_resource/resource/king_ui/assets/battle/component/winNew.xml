@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,800" overflow="hidden">
+  <displayList>
+    <loader id="n1_qg2m" name="bg" xy="0,0" size="480,800" alpha="0.5" url="ui://ryvvr3p0rcak1t" fill="scaleFree" color="#000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <graph id="n18_s9rb" name="n18" xy="0,0" size="480,800" alpha="0.5" type="rect" fillColor="#ff000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <loader id="n5_rcak" name="n5" xy="90,142" pivot="0.5,0.5" size="300,435" touchable="false" url="ui://ryvvr3p0rcak1u" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <relation target="n1_qg2m" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n23_pp6o" name="levelWin" xy="14,40" pivot="0.5,0.5" size="451,185" visible="false" touchable="false" url="ui://ryvvr3p0pp6o42" align="center" vAlign="middle" fill="scaleMatchWidth" autoSize="true">
+      <relation target="n5_rcak" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n6_rcak" name="winText1" xy="150,200" pivot="0.5,0.5" size="120,120" touchable="false" url="ui://ryvvr3p0rcak1q" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <relation target="n5_rcak" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n7_rcak" name="winText2" xy="210,300" pivot="0.5,0.5" size="120,120" touchable="false" url="ui://ryvvr3p0rcak1r" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <relation target="n5_rcak" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n19_lwj0" name="n19" xy="-43,-128" pivot="0.5,0.5" size="566,518" alpha="0" touchable="false" url="ui://864gshxxvco45w" autoSize="true">
+      <relation target="n1_qg2m" sidePair="center-center,middle-middle"/>
+    </loader>
+    <component id="n15_qw7t" name="oldRankBanner" src="qw7t3q" fileName="component/pvpRankBanner.xml" pkg="864gshxx" xy="107,20" pivot="0.5,0.5" scale="0.8,0.8">
+      <relation target="n1_qg2m" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n16_qw7t" name="newRankBanner" src="qw7t3q" fileName="component/pvpRankBanner.xml" pkg="864gshxx" xy="107,20" pivot="0.5,0.5" scale="0.8,0.8">
+      <relation target="n1_qg2m" sidePair="center-center,middle-middle"/>
+    </component>
+    <loader id="n22_rbz0" name="rewardBg" xy="-160,435" pivot="0.5,0.5" size="800,200" touchable="false" url="ui://ryvvr3p0rbz031" fill="scaleFree">
+      <relation target="" sidePair="width-width,middle-middle"/>
+    </loader>
+    <text id="n8_rcak" name="cantGetBoxText" xy="230,485" size="200,107" font="楷体" fontSize="20" color="#ffffff" align="center" vAlign="middle" leading="0" letterSpacing="-2" autoSize="none" strokeColor="#000000" text="宝箱位已满，本次对战无法获得宝箱。&#xA;">
+      <relation target="n22_rbz0" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n10_rcak" name="boxHintText" xy="234,430" size="10,28" font="楷体" fontSize="24" color="#00ff00" align="center" vAlign="middle" leading="0" letterSpacing="-2" strokeColor="#000000" text="">
+      <relation target="n22_rbz0" sidePair="center-center,bottom-bottom"/>
+    </text>
+    <list id="n17_kbbq" name="rewardList" xy="40,491" pivot="0.5,0.5" size="400,200" hideByEditor="true" scale="0.8,0.8" layout="row" selectionMode="none" defaultItem="ui://ryvvr3p0kbbq2c" align="center" vAlign="middle">
+      <relation target="n1_qg2m" sidePair="center-center,bottom-bottom"/>
+    </list>
+    <component id="n20_rx9e" name="gold" src="g33ri" fileName="component/goldCnt.xml" pkg="zfg0revp" xy="84,430" pivot="0.5,0.5" scale="0.75,0.75">
+      <relation target="n22_rbz0" sidePair="center-center,middle-middle"/>
+    </component>
+    <loader id="n9_rcak" name="boxImg" xy="252,476" pivot="0.5,0.5" size="150,104" touchable="false" url="ui://zfg0revpl8xin" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <relation target="n22_rbz0" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n21_rx9e" name="boxName" xy="242,587" pivot="0.5,0.5" size="175,28" font="楷体" fontSize="20" color="#ffffff" align="center" vAlign="middle" leading="0" letterSpacing="-2" autoSize="none" strokeColor="#000000" text="宝箱名字">
+      <relation target="n9_rcak" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Alpha" target="n10_rcak" value="0"/>
+    <item time="0" type="Alpha" target="n8_rcak" value="0"/>
+    <item time="0" type="Alpha" target="n18_s9rb" tween="true" startValue="0" endValue="0.8" duration="24"/>
+    <item time="0" type="Scale" target="n7_rcak" value="0,0"/>
+    <item time="0" type="Scale" target="n16_qw7t" value="0,0"/>
+    <item time="0" type="Scale" target="n6_rcak" value="0,0"/>
+    <item time="0" type="Scale" target="n17_kbbq" value="0,0"/>
+    <item time="0" type="Scale" target="n9_rcak" value="0,0"/>
+    <item time="0" type="Scale" target="n21_rx9e" value="0,0"/>
+    <item time="0" type="Scale" value="1,1"/>
+    <item time="0" type="Scale" target="n20_rx9e" value="0,0"/>
+    <item time="0" type="Scale" target="n15_qw7t" value="0,0"/>
+    <item time="0" type="Visible" target="n16_qw7t" value="false"/>
+    <item time="0" type="XY" target="n5_rcak" tween="true" startValue="89,-400" endValue="89,142" duration="15" ease="Quart.Out"/>
+    <item time="0" type="XY" target="n22_rbz0" value="600,-"/>
+    <item time="12" type="Scale" target="n6_rcak" tween="true" startValue="2,2" endValue="1,1" duration="12" ease="Elastic.Out"/>
+    <item time="18" type="Scale" target="n7_rcak" tween="true" startValue="2,2" endValue="1,1" duration="12" ease="Elastic.Out"/>
+    <item time="30" type="Alpha" target="n8_rcak" tween="true" startValue="0" endValue="1" duration="12"/>
+    <item time="30" type="Alpha" target="n10_rcak" tween="true" startValue="0" endValue="1" duration="12"/>
+    <item time="30" type="Scale" target="n9_rcak" tween="true" startValue="0.5,0.5" endValue="1,1" duration="12"/>
+    <item time="30" type="Scale" target="n21_rx9e" tween="true" startValue="0.5,0.5" endValue="1,1" duration="12"/>
+    <item time="30" type="Scale" target="n16_qw7t" tween="true" startValue="0,0" endValue="0.8,0.8" duration="12" ease="Back.Out"/>
+    <item time="30" type="Scale" target="n20_rx9e" tween="true" startValue="0.5,0.5" endValue="0.75,0.75" duration="12"/>
+    <item time="30" type="Scale" target="n15_qw7t" tween="true" startValue="0,0" endValue="0.8,0.8" duration="12" ease="Back.Out"/>
+    <item time="30" type="Scale" target="n17_kbbq" tween="true" startValue="0.5,0.5" endValue="0.8,0.8" duration="12"/>
+    <item time="30" type="XY" target="n22_rbz0" tween="true" startValue="600,-" endValue="-160,-" duration="12" ease="Back.Out"/>
+  </transition>
+  <transition name="t1">
+    <item time="0" type="Alpha" target="n16_qw7t" value="0"/>
+    <item time="0" type="Alpha" target="n15_qw7t" value="1"/>
+    <item time="0" type="Alpha" target="n19_lwj0" value="0"/>
+    <item time="0" type="ColorFilter" target="n15_qw7t" tween="true" startValue="0.00,0.00,0.00,0.00" endValue="1.00,0.00,0.00,0.00" duration="18" ease="Cubic.In"/>
+    <item time="0" type="ColorFilter" target="n16_qw7t" value="0.00,0.00,0.00,0.00"/>
+    <item time="0" type="Visible" target="n16_qw7t" value="true"/>
+    <item time="12" type="Sound" value="ui://864gshxxdzyk49,100"/>
+    <item time="18" type="Alpha" target="n15_qw7t" tween="true" startValue="1" endValue="0" duration="12"/>
+    <item time="18" type="Alpha" target="n16_qw7t" tween="true" startValue="0" endValue="1" duration="12"/>
+    <item time="18" type="ColorFilter" target="n15_qw7t" tween="true" startValue="1.00,0.00,0.00,0.00" endValue="0.00,0.00,0.00,0.00" duration="12" ease="Cubic.In"/>
+    <item time="18" type="ColorFilter" target="n16_qw7t" tween="true" startValue="0.00,0.00,0.00,0.00" endValue="0.00,0.00,0.00,0.00" duration="12"/>
+    <item time="24" type="Alpha" target="n19_lwj0" value="1"/>
+    <item time="24" type="Rotation" target="n19_lwj0" tween="true" startValue="0" endValue="180" duration="30"/>
+    <item time="24" type="Scale" target="n19_lwj0" tween="true" startValue="0,0" endValue="1,1" duration="12"/>
+    <item time="42" type="Scale" target="n19_lwj0" tween="true" startValue="1,1" endValue="0,0" duration="12" ease="Quad.In"/>
+    <item time="54" type="Alpha" target="n19_lwj0" value="0"/>
+  </transition>
+</component>

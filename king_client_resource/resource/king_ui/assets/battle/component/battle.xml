@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,800" pivot="0.5,0.5" designImage="ui://ryvvr3p0xx0v0">
+  <controller name="castler" pages="0,noCastler,1,enemyCastler,2,ownCastler" selected="0"/>
+  <displayList>
+    <component id="n0_xx0v" name="bg" src="qg2m2q" fileName="component/AdjustBg.xml" pkg="864gshxx" xy="0,0" size="480,800"/>
+    <loader id="n1_xx0v" name="n1" xy="38,164" pivot="0.5,0.5" size="403,508" group="n19_dlva" url="ui://ryvvr3p0xx0v1"/>
+    <component id="n5_xx0v" name="grid1" src="xx0v3" fileName="component/battleGrid.xml" xy="52,175" group="n19_dlva"/>
+    <component id="n7_xx0v" name="grid2" src="xx0v3" fileName="component/battleGrid.xml" xy="177,175" group="n19_dlva"/>
+    <component id="n8_xx0v" name="grid3" src="xx0v3" fileName="component/battleGrid.xml" xy="302,175" group="n19_dlva"/>
+    <component id="n9_xx0v" name="grid4" src="xx0v3" fileName="component/battleGrid.xml" xy="52,337" group="n19_dlva"/>
+    <component id="n10_xx0v" name="grid5" src="xx0v3" fileName="component/battleGrid.xml" xy="177,337" group="n19_dlva"/>
+    <component id="n11_xx0v" name="grid6" src="xx0v3" fileName="component/battleGrid.xml" xy="302,337" group="n19_dlva"/>
+    <component id="n12_xx0v" name="grid7" src="xx0v3" fileName="component/battleGrid.xml" xy="52,499" group="n19_dlva"/>
+    <component id="n13_xx0v" name="grid8" src="xx0v3" fileName="component/battleGrid.xml" xy="177,499" group="n19_dlva"/>
+    <component id="n14_xx0v" name="grid9" src="xx0v3" fileName="component/battleGrid.xml" xy="302,499" group="n19_dlva"/>
+    <group id="n19_dlva" name="desk" xy="38,164" size="403,508" advanced="true" collapsed="true">
+      <gearXY controller="castler" pages="0,1,2" values="38,164|38,175|38,143"/>
+    </group>
+    <component id="n38_qry5" name="enemyProgress" src="qry518" fileName="component/progress.xml" xy="-220,410" pivot="0.5,0.5" size="480,16" rotation="90">
+      <ProgressBar value="100" max="100"/>
+    </component>
+    <component id="n37_qry5" name="myProgress" src="qry518" fileName="component/progress.xml" xy="-220,410" pivot="0.5,0.5" size="480,16" rotation="-90">
+      <ProgressBar value="100" max="100"/>
+    </component>
+    <loader id="n65_p1qs" name="oppTurnCard" xy="-1,20" size="480,162" visible="false" url="ui://ryvvr3p0p1qs3u" fill="scaleFree">
+      <relation target="n3_xx0v" sidePair="center-center,middle-middle"/>
+      <relation target="n0_xx0v" sidePair="width-width"/>
+    </loader>
+    <loader id="n66_p1qs" name="oppTurnCardIcon" xy="-1,20" size="480,162" visible="false" url="ui://ryvvr3p0p1qs3v" fill="scaleFree">
+      <relation target="n3_xx0v" sidePair="center-center,middle-middle"/>
+      <relation target="n0_xx0v" sidePair="width-width"/>
+    </loader>
+    <component id="n3_xx0v" name="oppHand" src="jed2u" fileName="component/handCardGrid.xml" pkg="864gshxx" xy="14,45">
+      <gearXY controller="castler" pages="1,2" values="14,29|14,27" default="14,45"/>
+      <relation target="n0_xx0v" sidePair="center-center,middle-middle%"/>
+    </component>
+    <component id="n25_dlva" name="oppCastlerSkill" src="x6w822" fileName="component/castlerSkill.xml" pkg="864gshxx" xy="0,125">
+      <gearDisplay controller="castler" pages="1"/>
+    </component>
+    <component id="n30_x6w8" name="ownCastlerSkill" src="x6w822" fileName="component/castlerSkill.xml" pkg="864gshxx" xy="0,634">
+      <gearDisplay controller="castler" pages="2"/>
+    </component>
+    <loader id="n63_u843" name="myTurnCard" xy="-1,660" size="480,162" visible="false" url="ui://ryvvr3p0u84337" fill="scaleFree">
+      <relation target="n2_xx0v" sidePair="center-center,middle-middle"/>
+      <relation target="n0_xx0v" sidePair="width-width"/>
+    </loader>
+    <loader id="n64_u843" name="myTurnCardIcon" xy="-1,660" size="480,162" visible="false" url="ui://ryvvr3p0u84338" fill="scaleFree">
+      <relation target="n2_xx0v" sidePair="center-center,middle-middle"/>
+      <relation target="n0_xx0v" sidePair="width-width"/>
+    </loader>
+    <component id="n2_xx0v" name="myHand" src="jed2u" fileName="component/handCardGrid.xml" pkg="864gshxx" xy="14,685">
+      <relation target="n0_xx0v" sidePair="center-center,middle-middle%"/>
+    </component>
+    <component id="n29_nzui" name="gmWinBtn" src="dlva1x" fileName="component/baseBtn.xml" pkg="864gshxx" xy="6,59" pivot="0.5,0.5" anchor="true" size="85,12" rotation="90">
+      <Button titleFontSize="0"/>
+    </component>
+    <component id="n32_qbac" name="surrenderBtn" src="qbact" fileName="component/surrenderBtn.xml" xy="440,170"/>
+    <loader id="n39_emtq" name="card3" xy="187,334" pivot="0.5,0.5" size="105,131" group="n44_9o2m" url="ui://rdb04el0nlbnu" align="center" vAlign="middle" autoSize="true"/>
+    <loader id="n40_emtq" name="card5" xy="407,333" pivot="0.5,0.5" size="105,131" group="n44_9o2m" url="ui://rdb04el0nlbnu" align="center" vAlign="middle" autoSize="true"/>
+    <loader id="n41_emtq" name="card2" xy="77,333" pivot="0.5,0.5" size="105,131" group="n44_9o2m" url="ui://rdb04el0nlbnu" align="center" vAlign="middle" autoSize="true"/>
+    <loader id="n42_emtq" name="card4" xy="297,333" pivot="0.5,0.5" size="105,131" group="n44_9o2m" url="ui://rdb04el0nlbnu" align="center" vAlign="middle" autoSize="true"/>
+    <loader id="n43_emtq" name="card1" xy="-27,333" pivot="0.5,0.5" size="105,131" group="n44_9o2m" url="ui://rdb04el0nlbnu" align="center" vAlign="middle" autoSize="true"/>
+    <group id="n44_9o2m" name="offensiveGroup" xy="-27,333" size="539,132" advanced="true" collapsed="true"/>
+    <component id="n51_unq2" name="emojiBtn" src="jsu72h" fileName="component/emojiBtn.xml" xy="440,625"/>
+    <loader id="n52_snqe" name="enemyCountryBg" xy="0,0" size="480,69" url="ui://ryvvr3p0b59w4a" fill="scaleFree">
+      <relation target="n0_xx0v" sidePair="width-width,center-center"/>
+      <relation target="n0_xx0v" sidePair="top-top"/>
+    </loader>
+    <text id="n53_snqe" name="enemyName" xy="88,19" size="299,28" restrictSize="0,400,0,0" fontSize="24" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="shrink" strokeColor="#2c2c2c" text="大贤良师小猪佩奇女士">
+      <gearXY controller="castler" pages="0,1,2" values="88,19|90,19|90,19"/>
+      <relation target="n3_xx0v" sidePair="left-left,top-top"/>
+    </text>
+    <loader id="n54_e0um" name="enemyCountry" xy="8,15" size="33,31" url="ui://ryvvr3p0m3rm29" align="center" vAlign="middle" fill="scaleMatchHeight">
+      <relation target="n53_snqe" sidePair="left-left,middle-middle"/>
+    </loader>
+    <component id="n68_mfce" name="enemyHead" src="md4a33k" fileName="component/head.xml" pkg="739g5yti" xy="43,16" size="30,29">
+      <relation target="n53_snqe" sidePair="left-left,middle-middle"/>
+    </component>
+    <loader id="n55_po0x" name="img_record" xy="-3,158" size="46,14" url="ui://ryvvr3p0a2m92t">
+      <relation target="n53_snqe" sidePair="top-top"/>
+    </loader>
+    <loader id="n61_u843" name="myTurnAni" xy="113,530" size="254,91" visible="false" url="ui://ryvvr3p0u84334">
+      <relation target="n0_xx0v" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n62_u843" name="myTurnIcon" xy="113,530" size="254,91" visible="false" url="ui://ryvvr3p0u84336" autoSize="true">
+      <relation target="n0_xx0v" sidePair="center-center,middle-middle"/>
+    </loader>
+    <component id="n18_xx0v" name="beginBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="140,554" size="200,50" hideByEditor="true">
+      <Button title="#TEXT_70090" titleFontSize="32" icon="ui://864gshxxj6006x" sound="ui://864gshxxlr3f2n"/>
+    </component>
+    <component id="n57_tth5" name="startRecordBtn" src="d22g2y" fileName="component/startRecordBtn.xml" xy="440,229" visible="false"/>
+    <component id="n58_d22g" name="exitPlayBtn" src="d22g2x" fileName="component/exitBtn.xml" xy="439,169" visible="false"/>
+    <component id="n59_d22g" name="stopRecordBtn" src="d22g2z" fileName="component/stopRecordBtn.xml" xy="440,230" visible="false"/>
+    <component id="n67_ridg" name="n67" src="ridg45" fileName="component/emojiRefuse.xml" xy="440,569"/>
+    <text id="n69_p9m3" name="levelName" xy="232,9" size="10,28" restrictSize="0,400,0,0" fontSize="24" color="#ffffff" align="center" vAlign="middle" leading="0" strokeColor="#2c2c2c" text="">
+      <relation target="n3_xx0v" sidePair="center-center,top-top"/>
+    </text>
+  </displayList>
+  <transition name="self">
+    <item time="0" type="Alpha" target="n43_emtq" tween="true" startValue="0" endValue="1" duration="24" ease="Quad.In"/>
+    <item time="0" type="Alpha" target="n42_emtq" tween="true" startValue="0" endValue="1" duration="24" ease="Quad.In"/>
+    <item time="0" type="Alpha" target="n39_emtq" tween="true" startValue="0" endValue="1" duration="24" ease="Quad.In"/>
+    <item time="0" type="Alpha" target="n40_emtq" tween="true" startValue="0" endValue="1" duration="24" ease="Quad.In"/>
+    <item time="0" type="Alpha" target="n41_emtq" tween="true" startValue="0" endValue="1" duration="24" ease="Quad.In"/>
+    <item time="0" type="XY" target="n41_emtq" tween="true" startValue="77,333" endValue="96,672" duration="24" ease="Back.In"/>
+    <item time="0" type="XY" target="n43_emtq" tween="true" startValue="-33,333" endValue="5,672" duration="24" ease="Back.In"/>
+    <item time="0" type="XY" target="n42_emtq" tween="true" startValue="297,333" endValue="277,672" duration="24" ease="Back.In"/>
+    <item time="0" type="XY" target="n40_emtq" tween="true" startValue="407,333" endValue="367,672" duration="24" ease="Back.In"/>
+    <item time="0" type="XY" target="n39_emtq" tween="true" startValue="187,333" endValue="187,672" duration="24" ease="Back.In"/>
+    <item time="25" type="Alpha" target="n40_emtq" value="0"/>
+    <item time="25" type="Alpha" target="n41_emtq" value="0"/>
+    <item time="25" type="Alpha" target="n39_emtq" value="0"/>
+    <item time="25" type="Alpha" target="n43_emtq" value="0"/>
+    <item time="25" type="Alpha" target="n42_emtq" value="0"/>
+  </transition>
+  <transition name="enemy">
+    <item time="0" type="Alpha" target="n40_emtq" tween="true" startValue="0" endValue="1" duration="24" ease="Quad.In"/>
+    <item time="0" type="Alpha" target="n42_emtq" tween="true" startValue="0" endValue="1" duration="24" ease="Quad.In"/>
+    <item time="0" type="Alpha" target="n39_emtq" tween="true" startValue="0" endValue="1" duration="24" ease="Quad.In"/>
+    <item time="0" type="Alpha" target="n41_emtq" tween="true" startValue="0" endValue="1" duration="24" ease="Quad.In"/>
+    <item time="0" type="Alpha" target="n43_emtq" tween="true" startValue="0" endValue="1" duration="24" ease="Quad.In"/>
+    <item time="0" type="XY" target="n41_emtq" tween="true" startValue="77,333" endValue="96,37" duration="24" ease="Back.In"/>
+    <item time="0" type="XY" target="n43_emtq" tween="true" startValue="-33,333" endValue="5,37" duration="24" ease="Back.In"/>
+    <item time="0" type="XY" target="n42_emtq" tween="true" startValue="297,333" endValue="277,37" duration="24" ease="Back.In"/>
+    <item time="0" type="XY" target="n40_emtq" tween="true" startValue="407,333" endValue="367,37" duration="24" ease="Back.In"/>
+    <item time="0" type="XY" target="n39_emtq" tween="true" startValue="187,333" endValue="187,37" duration="24" ease="Back.In"/>
+    <item time="25" type="Alpha" target="n41_emtq" value="0"/>
+    <item time="25" type="Alpha" target="n40_emtq" value="0"/>
+    <item time="25" type="Alpha" target="n42_emtq" value="0"/>
+    <item time="25" type="Alpha" target="n39_emtq" value="0"/>
+    <item time="25" type="Alpha" target="n43_emtq" value="0"/>
+  </transition>
+  <transition name="enter" autoPlay="true">
+    <item time="0" type="Alpha" target="n18_xx0v" value="0"/>
+    <item time="0" type="Alpha" target="n2_xx0v" value="0"/>
+    <item time="0" type="Alpha" target="n53_snqe" value="0"/>
+    <item time="0" type="Alpha" target="n54_e0um" value="0"/>
+    <item time="0" type="Alpha" target="n52_snqe" value="0"/>
+    <item time="0" type="Alpha" target="n68_mfce" value="0"/>
+    <item time="0" type="Alpha" target="n3_xx0v" value="0"/>
+    <item time="12" type="Alpha" target="n3_xx0v" tween="true" startValue="0" endValue="1" duration="24"/>
+    <item time="12" type="Alpha" target="n2_xx0v" tween="true" startValue="0" endValue="1" duration="24"/>
+    <item time="12" type="Alpha" target="n52_snqe" tween="true" startValue="0" endValue="1" duration="24"/>
+    <item time="12" type="Alpha" target="n53_snqe" tween="true" startValue="0" endValue="1" duration="24"/>
+    <item time="12" type="Alpha" target="n54_e0um" tween="true" startValue="0" endValue="1" duration="24"/>
+    <item time="12" type="Alpha" target="n68_mfce" tween="true" startValue="0" endValue="1" duration="24"/>
+    <item time="18" type="Alpha" target="n18_xx0v" tween="true" startValue="0" endValue="1" duration="6"/>
+  </transition>
+  <transition name="record" options="4" autoPlayRepeat="-1">
+    <item time="0" type="Alpha" target="n55_po0x" value="1"/>
+    <item time="12" type="Alpha" target="n55_po0x" tween="true" startValue="1" endValue="0" duration="12"/>
+  </transition>
+  <transition name="myturn">
+    <item time="0" type="Animation" target="n63_u843" value="0,s"/>
+    <item time="0" type="Animation" target="n61_u843" value="0,s"/>
+    <item time="0" type="Visible" target="n61_u843" value="true"/>
+    <item time="0" type="Visible" target="n64_u843" value="false"/>
+    <item time="0" type="Visible" target="n62_u843" value="false"/>
+    <item time="0" type="Visible" target="n63_u843" value="true"/>
+    <item time="1" type="Animation" target="n61_u843" value="1,s"/>
+    <item time="1" type="Animation" target="n63_u843" value="1,s"/>
+    <item time="2" type="Animation" target="n61_u843" value="2,s"/>
+    <item time="2" type="Animation" target="n63_u843" value="2,s"/>
+    <item time="3" type="Animation" target="n61_u843" value="3,s"/>
+    <item time="3" type="Animation" target="n63_u843" value="3,s"/>
+    <item time="4" type="Animation" target="n61_u843" value="4,s"/>
+    <item time="4" type="Animation" target="n63_u843" value="4,s"/>
+    <item time="4" type="Visible" target="n61_u843" value="false"/>
+    <item time="4" type="Visible" target="n63_u843" value="false"/>
+    <item time="4" type="Visible" target="n64_u843" value="true"/>
+    <item time="4" type="Visible" target="n62_u843" value="true"/>
+    <item time="18" type="Visible" target="n62_u843" value="false"/>
+  </transition>
+  <transition name="oppturn">
+    <item time="0" type="Animation" target="n65_p1qs" value="0,s"/>
+    <item time="0" type="Visible" target="n66_p1qs" value="false"/>
+    <item time="0" type="Visible" target="n65_p1qs" value="true"/>
+    <item time="1" type="Animation" target="n65_p1qs" value="1,s"/>
+    <item time="2" type="Animation" target="n65_p1qs" value="2,s"/>
+    <item time="3" type="Animation" target="n65_p1qs" value="3,s"/>
+    <item time="4" type="Animation" target="n65_p1qs" value="4,s"/>
+    <item time="4" type="Visible" target="n66_p1qs" value="true"/>
+    <item time="4" type="Visible" target="n65_p1qs" value="false"/>
+  </transition>
+</component>

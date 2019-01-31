@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="371,44" extention="ProgressBar">
+  <displayList>
+    <loader id="n1" name="barBg" xy="0,0" size="371,44" url="ui://ww6xhnp6s6x43">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n2" name="bar" xy="0,0" size="371,44" url="ui://ww6xhnp6s6x41"/>
+  </displayList>
+  <ProgressBar/>
+</component>

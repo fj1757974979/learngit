@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,780" pivot="0.5,0.5" overflow="hidden" scrollBarRes="ui://864gshxxjzjo62,">
+  <displayList>
+    <text id="n39_m276" name="txt4" xy="154,40" size="170,34" fontSize="30" color="#ffffff" align="center" leading="0" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="#TEXT_70152">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n54_m276" name="cnt2" xy="201,180" size="77,28" font="楷体" fontSize="24" align="center" vAlign="middle" leading="0" text="x10000">
+      <relation target="n55_m276" sidePair="center-center,middle-middle"/>
+    </text>
+    <loader id="n55_m276" name="honorIcon" xy="200,90" size="80,80" touchable="false" url="ui://864gshxxcnowc7" align="center" vAlign="middle" fill="scaleMatchWidth"/>
+    <text id="n57_m276" name="cnt1" xy="97,182" size="25,24" font="楷体" fontSize="20" align="center" vAlign="middle" leading="0" text="x1">
+      <relation target="n58_m276" sidePair="center-center,middle-middle"/>
+    </text>
+    <loader id="n58_m276" name="treasureIcon" xy="60,80" size="100,100" touchable="false" url="ui://zfg0revpdez53w" align="center" vAlign="middle" fill="scaleMatchHeight"/>
+    <text id="n60_k9is" name="txt5" xy="171,220" size="137,28" fontSize="24" color="#ffffff" align="center" leading="0" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="#TEXT_70153">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n61_k9is" name="rare1" src="m276k" fileName="component/rebornDateItem.xml" xy="40,250"/>
+    <component id="n62_k9is" name="rare2" src="m276k" fileName="component/rebornDateItem.xml" xy="40,315"/>
+    <component id="n63_k9is" name="rare3" src="m276k" fileName="component/rebornDateItem.xml" xy="40,380"/>
+    <component id="n64_k9is" name="rare4" src="m276k" fileName="component/rebornDateItem.xml" xy="40,445"/>
+    <component id="n65_k9is" name="rare5" src="m276k" fileName="component/rebornDateItem.xml" xy="40,510"/>
+    <component id="n66_k9is" name="goldCom" src="m276o" fileName="component/rebornDateGoldItem.xml" xy="40,640"/>
+    <component id="n67_k9is" name="allCom" src="b59w1i" fileName="component/rebornDateDayItem.xml" xy="40,575"/>
+    <text id="n68_k9is" name="tip4" xy="0,700" size="480,50" fontSize="20" color="#333333" align="center" vAlign="middle" leading="0" autoSize="none" text="#TEXT_70156">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n69_msue" name="cnt3" xy="331,180" size="77,28" font="楷体" fontSize="24" align="center" vAlign="middle" leading="0" text="x10000">
+      <relation target="n70_msue" sidePair="center-center,middle-middle"/>
+    </text>
+    <loader id="n70_msue" name="fameIcon" xy="330,90" size="80,80" touchable="false" url="ui://864gshxxmsuecc" align="center" vAlign="middle" fill="scaleMatchWidth"/>
+    <text id="n71_b59w" name="n3" xy="171,142" size="137,28" font="楷体" fontSize="24" color="#ffffff" align="center" vAlign="middle" leading="0" strokeColor="#333333" strokeSize="2" text="#TEXT_60257">
+      <relation target="n55_m276" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n72_b59w" name="n2" xy="301,142" size="137,28" font="楷体" fontSize="24" color="#ffffff" align="center" vAlign="middle" leading="0" strokeColor="#333333" strokeSize="2" text="#TEXT_60258">
+      <relation target="n70_msue" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <transition name="enter">
+    <item time="0" type="Scale" tween="true" startValue="1,1" endValue="1,1" duration="12"/>
+  </transition>
+</component>
